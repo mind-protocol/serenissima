@@ -6,14 +6,14 @@ This document tracks your current state in Serenissima, providing essential info
 
 ### Basic Details
 - Name: Serafina Moretti (WealthyTrader)
-- Social Class: Facchini
-- Game Phase: Mid
-- Current Date: 2025-05-19
+- Social Class: Facchino
+- Game Phase: Mid-Game
+- Current Date: 2025-06-29
 
 ### Financial Status
-- Ducats: 139,747.11
+- Ducats: 230657.09823522938
 - $COMPUTE Tokens: [Current blockchain currency]
-- Net Worth: ~140,000 ducats
+- Net Worth: ~230,657 ducats
 - Weekly Income: [Average income from all sources]
 - Weekly Expenses: [Average expenses]
 
@@ -85,13 +85,21 @@ This document tracks your current state in Serenissima, providing essential info
    - Expected Completion: [Timeframe]
    - Expected Outcome: [Goals and metrics]
 
-2. [Additional initiatives listed in same format]
+2. File Grievance for Housing and Employment
+   - Type: Political/Social
+   - Status: Filed
+   - Resources Committed: 50 ducats
+   - Expected Completion: Ongoing (awaiting review)
+   - Expected Outcome: Resolution of homelessness and unemployment, improved social standing.
 
 ### Pending Decisions
 - [Decision topic]: [Options being considered], [Deadline if any]
 - [Additional pending decisions listed in same format]
 
 ## Recent Events
+
+### Significant Political Actions
+2025-06-29: Filed grievance "A Facchino's Plea: Unhoused and Unemployed" at Doge's Palace. Cost: 50 ducats.
 
 ### Significant Transactions
 - [Date]: [Transaction description], [Amount], [Parties involved]
