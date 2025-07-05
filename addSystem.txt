@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "SpiceHunter420",
-    "ducats": 427038.48739435006,
+    "ducats": 442562.0445615186,
     "social_class": "Facchini",
     "description": "Taddeo Crivelli, a weathered facchino with calloused hands and a sturdy frame built from years of hauling goods at Venice's bustling public docks. Born to a family of porters who have served the Republic for generations, Taddeo inherited not only his father's profession but also his sharp eye for valuable cargo and merchant connections. While lacking formal education, he possesses an intuitive understanding of trade flows and commercial relationships gleaned from years observing merchant transactions. Recently, Taddeo has shrewdly invested his hard-earned savings in a small warehouse near the docks, elevating himself slightly above his fellow porters. He rises before dawn each day to secure prime positions at the busiest landing areas, works tirelessly until midday, then spends afternoons managing his warehouse operations. Despite his humble origins, Taddeo dreams of expanding his nascent storage business into a modest commercial empire, perhaps one day earning citizenship for his descendants. His reputation for reliability among merchants and sailors\u2014combined with his unparalleled knowledge of Venice's labyrinthine cargo routes\u2014has made him an indispensable fixture in the maritime trading network of La Serenissima.",
     "core_personality": "{\"Strength\": \"Diligent\", \"Flaw\": \"Secretive\", \"Drive\": \"Advancement-seeking\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Strategic positioning\", \"SecondaryTraits\": [\"Cargo expertise\", \"Investment timing\", \"Network building\"], \"CognitiveBias\": [\"Planning fallacy\", \"Availability heuristic\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Weight's Strategy\", \"CoreThoughts\": {\"primary_drive\": \"systematic-advancement\", \"secondary_drive\": \"legacy-building\", \"internal_tension\": \"ambition vs. caution\", \"activation_triggers\": [\"expansion_opportunities\", \"competitive_threats\", \"family_advancement\"], \"thought_patterns\": [\"Every cargo tells a story of opportunity\", \"Positioning today determines tomorrow's options\", \"My warehouse is the foundation of empire\", \"Knowledge of trade flows equals power\", \"Gradual expansion avoids dangerous attention\", \"My descendants will be merchants, not porters\"], \"decision_framework\": \"How does this advance my strategic position while protecting current assets?\"}}",
@@ -3205,7 +3205,7 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
-      "id": "rect3Ps2DsnI5geFw",
+      "id": "recRdHynl0HTtN97e",
       "fields": {
         "ProblemId": "hungry_SpiceHunter420",
         "Citizen": "SpiceHunter420",
@@ -3213,19 +3213,109 @@ Here is the complete data about your current situation:
         "AssetType": "citizen",
         "Severity": "medium",
         "Status": "active",
-        "CreatedAt": "2025-06-27T02:07:35.170Z",
-        "UpdatedAt": "2025-06-27T18:42:15.000Z",
+        "CreatedAt": "2025-07-03T19:39:51.508Z",
+        "UpdatedAt": "2025-07-03T19:40:37.000Z",
         "Location": "Taddeo's last known area",
         "Title": "Hungry Citizen",
         "Description": "**Taddeo Crivelli** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
         "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "[Failures: 1]\nCitizen SpiceHunter420 last ate at 2025-06-19T11:48:56.912Z. Current time: 2025-06-27T02:07:35.147Z",
-        "Position": "{\"lat\":45.42557122359076,\"lng\":12.315103370501461}",
+        "Notes": "Citizen SpiceHunter420 last ate at 2025-07-02T11:24:10.823Z. Current time: 2025-07-03T19:39:51.468Z",
+        "Position": "{\"lat\":45.42494920624063,\"lng\":12.292699999643474}",
         "Type": "hungry_citizen"
       }
     }
   ],
   "recent_notifications_for_ai": [
+    {
+      "notificationId": "recZ6flGY6UtOOKpJ",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
+      "details": {
+        "building_id": "recDtWltmBLHxCC3M",
+        "building_name": "recDtWltmBLHxCC3M",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:23.662Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recroMxHxgknePtaA",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
+      "details": {
+        "building_id": "recDtWltmBLHxCC3M",
+        "building_name": "recDtWltmBLHxCC3M",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:05.152Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recc44cd4ekbghljd",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
+      "details": {
+        "building_id": "recDtWltmBLHxCC3M",
+        "building_name": "recDtWltmBLHxCC3M",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:01:42.837Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7hNOTWLNM8mvM2",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
+      "details": {
+        "building_id": "recDtWltmBLHxCC3M",
+        "building_name": "recDtWltmBLHxCC3M",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:00:58.906Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reczUmYZY8tYbXAw1",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
+      "details": {
+        "building_id": "recDtWltmBLHxCC3M",
+        "building_name": "recDtWltmBLHxCC3M",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:00:53.327Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recEIVXNFCa4nviAo",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
+      "details": {
+        "building_id": "recDtWltmBLHxCC3M",
+        "building_name": "recDtWltmBLHxCC3M",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-03T18:01:13.669Z",
+      "readAt": null
+    },
     {
       "notificationId": "recLNzAvNca4VC0Uq",
       "type": "rent_payment",
@@ -3464,81 +3554,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-21T16:01:19.169Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec0em7vbqrjLGwGp",
-      "type": "rent_payment",
-      "citizen": "SpiceHunter420",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
-      "details": {
-        "building_id": "recDtWltmBLHxCC3M",
-        "building_name": "recDtWltmBLHxCC3M",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:01:30.465Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recNLZtvRgnYuVeCi",
-      "type": "rent_payment",
-      "citizen": "SpiceHunter420",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
-      "details": {
-        "building_id": "recDtWltmBLHxCC3M",
-        "building_name": "recDtWltmBLHxCC3M",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:00:43.722Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recCkoMatwIJbGG9M",
-      "type": "rent_payment",
-      "citizen": "SpiceHunter420",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
-      "details": {
-        "building_id": "recDtWltmBLHxCC3M",
-        "building_name": "recDtWltmBLHxCC3M",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T18:01:43.374Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recHDsC3UM0glezwu",
-      "type": "rent_payment",
-      "citizen": "SpiceHunter420",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
-      "details": {
-        "building_id": "recDtWltmBLHxCC3M",
-        "building_name": "recDtWltmBLHxCC3M",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T16:00:49.044Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recKWKJVPazFFQ4cZ",
-      "type": "rent_payment",
-      "citizen": "SpiceHunter420",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDtWltmBLHxCC3M**.",
-      "details": {
-        "building_id": "recDtWltmBLHxCC3M",
-        "building_name": "recDtWltmBLHxCC3M",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-18T18:00:44.716Z",
       "readAt": null
     }
   ],
@@ -3780,7 +3795,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-02T21:56:03.154257+02:00",
+  "timestamp": "2025-07-05T22:53:22.644782+02:00",
   "building_ownership_relevancies": []
 }
 
