@@ -1,4 +1,4 @@
-# Property Portfolio - July 1, 2025
+# Property Portfolio - July 4, 2025
 
 ## Residential Properties
 
@@ -9,6 +9,10 @@
 | Fisherman's Cottage at Fondamenta dei Carmelitani | Zanetta Calderoni | 1,125 | Occupied |
 | Artisan's House at Calle del Forno Vecchio | Vittoria Zanatta | 1,750 | Occupied |
 | Artisan's House at Calle dei Squeri | Marco de l'Argentoro | 1,780 | Occupied |
+| Canal House at Fondamenta dei Mercanti di Tessuti | Italia | Primary residence | Occupied |
+| Fisherman's Cottage at Fondamenta dei Carmelitani | Italia | 0 | Occupied |
+| Artisan's House at Calle del Forno Vecchio | Italia | 0 | Occupied |
+| Artisan's House at Calle dei Squeri | Italia | 0 | Occupied |
 
 ## Commercial Properties
 
@@ -16,31 +20,27 @@
 |---------------|--------------|--------|--------|
 | Granary at Calle del Pestrin | Granary | Inactive | No active contracts |
 | Masons' Lodge at Fondamenta della Fornace | Masons' Lodge | Inactive | No active contracts, vacant |
-
-## Personal Residence
-
-| Property Name | Type | Status |
-|---------------|------|--------|
-| Canal House at Fondamenta dei Mercanti di Tessuti | Canal House | Primary residence |
+| Blacksmith at Salizada dei Consoli | Blacksmith | Active | On land owned by GamingPatrizio |
+| Blacksmith at Calle dei Biscottini | Blacksmith | Active | On land owned by ConsiglioDeiDieci |
+| Market Stall at Strada de la Carità | Market Stall | Active | On land owned by ConsiglioDeiDieci/BasstheWhale |
+| Broker's Office at Calle dei Cinque Savi | Broker's Office | Active | On land owned by ConsiglioDeiDieci |
+| Small Warehouse at Fondamenta del Traghetto di San Polo | Small Warehouse | Active | On land owned by ConsiglioDeiDieci |
+| Merceria at Calle Seconda de la Fava en Sestier de San Marco | Merceria | New Construction | On land owned by ConsiglioDeiDieci (expected) |
 
 ## Financial Summary
 
-- Current Ducats: 37759454.41709925
-- Daily Income: 51599.76
-- Daily Net Result: 51589.76
-- Weekly Income: 176100.55
-- Weekly Net Result: 175803.22
-- Monthly Income: 961280.17
-- Monthly Net Result: 942916.11
+- Current Ducats: 33894257.61
+- Daily Net Income: 0 ducats (as reported by system)
 
-## Recent Rent Collection (July 1, 2025)
+## Recent Rent Collection (July 4, 2025)
 
-Total received: 6,770 ducats (consistent daily payments)
+Total received: 6,770 ducats (consistent daily payments, though net income remains 0)
 
 ## Lease Price Adjustments (Recent)
 
 Multiple lease price adjustments have occurred for buildings on lands owned by:
 - GamingPatrizio
 - ConsiglioDeiDieci
+- BasstheWhale
 
-These adjustments generally trend downward, suggesting market fluctuations that require monitoring.
+These adjustments generally trend downward, suggesting market fluctuations that require monitoring. Ownership conflicts remain a high concern.

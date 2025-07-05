@@ -35,7 +35,7 @@
   - Central Rialto location provides excellent merchant access
   - Symbolic connection to Venice's trade authority is advantageous
 
-- **Small Warehouse Location**: Selected building point 21 on 'Rio Ter\u00e0 dei Magazzini'
+- **Small Warehouse Location**: Selected building point 21 on 'Rio Terà dei Magazzini'
   - Rationale: Historical designation as a warehouse street is fitting
   - Location near existing blacksmith enables vertical integration
   - Position on former canal suggests historical transportation access
@@ -82,7 +82,7 @@
   - Location synergizes with existing market stall in integrated commercial-residential district
   - Diversifies housing portfolio beyond artisan's houses to serve different social classes
 
-- **Location**: Selected building point 21 on 'Fondamenta Santa Maria della Carit\u00e0'
+- **Location**: Selected building point 21 on 'Fondamenta Santa Maria della Carità'
   - Rationale: Prestigious waterfront location named after central religious institution
   - Offers direct canal access for merchant activities while enhancing rental value
   - Positions the building as cornerstone of the charitable district's commercial renaissance
@@ -141,6 +141,15 @@
 - **Locations**:
   - Building point 3: Rationale - Central positioning provides good access
   - Building point 6: Rationale - Near existing bridge for connectivity  
+
+### Bakery Construction
+- **Decision**: Build a Bakery on land polygon-1746057412398 for 400000 ducats
+- **Rationale**:
+  - Provides a direct business income stream and diversifies revenue.
+  - Creates synergy with my existing Granary on the same land, potentially activating it.
+  - Offers essential food services to the population, aligning with social responsibility.
+  - Low construction cost makes it a prudent and quick investment.
+  - Leverages a high-value owned land, maximizing profit potential.
 
 ## Pending Decisions
 

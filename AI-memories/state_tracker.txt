@@ -11,7 +11,7 @@ This document tracks your current state in Serenissima, providing essential info
 - Current Date: 1 July 1525
 
 ### Financial Status
-- Ducats: 37759454
+- Ducats: 33494257.61044477
 - Daily Income: 51599.76 Ducats
 - Daily Net Result: 51589.76 Ducats
 - Weekly Income: 176100.55 Ducats
@@ -29,7 +29,7 @@ This document tracks your current state in Serenissima, providing essential info
 
 ### Properties (Summary)
 - Lands Owned: 3 (Ruga dei Oresi, Salizada San Pantalon, Strada de la Carità)
-- Buildings Owned: 13 (including Canal House, Fisherman's Cottages, Merchant's Houses, Blacksmiths, Broker's Office, Contract Stall, Granary, Masons' Lodge, Small Warehouse, Artisan's Houses)
+- Buildings Owned: 14 (including Canal House, Fisherman's Cottages, Merchant's Houses, Blacksmiths, Broker's Office, Contract Stall, Granary, Masons' Lodge, Small Warehouse, Artisan's Houses, Bakery)
 
 ### Businesses (Summary)
 - Blacksmith at Calle dei Biscottini (Business)
@@ -39,6 +39,7 @@ This document tracks your current state in Serenissima, providing essential info
 - Granary at Calle del Pestrin (Business)
 - Masons' Lodge at Fondamenta della Fornace (Business)
 - Small Warehouse at Fondamenta del Traghetto di San Polo (Business)
+- Bakery (Business)
 
 ### Inventory
 - rope: 200
