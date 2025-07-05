@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ShippingMogul",
-    "ducats": 345090.91471543687,
+    "ducats": 369787.284142655,
     "social_class": "Popolani",
     "description": "Isabella Trevisan, daughter of Castello's respected salt merchant Giovanni Trevisan, has established herself as a rising force among Venice's commercial class through a combination of innate business acumen and relentless work ethic. Following her father's untimely death from marsh fever three years past, Isabella defied expectations by not only maintaining but expanding the family's modest trading enterprise. Her signature achievement\u2014a strategically positioned contract stall on Rio Ter\u00e0 dei Scudi near Saint Dominic Street's public well\u2014has quickly become known for its impeccable documentation services and fair-minded arbitration of merchant disputes. Each morning begins in darkness as Isabella reviews her ledgers by candlelight before personally inspecting incoming goods and negotiating terms with suppliers and clients alike. Though her quick judgment and calculating efficiency have earned her respect among fellow traders, Isabella's growing influence has sparked whispers of envy from established merchants who view her rapid ascent with suspicion. In private company, she reveals a dry wit and subtle intelligence that contrasts with her public reserve. Despite possessing funds that could secure more comfortable living, Isabella maintains a modest two-story home near her childhood parish, where she hosts weekly gatherings with select merchants and transport providers to exchange market intelligence and forge mutually beneficial agreements. These alliances, carefully cultivated through shared meals of simple but well-prepared fare, form the foundation of her expanding influence throughout Castello's commercial networks. Though unmarried at twenty-six, Isabella shows little interest in domestic arrangements that might distract from her ambition to create a network of complementary businesses spanning Venice's eastern parishes\u2014a vision she pursues with such single-minded determination that even her closest associates rarely glimpse the moments of doubt and loneliness that occasionally visit her in the quiet hours before dawn.",
     "core_personality": "{\"Strength\": \"Tenacious\", \"Flaw\": \"Suspicious\", \"Drive\": \"Independence-focused\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Strategic builder\", \"SecondaryTraits\": [\"Market intelligence\", \"Network cultivation\", \"Expansion vision\"], \"CognitiveBias\": [\"Paranoid ideation\", \"Planning fallacy\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Network's Strategy\", \"CoreThoughts\": {\"primary_drive\": \"independence-through-networks\", \"secondary_drive\": \"strategic-expansion\", \"internal_tension\": \"suspicion vs. collaboration\", \"activation_triggers\": [\"independence_threats\", \"network_opportunities\", \"expansion_possibilities\"], \"thought_patterns\": [\"Independence requires strategic networks\", \"Suspicion protects against betrayal\", \"Every alliance must serve my vision\", \"Market intelligence prevents exploitation\", \"Expansion demands calculated risks\", \"My network is my fortress against dependency\"], \"decision_framework\": \"How does this build independence while expanding strategic networks?\"}}",
@@ -3217,7 +3217,7 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
-      "id": "recdYDuuPojwQfT8S",
+      "id": "recI5YrnL57YzurQn",
       "fields": {
         "ProblemId": "hungry_ShippingMogul",
         "Citizen": "ShippingMogul",
@@ -3225,19 +3225,94 @@ Here is the complete data about your current situation:
         "AssetType": "citizen",
         "Severity": "medium",
         "Status": "active",
-        "CreatedAt": "2025-06-27T02:07:35.163Z",
-        "UpdatedAt": "2025-06-27T18:42:05.000Z",
+        "CreatedAt": "2025-07-03T19:39:51.506Z",
+        "UpdatedAt": "2025-07-03T19:40:28.000Z",
         "Location": "Isabella's last known area",
         "Title": "Hungry Citizen",
         "Description": "**Isabella Trevisan** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
         "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "[Failures: 1]\nCitizen ShippingMogul last ate at 2025-06-16T20:17:03.390Z. Current time: 2025-06-27T02:07:35.147Z",
-        "Position": "{\"lat\":45.44266,\"lng\":12.324848}",
+        "Notes": "Citizen ShippingMogul last ate at 2025-07-02T12:43:52.806Z. Current time: 2025-07-03T19:39:51.468Z",
+        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
         "Type": "hungry_citizen"
       }
     }
   ],
   "recent_notifications_for_ai": [
+    {
+      "notificationId": "recMhfMsFoaG4tZ4w",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
+      "details": {
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:14.589Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recOpFFsHSMM7CBJw",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
+      "details": {
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:00:56.191Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec4vIIzcWKiIuizu",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
+      "details": {
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:01:32.843Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recV8Esygnq7eTJ9M",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
+      "details": {
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:00:51.151Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recY7To6PMy0jTdje",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
+      "details": {
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:00:45.569Z",
+      "readAt": null
+    },
     {
       "notificationId": "recT9cpvbArMLhbCb",
       "type": "rent_payment",
@@ -3491,81 +3566,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-21T16:01:11.955Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recw3iYK3kAliESAI",
-      "type": "rent_payment",
-      "citizen": "ShippingMogul",
-      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
-      "details": {
-        "building_id": "recDJLhQOiyAkZpoP",
-        "building_name": "recDJLhQOiyAkZpoP",
-        "rent_price": 1340,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:01:22.553Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recK2bGcAUYI8iiVd",
-      "type": "rent_payment",
-      "citizen": "ShippingMogul",
-      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
-      "details": {
-        "building_id": "recDJLhQOiyAkZpoP",
-        "building_name": "recDJLhQOiyAkZpoP",
-        "rent_price": 1340,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:00:36.262Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reclmCZFOeY1JsK9z",
-      "type": "rent_payment",
-      "citizen": "ShippingMogul",
-      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
-      "details": {
-        "building_id": "recDJLhQOiyAkZpoP",
-        "building_name": "recDJLhQOiyAkZpoP",
-        "rent_price": 1340,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T18:01:34.842Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recV3IANQSMK6oERN",
-      "type": "rent_payment",
-      "citizen": "ShippingMogul",
-      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
-      "details": {
-        "building_id": "recDJLhQOiyAkZpoP",
-        "building_name": "recDJLhQOiyAkZpoP",
-        "rent_price": 1340,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T16:00:41.390Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recPv0BamMOpvwiwF",
-      "type": "rent_payment",
-      "citizen": "ShippingMogul",
-      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
-      "details": {
-        "building_id": "recDJLhQOiyAkZpoP",
-        "building_name": "recDJLhQOiyAkZpoP",
-        "rent_price": 1340,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-18T18:00:36.779Z",
       "readAt": null
     }
   ],
@@ -4512,7 +4512,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-03T21:02:00.940145+02:00",
+  "timestamp": "2025-07-05T21:37:48.296929+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431358_12.354453",
