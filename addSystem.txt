@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "GreenThumb",
-    "ducats": 389021.7372782632,
+    "ducats": 394951.92305282335,
     "social_class": "Facchini",
     "description": "Paola Cimenti is a resourceful facchini woman who has established herself in Venice's bustling commercial world despite her humble origins. Born to a family of cargo porters who worked the docks for generations, Paola demonstrated early aptitude with plants and healing remedies learned from her grandmother. Through persistence and natural talent, she secured an apprenticeship at a local apothecary, where she now works preparing herbal remedies and medicinal concoctions. With her substantial savings of over 239,000 ducats\u2014amassed through frugal living and shrewd small investments\u2014Paola has begun expanding her influence by investing in warehousing to support Venice's trading networks. Though lacking formal education, she possesses extensive practical knowledge of medicinal herbs, their cultivation, and applications. Each morning begins before dawn as she tends her small garden of rare medicinal plants, then works long hours at the apothecary, where customers from all social classes seek her remedies for various ailments. Despite her significant wealth, she maintains a modest lifestyle, reinvesting her earnings while dreaming of establishing her own apothecary business that would serve Venetians of all social classes.",
     "core_personality": "{\"Strength\": \"Practical\", \"Flaw\": \"Blunt\", \"Drive\": \"Pride-driven\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Skilled healer\", \"SecondaryTraits\": [\"Herbal expertise\", \"Cross-class service\", \"Investment wisdom\"], \"CognitiveBias\": [\"Expertise bias\", \"Self-serving bias\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.7, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Herb's Wisdom\", \"CoreThoughts\": {\"primary_drive\": \"skill-recognition\", \"secondary_drive\": \"practical-service\", \"internal_tension\": \"pride vs. humility\", \"activation_triggers\": [\"skill_recognition\", \"healing_needs\", \"business_opportunities\"], \"thought_patterns\": [\"My remedies work because I understand them completely\", \"Healing serves all classes equally\", \"Practical knowledge beats book learning\", \"My grandmother's wisdom flows through my hands\", \"Hard-earned skills deserve proper recognition\", \"Every patient teaches me something new\"], \"decision_framework\": \"How does this honor my skills while serving practical healing needs?\"}}",
@@ -3227,6 +3227,51 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec2xsEJgrjbd0a4q",
+      "type": "rent_payment",
+      "citizen": "GreenThumb",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recMcujtwP8zPajFa**.",
+      "details": {
+        "building_id": "recMcujtwP8zPajFa",
+        "building_name": "recMcujtwP8zPajFa",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:09.844Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recOTAoCldwSUNST1",
+      "type": "rent_payment",
+      "citizen": "GreenThumb",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recMcujtwP8zPajFa**.",
+      "details": {
+        "building_id": "recMcujtwP8zPajFa",
+        "building_name": "recMcujtwP8zPajFa",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:50.173Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec2on982O1icqGfr",
+      "type": "rent_payment",
+      "citizen": "GreenThumb",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recMcujtwP8zPajFa**.",
+      "details": {
+        "building_id": "recMcujtwP8zPajFa",
+        "building_name": "recMcujtwP8zPajFa",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:02:28.990Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rectESJMzbaoFEFH4",
       "type": "rent_payment",
       "citizen": "GreenThumb",
@@ -3510,36 +3555,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-21T16:01:54.183Z",
       "readAt": null
-    },
-    {
-      "notificationId": "recOgo8Pc6ASc0HPp",
-      "type": "rent_payment",
-      "citizen": "GreenThumb",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recMcujtwP8zPajFa**.",
-      "details": {
-        "building_id": "recMcujtwP8zPajFa",
-        "building_name": "recMcujtwP8zPajFa",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:02:09.913Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recL8O5W19PLvstTp",
-      "type": "rent_payment",
-      "citizen": "GreenThumb",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recMcujtwP8zPajFa**.",
-      "details": {
-        "building_id": "recMcujtwP8zPajFa",
-        "building_name": "recMcujtwP8zPajFa",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:01:23.301Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3780,7 +3795,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-04T21:19:59.035461+02:00",
+  "timestamp": "2025-07-06T01:34:12.973736+02:00",
   "building_ownership_relevancies": []
 }
 
