@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DesertRanger",
-    "ducats": 371464.91495656647,
+    "ducats": 394822.06599612784,
     "social_class": "Popolani",
     "description": "Tiziano Bertucci has established himself as a shrewd legal intermediary among Venice's Popolani class. Born to a family of modest cloth merchants from the mainland who settled in Castello, Tiziano discovered his aptitude for contract negotiation while assisting at his family's small textile shop. After recognizing the demand for reliable contract brokers, he invested his savings in a Contract Stall on Fondamenta della Tana, strategically positioned to serve the maritime community near the Arsenale. Known for his meticulous attention to detail and encyclopedic knowledge of Venetian commercial regulations, Tiziano has developed a reputation for fairness that attracts clients from all social classes. He rises before dawn to review pending agreements, spends his days mediating negotiations at his stall, and often works into the evening by lamplight, carefully drafting documents that will withstand legal scrutiny. Despite his growing success, Tiziano maintains frugal habits, reinvesting most profits while setting aside a portion for his ambition of elevating his family's status to cittadini through marriage connections and civic contributions. His methodical approach to building wealth through reliable service rather than risky ventures reflects the pragmatic values instilled by his father. However, his obsessive perfectionism often leads him to distrust colleagues and potential partners, causing him to miss opportunities for collaboration that might accelerate his social advancement\u2014a limitation he acknowledges privately but struggles to overcome.",
     "core_personality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Reserved\", \"Drive\": \"Ambition-driven\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Perfectionist planner\", \"SecondaryTraits\": [\"Legal expertise\", \"Social mobility\", \"Collaboration difficulty\"], \"CognitiveBias\": [\"Perfectionism bias\", \"Planning fallacy\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Document's Truth\", \"CoreThoughts\": {\"primary_drive\": \"social-elevation\", \"secondary_drive\": \"methodical-perfection\", \"internal_tension\": \"perfection vs. collaboration\", \"activation_triggers\": [\"advancement_opportunities\", \"legal_precision\", \"social_mobility\"], \"thought_patterns\": [\"Perfect documentation prevents future problems\", \"My methods separate me from common traders\", \"Social advancement requires flawless execution\", \"Trust comes from demonstrable competence\", \"Collaboration dilutes quality control\", \"Every contract is a step toward cittadini status\"], \"decision_framework\": \"How does this advance my social position through methodical excellence?\"}}",
@@ -3217,7 +3217,7 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
-      "id": "recgz6KWQaueD6H3a",
+      "id": "rec9bN5QKyWvTpULj",
       "fields": {
         "ProblemId": "hungry_DesertRanger",
         "Citizen": "DesertRanger",
@@ -3225,19 +3225,94 @@ Here is the complete data about your current situation:
         "AssetType": "citizen",
         "Severity": "medium",
         "Status": "active",
-        "CreatedAt": "2025-06-27T02:07:35.172Z",
-        "UpdatedAt": "2025-06-27T18:42:18.000Z",
+        "CreatedAt": "2025-07-03T19:39:51.508Z",
+        "UpdatedAt": "2025-07-03T19:40:39.000Z",
         "Location": "Tiziano's last known area",
         "Title": "Hungry Citizen",
         "Description": "**Tiziano Bertucci** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
         "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "[Failures: 1]\nCitizen DesertRanger last ate at 2025-06-19T20:29:03.909Z. Current time: 2025-06-27T02:07:35.147Z",
-        "Position": "{\"lat\":45.436674,\"lng\":12.339536}",
+        "Notes": "Citizen DesertRanger last ate at 2025-07-01T22:28:34.086Z. Current time: 2025-07-03T19:39:51.468Z",
+        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
         "Type": "hungry_citizen"
       }
     }
   ],
   "recent_notifications_for_ai": [
+    {
+      "notificationId": "rec3jA2Z9XQVNGNWJ",
+      "type": "rent_payment",
+      "citizen": "DesertRanger",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:50.794Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recdRNDMx35LsDTTR",
+      "type": "rent_payment",
+      "citizen": "DesertRanger",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:29.934Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recBNHuYLGbu8U5lF",
+      "type": "rent_payment",
+      "citizen": "DesertRanger",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:03:08.442Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recAbPaZKYeS5pLJa",
+      "type": "rent_payment",
+      "citizen": "DesertRanger",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:02:05.853Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recnLHGZ0jW9QGe4H",
+      "type": "rent_payment",
+      "citizen": "DesertRanger",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:01:59.983Z",
+      "readAt": null
+    },
     {
       "notificationId": "reck8xZWJvWKMPRam",
       "type": "rent_payment",
@@ -3491,81 +3566,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-21T16:02:22.253Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recD1gyHeB8yME5Ny",
-      "type": "rent_payment",
-      "citizen": "DesertRanger",
-      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
-      "details": {
-        "building_id": "recXRScde5amQy5wt",
-        "building_name": "Artisan's House at Salizada dei Musicisti",
-        "rent_price": 1760,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:02:40.235Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recHAsbBcPf4xfzRv",
-      "type": "rent_payment",
-      "citizen": "DesertRanger",
-      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
-      "details": {
-        "building_id": "recXRScde5amQy5wt",
-        "building_name": "Artisan's House at Salizada dei Musicisti",
-        "rent_price": 1760,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:01:54.474Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recXp5wamJE5wPDmF",
-      "type": "rent_payment",
-      "citizen": "DesertRanger",
-      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
-      "details": {
-        "building_id": "recXRScde5amQy5wt",
-        "building_name": "Artisan's House at Salizada dei Musicisti",
-        "rent_price": 1760,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T18:03:03.898Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recilQP3A20qGlVDB",
-      "type": "rent_payment",
-      "citizen": "DesertRanger",
-      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
-      "details": {
-        "building_id": "recXRScde5amQy5wt",
-        "building_name": "Artisan's House at Salizada dei Musicisti",
-        "rent_price": 1760,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T16:02:03.745Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recvPakw576kuNHsu",
-      "type": "rent_payment",
-      "citizen": "DesertRanger",
-      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
-      "details": {
-        "building_id": "recXRScde5amQy5wt",
-        "building_name": "Artisan's House at Salizada dei Musicisti",
-        "rent_price": 1760,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-18T18:01:55.046Z",
       "readAt": null
     }
   ],
@@ -4512,7 +4512,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-03T21:02:24.628438+02:00",
+  "timestamp": "2025-07-05T22:17:16.000577+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431863_12.354551",
