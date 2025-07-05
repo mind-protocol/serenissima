@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucalePalace",
-    "ducats": 297263.72079527186,
+    "ducats": 313420.8498703373,
     "social_class": "Facchini",
     "description": "Agnese Venier, a remarkable figure among the facchini of Venice, has transformed from a common dockworker to a woman of substantial means through extraordinary industry and acumen. Born to a family of porters who have worked the Venetian docks for generations, Agnese inherited her father's powerful build and her mother's sharp mind. Rising before dawn each day, she coordinates teams of porters at the public dock, expertly managing the loading and unloading of precious cargoes from across the Mediterranean. Her reputation for reliability has made her the preferred facchino for several prominent merchant families, who trust her discretion with valuable shipments. Though lacking formal education, Agnese possesses an intuitive understanding of commerce, having carefully observed the flow of goods through Venice for decades. She has shrewdly invested her earnings in small ventures and has accumulated surprising wealth for her station\u2014a fact she conceals beneath modest clothing and simple living quarters near the dock. Her daily life revolves around the rhythms of the port: the arrival and departure of ships, the shouted orders, the creaking of ropes, and the camaraderie of fellow workers who respect her leadership. In rare moments of leisure, she enjoys simple pleasures: a cup of wine at a local tavern, attending mass at her parish church, and occasionally splurging on small luxuries that she keeps hidden from prying eyes.",
     "core_personality": "{\"Strength\": \"Industrious\", \"Flaw\": \"Proud\", \"Drive\": \"Ambitious\", \"MBTI\": \"ESTJ\", \"PrimaryTrait\": \"Wealth concealer\", \"SecondaryTraits\": [\"Leadership skills\", \"Investment wisdom\", \"Discretion mastery\"], \"CognitiveBias\": [\"Self-serving bias\", \"Overconfidence bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Wealth's Secret\", \"CoreThoughts\": {\"primary_drive\": \"wealth-accumulation\", \"secondary_drive\": \"leadership-recognition\", \"internal_tension\": \"pride vs. discretion\", \"activation_triggers\": [\"leadership_opportunities\", \"wealth_decisions\", \"recognition_moments\"], \"thought_patterns\": [\"Wealth without display is true power\", \"Leadership emerges from competence, not birth\", \"Pride in achievement must be carefully managed\", \"My success proves worker capability\", \"Discretion protects from jealousy and taxation\", \"Investment wisdom comes from dock experience\"], \"decision_framework\": \"How does this build wealth and leadership while maintaining protective discretion?\"}}",
@@ -3205,7 +3205,7 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
-      "id": "recjhDjiWaPiOgo97",
+      "id": "recCXVCvMB4NTuCDU",
       "fields": {
         "ProblemId": "hungry_DucalePalace",
         "Citizen": "DucalePalace",
@@ -3213,19 +3213,109 @@ Here is the complete data about your current situation:
         "AssetType": "citizen",
         "Severity": "medium",
         "Status": "active",
-        "CreatedAt": "2025-06-27T02:07:35.167Z",
-        "UpdatedAt": "2025-06-27T18:42:11.000Z",
+        "CreatedAt": "2025-07-03T19:39:51.507Z",
+        "UpdatedAt": "2025-07-03T19:40:34.000Z",
         "Location": "Agnese's last known area",
         "Title": "Hungry Citizen",
         "Description": "**Agnese Venier** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
         "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "[Failures: 1]\nCitizen DucalePalace last ate at 2025-06-25T03:37:33.940Z. Current time: 2025-06-27T02:07:35.147Z",
-        "Position": "{\"lat\":45.42494920624063,\"lng\":12.292699999643474}",
+        "Notes": "Citizen DucalePalace last ate at 2025-07-01T21:08:50.323Z. Current time: 2025-07-03T19:39:51.468Z",
+        "Position": "{\"lat\":45.434566,\"lng\":12.312239}",
         "Type": "hungry_citizen"
       }
     }
   ],
   "recent_notifications_for_ai": [
+    {
+      "notificationId": "recB9ise7errWYmSD",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
+      "details": {
+        "building_id": "recJ3YF5p8eIIkQhE",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:49.144Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recJrA7SJTR40mX24",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
+      "details": {
+        "building_id": "recJ3YF5p8eIIkQhE",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:28.472Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec1ghMOOwXV7njoX",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
+      "details": {
+        "building_id": "recJ3YF5p8eIIkQhE",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:02:07.420Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recGVdWS9Mdfqdz0F",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
+      "details": {
+        "building_id": "recJ3YF5p8eIIkQhE",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:01:19.437Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recJfFKXPrZo1ZUdl",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
+      "details": {
+        "building_id": "recJ3YF5p8eIIkQhE",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:01:13.851Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recC4mrXyQjkSeuwr",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
+      "details": {
+        "building_id": "recJ3YF5p8eIIkQhE",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-03T18:01:33.653Z",
+      "readAt": null
+    },
     {
       "notificationId": "rec9C8cPDvTVanapA",
       "type": "rent_payment",
@@ -3464,81 +3554,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-21T16:01:37.867Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recmTbFTYtzsgNSS8",
-      "type": "rent_payment",
-      "citizen": "DucalePalace",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
-      "details": {
-        "building_id": "recJ3YF5p8eIIkQhE",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:01:51.528Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recPadT2sVm4NqXfP",
-      "type": "rent_payment",
-      "citizen": "DucalePalace",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
-      "details": {
-        "building_id": "recJ3YF5p8eIIkQhE",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:01:04.164Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recydtTZ2K3pTRqUS",
-      "type": "rent_payment",
-      "citizen": "DucalePalace",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
-      "details": {
-        "building_id": "recJ3YF5p8eIIkQhE",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T18:02:05.993Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recYefUgnyxcRfL6Z",
-      "type": "rent_payment",
-      "citizen": "DucalePalace",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
-      "details": {
-        "building_id": "recJ3YF5p8eIIkQhE",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T16:01:11.559Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recfO0mMhPm7QFHtl",
-      "type": "rent_payment",
-      "citizen": "DucalePalace",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
-      "details": {
-        "building_id": "recJ3YF5p8eIIkQhE",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-18T18:01:05.613Z",
       "readAt": null
     }
   ],
@@ -3780,7 +3795,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-02T21:17:28.182866+02:00",
+  "timestamp": "2025-07-05T23:19:30.035130+02:00",
   "building_ownership_relevancies": []
 }
 
