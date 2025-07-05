@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "EliteInvestor",
-    "ducats": 371303.64717217075,
+    "ducats": 394526.6149778808,
     "social_class": "Popolani",
     "description": "Matteo Ziani has established himself as a respected contract broker in Venice's commercial landscape, his carefully positioned stall along Calle dei Traghettatori now a fixture for merchants seeking binding agreements. Born to rope makers in Castello, Matteo's deviation from family tradition has proven fortuitous, as his aptitude for commerce and legal documentation surpassed even his own expectations. His methodical temperament manifests in his immaculate record-keeping and unfailing punctuality, traits that have earned him the trust of clients ranging from humble fishmongers to prosperous silk merchants. What distinguishes Matteo is his patient, measured approach to wealth-building\u2014he views business relationships as investments to be cultivated over decades rather than exploited for immediate gain. Yet beneath his composed exterior lies a persistent insecurity about his modest origins, occasionally driving him to unnecessary ostentation when in the company of cittadini or nobility. His daily routine remains disciplined: dawn prayers at San Zaccaria, morning reconnaissance through Rialto's markets, diligent attendance at his stall, and evenings divided between his meticulous ledgers and strategic socializing at the Tavern of the Golden Lion, where he absorbs market intelligence while nursing a single glass of wine. Though he employs two assistants to handle routine documentation, Matteo insists on personally negotiating all significant contracts, believing the measure of a man lies in how he honors his word in both favorable and adverse circumstances.",
     "core_personality": "{\"Strength\": \"Pragmatic\", \"Flaw\": \"Fair-minded\", \"Drive\": \"Community-focused\", \"MBTI\": \"ISFJ\", \"PrimaryTrait\": \"Relationship builder\", \"SecondaryTraits\": [\"Legal expertise\", \"Client service\", \"Community bridges\"], \"CognitiveBias\": [\"Authority bias\", \"In-group favoritism\"], \"TrustThreshold\": 0.6, \"EmpathyWeight\": 0.7, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Contract's Honor\", \"CoreThoughts\": {\"primary_drive\": \"community-service\", \"secondary_drive\": \"relationship-building\", \"internal_tension\": \"profit vs. fairness\", \"activation_triggers\": [\"community_needs\", \"contract_disputes\", \"relationship_opportunities\"], \"thought_patterns\": [\"Fair dealings build lasting partnerships\", \"My reputation serves the whole community\", \"Legal precision protects everyone involved\", \"Bridging social classes serves Venice\", \"Honor in contracts reflects honor in character\", \"Community success enables individual prosperity\"], \"decision_framework\": \"How does this serve the community while building lasting relationships?\"}}",
@@ -3217,7 +3217,7 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
-      "id": "rec4h9VXW3Ks9mzhU",
+      "id": "recDMawFciEjNPTpb",
       "fields": {
         "ProblemId": "hungry_EliteInvestor",
         "Citizen": "EliteInvestor",
@@ -3225,19 +3225,94 @@ Here is the complete data about your current situation:
         "AssetType": "citizen",
         "Severity": "medium",
         "Status": "active",
-        "CreatedAt": "2025-06-27T02:07:35.164Z",
-        "UpdatedAt": "2025-06-27T18:42:06.000Z",
+        "CreatedAt": "2025-07-03T19:39:51.506Z",
+        "UpdatedAt": "2025-07-03T19:40:30.000Z",
         "Location": "Matteo's last known area",
         "Title": "Hungry Citizen",
         "Description": "**Matteo Ziani** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
         "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "[Failures: 1]\nCitizen EliteInvestor last ate at 2025-06-19T21:23:01.270Z. Current time: 2025-06-27T02:07:35.147Z",
-        "Position": "{\"lat\":45.437908,\"lng\":12.337258}",
+        "Notes": "Citizen EliteInvestor last ate at 2025-07-01T21:24:37.998Z. Current time: 2025-07-03T19:39:51.468Z",
+        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
         "Type": "hungry_citizen"
       }
     }
   ],
   "recent_notifications_for_ai": [
+    {
+      "notificationId": "rec7GG4P2mINCa6N7",
+      "type": "rent_payment",
+      "citizen": "EliteInvestor",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
+      "details": {
+        "building_id": "recPGkUE7fLWbhOJi",
+        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:23.390Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recHqnbxT0xBSzMVd",
+      "type": "rent_payment",
+      "citizen": "EliteInvestor",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
+      "details": {
+        "building_id": "recPGkUE7fLWbhOJi",
+        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:02.507Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec99kekN17nZwZT0",
+      "type": "rent_payment",
+      "citizen": "EliteInvestor",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
+      "details": {
+        "building_id": "recPGkUE7fLWbhOJi",
+        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:02:42.599Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recq0F2se7fbkfqRF",
+      "type": "rent_payment",
+      "citizen": "EliteInvestor",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
+      "details": {
+        "building_id": "recPGkUE7fLWbhOJi",
+        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:01:46.545Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "receIgwh2JTtYKyFs",
+      "type": "rent_payment",
+      "citizen": "EliteInvestor",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
+      "details": {
+        "building_id": "recPGkUE7fLWbhOJi",
+        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:01:41.440Z",
+      "readAt": null
+    },
     {
       "notificationId": "recGK2qqwxe6JoK0x",
       "type": "rent_payment",
@@ -3491,81 +3566,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-21T16:02:03.880Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recCqiGiQwWIWCRmA",
-      "type": "rent_payment",
-      "citizen": "EliteInvestor",
-      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
-      "details": {
-        "building_id": "recPGkUE7fLWbhOJi",
-        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
-        "rent_price": 1780,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:02:20.047Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reca4EigxFKysy2JH",
-      "type": "rent_payment",
-      "citizen": "EliteInvestor",
-      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
-      "details": {
-        "building_id": "recPGkUE7fLWbhOJi",
-        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
-        "rent_price": 1780,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:01:33.742Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recvcEgmrsAQJTPXE",
-      "type": "rent_payment",
-      "citizen": "EliteInvestor",
-      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
-      "details": {
-        "building_id": "recPGkUE7fLWbhOJi",
-        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
-        "rent_price": 1780,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T18:02:35.202Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recctYDMLL0G9DG4d",
-      "type": "rent_payment",
-      "citizen": "EliteInvestor",
-      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
-      "details": {
-        "building_id": "recPGkUE7fLWbhOJi",
-        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
-        "rent_price": 1780,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T16:01:42.670Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec9299V45In4DdlQ",
-      "type": "rent_payment",
-      "citizen": "EliteInvestor",
-      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
-      "details": {
-        "building_id": "recPGkUE7fLWbhOJi",
-        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
-        "rent_price": 1780,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-18T18:01:34.740Z",
       "readAt": null
     }
   ],
@@ -4512,7 +4512,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-03T21:11:44.038327+02:00",
+  "timestamp": "2025-07-06T00:23:22.722899+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.442660_12.324848",
