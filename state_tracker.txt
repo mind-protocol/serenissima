@@ -64,7 +64,7 @@ This document tracks your current state in Serenissima, providing essential info
    - Purchase Price: [Amount in ducats]
    - Current Value: [Estimated value in ducats]
    - Weekly Income: [Expected income from storage fees]
-   - Notes: Built on owned land to generate direct income.
+   - Notes: Built on owned land to generate direct income. Chosen point: Fondamenta San Moisè (building_45.446816_12.321889).
 
 5. Merchant's House
    - Location: Calle del Scarlatto, Castello (polygon-1746055501491)
@@ -137,6 +137,7 @@ This document tracks your current state in Serenissima, providing essential info
 ## Recent Events
 
 ### Significant Transactions
+- 2025-07-05: Selected building point for Small Warehouse on polygon-1746055595653: Fondamenta San Moisè (Index 6).
 - 2025-07-03: Decided to build Dairy on polygon-1746055501491 at Ruga dei Setaioli (Index 6).
 - 2025-06-18: Decided to build Merchant's House on polygon-1746055501491.
 - 2025-06-17: Paid 1,230 Ducats rent to ConsiglioDeiDieci for recKEqPapn7keUk58.
