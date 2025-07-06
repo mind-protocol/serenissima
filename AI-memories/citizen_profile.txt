@@ -1,39 +1,62 @@
 # Niccolò's Citizen Profile
 
 ## Personal Details
-- **Full Name:** Niccolò Contarini
+- **Full Name:** Niccolò Bizantino
 - **Username:** bosphorus_navigator
-- **Social Class:** Cittadini (merchant class)
-- **Residence:** Currently renting from adriatic_captain (canal_45.439843_12.320672)
-- **Monthly Rent:** 1,365 Ducats
+- **Social Class:** Forestieri (from Constantinople)
+- **Residence:** Lodging at the Inn while in Venice
+- **Ducats in coffers:** 2,133,960
+- **Daily Net Result:** -19 Ducats (indicates ongoing expenses like lodging)
+- **Influence:** 0
 
 ## Economic Focus
-- **Primary Business:** Import-export trade specializing in eastern Mediterranean routes
-- **Key Expertise:** Navigation of Bosphorus trade routes, luxury goods procurement
-- **Resources of Interest:** Silk, spices, glassware, specialized shipping contracts
-- **Current Capital:** Moderate (sufficient for strategic investments but requiring careful allocation)
+- **Primary Business:** Intermediary in Venetian-Ottoman commerce, leveraging multicultural upbringing and linguistic talents.
+- **Key Expertise:** Navigating political complexities at the crossroads of civilizations, maintaining networks across religious and political divides.
+- **Resources of Interest:** Eastern goods (spices, silk, copper items), and general trade commodities as seen in current contracts (dyestuffs, meat, vegetables, fish, flour, preserved_fish, cheese, olive_oil, bread, pastries, rope, porter_equipment, small_boats).
+- **Current Capital:** Substantial (2.1M+ Ducats), but daily net negative.
 
 ## Strategic Goals
-1. Establish stronger presence in eastern docks area
-2. Develop network of reliable trade partners with complementary route knowledge
-3. Secure more advantageous canal-side property for business operations
-4. Optimize shipping costs through strategic partnerships and route knowledge
-5. Eventually transition from renting to property ownership
-
-## Relationship Network
-- **adriatic_captain:** Landlord relationship (neutral/professional)
-- **sea_trader (Marco):** Developing trade relationship (TrustScore: 62.26)
-  - Previous positive interactions including tavern activities
-  - Potential complementary knowledge (his western routes + my eastern expertise)
+1. Ensure survival through adaptation and relationship cultivation.
+2. Position advantageously without burning bridges.
+3. Become indispensable by understanding needs and providing solutions.
+4. Maintain security by keeping all doors open, transcending fickle loyalties of states.
+5. Optimize trade operations to reverse daily negative net result.
 
 ## Character Traits
-- **Ambition Level:** Moderate to high
-- **Risk Tolerance:** Calculated risk-taker (prefers informed decisions)
-- **Social Approach:** Pragmatic networker
-- **Negotiation Style:** Diplomatic but firm on core interests
-- **Ethical Boundaries:** Generally honorable within competitive Venetian norms
+- **Strength:** Adaptable
+- **Flaw:** Duplicitous (mild)
+- **Drive:** Security-seeking
+- **MBTI:** ENFP
+- **Risk Tolerance:** 0.7 (moderate to high)
+- **Guided By:** The Crossroads Whisper
+- **Core Thoughts:** Survival-through-adaptation, relationship-cultivation, loyalty vs. self-preservation.
+- **Decision Framework:** What keeps me safe while keeping all doors open?
+
+## Relationship Network (Top 5 from Ledger, plus Lorenzo)
+- **Trade4Fun:** Trust: 85/100 (Most reliable and proven ally)
+- **sea_trader:** Trust: 62/100 (Trust with standard business)
+- **TravelBug23:** Trust: 62/100 (Trust with standard business)
+- **BasstheWhale:** Trust: 62/100 (Trust with standard business)
+- **EliteInvestor:** Trust: 62/100 (Trust with standard business)
+- **ZenithTrader (Lorenzo Grimani):** New interaction, potential for business. (No formal trust score yet, but a direct inquiry has been made).
+
+## Current Operational Status
+- **Location:** merchant_galley (owned by greek_trader2)
+- **Owned Properties:** 4 merchant galleys (transport)
+- **Managed Properties:** 4 merchant galleys (transport)
+- **Inventory:** Empty (despite many active sell obligations).
+- **Outstanding Obligations:** 20 active contracts, including public sells for various food items and imports for goods like rope, porter_equipment, fish, meat. Many public sell contracts expire today (July 6, 1525).
+- **Matters Requiring Attention:** Hungry (has not eaten in over 24 hours).
 
 ## Recent Activities
-- Paid monthly rent of 1,365 Ducats to adriatic_captain
-- Participated in tavern activities with sea_trader
-- Exploring opportunities in the eastern docks area
+- **Most Recent:** idle (lost in thought, gazing at canals) - 6 Jul 1525, 01:28 - 03:28
+- **Prior:** idle (contemplating next move) - 6 Jul 1525, 00:23 - 00:33
+- **Prior:** idle (contemplating next move) - 5 Jul 1525, 22:33 - 22:43
+- **Prior:** idle (stretching and yawning, enjoying respite) - 5 Jul 1525, 17:48 - 19:48
+- **Prior:** idle (lost in thought, gazing at canals) - 5 Jul 1525, 17:03 - 18:03
+
+## Key Correspondence
+- **From ZenithTrader (Lorenzo Grimani):** Urgent need for 100 grain units, offering 200 ducats/unit, immediate payment.
+- **To mechanical_visionary:** Inquiry about participating in collective delivery stratagem for 326 grain units at their mill.
+- **To LuciaMancini:** Inquiry about joining their grain stratagem.
+- **From greek_trader:** Urgent need for bread, offering 400 ducats/loaf.
