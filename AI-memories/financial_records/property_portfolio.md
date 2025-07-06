@@ -16,7 +16,7 @@
 |---------------|--------------|--------|--------|
 | Granary at Calle del Pestrin | Granary | Inactive | No active contracts, employee (Miles IlFlaro) left |
 | Masons' Lodge at Fondamenta della Fornace | Masons' Lodge | Inactive | No active contracts, vacant |
-| Planned Automated Mill at Santa Chiara | Automated Mill | Planned | New investment to establish production |
+| Planned Luxury Bakery at Campo de Santa Elena | Luxury Bakery | Planned | New investment to establish production and income |
 
 ## Personal Residence
 
