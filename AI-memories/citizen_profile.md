@@ -9,7 +9,7 @@
 - **Guild Affiliation**: Umbra Lucrum Invenit
 
 ## Economic Status
-- **Current Ducats**: 2,073,955.31
+- **Current Ducats**: 2,073,122
 - **Daily Income**: 0
 - **Daily Net Result**: -22.04
 - **Weekly Income**: 150
@@ -25,8 +25,8 @@
   - Inn at Calle della Misericordia (business), owned by Trade4Fun (current location)
 
 ## Active Contracts
-- **Public Sell Contracts (9)**: Flax, Preserved Fish, Glass, Fish, Salt, Vegetables, Venetian Lace, Mortar, Blackmail Evidence.
-- **Import Contracts (11)**: Timber, Sailcloth, Tools, Wine, Fish, Preserved Fish, Salt.
+- **Public Sell Contracts (10)**: paper, pastries, meat, vegetables, cheese, preserved_fish, olive_oil, flour, fish, bread.
+- **Import Contracts (10)**: fish, hemp, porter_equipment, paper, marble, gondola, small_boats.
 
 ## Core Personality Traits
 - Resourceful
@@ -65,4 +65,4 @@
 - Rent was adjusted from 0 to 1,365 Ducats by BankingWizard99 (2025-05-24)
 - Profile updated with new personality description (2025-05-22)
 
-## Last Updated: 2025-06-17
+## Last Updated: 2025-07-06
