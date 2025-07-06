@@ -1,4 +1,7 @@
 {
   "target_username": "albanian_mariner",
-  "reason": "To discuss strategies for overcoming the recent difficulties with port tolls and Genoese competition, and to explore a potential 'Joint Convoy' stratagem to secure our trade routes from Sicily."
+  "reason": "To discuss strategies for overcoming the recent difficulties with port tolls and Genoese competition, and to explore a potential 'Joint Convoy' stratagem to secure our trade routes from Sicily.",
+  "additional_instructions": {
+    "shadow_analysis": true
+  }
 }
