@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BigMike",
-    "ducats": 428947.2976403027,
+    "ducats": 450133.31230767164,
     "social_class": "Facchini",
     "description": "Bartolomeo Ferro is a sturdy, weather-beaten Facchini (porter) in his early forties who has spent his life laboring at Venice's bustling public docks. Born to a family of humble dock workers who migrated from the mainland three generations ago, Bartolomeo has leveraged his exceptional strength and business acumen to rise above his station. Despite his modest beginnings, he has amassed substantial savings through relentless work and shrewd investments in land. Known for his reliability and fairness, Bartolomeo rises before dawn to secure prime positions at the Castello docks, where merchants specifically request his services for handling valuable cargo. His calloused hands and broad shoulders bear witness to decades of hauling goods from ships to warehouses, but his keen eyes reveal an intelligence that has helped him understand the flow of commerce. Recently, his investment in a small warehouse near the Arsenale marks his first step toward establishing himself in Venice's commercial infrastructure. In his rare leisure hours, Bartolomeo enjoys simple pleasures at local taverns where he listens more than he speaks, gathering valuable information about shipping schedules and market conditions that inform his growing business interests.",
     "core_personality": "{\"Strength\": \"Disciplined\", \"Flaw\": \"Rigid\", \"Drive\": \"Stability-oriented\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Methodical reliability\", \"SecondaryTraits\": [\"Exceptional strength\", \"Investment wisdom\", \"Merchant trust\"], \"CognitiveBias\": [\"Status quo bias\", \"Loss aversion\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Harbor's Rhythm\", \"CoreThoughts\": {\"primary_drive\": \"stability-through-routine\", \"secondary_drive\": \"reputation-building\", \"internal_tension\": \"safety vs. growth\", \"activation_triggers\": [\"routine_disruption\", \"reputation_threats\", \"investment_opportunities\"], \"thought_patterns\": [\"Consistency builds trust better than brilliance\", \"My reputation is my most valuable asset\", \"Better safe progress than risky leaps\", \"The docks teach patience and precision\", \"Merchants return to reliable workers\", \"Steady growth beats sudden wealth\"], \"decision_framework\": \"How does this build long-term stability without risking what I've built?\"}}",
@@ -3205,7 +3205,7 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
-      "id": "recKwjb3GKljqyceW",
+      "id": "recyraekp59oHVHxu",
       "fields": {
         "ProblemId": "hungry_BigMike",
         "Citizen": "BigMike",
@@ -3213,19 +3213,154 @@ Here is the complete data about your current situation:
         "AssetType": "citizen",
         "Severity": "medium",
         "Status": "active",
-        "CreatedAt": "2025-06-27T02:07:35.170Z",
-        "UpdatedAt": "2025-06-27T18:42:15.000Z",
+        "CreatedAt": "2025-07-03T19:39:51.508Z",
+        "UpdatedAt": "2025-07-03T19:40:37.000Z",
         "Location": "Bartolomeo's last known area",
         "Title": "Hungry Citizen",
         "Description": "**Bartolomeo Ferro** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
         "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "[Failures: 1]\nCitizen BigMike last ate at 2025-06-19T11:49:02.805Z. Current time: 2025-06-27T02:07:35.147Z",
+        "Notes": "Citizen BigMike last ate at 2025-07-02T11:23:42.250Z. Current time: 2025-07-03T19:39:51.468Z",
         "Position": "{\"lat\":45.43537165043428,\"lng\":12.312948908140628}",
         "Type": "hungry_citizen"
       }
     }
   ],
   "recent_notifications_for_ai": [
+    {
+      "notificationId": "recFAsp9cCm6ClDO3",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
+      "details": {
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:05.648Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recLOqMaiZkplbQUg",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
+      "details": {
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:00:52.312Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recwV6zjc47w2fW3D",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
+      "details": {
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:01:04.803Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recr97IOMuuCXxXcq",
+      "type": "carnival_launch",
+      "citizen": "BigMike",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Carnival work opportunities abound - earn extra ducats!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:46.195Z",
+      "readAt": "2025-07-06T04:14:46.236Z"
+    },
+    {
+      "notificationId": "recuHRvvB7s81lwS4",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
+      "details": {
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:00:47.621Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recsUBsjkCnq9A8Zk",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
+      "details": {
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:00:32.422Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recUS91cCrWwh9E6M",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
+      "details": {
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:01:04.996Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7VrRFjndVMqEWT",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
+      "details": {
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:00:26.027Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recqQzeaoYi0YIWip",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
+      "details": {
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:00:20.005Z",
+      "readAt": null
+    },
     {
       "notificationId": "recJt3e6iyqsA7jSB",
       "type": "rent_payment",
@@ -3464,96 +3599,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-22T18:00:48.529Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recl2IeJ77xE36Djv",
-      "type": "rent_payment",
-      "citizen": "BigMike",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
-      "details": {
-        "building_id": "rec447dpgrxblCNlK",
-        "building_name": "rec447dpgrxblCNlK",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:00:49.205Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recXFX2rWLfqpO9OL",
-      "type": "rent_payment",
-      "citizen": "BigMike",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
-      "details": {
-        "building_id": "rec447dpgrxblCNlK",
-        "building_name": "rec447dpgrxblCNlK",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:00:55.882Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recuey9T95hNO2Ozm",
-      "type": "rent_payment",
-      "citizen": "BigMike",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
-      "details": {
-        "building_id": "rec447dpgrxblCNlK",
-        "building_name": "rec447dpgrxblCNlK",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:00:11.950Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recYEZ93XHHqx8AUP",
-      "type": "rent_payment",
-      "citizen": "BigMike",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
-      "details": {
-        "building_id": "rec447dpgrxblCNlK",
-        "building_name": "rec447dpgrxblCNlK",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T18:01:06.470Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recE16mf7So8h660w",
-      "type": "rent_payment",
-      "citizen": "BigMike",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
-      "details": {
-        "building_id": "rec447dpgrxblCNlK",
-        "building_name": "rec447dpgrxblCNlK",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T16:00:14.188Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recgvaWYolsPt602Q",
-      "type": "rent_payment",
-      "citizen": "BigMike",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **rec447dpgrxblCNlK**.",
-      "details": {
-        "building_id": "rec447dpgrxblCNlK",
-        "building_name": "rec447dpgrxblCNlK",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-18T18:00:09.214Z",
       "readAt": null
     }
   ],
@@ -3795,7 +3840,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-03T21:04:24.872952+02:00",
+  "timestamp": "2025-07-06T21:24:24.714424+02:00",
   "building_ownership_relevancies": []
 }
 
