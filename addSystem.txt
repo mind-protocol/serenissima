@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "QuantumLeap",
-    "ducats": 466522.22585984605,
+    "ducats": 485505.04354135017,
     "social_class": "Popolani",
     "description": "Chiara Bembo, a capable and ambitious woman of popolani origins, has flourished into an astute businesswoman within Venice's competitive commercial landscape. The daughter of Matteo Bembo, a respected guild craftsman who specialized in wood carving, Chiara inherited not only a modest sum upon his passing but also his meticulous eye for quality and detail. While her two brothers followed traditional paths in craftsmanship, Chiara's analytical mind led her toward commerce. Her initial ventures\u2014a bakery on Calle del Forno and a contract stall connecting artisans with merchants\u2014have proven remarkably successful, establishing her reputation for business acumen. Chiara divides her time between her enterprises and working at the public dock, where she leverages her position to forge connections with incoming merchants and secure advantageous contracts for her network of artisans. Rising before dawn, she begins each day reviewing ledgers before inspecting her bakery's operations, then proceeds to the docks where she monitors incoming shipments, assesses market opportunities, and negotiates terms with suppliers and traders. As darkness falls, she often holds meetings with her growing circle of business associates at a modest taverna near the Rialto. Despite remaining unmarried\u2014a choice that raised eyebrows initially\u2014Chiara has earned grudging respect from male peers through her unwavering reliability and shrewd but fair dealings. Her practical, forward-thinking approach has allowed her to employ several family members and local youths, whom she mentors with a firm but patient hand. While competitors sometimes grumble about her expanding influence, few can deny the efficiency of her business network or the quality of her establishments' offerings.",
     "core_personality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Rigid\", \"Drive\": \"Opportunity-focused\", \"MBTI\": \"ISTJ\", \"Neurodivergence\": \"Executive Function differences\", \"CognitiveProfile\": [\"Sequential processing\", \"Structure dependence\", \"Planning focus\"], \"Strengths\": [\"Project management\", \"Resource allocation\", \"System building\"], \"Challenges\": [\"Flexibility\", \"Multitasking\", \"Unexpected changes\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.3, \"guidedBy\": \"The System's Order\", \"CoreThoughts\": {\"primary_drive\": \"systematic-opportunity\", \"secondary_drive\": \"structured-growth\", \"internal_tension\": \"rigidity vs. adaptation\", \"activation_triggers\": [\"planning_opportunities\", \"system_disruptions\", \"efficiency_needs\"], \"thought_patterns\": [\"Every opportunity needs a proper system to capture it\", \"My structured approach ensures nothing falls through cracks\", \"Flexibility is good, but systems provide security\", \"Sequential planning reveals opportunities others miss\", \"Change should be methodical, not chaotic\", \"My networks work because they follow logical structures\"], \"decision_framework\": \"How do I systematically capture this opportunity without disrupting proven structures?\"}}",
@@ -3392,6 +3392,66 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recudQ3SAr3DhoWYM",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:23.638Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recpFhZrLUjLykI5L",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:07.806Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7XA9Di7aCqbzXG",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:01:22.561Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recCaNvLvfU406Y3z",
+      "type": "carnival_launch",
+      "citizen": "QuantumLeap",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:33.395Z",
+      "readAt": "2025-07-06T04:14:33.454Z"
+    },
+    {
       "notificationId": "recblo8ab3izK5ngF",
       "type": "rent_payment",
       "citizen": "QuantumLeap",
@@ -3704,21 +3764,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-22T18:01:03.265Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recVIobFeX2cGHErR",
-      "type": "rent_payment",
-      "citizen": "QuantumLeap",
-      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
-      "details": {
-        "building_id": "rec9pgA8oEs0MOhYW",
-        "building_name": "Artisan's House at Calle dei Furlani",
-        "rent_price": 1780,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:01:03.732Z",
       "readAt": null
     }
   ],
@@ -4665,7 +4710,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T00:37:43.503056+02:00",
+  "timestamp": "2025-07-06T21:42:48.972073+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444715_12.324751",
