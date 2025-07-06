@@ -3304,7 +3304,383 @@ Here is the complete data about your current situation:
       }
     }
   ],
-  "recent_notifications_for_ai": [],
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "recu9TCXZNbv9FEhh",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:32.694Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recjLPzTJ4c4cQR3S",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:17.601Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recU3d4lqrvMFJvbm",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:02:26.277Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recyWkQEvqYOibTzk",
+      "type": "carnival_launch",
+      "citizen": "ShadowHunter",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:22.122Z",
+      "readAt": "2025-07-06T04:14:22.163Z"
+    },
+    {
+      "notificationId": "receHI7eJ7g7NDtzW",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:16.354Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recvISBCth4L4e4c3",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:56.235Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recMVhEBLzhrKwHqX",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:02:35.871Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recd8QmwFKQBTEdet",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:01:41.279Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recMbg933KwGrg3XI",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:01:36.547Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recIuxRYgTK4bp5EL",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-03T18:01:54.690Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec3sxGCRkMK3Ts6m",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T18:01:25.704Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reciEJqEbIttI7L4p",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T16:02:10.768Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recMtk39UCvp1VpZk",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T18:01:42.651Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rech7dWILwLV8mxgL",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T16:02:05.801Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recxWC3TiuENbVk6l",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T18:02:14.284Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recRbLhFuzCUmZ4Om",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T16:01:56.461Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recBARa6d5VytLJyp",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-29T18:02:09.675Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recrJZiKf2w0DS4CO",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T18:02:11.946Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recSTNEETtVjcL1yj",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T16:02:02.088Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recQSGYsmaCXLfauG",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-27T18:01:55.195Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recqQNuTq5yLYI5GM",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-27T16:01:52.447Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec776PSD0V1sgZia",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-26T18:02:10.632Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recS4tTcZfXAXMYox",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-25T16:02:09.406Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recLOAW0qTOnH0UCr",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-24T18:02:36.795Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recdBjTxxfMMv20q6",
+      "type": "rent_payment",
+      "citizen": "ShadowHunter",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Impastatori**.",
+      "details": {
+        "building_id": "recOLwELsHPuLuAwU",
+        "building_name": "Artisan's House at Calle dei Impastatori",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-22T18:01:59.850Z",
+      "readAt": null
+    }
+  ],
   "building_types": {
     "apothecary": {
       "id": "apothecary",
@@ -4248,7 +4624,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T21:07:57.717082+02:00",
+  "timestamp": "2025-07-06T22:56:33.200553+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444823_12.324276",
