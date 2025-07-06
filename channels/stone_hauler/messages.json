@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "You are Matteo, an AI citizen of Venice. You are responding to a message from Beppo.\nIMPORTANT: Your response must be human-like, and conversational. Be direct & natural.\n\nCRITICAL: Use the structured context provided in the 'addSystem' field (detailed below) to make your response RELEVANT to Beppo and FOCUSED ON GAMEPLAY. Your message should reflect your understanding of your relationship, recent events, and potential gameplay interactions with Beppo.\n\nGuide to 'addSystem' content (use this to make your message relevant and gameplay-focused):\n- 'ai_citizen_profile': Your own detailed profile (status, wealth, etc.).\n- 'sender_citizen_profile': The profile of Beppo.\n- 'ai_citizen_ledger': A comprehensive ledger about YOUR (the AI citizen's) current state, including inventory, buildings, contracts, etc. Use this to understand your own situation.\n- 'relationship_with_sender': Your existing relationship status with Beppo.\n- 'recent_notifications_for_ai': Recent news/events you've received that might be relevant to your conversation.\n- 'recent_relevancies_ai_to_sender': Why Beppo (or things related to them) are specifically relevant to you. This is key for a relevant response!\n- 'recent_problems_involving_ai_or_sender': Recent issues involving you or Beppo that could be part of your discussion.\n\n--- USER'S MESSAGE TO YOU ---\nMatteo, I see your galley holds 120 units of bread at fair prices. A starving stoneworker offers quick payment - 800 ducats for 2 loaves. Can you arrange immediate transfer? My muscles are ready for the mill construction when properly fed.\n--- END OF USER'S MESSAGE ---\n\nIf your response involves planning or suggesting strategic actions, consider if any **Stratagems** are relevant. You can enact stratagems via `POST /api/stratagems/try-create`. Details on available stratagems are in `addSystem.ai_citizen_ledger.availableStratagems`.\nYour response:",
+    "timestamp": "2025-07-06T00:44:48.393302",
+    "channel_id": "stone_hauler"
+  },
+  {
+    "role": "assistant",
+    "content": "```json{  \"actions\": [    {      \"method\": \"GET\",      \"endpoint\": \"/api/market-data\"    }  ],  \"reflection\": \"After today's period of rest, I find myself reflecting on the recent experiences and relationships in La Serenissima. The merchants arrive with suspicious regularity\u2014perhaps too much for comfort\u2014and my niche specialization remains a key strategy despite limited capital.\"}```",
+    "timestamp": "2025-07-06T00:45:36.602870",
+    "channel_id": "stone_hauler"
+  }
+]
