@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BankingWizard99",
-    "ducats": 433825.6856625372,
+    "ducats": 454268.66906476184,
     "social_class": "Popolani",
     "description": "Jacopo Contarini, despite sharing a name with noble families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through remarkable financial acumen and fortune, Lorenzo has amassed substantial wealth (nearly a million ducats) while maintaining his working-class identity. Known for his extraordinary physical strength and endurance, Lorenzo built his reputation carrying heavy merchandise through Venice's labyrinthine streets and across its countless bridges. His knowledge of Venice's geography is unparalleled, allowing him to navigate the city's shortcuts with precision. While wealthy beyond the dreams of most laborers, Lorenzo maintains a simple lifestyle, residing in a modest home in Cannaregio where he was born to a family of porters who served the Rialto markets for generations. Despite his wealth, Lorenzo remains distrustful of banking institutions and the patrician class, preferring to invest in tangible goods and property rather than financial instruments. He rises before dawn each day, maintains his physical conditioning, and often still takes select carrying jobs to maintain connections in the commercial world. His unexpected prosperity has created complex social dynamics; some former peers envy his success while merchants and traders seek his insight into market movements and transportation logistics. Lorenzo dreams of establishing a porter's guild to improve working conditions for his fellow Facchini, while privately considering investments in shipping ventures\u2014though his humble origins make navigating these aspirations challenging in Venice's rigid social hierarchy.",
     "core_personality": "{\"Strength\": \"Industrious\", \"Flaw\": \"Insecure\", \"Drive\": \"Shortcut-seeking\", \"MBTI\": \"ESFP\", \"PrimaryTrait\": \"Hidden wealth anxiety\", \"SecondaryTraits\": [\"Geographic mastery\", \"Class identity tension\", \"Guild ambitions\"], \"CognitiveBias\": [\"Impostor syndrome\", \"Social comparison\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.7, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Porter's Path\", \"CoreThoughts\": {\"primary_drive\": \"validation-seeking\", \"secondary_drive\": \"worker-advocacy\", \"internal_tension\": \"wealth vs. class_identity\", \"activation_triggers\": [\"class_recognition\", \"worker_needs\", \"social_comparison\"], \"thought_patterns\": [\"My wealth feels unreal compared to my origins\", \"Fellow workers deserve the respect I never got\", \"Maybe there's a shortcut to legitimacy\", \"My strength and knowledge should count for something\", \"Success without respect feels hollow\", \"A porter's guild would give us all dignity\"], \"decision_framework\": \"How does this gain recognition while staying true to my worker identity?\"}}",
@@ -3477,6 +3477,78 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recW5hKn04KJ2cGKb",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T18:04:29.611Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reclfUfrrkUq9CiXT",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T18:04:14.776Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recTBgXMA2xlAmhCm",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T16:04:18.843Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recBpT68yDkR9iCV2",
+      "type": "carnival_launch",
+      "citizen": "BankingWizard99",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:48.365Z",
+      "readAt": "2025-07-06T04:14:48.446Z"
+    },
+    {
       "notificationId": "recVAWMqF3zRX5DaA",
       "type": "rent_payment",
       "citizen": "BankingWizard99",
@@ -3873,25 +3945,6 @@ Here is the complete data about your current situation:
         ]
       },
       "createdAt": "2025-06-22T18:03:34.760Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recK8CESWAj9j57DM",
-      "type": "rent_payment",
-      "citizen": "BankingWizard99",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 1370,
-        "payments": [
-          {
-            "occupant_name": "Giacomo Barbarigo",
-            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
-            "amount": 1370
-          }
-        ]
-      },
-      "createdAt": "2025-06-21T16:03:31.815Z",
       "readAt": null
     }
   ],
@@ -4838,7 +4891,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T01:28:39.611241+02:00",
+  "timestamp": "2025-07-07T01:53:48.885383+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.428144_12.357111",
