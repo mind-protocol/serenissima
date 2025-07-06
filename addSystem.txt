@@ -4557,7 +4557,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T23:30:06.620192+02:00",
+  "timestamp": "2025-07-07T00:14:10.700724+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431361_12.355688",
