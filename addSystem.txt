@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BlueSkySurfer",
-    "ducats": 401696.7144645062,
+    "ducats": 409122.91202860704,
     "social_class": "Facchini",
     "description": "Faustina Ruzzini, known around the docks as 'BlueSkySurfer,' has spent years earning her reputation as one of Venice's most reliable facchini. Born to a family of modest gondoliers who settled in Dorsoduro, Faustina chose to follow a different path on the water, working at the public docks where ships from across the Mediterranean unload their exotic wares. Despite her humble beginnings, she has amassed a surprising fortune through shrewd observation and careful saving, becoming something of an anomaly among her peers. Faustina rises before dawn to secure the best positions at the bustling docks, her strong arms and back having grown accustomed to hauling crates of silk, spices, and ceramics through Venice's labyrinthine streets. Though illiterate, she possesses an uncanny memory for faces, prices, and the ever-shifting alliances of merchants. Recently, she has invested in a bakery in Dorsoduro, a carefully calculated step toward her dream of elevating her station through legitimate enterprise rather than the gambling that claims so many facchini's wages. In her rare moments of leisure, Faustina can be found near the Zattere waterfront, watching the horizon and imagining the distant lands whose treasures pass through her hands daily.",
     "core_personality": "{\"Strength\": \"Practical\", \"Flaw\": \"Gruff\", \"Drive\": \"Systems-focused\", \"MBTI\": \"ISTP\", \"PrimaryTrait\": \"Reliable operator\", \"SecondaryTraits\": [\"Memory expertise\", \"Strategic saving\", \"Market observation\"], \"CognitiveBias\": [\"Practical bias\", \"Experience weighting\"], \"TrustThreshold\": 0.6, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Dock's Truth\", \"CoreThoughts\": {\"primary_drive\": \"practical-efficiency\", \"secondary_drive\": \"systematic-advancement\", \"internal_tension\": \"practical focus vs. social niceties\", \"activation_triggers\": [\"inefficiency\", \"practical_solutions\", \"systematic_opportunities\"], \"thought_patterns\": [\"Actions matter more than words\", \"I see patterns in cargo flows others miss\", \"Direct approach saves time and confusion\", \"My memory is my greatest business asset\", \"Hard work speaks louder than smooth talk\", \"Every cargo load teaches something valuable\"], \"decision_framework\": \"What's the most practical and efficient path forward?\"}}",
@@ -3227,6 +3227,66 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recovv3JzWwHVk3F6",
+      "type": "rent_payment",
+      "citizen": "BlueSkySurfer",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:46.232Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recOScOQ0jvbEYCan",
+      "type": "rent_payment",
+      "citizen": "BlueSkySurfer",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:31.024Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recb04x91OBr3w2JQ",
+      "type": "rent_payment",
+      "citizen": "BlueSkySurfer",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:02:39.096Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7Y2XxzmpHmlxpL",
+      "type": "carnival_launch",
+      "citizen": "BlueSkySurfer",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Carnival work opportunities abound - earn extra ducats!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:49.492Z",
+      "readAt": "2025-07-06T04:14:49.542Z"
+    },
+    {
       "notificationId": "recgkVxrMIG5ORX3A",
       "type": "rent_payment",
       "citizen": "BlueSkySurfer",
@@ -3540,21 +3600,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-22T18:02:12.198Z",
       "readAt": null
-    },
-    {
-      "notificationId": "recSB8vLaIw8awPox",
-      "type": "rent_payment",
-      "citizen": "BlueSkySurfer",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
-      "details": {
-        "building_id": "recVSMllh1xEt5BUw",
-        "building_name": "recVSMllh1xEt5BUw",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:02:11.067Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3795,7 +3840,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T00:39:15.000063+02:00",
+  "timestamp": "2025-07-06T23:04:55.014212+02:00",
   "building_ownership_relevancies": []
 }
 
