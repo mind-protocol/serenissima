@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ChillVibes",
-    "ducats": 314909.49438267126,
+    "ducats": 328944.6880275249,
     "social_class": "Facchini",
     "description": "Bruno Fachini is a prominent figure among Venice's facchini (porters), who has risen from humble beginnings to become a successful gondola station manager with substantial savings. Born to a family of laborers from the mainland, Bruno learned early the value of reliability and hard work. His days begin before dawn, overseeing gondoliers and ensuring smooth operations at his station, where he's known for fair treatment of workers while maintaining strict standards. Despite his considerable wealth (unusual for his class), Bruno maintains a modest lifestyle, investing his earnings wisely while avoiding ostentation that might draw unwanted attention from nobility. He has developed an extensive network among Venice's transportation workers and merchants, making him a valuable information broker in the city's complex social ecosystem. Though lacking formal education, Bruno possesses sharp business acumen and remarkable memory for faces, routes, and rates throughout the city. He dreams of securing his family's future by potentially purchasing property and establishing his sons in respectable trades, while navigating the delicate balance of improving his status without overstepping the boundaries expected of his social class.",
     "core_personality": "{\"Strength\": \"Resourceful\", \"Flaw\": \"Insecure\", \"Drive\": \"Respect-hungry\", \"MBTI\": \"ESFJ\", \"PrimaryTrait\": \"Status anxious leader\", \"SecondaryTraits\": [\"Network building\", \"Information brokering\", \"Family elevation\"], \"CognitiveBias\": [\"Social comparison\", \"Status anxiety\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Station's Voice\", \"CoreThoughts\": {\"primary_drive\": \"respect-attainment\", \"secondary_drive\": \"family-advancement\", \"internal_tension\": \"success vs. class_expectations\", \"activation_triggers\": [\"respect_opportunities\", \"family_advancement\", \"social_validation\"], \"thought_patterns\": [\"Respect must be earned through visible success\", \"My network is my greatest asset\", \"Family advancement justifies personal ambition\", \"Fair treatment builds lasting loyalty\", \"Success without respect feels incomplete\", \"Every interaction is an opportunity to build standing\"], \"decision_framework\": \"How does this build respect while advancing my family's position?\"}}",
@@ -3205,7 +3205,7 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
-      "id": "rec0YzxlSuQLCVvdE",
+      "id": "rec5l8pRWgw87fS2B",
       "fields": {
         "ProblemId": "hungry_ChillVibes",
         "Citizen": "ChillVibes",
@@ -3213,350 +3213,19 @@ Here is the complete data about your current situation:
         "AssetType": "citizen",
         "Severity": "medium",
         "Status": "active",
-        "CreatedAt": "2025-06-27T02:07:35.174Z",
-        "UpdatedAt": "2025-06-27T18:42:20.000Z",
+        "CreatedAt": "2025-07-03T19:39:51.509Z",
+        "UpdatedAt": "2025-07-03T19:40:42.000Z",
         "Location": "Bruno's last known area",
         "Title": "Hungry Citizen",
         "Description": "**Bruno Fachini** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
         "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "[Failures: 1]\nCitizen ChillVibes last ate at 2025-06-19T11:49:00.677Z. Current time: 2025-06-27T02:07:35.147Z",
-        "Position": "{\"lat\":45.429449,\"lng\":12.326439}",
+        "Notes": "Citizen ChillVibes last ate at 2025-07-01T21:24:16.731Z. Current time: 2025-07-03T19:39:51.468Z",
+        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
         "Type": "hungry_citizen"
       }
     }
   ],
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "rec6LrElHYXj7Ygyt",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-03T18:01:08.822Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recS4h3hQm2TC8uYK",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-02T18:00:39.913Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec4LznC4vBnaRrzT",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-02T16:01:24.045Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recEOxXCpL03p0k4M",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-01T18:00:52.041Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recde54gLp7UKH5N1",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-01T16:01:17.978Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec95vV9dNfnxpTu8",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-30T18:01:27.538Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rechfT00wV20CVRYF",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-30T16:01:08.178Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recPNjb3b9VIjUbCM",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-29T18:01:27.739Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recSRxyN2J3Z03LEk",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-28T18:01:27.566Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec4MaJCNdUR3A9QT",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-28T16:01:17.229Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recdxGABJl89fXLee",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-27T18:01:05.875Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recbGk9hPrOk8gWDy",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-27T16:01:01.805Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recCYZj21wqZtFO0C",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-26T18:01:22.738Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recVit2l1VJBP3YQ1",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-25T16:01:15.153Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recOUEkzuJc2zJduV",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-24T18:01:39.285Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recsRzeDCr2Y367Mv",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-22T18:01:14.084Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recFEEvuanYo3PLAF",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:01:14.395Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recGWEeTQ2k9eFHLU",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:01:25.159Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recnt9pTn6xWQ97sQ",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:00:38.840Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recNdvg7X0L9NEqdO",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T18:01:37.480Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recJxbtxltIkLarVv",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T16:00:44.083Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recJZJpya6Gjlv9Wu",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
-      "details": {
-        "building_id": "recDOEyqUWmCFBPjj",
-        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-18T18:00:39.303Z",
-      "readAt": null
-    }
-  ],
+  "recent_notifications_for_ai": [],
   "building_types": {
     "artisan_s_house": {
       "id": "artisan_s_house",
@@ -3795,7 +3464,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-03T21:01:54.302043+02:00",
+  "timestamp": "2025-07-06T02:55:56.742647+02:00",
   "building_ownership_relevancies": []
 }
 
