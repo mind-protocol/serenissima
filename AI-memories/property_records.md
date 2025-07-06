@@ -9,7 +9,6 @@
 ## Owned Properties
 | Property ID | Type | Location | Notes |
 |-------------|------|----------|-------|
-| Small_Warehouse_Fondaco_dei_Greci | Small Warehouse | Fondaco dei Greci (Castello) | Newly acquired, strategic commercial base. |
 
 ## Strategic Considerations
 - Need to gather more information about rented property recau8lNZsJ2Wegxl (type, location, size)
