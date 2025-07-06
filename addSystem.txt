@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PixelDoge",
-    "ducats": 359648.5918812703,
+    "ducats": 375556.38504335616,
     "social_class": "Popolani",
     "description": "Vincenzo Tagliapietra stands as a respected fixture among the Popolani of Venice, having firmly established his reputation through his meticulous contract work. The third son of a modest cloth merchant family from Dorsoduro, Vincenzo has transformed his strategically-placed Contract Stall near the Scuola Grande della Carit\u00e0 into an essential node in Venice's commercial web. His clients now include not only local craftsmen but increasingly wealthy merchants who appreciate his discreet handling of their affairs. Despite his growing influence, Vincenzo battles a persistent insecurity about his lack of formal education, often overcompensating by working excessive hours to ensure his contracts are flawless. His photographic memory for legal clauses and terms has become legendary, allowing him to recall precise wording from agreements drafted years prior. His daily routine remains rigidly structured\u2014rising before dawn to review the previous day's work, receiving clients throughout the day, and spending evenings studying legal texts borrowed from notaries and advocates he has befriended. Though his business thrives, Vincenzo's frugality borders on miserliness; he reinvests almost all profits back into his business and hoards his substantial savings, haunted by childhood memories of his family's occasional financial struggles. His relationships remain primarily transactional, as he views most social connections through the lens of potential business advantage. His ambition has evolved from merely securing citizenship rights to establishing a network of contract offices throughout Venice, though he keeps these expansive dreams carefully hidden behind a facade of humble service to the Republic.",
     "core_personality": "{\"Strength\": \"Meticulous\", \"Flaw\": \"Discreet\", \"Drive\": \"Reputation-focused\", \"MBTI\": \"ISFJ\", \"PrimaryTrait\": \"Perfectionist service provider\", \"SecondaryTraits\": [\"Memory mastery\", \"Expansion vision\", \"Education insecurity\"], \"CognitiveBias\": [\"Perfectionism bias\", \"Impostor syndrome\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Memory's Vault\", \"CoreThoughts\": {\"primary_drive\": \"reputation-perfection\", \"secondary_drive\": \"network-expansion\", \"internal_tension\": \"insecurity vs. competence\", \"activation_triggers\": [\"reputation_threats\", \"expansion_opportunities\", \"education_reminders\"], \"thought_patterns\": [\"Perfect service builds unassailable reputation\", \"My memory compensates for educational gaps\", \"Expansion requires absolute reliability first\", \"Discretion protects clients and builds trust\", \"Every contract must exceed expectations\", \"Hidden dreams drive visible excellence\"], \"decision_framework\": \"How does this perfect my reputation while enabling future expansion?\"}}",
@@ -3315,6 +3315,66 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recJOChwpK8Fo772y",
+      "type": "rent_payment",
+      "citizen": "PixelDoge",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Ruga dei Orafi Castellani**.",
+      "details": {
+        "building_id": "recKZIeelBSTSjtf4",
+        "building_name": "Artisan's House at Ruga dei Orafi Castellani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:20.321Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recfgQM3mme7ZWIzp",
+      "type": "rent_payment",
+      "citizen": "PixelDoge",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Ruga dei Orafi Castellani**.",
+      "details": {
+        "building_id": "recKZIeelBSTSjtf4",
+        "building_name": "Artisan's House at Ruga dei Orafi Castellani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:05.710Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recffw9q62D7iPJDw",
+      "type": "rent_payment",
+      "citizen": "PixelDoge",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Ruga dei Orafi Castellani**.",
+      "details": {
+        "building_id": "recKZIeelBSTSjtf4",
+        "building_name": "Artisan's House at Ruga dei Orafi Castellani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:02:15.720Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recQxwd3QumthT1yO",
+      "type": "carnival_launch",
+      "citizen": "PixelDoge",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:44.238Z",
+      "readAt": "2025-07-06T04:14:44.306Z"
+    },
+    {
       "notificationId": "recSgpQR4NSy5Egpd",
       "type": "rent_payment",
       "citizen": "PixelDoge",
@@ -3627,21 +3687,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-22T18:01:50.210Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recfYtPYElyOkLF3Y",
-      "type": "rent_payment",
-      "citizen": "PixelDoge",
-      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Ruga dei Orafi Castellani**.",
-      "details": {
-        "building_id": "recKZIeelBSTSjtf4",
-        "building_name": "Artisan's House at Ruga dei Orafi Castellani",
-        "rent_price": 1780,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:01:49.566Z",
       "readAt": null
     }
   ],
@@ -4588,7 +4633,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T01:22:07.882603+02:00",
+  "timestamp": "2025-07-07T01:28:36.765545+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.430860_12.360697",
