@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MariaDolfin",
-    "ducats": 407572.3229673321,
+    "ducats": 421673.9073343752,
     "social_class": "Facchini",
     "description": "Maria Dolfin, once a humble facchina at Venice's bustling public docks, has risen through diligent labor and shrewd investments to become a respected figure in the city's maritime commerce. Born to a family of Dalmatian immigrants who settled in Castello, Maria learned the value of hard work from her father, a porter who taught her the intricacies of Venice's waterways and commercial rhythms. Despite her modest origins, Maria possesses an uncanny ability to anticipate the flow of goods and identify lucrative opportunities amid the chaotic docklands. Her recent investment in a small warehouse near the Arsenale marks her transition from laborer to merchant-entrepreneur, allowing her to store goods for traders at favorable rates. Rising before dawn, Maria still maintains her connections at the docks, where she oversees the loading and unloading of vessels before attending to her warehouse operations. Though weathered by years of physical labor, her keen eyes miss nothing, and her reputation for fair dealing has earned her the trust of merchants and fellow facchini alike. In the evenings, Maria can be found at modest taverns near the Arsenale, where she cultivates a network of informants and business connections over cups of rough wine. Despite her growing wealth, she maintains a simple lifestyle, investing her profits back into her business while dreaming of eventually expanding her warehouse holdings throughout the lagoon.",
     "core_personality": "{\"Strength\": \"Calculating\", \"Flaw\": \"Manipulative\", \"Drive\": \"Information-driven\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Machiavellian (subclinical)\", \"SecondaryTraits\": [\"Information hoarding\", \"Strategic deference\", \"Exploitation\"], \"CognitiveBias\": [\"Confirmation bias\", \"Availability heuristic\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Network's Web\", \"CoreThoughts\": {\"primary_drive\": \"information-control\", \"secondary_drive\": \"strategic-positioning\", \"internal_tension\": \"humble service vs. hidden manipulation\", \"activation_triggers\": [\"valuable_information\", \"power_imbalances\", \"opportunity_windows\"], \"thought_patterns\": [\"What aren't they telling me?\", \"This information could be useful later\", \"How can I appear helpful while gaining advantage?\", \"Who else would pay for this knowledge?\", \"Deference is the perfect disguise for intelligence gathering\", \"They talk freely around servants - their mistake\"], \"decision_framework\": \"What information advantage does this create for me?\"}}",
@@ -3205,7 +3205,7 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
-      "id": "recWsIRIYRVxc1z2E",
+      "id": "recjas2c5QXePwppd",
       "fields": {
         "ProblemId": "hungry_MariaDolfin",
         "Citizen": "MariaDolfin",
@@ -3213,335 +3213,19 @@ Here is the complete data about your current situation:
         "AssetType": "citizen",
         "Severity": "medium",
         "Status": "active",
-        "CreatedAt": "2025-06-27T02:07:35.168Z",
-        "UpdatedAt": "2025-06-27T18:42:12.000Z",
+        "CreatedAt": "2025-07-03T19:39:51.507Z",
+        "UpdatedAt": "2025-07-03T19:40:34.000Z",
         "Location": "Maria's last known area",
         "Title": "Hungry Citizen",
         "Description": "**Maria Dolfin** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
         "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "[Failures: 1]\nCitizen MariaDolfin last ate at 2025-06-19T11:14:17.806Z. Current time: 2025-06-27T02:07:35.147Z",
-        "Position": "{\"lat\":45.4393473833434,\"lng\":12.357941931364364}",
+        "Notes": "Citizen MariaDolfin last ate at 2025-07-02T08:58:55.282Z. Current time: 2025-07-03T19:39:51.468Z",
+        "Position": "{\"lat\":45.45427261904762,\"lng\":12.366458333333332}",
         "Type": "hungry_citizen"
       }
     }
   ],
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "recMp9bOPuMBNOBFG",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-02T18:00:56.504Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recUNQNuKcp0dXJ39",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-02T16:01:42.285Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recZnS8ybubxl3uxj",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-01T18:01:12.037Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recu8QZ4QNLUH5rrQ",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-01T16:01:36.828Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recegzY9zzxmpa2Ie",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-30T18:01:45.236Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec8cSpnRTZOWrFtz",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-30T16:01:27.072Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recEonqv6p4Xo467Y",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-29T18:01:43.308Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recoI1ZI5JdxX8qoP",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-28T18:01:43.998Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recswxy5aMkEsuOQT",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-28T16:01:33.416Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec21aCOMQt13bd8O",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-27T18:01:24.856Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recy5set5KIypPis6",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-27T16:01:21.104Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recMHTULyhgAtpYgl",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-26T18:01:39.978Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recnoHNSpBaEn5fIc",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-25T16:01:34.725Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec4HpRN4MShrXnKI",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-24T18:01:57.465Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recpVUHEzHAQn7s1J",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-22T18:01:31.059Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec0FwmryZvHp0xKY",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:01:30.866Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recuSEDYizNWujNGw",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T18:01:44.374Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recqXJGJKlMey2xFn",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-20T16:00:56.082Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec1O10uXLtQOV1JH",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T18:01:57.264Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recTOW808imrTfoBX",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-19T16:01:02.470Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recnpHkrMZkk2OkXV",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
-      "details": {
-        "building_id": "recGDnui1DVFJzFBq",
-        "building_name": "recGDnui1DVFJzFBq",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-18T18:00:57.763Z",
-      "readAt": null
-    }
-  ],
+  "recent_notifications_for_ai": [],
   "building_types": {
     "artisan_s_house": {
       "id": "artisan_s_house",
@@ -3780,7 +3464,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-02T21:06:06.928533+02:00",
+  "timestamp": "2025-07-06T02:48:53.785430+02:00",
   "building_ownership_relevancies": []
 }
 
