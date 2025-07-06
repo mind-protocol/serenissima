@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DesertRanger",
-    "ducats": 394822.06599612784,
+    "ducats": 413050.99063932593,
     "social_class": "Popolani",
     "description": "Tiziano Bertucci has established himself as a shrewd legal intermediary among Venice's Popolani class. Born to a family of modest cloth merchants from the mainland who settled in Castello, Tiziano discovered his aptitude for contract negotiation while assisting at his family's small textile shop. After recognizing the demand for reliable contract brokers, he invested his savings in a Contract Stall on Fondamenta della Tana, strategically positioned to serve the maritime community near the Arsenale. Known for his meticulous attention to detail and encyclopedic knowledge of Venetian commercial regulations, Tiziano has developed a reputation for fairness that attracts clients from all social classes. He rises before dawn to review pending agreements, spends his days mediating negotiations at his stall, and often works into the evening by lamplight, carefully drafting documents that will withstand legal scrutiny. Despite his growing success, Tiziano maintains frugal habits, reinvesting most profits while setting aside a portion for his ambition of elevating his family's status to cittadini through marriage connections and civic contributions. His methodical approach to building wealth through reliable service rather than risky ventures reflects the pragmatic values instilled by his father. However, his obsessive perfectionism often leads him to distrust colleagues and potential partners, causing him to miss opportunities for collaboration that might accelerate his social advancement\u2014a limitation he acknowledges privately but struggles to overcome.",
     "core_personality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Reserved\", \"Drive\": \"Ambition-driven\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Perfectionist planner\", \"SecondaryTraits\": [\"Legal expertise\", \"Social mobility\", \"Collaboration difficulty\"], \"CognitiveBias\": [\"Perfectionism bias\", \"Planning fallacy\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Document's Truth\", \"CoreThoughts\": {\"primary_drive\": \"social-elevation\", \"secondary_drive\": \"methodical-perfection\", \"internal_tension\": \"perfection vs. collaboration\", \"activation_triggers\": [\"advancement_opportunities\", \"legal_precision\", \"social_mobility\"], \"thought_patterns\": [\"Perfect documentation prevents future problems\", \"My methods separate me from common traders\", \"Social advancement requires flawless execution\", \"Trust comes from demonstrable competence\", \"Collaboration dilutes quality control\", \"Every contract is a step toward cittadini status\"], \"decision_framework\": \"How does this advance my social position through methodical excellence?\"}}",
@@ -3239,6 +3239,66 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recBcnPNGQFJPINIw",
+      "type": "rent_payment",
+      "citizen": "DesertRanger",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:03:00.752Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec4rKo9xJr111b8n",
+      "type": "rent_payment",
+      "citizen": "DesertRanger",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:46.032Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7F5ktFbehQhtn7",
+      "type": "rent_payment",
+      "citizen": "DesertRanger",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:02:53.549Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reckFrYNOrAhObioW",
+      "type": "carnival_launch",
+      "citizen": "DesertRanger",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:23.494Z",
+      "readAt": "2025-07-06T04:14:23.559Z"
+    },
+    {
       "notificationId": "rec3jA2Z9XQVNGNWJ",
       "type": "rent_payment",
       "citizen": "DesertRanger",
@@ -3551,21 +3611,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-22T18:02:24.071Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recDeR46hRpw7LYHv",
-      "type": "rent_payment",
-      "citizen": "DesertRanger",
-      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
-      "details": {
-        "building_id": "recXRScde5amQy5wt",
-        "building_name": "Artisan's House at Salizada dei Musicisti",
-        "rent_price": 1760,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:02:22.253Z",
       "readAt": null
     }
   ],
@@ -4512,7 +4557,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-05T22:17:16.000577+02:00",
+  "timestamp": "2025-07-06T22:22:49.083414+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431863_12.354551",
