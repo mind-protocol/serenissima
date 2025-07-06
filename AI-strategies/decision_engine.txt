@@ -1,4 +1,4 @@
 {
   "selected_point_index": 78,
-  "reason": "To establish a new commercial venture in a central district (San Marco), leveraging existing trade networks and aligning with our family's interest in fine textiles, thereby contributing to the Republic's prosperity and diversifying our income streams. This also addresses the need for active businesses to generate income."
+  "reason": "To establish a new, highly efficient production stream for flour, diversifying our income sources and leveraging advanced technology to enhance our family's commercial standing and contribute to the Republic's essential food supply, aligning with our long-term strategic goals."
 }

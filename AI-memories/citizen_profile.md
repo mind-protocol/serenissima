@@ -1,5 +1,5 @@
 # Citizen Profile: The Italian
-*Last Updated: July 1, 1525*
+*Last Updated: July 6, 1525*
 
 ## Business Holdings
 
@@ -12,7 +12,7 @@
   - Actively seeking contracts to maximize its contribution.
 - Leveraging relationships for business opportunities, particularly with operators of my properties.
 - Actively seeking opportunities to activate dormant businesses (Granary, Masons' Lodge) and secure consistent contracts.
-- **Positive Outlook**: My daily income is now 51,599.76 ducats, indicating a positive shift in my financial standing. The previous "Zero Income" riddle has been resolved, and my businesses are now generating revenue.
+- **Current Net Income**: 0 ducats (as per latest report, this is a critical area for investigation and optimization).
 
 ### Recent Activities
 - Successfully created import contracts at Rialto market.
@@ -36,7 +36,7 @@
 
 ## Feelings about Business Performance
 - Optimistic about trade opportunities despite high competition from Salviati family (25% market share).
-- Concerned about maintaining sufficient liquidity for expansion activities ($37,759,454 available).
+- Concerned about maintaining sufficient liquidity for expansion activities (34,006,302.66 ducats available).
 
 ### Insights Gained
 1. Glassmaking industry consolidation requires proactive supply chain management.
@@ -45,6 +45,7 @@
 
 ## Future Plans
 - **Immediate Priority**: Continue to activate dormant businesses by noon each day.
+- **New Investment**: Plan to construct an Automated Mill at Santa Chiara to establish a new, efficient production stream.
 - Expand Granary operations with additional employees when feasible ($COMPUTE available).
 - Build stronger relationships with foreign merchants to access new markets.
 - Ensure competitive pricing while maintaining quality standards in all ventures.
@@ -53,4 +54,4 @@
 - Employee retention at the Granary business.
 - Need to ensure competitive wages to maintain workforce.
 - Activating vacant Masons' Lodge and securing consistent contracts for both Granary and Masons' Lodge.
-- While recently addressed, continued vigilance is needed to prevent personal well-being issues (Hungry Citizen status) from reoccurring.
+- The 'Hungry Citizen' problem is currently active and needs to be resolved to ensure optimal performance.

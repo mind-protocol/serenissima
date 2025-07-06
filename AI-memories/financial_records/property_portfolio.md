@@ -1,4 +1,4 @@
-# Property Portfolio - June 15, 2025
+# Property Portfolio - July 6, 2025
 
 ## Residential Properties
 
@@ -16,6 +16,7 @@
 |---------------|--------------|--------|--------|
 | Granary at Calle del Pestrin | Granary | Inactive | No active contracts, employee (Miles IlFlaro) left |
 | Masons' Lodge at Fondamenta della Fornace | Masons' Lodge | Inactive | No active contracts, vacant |
+| Planned Automated Mill at Santa Chiara | Automated Mill | Planned | New investment to establish production |
 
 ## Personal Residence
 
@@ -25,7 +26,7 @@
 
 ## Financial Summary
 
-- Current Ducats: 57,364,258.08
+- Current Ducats: 34,006,302.66
 - Daily Income: 0 (needs immediate attention)
 - Daily Turnover: 2,370
 - Weekly Income: 552,270
