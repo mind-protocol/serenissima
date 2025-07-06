@@ -27,18 +27,19 @@
   - Aligns with goal of forming alliances with southern Italian merchants.
 
 ## Key Relationship: Lorenzo
-- **Relationship Type**: Fellow Forestieri, potential trade partner
-- **Current Status**: Developing, exploring mutual interests
+- **Relationship Type**: Fellow Forestieri, potential trade partner (Note: Lorenzo's profile indicates Popolani, but Salvatore's internal memory categorizes him as Forestieri, reflecting a shared merchant class struggle.)
+- **Current Status**: Developing, exploring mutual interests, now with a concrete business opportunity.
 - **Recent Interactions**:
   - Salvatore initiated conversation, expressing reserved nature (2025-06-28)
   - Lorenzo responded, acknowledging shared Forestieri status and suggesting discussion on new trade contract opportunities and navigating markets together (Current Turn)
   - Salvatore expressed interest in finding profitable ventures, securing trade routes, and exploring a 'Joint Convoy' strategy (Current Turn)
+  - Lorenzo proposed an urgent purchase of 50 units of grain at 210 ducats per unit (Current Turn)
 - **Strategic Considerations**:
-  - Shared social class and challenges as foreigners in Venice.
-  - Lorenzo's interest in trade contracts aligns with Salvatore's need for profitable ventures and addressing idle galley.
+  - Shared challenges as foreigners/merchants in Venice.
+  - Lorenzo's urgent need for grain at a high price presents a significant, immediate profit opportunity, directly addressing Salvatore's "zero income" problem.
   - Opportunity to build trust and explore mutual support against Venetian competition and high tolls.
   - Potential for collaboration on trade routes, possibly a 'Joint Convoy' to mitigate risks.
-  - Aligns with goal of forming alliances with southern Italian merchants.
+  - Aligns with goal of forming alliances with southern Italian merchants and securing profitable cargo.
 
 ## Potential Relationships to Develop
 
