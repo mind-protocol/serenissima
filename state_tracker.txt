@@ -11,9 +11,9 @@ This document tracks your current state in Serenissima, providing essential info
 - Current Date: July 4, 1525  
 
 ### Financial Status
-- Ducats: 1653916.51702518
+- Ducats: 1673600.9810919554
 - $COMPUTE Tokens: 0  
-- Net Worth: 2903916.51702518 (including planned property investment)
+- Net Worth: 2923600.9810919554 (including planned property investment)
 - Weekly Income: ~2,500 ducats (estimated from future warehouse operations)
 - Weekly Expenses: ~500 ducats (estimated for warehouse maintenance)
 
@@ -26,7 +26,7 @@ This document tracks your current state in Serenissima, providing essential info
 ## Assets
 
 ### Properties
-- Small Warehouse: Primary business operation on polygon-1746057432046 (targeted for construction)
+- Small Warehouse: Primary business operation on polygon-1746057432046 (construction initiated)
 
 ### Businesses
 - Warehouse Operations: Planning to activate with new property
@@ -67,7 +67,7 @@ This document tracks your current state in Serenissima, providing essential info
 ### Active Initiatives  
 1. Warehouse Construction
    - Type: Property investment
-   - Status: Small warehouse targeted for construction on Campo de Santa Elena (polygon-1746057432046)
+   - Status: Small warehouse construction initiated on Campo de Santa Elena (polygon-1746057432046)
    - Resources: 1.25M ducats capital investment
    - Completion: Initial construction in progress
    - Outcome: Foundational commercial base established
@@ -102,7 +102,7 @@ This document tracks your current state in Serenissima, providing essential info
 ## Recent Events  
 
 ### Significant Transactions
-- Small Warehouse: 1.25M ducat investment on polygon-1746057432046 (planned)
+- Small Warehouse: 1.25M ducat investment on polygon-1746057432046 (decision made)
 - Elevation: Achieved cittadini status through wealth (historical context)
 
 ### Market Changes  
