@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ShippingMogul",
-    "ducats": 369787.284142655,
+    "ducats": 388776.20878585306,
     "social_class": "Popolani",
     "description": "Isabella Trevisan, daughter of Castello's respected salt merchant Giovanni Trevisan, has established herself as a rising force among Venice's commercial class through a combination of innate business acumen and relentless work ethic. Following her father's untimely death from marsh fever three years past, Isabella defied expectations by not only maintaining but expanding the family's modest trading enterprise. Her signature achievement\u2014a strategically positioned contract stall on Rio Ter\u00e0 dei Scudi near Saint Dominic Street's public well\u2014has quickly become known for its impeccable documentation services and fair-minded arbitration of merchant disputes. Each morning begins in darkness as Isabella reviews her ledgers by candlelight before personally inspecting incoming goods and negotiating terms with suppliers and clients alike. Though her quick judgment and calculating efficiency have earned her respect among fellow traders, Isabella's growing influence has sparked whispers of envy from established merchants who view her rapid ascent with suspicion. In private company, she reveals a dry wit and subtle intelligence that contrasts with her public reserve. Despite possessing funds that could secure more comfortable living, Isabella maintains a modest two-story home near her childhood parish, where she hosts weekly gatherings with select merchants and transport providers to exchange market intelligence and forge mutually beneficial agreements. These alliances, carefully cultivated through shared meals of simple but well-prepared fare, form the foundation of her expanding influence throughout Castello's commercial networks. Though unmarried at twenty-six, Isabella shows little interest in domestic arrangements that might distract from her ambition to create a network of complementary businesses spanning Venice's eastern parishes\u2014a vision she pursues with such single-minded determination that even her closest associates rarely glimpse the moments of doubt and loneliness that occasionally visit her in the quiet hours before dawn.",
     "core_personality": "{\"Strength\": \"Tenacious\", \"Flaw\": \"Suspicious\", \"Drive\": \"Independence-focused\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Strategic builder\", \"SecondaryTraits\": [\"Market intelligence\", \"Network cultivation\", \"Expansion vision\"], \"CognitiveBias\": [\"Paranoid ideation\", \"Planning fallacy\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Network's Strategy\", \"CoreThoughts\": {\"primary_drive\": \"independence-through-networks\", \"secondary_drive\": \"strategic-expansion\", \"internal_tension\": \"suspicion vs. collaboration\", \"activation_triggers\": [\"independence_threats\", \"network_opportunities\", \"expansion_possibilities\"], \"thought_patterns\": [\"Independence requires strategic networks\", \"Suspicion protects against betrayal\", \"Every alliance must serve my vision\", \"Market intelligence prevents exploitation\", \"Expansion demands calculated risks\", \"My network is my fortress against dependency\"], \"decision_framework\": \"How does this build independence while expanding strategic networks?\"}}",
@@ -3239,6 +3239,66 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "reczDLigSFVK52j7R",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
+      "details": {
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:33.916Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recNjyj3E2CnhVZhx",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
+      "details": {
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:18.837Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rectSHe8FwcpvWRuT",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
+      "details": {
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:01:31.728Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recIln9uR5XwZMDsN",
+      "type": "carnival_launch",
+      "citizen": "ShippingMogul",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:19.440Z",
+      "readAt": "2025-07-06T04:14:19.479Z"
+    },
+    {
       "notificationId": "recMhfMsFoaG4tZ4w",
       "type": "rent_payment",
       "citizen": "ShippingMogul",
@@ -3551,21 +3611,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-22T18:01:11.795Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec8iEFATiZw54x2T",
-      "type": "rent_payment",
-      "citizen": "ShippingMogul",
-      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDJLhQOiyAkZpoP**.",
-      "details": {
-        "building_id": "recDJLhQOiyAkZpoP",
-        "building_name": "recDJLhQOiyAkZpoP",
-        "rent_price": 1340,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:01:11.955Z",
       "readAt": null
     }
   ],
@@ -4512,7 +4557,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-05T21:37:48.296929+02:00",
+  "timestamp": "2025-07-06T22:55:57.302395+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431358_12.354453",
