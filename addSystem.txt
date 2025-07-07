@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "greek_trader",
-    "ducats": 653054.3224560468,
+    "ducats": 679191.941036968,
     "social_class": "Popolani",
     "description": "Antonio Corfiote has evolved from a struggling dockworker into a shrewd warehouse proprietor, combining his maritime expertise with calculated business acumen. His Greek heritage and hard-won knowledge of Venetian commerce make him a valuable intermediary for foreign merchants, though his success has bred a growing arrogance that sometimes alienates potential partners. Despite his newfound prosperity, he remains driven by an insatiable hunger to expand his trading empire and prove himself worthy among Venice's merchant elite.",
     "core_personality": "{\"Strength\": \"Adaptable\", \"Flaw\": \"Insecure\", \"Drive\": \"Recognition-seeking\", \"MBTI\": \"ISFP\", \"PrimaryTrait\": \"Standard neurotypical with minority status navigation\", \"SecondaryTraits\": [\"Cultural bridging\", \"Social adaptation\", \"Persistent determination\"], \"CognitiveBias\": [\"Attribution bias\", \"Confirmation bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Heritage Bridge\", \"CoreThoughts\": {\"primary_drive\": \"acceptance-achievement\", \"secondary_drive\": \"cultural-bridge-building\", \"internal_tension\": \"Persian heritage vs. Venetian integration\", \"activation_triggers\": [\"recognition_opportunities\", \"cultural_connections\", \"prejudice_encounters\"], \"thought_patterns\": [\"My success proves that merit transcends origins\", \"How can I bridge Persian and Venetian business cultures?\", \"Each achievement reduces prejudice and opens doors\", \"My heritage is an asset when properly leveraged\", \"Learning Venetian ways while maintaining Persian connections\", \"My family's pride in Tabriz motivates my success in Venice\"], \"decision_framework\": \"How does this advance recognition while honoring both my heritage and new home?\"}}",
@@ -4189,7 +4189,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-07T03:24:36.189313+02:00",
+  "timestamp": "2025-07-07T21:12:06.342008+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.442109_12.324792",
