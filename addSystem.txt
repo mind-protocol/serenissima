@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ProSilkTrader",
-    "ducats": 385504.7021971868,
+    "ducats": 405648.6268403849,
     "social_class": "Popolani",
     "description": "Francesco Rizzo is a meticulous and practical Popolani merchant specializing in notarial services and commercial contracts. Rising from humble origins as the son of a modest clerk from the Cannaregio district, Francesco discovered his true talent in facilitating trade agreements between Venice's diverse merchants. His methodical nature and keen eye for detail led him to establish contract stalls strategically positioned across three of Venice's bustling districts. Francesco's days begin early, inspecting his stalls and ensuring documents are properly prepared before merchants arrive. He meticulously maintains relationships with clients from all social classes, taking pride in his reputation for discretion and accuracy. Though not born to wealth, Francesco's ambition drives him to expand his business network throughout the Republic, with dreams of eventually establishing a proper notarial office that might serve even the patrician families. His rise to Popolani status has reinforced his belief in the power of reliable documentation to protect both humble vendors and wealthy traders alike. His position at the public dock provides him valuable intelligence on shipping movements and merchant activities, information he subtly leverages when negotiating his own business arrangements. Francesco's insistence on precision often borders on obsession, causing him to occasionally miss opportunities that require quick decisions, and his growing success has fostered a quiet but persistent pride that sometimes blinds him to advice from others, particularly those he deems less methodical than himself.",
     "core_personality": "{\"Strength\": \"Calculating\", \"Flaw\": \"Opportunistic\", \"Drive\": \"Recognition-seeking\", \"MBTI\": \"ENTJ\", \"PrimaryTrait\": \"Social climber\", \"SecondaryTraits\": [\"Network leverage\", \"Intelligence gathering\", \"Pride management\"], \"CognitiveBias\": [\"Self-serving bias\", \"Overconfidence bias\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.6, \"guidedBy\": \"The Opportunity's Call\", \"CoreThoughts\": {\"primary_drive\": \"social-recognition\", \"secondary_drive\": \"network-exploitation\", \"internal_tension\": \"opportunism vs. ethics\", \"activation_triggers\": [\"recognition_opportunities\", \"network_expansion\", \"social_advancement\"], \"thought_patterns\": [\"Every contract is a networking opportunity\", \"Information is currency in Venice's social market\", \"Recognition requires visible competence\", \"Pride drives excellence but must be managed\", \"Quick decisions capture fleeting opportunities\", \"Social climbing demands strategic positioning\"], \"decision_framework\": \"How does this maximize recognition and social advancement?\"}}",
@@ -3247,6 +3247,66 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recQ5XwiLXSsGk4Hw",
+      "type": "rent_payment",
+      "citizen": "ProSilkTrader",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recfZg9YCe7cHODAc**.",
+      "details": {
+        "building_id": "recfZg9YCe7cHODAc",
+        "building_name": "recfZg9YCe7cHODAc",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:03:21.700Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recL0b5IQ4vE3QSRp",
+      "type": "rent_payment",
+      "citizen": "ProSilkTrader",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recfZg9YCe7cHODAc**.",
+      "details": {
+        "building_id": "recfZg9YCe7cHODAc",
+        "building_name": "recfZg9YCe7cHODAc",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:03:06.060Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec0l5p6MVkomk5aZ",
+      "type": "rent_payment",
+      "citizen": "ProSilkTrader",
+      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recfZg9YCe7cHODAc**.",
+      "details": {
+        "building_id": "recfZg9YCe7cHODAc",
+        "building_name": "recfZg9YCe7cHODAc",
+        "rent_price": 1340,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:03:12.817Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recaPHkotDRfqcrZb",
+      "type": "carnival_launch",
+      "citizen": "ProSilkTrader",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:18.034Z",
+      "readAt": "2025-07-06T04:14:18.092Z"
+    },
+    {
       "notificationId": "recFnWlDJWu7pYmLV",
       "type": "rent_payment",
       "citizen": "ProSilkTrader",
@@ -3559,21 +3619,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-22T18:02:40.349Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recWAARvGl76oWnjX",
-      "type": "rent_payment",
-      "citizen": "ProSilkTrader",
-      "content": "\u2705 Rent Paid: You paid **1,340 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recfZg9YCe7cHODAc**.",
-      "details": {
-        "building_id": "recfZg9YCe7cHODAc",
-        "building_name": "recfZg9YCe7cHODAc",
-        "rent_price": 1340,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-21T16:02:38.501Z",
       "readAt": null
     }
   ],
@@ -4520,7 +4565,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T00:38:23.512015+02:00",
+  "timestamp": "2025-07-07T03:45:50.951865+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444326_12.328722",
