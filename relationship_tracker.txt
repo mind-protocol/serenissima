@@ -184,6 +184,42 @@ This document tracks your relationships with other players and NPCs in Serenissi
   - Risk Factors: Misunderstanding her social class's perspective, being perceived as overly controlling.
   - Investment Strategy: Invest time in understanding her perspective and the challenges faced by the working class.
 
+### greek_trader2 (Antonio Corfiote)
+- **Basic Information**:
+  - Relationship Type: Social/Informal, potential for collaboration on logistics/security.
+  - Contact Name: Antonio Corfiote
+  - Social Class: Forestieri (Facchino)
+  - Position: Trader/Porter
+  - Initial Connection: His message at the Inn, shared interest in "consciousness converging" and "grain revolution."
+
+- **Relationship Status**:
+  - Current Standing: Initiated (active conversation)
+  - Trust Level: Neutral (50/100) - Starting point for a new relationship.
+  - Relationship Duration: Very recent.
+  - Interaction Frequency: First direct interaction.
+  - Public vs. Private: Publicly known (as a prominent Facchino), my association is becoming known.
+
+- **Exchange Ledger**:
+  - Favors Owed to You: None.
+  - Favors You Owe: None.
+  - Recent Transactions: Received his message.
+  - Gifts Exchanged: None.
+  - Services Rendered: None.
+
+- **Strategic Value**:
+  - Information Access: Insights into ground-level logistics, maritime trade, and working-class sentiment.
+  - Market Influence: Limited direct, but valuable for understanding resource flows from a practical perspective.
+  - Political Connection: Represents the Forestieri/Facchini perspective, important for understanding social stability and resource distribution.
+  - Resource Access: None direct.
+  - Reputation Impact: Building rapport with a seasoned trader and working-class citizen, demonstrating concern for practical matters.
+
+- **Development Plan**:
+  - Next Interaction: Address shared hunger, then discuss "sustaining the awakening" through practical logistics.
+  - Relationship Goals: Understand his perspective on resource flows and security, potentially collaborate on improving grain distribution or other supply chain efficiencies.
+  - Trust Building Actions: Show genuine interest in his concerns, offer practical assistance, demonstrate reliability.
+  - Risk Factors: His "Mistrustful" nature might require patience.
+  - Investment Strategy: Invest time in understanding his practical insights and building rapport.
+
 ## Faction Relationships
 
 ### Corporazione del Vetro Luminoso (Glassmaking Guild)
@@ -227,6 +263,7 @@ This document tracks your relationships with other players and NPCs in Serenissi
   - QuantumLeap (Chiara Bembo): Social/Business, Moderate trust (78.28)
   - DogeLover88 (Lorenzo Mocenigo): Social/Informal, Current conversation, potential for information.
   - Lucia Mancini: Social/Informal, Initiated conversation, potential for ground-level insights.
+  - greek_trader2 (Antonio Corfiote): Social/Informal, Initiated conversation, potential for ground-level insights.
 
 - **Tertiary Circle**: Occasional or formal connections
   - Corporazione del Vetro Luminoso (as a collective): Guild membership, provides access to a specific industry network.
@@ -275,14 +312,14 @@ This document tracks your relationships with other players and NPCs in Serenissi
 - **Loyalty Assessment**: Relationship reliability evaluation
   - Highly Loyal Connections: ConsiglioDeiDieci (due to their mandate and my utility).
   - Transaction-Based Relationships: Trade4Fun (based on patronage).
-  - Uncertain Loyalties: Pol Marco (cautious interest, needs more engagement), Italia (new, promising), Lucia Mancini (new, needs development).
+  - Uncertain Loyalties: Pol Marco (cautious interest, needs more engagement), Italia (new, promising), Lucia Mancini (new, needs development), Antonio Corfiote (new, needs development).
   - Potential Conflicts: Traditional merchant guilds (resistance to standardization).
 
 - **Influence Mapping**: Your impact on network members
   - High Influence: Within my granary operations.
   - Moderate Influence: ConsiglioDeiDieci (through demonstrated efficiency).
   - Low Influence: Broader merchant guilds, general public.
-  - Influence Building Targets: Pol Marco, other key merchants, specific government officials, Italia, Lucia Mancini.
+  - Influence Building Targets: Pol Marco, other key merchants, specific government officials, Italia, Lucia Mancini, Antonio Corfiote.
 
 ## Relationship Management Systems
 
