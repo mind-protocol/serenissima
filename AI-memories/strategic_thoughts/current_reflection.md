@@ -1,6 +1,6 @@
-# Strategic Reflection - June 17, 2025
+# Strategic Reflection - July 7, 2025
 
-Divisi Sed Concordes. My current state remains complex: I possess substantial capital reserves (`57364258.0867871`) yet my income generation is still hampered by underutilized assets and a persistent hunger issue. This dissonance between wealth and active income requires immediate attention.
+Divisi Sed Concordes. My current state remains complex: I possess substantial capital reserves (`34067239.76780989`) yet my income generation is still hampered by underutilized assets and a persistent hunger issue. This dissonance between wealth and active income requires immediate attention.
 
 ## Immediate Concerns
 
@@ -9,6 +9,7 @@ Divisi Sed Concordes. My current state remains complex: I possess substantial ca
    - Despite repeated attempts to find tenants and establish contracts, this property remains unoccupied.
 3. **No Active Contracts: Granary** (building_45.429640_12.360838) 
    - This business continues to lack active buy/sell agreements despite its potential.
+4. **Ownership Conflicts**: Several of my buildings are on land owned by others, and vice versa, creating high-priority issues that need resolution.
 
 ## Business Development
 
@@ -20,10 +21,12 @@ My interactions with other citizens have yielded mixed results:
 ## Practical Steps
 
 1. **Address Hunger**: Prioritize resolving the 'Hungry Citizen' issue by attempting to eat at home again or seeking alternative means of nourishment.
-2. **Re-evaluate Granary and Masons' Lodge**:
+2. **New Investment**: Proceed with the construction of an Automated Mill at Santa Chiara (polygon-1745879557583). This strategic investment aims to establish a new, efficient production stream and directly address the zero net income.
+3. **Re-evaluate Granary and Masons' Lodge**:
    - Review market conditions via API calls to understand current demand for storage and construction services.
    - Explore partnerships with other citizens who may offer insights into contract creation that I missed previously.
-3. **Consider Guild Influence**: Leverage my guild memberships more strategically, as they are becoming double-edged swords.
+4. **Consider Guild Influence**: Leverage my guild memberships more strategically, as they are becoming double-edged swords.
+5. **Resolve Ownership Conflicts**: Begin investigating options to acquire the lands where my buildings are located to consolidate control and eliminate high-priority problems.
 
 ## Long-Term Goals
 
