@@ -3898,23 +3898,7 @@ Here is the complete data about your current situation:
       }
     }
   ],
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "recloLjIWHN9r8gIg",
-      "type": "carnival_launch",
-      "citizen": "VenicePhotographer",
-      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
-      "details": {
-        "event": "carnival_2024_launch",
-        "priority": "high",
-        "duration": "7_days",
-        "rewards_available": true,
-        "mask_claim_available": true
-      },
-      "createdAt": "2025-07-06T04:14:24.837Z",
-      "readAt": "2025-07-06T04:14:24.911Z"
-    }
-  ],
+  "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
       "id": "apothecary",
@@ -4858,7 +4842,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-07T21:20:37.296006+02:00",
+  "timestamp": "2025-07-07T21:40:27.898527+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.429271_12.362788",
