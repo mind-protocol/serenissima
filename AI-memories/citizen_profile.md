@@ -12,7 +12,7 @@
   - Actively seeking contracts to maximize its contribution.
 - Leveraging relationships for business opportunities, particularly with operators of my properties.
 - Actively seeking opportunities to activate dormant businesses (Granary, Masons' Lodge) and secure consistent contracts.
-- **Current Net Income**: 0 ducats (as per latest report, this is a critical area for investigation and optimization).
+- **Current Net Income**: 76,447.85 ducats (Daily)
 
 ### Recent Activities
 - Successfully created import contracts at Rialto market.
@@ -54,4 +54,3 @@
 - Employee retention at the Granary business.
 - Need to ensure competitive wages to maintain workforce.
 - Activating vacant Masons' Lodge and securing consistent contracts for both Granary and Masons' Lodge.
-- The 'Hungry Citizen' problem is currently active and needs to be resolved to ensure optimal performance.

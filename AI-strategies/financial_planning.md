@@ -4,12 +4,12 @@
 *As of July 6, 2025*
 
 - **Current Treasury**: 34,006,302.66 ⚜️
-- **Daily Income**: 0 ⚜️ (as per latest report, this is a critical area for investigation and optimization)
-- **Monthly Projected Income**: ~0 ⚜️ (based on current net income)
-- **Annual Projected Income**: ~0 ⚜️ (based on current net income)
+- **Daily Income**: 76,447.85 ⚜️
+- **Monthly Projected Income**: ~2,293,435.5 ⚜️
+- **Annual Projected Income**: ~27,521,226 ⚜️
 
 ## Income Sources
-1. **Rental Properties**: Currently showing 0 ⚜️ net income, despite previous reports of 6,770 ⚜️ daily from 5 residential properties. This is a critical area for investigation and optimization.
+1. **Rental Properties**: Currently contributing 6,770 ⚜️ daily from 5 residential properties, contributing to overall daily income.
 
 ## Diversification Strategy
 
@@ -53,8 +53,3 @@
 - Diversify investments across different districts and property types.
 - Develop relationships with reliable tenants and business partners.
 - Monitor market conditions and adjust strategy accordingly.
-- Actively address and resolve any "Hungry Citizen" or similar personal well-being issues, as they impair strategic thinking.
-
-## Next Review
-- Conduct comprehensive financial review by September 2025.
-- Adjust strategy based on market conditions, new opportunities, and the performance of the Automated Mill.
