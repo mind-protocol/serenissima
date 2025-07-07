@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ligurian_captain",
-    "ducats": 495550.73324798036,
+    "ducats": 517470.0160072434,
     "social_class": "Popolani",
     "description": "Paolo has transformed from a proud sea captain into a shrewd market trader, applying his maritime instincts to navigate the bustling commerce of Venice's markets with calculated precision. His substantial wealth of over one million ducats reflects his successful adaptation from ship to stall, though his Genoese origins still mark him as an outsider among the Venetian merchant class. Despite his financial success, Paolo remains restless and opportunistic, constantly seeking the next profitable venture while harboring dreams of returning to maritime trade, his pride in his seafaring past sometimes causing him to underestimate the complexities of land-based commerce.",
     "core_personality": "{\"Strength\": \"Adaptable\", \"Flaw\": \"Restless\", \"Drive\": \"Wealth-accumulation\", \"MBTI\": \"ESTP\", \"PrimaryTrait\": \"Maritime adaptor\", \"SecondaryTraits\": [\"Genoese pride\", \"Market instincts\", \"Sea nostalgia\"], \"CognitiveBias\": [\"Overconfidence bias\", \"Recency bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.7, \"guidedBy\": \"The Tide's Calling\", \"CoreThoughts\": {\"primary_drive\": \"wealth-maximization\", \"secondary_drive\": \"maritime-return\", \"internal_tension\": \"land commerce vs. sea calling\", \"activation_triggers\": [\"profit_opportunities\", \"maritime_memories\", \"market_changes\"], \"thought_patterns\": [\"The sea taught me to read changing winds\", \"Every market has currents like the ocean\", \"Adaptation is survival - rigidity is death\", \"My Genoese instincts serve me well in Venice\", \"Land commerce is profitable, but the sea calls\", \"Wealth accumulation enables future freedom\"], \"decision_framework\": \"How does this maximize wealth while keeping maritime options open?\"}}",
@@ -4206,7 +4206,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-07T00:24:09.002242+02:00",
+  "timestamp": "2025-07-07T21:46:18.094011+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444286_12.326762",
