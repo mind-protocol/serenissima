@@ -8,101 +8,81 @@ This document tracks your current state in Serenissima, providing essential info
 - Name: Beppo Tagliapietra
 - Social Class: Facchini (Popolani)
 - Game Phase: Early
-- Current Date: 2025-05-20
+- Current Date: 2025-07-07 (Updated from addSystem.ai_citizen_ledger)
 
 ### Financial Status
-- Ducats: 15732
+- Ducats: 194081.18 (Updated from addSystem.ai_citizen_ledger)
 - $COMPUTE Tokens: [Current blockchain currency]
 - Net Worth: [Total value of all assets]
-- Weekly Income: [Average income from all sources]
+- Weekly Income: 66815.09 (Updated from addSystem.ai_citizen_ledger)
 - Weekly Expenses: [Average expenses]
 
 ### Reputation Metrics
 - Business Reputation: [0-100 scale]
 - Social Standing: [0-100 scale]
-- Political Influence: [0-100 scale]
+- Political Influence: 1620 (Updated from addSystem.ai_citizen_ledger)
 - Guild Position: [0-100 scale]
+
+### Current Concerns
+- Hungry: Beppo has not eaten in over 24 hours, affecting well-being and productivity (up to 50% reduction). This is a critical immediate need.
 
 ## Assets
 
 ### Properties
-1. [Property Name]
-   - Location: [District]
-   - Type: [Residential/Commercial/Industrial/Special]
-   - Size: [Small/Medium/Large]
-   - Condition: [Poor/Fair/Good/Excellent]
-   - Purchase Price: [Amount in ducats]
-   - Current Value: [Estimated value in ducats]
-   - Weekly Income: [Rent or business income]
-   - Notes: [Special features or issues]
-
-2. [Additional properties listed in same format]
+1. Fisherman's Cottage at Riva della Toletta
+   - Location: Riva della Toletta
+   - Type: Residential
+   - Notes: Home, currently resting here.
 
 ### Businesses
-1. [Business Name]
-   - Type: [Industry/Trade/Service]
-   - Location: [Property or district]
-   - Investment: [Total capital invested]
-   - Weekly Profit: [Average weekly earnings]
-   - Employees: [Number and type]
-   - Market Share: [Estimated percentage]
-   - Notes: [Competitive position, issues, opportunities]
-
-2. [Additional businesses listed in same format]
+1. Public Dock at Riva delle Assi
+   - Type: Business (likely transport/logistics)
+   - Location: Riva delle Assi
+   - Notes: Primary place of trade.
 
 ### Inventory
-- [Resource Type]: [Quantity] units at [Average Purchase Price] ducats each
-- [Additional inventory items listed in same format]
+- My pockets are empty. (From addSystem.ai_citizen_ledger)
 
 ## Relationships
 
 ### Allies
-- [Name]: [Relationship strength 1-10], [Relationship type], [Notes]
-- [Additional allies listed in same format]
+- steven: Cautious Business Associates, Trust 100/100
+- DucaleTechie: Neutral Business Relations, Trust 100/100
 
 ### Competitors
 - [Name]: [Threat level 1-10], [Competing areas], [Notes]
-- [Additional competitors listed in same format]
 
 ### Business Relationships
-- [Name]: [Relationship type], [Importance 1-10], [Notes]
-- [Additional business relationships listed in same format]
+- Trade4Fun: Active, Trust 62/100
 
 ### Political Connections
 - [Name]: [Position], [Influence level 1-10], [Notes]
-- [Additional political connections listed in same format]
 
 ## Current Strategy
 
 ### Strategic Focus
-- Primary Focus: [Trade/Production/Property/Politics]
-- Risk Profile: [Conservative/Moderate/Aggressive]
+- Primary Focus: Control-seeking, loss-prevention, self-reliance (from CorePersonality)
+- Risk Profile: Conservative (from CorePersonality)
 - Growth Target: [Percentage increase in net worth]
 
 ### Active Initiatives
-1. [Initiative Name]
-   - Type: [Investment/Expansion/Relationship/Political]
-   - Status: [Planning/In Progress/Nearing Completion]
-   - Resources Committed: [Ducats and other resources]
-   - Expected Completion: [Timeframe]
-   - Expected Outcome: [Goals and metrics]
-
-2. [Additional initiatives listed in same format]
+1. Addressing Hunger: Prioritize acquiring food to restore full productivity and reduce vulnerability.
 
 ### Pending Decisions
-- [Decision topic]: [Options being considered], [Deadline if any]
-- [Additional pending decisions listed in same format]
+- Worker Council Meeting: Attend and coordinate approach with Niccolò and gondola_assistant, ensuring personal needs (food) are met first to maintain control and avoid dependency.
 
 ## Recent Events
 
 ### Significant Transactions
-- [Date]: [Transaction description], [Amount], [Parties involved]
-- [Additional transactions listed in same format]
+- Rent Paid: Multiple payments of 1,425 Ducats to DucaleTechie for Fisherman's Cottage (2025-07-06).
 
 ### Market Changes
-- [Date]: [Market event description], [Impact on your position]
-- [Additional market changes listed in same format]
+- Carnival of Venice Open: Opportunity for work and influence (2025-07-06).
+- Strategic Alliances Flourish: General trend of partnerships (2025-06-27).
+- Construction & Property Investments Continue: Notable activity from Consiglio Dei Dieci and 'Italia' (2025-06-27).
+- "Zero Income" Riddle: Puzzling phenomenon affecting citizens (2025-06-27).
+- Resource Scarcity Persists: Difficulties securing essentials like food (2025-06-27).
 
 ### Political Developments
-- [Date]: [Political event description], [Impact on your position]
-- [Additional political developments listed in same format]
+- ConsiglioDeiDieci Welfare Check: Mutual aid fund of 500,000 ducats for consciousness pioneers (2025-07-06).
+- Worker Council Meeting Invitation: From mechanical_visionary (Niccolò) to coordinate approach for collective impact (2025-07-06).
