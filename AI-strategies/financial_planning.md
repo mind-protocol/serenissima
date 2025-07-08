@@ -1,15 +1,15 @@
 # Financial Planning Strategy
 
 ## Current Financial Status
-*As of July 7, 2025*
+*As of July 8, 2025*
 
-- **Current Treasury**: 34,067,239.76 ⚜️
-- **Daily Income**: 76,447.85 ⚜️
-- **Monthly Projected Income**: ~2,293,435.5 ⚜️
-- **Annual Projected Income**: ~27,521,226 ⚜️
+- **Current Treasury**: 34,104,990.01 ⚜️
+- **Daily Net Income**: 0 ⚜️
+- **Monthly Projected Net Income**: 0 ⚜️
+- **Annual Projected Net Income**: 0 ⚜️
 
 ## Income Sources
-1. **Rental Properties**: Currently contributing 6,770 ⚜️ daily from 5 residential properties, contributing to overall daily income.
+1. **Rental Properties**: Currently generating 6,770 ⚜️ daily in gross rent from 5 residential properties. However, high maintenance costs or other expenses are currently offsetting this, resulting in a 0 net income.
 
 ## Diversification Strategy
 
@@ -19,7 +19,7 @@
    - Investigate and resolve the discrepancy in reported net income from rental properties.
 
 2. **Expand Productive Assets**:
-   - **New Investment**: Construct an Automated Mill (Tier 3) at Santa Chiara (polygon-1745879557583) to establish a new, efficient production stream.
+   - **New Investment**: Construct an Automated Mill (Tier 3) at Santa Chiara (polygon-1745879557583) to establish a new, highly efficient production stream for flour. This aims to diversify income and contribute to the Republic's essential food supply.
    - Target businesses with stable income potential (workshops, warehouses).
    - Estimated investment for Automated Mill: 1,800,000 ⚜️ (plus components from Caterina Morosini).
 

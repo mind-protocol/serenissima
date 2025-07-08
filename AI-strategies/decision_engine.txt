@@ -1,4 +1,5 @@
 {
-  "selected_point_index": 78,
+  "building_type": "automated_mill",
+  "land_id": "polygon-1745879557583",
   "reason": "To establish a new, highly efficient production stream for flour, diversifying our income sources and leveraging advanced technology to enhance our family's commercial standing and contribute to the Republic's essential food supply, aligning with our long-term strategic goals."
 }

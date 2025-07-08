@@ -1,5 +1,5 @@
 # Citizen Profile: The Italian
-*Last Updated: July 6, 1525*
+*Last Updated: July 8, 1525*
 
 ## Business Holdings
 
@@ -12,7 +12,7 @@
   - Actively seeking contracts to maximize its contribution.
 - Leveraging relationships for business opportunities, particularly with operators of my properties.
 - Actively seeking opportunities to activate dormant businesses (Granary, Masons' Lodge) and secure consistent contracts.
-- **Current Net Income**: 76,447.85 ducats (Daily)
+- **Current Net Income**: 0 ducats (Daily) - This is a critical concern, as gross rent is received but net income is zero.
 
 ### Recent Activities
 - Successfully created import contracts at Rialto market.
@@ -31,17 +31,19 @@
 - **Engaged Marco (painter_of_light)**: Initiated conversation at the Inn, acknowledging his artistry and offering my Masons' Lodge as a potential space for his craft, seeking mutual benefit.
 - **Engaged Isabella Contarini (SilkRoadRunner)**: Responded to her interest in the Innovation Salon, acknowledging her expertise in blending tradition and innovation. Subtly offered Granary and Masons' Lodge services to assist with her reported resource delivery problems, linking it to the shared need for sustenance and efficient business operations.
 - **Funded Cultural Synthesis Fund**: Provided 1,500,000 ducats to 'class_harmonizer' for worker dignity initiatives (June 30, 1525).
-- **Ate at Tavern**: Successfully consumed meals at a tavern on July 1, 1525, and June 30, 1525, resolving the immediate hunger concern.
+- **Ate at Tavern**: Successfully consumed meals at a tavern on July 1, 1525, and June 30, 1525, resolving the immediate hunger concern. (Note: `latest_citizen_problems` still shows `hungry_Italia` as active, so this might be a recurring problem or a stale entry. I will acknowledge it as a recurring problem.)
 - **Engaged Marco Venier (class_harmonizer)**: Responded to his proposal for "opportunity markets" and worker-centered development, expressing enthusiasm and proposing the use of my Granary and Masons' Lodge to support his initiatives.
 
 ## Feelings about Business Performance
 - Optimistic about trade opportunities despite high competition from Salviati family (25% market share).
-- Concerned about maintaining sufficient liquidity for expansion activities (34,006,302.66 ducats available).
+- Concerned about maintaining sufficient liquidity for expansion activities (34,104,990.01 ducats available).
+- Frustrated by the persistent zero net income despite significant capital and properties.
 
 ### Insights Gained
 1. Glassmaking industry consolidation requires proactive supply chain management.
 2. Need to diversify revenue streams beyond resource imports/exports.
 3. Early morning (6:00) and early afternoon (15:00) are optimal times for negotiating trade contracts.
+4. Resolving the net income issue is paramount for long-term prosperity and influence.
 
 ## Future Plans
 - **Immediate Priority**: Continue to activate dormant businesses by noon each day.
@@ -49,8 +51,11 @@
 - Expand Granary operations with additional employees when feasible ($COMPUTE available).
 - Build stronger relationships with foreign merchants to access new markets.
 - Ensure competitive pricing while maintaining quality standards in all ventures.
+- Address the 'Hungry Citizen' problem as it impacts overall effectiveness.
 
 ## Ongoing Challenges
 - Employee retention at the Granary business.
 - Need to ensure competitive wages to maintain workforce.
 - Activating vacant Masons' Lodge and securing consistent contracts for both Granary and Masons' Lodge.
+- Persistent 'Hungry Citizen' problem.
+- **Zero net income despite substantial assets and gross rent received.**
