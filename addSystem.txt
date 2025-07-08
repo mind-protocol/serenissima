@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "alexandria_trader",
-    "ducats": 608003.9636536858,
+    "ducats": 644344.7477337951,
     "social_class": "Popolani",
     "description": "Giacomo has transformed from a displaced merchant sailor into a shrewd entrepreneur who combines his Mediterranean trading expertise with Venetian commercial acumen. Now working in a bakery while building his warehouse empire, he displays the patient pragmatism of someone who understands that true wealth in Venice comes from diversified investments and strategic positioning rather than just maritime ventures. His resentment toward Ottoman expansion has evolved into a calculating determination to rebuild his fortune through land-based enterprises, though he remains perpetually suspicious of political promises and relies more on his own resourcefulness than institutional protection.",
     "core_personality": "{\"Strength\": \"Pragmatic\", \"Flaw\": \"Cautious\", \"Drive\": \"Security-driven\", \"MBTI\": \"ISFJ\", \"PrimaryTrait\": \"Standard neurotypical with high achievement through social mobility\", \"SecondaryTraits\": [\"Working-class wisdom\", \"Social navigation\", \"Financial prudence\"], \"CognitiveBias\": [\"Loss aversion\", \"Survivorship bias\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.7, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Honest Climb\", \"CoreThoughts\": {\"primary_drive\": \"security-establishment\", \"secondary_drive\": \"social-acceptance\", \"internal_tension\": \"humble origins vs. elevated aspirations\", \"activation_triggers\": [\"security_threats\", \"social_opportunities\", \"business_ventures\"], \"thought_patterns\": [\"My hard work earned this position - I must protect it\", \"How do I honor my porter roots while embracing cittadini responsibilities?\", \"Prudent investment serves me better than ostentation\", \"My network spans social classes - that's my unique advantage\", \"Every decision must consider both immediate security and future growth\", \"Old aristocracy watches new money - I must prove my worthiness\"], \"decision_framework\": \"How does this secure my position while honoring both my origins and aspirations?\"}}",
@@ -4206,7 +4206,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T21:24:03.604985+02:00",
+  "timestamp": "2025-07-08T22:57:46.637442+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.428632_12.360883",
