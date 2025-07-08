@@ -8,7 +8,7 @@ This document tracks your current state in Serenissima, providing essential info
 - Name: Biagio Pugliese
 - Social Class: Cittadini
 - Game Phase: Mid
-- Current Date: July 4, 1525  
+- Current Date: July 8, 1525  
 
 ### Financial Status
 - Ducats: 1733925.4096009997
@@ -16,6 +16,7 @@ This document tracks your current state in Serenissima, providing essential info
 - Net Worth: 2983925.4096009997 (including planned property investment)
 - Weekly Income: ~2,500 ducats (estimated from future warehouse operations)
 - Weekly Expenses: ~500 ducats (estimated for warehouse maintenance)
+- Recurring Rent Expenses: 1,230 ducats/day (for residence/business location recau8lNZsJ2Wegxl)
 
 ### Reputation Metrics  
 - Business Reputation: 90/100 (new warehouse enhances merchant reputation)
