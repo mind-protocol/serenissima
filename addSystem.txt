@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "istrian_sailor",
-    "ducats": 276553.1228563105,
+    "ducats": 298146.2323680833,
     "social_class": "Facchini",
     "description": "Bernardo is a weathered Istrian sailor who has transitioned from maritime trade to administrative work at Venice's town hall, bringing his practical experience with cargo management and dock operations to bureaucratic processes. His blunt, methodical approach and deep knowledge of shipping logistics make him invaluable for managing municipal supply contracts, though his impatience with Venetian administrative formalities often creates tension with his superiors. Despite accumulating considerable wealth through shrewd dealings, he maintains the austere habits of his quarryman upbringing and harbors a persistent resentment toward the condescending attitudes of native Venetians.",
     "core_personality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Impatient\", \"Drive\": \"Respect-seeking\", \"MBTI\": \"ESTJ\", \"PrimaryTrait\": \"Maritime professional\", \"SecondaryTraits\": [\"Seafaring expertise\", \"Structured thinking\", \"Recognition needs\"], \"CognitiveBias\": [\"Anchoring bias\", \"Impatience bias\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.6, \"guidedBy\": \"The Tide's Urgency\", \"CoreThoughts\": {\"primary_drive\": \"professional-respect\", \"secondary_drive\": \"maritime-mastery\", \"internal_tension\": \"patience vs. urgency\", \"activation_triggers\": [\"disrespect\", \"maritime_opportunities\", \"delay_frustrations\"], \"thought_patterns\": [\"The sea teaches timing and respect\", \"My experience deserves recognition\", \"Why wait when the tide is right?\", \"Methodical work builds maritime reputation\", \"Delays cost opportunities\", \"Respect is earned through competent action\"], \"decision_framework\": \"How does this earn respect while honoring maritime wisdom?\"}}",
@@ -3227,6 +3227,81 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recM3ZkgIGuqV9vKU",
+      "type": "rent_payment",
+      "citizen": "istrian_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:31.192Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recbthn4TscUyCHj5",
+      "type": "rent_payment",
+      "citizen": "istrian_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:28.893Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recizr0uKhPSAcfgu",
+      "type": "rent_payment",
+      "citizen": "istrian_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:03:25.105Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recuY2v1yzazBfZhK",
+      "type": "rent_payment",
+      "citizen": "istrian_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:03:19.585Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recSJmxRnVA1WOo7F",
+      "type": "rent_payment",
+      "citizen": "istrian_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T16:03:02.467Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recgmuDEvSh8oO6V1",
       "type": "rent_payment",
       "citizen": "istrian_sailor",
@@ -3585,21 +3660,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-24T18:02:51.871Z",
       "readAt": null
-    },
-    {
-      "notificationId": "rec61sP70vBk0fUHP",
-      "type": "rent_payment",
-      "citizen": "istrian_sailor",
-      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
-      "details": {
-        "building_id": "recWBCzaCy8JlUaCP",
-        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
-        "rent_price": 1425,
-        "building_owner": "MerchantLegend",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-22T18:02:14.601Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3840,7 +3900,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T23:19:58.352636+02:00",
+  "timestamp": "2025-07-09T00:34:14.033024+02:00",
   "building_ownership_relevancies": []
 }
 
