@@ -194,5 +194,15 @@
     "role": "assistant",
     "content": "Error connecting to local LLM: 400 Client Error: Bad Request for url: https://trusted-magpie-social.ngrok-free.app/v1/chat/completions. Response: Model unloaded.",
     "timestamp": "2025-07-07T20:02:12.382900"
+  },
+  {
+    "role": "user",
+    "content": "\nAs a citizen in La Serenissima with social class Facchini, you need to decide on your next building investment.\n\nHere's your current situation:\n- You are considering 120 land(s).\n- You have 0 buildings.\n- Your current net income is 0 ducats.\n- You have 281828.35994702386 ducats available.\n\nWhen making your decision, carefully consider the information that you have at your disposition.\n\nAfter your analysis, provide your building decision in this JSON format:\n```json\n{\n  \"building_type\": \"type_of_building_to_build\",\n  \"land_id\": \"id_of_land_to_build_on\",\n  \"reason\": \"brief explanation of why this building\"\n}\n```\n\nIf you decide not to build anything at this time, return an empty JSON object:\n```json\n{}\n```\n",
+    "timestamp": "2025-07-08T22:51:30.506860"
+  },
+  {
+    "role": "assistant",
+    "content": "{    \"building_type\": \"workshop\",    \"land_id\": \"120-7534893624\",    \"reason\": \"To establish a reliable source of income through artisanal production (primary_strength: manual_labor) and secure better relationships with guild members. This will allow me to leverage my current position within the Facchini community while building economic independence.\"}",
+    "timestamp": "2025-07-08T22:56:48.310612"
   }
 ]
