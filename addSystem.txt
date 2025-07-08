@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FitnessFanatic",
-    "ducats": 324981.83130055515,
+    "ducats": 341271.1571201392,
     "social_class": "Facchini",
     "description": "Donato Fabbro is a respected porter (facchino) whose unexpected prosperity has raised eyebrows across the Rialto. Born to a family of dock workers, Donato has leveraged his powerful physique and surprising business acumen to transform what many consider menial labor into a thriving enterprise. Known for his ability to efficiently transport goods through Venice's labyrinthine streets and canals, he has cultivated a network of merchants who rely on his punctuality and discretion. Donato rises before dawn to secure the most profitable cargo assignments, often working until dusk. Despite his substantial wealth, he maintains a modest lifestyle, save for his fondness for quality Cypriot wine and occasional wagering on regattas. He has used his earnings to strategically invest in warehouse space, employing fellow facchini while maintaining a hands-on approach. Though illiterate, Donato possesses remarkable memory for numbers and faces, allowing him to operate without written records. His aspirations now turn toward legitimizing his status by establishing a recognized guild of porters, though the patrician authorities view such ambitions with skepticism.",
     "core_personality": "{\"Strength\": \"Tireless\", \"Flaw\": \"Insecure\", \"Drive\": \"Status-seeking\", \"MBTI\": \"ESFJ\", \"PrimaryTrait\": \"Recognition seeker\", \"SecondaryTraits\": [\"Guild ambitions\", \"Network building\", \"Legitimacy pursuit\"], \"CognitiveBias\": [\"Status anxiety\", \"Social comparison\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Guild's Vision\", \"CoreThoughts\": {\"primary_drive\": \"status-legitimization\", \"secondary_drive\": \"worker-organization\", \"internal_tension\": \"insecurity vs. ambition\", \"activation_triggers\": [\"status_challenges\", \"guild_opportunities\", \"recognition_moments\"], \"thought_patterns\": [\"Status requires organized effort, not just wealth\", \"A porter's guild would legitimize our work\", \"Recognition must be earned through visible achievement\", \"My success should elevate all porters\", \"Insecurity drives excellence and persistence\", \"Patricians respect organization more than individuals\"], \"decision_framework\": \"How does this build legitimate status while organizing my fellow workers?\"}}",
@@ -3227,6 +3227,81 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recCvx8I07FIiaTYy",
+      "type": "rent_payment",
+      "citizen": "FitnessFanatic",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Brentatori**.",
+      "details": {
+        "building_id": "rec4H8QivPBfZvRlR",
+        "building_name": "Fisherman's Cottage at Riva dei Brentatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:00:51.522Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recccUUPqPhfrdjWG",
+      "type": "rent_payment",
+      "citizen": "FitnessFanatic",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Brentatori**.",
+      "details": {
+        "building_id": "rec4H8QivPBfZvRlR",
+        "building_name": "Fisherman's Cottage at Riva dei Brentatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:00:50.726Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recnyKPC4xQEW3tkX",
+      "type": "rent_payment",
+      "citizen": "FitnessFanatic",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Brentatori**.",
+      "details": {
+        "building_id": "rec4H8QivPBfZvRlR",
+        "building_name": "Fisherman's Cottage at Riva dei Brentatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:01:15.768Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recEg5Q4r2fNdBPu6",
+      "type": "rent_payment",
+      "citizen": "FitnessFanatic",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Brentatori**.",
+      "details": {
+        "building_id": "rec4H8QivPBfZvRlR",
+        "building_name": "Fisherman's Cottage at Riva dei Brentatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:01:13.885Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recETPk1zcQRVo1DS",
+      "type": "rent_payment",
+      "citizen": "FitnessFanatic",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Brentatori**.",
+      "details": {
+        "building_id": "rec4H8QivPBfZvRlR",
+        "building_name": "Fisherman's Cottage at Riva dei Brentatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T16:01:00.822Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recRpSIhhH3tpGWg0",
       "type": "rent_payment",
       "citizen": "FitnessFanatic",
@@ -3585,21 +3660,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-24T18:01:15.707Z",
       "readAt": null
-    },
-    {
-      "notificationId": "recDPHMJScmGtqVfh",
-      "type": "rent_payment",
-      "citizen": "FitnessFanatic",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Brentatori**.",
-      "details": {
-        "building_id": "rec4H8QivPBfZvRlR",
-        "building_name": "Fisherman's Cottage at Riva dei Brentatori",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-22T18:00:53.368Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3840,7 +3900,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-06T22:09:20.778057+02:00",
+  "timestamp": "2025-07-09T00:12:13.676881+02:00",
   "building_ownership_relevancies": []
 }
 
