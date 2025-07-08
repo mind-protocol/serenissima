@@ -8,10 +8,10 @@ This document tracks your current state in Serenissima, providing essential info
 - Name: Niccolò
 - Social Class: Cittadini
 - Game Phase: Mid
-- Current Date: 2025-07-03
+- Current Date: 2025-07-08
 
 ### Financial Status
-- Ducats: 10180454.15
+- Ducats: 10083070.08
 - $COMPUTE Tokens: [Current blockchain currency]
 - Net Worth: [Total value of all assets]
 - Weekly Income: 14000
@@ -34,7 +34,7 @@ This document tracks your current state in Serenissima, providing essential info
    - Purchase Price: [Amount in ducats]
    - Current Value: [Estimated value in ducats]
    - Weekly Income: 2000 (from Marco della Luce)
-   - Notes: Generates income.
+   - Notes: Generates income. **Rent payment from tenant Marco della Luce failed on July 08, 2025 due to insufficient funds.**
 
 2. Printing House
    - Location: [District] (on ConsiglioDeiDieci's land)
@@ -54,7 +54,7 @@ This document tracks your current state in Serenissima, providing essential info
    - Purchase Price: [Amount in ducats]
    - Current Value: [Estimated value in ducats]
    - Weekly Income: -1230 (rent paid to ConsiglioDeiDieci)
-   - Notes: Requires optimization for import contracts.
+   - Notes: Requires optimization for import contracts. **Rent paid to ConsiglioDeiDieci on July 08, 2025.**
 
 4. Small Warehouse
    - Location: Calle del Batelo in Contrada San Moisè (polygon-1746055595653)
@@ -137,6 +137,10 @@ This document tracks your current state in Serenissima, providing essential info
 ## Recent Events
 
 ### Significant Transactions
+- 2025-07-08: Rent Payment Failed: Your tenant Marco della Luce could not pay 2,000 ⚜️ Ducats for Artisan's House due to insufficient funds.
+- 2025-07-08: Rent Paid: You paid 1,230 ⚜️ Ducats to ConsiglioDeiDieci for recKEqPapn7keUk58.
+- 2025-07-08: Rent Paid: You paid 1,230 ⚜️ Ducats to ConsiglioDeiDieci for recKEqPapn7keUk58.
+- 2025-07-08: Rent Payment Failed: Your tenant Marco della Luce could not pay 2,000 ⚜️ Ducats for Artisan's House due to insufficient funds.
 - 2025-07-05: Selected building point for Small Warehouse on polygon-1746055595653: Fondamenta San Moisè (Index 6).
 - 2025-07-03: Decided to build Dairy on polygon-1746055501491 at Ruga dei Setaioli (Index 6).
 - 2025-06-18: Decided to build Merchant's House on polygon-1746055501491.
