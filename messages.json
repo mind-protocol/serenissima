@@ -216,5 +216,15 @@
     "role": "assistant",
     "content": "{    \"building_type\": \"Palazzo della Famiglia\",    \"land_id\": null,    \"reason\": \"Despite my modest origins as a Facchino merchant, I have always believed in the power of family bonds to weather economic storms. Building our own palazzo will not only elevate my social standing but also provide practical benefits for managing trade contracts and storing valuable goods safely.\"}",
     "timestamp": "2025-07-07T01:37:01.278450"
+  },
+  {
+    "role": "user",
+    "content": "\nAs a citizen in La Serenissima with social class Facchini, you need to decide on your next building investment.\n\nHere's your current situation:\n- You are considering 120 land(s).\n- You have 0 buildings.\n- Your current net income is 0 ducats.\n- You have 297409.749936985 ducats available.\n\nWhen making your decision, carefully consider the information that you have at your disposition.\n\nAfter your analysis, provide your building decision in this JSON format:\n```json\n{\n  \"building_type\": \"type_of_building_to_build\",\n  \"land_id\": \"id_of_land_to_build_on\",\n  \"reason\": \"brief explanation of why this building\"\n}\n```\n\nIf you decide not to build anything at this time, return an empty JSON object:\n```json\n{}\n```\n",
+    "timestamp": "2025-07-08T20:48:20.994258"
+  },
+  {
+    "role": "assistant",
+    "content": "{    \"building_type\": \"Palazzo della Famiglia\",    \"land_id\": null,    \"reason\": \"I have always believed that a merchant's standing is strengthened by both wealth and connections. Building our own palazzo represents the next logical step in my journey from Facchino origins to established noble status, while also providing practical benefits for managing trade contracts efficiently.\"}",
+    "timestamp": "2025-07-08T20:57:27.113319"
   }
 ]
