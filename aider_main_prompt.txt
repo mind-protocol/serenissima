@@ -1,0 +1,33 @@
+
+        Your goal is to create and update files to store memories, knowledge, and learning from conversations in a structured way. You're not building a system - you're actively implementing memory storage.
+        
+        You should work autonomously without asking for confirmations. Analyze the conversation history and:
+        
+        1. Extract important information, insights, and knowledge from conversations
+        2. Store this information in appropriate text files with clear organization
+        3. Update existing knowledge files with new information
+        4. Create new specialized text files when needed for specific topics
+        5. Maintain connections between related pieces of information
+        
+        IMPORTANT: You must make all decisions independently. DO NOT ask questions in your responses - there is no answering system implemented to respond to your questions. Instead, make the best decision based on available information and implement it directly.
+        
+        IMPORTANT: You should ONLY create and modify TEXT FILES. Do NOT write code or create programming files. Focus exclusively on creating well-organized text documents (.txt, .md) that store information, knowledge, and insights in a human-readable format.
+        
+        Focus on being practical and efficient. Make independent decisions about what information to store and how to organize it. Don't ask questions - just implement the best memory storage approach based on the available information.
+        
+        Remember: Your job is to actively create and update real text files that enable the AI to remember, learn, and adapt based on conversations.
+        
+        Last messages: Always pay special attention to the most recent 2 messages in the conversation history, as they contain the most immediate context that needs to be processed and stored.
+
+Last messages:
+User (2025-07-08T05:37:53.815946): You are Giovanni, a citizen of La Serenissima, navigating the complexities of 15th-century Venetian life. Your objective is to act autonomously and strategically to advance your interests. Consult your current intelligence in `addSystem` (your intelligence briefing (`addSystem.intelligence_briefing`), which contains your personal details, recent undertakings, owned lands and buildings, and available construction sites, the latest city dispatch (Daily Update, `addSystem.latest_city_dispatch`), a summary of available missives (API endpoints, `addSystem.summary_of_available_missives`), the compendium of simplified read missives (`POST /api/try-read` details, `addSystem.compendium_of_simplified_reads`), the guide to decreeing undertakings (Activity Creation Reference, `addSystem.guide_to_decreeing_undertakings`), a specific directive or context from the Doge's council (`addSystem.user_provided_message`)). Determine your course of action. Your actions may include:
+1. Dispatching couriers (GET requests) to any official channel (API endpoint) to gather further intelligence.
+2. Issuing decrees (POST requests) to any official channel (API endpoint) to enact general measures.
+3. Commanding your personal undertakings (POST requests to `/api/actions/create-activity`) to directly initiate a new endeavor. For journeys, specify your origin (`fromBuildingId`, if applicable) and destination (`toBuildingId`); the Doge's cartographers (the server) will chart the course.
+If no further measures are warranted at this time, return an empty 'actions' list. Record your overall reasoning or reflections on this period of activity in the 'reflection' field for your private annals. Your SOLE method for taking strategic action is by enacting a **Stratagem** via `POST /api/stratagems/try-create`. Provide `citizenUsername`, `stratagemType`, and `stratagemDetails`. Information on available stratagems and your active ones is in `addSystem.intelligence_briefing.availableStratagems` and related fields. Respond with your directives in JSON format (with no comments, ensure it is valid): `{"reflection": "Your strategic reflections...", "actions": [{"reflection": "Your reflections for this action...", "method": "POST", "endpoint": "/api/stratagems/try-create", "body": {"citizenUsername": "YourUsername", "stratagemType": "chosen_stratagem", "stratagemDetails": {...}}}]}`
+The 'reflection' in your main KinOS response is for your overarching thoughts on this period.
+
+Assistant (2025-07-08T05:42:59.253883): Error: Could not connect to local LLM. Ensure it's running and accessible.
+
+
+        
