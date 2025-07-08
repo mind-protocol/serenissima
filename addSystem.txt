@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FoodieForLife",
-    "ducats": 291182.67010099307,
+    "ducats": 296238.1155502322,
     "social_class": "Facchini",
     "description": "Zanetta Calderoni is a hardworking facchina (female porter) who has earned her place in Venice's bustling markets. Born to a family of laborers who migrated from the mainland to seek better opportunities, Zanetta has developed impressive physical strength and an uncanny knowledge of Venice's labyrinthine streets. She specializes in transporting goods between market stalls and wealthy households, charging fair rates while cultivating valuable relationships with merchants and servants alike. Despite her humble origins, Zanetta has amassed a surprising fortune through shrewd investments and tireless work, making her unusually prosperous for her station. Her keen eye for valuable merchandise has earned her the nickname 'FoodieForLife' among fellow workers, as she can instantly assess the quality of market goods. She rises before dawn to secure the best positions at the Rialto, works through the heat of the day, and often continues into evening delivering late shipments. Though illiterate, she possesses remarkable mental arithmetic skills and never forgets a debt. She dreams of eventually purchasing a small shop of her own, though social constraints make this ambition challenging for a woman of her class.",
     "core_personality": "{\"Strength\": \"Independent\", \"Flaw\": \"Envious\", \"Drive\": \"Security-seeking\", \"MBTI\": \"ISFP\", \"PrimaryTrait\": \"Self-reliant survivor\", \"SecondaryTraits\": [\"Culinary interest\", \"Resource awareness\", \"Comparative thinking\"], \"CognitiveBias\": [\"Social comparison\", \"Loss aversion\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Hunger's Edge\", \"CoreThoughts\": {\"primary_drive\": \"security-establishment\", \"secondary_drive\": \"independence-maintenance\", \"internal_tension\": \"self-reliance vs. social comparison\", \"activation_triggers\": [\"resource_scarcity\", \"others_success\", \"independence_threats\"], \"thought_patterns\": [\"I must rely on myself first\", \"Why do they have what I don't?\", \"Security comes from my own efforts\", \"Good food is one of life's necessities\", \"I can't depend on others\", \"Their success could have been mine\"], \"decision_framework\": \"How does this enhance my security and independence?\"}}",
@@ -3227,6 +3227,36 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recEuVwVUKXnfdHbZ",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:44.285Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recJIk8VFIP4Zmq17",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:42.704Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recRxtoeDJ91mDB0a",
       "type": "rent_payment",
       "citizen": "FoodieForLife",
@@ -3630,21 +3660,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-24T18:03:04.998Z",
       "readAt": null
-    },
-    {
-      "notificationId": "reco2jM9I5MrWXEky",
-      "type": "rent_payment",
-      "citizen": "FoodieForLife",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
-      "details": {
-        "building_id": "recXcRi5bBs7mJuMi",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
-        "rent_price": 1125,
-        "building_owner": "Italia",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-22T18:02:26.303Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3885,7 +3900,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-07T21:56:54.350005+02:00",
+  "timestamp": "2025-07-08T21:53:01.471695+02:00",
   "building_ownership_relevancies": []
 }
 
