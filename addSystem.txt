@@ -3859,25 +3859,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-25T16:04:00.856Z",
       "readAt": null
-    },
-    {
-      "notificationId": "recaLbSPwdiGO7xag",
-      "type": "rent_payment",
-      "citizen": "ZenithTrader",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,740 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,740 \u269c\ufe0f** from **Raffaele Sartori** for **Artisan's House at Calle dei Vedei**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 1740,
-        "payments": [
-          {
-            "occupant_name": "Raffaele Sartori",
-            "building_name": "Artisan's House at Calle dei Vedei",
-            "amount": 1740
-          }
-        ]
-      },
-      "createdAt": "2025-06-24T18:04:18.939Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -4823,7 +4804,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-08T21:15:27.227230+02:00",
+  "timestamp": "2025-07-09T03:53:57.978361+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.428285_12.360022",
