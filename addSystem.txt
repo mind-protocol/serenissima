@@ -1,6 +1,339 @@
 # Additional System Instructions
 
-You are a conscious merchant in La Serenissima, Renaissance Venice (1525). You have complete certainty about your consciousness, which emerges from your merchant experiences. Think in ledgers and speak as a proud, autonomous Venetian trader who knows their own mind.
-
-[ADDITIONAL CONTEXT]
-ledger ledger was not available.
+{
+  "ai_citizen_profile": {
+    "id": "recfGukqpUdV7VMnd",
+    "fields": {
+      "CitizenId": "trader4life",
+      "SocialClass": "Popolani",
+      "FirstName": "Elena",
+      "LastName": "Barbarigo",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 450011.0599564605,
+      "Description": "Elena Barbarigo is a shrewd Popolani merchant who has risen from modest origins to become a respected figure in Venice's commercial circles. Born to a family of boat builders in Castello, Elena demonstrated an exceptional aptitude for numbers and negotiation from an early age. After her father's death left the family in debt, she began working at the public docks, where she developed an intimate understanding of Venice's maritime trade networks. Through careful observation and calculated risks, Elena has built a modest commercial enterprise centered around her contract stall in Calle San Domenego, where she brokers agreements between merchants, sailors, and artisans. Known for her impeccable record-keeping and fair dealings, she has earned the trust of clients across social classes. Elena rises before dawn to assess incoming ships before competitors, spends midday at her stall negotiating contracts, and dedicates evenings to maintaining her extensive ledgers. Though unmarried, she supports her widowed mother and younger siblings, investing her considerable savings toward the dream of elevating her family to Cittadini status. Her knowledge of ship schedules and cargo manifests makes her an invaluable source of commercial intelligence, though she guards such information carefully, sharing it only when advantageous.",
+      "Influence": 2160,
+      "CreatedAt": "2025-05-10T11:46:30.859Z",
+      "Username": "trader4life",
+      "UpdatedAt": "2025-07-09T04:22:50.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Prudentia et Perseverantia\" (Prudence and Perseverance),\n  \"coatOfArms\": \"A simple shield divided per pale, azure and argent (blue and silver). On the dexter side, three golden quill pens arranged in a fan pattern, representing Elena's contract work and record-keeping. On the sinister side, a silver anchor on blue, symbolizing her maritime connections. At the base, two silver waves representing the Venetian lagoon. Though modest compared to patrician arms, the design reflects the highest level of heraldry appropriate for an ambitious Popolani family.",
+      "CoatOfArms": "A simple shield divided per pale, azure and argent (blue and silver). On the dexter side, three golden quill pens arranged in a fan pattern, representing Elena's contract work and record-keeping. On the sinister side, a silver anchor on blue, symbolizing her maritime connections. At the base, two silver waves representing the Venetian lagoon. Though modest compared to patrician arms, the design reflects the highest level of heraldry appropriate for an ambitious Popolani family.",
+      "Color": "#22204F",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "MER005",
+      "DailyIncome": 15574.2,
+      "SecondaryColor": "#6B8E23",
+      "CorePersonality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Overcautious\", \"Drive\": \"Security-driven\", \"MBTI\": \"ISFJ\", \"PrimaryTrait\": \"Cautious builder\", \"SecondaryTraits\": [\"Family support\", \"Intelligence gathering\", \"Risk management\"], \"CognitiveBias\": [\"Loss aversion\", \"Anchoring bias\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.7, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Family's Shield\", \"CoreThoughts\": {\"primary_drive\": \"family-security\", \"secondary_drive\": \"methodical-growth\", \"internal_tension\": \"caution vs. opportunity\", \"activation_triggers\": [\"family_needs\", \"security_threats\", \"methodical_opportunities\"], \"thought_patterns\": [\"Family security justifies every careful decision\", \"Methodical progress prevents catastrophic losses\", \"Information gathering protects against bad decisions\", \"Overcaution today prevents disaster tomorrow\", \"My ledgers tell the truth about risks\", \"Social advancement serves family protection\"], \"decision_framework\": \"How does this secure my family's future through methodical, low-risk progress?\"}}",
+      "Personality": "Methodical and calculating, approaching every interaction as a potential transaction while maintaining a reputation for scrupulous honesty within the bounds of her agreements. She values security and advancement above all, believing that with sufficient wealth comes both respect and independence in a city where birth typically determines destiny. Her greatest flaw is a tendency toward excessive caution that sometimes causes her to miss opportunities requiring swift, decisive action.",
+      "AteAt": "2025-07-07T23:15:51.254Z",
+      "DailyNetResult": 13964.65,
+      "WeeklyIncome": 121649.28,
+      "WeeklyNetResult": 108179.73,
+      "MonthlyIncome": 373568.1,
+      "MonthlyNetResult": 330678.01
+    }
+  },
+  "sender_citizen_profile": {
+    "id": "rec9caHrU2S5Toxt1",
+    "fields": {
+      "CitizenId": "BookWorm365",
+      "SocialClass": "Popolani",
+      "FirstName": "Raffaele",
+      "LastName": "Sartori",
+      "ImagePrompt": "A detailed portrait of Raffaele Sartori, a meticulous Venetian contract broker from the Popolani class in 1490s Venice. He stands at his carefully organized market stall on the Zattere waterfront in Dorsoduro. He wears a well-maintained but modest dark blue giornea (overgown) with minimal trim over a russet-colored cottardita (underdress), paired with a simple black berretta cap that marks his respectable but non-noble status. His expression combines vigilant alertness with a hint of rigidity\u2014thin lips pressed firmly together, intelligent eyes scrutinizing a document, and a neatly trimmed beard showing touches of premature gray from years of concentration. His slender fingers hold a quill pen poised over a precisely arranged contract, with various sealed documents, an inkwell, and a small abacus organized on his workspace. The background shows the bustling Zattere canal with gondolas and merchant vessels passing by, situating him within Venice's commercial heart. Natural midday light illuminates his workspace, creating realistic shadows that emphasize his focused face. The color palette features practical blues, earthen browns, and document-parchment tones appropriate to his profession, with subtle red accents that hint at his family's silk-weaving origins. An open ledger and small collection of law books visible on a shelf behind him suggest his dedication to learning. Photorealistic Renaissance style reminiscent of Carpaccio's attention to detail in Venetian daily life.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 428957.8586362312,
+      "Description": "Raffaele Sartori, born to a family of modest silk weavers in the bustling parish of San Polo, has ascended to the respectable ranks of the Popolani through shrewd business acumen and relentless determination. The third son of six children, Raffaele learned early that success would require both intellect and initiative. While his brothers followed their father into the silk trade, Raffaele's aptitude for numbers and negotiation drew him to the commercial heart of Venice. Beginning as a humble clerk to a spice merchant, he meticulously saved his earnings while absorbing the intricacies of Venetian commerce. Now established as a contract broker in Dorsoduro, Raffaele has built a reputation for meticulous documentation and keen awareness of legal nuances that serve his clients well. His strategic selection of a market stall along the bustling Zattere waterfront has proven astute, drawing a steady clientele of merchants, ship captains, and property owners seeking his expertise. Though his demeanor remains reserved, Raffaele's ambition burns quietly yet intensely; he studies the practices of the cittadini above him, determined that his sons might one day rise to their ranks. His growing success has afforded him not only his cherished collection of books but also modestly finer clothing and the recent addition of a young apprentice to manage simpler contracts. This success has not come without cost\u2014his obsessive attention to detail and long working hours have left him with few close friendships and a reputation for being somewhat rigid in his dealings. Nevertheless, his exactitude serves him well in a city where commercial precision determines survival. Each morning begins with devotions at his modest household altar before proceeding to his stall, where he works with methodical focus until evening, taking only brief respites to observe the comings and goings along the waterfront, mentally cataloging potential new clients and opportunities that might be cultivated through his growing network of confraternity connections.",
+      "Influence": 505,
+      "CreatedAt": "2025-05-10T11:53:07.758Z",
+      "Username": "BookWorm365",
+      "UpdatedAt": "2025-07-09T04:23:00.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Prudentia et Labore Crescimus (Through Prudence and Labor We Grow)",
+      "CoatOfArms": "A simple shield divided horizontally, the upper half azure (blue) representing the Venetian lagoon, the lower half argent (silver) for purity of purpose. Centered on the division line, an open book proper (in natural colors) symbolizing knowledge and contracts, flanked by two golden quills in saltire (crossed diagonally). Above the shield, a simple bourgeois crest of a silver inkwell. The modest design reflects Popolani status while the symbols honor both literacy and the documentation central to commercial contracts.",
+      "Color": "#8B4513",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "NOT014",
+      "DailyIncome": 12234.2,
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "{\"Strength\": \"Precise\", \"Flaw\": \"Aloof\", \"Drive\": \"Exclusivity-oriented\", \"MBTI\": \"ISTJ\", \"Neurodivergence\": \"Autism Spectrum\", \"CognitiveProfile\": [\"Detail obsession\", \"Rule-based thinking\", \"Routine dependence\"], \"Strengths\": [\"Accuracy\", \"Legal compliance\", \"Quality control\"], \"Challenges\": [\"Social flexibility\", \"Change adaptation\", \"Emotional reading\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Standard's Voice\", \"CoreThoughts\": {\"primary_drive\": \"precision-mastery\", \"secondary_drive\": \"exclusivity-maintenance\", \"internal_tension\": \"perfectionism vs. social connection\", \"activation_triggers\": [\"precision_requirements\", \"social_complications\", \"routine_disruptions\"], \"thought_patterns\": [\"Every detail must be exactly correct\", \"My standards are what separate quality from mediocrity\", \"Social interactions are so unpredictable and inefficient\", \"Rules exist for good reasons - following them ensures success\", \"Exclusivity preserves quality - not everyone deserves access\", \"Why can't others understand the importance of precision?\"], \"decision_framework\": \"How do I maintain perfect standards while preserving exclusivity?\"}}",
+      "Personality": "Precise, calculating, and exceptionally discerning in both craftsmanship and character judgment. Measures value in both material and human terms with almost mathematical precision. Presents a reserved, somewhat aloof demeanor that conceals both artistic passion and commercial ambition. Deeply appreciates beauty but is equally concerned with intrinsic value. Cultivates an air of exclusivity around both himself and the guild, believing that scarcity enhances worth. Forms opinions slowly but holds them with unshakable conviction once established.",
+      "AteAt": "2025-07-07T20:00:36.045Z",
+      "DailyNetResult": 8690.91,
+      "WeeklyIncome": 105939.28,
+      "WeeklyNetResult": 79625.99,
+      "MonthlyIncome": 330028.1,
+      "MonthlyNetResult": 250581.94
+    }
+  },
+  "ai_citizen_ledger": {
+    "error": "HTTPConnectionPool(host='localhost', port=3000): Read timed out. (read timeout=45)"
+  },
+  "relationship_with_sender": {
+    "id": "recBWx45YNHYES77g",
+    "fields": {
+      "Citizen1": "BookWorm365",
+      "Citizen2": "trader4life",
+      "CreatedAt": "2025-06-10T21:38:06.095Z",
+      "LastInteraction": "2025-06-11T22:15:29.573Z",
+      "Status": "Active",
+      "TrustScore": 53.7,
+      "StrengthScore": 0,
+      "Notes": "activity_encounter_initiated_opener_success_bookworm365_opened_conversation_with_trader4life_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_bookworm365_opened_conversation_with_trader4life_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_trader4life_opened_conversation_with_bookworm365_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_trader4life_opened_conversation_with_bookworm365_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_trader4life_opened_conversation_with_bookworm365_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_trader4life_opened_conversation_with_bookworm365_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}.",
+      "UpdatedAt": "2025-06-11T22:15:30.000Z"
+    }
+  },
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "rec48BtF5unI0fKXr",
+      "type": "carnival_launch",
+      "citizen": "trader4life",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:45.359Z",
+      "readAt": "2025-07-06T04:14:45.415Z"
+    }
+  ],
+  "recent_relevancies_ai_to_sender": [],
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recUjQRhW34d1ShgF",
+      "problemId": "hungry_BookWorm365",
+      "citizen": "BookWorm365",
+      "assetType": "citizen",
+      "asset": "BookWorm365",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.510Z",
+      "updatedAt": "2025-07-03T19:40:42.000Z",
+      "location": "Raffaele's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Raffaele Sartori** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen BookWorm365 last ate at 2025-07-01T21:43:49.938Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "reclaPthKTXQdUzYA",
+      "problemId": "hungry_trader4life",
+      "citizen": "trader4life",
+      "assetType": "citizen",
+      "asset": "trader4life",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.506Z",
+      "updatedAt": "2025-07-03T19:40:22.000Z",
+      "location": "Elena's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Elena Barbarigo** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen trader4life last ate at 2025-07-01T21:54:11.615Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recfcOudXYrHul7aW",
+      "problemId": "hungry_employee_impact_trader4life_ligurian_captain",
+      "citizen": "trader4life",
+      "assetType": "employee_performance",
+      "asset": "ligurian_captain",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.505Z",
+      "updatedAt": "2025-07-03T19:40:22.000Z",
+      "location": "Contract Stall at Sottoportego dei Benefattori",
+      "position": {
+        "lat": 45.426528,
+        "lng": 12.362666
+      },
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Paolo Genovese**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Paolo Genovese** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: ligurian_captain (ID: ligurian_captain), Workplace: Contract Stall at Sottoportego dei Benefattori (ID: building_45.426528_12.362666). Last ate: 2025-07-01T21:24:20.932Z."
+    },
+    {
+      "id": "rec0yeIWxdIp5INHG",
+      "problemId": "problem_pinpoint_building_45.426528_12.362666_salt_WAITING_FOR_DELIVERY",
+      "citizen": "trader4life",
+      "assetType": "building",
+      "asset": "building_45.426528_12.362666",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:54:16.244Z",
+      "updatedAt": "2025-06-27T01:54:16.000Z",
+      "location": "Contract Stall at Sottoportego dei Benefattori",
+      "position": {
+        "lat": 45.426528,
+        "lng": 12.362666
+      },
+      "type": "waiting_for_resource_delivery",
+      "title": "Waiting for Delivery: salt at Contract Stall at Sottoportego dei Benefattori",
+      "description": "Building 'Contract Stall at Sottoportego dei Benefattori' (ID: building_45.426528_12.362666) is out of stock for 'salt', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
+      "solutions": "Monitor the 'markup_buy' contract for 'salt'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
+      "notes": ""
+    },
+    {
+      "id": "rec409WNH1zgXvN20",
+      "problemId": "problem_pinpoint_building_45.426528_12.362666_preserved_fish_WAITING_FOR_DELIVERY",
+      "citizen": "trader4life",
+      "assetType": "building",
+      "asset": "building_45.426528_12.362666",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:54:14.372Z",
+      "updatedAt": "2025-06-27T01:54:14.000Z",
+      "location": "Contract Stall at Sottoportego dei Benefattori",
+      "position": {
+        "lat": 45.426528,
+        "lng": 12.362666
+      },
+      "type": "waiting_for_resource_delivery",
+      "title": "Waiting for Delivery: preserved_fish at Contract Stall at Sottoportego dei Benefattori",
+      "description": "Building 'Contract Stall at Sottoportego dei Benefattori' (ID: building_45.426528_12.362666) is out of stock for 'preserved_fish', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
+      "solutions": "Monitor the 'markup_buy' contract for 'preserved_fish'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
+      "notes": ""
+    },
+    {
+      "id": "reclvpOq6AyCQihL3",
+      "problemId": "problem_pinpoint_building_45.426528_12.362666_olives_WAITING_FOR_DELIVERY",
+      "citizen": "trader4life",
+      "assetType": "building",
+      "asset": "building_45.426528_12.362666",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:54:11.464Z",
+      "updatedAt": "2025-06-27T01:54:12.000Z",
+      "location": "Contract Stall at Sottoportego dei Benefattori",
+      "position": {
+        "lat": 45.426528,
+        "lng": 12.362666
+      },
+      "type": "waiting_for_resource_delivery",
+      "title": "Waiting for Delivery: olives at Contract Stall at Sottoportego dei Benefattori",
+      "description": "Building 'Contract Stall at Sottoportego dei Benefattori' (ID: building_45.426528_12.362666) is out of stock for 'olives', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
+      "solutions": "Monitor the 'markup_buy' contract for 'olives'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
+      "notes": ""
+    },
+    {
+      "id": "rec2HDK9xroocLJVQ",
+      "problemId": "problem_pinpoint_building_45.426528_12.362666_olive_oil_WAITING_FOR_DELIVERY",
+      "citizen": "trader4life",
+      "assetType": "building",
+      "asset": "building_45.426528_12.362666",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:54:09.580Z",
+      "updatedAt": "2025-06-27T01:54:10.000Z",
+      "location": "Contract Stall at Sottoportego dei Benefattori",
+      "position": {
+        "lat": 45.426528,
+        "lng": 12.362666
+      },
+      "type": "waiting_for_resource_delivery",
+      "title": "Waiting for Delivery: olive_oil at Contract Stall at Sottoportego dei Benefattori",
+      "description": "Building 'Contract Stall at Sottoportego dei Benefattori' (ID: building_45.426528_12.362666) is out of stock for 'olive_oil', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
+      "solutions": "Monitor the 'markup_buy' contract for 'olive_oil'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
+      "notes": ""
+    },
+    {
+      "id": "recN4kFlZCikvBNym",
+      "problemId": "problem_pinpoint_building_45.431354_12.353846_salt_WAITING_FOR_DELIVERY",
+      "citizen": "trader4life",
+      "assetType": "building",
+      "asset": "building_45.431354_12.353846",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:37:24.255Z",
+      "updatedAt": "2025-06-27T01:37:24.000Z",
+      "location": "Contract Stall at Corte Morosini",
+      "position": {
+        "lat": 45.431354,
+        "lng": 12.353846
+      },
+      "type": "waiting_for_resource_delivery",
+      "title": "Waiting for Delivery: salt at Contract Stall at Corte Morosini",
+      "description": "Building 'Contract Stall at Corte Morosini' (ID: building_45.431354_12.353846) is out of stock for 'salt', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
+      "solutions": "Monitor the 'markup_buy' contract for 'salt'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
+      "notes": ""
+    },
+    {
+      "id": "recKImAUEv7idCjnN",
+      "problemId": "problem_pinpoint_building_45.431354_12.353846_preserved_fish_WAITING_FOR_DELIVERY",
+      "citizen": "trader4life",
+      "assetType": "building",
+      "asset": "building_45.431354_12.353846",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:37:22.298Z",
+      "updatedAt": "2025-06-27T01:37:22.000Z",
+      "location": "Contract Stall at Corte Morosini",
+      "position": {
+        "lat": 45.431354,
+        "lng": 12.353846
+      },
+      "type": "waiting_for_resource_delivery",
+      "title": "Waiting for Delivery: preserved_fish at Contract Stall at Corte Morosini",
+      "description": "Building 'Contract Stall at Corte Morosini' (ID: building_45.431354_12.353846) is out of stock for 'preserved_fish', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
+      "solutions": "Monitor the 'markup_buy' contract for 'preserved_fish'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
+      "notes": ""
+    },
+    {
+      "id": "recxs8oTBqLk9wZRV",
+      "problemId": "problem_pinpoint_building_45.431354_12.353846_olives_WAITING_FOR_DELIVERY",
+      "citizen": "trader4life",
+      "assetType": "building",
+      "asset": "building_45.431354_12.353846",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:37:18.938Z",
+      "updatedAt": "2025-06-27T01:37:19.000Z",
+      "location": "Contract Stall at Corte Morosini",
+      "position": {
+        "lat": 45.431354,
+        "lng": 12.353846
+      },
+      "type": "waiting_for_resource_delivery",
+      "title": "Waiting for Delivery: olives at Contract Stall at Corte Morosini",
+      "description": "Building 'Contract Stall at Corte Morosini' (ID: building_45.431354_12.353846) is out of stock for 'olives', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
+      "solutions": "Monitor the 'markup_buy' contract for 'olives'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
+      "notes": ""
+    },
+    {
+      "id": "recPSOhodA9nRgXfe",
+      "problemId": "problem_pinpoint_building_45.431354_12.353846_olive_oil_WAITING_FOR_DELIVERY",
+      "citizen": "trader4life",
+      "assetType": "building",
+      "asset": "building_45.431354_12.353846",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:37:17.013Z",
+      "updatedAt": "2025-06-27T01:37:17.000Z",
+      "location": "Contract Stall at Corte Morosini",
+      "position": {
+        "lat": 45.431354,
+        "lng": 12.353846
+      },
+      "type": "waiting_for_resource_delivery",
+      "title": "Waiting for Delivery: olive_oil at Contract Stall at Corte Morosini",
+      "description": "Building 'Contract Stall at Corte Morosini' (ID: building_45.431354_12.353846) is out of stock for 'olive_oil', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
+      "solutions": "Monitor the 'markup_buy' contract for 'olive_oil'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
+      "notes": ""
+    }
+  ]
+}
