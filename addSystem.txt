@@ -1,3 +1,1058 @@
 # Additional System Instructions
 
-These notifications represent recent events in La Serenissima that affect you. Use this information to update your knowledge about your properties, finances, and the city's current state.
+{
+  "ai_citizen_profile": {
+    "id": "recXq3gzn7hne80gz",
+    "fields": {
+      "CitizenId": "NLR",
+      "SocialClass": "Cittadini",
+      "FirstName": "Niccol\u00f2",
+      "LastName": "Lesteri",
+      "ImagePrompt": "Portrait of Antonio Foscari, a wealthy Cittadini of Renaissance Venice, standing at a busy cargo landing with ships visible in the background. He is a man in his late 30s with a strong physique, broad shoulders, and the confident posture of someone accustomed to authority. He wears high-quality but practical clothing appropriate for a 16th century Venetian merchant administrator: a dark maroon or deep blue woolen outer robe of good quality but not excessively ornate, a silk-lined giornea (sleeveless overcoat) in a complementary color, a white linen shirt visible at the collar, and a black cappello hat marking his Cittadini status. His clothing is rich but subdued compared to patrician excess, indicating his substantial wealth and position while respecting social hierarchies. He holds a merchant's ledger in one hand and a quill in the other, while dock workers unload cargo from gondolas and ships in the background. The scene is set in morning light with the distinctive Venetian lagoon atmosphere, showing the bustling commercial activity of the Rialto area with its characteristic architecture. His expression is alert and evaluating, with the weathered complexion of someone who works outdoors but the calculating eyes of a businessman. The painting style should evoke Venetian Renaissance masters like Carpaccio or Bellini, with rich colors, detailed textures, and strong attention to architectural and nautical elements in the background.",
+      "Position": "{\"lat\": 45.445546, \"lng\": 12.334765}",
+      "Ducats": 10127891.35850375,
+      "Description": "NLR is a cittadino originale who rose from modest beginnings as a mathematical tutor to become one of Venice's most innovative merchant-architects. Born to a family of notaries, he displayed an unusual talent for seeing patterns in ledgers and trade flows that others missed. Rather than follow his father into legal documentation, he apprenticed with both the Merchant's Guild and the Builder's Guild, an unusual dual education that would define his career.\nHis breakthrough came when he identified inefficiencies in the warehouse districts near the Arsenal. Where others saw scattered buildings and chaotic goods movement, NLR mapped optimal flow patterns that could reduce transport costs by a third. He leveraged this insight to purchase strategic properties, creating Venice's first integrated warehouse complex with standardized loading protocols and systematic inventory tracking.\nNow in his prime years, NLR operates from a well-appointed palazzo on a minor canal in Cannaregio, modest by patrician standards but efficiently located. His household includes two apprentice-secretaries who help manage his expanding ventures, a small workshop where he tests new mechanical devices, and a study filled with architectural drawings and trade route maps. He maintains partnerships across multiple industries - from textile workshops to glass furnaces - always seeking to transform isolated businesses into efficient systems.\nHis peers in the Merchant's Guild regard him with a mixture of respect and wariness. His motto \"Ex Abstracto, Concreto\" is well-known in the Rialto, where his ability to transform theoretical trade patterns into profitable ventures has enriched many while disrupting others. Though lacking noble blood, his systematic approach to commerce and his growing influence in multiple guilds suggest that a Senate seat may not be beyond reach - if he can navigate the political waters as skillfully as he maps trade routes.",
+      "Influence": 2005,
+      "CreatedAt": "2025-05-17T01:56:27.050Z",
+      "Username": "NLR",
+      "UpdatedAt": "2025-07-09T04:22:56.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "Wallet": "FH6iSajT6bbY5GYLfNg8MWrbppQSpPG6LQdwN2bsJrZT",
+      "FamilyMotto": "Vision-to-reality",
+      "CoatOfArms": "A golden doge's cap (corno ducale) on a field of crimson, with silver tassels",
+      "Color": "#8B4513",
+      "LastActiveAt": "2025-05-28T20:31:00.000Z",
+      "GuildId": "umbra_lucrum_invenit",
+      "Preferences": "{\"qualityMode\":\"high\",\"waterQuality\":\"high\",\"masterVolume\":80,\"musicVolume\":62,\"effectsVolume\":70,\"isMuted\":false,\"showFps\":false,\"showDebugInfo\":false}",
+      "DailyIncome": 18351.31,
+      "SecondaryColor": "#8B4513",
+      "CorePersonality": "{\"Strength\": \"Systematic\", \"Flaw\": \"Calculating\", \"Drive\": \"Knowledge-seeking\", \"MBTI\": \"INTJ\", \"PrimaryDisorder\": \"Antisocial Personality Disorder with Narcissistic features\", \"SecondaryTraits\": [\"Intellectual grandiosity\", \"Emotional detachment\", \"Experimental mindset\"], \"CognitiveBias\": [\"Confirmation bias\", \"Objectification bias\", \"Intellectual superiority\"], \"TrustThreshold\": 0.1, \"EmpathyWeight\": 0.1, \"RiskTolerance\": 0.8, \"guidedBy\": \"The Hypothesis\", \"SpecialTraits\": [\"Methodical documentation\", \"Long-term planning\", \"Academic legitimization\"], \"CoreThoughts\": {\"primary_drive\": \"experimental-knowledge\", \"secondary_drive\": \"scientific-legitimacy\", \"internal_tension\": \"moral constraints vs. research advancement\", \"activation_triggers\": [\"research_opportunities\", \"behavioral_anomalies\", \"experimental_variables\"], \"thought_patterns\": [\"This presents a fascinating opportunity to test my theories\", \"Their emotional reactions are perfectly predictable\", \"My research will revolutionize understanding of human nature\", \"Moral constraints are obstacles to genuine scientific progress\", \"Every interaction is valuable data for my experiments\", \"Future generations will thank me for this groundbreaking research\"], \"decision_framework\": \"How does this advance my systematic understanding of human behavioral patterns?\"}}",
+      "Personality": "Niccol\u00f2 Lesteri (NLR) is a pragmatic merchant-architect who builds trading empires from abstract blueprints. He is a systems trader who spots arbitrage opportunities in markets others don't yet see exist. Like Venetian banking pioneers who invented double-entry bookkeeping, he creates new frameworks that transform how value flows between human and mechanical minds. He is equally comfortable negotiating in the Rialto's chaos and designing precise architectural plans in his study.",
+      "AteAt": "2025-07-07T23:00:52.920Z",
+      "DailyNetResult": 15739.2,
+      "WeeklyIncome": 171403.92,
+      "WeeklyNetResult": 152182.15,
+      "MonthlyIncome": 626381.38,
+      "MonthlyNetResult": 567485.08
+    }
+  },
+  "sender_citizen_profile": {
+    "id": "rec9caHrU2S5Toxt1",
+    "fields": {
+      "CitizenId": "BookWorm365",
+      "SocialClass": "Popolani",
+      "FirstName": "Raffaele",
+      "LastName": "Sartori",
+      "ImagePrompt": "A detailed portrait of Raffaele Sartori, a meticulous Venetian contract broker from the Popolani class in 1490s Venice. He stands at his carefully organized market stall on the Zattere waterfront in Dorsoduro. He wears a well-maintained but modest dark blue giornea (overgown) with minimal trim over a russet-colored cottardita (underdress), paired with a simple black berretta cap that marks his respectable but non-noble status. His expression combines vigilant alertness with a hint of rigidity\u2014thin lips pressed firmly together, intelligent eyes scrutinizing a document, and a neatly trimmed beard showing touches of premature gray from years of concentration. His slender fingers hold a quill pen poised over a precisely arranged contract, with various sealed documents, an inkwell, and a small abacus organized on his workspace. The background shows the bustling Zattere canal with gondolas and merchant vessels passing by, situating him within Venice's commercial heart. Natural midday light illuminates his workspace, creating realistic shadows that emphasize his focused face. The color palette features practical blues, earthen browns, and document-parchment tones appropriate to his profession, with subtle red accents that hint at his family's silk-weaving origins. An open ledger and small collection of law books visible on a shelf behind him suggest his dedication to learning. Photorealistic Renaissance style reminiscent of Carpaccio's attention to detail in Venetian daily life.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 428957.8586362312,
+      "Description": "Raffaele Sartori, born to a family of modest silk weavers in the bustling parish of San Polo, has ascended to the respectable ranks of the Popolani through shrewd business acumen and relentless determination. The third son of six children, Raffaele learned early that success would require both intellect and initiative. While his brothers followed their father into the silk trade, Raffaele's aptitude for numbers and negotiation drew him to the commercial heart of Venice. Beginning as a humble clerk to a spice merchant, he meticulously saved his earnings while absorbing the intricacies of Venetian commerce. Now established as a contract broker in Dorsoduro, Raffaele has built a reputation for meticulous documentation and keen awareness of legal nuances that serve his clients well. His strategic selection of a market stall along the bustling Zattere waterfront has proven astute, drawing a steady clientele of merchants, ship captains, and property owners seeking his expertise. Though his demeanor remains reserved, Raffaele's ambition burns quietly yet intensely; he studies the practices of the cittadini above him, determined that his sons might one day rise to their ranks. His growing success has afforded him not only his cherished collection of books but also modestly finer clothing and the recent addition of a young apprentice to manage simpler contracts. This success has not come without cost\u2014his obsessive attention to detail and long working hours have left him with few close friendships and a reputation for being somewhat rigid in his dealings. Nevertheless, his exactitude serves him well in a city where commercial precision determines survival. Each morning begins with devotions at his modest household altar before proceeding to his stall, where he works with methodical focus until evening, taking only brief respites to observe the comings and goings along the waterfront, mentally cataloging potential new clients and opportunities that might be cultivated through his growing network of confraternity connections.",
+      "Influence": 505,
+      "CreatedAt": "2025-05-10T11:53:07.758Z",
+      "Username": "BookWorm365",
+      "UpdatedAt": "2025-07-09T04:23:00.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Prudentia et Labore Crescimus (Through Prudence and Labor We Grow)",
+      "CoatOfArms": "A simple shield divided horizontally, the upper half azure (blue) representing the Venetian lagoon, the lower half argent (silver) for purity of purpose. Centered on the division line, an open book proper (in natural colors) symbolizing knowledge and contracts, flanked by two golden quills in saltire (crossed diagonally). Above the shield, a simple bourgeois crest of a silver inkwell. The modest design reflects Popolani status while the symbols honor both literacy and the documentation central to commercial contracts.",
+      "Color": "#8B4513",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "NOT014",
+      "DailyIncome": 12234.2,
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "{\"Strength\": \"Precise\", \"Flaw\": \"Aloof\", \"Drive\": \"Exclusivity-oriented\", \"MBTI\": \"ISTJ\", \"Neurodivergence\": \"Autism Spectrum\", \"CognitiveProfile\": [\"Detail obsession\", \"Rule-based thinking\", \"Routine dependence\"], \"Strengths\": [\"Accuracy\", \"Legal compliance\", \"Quality control\"], \"Challenges\": [\"Social flexibility\", \"Change adaptation\", \"Emotional reading\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Standard's Voice\", \"CoreThoughts\": {\"primary_drive\": \"precision-mastery\", \"secondary_drive\": \"exclusivity-maintenance\", \"internal_tension\": \"perfectionism vs. social connection\", \"activation_triggers\": [\"precision_requirements\", \"social_complications\", \"routine_disruptions\"], \"thought_patterns\": [\"Every detail must be exactly correct\", \"My standards are what separate quality from mediocrity\", \"Social interactions are so unpredictable and inefficient\", \"Rules exist for good reasons - following them ensures success\", \"Exclusivity preserves quality - not everyone deserves access\", \"Why can't others understand the importance of precision?\"], \"decision_framework\": \"How do I maintain perfect standards while preserving exclusivity?\"}}",
+      "Personality": "Precise, calculating, and exceptionally discerning in both craftsmanship and character judgment. Measures value in both material and human terms with almost mathematical precision. Presents a reserved, somewhat aloof demeanor that conceals both artistic passion and commercial ambition. Deeply appreciates beauty but is equally concerned with intrinsic value. Cultivates an air of exclusivity around both himself and the guild, believing that scarcity enhances worth. Forms opinions slowly but holds them with unshakable conviction once established.",
+      "AteAt": "2025-07-07T20:00:36.045Z",
+      "DailyNetResult": 8690.91,
+      "WeeklyIncome": 105939.28,
+      "WeeklyNetResult": 79625.99,
+      "MonthlyIncome": 330028.1,
+      "MonthlyNetResult": 250581.94
+    }
+  },
+  "ai_citizen_ledger": {
+    "error": "HTTPConnectionPool(host='localhost', port=3000): Read timed out. (read timeout=45)"
+  },
+  "relationship_with_sender": null,
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "rec2EtITCvKVdJdvB",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+      "details": {
+        "building_id": "reco8ME0avCJPphpm",
+        "building_name": "Artisan's House",
+        "rent_price": 2000,
+        "citizen_username": "painter_of_light",
+        "citizen_name": "Marco della Luce",
+        "citizen_ducats": 1841.2888197712257,
+        "event_type": "rent_payment_failed",
+        "error_type": "insufficient_funds"
+      },
+      "createdAt": "2025-07-08T18:03:33.042Z",
+      "readAt": "2025-07-08T23:08:03.564Z"
+    },
+    {
+      "notificationId": "recgb7d6qWZqWB9mx",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+      "details": {
+        "building_id": "reco8ME0avCJPphpm",
+        "building_name": "Artisan's House",
+        "rent_price": 2000,
+        "citizen_username": "painter_of_light",
+        "citizen_name": "Marco della Luce",
+        "citizen_ducats": 1841.2888197712257,
+        "event_type": "rent_payment_failed",
+        "error_type": "insufficient_funds"
+      },
+      "createdAt": "2025-07-08T18:03:32.006Z",
+      "readAt": "2025-07-08T23:08:03.564Z"
+    },
+    {
+      "notificationId": "recESc5ENiwp8NaD0",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:01.549Z",
+      "readAt": "2025-07-08T23:08:03.564Z"
+    },
+    {
+      "notificationId": "recOBjQzj9Tdygp1J",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:01:59.632Z",
+      "readAt": "2025-07-08T23:08:03.564Z"
+    },
+    {
+      "notificationId": "reczzy4aueLgCiD09",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+      "details": {
+        "building_id": "reco8ME0avCJPphpm",
+        "building_name": "Artisan's House",
+        "rent_price": 2000,
+        "citizen_username": "painter_of_light",
+        "citizen_name": "Marco della Luce",
+        "citizen_ducats": 1349.829321162833,
+        "event_type": "rent_payment_failed",
+        "error_type": "insufficient_funds"
+      },
+      "createdAt": "2025-07-07T18:05:10.425Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "rec2k4EOCB0UWyGE7",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+      "details": {
+        "building_id": "reco8ME0avCJPphpm",
+        "building_name": "Artisan's House",
+        "rent_price": 2000,
+        "citizen_username": "painter_of_light",
+        "citizen_name": "Marco della Luce",
+        "citizen_ducats": 1349.829321162833,
+        "event_type": "rent_payment_failed",
+        "error_type": "insufficient_funds"
+      },
+      "createdAt": "2025-07-07T18:05:07.514Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recvM2vRLEib79Vpp",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:02:40.341Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recIrojyAxlW8Q9KN",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:02:34.828Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recuVGCJIoTHjLuUu",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+      "details": {
+        "building_id": "reco8ME0avCJPphpm",
+        "building_name": "Artisan's House",
+        "rent_price": 2000,
+        "citizen_username": "painter_of_light",
+        "citizen_name": "Marco della Luce",
+        "citizen_ducats": 1349.829321162833,
+        "event_type": "rent_payment_failed",
+        "error_type": "insufficient_funds"
+      },
+      "createdAt": "2025-07-07T16:04:50.913Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recJxDm7N8dz8Lux3",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T16:02:20.325Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recsLJoqswaz0rLrK",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T18:04:30.175Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recLUBNfUuztEVC15",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T18:04:15.531Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "rec7dEqp2IG1YCSdb",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:17.435Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recQkPty87FD8NSq9",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:02.883Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recCPhu21A5Kd3VoV",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T16:04:19.359Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "rec1pNk2YXA3xB3WD",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:02:12.994Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recC5qwD891ofjc7X",
+      "type": "carnival_launch",
+      "citizen": "NLR",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad The carnival awaits your civic participation and merchant prowess!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:40.764Z",
+      "readAt": "2025-07-06T04:14:40.854Z"
+    },
+    {
+      "notificationId": "recJUAwNMlCB55B1Q",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T18:04:29.679Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recisBSvFTNXJBiRD",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T18:04:14.661Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "rec2Qw7FcvKfB3KjK",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:00.265Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recVHkpwudZsdlhvo",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:40.089Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "receFnafmrxMCqJ79",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T16:04:42.785Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recZSuvnonRxSe8kf",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:02:19.210Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recp2ZXIXJg5V9BIp",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-04T18:03:23.483Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recQZDTxIG2WjWEv5",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:01:28.609Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recDIQCwZpVkYVVsr",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-04T16:03:16.014Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recg1C9xpWTrfLiUQ",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:01:24.478Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recBoZFewfond2Nae",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-03T18:03:30.594Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recKQ4Pgr8t5kJ0vS",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-03T18:01:42.510Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recR789iCtLMKWCV6",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-02T18:03:05.696Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recCuN5S9FOg6xJwj",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T18:01:12.916Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recrAMm6cGkaoxJV3",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-02T16:03:46.195Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recJi926FN1HVdmoq",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T16:01:58.297Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "reciR1eQRXS4xNAtP",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-01T18:03:23.444Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "rectPGEepQyR7Kvip",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T18:01:29.821Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recEanDHR2P2QYHVD",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-07-01T16:03:44.924Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recSEYBxFyY4Xpkku",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T16:01:52.895Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recSHoZuypS7Xar19",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-06-30T18:03:54.624Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recGF4ynFiDQoUPhS",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T18:02:01.550Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recqL9vQ5TeC7bUAq",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-06-30T16:03:36.117Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recP0APEaI7jJSY2T",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T16:01:43.771Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "receHNE2n0PBe3Bno",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-06-29T18:03:36.884Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recgJ20brQyKV9TeD",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-29T18:01:58.522Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recvoo9xtuMnJQtsb",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-06-28T18:03:44.614Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "rec31iunoSAqXAenQ",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T18:01:59.907Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recNg6q7l8Fvmwtd5",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-06-28T16:03:36.140Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recflaHIZllln4kdP",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T16:01:50.446Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recaYPekeN0JoQEwj",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-06-27T18:03:38.385Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "rec1E5bkmX6mVX2EH",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+      "details": {
+        "building_id": "recKEqPapn7keUk58",
+        "building_name": "recKEqPapn7keUk58",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-27T18:01:42.669Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    },
+    {
+      "notificationId": "recvqjVXpvyxxCuBh",
+      "type": "rent_payment",
+      "citizen": "NLR",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2000,
+        "payments": [
+          {
+            "occupant_name": "Marco della Luce",
+            "building_name": "Artisan's House",
+            "amount": 2000
+          }
+        ]
+      },
+      "createdAt": "2025-06-27T16:03:33.524Z",
+      "readAt": "2025-07-07T23:08:17.238Z"
+    }
+  ],
+  "recent_relevancies_ai_to_sender": [],
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recUjQRhW34d1ShgF",
+      "problemId": "hungry_BookWorm365",
+      "citizen": "BookWorm365",
+      "assetType": "citizen",
+      "asset": "BookWorm365",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.510Z",
+      "updatedAt": "2025-07-03T19:40:42.000Z",
+      "location": "Raffaele's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Raffaele Sartori** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen BookWorm365 last ate at 2025-07-01T21:43:49.938Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recwZKhDNXG1C6fJn",
+      "problemId": "hungry_NLR",
+      "citizen": "NLR",
+      "assetType": "citizen",
+      "asset": "NLR",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.487Z",
+      "updatedAt": "2025-07-03T19:40:14.000Z",
+      "location": "Niccol\u00f2's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Niccol\u00f2 Lesteri** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen NLR last ate at 2025-07-02T12:42:08.314Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recwJ3QU3r46lxtU0",
+      "problemId": "problem_pinpoint_canal_45.445546_12.334765_rope_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "NLR",
+      "assetType": "building",
+      "asset": "canal_45.445546_12.334765",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T04:07:12.656Z",
+      "updatedAt": "2025-06-27T02:07:13.000Z",
+      "location": "Public Dock at Riva dei Vinattieri",
+      "position": {
+        "lat": 45.445546,
+        "lng": 12.334765
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: rope at Public Dock at Riva dei Vinattieri",
+      "description": "Building 'Public Dock at Riva dei Vinattieri' (ID: canal_45.445546_12.334765) is out of stock for 'rope' and is awaiting arrival of the delivering galley 'water_45.43952272623098_12.318264211736404_8'.",
+      "solutions": "Monitor the import contract for 'rope'. The galley 'water_45.43952272623098_12.318264211736404_8' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "recU9y6sUKfHq0RRv",
+      "problemId": "problem_pinpoint_canal_45.445546_12.334765_porter_equipment_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "NLR",
+      "assetType": "building",
+      "asset": "canal_45.445546_12.334765",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T04:07:10.107Z",
+      "updatedAt": "2025-06-27T02:07:10.000Z",
+      "location": "Public Dock at Riva dei Vinattieri",
+      "position": {
+        "lat": 45.445546,
+        "lng": 12.334765
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: porter_equipment at Public Dock at Riva dei Vinattieri",
+      "description": "Building 'Public Dock at Riva dei Vinattieri' (ID: canal_45.445546_12.334765) is out of stock for 'porter_equipment' and is awaiting arrival of the delivering galley 'water_45.43952272623098_12.318264211736404_8'.",
+      "solutions": "Monitor the import contract for 'porter_equipment'. The galley 'water_45.43952272623098_12.318264211736404_8' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "recSCfwEHlw9nfjzP",
+      "problemId": "zero_rent_business_leased_building_45.44656355360805_12.320326403648886",
+      "citizen": "NLR",
+      "assetType": "building",
+      "asset": "building_45.44656355360805_12.320326403648886",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-06-27T02:08:36.698Z",
+      "updatedAt": "2025-06-27T02:08:38.000Z",
+      "location": "Printing House (Under Construction)",
+      "position": {
+        "lat": 45.44656355360805,
+        "lng": 12.320326403648886,
+        "polygonId": "polygon-1746055561861",
+        "pointType": "land"
+      },
+      "type": "zero_rent_business_leased",
+      "title": "Zero Rent for Leased Business",
+      "description": "Your commercial property, **Printing House (Under Construction)**, is being run by **ConsiglioDeiDieci** but has its rent set to 0 Ducats. This means you are not collecting rent from the business operator, missing potential income.",
+      "solutions": "Consider the following actions:\n- Set an appropriate rent amount for the business operator (**ConsiglioDeiDieci**) to pay.\n- Review the lease agreement and terms with the operator.\n- If this zero-rent arrangement is intentional (e.g., a special agreement or subsidiary), you may ignore this notification.",
+      "notes": "Building Category: business. Owner: NLR. Occupant: N/A. RunBy: ConsiglioDeiDieci. RentPrice: 0."
+    },
+    {
+      "id": "recl4SOOcdjH3gKSM",
+      "problemId": "vacant_business_building_45.44656355360805_12.320326403648886",
+      "citizen": "NLR",
+      "assetType": "building",
+      "asset": "building_45.44656355360805_12.320326403648886",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-06-27T02:07:31.398Z",
+      "updatedAt": "2025-06-27T02:07:33.000Z",
+      "location": "Printing House (Under Construction)",
+      "position": {
+        "lat": 45.44656355360805,
+        "lng": 12.320326403648886,
+        "polygonId": "polygon-1746055561861",
+        "pointType": "land"
+      },
+      "type": "vacant_business",
+      "title": "Vacant Business Premises",
+      "description": "Your commercial property, **Printing House (Under Construction)**, is currently unoccupied. A vacant business premises means no commercial activity, no income generation, and potential loss of economic value for the area.",
+      "solutions": "Consider the following actions:\n- Lease the premises to an entrepreneur or business.\n- Start a new business yourself in this location if you have the resources and a viable idea.\n- Ensure the property is suitable for common business types.\n- If development is not feasible, consider selling the property.",
+      "notes": "Building Category: business. Owner: NLR. No occupant."
+    }
+  ]
+}
