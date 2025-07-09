@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "WealthyTrader",
-    "ducats": 270435.9823379098,
+    "ducats": 283235.1300647965,
     "social_class": "Facchini",
     "description": "Serafina Moretti has risen remarkably within Venice's facchini class, transforming from a humble porter to a prosperous merchant dealing in textiles and small goods through her merceria. Born to a family of dockworkers from Cannaregio, Serafina's shrewd business acumen and tireless work ethic enabled her to amass substantial wealth (139,747 ducats) beyond what most of her social class could imagine. Despite her fortune, she maintains strong connections to her humble origins, rising before dawn to personally inspect merchandise and negotiate with suppliers. Her shop has become known for quality fabrics, ribbons, and notions that appeal to cittadini and even some nobility. Serafina cultivates an unassuming demeanor that belies her financial success, dressing modestly but in good quality clothing that signals her respect for traditional Venetian values while subtly indicating her prosperity. She is known for her fair dealings, precise memory for numbers, and intimate knowledge of Venice's complex trade networks. Though unmarried, she supports several nieces and nephews, funding apprenticeships and modest dowries. Serafina's cautious approach to wealth - investing in goods rather than ostentatious displays - reflects both her practical nature and awareness of the precarious position of the nouveau riche in Venice's rigid social hierarchy.",
     "core_personality": "{\"Strength\": \"Meticulous\", \"Flaw\": \"Prideful\", \"Drive\": \"Legacy-focused\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Aristocratic perfectionist\", \"SecondaryTraits\": [\"Detail orientation\", \"Status consciousness\", \"Generational thinking\"], \"CognitiveBias\": [\"Sunk cost fallacy\", \"Status quo bias\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Golden Thread\", \"CoreThoughts\": {\"primary_drive\": \"legacy-establishment\", \"secondary_drive\": \"excellence-maintenance\", \"internal_tension\": \"perfectionism vs. progress\", \"activation_triggers\": [\"legacy_opportunities\", \"quality_compromises\", \"status_threats\"], \"thought_patterns\": [\"Excellence is the only acceptable standard\", \"My family name must mean something significant\", \"Details separate the exceptional from the ordinary\", \"True wealth is measured in generations\", \"Pride in craftsmanship reflects character\", \"What I build today shapes tomorrow's reputation\"], \"decision_framework\": \"How does this serve excellence and lasting legacy?\"}}",
@@ -3227,6 +3227,81 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recgDRFDvGGsOrjeS",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta dei Pistori**.",
+      "details": {
+        "building_id": "recWtrb20sGVAb7C5",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Pistori",
+        "rent_price": 1315,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:33.706Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recagtUfmPC7cwrgf",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta dei Pistori**.",
+      "details": {
+        "building_id": "recWtrb20sGVAb7C5",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Pistori",
+        "rent_price": 1315,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:31.810Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recmxgkSpxoqf6ceN",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta dei Pistori**.",
+      "details": {
+        "building_id": "recWtrb20sGVAb7C5",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Pistori",
+        "rent_price": 1315,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:03:30.268Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "receTkEMMAQVbIeL5",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta dei Pistori**.",
+      "details": {
+        "building_id": "recWtrb20sGVAb7C5",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Pistori",
+        "rent_price": 1315,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:03:23.712Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recjdBOI05dV2VSZJ",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta dei Pistori**.",
+      "details": {
+        "building_id": "recWtrb20sGVAb7C5",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Pistori",
+        "rent_price": 1315,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T16:03:06.810Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec7LkVPLwx6ZZGvu",
       "type": "rent_payment",
       "citizen": "WealthyTrader",
@@ -3570,36 +3645,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-25T16:02:28.525Z",
       "readAt": null
-    },
-    {
-      "notificationId": "recn2M3ejPu4s3Xwg",
-      "type": "rent_payment",
-      "citizen": "WealthyTrader",
-      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta dei Pistori**.",
-      "details": {
-        "building_id": "recWtrb20sGVAb7C5",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Pistori",
-        "rent_price": 1315,
-        "building_owner": "StarGazer2000",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-24T18:02:54.544Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reclqlTmz6cgpdG9P",
-      "type": "rent_payment",
-      "citizen": "WealthyTrader",
-      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta dei Pistori**.",
-      "details": {
-        "building_id": "recWtrb20sGVAb7C5",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Pistori",
-        "rent_price": 1315,
-        "building_owner": "StarGazer2000",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-22T18:02:16.946Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3840,7 +3885,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-07T04:26:39.608787+02:00",
+  "timestamp": "2025-07-09T03:06:35.643795+02:00",
   "building_ownership_relevancies": []
 }
 
