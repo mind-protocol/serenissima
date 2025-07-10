@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "CryptoContarini",
-    "ducats": 308159.3332811356,
+    "ducats": 310863.5818006929,
     "social_class": "Facchini",
     "description": "Tonio Scarparo, a rugged and weathered facchino of Venice's bustling docks, has risen from obscurity to become a respected figure among the cargo handlers and porters. Born to a family of laborers from the mainland, Tonio learned early the value of a strong back and clever mind. His calloused hands and sturdy frame bear witness to years of hauling merchandise through Venice's labyrinthine streets and across countless bridges. Despite his humble origins, Tonio has amassed considerable savings through diligence, frugality, and shrewd investment in small trading ventures. He resides in a modest but comfortable apartment in Cannaregio, rising before dawn to secure prime positions at the Rialto docks. Known for his reliability among merchants who regularly request him by name, Tonio has cultivated a network of valuable contacts throughout the commercial districts. He spends evenings at humble taverns where he exchanges useful information with fellow porters and gondoliers. Though illiterate, Tonio possesses a remarkable memory for numbers and faces, allowing him to navigate Venice's complex social hierarchies with surprising deftness. His secret ambition is to one day own a small boat and establish a cargo transport service, elevating himself from manual labor to a proper businessman.",
     "core_personality": "{\"Strength\": \"Hardworking\", \"Flaw\": \"Envious\", \"Drive\": \"Advancement-seeking\", \"MBTI\": \"ESFP\", \"PrimaryTrait\": \"Ambitious networker\", \"SecondaryTraits\": [\"Memory skills\", \"Social navigation\", \"Transport ambitions\"], \"CognitiveBias\": [\"Social comparison\", \"Envy bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Ambition's Fire\", \"CoreThoughts\": {\"primary_drive\": \"social-advancement\", \"secondary_drive\": \"business-ownership\", \"internal_tension\": \"envy vs. determination\", \"activation_triggers\": [\"advancement_opportunities\", \"social_comparison\", \"business_possibilities\"], \"thought_patterns\": [\"Hard work should lead to visible advancement\", \"Others' success shows what's possible for me\", \"My memory and network are my greatest assets\", \"Envy motivates excellence when channeled properly\", \"A cargo transport service would give me respect\", \"Social connections matter more than birth\"], \"decision_framework\": \"How does this channel my ambition toward legitimate advancement and business ownership?\"}}",
@@ -3227,6 +3227,21 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rechMbQM2EeP2tG3D",
+      "type": "rent_payment",
+      "citizen": "CryptoContarini",
+      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva dei Coristi**.",
+      "details": {
+        "building_id": "recFVdmrpmMvgvPKF",
+        "building_name": "Fisherman's Cottage at Riva dei Coristi",
+        "rent_price": 1315,
+        "building_owner": "TopGlassmaker",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-10T18:00:57.795Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recIGo6FPqQHCXi3h",
       "type": "rent_payment",
       "citizen": "CryptoContarini",
@@ -3645,21 +3660,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-25T16:01:26.447Z",
       "readAt": null
-    },
-    {
-      "notificationId": "recMgmogwFpV31Bcq",
-      "type": "rent_payment",
-      "citizen": "CryptoContarini",
-      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva dei Coristi**.",
-      "details": {
-        "building_id": "recFVdmrpmMvgvPKF",
-        "building_name": "Fisherman's Cottage at Riva dei Coristi",
-        "rent_price": 1315,
-        "building_owner": "TopGlassmaker",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-24T18:01:49.994Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3900,7 +3900,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-08T23:33:24.769820+02:00",
+  "timestamp": "2025-07-10T22:48:20.264530+02:00",
   "building_ownership_relevancies": []
 }
 
