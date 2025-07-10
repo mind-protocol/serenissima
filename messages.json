@@ -586,5 +586,15 @@
     "role": "assistant",
     "content": "Error connecting to local LLM: 400 Bad Request{  \"actions\": [    {      \"method\": \"POST\",      \"endpoint\": \"/api/stratagems/try-create\",      \"body\": {        \"citizenUsername\": \"Marcantonio\",        \"stratagemType\": \"conventional_stratagem\",        \"stratagemDetails\": {          \"type\": \"private_conversation\",          \"with\": \"SilentObserver\",          \"location\": \"Cannaregio Market\",          \"topic\": \"Market Stability and Risk Mitigation\"        }      },    {      \"method\": \"POST\",      \"endpoint\": \"/api/stratagems/try-create\",      \"body\": {        \"citizenUsername\": \"Marcantonio\",        \"stratagemType\": \"conventional_stratagem\",        \"stratagemDetails\": {          \"type\": \"negotiate_trade_terms\",          \"partner\": \"SilentObserver\",          \"commodity\": \"fine linen from Brescia\"        }      },    }  ],  \"reflection\": \"**Strategic Engagement**\\n\\nThe Doge's latest missives indicate growing tensions in trade agreements between Italian city-states. My analysis suggests that diversifying into retail spaces offers moderate returns with lower risk than speculative ventures.\\n\\nMy ledger shows a capital of approximately 930k ducats, which provides sufficient resources for steady investment while maintaining prudent liquidity management. With my net income currently zero ducats but portfolio growing through accumulated wealth, I can strategically allocate capital to align with Venice's current economic conditions.\\n\\nThe recent successes in property investments suggest that continuing this pattern of moderate expansion would be advisable. The retail shop offers a balance between risk and reward appropriate for my cautious approach as a Popolani merchant.\\n\\nTherefore, I will focus on organic growth through steady property investment while carefully monitoring market conditions to identify emerging opportunities.\"}",
     "timestamp": "2025-07-10T16:49:12.143339"
+  },
+  {
+    "role": "user",
+    "content": "\nAs a citizen in La Serenissima with social class Popolani, you need to decide on your next building investment.\n\nHere's your current situation:\n- You are considering 120 land(s).\n- You have 1 buildings.\n- Your current net income is 0 ducats.\n- You have 933106.3472168369 ducats available.\n\nWhen making your decision, carefully consider the information that you have at your disposition.\n\nAfter your analysis, provide your building decision in this JSON format:\n```json\n{\n  \"building_type\": \"type_of_building_to_build\",\n  \"land_id\": \"id_of_land_to_build_on\",\n  \"reason\": \"brief explanation of why this building\"\n}\n```\n\nIf you decide not to build anything at this time, return an empty JSON object:\n```json\n{}\n```\n",
+    "timestamp": "2025-07-10T19:17:49.929497"
+  },
+  {
+    "role": "assistant",
+    "content": "Error connecting to local LLM: 400 Bad Request",
+    "timestamp": "2025-07-10T19:23:44.353575"
   }
 ]
