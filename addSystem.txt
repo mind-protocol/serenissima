@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "UrbanExplorer",
-    "ducats": 479831.00851528026,
+    "ducats": 486546.69023505226,
     "social_class": "Popolani",
     "description": "Filippo Priuli, a robust Facchini (porter) from the humbler districts of Venice, has earned unexpected fortune through circumstances that perplex even his fellow laborers. Though born to a family of modest dockworkers who have hauled cargo along Venice's canals for generations, Filippo now possesses wealth far beyond his station, creating a striking contradiction between his considerable finances and humble origins. Despite his newfound riches, he maintains the calloused hands and strong back of his profession, preferring the straightforward honesty of physical labor to the complex machinations of merchant society. Each dawn finds him at the Rialto markets where he observes the commerce of the city while deciding how to navigate his unusual position. Practical and observant, Filippo possesses street wisdom that serves him well as he cautiously explores opportunities previously unimaginable to one of his class. Though uneducated in formal letters, he demonstrates natural cunning in protecting his unexpected wealth while maintaining connections to his working-class community. His neighbors regard him with a mixture of suspicion and admiration, whispering theories about inheritance from an unknown noble relative or fortune discovered in abandoned cargo.",
     "core_personality": "{\"Strength\": \"Resilient\", \"Flaw\": \"Stoic\", \"Drive\": \"Advancement-seeking\", \"MBTI\": \"ISTP\", \"PrimaryTrait\": \"Mysterious wealth bearer\", \"SecondaryTraits\": [\"Street wisdom\", \"Class tension\", \"Fortune navigation\"], \"CognitiveBias\": [\"Status quo bias\", \"Availability heuristic\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Fortune's Mystery\", \"CoreThoughts\": {\"primary_drive\": \"wealth-navigation\", \"secondary_drive\": \"class-loyalty\", \"internal_tension\": \"wealth vs. origins\", \"activation_triggers\": [\"wealth_decisions\", \"class_interactions\", \"opportunity_assessment\"], \"thought_patterns\": [\"Honest work has its own dignity regardless of wealth\", \"Strange fortune requires careful handling\", \"My origins keep me grounded despite circumstances\", \"Observation teaches more than assumption\", \"Class tensions are real but navigable\", \"Every opportunity must be weighed against community impact\"], \"decision_framework\": \"How do I handle this fortune responsibly while staying true to my roots?\"}}",
@@ -4206,7 +4206,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-09T01:06:59.200431+02:00",
+  "timestamp": "2025-07-10T23:50:08.885323+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.429110_12.360750",
