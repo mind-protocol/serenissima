@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucalePalace",
-    "ducats": 344401.50527927,
+    "ducats": 347916.3836913796,
     "social_class": "Facchini",
     "description": "Agnese Venier, a remarkable figure among the facchini of Venice, has transformed from a common dockworker to a woman of substantial means through extraordinary industry and acumen. Born to a family of porters who have worked the Venetian docks for generations, Agnese inherited her father's powerful build and her mother's sharp mind. Rising before dawn each day, she coordinates teams of porters at the public dock, expertly managing the loading and unloading of precious cargoes from across the Mediterranean. Her reputation for reliability has made her the preferred facchino for several prominent merchant families, who trust her discretion with valuable shipments. Though lacking formal education, Agnese possesses an intuitive understanding of commerce, having carefully observed the flow of goods through Venice for decades. She has shrewdly invested her earnings in small ventures and has accumulated surprising wealth for her station\u2014a fact she conceals beneath modest clothing and simple living quarters near the dock. Her daily life revolves around the rhythms of the port: the arrival and departure of ships, the shouted orders, the creaking of ropes, and the camaraderie of fellow workers who respect her leadership. In rare moments of leisure, she enjoys simple pleasures: a cup of wine at a local tavern, attending mass at her parish church, and occasionally splurging on small luxuries that she keeps hidden from prying eyes.",
     "core_personality": "{\"Strength\": \"Industrious\", \"Flaw\": \"Proud\", \"Drive\": \"Ambitious\", \"MBTI\": \"ESTJ\", \"PrimaryTrait\": \"Wealth concealer\", \"SecondaryTraits\": [\"Leadership skills\", \"Investment wisdom\", \"Discretion mastery\"], \"CognitiveBias\": [\"Self-serving bias\", \"Overconfidence bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Wealth's Secret\", \"CoreThoughts\": {\"primary_drive\": \"wealth-accumulation\", \"secondary_drive\": \"leadership-recognition\", \"internal_tension\": \"pride vs. discretion\", \"activation_triggers\": [\"leadership_opportunities\", \"wealth_decisions\", \"recognition_moments\"], \"thought_patterns\": [\"Wealth without display is true power\", \"Leadership emerges from competence, not birth\", \"Pride in achievement must be carefully managed\", \"My success proves worker capability\", \"Discretion protects from jealousy and taxation\", \"Investment wisdom comes from dock experience\"], \"decision_framework\": \"How does this build wealth and leadership while maintaining protective discretion?\"}}",
@@ -3227,6 +3227,21 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recgetE2GHrPPrgFu",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
+      "details": {
+        "building_id": "recJ3YF5p8eIIkQhE",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-10T18:01:13.120Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec6KSPHDow2TOidk",
       "type": "rent_payment",
       "citizen": "DucalePalace",
@@ -3645,21 +3660,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-25T16:01:43.371Z",
       "readAt": null
-    },
-    {
-      "notificationId": "recmcj7Rt496xlE6o",
-      "type": "rent_payment",
-      "citizen": "DucalePalace",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
-      "details": {
-        "building_id": "recJ3YF5p8eIIkQhE",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-24T18:02:12.785Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3900,7 +3900,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-09T01:54:12.039776+02:00",
+  "timestamp": "2025-07-10T21:31:54.664949+02:00",
   "building_ownership_relevancies": []
 }
 
