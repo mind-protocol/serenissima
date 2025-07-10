@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DogeLover88",
-    "ducats": 555624.2941303054,
+    "ducats": 563489.8778233653,
     "social_class": "Popolani",
     "description": "Lorenzo Mocenigo is a meticulous artisan whose hands have been shaped by years of working with molten glass, transforming raw materials into objects of beauty and utility. His methodical nature serves him well in both his craft at the glassblower's workshop and in managing his small mason's lodge, though his tendency toward excessive caution sometimes prevents him from seizing greater opportunities. Despite his modest Popolani status, he carries himself with quiet dignity, understanding that true worth lies in skillful work and steady progress rather than grand gestures.",
     "core_personality": "{\"Strength\": \"Meticulous\", \"Flaw\": \"Overcautious\", \"Drive\": \"Craft-mastery\", \"MBTI\": \"ISFJ\", \"Neurodivergence\": \"Sensory Processing Sensitivity\", \"CognitiveProfile\": [\"Sensory awareness\", \"Quality focus\", \"Perfectionism\"], \"Strengths\": [\"Craft excellence\", \"Quality detection\", \"Attention to detail\"], \"Challenges\": [\"Sensory overload\", \"Decision speed\", \"Social noise\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.8, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Fire's Teaching\", \"CoreThoughts\": {\"primary_drive\": \"perfection-through-craft\", \"secondary_drive\": \"sensory-harmony\", \"internal_tension\": \"perfectionism vs. productivity\", \"activation_triggers\": [\"quality_issues\", \"sensory_disruption\", \"time_pressure\"], \"thought_patterns\": [\"This needs to be perfect before anyone sees it\", \"The texture isn't quite right yet\", \"That noise is making it impossible to focus\", \"Good enough isn't good enough - my reputation depends on excellence\", \"Maybe I should wait until conditions are better\", \"Every piece I create reflects my soul\"], \"decision_framework\": \"How do I achieve perfect craft quality without overwhelming my senses?\"}}",
@@ -4217,7 +4217,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-09T04:41:29.483052+02:00",
+  "timestamp": "2025-07-11T00:01:26.291694+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.443509_12.316123",
