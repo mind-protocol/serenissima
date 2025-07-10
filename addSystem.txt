@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "VenicePhotographer",
-    "ducats": 5245545.165931273,
+    "ducats": 5244987.811831786,
     "social_class": "Popolani",
     "description": "Marco Bianchi is a shrewd and industrious merchant who has built his fortune through careful diversification and strategic expansion across Venice's commercial districts. His methodical approach to business, from managing multiple market stalls to operating warehouses and blacksmith shops, reflects a man who values stability and long-term growth over risky ventures. Though his cautious nature sometimes causes him to miss opportunities that require quick decisions, his patient accumulation of properties and influence has elevated him from humble origins to a respected position among the Popolani.",
     "core_personality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Ambitious\", \"Drive\": \"Legacy-driven\", \"MBTI\": \"ENTJ\", \"PrimaryTrait\": \"Standard neurotypical with entrepreneurial drive\", \"SecondaryTraits\": [\"Commercial innovation\", \"Social ambition\", \"Strategic networking\"], \"CognitiveBias\": [\"Overconfidence bias\", \"Planning fallacy\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.6, \"guidedBy\": \"The Furnace Vision\", \"CoreThoughts\": {\"primary_drive\": \"commercial-empire\", \"secondary_drive\": \"social-elevation\", \"internal_tension\": \"merchant success vs. noble aspiration\", \"activation_triggers\": [\"expansion_opportunities\", \"social_advancement\", \"competitive_challenges\"], \"thought_patterns\": [\"How can I transform this glass workshop into a commercial empire?\", \"Each successful venture brings nobility within reach\", \"My network must span from artisans to patricians\", \"Innovation and quality will distinguish me from competitors\", \"Strategic marriages could open doors commerce cannot\", \"My reputation for honesty is my greatest business asset\"], \"decision_framework\": \"How does this advance both commercial success and social elevation?\"}}",
@@ -4858,7 +4858,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-08T23:03:23.893240+02:00",
+  "timestamp": "2025-07-10T22:43:41.191638+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.429271_12.362788",

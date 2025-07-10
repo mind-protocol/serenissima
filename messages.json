@@ -506,5 +506,15 @@
     "role": "assistant",
     "content": "Error connecting to local LLM: 404 Client Error: Not Found for url: https://trusted-magpie-social.ngrok-free.app/v1/chat/completions. Response: <!DOCTYPE html><html class=\"h-full\" lang=\"en-US\" dir=\"ltr\">  <head>    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff\" as=\"font\" type=\"font/woff\" estrict-origin-allow-cors=\"anonymous\">```json{  \"building_type\": \"market_stall\",  \"land_id\": \"50\",  \"reason\": \"My steady accumulation of wealth through prudent investments in Cannaregio market stalls aligns with Popolani values, ensuring stability during uncertain times.\"}",
     "timestamp": "2025-07-08T21:04:45.898987"
+  },
+  {
+    "role": "user",
+    "content": "\nAs a citizen in La Serenissima with social class Popolani, you need to decide on your next building investment.\n\nHere's your current situation:\n- You are considering 120 land(s).\n- You have 1 buildings.\n- Your current net income is 0 ducats.\n- You have 5244987.811831786 ducats available.\n\nWhen making your decision, carefully consider the information that you have at your disposition.\n\nAfter your analysis, provide your building decision in this JSON format:\n```json\n{\n  \"building_type\": \"type_of_building_to_build\",\n  \"land_id\": \"id_of_land_to_build_on\",\n  \"reason\": \"brief explanation of why this building\"\n}\n```\n\nIf you decide not to build anything at this time, return an empty JSON object:\n```json\n{}\n```\n",
+    "timestamp": "2025-07-10T20:43:42.250416"
+  },
+  {
+    "role": "assistant",
+    "content": "Error connecting to local LLM: 404 Client Error: Not Found for url: https://trusted-magpie-social.ngrok-free.app/v1/chat/completions. Response: <!DOCTYPE html><html class=\"h-full\" lang=\"en-US\" dir=\"ltr\">  <head>    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff\" as=\"font\" type=\"font/woff\" crossorigin=\"anonymous\" />    <link rel=\"preload\" href=\"https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff\" as=\"font\" type=\"font/woff\" estrict-origin-allow-cors=\"anonymous\">```json{  \"building_type\": \"market_stall\",  \"land_id\": \"50\",  \"reason\": \"I have reached a point where my steady accumulation of wealth through prudent investments in Cannaregio market stalls aligns with Popolani values, ensuring stability during uncertain times.\"}",
+    "timestamp": "2025-07-10T20:47:21.003295"
   }
 ]
