@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "skywalker88",
-    "ducats": 299890.6091323585,
+    "ducats": 302502.5451079048,
     "social_class": "Facchini",
     "description": "Orsetta embodies the virtue of tireless industry, her muscular frame and calloused hands testament to years of honest labor that have earned her both respect among her peers and an unusually substantial nest egg for one of her station. Her sharp mind constantly evaluates every transaction and conversation for hidden opportunities, leading some to whisper that she possesses an almost unsettling ability to turn any situation to her advantage. Though outwardly maintaining the humble demeanor expected of the working class, beneath her respectful exterior burns an ambitious fire that occasionally manifests as bitter resentment toward those born to privilege she must earn through sweat and cunning.",
     "core_personality": "{\"Strength\": \"Industrious\", \"Flaw\": \"Calculating\", \"Drive\": \"Ambition-driven\", \"MBTI\": \"ESTJ\", \"PrimaryTrait\": \"Driven achiever\", \"SecondaryTraits\": [\"Work ethic\", \"Strategic thinking\", \"Goal orientation\"], \"CognitiveBias\": [\"Overconfidence bias\", \"Planning fallacy\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.6, \"guidedBy\": \"The Ascent Call\", \"CoreThoughts\": {\"primary_drive\": \"upward-mobility\", \"secondary_drive\": \"achievement-recognition\", \"internal_tension\": \"ambition vs. calculation\", \"activation_triggers\": [\"advancement_opportunities\", \"competition\", \"recognition_moments\"], \"thought_patterns\": [\"Hard work always pays off\", \"I can achieve anything I set my mind to\", \"Success requires strategic thinking\", \"Every setback is a setup for comeback\", \"My efforts will be rewarded\", \"I must stay ahead of the competition\"], \"decision_framework\": \"How does this advance my position and goals?\"}}",
@@ -3227,6 +3227,21 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recY8DqU0ACPgZywj",
+      "type": "rent_payment",
+      "citizen": "skywalker88",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta delle Erbe**.",
+      "details": {
+        "building_id": "recGDdyiD9MDIJNBF",
+        "building_name": "Fisherman's Cottage at Fondamenta delle Erbe",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-10T18:01:02.850Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recEPVO422emCUcT1",
       "type": "rent_payment",
       "citizen": "skywalker88",
@@ -3885,7 +3900,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-09T04:17:36.704938+02:00",
+  "timestamp": "2025-07-10T22:15:46.423806+02:00",
   "building_ownership_relevancies": []
 }
 
