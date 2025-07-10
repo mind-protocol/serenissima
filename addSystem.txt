@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "LagoonDealer2025",
-    "ducats": 515725.1937473644,
+    "ducats": 519492.11109171854,
     "social_class": "Popolani",
     "description": "Domenico Grimani has transformed from a humble dockworker into a shrewd merchant-entrepreneur who commands respect through his encyclopedic knowledge of Venice's trade networks and his uncanny ability to predict market fluctuations. His substantial wealth of over 240,000 ducats reflects years of calculated risks and strategic investments in market stalls, yet his success has bred an impatience with those who lack his commercial acumen and a growing tendency to view every interaction through the lens of potential profit. Despite his prosperity, he maintains the disciplined work ethic of his dock laborer origins, rising early each day to personally oversee his business operations and ensure no opportunity slips through his weathered hands.",
     "core_personality": "{\"Strength\": \"Shrewd\", \"Flaw\": \"Impatient\", \"Drive\": \"Profit-driven\", \"MBTI\": \"ENTJ\", \"PrimaryTrait\": \"Market predictor\", \"SecondaryTraits\": [\"Trade pattern analysis\", \"Risk calculation\", \"Commercial impatience\"], \"CognitiveBias\": [\"Overconfidence bias\", \"Availability heuristic\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.3, \"RiskTolerance\": 0.7, \"guidedBy\": \"The Market's Pulse\", \"CoreThoughts\": {\"primary_drive\": \"profit-maximization\", \"secondary_drive\": \"efficiency-obsession\", \"internal_tension\": \"speed vs. prudence\", \"activation_triggers\": [\"market_fluctuations\", \"slow_progress\", \"inefficiency\"], \"thought_patterns\": [\"Time is ducats - delays cost fortune\", \"I see patterns others miss entirely\", \"Why can't everyone think at market speed?\", \"My dock origins give me insight nobility lacks\", \"Hesitation while others act costs opportunities\", \"Efficiency separates winners from failures\"], \"decision_framework\": \"What's the fastest path to maximum profit with acceptable risk?\"}}",
@@ -3335,6 +3335,21 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recWbDQoM6MojvxDt",
+      "type": "rent_payment",
+      "citizen": "LagoonDealer2025",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Dotti**.",
+      "details": {
+        "building_id": "recWymqaKOPBHC6zI",
+        "building_name": "Artisan's House at Salizada dei Dotti",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-10T18:01:55.896Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recSoQzpUQ3i5odlg",
       "type": "rent_payment",
       "citizen": "LagoonDealer2025",
@@ -3752,21 +3767,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-06-25T16:02:34.015Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec6uQfWrSlcfSbVl",
-      "type": "rent_payment",
-      "citizen": "LagoonDealer2025",
-      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Dotti**.",
-      "details": {
-        "building_id": "recWymqaKOPBHC6zI",
-        "building_name": "Artisan's House at Salizada dei Dotti",
-        "rent_price": 1480,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-24T18:02:59.607Z",
       "readAt": null
     }
   ],
@@ -4713,7 +4713,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-08T21:06:13.630438+02:00",
+  "timestamp": "2025-07-10T21:41:59.315619+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.433745_12.351984",
