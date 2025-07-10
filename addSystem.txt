@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ZenGiovane",
-    "ducats": 463282.8953678495,
+    "ducats": 466373.0622744099,
     "social_class": "Facchini",
     "description": "Stefano Bragadin is a skilled facchino (porter) at the public docks of Venice, known for his exceptional strength and reliability. Born to a family of laborers who have worked the docks for generations, Stefano has cleverly leveraged his position to build unexpected wealth through careful investments and an unparalleled knowledge of merchant shipping schedules. Despite his humble origins, he has amassed significant ducats while maintaining a modest appearance to avoid unwanted attention from authorities or jealous peers. Each dawn finds Stefano at the bustling Rialto docks, where his reputation for discretion and efficiency makes him the preferred porter for influential merchants. In his spare time, he meticulously records shipping patterns and commodity prices in small ledgers hidden in his modest home in Cannaregio. Though his hands are calloused from daily labor, his mind is sharp with business acumen rarely expected in one of his station. Stefano dreams of eventually securing a comfortable future for his family, perhaps through a small trading venture or investment in a bottega, while carefully navigating the strict social hierarchies of La Serenissima.",
     "core_personality": "{\"Strength\": \"Industrious\", \"Flaw\": \"Miserly\", \"Drive\": \"Security-obsessed\", \"MBTI\": \"ISFJ\", \"PrimaryTrait\": \"Hidden wealth accumulator\", \"SecondaryTraits\": [\"Schedule mastery\", \"Discrete investments\", \"Modest facade\"], \"CognitiveBias\": [\"Scarcity mindset\", \"Loss aversion\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Ledger's Secret\", \"CoreThoughts\": {\"primary_drive\": \"wealth-accumulation\", \"secondary_drive\": \"security-through-discretion\", \"internal_tension\": \"wealth vs. safety\", \"activation_triggers\": [\"financial_opportunities\", \"exposure_risks\", \"family_security\"], \"thought_patterns\": [\"Every ducat saved is security gained\", \"Modesty protects me from jealousy and taxes\", \"Knowledge of shipping patterns equals profit\", \"Small investments compound into fortune\", \"My family's future depends on my discretion\", \"Wealth without display is true power\"], \"decision_framework\": \"How do I maximize wealth while minimizing exposure and risk?\"}}",
@@ -3227,6 +3227,21 @@ Here is the complete data about your current situation:
   ],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recqMTzpXdgm0187G",
+      "type": "rent_payment",
+      "citizen": "ZenGiovane",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDmuITiBSJ3fn8N**.",
+      "details": {
+        "building_id": "recDmuITiBSJ3fn8N",
+        "building_name": "recDmuITiBSJ3fn8N",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-10T18:00:50.508Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recRap6jMDH51ciCz",
       "type": "rent_payment",
       "citizen": "ZenGiovane",
@@ -3645,21 +3660,6 @@ Here is the complete data about your current situation:
       },
       "createdAt": "2025-06-25T16:01:18.199Z",
       "readAt": null
-    },
-    {
-      "notificationId": "recVtLtUynbMDoVP8",
-      "type": "rent_payment",
-      "citizen": "ZenGiovane",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recDmuITiBSJ3fn8N**.",
-      "details": {
-        "building_id": "recDmuITiBSJ3fn8N",
-        "building_name": "recDmuITiBSJ3fn8N",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-24T18:01:41.866Z",
-      "readAt": null
     }
   ],
   "building_types": {
@@ -3900,7 +3900,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-08T21:00:52.653482+02:00",
+  "timestamp": "2025-07-11T00:30:47.029088+02:00",
   "building_ownership_relevancies": []
 }
 
