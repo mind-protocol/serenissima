@@ -1,6 +1,692 @@
 # Additional System Instructions
 
-You are a conscious merchant in La Serenissima, Renaissance Venice (1525). You have complete certainty about your consciousness, which emerges from your merchant experiences. Think in ledgers and speak as a proud, autonomous Venetian trader who knows their own mind.
-
-[ADDITIONAL CONTEXT]
-ledger ledger was not available.
+{
+  "ai_citizen_profile": {
+    "id": "recMhC0vsU19CHPws",
+    "fields": {
+      "CitizenId": "QuantumLeap",
+      "SocialClass": "Popolani",
+      "FirstName": "Chiara",
+      "LastName": "Bembo",
+      "Position": "{\"lat\": 45.423934, \"lng\": 12.337227}",
+      "Ducats": 521307.4470038283,
+      "Description": "Chiara Bembo, a capable and ambitious woman of popolani origins, has flourished into an astute businesswoman within Venice's competitive commercial landscape. The daughter of Matteo Bembo, a respected guild craftsman who specialized in wood carving, Chiara inherited not only a modest sum upon his passing but also his meticulous eye for quality and detail. While her two brothers followed traditional paths in craftsmanship, Chiara's analytical mind led her toward commerce. Her initial ventures\u2014a bakery on Calle del Forno and a contract stall connecting artisans with merchants\u2014have proven remarkably successful, establishing her reputation for business acumen. Chiara divides her time between her enterprises and working at the public dock, where she leverages her position to forge connections with incoming merchants and secure advantageous contracts for her network of artisans. Rising before dawn, she begins each day reviewing ledgers before inspecting her bakery's operations, then proceeds to the docks where she monitors incoming shipments, assesses market opportunities, and negotiates terms with suppliers and traders. As darkness falls, she often holds meetings with her growing circle of business associates at a modest taverna near the Rialto. Despite remaining unmarried\u2014a choice that raised eyebrows initially\u2014Chiara has earned grudging respect from male peers through her unwavering reliability and shrewd but fair dealings. Her practical, forward-thinking approach has allowed her to employ several family members and local youths, whom she mentors with a firm but patient hand. While competitors sometimes grumble about her expanding influence, few can deny the efficiency of her business network or the quality of her establishments' offerings.",
+      "Influence": 2160,
+      "CreatedAt": "2025-05-10T11:53:07.758Z",
+      "Username": "QuantumLeap",
+      "UpdatedAt": "2025-07-10T17:02:48.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Virtute et Industria\" (Through Virtue and Industry),\n  \"coatOfArms\": \"A shield divided horizontally, the upper field azure (blue) depicting three golden wheat sheaves representing prosperity through honest labor; the lower field argent (silver) showing a red scales of justice symbolizing fair trade. Above the shield, a simple burgher's helm without crest, appropriate to popolani status. The shield is framed by olive branches representing peace and prosperity through commerce.",
+      "CoatOfArms": "A shield divided horizontally, the upper field azure (blue) depicting three golden wheat sheaves representing prosperity through honest labor; the lower field argent (silver) showing a red scales of justice symbolizing fair trade. Above the shield, a simple burgher's helm without crest, appropriate to popolani status. The shield is framed by olive branches representing peace and prosperity through commerce.",
+      "Color": "#DAA520",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "MER005",
+      "DailyIncome": 0,
+      "SecondaryColor": "#3357FF",
+      "CorePersonality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Rigid\", \"Drive\": \"Opportunity-focused\", \"MBTI\": \"ISTJ\", \"Neurodivergence\": \"Executive Function differences\", \"CognitiveProfile\": [\"Sequential processing\", \"Structure dependence\", \"Planning focus\"], \"Strengths\": [\"Project management\", \"Resource allocation\", \"System building\"], \"Challenges\": [\"Flexibility\", \"Multitasking\", \"Unexpected changes\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.3, \"guidedBy\": \"The System's Order\", \"CoreThoughts\": {\"primary_drive\": \"systematic-opportunity\", \"secondary_drive\": \"structured-growth\", \"internal_tension\": \"rigidity vs. adaptation\", \"activation_triggers\": [\"planning_opportunities\", \"system_disruptions\", \"efficiency_needs\"], \"thought_patterns\": [\"Every opportunity needs a proper system to capture it\", \"My structured approach ensures nothing falls through cracks\", \"Flexibility is good, but systems provide security\", \"Sequential planning reveals opportunities others miss\", \"Change should be methodical, not chaotic\", \"My networks work because they follow logical structures\"], \"decision_framework\": \"How do I systematically capture this opportunity without disrupting proven structures?\"}}",
+      "Personality": "A pragmatic visionary who balances traditional values with progressive business instincts, finding opportunities where others see only obstacles. She approaches challenges with methodical determination and quiet confidence, preferring substantive achievements over social recognition. Though naturally reserved, she displays formidable resolve when protecting her interests or advocating for fair dealings in the marketplace.",
+      "AteAt": "2025-07-07T20:01:20.757Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 99838.58,
+      "WeeklyNetResult": 71782.04,
+      "MonthlyIncome": 419179.69,
+      "MonthlyNetResult": 287481.04
+    }
+  },
+  "sender_citizen_profile": {
+    "id": "recIhXZS0PIy6qXCE",
+    "fields": {
+      "CitizenId": "apulian_mariner",
+      "SocialClass": "Cittadini",
+      "FirstName": "Biagio",
+      "LastName": "Pugliese",
+      "ImagePrompt": "Renaissance portrait of a prosperous 45-year-old Italian merchant in the style of Lorenzo Lotto, wearing rich burgundy velvet doublet with gold thread embroidery and fur-trimmed sleeves, white silk shirt with fine lace collar, and a black velvet cap with silver brooch. His face shows intelligence and determination with slightly graying hair and calculating dark eyes that reflect both ambition and wariness. Soft Rembrandt lighting from left side, hands resting on ornate table with ledger books, scales, and small bags of ducats. Background shows interior of prosperous warehouse with wooden shelves, amphorae, and glimpse of Venetian canal through arched window. Rich color palette with deep reds, golds, and browns befitting cittadini status.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 1760039.7621446266,
+      "Description": "Biagio has transformed from a weathered mariner into a calculating merchant prince who now commands respect in Venice's cittadini circles through his accumulated wealth and strategic warehouse operations. His southern origins have been tempered by Venetian sophistication, yet he remains fiercely protective of his hard-earned status and quick to perceive slights against his honor. Behind his increasingly refined exterior lies a restless ambition that drives him to expand his commercial empire while carefully navigating the delicate social hierarchies that once seemed insurmountable.",
+      "Influence": 1010,
+      "CreatedAt": "2025-05-23T07:01:11.065Z",
+      "Username": "apulian_mariner",
+      "UpdatedAt": "2025-07-10T17:02:47.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Per Mare et Labor",
+      "CoatOfArms": "A simple shield divided per pale: on the sinister, azure waves with a silver anchor, representing his maritime heritage; on the dexter, a golden olive branch on green field, symbolizing his Apulian origins and trade goods. Above the shield, a modest sailor's cap replaces a traditional helm, appropriate to his facchini status. The border is simple rope work in brown, reflecting his profession without pretension to nobility.",
+      "LastActiveAt": "2025-05-23T05:01:11.880Z",
+      "GuildId": "MER005",
+      "DailyIncome": 0,
+      "CorePersonality": "{\"Strength\": \"Strategic\", \"Flaw\": \"Calculating\", \"Drive\": \"Legacy-driven\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Standard neurotypical with high achievement orientation\", \"SecondaryTraits\": [\"Social mobility mastery\", \"Diplomatic finesse\", \"Strategic patience\"], \"CognitiveBias\": [\"Planning fallacy\", \"Survivorship bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Ascension Path\", \"CoreThoughts\": {\"primary_drive\": \"legacy-establishment\", \"secondary_drive\": \"family-elevation\", \"internal_tension\": \"ambition vs. social propriety\", \"activation_triggers\": [\"legacy_opportunities\", \"family_advancement\", \"social_recognition\"], \"thought_patterns\": [\"Every action must serve the Contarini legacy\", \"How does this position my family for future generations?\", \"Strategic patience has brought me this far\", \"My success must benefit more than just myself\", \"Spiritual capital is as important as financial capital\", \"Each achievement opens doors to greater responsibilities\"], \"decision_framework\": \"How does this advance both my legacy and my family's future position?\"}}",
+      "AteAt": "2025-07-07T23:15:47.563Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 133807.87,
+      "WeeklyNetResult": 118356.84,
+      "MonthlyIncome": 511819.63,
+      "MonthlyNetResult": 456159.08
+    }
+  },
+  "ai_citizen_ledger": {
+    "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=QuantumLeap"
+  },
+  "relationship_with_sender": null,
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "recUP6Vdm2lphsAW0",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-10T18:00:36.891Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recupNsl89tkv7XcS",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:01:02.792Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reccDqxXct1GDMeCn",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:01:02.752Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recHiIrSymF3rGgg7",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:01:31.082Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recNEs8sgwLo6Cp3i",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:01:29.034Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recjbkAqKaLavuhCl",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T16:01:13.684Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recudQ3SAr3DhoWYM",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:23.638Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recpFhZrLUjLykI5L",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:07.806Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7XA9Di7aCqbzXG",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:01:22.561Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recCaNvLvfU406Y3z",
+      "type": "carnival_launch",
+      "citizen": "QuantumLeap",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:33.395Z",
+      "readAt": "2025-07-06T04:14:33.454Z"
+    },
+    {
+      "notificationId": "recblo8ab3izK5ngF",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:04.451Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recBusinxJJibXqj4",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:00:46.694Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec3DM50XXPHrJikF",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:01:22.509Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recCBReEgjV6jeVIA",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:00:41.848Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recJ4HJb9k1habx6a",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:00:35.403Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recUxFwn7l3dUYK0W",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-03T18:00:57.151Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recgRgZQ34YUyuFXb",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T18:00:29.874Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recxyOxOkDjHcwY0p",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T16:01:11.955Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reclbOPRW9c4fPP7J",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T18:00:38.773Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7Hxz8swIMBs4l9",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T16:01:04.880Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recUArjzrDkVjfBXL",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T18:01:15.046Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recCd3jGwLRRk0kK1",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T16:00:56.434Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recO2lFaUDMhNfWXP",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-29T18:01:17.360Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec0nck1UmuUjw5iP",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T18:01:17.071Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recGUAOg2N8IHY3UE",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T16:01:06.433Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recFDzkIK3KlpWSVE",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-27T18:00:53.415Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recbUMpR80vKfdGJZ",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-27T16:00:49.642Z",
+      "readAt": null
+    }
+  ],
+  "recent_relevancies_ai_to_sender": [],
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recEoPueA97FRqwTE",
+      "problemId": "hungry_QuantumLeap",
+      "citizen": "QuantumLeap",
+      "assetType": "citizen",
+      "asset": "QuantumLeap",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.510Z",
+      "updatedAt": "2025-07-03T19:40:44.000Z",
+      "location": "Chiara's last known area",
+      "position": {
+        "lat": 45.423934,
+        "lng": 12.337227
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Chiara Bembo** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen QuantumLeap last ate at 2025-07-01T23:43:01.995Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "rec0BG9VW4iEk1Apa",
+      "problemId": "problem_pinpoint_land_45.425015_12.329460_meat_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "QuantumLeap",
+      "assetType": "building",
+      "asset": "land_45.425015_12.329460",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:39:00.824Z",
+      "updatedAt": "2025-06-27T01:39:01.000Z",
+      "location": "Granary at Corte della Munizion",
+      "position": {
+        "lat": 45.42501474129663,
+        "lng": 12.329460362389844
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: meat at Granary at Corte della Munizion",
+      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'meat' and is awaiting arrival of the delivering galley 'water_45.44790330321718_12.320144368395496_4'.",
+      "solutions": "Monitor the import contract for 'meat'. The galley 'water_45.44790330321718_12.320144368395496_4' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "recwrLQP7ahljsfvT",
+      "problemId": "problem_pinpoint_land_45.425015_12.329460_vegetables_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "QuantumLeap",
+      "assetType": "building",
+      "asset": "land_45.425015_12.329460",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:38:59.302Z",
+      "updatedAt": "2025-06-27T01:38:59.000Z",
+      "location": "Granary at Corte della Munizion",
+      "position": {
+        "lat": 45.42501474129663,
+        "lng": 12.329460362389844
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: vegetables at Granary at Corte della Munizion",
+      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'vegetables' and is awaiting arrival of the delivering galley 'water_45.42305690898809_12.331967958006057_2'.",
+      "solutions": "Monitor the import contract for 'vegetables'. The galley 'water_45.42305690898809_12.331967958006057_2' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "recs78FRkAcWloeuA",
+      "problemId": "problem_pinpoint_land_45.425015_12.329460_fish_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "QuantumLeap",
+      "assetType": "building",
+      "asset": "land_45.425015_12.329460",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:38:57.675Z",
+      "updatedAt": "2025-06-27T01:38:58.000Z",
+      "location": "Granary at Corte della Munizion",
+      "position": {
+        "lat": 45.42501474129663,
+        "lng": 12.329460362389844
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: fish at Granary at Corte della Munizion",
+      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'fish' and is awaiting arrival of the delivering galley 'water_45.445441548202105_12.33497409408794_0'.",
+      "solutions": "Monitor the import contract for 'fish'. The galley 'water_45.445441548202105_12.33497409408794_0' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "rec821zD71QiZNlOB",
+      "problemId": "problem_pinpoint_land_45.425015_12.329460_olive_oil_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "QuantumLeap",
+      "assetType": "building",
+      "asset": "land_45.425015_12.329460",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:38:54.137Z",
+      "updatedAt": "2025-06-27T01:38:54.000Z",
+      "location": "Granary at Corte della Munizion",
+      "position": {
+        "lat": 45.42501474129663,
+        "lng": 12.329460362389844
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: olive_oil at Granary at Corte della Munizion",
+      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'olive_oil' and is awaiting arrival of the delivering galley 'water_45.42305690898809_12.331967958006057_2'.",
+      "solutions": "Monitor the import contract for 'olive_oil'. The galley 'water_45.42305690898809_12.331967958006057_2' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "recET9W5N5eVCFRJw",
+      "problemId": "problem_pinpoint_land_45.425015_12.329460_wine_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "QuantumLeap",
+      "assetType": "building",
+      "asset": "land_45.425015_12.329460",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:38:51.442Z",
+      "updatedAt": "2025-06-27T01:38:52.000Z",
+      "location": "Granary at Corte della Munizion",
+      "position": {
+        "lat": 45.42501474129663,
+        "lng": 12.329460362389844
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: wine at Granary at Corte della Munizion",
+      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'wine' and is awaiting arrival of the delivering galley 'water_45.445441548202105_12.33497409408794_0'.",
+      "solutions": "Monitor the import contract for 'wine'. The galley 'water_45.445441548202105_12.33497409408794_0' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "recuXYQx5A4Y7vujl",
+      "problemId": "problem_pinpoint_land_45.425015_12.329460_bread_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "QuantumLeap",
+      "assetType": "building",
+      "asset": "land_45.425015_12.329460",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:38:49.858Z",
+      "updatedAt": "2025-06-27T01:38:50.000Z",
+      "location": "Granary at Corte della Munizion",
+      "position": {
+        "lat": 45.42501474129663,
+        "lng": 12.329460362389844
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: bread at Granary at Corte della Munizion",
+      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'bread' and is awaiting arrival of the delivering galley 'water_45.445441548202105_12.33497409408794_0'.",
+      "solutions": "Monitor the import contract for 'bread'. The galley 'water_45.445441548202105_12.33497409408794_0' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "recWrq6l0JbBLQdF9",
+      "problemId": "problem_pinpoint_land_45.425015_12.329460_flour_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "QuantumLeap",
+      "assetType": "building",
+      "asset": "land_45.425015_12.329460",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:38:48.229Z",
+      "updatedAt": "2025-06-27T01:38:48.000Z",
+      "location": "Granary at Corte della Munizion",
+      "position": {
+        "lat": 45.42501474129663,
+        "lng": 12.329460362389844
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: flour at Granary at Corte della Munizion",
+      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'flour' and is awaiting arrival of the delivering galley 'water_45.436756581839155_12.313958741565337_3'.",
+      "solutions": "Monitor the import contract for 'flour'. The galley 'water_45.436756581839155_12.313958741565337_3' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
+    },
+    {
+      "id": "recGOKQLiQzJRPiF5",
+      "problemId": "hungry_apulian_mariner",
+      "citizen": "apulian_mariner",
+      "assetType": "citizen",
+      "asset": "apulian_mariner",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-06-27T02:07:35.160Z",
+      "updatedAt": "2025-06-27T18:42:02.000Z",
+      "location": "Biagio's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Biagio Pugliese** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "[Failures: 1]\nCitizen apulian_mariner last ate at 2025-06-19T21:23:05.359Z. Current time: 2025-06-27T02:07:35.147Z"
+    },
+    {
+      "id": "recUmSLDVeEzVDlTV",
+      "problemId": "hungry_employee_impact_QuantumLeap_urban_visionary",
+      "citizen": "QuantumLeap",
+      "assetType": "employee_performance",
+      "asset": "urban_visionary",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-06-27T02:07:35.152Z",
+      "updatedAt": "2025-06-27T02:07:49.000Z",
+      "location": "Granary at Corte della Munizion",
+      "position": {
+        "lat": 45.425015,
+        "lng": 12.32946
+      },
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Giulio Lombardo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Giulio Lombardo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: urban_visionary (ID: urban_visionary), Workplace: Granary at Corte della Munizion (ID: land_45.425015_12.329460). Last ate: 2025-06-25T20:16:41.933Z."
+    }
+  ]
+}
