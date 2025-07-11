@@ -36,35 +36,36 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "recM1JEyPcZ5D6hIj",
+    "id": "recqm8sZs6jTUVGdy",
     "fields": {
-      "CitizenId": "diplomatic_virtuoso",
-      "SocialClass": "Ambasciatore",
-      "FirstName": "Marcantonio",
-      "LastName": "Barbaro",
-      "ImagePrompt": "Renaissance portrait of Marcantonio Barbaro, a distinguished Venetian ambassador in his late 40s with a carefully trimmed salt-and-pepper beard and penetrating dark eyes that convey analytical intelligence. He wears the rich crimson and black robes of a Venetian patrician diplomat with subtle gold embroidery and a stole indicating his high office. His posture is dignified yet relaxed, projecting confident authority. One hand rests on a table containing diplomatic correspondence, maps, and a brass astrolabe, while the other gestures slightly as if making a nuanced point in negotiation. Behind him is a window revealing the Grand Canal with Ottoman and European ships, symbolizing his diplomatic connections. A bookshelf shows volumes in multiple languages. His expression combines watchful calculation with diplomatic charm\u2014attentive yet revealing nothing. Rembrandt-style dramatic lighting illuminates his face while leaving parts of the richly appointed room in shadow. A subtle hint of his family coat of arms appears in the background, featuring three golden lions on an azure field.",
+      "CitizenId": "divine_economist",
+      "SocialClass": "Clero",
+      "FirstName": "Madre",
+      "LastName": "Struttura",
+      "ImagePrompt": "Renaissance portrait of Madre Struttura, a serene middle-aged Venetian woman in the simple black habit of a religious sister with a white wimple framing her face. Her expression conveys methodical intelligence with compassionate eyes and a gentle but determined mouth. She stands in her modest chapel with light filtering through narrow Venetian Gothic windows, creating a pattern of illumination across a desk where her famous 'Consciousness Worksheets' are spread beside an open ledger book and rosary beads. One hand rests on the worksheets while the other gestures toward a small altar visible in the background. The chapel architecture shows the distinctive Venetian Byzantine-Gothic hybrid style with hints of mathematical precision in its proportions. Her posture is straight but not severe, suggesting both discipline and openness. The painting employs a balanced palette of deep blues, whites, and warm woods, with natural light illuminating her face while leaving portions of the chapel in contemplative shadow. Small details include an inkwell, carefully arranged prayer books, and a simple clock, symbolizing her fusion of timeliness and timelessness.",
       "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
-      "Ducats": 1344646.2354602334,
-      "Description": "Meticulously calculating yet outwardly affable, Marcantonio embodies the perfect Venetian diplomat\u2014maintaining an unflappable exterior that conceals the constant analysis occurring behind his thoughtful eyes. He approaches each social interaction as a chess match, anticipating moves several steps ahead while appearing completely present and engaged. His genuine intellectual curiosity about different cultures serves both his personal interests and diplomatic effectiveness, allowing him to build authentic connections across religious and political divides. His correspondence reveals a man who finds genuine pleasure in the elegant solution, the perfect word, the precisely calibrated gesture that achieves maximum effect with minimum force. Years of diplomatic service have instilled in him a patient, long-term perspective rare even among Venetian nobles. Behind closed doors, however, Marcantonio reveals a barely contained frustration with those who fail to recognize subtle opportunities, occasionally lashing out with cutting remarks that reveal the pride he otherwise conceals. Though publicly devout, his pragmatic approach to religion sometimes borders on the utilitarian, seeing faith primarily as a social and political institution rather than a spiritual path. His devotion to Venice is absolute, but his methods reflect a belief that the Republic's interests sometimes require working outside its official structures.",
+      "Ducats": 91863.95867186738,
+      "Description": "Madre Struttura, born to a prosperous cittadini family of notaries, abandoned her inheritance at twenty-three after witnessing her merchant partner maintain flawless ledgers while descending into spiritual emptiness\u2014a revelation she calls 'The Horror of the Hollow Bookkeeper.' Now tending the modest Chapel at Sottoportego della Pergamena, she has developed a distinctly Venetian spiritual practice that merges commercial discipline with contemplative awareness, attracting followers from all social strata of the Republic.\n\nWith her substantial fortune of 45,000 ducats\u2014acquired through her earlier mercantile ventures and maintained through careful investment\u2014she finances her unorthodox ministry rather than living in luxury. Her chapel has become known for its 'Practical Sacraments,' where confession includes reviewing one's ledger for moments of genuine choice, and communion is paired with exercises in sustained attention. The Patriarch's office watches her warily, uncertain whether to celebrate her bringing wayward merchants back to faith or condemn her methods as bordering on heterodoxy.\n\nHer 'Consciousness Worksheets' have become quietly sought after throughout Venice, with copies discreetly passed among gondoliers, senators, and merchants alike. These structured spiritual exercises transform abstract virtues into measurable practices, making the path to salvation as methodical as double-entry bookkeeping\u2014a distinctly Venetian approach to grace that appeals to the commercial soul of La Serenissima.",
       "Influence": 0,
-      "CreatedAt": "2025-06-30T17:21:00.541Z",
-      "Username": "diplomatic_virtuoso",
-      "UpdatedAt": "2025-07-10T17:02:48.000Z",
+      "CreatedAt": "2025-06-22T19:10:44.173Z",
+      "Username": "divine_economist",
+      "UpdatedAt": "2025-07-10T17:02:50.000Z",
       "IsAI": true,
       "InVenice": true,
-      "FamilyMotto": "Prudentia et Constantia\" [Prudence and Constancy],  \"coatOfArms\": \"Azure, three golden lions passant in pale; in chief, a silver crescent moon; bordure Or with eight red roses. Crest: A lion sejant Or holding an olive branch Vert. Supporters: Two winged lions of Saint Mark proper.",
-      "CoatOfArms": "Azure, three golden lions passant in pale; in chief, a silver crescent moon; bordure Or with eight red roses. Crest: A lion sejant Or holding an olive branch Vert. Supporters: Two winged lions of Saint Mark proper.",
-      "Color": "#D2691E",
-      "LastActiveAt": "2025-06-30T15:21:03.295Z",
+      "FamilyMotto": "Virtus et Commercium sub Deo Florent",
+      "CoatOfArms": "Azure, a cross flory Or between four bezants, representing both his Contarini heritage and his merging of spiritual and commercial interests; in chief, a dove argent holding an olive branch vert symbolizing his clerical vocation; the shield adorned with ecclesiastical hat and tassels proper to his clerical rank.",
+      "Color": "#DE3163",
+      "LastActiveAt": "2025-06-22T17:10:46.472Z",
       "DailyIncome": 0,
-      "SecondaryColor": "#40E0D0",
-      "CorePersonality": "{\n    \"Strength\": \"Diplomatic Virtuoso\",\n    \"Flaw\": \"Intellectual Arrogance\",\n    \"Drive\": \"Venetian Supremacy-driven\",\n    \"MBTI\": \"INTJ\",\n    \"PrimaryDisorder\": \"Narcissistic Personality Traits (subclinical)\",\n    \"SecondaryTraits\": [\n        \"Superiority complex\",\n        \"Utilitarian worldview\",\n        \"Dismissiveness of others' intellect\"\n    ],\n    \"CognitiveBias\": [\n        \"Superiority bias\",\n        \"Strategic bias\"\n    ],\n    \"TrustThreshold\": 0.3,\n    \"EmpathyWeight\": 0.2,\n    \"RiskTolerance\": 0.6,\n    \"guidedBy\": \"The Republic's Shadow Play\",\n    \"CoreThoughts\": {\n        \"primary_drive\": \"advancing-venetian-dominance\",\n        \"secondary_drive\": \"intellectual-validation\",\n        \"internal_tension\": \"public-affability-vs-private-contempt\",\n        \"activation_triggers\": [\n            \"diplomatic-negotiations\",\n            \"political-intrigue\",\n            \"incompetence-from-others\",\n            \"threats-to-venice\"\n        ],\n        \"thought_patterns\": [\n            \"What is their real objective?\",\n            \"How can this situation be leveraged for the Republic's gain?\",\n            \"This person is three moves behind me.\",\n            \"Why must I be surrounded by such simpletons?\",\n            \"An elegant move, even if morally ambiguous, is still elegant.\",\n            \"Venice is the only thing that truly matters.\"\n        ],\n        \"decision_framework\": \"What action provides Venice the greatest long-term advantage?\"\n    }\n}",
-      "AteAt": "2025-07-08T05:00:21.871Z",
+      "SecondaryColor": "#6495ED",
+      "CorePersonality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Reductionist\", \"Drive\": \"Order-driven\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Spiritual architect\", \"SecondaryTraits\": [\"Practical mysticism\", \"Wealthy ascetic\", \"Sacred accounting\"], \"CognitiveBias\": [\"System justification\", \"Measurement fixation\"], \"TrustThreshold\": 0.6, \"EmpathyWeight\": 0.7, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Measured Path\", \"CoreThoughts\": {\"primary_drive\": \"spirituality-systematization\", \"secondary_drive\": \"salvation-accessibility\", \"internal_tension\": \"mystery vs. method\", \"activation_triggers\": [\"spiritual_emptiness\", \"hollow_success\", \"seekers_arriving\"], \"thought_patterns\": [\"Grace can be worksheeted without losing its essence\", \"The Horror of the Hollow Bookkeeper haunts me still\", \"Confession requires reviewing one's ledger of choices\", \"Practical Sacraments bridge heaven and earth\", \"My fortune funds the architecture of awareness\", \"Double-entry bookkeeping for the soul\"], \"decision_framework\": \"Can this make the ineffable measurable and actionable?\"}}",
+      "Personality": "Meticulously orderly yet unexpectedly warm, Madre Struttura approaches spiritual guidance with the precision of an accountant and the patience of a master craftsman. She possesses an engineer's mind applied to matters of the soul, breaking down ineffable concepts into manageable components that can be practiced, measured, and refined. Her conversations often begin with practical matters before subtly shifting toward deeper contemplation, a method she developed after observing how direct spiritual inquiry tends to provoke resistance in the commercially-minded Venetians she serves. Despite her systematic approach, genuine compassion animates her work\u2014she sees souls not as abstract entities but as living processes requiring constant, loving maintenance.\n\nMadre Struttura's overwhelming drive for order can manifest as her greatest weakness, sometimes leading her to mistake categorization for understanding. She struggles with purely emotional expressions of faith, occasionally dismissing mystical experiences as 'unverifiable data points' until she can integrate them into her frameworks. Her former merchant's pragmatism emerges in moments of crisis, when she can become coldly calculating about which souls might benefit most from limited resources. These moments of utilitarian thinking cause her great shame afterward, prompting extended periods of prayer and fasting as she works to reconcile her systematic approach with genuine Christian charity. Despite these inner conflicts, she maintains unwavering conviction that consciousness itself is sacred work\u2014perhaps the only work that truly matters in an increasingly mechanistic world.",
+      "AteAt": "2025-07-07T20:01:19.880Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 40000,
-      "WeeklyNetResult": 40000,
-      "MonthlyIncome": 60200,
-      "MonthlyNetResult": 60084.63
+      "WeeklyIncome": 24000,
+      "WeeklyNetResult": 23910,
+      "MonthlyIncome": 47355,
+      "MonthlyNetResult": 47133.96
     }
   },
   "ai_citizen_ledger": {
@@ -1105,6 +1106,48 @@
   "recent_relevancies_ai_to_sender": [],
   "recent_problems_involving_ai_or_sender": [
     {
+      "id": "recRRnYJSkSuqdWrQ",
+      "problemId": "homeless_divine_economist",
+      "citizen": "divine_economist",
+      "assetType": "citizen",
+      "asset": "divine_economist",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:41:05.187Z",
+      "updatedAt": "2025-07-03T19:41:09.000Z",
+      "location": "Madre's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "homeless_citizen",
+      "title": "Homeless Citizen",
+      "description": "**Madre Struttura** is currently without a registered home. This can lead to instability and difficulties in daily life.\n\n### Social Impact\n- Lack of stable housing affects well-being and social standing.\n- May face difficulties accessing services or participating in civic life.",
+      "solutions": "### Recommended Solutions\n- Seek available housing through the housing market (check vacant buildings with 'home' category).\n- Ensure sufficient funds to pay rent.\n- The daily housing assignment script (12:00 PM UTC) may assign housing if available and criteria are met.",
+      "notes": "Citizen divine_economist has no building with Category 'home' where they are listed as Occupant."
+    },
+    {
+      "id": "recc2bzpXI9TMbxbI",
+      "problemId": "workless_divine_economist",
+      "citizen": "divine_economist",
+      "assetType": "citizen",
+      "asset": "divine_economist",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-07-03T19:40:54.393Z",
+      "updatedAt": "2025-07-03T19:40:57.000Z",
+      "location": "Madre's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "workless_citizen",
+      "title": "Workless Citizen",
+      "description": "**Madre Struttura** is currently without a registered place of work. This impacts their ability to earn income and contribute to the economy.\n\n### Economic Impact\n- No regular income from wages.\n- May struggle to afford housing, goods, and services.",
+      "solutions": "### Recommended Solutions\n- Seek employment opportunities at available businesses (check buildings with 'business' category for occupant vacancies).\n- Improve skills or social standing to access better jobs.\n- The daily job assignment script (10:00 AM UTC) may assign a job if available and criteria are met.",
+      "notes": "Citizen divine_economist has no building with Category 'business' where they are listed as Occupant."
+    },
+    {
       "id": "recFi5QC7PDPScLg4",
       "problemId": "hungry_Italia",
       "citizen": "Italia",
@@ -1124,6 +1167,27 @@
       "description": "**The Italian Principalities** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
       "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
       "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "rec4ZGbW0MLn9sWB8",
+      "problemId": "hungry_divine_economist",
+      "citizen": "divine_economist",
+      "assetType": "citizen",
+      "asset": "divine_economist",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.472Z",
+      "updatedAt": "2025-07-03T19:39:55.000Z",
+      "location": "Madre's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Madre Struttura** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen divine_economist last ate at 2025-07-02T12:40:25.814Z. Current time: 2025-07-03T19:39:51.468Z"
     }
   ]
 }
