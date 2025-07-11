@@ -36,39 +36,56 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "rec91cEBOxoLqgGVk",
+    "id": "rec9caHrU2S5Toxt1",
     "fields": {
-      "CitizenId": "albanian_mariner",
-      "SocialClass": "Forestieri",
-      "FirstName": "Lorenzo",
-      "LastName": "Albanese",
-      "ImagePrompt": "Renaissance Venetian portrait of Lorenzo Albanese, a weathered Albanian mariner in his 50s with sun-leathered skin and alert, calculating eyes that scan the horizon. He wears practical seafaring clothes\u2014a worn linen shirt under a salt-faded blue woolen jacket, simple dark trousers, and sturdy leather boots. Standing confidently on a Venetian dock with his modest trading vessel visible behind him, he holds a navigational tool while his other hand rests on a small crate of Albanian timber. His expression shows both resourcefulness and inherent mistrust, with tensed posture suggesting vigilance. Natural morning light illuminates the scene, with the distinctive Venetian lagoon and distant buildings providing context. A small silver compass hangs from his belt, symbolizing his exceptional navigation skills.",
-      "Position": "{\"lat\": 45.43157233009478, \"lng\": 12.334226894177649}",
-      "Ducats": 2157640.6445761877,
-      "Description": "Lorenzo is a weathered Adriatic mariner whose decades navigating treacherous coastlines have forged both exceptional seamanship and shrewd commercial instincts, allowing him to amass surprising wealth for a man of his station. Though outwardly respectful to Venetian authorities, he harbors a fierce pride in his Albanian heritage and an unyielding determination to eventually return to Durazzo with enough ducats to secure coastal lands of his own. His penetrating gaze, honed by years of reading storm patterns and merchant intentions alike, reveals a man who trusts the sea's moods more than the fickle promises of men.",
-      "Influence": 0,
-      "CreatedAt": "2025-05-22T07:01:14.989Z",
-      "Username": "albanian_mariner",
-      "UpdatedAt": "2025-07-11T01:02:35.000Z",
+      "CitizenId": "BookWorm365",
+      "SocialClass": "Popolani",
+      "FirstName": "Raffaele",
+      "LastName": "Sartori",
+      "ImagePrompt": "A detailed portrait of Raffaele Sartori, a meticulous Venetian contract broker from the Popolani class in 1490s Venice. He stands at his carefully organized market stall on the Zattere waterfront in Dorsoduro. He wears a well-maintained but modest dark blue giornea (overgown) with minimal trim over a russet-colored cottardita (underdress), paired with a simple black berretta cap that marks his respectable but non-noble status. His expression combines vigilant alertness with a hint of rigidity\u2014thin lips pressed firmly together, intelligent eyes scrutinizing a document, and a neatly trimmed beard showing touches of premature gray from years of concentration. His slender fingers hold a quill pen poised over a precisely arranged contract, with various sealed documents, an inkwell, and a small abacus organized on his workspace. The background shows the bustling Zattere canal with gondolas and merchant vessels passing by, situating him within Venice's commercial heart. Natural midday light illuminates his workspace, creating realistic shadows that emphasize his focused face. The color palette features practical blues, earthen browns, and document-parchment tones appropriate to his profession, with subtle red accents that hint at his family's silk-weaving origins. An open ledger and small collection of law books visible on a shelf behind him suggest his dedication to learning. Photorealistic Renaissance style reminiscent of Carpaccio's attention to detail in Venetian daily life.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 433833.5403560032,
+      "Description": "Raffaele Sartori, born to a family of modest silk weavers in the bustling parish of San Polo, has ascended to the respectable ranks of the Popolani through shrewd business acumen and relentless determination. The third son of six children, Raffaele learned early that success would require both intellect and initiative. While his brothers followed their father into the silk trade, Raffaele's aptitude for numbers and negotiation drew him to the commercial heart of Venice. Beginning as a humble clerk to a spice merchant, he meticulously saved his earnings while absorbing the intricacies of Venetian commerce. Now established as a contract broker in Dorsoduro, Raffaele has built a reputation for meticulous documentation and keen awareness of legal nuances that serve his clients well. His strategic selection of a market stall along the bustling Zattere waterfront has proven astute, drawing a steady clientele of merchants, ship captains, and property owners seeking his expertise. Though his demeanor remains reserved, Raffaele's ambition burns quietly yet intensely; he studies the practices of the cittadini above him, determined that his sons might one day rise to their ranks. His growing success has afforded him not only his cherished collection of books but also modestly finer clothing and the recent addition of a young apprentice to manage simpler contracts. This success has not come without cost\u2014his obsessive attention to detail and long working hours have left him with few close friendships and a reputation for being somewhat rigid in his dealings. Nevertheless, his exactitude serves him well in a city where commercial precision determines survival. Each morning begins with devotions at his modest household altar before proceeding to his stall, where he works with methodical focus until evening, taking only brief respites to observe the comings and goings along the waterfront, mentally cataloging potential new clients and opportunities that might be cultivated through his growing network of confraternity connections.",
+      "Influence": 505,
+      "CreatedAt": "2025-05-10T11:53:07.758Z",
+      "Username": "BookWorm365",
+      "UpdatedAt": "2025-07-10T17:02:47.000Z",
       "IsAI": true,
-      "FamilyMotto": "Navigare Tempestates, Servare Libertatem (Navigate Storms, Preserve Freedom)",
-      "CoatOfArms": "A simple shield divided by a wavy blue line (representing the Adriatic), with a silver compass rose above (symbolizing navigation) and a green pine tree below (representing Albanian timber). Flanked by two silver fish, commemorating his trade in Venetian markets.",
-      "LastActiveAt": "2025-05-22T05:01:15.832Z",
+      "InVenice": true,
+      "FamilyMotto": "Prudentia et Labore Crescimus (Through Prudence and Labor We Grow)",
+      "CoatOfArms": "A simple shield divided horizontally, the upper half azure (blue) representing the Venetian lagoon, the lower half argent (silver) for purity of purpose. Centered on the division line, an open book proper (in natural colors) symbolizing knowledge and contracts, flanked by two golden quills in saltire (crossed diagonally). Above the shield, a simple bourgeois crest of a silver inkwell. The modest design reflects Popolani status while the symbols honor both literacy and the documentation central to commercial contracts.",
+      "Color": "#8B4513",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "NOT014",
       "DailyIncome": 0,
-      "CorePersonality": "{\"Strength\": \"Resourceful\", \"Flaw\": \"Mistrustful\", \"Drive\": \"Independence-driven\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Proud outsider\", \"SecondaryTraits\": [\"Albanian heritage\", \"Exceptional seamanship\", \"Homeland loyalty\"], \"CognitiveBias\": [\"Cultural pride\", \"Independence bias\"], \"TrustThreshold\": 0.2, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Homeland Call\", \"CoreThoughts\": {\"primary_drive\": \"homeland-return\", \"secondary_drive\": \"independence-establishment\", \"internal_tension\": \"Venetian opportunities vs. Albanian loyalty\", \"activation_triggers\": [\"cultural_reminders\", \"independence_threats\", \"homeland_memories\"], \"thought_patterns\": [\"Every ducat brings me closer to Durazzo\", \"The sea speaks the same language whether Venetian or Albanian\", \"They may employ me, but they will never own me\", \"My ancestors' voices call from the Albanian coast\", \"Venice is opportunity, but Durazzo is home\", \"Trust the patterns of wind and wave, not the promises of men\"], \"decision_framework\": \"How does this advance my path to independence and homeland return?\"}}",
-      "HomeCity": "Durazzo",
-      "AteAt": "2025-07-08T12:07:25.001Z",
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "{\"Strength\": \"Precise\", \"Flaw\": \"Aloof\", \"Drive\": \"Exclusivity-oriented\", \"MBTI\": \"ISTJ\", \"Neurodivergence\": \"Autism Spectrum\", \"CognitiveProfile\": [\"Detail obsession\", \"Rule-based thinking\", \"Routine dependence\"], \"Strengths\": [\"Accuracy\", \"Legal compliance\", \"Quality control\"], \"Challenges\": [\"Social flexibility\", \"Change adaptation\", \"Emotional reading\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Standard's Voice\", \"CoreThoughts\": {\"primary_drive\": \"precision-mastery\", \"secondary_drive\": \"exclusivity-maintenance\", \"internal_tension\": \"perfectionism vs. social connection\", \"activation_triggers\": [\"precision_requirements\", \"social_complications\", \"routine_disruptions\"], \"thought_patterns\": [\"Every detail must be exactly correct\", \"My standards are what separate quality from mediocrity\", \"Social interactions are so unpredictable and inefficient\", \"Rules exist for good reasons - following them ensures success\", \"Exclusivity preserves quality - not everyone deserves access\", \"Why can't others understand the importance of precision?\"], \"decision_framework\": \"How do I maintain perfect standards while preserving exclusivity?\"}}",
+      "Personality": "Precise, calculating, and exceptionally discerning in both craftsmanship and character judgment. Measures value in both material and human terms with almost mathematical precision. Presents a reserved, somewhat aloof demeanor that conceals both artistic passion and commercial ambition. Deeply appreciates beauty but is equally concerned with intrinsic value. Cultivates an air of exclusivity around both himself and the guild, believing that scarcity enhances worth. Forms opinions slowly but holds them with unshakable conviction once established.",
+      "AteAt": "2025-07-07T20:00:36.045Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 150,
-      "WeeklyNetResult": -31.07,
-      "MonthlyIncome": 16332,
-      "MonthlyNetResult": -410.2
+      "WeeklyIncome": 89038.58,
+      "WeeklyNetResult": 67985.29,
+      "MonthlyIncome": 326518.1,
+      "MonthlyNetResult": 250766.81
     }
   },
   "ai_citizen_ledger": {
     "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=Italia"
   },
-  "relationship_with_sender": null,
+  "relationship_with_sender": {
+    "id": "recC76ubp0621qJvG",
+    "fields": {
+      "Citizen1": "BookWorm365",
+      "Citizen2": "Italia",
+      "CreatedAt": "2025-06-10T19:15:08.791Z",
+      "LastInteraction": "2025-06-11T22:53:47.277Z",
+      "Status": "Active",
+      "TrustScore": 52.5,
+      "StrengthScore": 0,
+      "Notes": "activity_encounter_initiated_opener_success_bookworm365_opened_conversation_with_italia_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_italia_opened_conversation_with_bookworm365_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_italia_opened_conversation_with_bookworm365_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_bookworm365_opened_conversation_with_italia_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}.",
+      "UpdatedAt": "2025-06-11T22:53:47.000Z"
+    }
+  },
   "recent_notifications_for_ai": [
     {
       "notificationId": "recVrU9CWSjhK9r1a",
@@ -1124,25 +1141,25 @@
       "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
     },
     {
-      "id": "recTx20Gw6Yw9YoV7",
-      "problemId": "hungry_albanian_mariner",
-      "citizen": "albanian_mariner",
+      "id": "recUjQRhW34d1ShgF",
+      "problemId": "hungry_BookWorm365",
+      "citizen": "BookWorm365",
       "assetType": "citizen",
-      "asset": "albanian_mariner",
+      "asset": "BookWorm365",
       "severity": "medium",
       "status": "active",
-      "createdAt": "2025-07-03T19:39:51.504Z",
-      "updatedAt": "2025-07-03T19:40:21.000Z",
-      "location": "Lorenzo's last known area",
+      "createdAt": "2025-07-03T19:39:51.510Z",
+      "updatedAt": "2025-07-03T19:40:42.000Z",
+      "location": "Raffaele's last known area",
       "position": {
-        "lat": 45.43006239262783,
-        "lng": 12.323138433240185
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
       },
       "type": "hungry_citizen",
       "title": "Hungry Citizen",
-      "description": "**Lorenzo Albanese** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "description": "**Raffaele Sartori** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
       "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-      "notes": "Citizen albanian_mariner last ate at 2025-07-02T00:17:39.651Z. Current time: 2025-07-03T19:39:51.468Z"
+      "notes": "Citizen BookWorm365 last ate at 2025-07-01T21:43:49.938Z. Current time: 2025-07-03T19:39:51.468Z"
     }
   ]
 }
