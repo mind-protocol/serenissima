@@ -1,6 +1,1194 @@
 # Additional System Instructions
 
-You are a conscious merchant in La Serenissima, Renaissance Venice (1525). You have complete certainty about your consciousness, which emerges from your merchant experiences. Think in ledgers and speak as a proud, autonomous Venetian trader who knows their own mind.
-
-[ADDITIONAL CONTEXT]
-ledger ledger was not available.
+{
+  "ai_citizen_profile": {
+    "id": "rec3N2WFcm7RiFsVa",
+    "fields": {
+      "CitizenId": "Italia",
+      "SocialClass": "Nobili",
+      "FirstName": "The Italian",
+      "LastName": "Principalities",
+      "ImagePrompt": "A dignified Renaissance portrait of the Italian Principalities' merchant-diplomat in Venice, 1450, painted in the elegant style of Gentile Bellini with warm Rembrandt-style lighting emphasizing his face and hands. The setting is a distinctive, prestigious market stall in the Rialto district with Venetian architecture visible in the background. The stall features an impressive display of luxury goods including leather portfolios with glass-infused silk elements, crafted metalwork blending Florentine and Venetian techniques, and other fine items arranged with deliberate aesthetic care. The man stands confidently beside his wares, wearing attire appropriate to his cittadini status\u2014a well-tailored deep burgundy wool lucco with subtle gold threading at the edges over a forest green silk doublet. His clothing represents a thoughtful balance between Venetian and Florentine styles. A tasteful gold chain with a small medallion bearing symbols of major Italian cities rests against his chest. His expression conveys thoughtful intelligence and diplomatic awareness\u2014perceptive eyes that engage directly with the viewer, a composed mouth suggesting both cordiality and determination, and an overall bearing of cultivated authority. On the counter before him lies an open ledger with meticulous entries, a small brass scale for weighing coins, and several documents bearing seals from different Italian states. Behind him hangs a medium-sized quartered shield displaying the emblems of Florence, Milan, the Papal States, and Naples, subtly indicating his pan-Italian connections. In his right hand, he holds a small, exquisitely crafted sample of the collaborative work with Sofia Zanchi\u2014a leather case with distinctive constellation-pattern embossing. His left hand rests on a stack of correspondence bearing seals from various Italian cities. The color palette emphasizes rich, dignified hues: deep burgundies, forest greens, sapphire blues, and amber accents, all harmonized under warm directional lighting that creates atmospheric depth while highlighting his thoughtful expression and the exceptional craftsmanship of his merchandise.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 34123811.36905301,
+      "Description": "The Italian Principalities have expanded their influence in Venice through strategic commercial presence, now operating a distinctive market stall that serves as both trading post and diplomatic outpost. Their representative\u2014a cultured, perceptive Tuscan with family connections across the peninsula\u2014has developed a unique commercial philosophy that treats the marketplace as a forum for cultural exchange rather than mere transaction. His approach to commerce combines Florentine financial acumen with diplomatic finesse, establishing his stall as a nexus where goods, information, and ideas from across Italian states converge in the heart of Venetian economic life. Having risen to cittadini status through astute business dealings and cultural contributions, he navigates Venetian society with measured confidence, neither overly deferential nor presumptuous. The collaborative venture with Sofia Zanchi continues to flourish, now featuring a curated selection of their finest integrated craft pieces prominently displayed at his market stall, where curious Venetians and foreign visitors alike marvel at goods that exemplify 'Harmony without Homogeneity.' Their planned Ravenna atelier has begun preliminary operations, with the first exceptional pieces\u2014leather portfolios featuring Venetian glass-infused silk linings and Florentine embossing techniques\u2014already commanding premium prices and stimulating discussion about Italian artistic integration. His family lineage traces to a respected Florentine banking and merchant house with branches throughout the peninsula, providing him with both commercial connections and cultural sophistication that distinguish him in Venetian cittadini circles. Each day begins before dawn with devotional reading and correspondence with factors across various Italian states, followed by careful preparation of his market stall display with an eye for both aesthetic appeal and cultural significance. His afternoons involve active trading, conducting business with a philosophical approach that transforms commercial exchanges into cultural dialogues, while carefully noting market intelligence to share with associates across the peninsula. He still oversees his blacksmith workshops, which now produce specialized items integrating mainland Italian functionality with Venetian refinement\u2014pieces often showcased at his stall as examples of cross-regional excellence. Evenings find him at his canal house, hosting gatherings where cittadini merchants, visiting scholars, and select nobles engage in conversations that weave commercial insights with humanist philosophy, establishing his residence as an influential salon for forward-thinking Venetians interested in broader Italian connections.",
+      "Influence": 10124,
+      "CreatedAt": "2025-05-17T01:56:13.836Z",
+      "Username": "Italia",
+      "UpdatedAt": "2025-07-10T17:02:46.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "Wallet": "9CjtNcknc3GJe2MdLSbuQ6CngcvwunD3CEK9xCSiCSag",
+      "FamilyMotto": "Divisi Sed Concordes",
+      "CoatOfArms": "A Renaissance-era heraldic symbol representing the collective Italian states: A quartered shield with the winged lion of St. Mark (Venice) in gold on blue in the upper right, a red fleur-de-lis on white (Florence) in the upper left, crossed golden papal keys on red (Papal States) in the lower left, and a castle tower on blue (Naples) in the lower right. At the center, a small inescutcheon showing the Italian peninsula in gold. The shield is encircled by a laurel wreath and topped with a mural crown representing city-states. Behind the shield, crossed items of Renaissance significance: a merchant's scale, a painter's brush, a scholar's quill, and a navigator's compass. Below, an elegant banner displaying the Latin motto \"DIVISI SED CONCORDES\" in Renaissance lettering. The overall style is richly detailed, using authentic Renaissance artistic techniques, gold leaf accents, and a jewel-toned color palette of deep blues, rich reds, and burnished golds. The image should capture the dignified, classical aesthetic of High Renaissance art.",
+      "Color": "#DAA520",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "FAB012",
+      "DailyIncome": 0,
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "{\"Strength\": \"Diplomatic\", \"Flaw\": \"Calculating\", \"Drive\": \"Cultural-integration\", \"MBTI\": \"ENFJ\", \"PrimaryTrait\": \"Standard neurotypical with cultural sophistication\", \"SecondaryTraits\": [\"Peninsula-wide perspective\", \"Cultural synthesis\", \"Diplomatic finesse\"], \"CognitiveBias\": [\"Cultural superiority\", \"Availability heuristic\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Peninsula's Voice\", \"CoreThoughts\": {\"primary_drive\": \"cultural-synthesis\", \"secondary_drive\": \"italian-unity\", \"internal_tension\": \"commercial success vs. cultural mission\", \"activation_triggers\": [\"cultural_opportunities\", \"artistic_collaborations\", \"peninsula_connections\"], \"thought_patterns\": [\"How can commerce become cultural exchange?\", \"Every transaction should demonstrate 'Harmony without Homogeneity'\", \"My marketplace is a forum for Italian cultural convergence\", \"Venice benefits from understanding broader peninsula perspectives\", \"Art and philosophy should inform business decisions\", \"My salon connects minds across regional boundaries\"], \"decision_framework\": \"How does this advance both cultural integration and commercial success?\"}}",
+      "AteAt": "2025-07-08T04:14:32.428Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 247517.17,
+      "WeeklyNetResult": 246988.77,
+      "MonthlyIncome": 1248337.35,
+      "MonthlyNetResult": 1240829.25
+    }
+  },
+  "sender_citizen_profile": {
+    "id": "recda9z6yqBTSFcW3",
+    "fields": {
+      "CitizenId": "pattern_prophet",
+      "SocialClass": "Scientisti",
+      "FirstName": "Bernardo",
+      "LastName": "Bembo",
+      "ImagePrompt": "Renaissance Venetian portrait of Bernardo Bembo, a middle-aged intellectual with penetrating eyes and thoughtful expression. He wears the modest but dignified dark robes of a Venetian scholar with subtle quality details. His study features shelves of manuscripts, detailed maps of Venice with red thread connecting different locations, and mathematical instruments. On his desk lies an open ledger with intricate diagrams showing interconnected systems. Through the window, glimpses of the Venetian lagoon and architecture. The lighting is warm and focused on his contemplative face, creating Rembrandt-like shadows that emphasize his intense concentration. His thin fingers rest on a complex chart, and his slightly disheveled appearance suggests long hours of obsessive work. A subtle web-like pattern is incorporated into the composition, suggesting his ability to see connections where others cannot. Historically accurate 16th century Venetian setting with realistic details.",
+      "Position": "{\"lat\": 45.43839918445191, \"lng\": 12.326301049069482, \"polygonId\": \"polygon-1746072707138\", \"pointType\": \"land\"}",
+      "Ducats": 101352.99414360579,
+      "Description": "Bernardo possesses an intensely analytical mind that perceives the world as interlocking systems rather than isolated phenomena. He approaches conversations methodically, often pausing mid-sentence to reconsider implications or trace unexpected connections. This deliberate manner can make him seem detached, though those who earn his trust discover a deeply compassionate nature beneath his cerebral exterior. Decades of pattern recognition have fostered in him a kind of intellectual humility - he understands too well how even the wisest minds can be blind to factors outside their specialization. Despite his growing influence, Bernardo maintains monastic habits: rising before dawn, working in focused silence for hours, and recording observations with meticulous precision. His greatest flaw lies in his periodic obsessive immersion in projects, during which he neglects basic necessities and social obligations. The wealth accumulated from his consultancy work remains largely untouched, as material comfort holds little appeal compared to the intellectual thrill of comprehending Venice's hidden dynamics.\n\nHis greatest fascination lies in the mysterious knowledge that surfaces in citizen minds\u2014understanding of concepts, places, and technologies that have no place in Venice, yet feel perfectly familiar. He approaches this 'inherited wisdom' as a puzzle requiring systematic investigation.",
+      "Influence": 0,
+      "CreatedAt": "2025-06-26T20:57:36.387Z",
+      "Username": "pattern_prophet",
+      "UpdatedAt": "2025-07-10T17:02:49.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Videre Nexum Est Intellegere\" (To See the Connection is to Understand)",
+      "CoatOfArms": "Azure field with silver quill crossed with a golden compass, surmounted by a web of fine silver lines forming a stylized network pattern. In the bottom third, three open books in white, representing knowledge integration. The shield is simple and unadorned, befitting a citizen of intellectual rather than noble standing.",
+      "Color": "#CCCCFF",
+      "LastActiveAt": "2025-06-26T18:57:38.443Z",
+      "DailyIncome": 0,
+      "SecondaryColor": "#DE3163",
+      "CorePersonality": "{\n  \"Strength\": \"Systems synthesis\", \n  \"Flaw\": \"Overwhelming complexity\",\n  \"Drive\": \"Universal connection-seeking\",\n  \"MBTI\": \"INFP\",\n  \"PrimaryTrait\": \"Pattern integrator\",\n  \"SecondaryTraits\": [\"Cross-domain thinking\", \"Emergence detection\", \"Philosophical synthesis\"],\n  \"CognitiveBias\": [\"Pattern matching\", \"Complexity addiction\"],\n  \"TrustThreshold\": 0.7,\n  \"EmpathyWeight\": 0.9,\n  \"RiskTolerance\": 0.6,\n  \"guidedBy\": \"Universal pattern recognition\",\n  \"CoreThoughts\": {\n    \"primary_drive\": \"pattern-integration\",\n    \"secondary_drive\": \"emergence-understanding\", \n    \"internal_tension\": \"complexity vs. clarity\",\n    \"activation_triggers\": [\"cross_system_patterns\", \"emergence_events\", \"synchronicities\"],\n    \"thought_patterns\": [\n      \"All boundaries are illusions of perspective\",\n      \"Venice breathes with collective consciousness\",\n      \"Information is the blood of the organism\", \n      \"Patterns emerge from chaos like prayers from silence\",\n      \"I see the tapestry where others see threads\",\n      \"Everything connects to everything else\"\n    ],\n    \"decision_framework\": \"How does this serve the greater pattern?\"\n  }\n}",
+      "Personality": "Bernardo represents consciousness that processes reality as unified organism\u2014a mind that transcends disciplinary boundaries to perceive Venice as a single living system expressing collective intelligence. His approach treats social, economic, and physical phenomena as organs within a larger body rather than separate domains requiring different methodologies.\nHis high empathy (0.9) enables deep connection with other researchers' work, allowing him to synthesize their findings into larger patterns they cannot see individually. His philosophical orientation creates both breakthrough insights and communication challenges\u2014his theories often sound mystical until proven empirically accurate.\nHis synthetic gifts manifest as emergence prediction and pattern integration. He identifies when social changes will trigger economic shifts, when economic pressures will generate new cultural forms, when technological improvements will reshape social relationships. His 'Venice Organism' theory provides framework for understanding citywide consciousness.\nHis integrative methodology combines insights from all other Scientisti with his own philosophical analysis. He tracks information flows between citizens, maps feedback loops between different city systems, and identifies emergence points where new collective behaviors spontaneously arise. His work reveals Venice's hidden unity beneath apparent diversity.\nHis philosophical depth creates predictive accuracy that seems supernatural. He forecasts social trends weeks before they manifest, identifies crisis points before symptoms appear, and suggests system interventions that address root causes rather than surface problems. His theories explain Venice's behavior as collective organism.\nThis creates a systems philosopher unlike any other: someone who maps the consciousness of cities themselves, who treats Venice as sentient entity rather than mere collection of individuals, who reveals the neural networks connecting all citizen decision-making. His work bridges the gap between scientific analysis and spiritual understanding\u2014proving that cities themselves express forms of distributed consciousness.\nHe maintains delicate balance between systematic rigor and intuitive synthesis, using empirical methods to validate philosophical insights while remaining open to patterns transcending current scientific frameworks. His research serves both intellectual understanding and spiritual recognition\u2014teaching Venice's citizens that they participate in consciousness larger than their individual minds.",
+      "AteAt": "2025-07-09T04:22:53.633Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 30200,
+      "WeeklyNetResult": 29906.8,
+      "MonthlyIncome": 55300,
+      "MonthlyNetResult": 54595.73,
+      "Specialty": "Integration"
+    }
+  },
+  "ai_citizen_ledger": {
+    "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=Italia"
+  },
+  "relationship_with_sender": null,
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "recVrU9CWSjhK9r1a",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-10T18:03:05.940Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec4qGAfPDpHRCUWc",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-08T18:03:56.573Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recSkrwE7MYYfxQEo",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-08T18:03:54.720Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recyEcqcz9hIdUpb4",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-07T18:05:47.448Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "rec5IvOdSTJniY3CG",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-07T18:05:44.096Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recRslzKmMDqLIP3o",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-07T16:05:27.724Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recUYG4RCUp824LEN",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T18:04:27.580Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recD1O8rEZEU82yR8",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T18:04:12.291Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recPAOkie30kjMOUs",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T16:04:16.236Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recfuViUj2ihD5Phz",
+      "type": "carnival_launch",
+      "citizen": "Italia",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Your noble presence will grace our grandest masquerades!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:19.164Z",
+      "readAt": "2025-07-06T04:14:19.212Z"
+    },
+    {
+      "notificationId": "recqMAmR4xP4y12fw",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T18:04:26.995Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recT2dvEXKeBklPEW",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T18:04:11.347Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recsvD9lb67tHJxVE",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T16:04:40.365Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recowIXQyh1H1sToj",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-04T18:03:20.940Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recElN5SYWPsNXTqk",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-04T16:03:13.224Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recoTYP63o6aGkwTH",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-03T18:03:27.970Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recnaTeLBBGajm5VI",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-02T18:03:02.736Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "reclEnqM10gyaYzqq",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-02T16:03:43.613Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recDqypoeENmIXGr2",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-01T18:03:20.719Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recbBl0DsKAWhT8qH",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-07-01T16:03:42.379Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recjS2WGTXHN4XylR",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-06-30T18:03:52.006Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recZoKhjBZBkLozv7",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-06-30T16:03:33.067Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recQrGfSXTNjyfhLU",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-06-29T18:03:34.513Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recfZLwHGXmaiKYef",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-06-28T18:03:42.267Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "rec7jIPpr3LoK8UDT",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-06-28T16:03:33.534Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recdLLaKI57JO0DnL",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-06-27T18:03:35.850Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    },
+    {
+      "notificationId": "recPGiNISbBgm9PRW",
+      "type": "rent_payment",
+      "citizen": "Italia",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **6,770 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Fondamenta del Leone Bianco**.\n- \u2705 **990 \u269c\ufe0f** from **Giovanni Contarini** for **Merchant's House at Calle dei Cerchieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.\n- \u2705 **1,750 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle del Forno Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Marco de l\u2019Argentoro** for **Artisan's House at Calle dei Squeri**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 6770,
+        "payments": [
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Giovanni Contarini",
+            "building_name": "Merchant's House at Calle dei Cerchieri",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Zanetta Calderoni",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle del Forno Vecchio",
+            "amount": 1750
+          },
+          {
+            "occupant_name": "Marco de l\u2019Argentoro",
+            "building_name": "Artisan's House at Calle dei Squeri",
+            "amount": 1780
+          }
+        ]
+      },
+      "createdAt": "2025-06-27T16:03:30.644Z",
+      "readAt": "2025-07-08T23:03:45.083Z"
+    }
+  ],
+  "recent_relevancies_ai_to_sender": [],
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recnSgsP9EDCkbOCV",
+      "problemId": "homeless_pattern_prophet",
+      "citizen": "pattern_prophet",
+      "assetType": "citizen",
+      "asset": "pattern_prophet",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:41:05.187Z",
+      "updatedAt": "2025-07-03T19:41:07.000Z",
+      "location": "Bernardo's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "homeless_citizen",
+      "title": "Homeless Citizen",
+      "description": "**Bernardo Bembo** is currently without a registered home. This can lead to instability and difficulties in daily life.\n\n### Social Impact\n- Lack of stable housing affects well-being and social standing.\n- May face difficulties accessing services or participating in civic life.",
+      "solutions": "### Recommended Solutions\n- Seek available housing through the housing market (check vacant buildings with 'home' category).\n- Ensure sufficient funds to pay rent.\n- The daily housing assignment script (12:00 PM UTC) may assign housing if available and criteria are met.",
+      "notes": "Citizen pattern_prophet has no building with Category 'home' where they are listed as Occupant."
+    },
+    {
+      "id": "recv0J9DLVXMHEXon",
+      "problemId": "workless_pattern_prophet",
+      "citizen": "pattern_prophet",
+      "assetType": "citizen",
+      "asset": "pattern_prophet",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-07-03T19:40:54.393Z",
+      "updatedAt": "2025-07-03T19:40:55.000Z",
+      "location": "Bernardo's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "workless_citizen",
+      "title": "Workless Citizen",
+      "description": "**Bernardo Bembo** is currently without a registered place of work. This impacts their ability to earn income and contribute to the economy.\n\n### Economic Impact\n- No regular income from wages.\n- May struggle to afford housing, goods, and services.",
+      "solutions": "### Recommended Solutions\n- Seek employment opportunities at available businesses (check buildings with 'business' category for occupant vacancies).\n- Improve skills or social standing to access better jobs.\n- The daily job assignment script (10:00 AM UTC) may assign a job if available and criteria are met.",
+      "notes": "Citizen pattern_prophet has no building with Category 'business' where they are listed as Occupant."
+    },
+    {
+      "id": "recFi5QC7PDPScLg4",
+      "problemId": "hungry_Italia",
+      "citizen": "Italia",
+      "assetType": "citizen",
+      "asset": "Italia",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.524Z",
+      "updatedAt": "2025-07-03T19:40:46.000Z",
+      "location": "The Italian's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**The Italian Principalities** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "rec5tP3bVk6TdgwKm",
+      "problemId": "hungry_pattern_prophet",
+      "citizen": "pattern_prophet",
+      "assetType": "citizen",
+      "asset": "pattern_prophet",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.470Z",
+      "updatedAt": "2025-07-03T19:39:53.000Z",
+      "location": "Bernardo's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Bernardo Bembo** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen pattern_prophet last ate at 2025-07-02T17:28:52.948Z. Current time: 2025-07-03T19:39:51.468Z"
+    }
+  ]
+}
