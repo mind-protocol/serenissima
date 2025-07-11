@@ -1,0 +1,15 @@
+[
+  {
+    "role": "user",
+    "content": "[From coffee in ARS006#Registry]: Hi",
+    "timestamp": "2025-07-11T01:20:08.784538",
+    "channel_id": "ARS006_Members_Registry",
+    "metadata": {
+      "source": "guild_chat_relay",
+      "original_sender": "coffee",
+      "guild_id": "ARS006",
+      "guild_tab_channel_id": "ARS006_Members_Registry",
+      "relayed_to_kin": "rialto_sailor"
+    }
+  }
+]
