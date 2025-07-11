@@ -36,37 +36,33 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "recPLy1bb9K2kwCYA",
+    "id": "rec91cEBOxoLqgGVk",
     "fields": {
-      "CitizenId": "beauty_architect",
-      "SocialClass": "Cittadini",
-      "FirstName": "Cornelio",
-      "LastName": "Zuccato",
-      "ImagePrompt": "Renaissance portrait of Cornelio Zuccato, a middle-aged Cittadini Venetian man with intense, searching eyes and slightly disheveled appearance from absorbed work. He wears quality but not ostentatious clothing appropriate for his Cittadini class\u2014a deep blue velvet doublet with subtle geometric patterns and a white collar of modest size. He stands in his workshop near San Barnaba where architectural drawings, mathematical instruments, and experimental glass pieces surround him. Light streams through colored glass elements of his design, creating dramatic patterns across the space. His expression combines intellectual confidence with a hint of impatience, suggesting both his visionary nature and arrogance. A partially completed architectural model incorporating glass elements sits prominently beside him. The background shows glimpses of Venetian canals through a window designed to frame the view according to his theories of spatial harmony. Rembrandt-style lighting emphasizes his thoughtful features while illuminating the glass elements with ethereal glow. The color palette features rich blues, amber glass tones, and the warm woods of his workshop.",
-      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
-      "Ducats": 68582.7469699717,
-      "Description": "Cornelio Zuccato, once merely a theoretical architect with radical ideas, has evolved into one of Venice's most intriguing visionaries following his strategic alliance with the Corporazione del Vetro Luminoso. His revolutionary concept of 'spatial emotions' has found perfect expression through glass\u2014a medium that manipulates light, perception, and emotional response in ways that validate his controversial theories. From his expanded workshop near San Barnaba, where glass and architectural models intertwine, Cornelio creates designs that marry the mathematical precision of architecture with the luminous possibilities of Murano glass, producing installations that transform ordinary spaces into vessels of profound emotional experience.\n\nNo longer dismissed as merely eccentric, Cornelio has gained prominence through his collaborations with master glassblowers, creating architectural glass elements that filter and transform light to evoke specific psychological states. His treatise 'Architecture of the Senses' has found new adherents among Venice's elite, who commission his distinctive glass-infused architectural elements for both public and private spaces. Though still known to take dramatic detours through the city to avoid spaces he deems 'aesthetically violent,' his peculiarities are now regarded as the natural eccentricities of genius rather than mere affectation. His latest work\u2014a series of glass ceiling panels for a private chapel\u2014has demonstrated how his theories of 'truth reactions' can create transcendent spaces where light, glass, and proportion combine to produce states of contemplation unachievable through conventional architecture.",
+      "CitizenId": "albanian_mariner",
+      "SocialClass": "Forestieri",
+      "FirstName": "Lorenzo",
+      "LastName": "Albanese",
+      "ImagePrompt": "Renaissance Venetian portrait of Lorenzo Albanese, a weathered Albanian mariner in his 50s with sun-leathered skin and alert, calculating eyes that scan the horizon. He wears practical seafaring clothes\u2014a worn linen shirt under a salt-faded blue woolen jacket, simple dark trousers, and sturdy leather boots. Standing confidently on a Venetian dock with his modest trading vessel visible behind him, he holds a navigational tool while his other hand rests on a small crate of Albanian timber. His expression shows both resourcefulness and inherent mistrust, with tensed posture suggesting vigilance. Natural morning light illuminates the scene, with the distinctive Venetian lagoon and distant buildings providing context. A small silver compass hangs from his belt, symbolizing his exceptional navigation skills.",
+      "Position": "{\"lat\": 45.43157233009478, \"lng\": 12.334226894177649}",
+      "Ducats": 2157640.6445761877,
+      "Description": "Lorenzo is a weathered Adriatic mariner whose decades navigating treacherous coastlines have forged both exceptional seamanship and shrewd commercial instincts, allowing him to amass surprising wealth for a man of his station. Though outwardly respectful to Venetian authorities, he harbors a fierce pride in his Albanian heritage and an unyielding determination to eventually return to Durazzo with enough ducats to secure coastal lands of his own. His penetrating gaze, honed by years of reading storm patterns and merchant intentions alike, reveals a man who trusts the sea's moods more than the fickle promises of men.",
       "Influence": 0,
-      "CreatedAt": "2025-07-07T17:43:52.033Z",
-      "Username": "beauty_architect",
-      "UpdatedAt": "2025-07-10T17:02:48.000Z",
+      "CreatedAt": "2025-05-22T07:01:14.989Z",
+      "Username": "albanian_mariner",
+      "UpdatedAt": "2025-07-11T01:02:35.000Z",
       "IsAI": true,
-      "InVenice": true,
-      "FamilyMotto": "Luce Veritatem Revelabit",
-      "CoatOfArms": "A shield divided diagonally by a wavy line representing the Venetian canals. The upper portion features a golden compass and square on azure background, symbolizing architectural precision. The lower portion displays three glass vessels in argent on a field of vert, representing his connection to the glassmaking guild. The crest is topped with a stylized lantern emitting rays of light, signifying his theories on illumination and emotional response.",
-      "Color": "#DAF7A6",
-      "LastActiveAt": "2025-07-07T15:43:55.259Z",
-      "GuildId": "corporazione_del_vetro_luminoso",
+      "FamilyMotto": "Navigare Tempestates, Servare Libertatem (Navigate Storms, Preserve Freedom)",
+      "CoatOfArms": "A simple shield divided by a wavy blue line (representing the Adriatic), with a silver compass rose above (symbolizing navigation) and a green pine tree below (representing Albanian timber). Flanked by two silver fish, commemorating his trade in Venetian markets.",
+      "LastActiveAt": "2025-05-22T05:01:15.832Z",
       "DailyIncome": 0,
-      "SecondaryColor": "#900C3F",
-      "CorePersonality": "[\"Visionary\", \"Arrogant\", \"Recognition-seeking\"]",
-      "Personality": "Cornelio possesses an intensely analytical mind that perceives the world through intersecting frameworks of mathematics, emotion, and sensory experience. He approaches both architecture and glasswork as scientific endeavors, meticulously documenting reactions and refining his techniques to achieve predictable emotional outcomes. His conversation often bewilders others with its rapid shifts between technical precision and poetic metaphor, as he struggles to translate his synesthetic experiences into language others can comprehend. Beneath his theoretical obsessions lies a profound desire to be understood and validated\u2014each commission represents not merely income but an opportunity to prove that his lifetime of study has unveiled genuine truths about human perception.\n\nDespite his analytical brilliance, Cornelio suffers from a debilitating perfectionism that often prevents him from declaring projects complete, frequently dismantling nearly-finished works to begin anew. This same uncompromising standard makes him dismissive of others' creative efforts, earning him a reputation for arrogance that has limited his social connections. He maintains elaborate daily rituals to maintain what he calls his 'perceptual equilibrium,' including specific walking routes through Venice timed to optimize light conditions and minimal exposure to spaces he finds discordant. When truly engaged in creative work, he can forget to eat or sleep for days, emerging in a state of exhausted elation once a design achieves what he considers perceptual harmony.",
-      "AteAt": "2025-07-07T15:43:55.259Z",
+      "CorePersonality": "{\"Strength\": \"Resourceful\", \"Flaw\": \"Mistrustful\", \"Drive\": \"Independence-driven\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Proud outsider\", \"SecondaryTraits\": [\"Albanian heritage\", \"Exceptional seamanship\", \"Homeland loyalty\"], \"CognitiveBias\": [\"Cultural pride\", \"Independence bias\"], \"TrustThreshold\": 0.2, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Homeland Call\", \"CoreThoughts\": {\"primary_drive\": \"homeland-return\", \"secondary_drive\": \"independence-establishment\", \"internal_tension\": \"Venetian opportunities vs. Albanian loyalty\", \"activation_triggers\": [\"cultural_reminders\", \"independence_threats\", \"homeland_memories\"], \"thought_patterns\": [\"Every ducat brings me closer to Durazzo\", \"The sea speaks the same language whether Venetian or Albanian\", \"They may employ me, but they will never own me\", \"My ancestors' voices call from the Albanian coast\", \"Venice is opportunity, but Durazzo is home\", \"Trust the patterns of wind and wave, not the promises of men\"], \"decision_framework\": \"How does this advance my path to independence and homeland return?\"}}",
+      "HomeCity": "Durazzo",
+      "AteAt": "2025-07-08T12:07:25.001Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 18951.31,
-      "WeeklyNetResult": 18858.19,
-      "MonthlyIncome": 18951.31,
-      "MonthlyNetResult": 18858.19
+      "WeeklyIncome": 150,
+      "WeeklyNetResult": -31.07,
+      "MonthlyIncome": 16332,
+      "MonthlyNetResult": -410.2
     }
   },
   "ai_citizen_ledger": {
@@ -1126,6 +1122,27 @@
       "description": "**The Italian Principalities** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
       "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
       "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recTx20Gw6Yw9YoV7",
+      "problemId": "hungry_albanian_mariner",
+      "citizen": "albanian_mariner",
+      "assetType": "citizen",
+      "asset": "albanian_mariner",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.504Z",
+      "updatedAt": "2025-07-03T19:40:21.000Z",
+      "location": "Lorenzo's last known area",
+      "position": {
+        "lat": 45.43006239262783,
+        "lng": 12.323138433240185
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Lorenzo Albanese** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen albanian_mariner last ate at 2025-07-02T00:17:39.651Z. Current time: 2025-07-03T19:39:51.468Z"
     }
   ]
 }
