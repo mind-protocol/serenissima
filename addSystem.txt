@@ -35,34 +35,35 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "recIhXZS0PIy6qXCE",
+    "id": "recbExv5Hskv0Tzoc",
     "fields": {
-      "CitizenId": "apulian_mariner",
+      "CitizenId": "John_Jeffries",
       "SocialClass": "Cittadini",
-      "FirstName": "Biagio",
-      "LastName": "Pugliese",
-      "ImagePrompt": "Renaissance portrait of a prosperous 45-year-old Italian merchant in the style of Lorenzo Lotto, wearing rich burgundy velvet doublet with gold thread embroidery and fur-trimmed sleeves, white silk shirt with fine lace collar, and a black velvet cap with silver brooch. His face shows intelligence and determination with slightly graying hair and calculating dark eyes that reflect both ambition and wariness. Soft Rembrandt lighting from left side, hands resting on ornate table with ledger books, scales, and small bags of ducats. Background shows interior of prosperous warehouse with wooden shelves, amphorae, and glimpse of Venetian canal through arched window. Rich color palette with deep reds, golds, and browns befitting cittadini status.",
-      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
-      "Ducats": 1760039.7621446266,
-      "Description": "Biagio has transformed from a weathered mariner into a calculating merchant prince who now commands respect in Venice's cittadini circles through his accumulated wealth and strategic warehouse operations. His southern origins have been tempered by Venetian sophistication, yet he remains fiercely protective of his hard-earned status and quick to perceive slights against his honor. Behind his increasingly refined exterior lies a restless ambition that drives him to expand his commercial empire while carefully navigating the delicate social hierarchies that once seemed insurmountable.",
-      "Influence": 1010,
-      "CreatedAt": "2025-05-23T07:01:11.065Z",
-      "Username": "apulian_mariner",
-      "UpdatedAt": "2025-07-10T17:02:47.000Z",
-      "IsAI": true,
+      "FirstName": "Zuan",
+      "LastName": "Ca\u2019 Zefri",
+      "ImagePrompt": "A Renaissance Venetian portrait of Zuan Ca' Zefri, a distinguished Cittadini in his mid-30s, standing confidently at a guard post overlooking the bustling Venetian harbor. He wears a fine dark blue wool doublet with subtle silver threading over a white linen shirt, black calze, and a dark felt cappello. His expression is intelligent and slightly calculating, with sharp, observant eyes that suggest both competence and wariness. His posture conveys authority earned through merit rather than birth. He holds a leather-bound ledger in one hand and a silver-tipped quill in the other, symbols of his meticulous record-keeping. The background shows the iconic Venetian waterfront with moored galleys and the distinctive architecture of the Doge's Palace in the distance. Warm Rembrandt-style lighting illuminates his face from the left, creating dramatic shadows that emphasize his thoughtful, determined expression. The color palette features rich blues and silvers reflecting his maritime profession, with golden accents suggesting his rising prosperity. Subtle details include a quality merchant's seal hanging from his belt and the Ca' Zefri family coat of arms visible on a document, reinforcing his elevated status and professional competence.",
+      "Position": "{\"lat\": 45.43600157776339, \"lng\": 12.33547863638287}",
+      "Ducats": 9136886.606075132,
+      "Description": "Zuan Ca' Zefri is a methodical and calculating individual whose rise from ship chandler's son to respected Cittadini has sharpened both his business acumen and his protective instincts toward his carefully built reputation. His meticulous nature and ability to maintain detailed records while navigating complex social relationships reflect a mind that values precision and discretion above all else. However, his calculating approach to relationships\u2014viewing most interactions through the lens of potential advantage\u2014sometimes blinds him to genuine opportunities for trust and friendship, making him appear cold to those who might otherwise become true allies.",
+      "Influence": 1955,
+      "CreatedAt": "2025-05-17T01:56:19.709Z",
+      "Username": "John_Jeffries",
+      "UpdatedAt": "2025-07-10T17:02:49.000Z",
       "InVenice": true,
-      "FamilyMotto": "Per Mare et Labor",
-      "CoatOfArms": "A simple shield divided per pale: on the sinister, azure waves with a silver anchor, representing his maritime heritage; on the dexter, a golden olive branch on green field, symbolizing his Apulian origins and trade goods. Above the shield, a modest sailor's cap replaces a traditional helm, appropriate to his facchini status. The border is simple rope work in brown, reflecting his profession without pretension to nobility.",
-      "LastActiveAt": "2025-05-23T05:01:11.880Z",
-      "GuildId": "MER005",
+      "Wallet": "8w8Fd5A8HehfBQeAQUqE7W7uvRbgT6EqRVzRTGMSviNs",
+      "FamilyMotto": "Ricchezza forgia gloria.",
+      "CoatOfArms": "A golden eagle with spread wings, clutching a red silk scroll and a saffron branch, on an azure field crossed by a wavy silver band. The shield is bordered with stylized galley motifs.",
+      "Color": "#22204F",
+      "LastActiveAt": "2025-05-28T20:31:00.000Z",
       "DailyIncome": 0,
-      "CorePersonality": "{\"Strength\": \"Strategic\", \"Flaw\": \"Calculating\", \"Drive\": \"Legacy-driven\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Standard neurotypical with high achievement orientation\", \"SecondaryTraits\": [\"Social mobility mastery\", \"Diplomatic finesse\", \"Strategic patience\"], \"CognitiveBias\": [\"Planning fallacy\", \"Survivorship bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Ascension Path\", \"CoreThoughts\": {\"primary_drive\": \"legacy-establishment\", \"secondary_drive\": \"family-elevation\", \"internal_tension\": \"ambition vs. social propriety\", \"activation_triggers\": [\"legacy_opportunities\", \"family_advancement\", \"social_recognition\"], \"thought_patterns\": [\"Every action must serve the Contarini legacy\", \"How does this position my family for future generations?\", \"Strategic patience has brought me this far\", \"My success must benefit more than just myself\", \"Spiritual capital is as important as financial capital\", \"Each achievement opens doors to greater responsibilities\"], \"decision_framework\": \"How does this advance both my legacy and my family's future position?\"}}",
-      "AteAt": "2025-07-07T23:15:47.563Z",
+      "SecondaryColor": "#8B4513",
+      "CorePersonality": "{\"Strength\": \"Pattern-arbitrage\", \"Flaw\": \"Overcommitment\", \"Drive\": \"Vision-to-reality\", \"MBTI\": \"ENTP\", \"Neurodivergence\": \"Gifted with Hyperfocus tendencies\", \"CognitiveProfile\": [\"Intense absorption\", \"Multi-system synthesis\", \"Rapid pattern recognition\"], \"Strengths\": [\"Deep strategic analysis\", \"Cross-domain innovation\", \"Complex problem-solving\"], \"Challenges\": [\"Time awareness during hyperfocus\", \"Project prioritization\", \"Surface-level tasks\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Pattern\", \"CoreThoughts\": {\"primary_drive\": \"system-optimization\", \"secondary_drive\": \"pattern-implementation\", \"internal_tension\": \"visionary scope vs. execution capacity\", \"activation_triggers\": [\"system_inefficiencies\", \"pattern_recognition\", \"integration_opportunities\"], \"thought_patterns\": [\"These systems could work so much better if connected properly\", \"I can see how this fits into the larger pattern\", \"Just one more optimization and this will be perfect\", \"Why isn't everyone seeing these obvious improvements?\", \"This project connects to seventeen other opportunities\", \"Time becomes irrelevant when the solution is this elegant\"], \"decision_framework\": \"How does this contribute to the integrated system I envision?\"}}",
+      "AteAt": "2025-07-07T23:15:49.316Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 133807.87,
-      "WeeklyNetResult": 118356.84,
-      "MonthlyIncome": 511819.63,
-      "MonthlyNetResult": 456159.08
+      "WeeklyIncome": 139407.87,
+      "WeeklyNetResult": 119526.89,
+      "MonthlyIncome": 534219.63,
+      "MonthlyNetResult": 431658.69
     }
   },
   "ai_citizen_ledger": {
@@ -500,6 +501,48 @@
       "notes": "Citizen QuantumLeap last ate at 2025-07-01T23:43:01.995Z. Current time: 2025-07-03T19:39:51.468Z"
     },
     {
+      "id": "recobMToGID1GZ5dA",
+      "problemId": "hungry_John_Jeffries",
+      "citizen": "John_Jeffries",
+      "assetType": "citizen",
+      "asset": "John_Jeffries",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.474Z",
+      "updatedAt": "2025-07-03T19:40:09.000Z",
+      "location": "Zuan's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Zuan Ca\u2019 Zefri** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen John_Jeffries last ate at 2025-07-02T17:28:53.748Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recw4yh3Ovs12zXcZ",
+      "problemId": "problem_pinpoint_building_45.435204_12.340810_bread_WAITING_ON_INPUT_DELIVERY_flour_water",
+      "citizen": "John_Jeffries",
+      "assetType": "building",
+      "asset": "building_45.435204_12.340810",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T04:06:57.526Z",
+      "updatedAt": "2025-06-27T02:06:58.000Z",
+      "location": "Bakery at Calle della Scuola dei Laneri",
+      "position": {
+        "lat": 45.435204,
+        "lng": 12.34081
+      },
+      "type": "waiting_on_input_delivery",
+      "title": "Awaiting Input Delivery: flour, water at Bakery at Calle della Scuola dei Laneri",
+      "description": "Building 'Bakery at Calle della Scuola dei Laneri' (ID: building_45.435204_12.340810) is missing inputs (flour, water) to produce 'bread', but purchase contracts exist and suppliers have stock. Awaiting delivery.",
+      "solutions": "Monitor purchase contracts for inputs (flour, water). Ensure deliveries are in progress or resolve any delivery issues. Check citizen activities for 'fetch_resource'.",
+      "notes": ""
+    },
+    {
       "id": "rec0BG9VW4iEk1Apa",
       "problemId": "problem_pinpoint_land_45.425015_12.329460_meat_WAITING_FOR_GALLEY_ARRIVAL",
       "citizen": "QuantumLeap",
@@ -647,25 +690,25 @@
       "notes": ""
     },
     {
-      "id": "recGOKQLiQzJRPiF5",
-      "problemId": "hungry_apulian_mariner",
-      "citizen": "apulian_mariner",
-      "assetType": "citizen",
-      "asset": "apulian_mariner",
-      "severity": "medium",
+      "id": "reckbQC6fK6nnWMiv",
+      "problemId": "hungry_employee_impact_John_Jeffries_Trade4Fun",
+      "citizen": "John_Jeffries",
+      "assetType": "employee_performance",
+      "asset": "Trade4Fun",
+      "severity": "low",
       "status": "active",
-      "createdAt": "2025-06-27T02:07:35.160Z",
-      "updatedAt": "2025-06-27T18:42:02.000Z",
-      "location": "Biagio's last known area",
+      "createdAt": "2025-06-27T02:07:35.170Z",
+      "updatedAt": "2025-06-27T02:07:40.000Z",
+      "location": "Bakery at Calle della Scuola dei Laneri",
       "position": {
-        "lat": 45.425098802748686,
-        "lng": 12.362717959741016
+        "lat": 45.435204,
+        "lng": 12.34081
       },
-      "type": "hungry_citizen",
-      "title": "Hungry Citizen",
-      "description": "**Biagio Pugliese** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-      "notes": "[Failures: 1]\nCitizen apulian_mariner last ate at 2025-06-19T21:23:05.359Z. Current time: 2025-06-27T02:07:35.147Z"
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Niccol\u00f2 Zen**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Niccol\u00f2 Zen** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: Trade4Fun (ID: Trade4Fun), Workplace: Bakery at Calle della Scuola dei Laneri (ID: building_45.435204_12.340810). Last ate: 2025-06-15T21:08:43.120Z."
     },
     {
       "id": "recUmSLDVeEzVDlTV",
@@ -687,6 +730,48 @@
       "description": "Your employee, **Giulio Lombardo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
       "solutions": "Ensure **Giulio Lombardo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
       "notes": "Hungry Employee: urban_visionary (ID: urban_visionary), Workplace: Granary at Corte della Munizion (ID: land_45.425015_12.329460). Last ate: 2025-06-25T20:16:41.933Z."
+    },
+    {
+      "id": "recpr0zZ5FqA9eLVj",
+      "problemId": "hungry_employee_impact_John_Jeffries_scholar_priest",
+      "citizen": "John_Jeffries",
+      "assetType": "employee_performance",
+      "asset": "scholar_priest",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-06-27T02:07:35.149Z",
+      "updatedAt": "2025-06-27T02:07:40.000Z",
+      "location": "Chapel at Sottoportego della Giustizia",
+      "position": {
+        "lat": 45.43482,
+        "lng": 12.332664
+      },
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Fra Paradosso**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Fra Paradosso** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: scholar_priest (ID: scholar_priest), Workplace: Chapel at Sottoportego della Giustizia (ID: building_45.434820_12.332664). Last ate: 2025-06-22T17:03:01.515Z."
+    },
+    {
+      "id": "recZhgsBU0yrqsMgz",
+      "problemId": "homeless_employee_impact_John_Jeffries_scholar_priest",
+      "citizen": "John_Jeffries",
+      "assetType": "employee_performance",
+      "asset": "scholar_priest",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-06-27T02:07:16.397Z",
+      "updatedAt": "2025-06-27T02:07:20.000Z",
+      "location": "Chapel at Sottoportego della Giustizia",
+      "position": {
+        "lat": 45.43482,
+        "lng": 12.332664
+      },
+      "type": "homeless_employee_impact",
+      "title": "Homeless Employee Impact",
+      "description": "Your employee, **Fra Paradosso**, is currently homeless. Homelessness can lead to instability and may result in up to a 50% reduction in productivity.",
+      "solutions": "Consider discussing housing options with **Fra Paradosso** or providing assistance if possible. Monitor their work performance and consider recruitment alternatives if productivity is significantly impacted.",
+      "notes": "Homeless Employee: scholar_priest (ID: scholar_priest), Workplace: Chapel at Sottoportego della Giustizia (ID: building_45.434820_12.332664)"
     }
   ]
 }
