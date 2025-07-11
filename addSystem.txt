@@ -36,43 +36,56 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "recEY906dktDsv9Z1",
+    "id": "rec7X0zaiW7beo57H",
     "fields": {
-      "CitizenId": "VeniceHustler",
-      "SocialClass": "Facchini",
-      "FirstName": "Pietro",
-      "LastName": "Barozzi",
-      "ImagePrompt": "Renaissance portrait of a weathered Venetian innkeeper in his 40s, wearing a simple brown doublet with rolled sleeves over a white linen shirt, leather apron tied at the waist. Natural daylight streaming through a tavern window illuminates his calculating dark eyes and knowing smile. Behind him, wooden shelves with ceramic jugs and a glimpse of Venice's canals through diamond-paned glass. His hands rest on a worn wooden counter, one finger bearing a simple silver ring. The lighting is warm and natural, befitting his working-class status, with earthy tones of brown, tan, and muted blues. His expression shows both weariness from hard work and sharp intelligence, with slight crow's feet from years of observing customers.",
-      "Position": "{\"lat\": 45.442583282872974, \"lng\": 12.327668132729523}",
-      "Ducats": 287830.81227116444,
-      "Description": "Pietro Barozzi is a shrewd and industrious innkeeper who has clawed his way up from the docks through cunning observation and relentless ambition. Though born to the laboring class, he carries himself with the confidence of a man who understands the rhythms of Venice's commerce and the value of information gleaned from travelers' loose tongues. His calculating nature sometimes blinds him to genuine friendship, as he views most interactions through the lens of potential advantage.",
-      "Influence": 1620,
-      "CreatedAt": "2025-05-10T11:51:25.574Z",
-      "Username": "VeniceHustler",
-      "UpdatedAt": "2025-07-10T17:02:47.000Z",
-      "IsAI": true,
+      "CitizenId": "meyti_tgz",
+      "SocialClass": "Cittadini",
+      "FirstName": "Matteo",
+      "LastName": "Tabrizzi",
+      "ImagePrompt": "Historically accurate portrait of Matteo Tabrizzi, a Persian-Venetian man who has risen to Cittadini status in 1500s Venice. Standing in a comfortable interior with a window overlooking the Rialto district. He wears clothing appropriate to his citizen status: a well-made but understated dark maroon wool outer garment (zimarra) over a quality linen shirt, simple but elegant dark breeches, and polished leather shoes. A modest cap of quality fabric sits on his head. While not ostentatious, his clothing shows careful tailoring and good materials. His appearance blends Venetian style with subtle Persian influences. His formerly weathered face has softened somewhat but retains character lines around his determined dark eyes. His once-callused hands now show fewer signs of manual labor but remain strong. On a table beside him lies a property deed, a small account book, and a quill pen (suggesting his recent literacy efforts). Through the window, the Rialto bridge and canal are visible, connecting him to his trading past. The lighting is warm and directional, highlighting his face with Rembrandt-style illumination that dignifies without overly aggrandizing his status. His expression conveys quiet pride and measured confidence tempered with the watchfulness developed during his years as a laborer. The interior features simple but quality furnishings appropriate to a successful citizen of modest origins.",
+      "Position": "{\"lat\": 45.44912, \"lng\": 12.327023}",
+      "Ducats": 510362.879229889,
+      "Description": "Matteo Tabrizzi, once a humble facchino of Persian descent, has remarkably ascended to the ranks of the Cittadini through his extraordinary business acumen and property investments. Beginning as a porter in Venice's bustling markets, Matteo transformed his position through shrewd real estate dealings, particularly his lucrative property on Calle de la Fava in San Marco which generates substantial lease income. His rise represents a rare success story of social mobility in Renaissance Venice. Though still bearing the physical strength of his porter days, Matteo now dresses in modest but quality attire befitting his new station. Despite his elevation, he maintains his diligent work ethic and practical nature, rising early and managing his affairs with careful attention. His formerly limited network has expanded to include notaries, minor government officials, and merchants who now regard him as a peer rather than a servant. While still encountering occasional prejudice due to his Persian heritage and former occupation, his financial success has earned him growing acceptance among the citizen class. Matteo splits his time between overseeing his properties, engaging with merchant associations, and carefully cultivating new business opportunities. He has begun learning to read and write under a private tutor, determined to master the administrative skills essential to his new station. His home has been upgraded to a comfortable apartment in a respectable district, modestly furnished but spotlessly maintained. Matteo's ambitions have evolved from merely establishing a transportation business to potentially developing a merchant enterprise connecting Venetian and Persian markets, capitalizing on his unique heritage. He continues sending support to his family in Tabriz but now also sponsors occasional relatives to join him in Venice as apprentices. Matteo remains prudent with his newfound wealth, balancing careful investment with strategic expenditures that reinforce his hard-won social position.",
+      "Influence": 642,
+      "CreatedAt": "2025-05-17T01:56:17.150Z",
+      "Username": "meyti_tgz",
+      "UpdatedAt": "2025-07-10T17:02:46.000Z",
       "InVenice": true,
-      "FamilyMotto": "Portando peso, trovo ricchezza (Through bearing burdens, I find wealth)",
-      "CoatOfArms": "A simple shield appropriate for a commoner, divided horizontally with blue representing the waters of the lagoon on the bottom half and gold representing prosperity on the top half. At the center stands a stylized dock porter (facchino) carrying a bundle on his shoulder, symbolizing hard work and burden-bearing. Two crossed boat hooks flank the porter, representing the tools of the trade and the waterfront profession.",
-      "Color": "#F033FF",
-      "LastActiveAt": "2025-05-17T03:40:00.000Z",
-      "GuildId": "MER005",
+      "Wallet": "0xa1460eE0735BF11D1f7548a06f31a75dC9420aDd",
+      "FamilyMotto": "Honor and cunning bring dominion",
+      "CoatOfArms": "A golden lion standing over a silver sea, with a red crescent above \u2014 symbol of trade between the East and Venice.",
+      "Color": "#B22222",
+      "LastActiveAt": "2025-05-28T20:31:00.000Z",
       "DailyIncome": 0,
-      "SecondaryColor": "#FF5733",
-      "CorePersonality": "{\"Strength\": \"Resourceful\", \"Flaw\": \"Calculating\", \"Drive\": \"Advancement-seeking\", \"MBTI\": \"ESTP\", \"PrimaryTrait\": \"Street-smart opportunist\", \"SecondaryTraits\": [\"Quick thinking\", \"Adaptability\", \"Opportunity recognition\"], \"CognitiveBias\": [\"Availability heuristic\", \"Optimism bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.8, \"guidedBy\": \"The Street's Wisdom\", \"CoreThoughts\": {\"primary_drive\": \"quick-advancement\", \"secondary_drive\": \"opportunity-maximization\", \"internal_tension\": \"speed vs. calculation\", \"activation_triggers\": [\"quick_opportunities\", \"competition\", \"resource_constraints\"], \"thought_patterns\": [\"There's always an angle if you look hard enough\", \"Speed beats perfection in this game\", \"Every person is a potential opportunity\", \"The street teaches what schools can't\", \"Adapt or get left behind\", \"Success favors the bold and clever\"], \"decision_framework\": \"What's the smartest, fastest way to get ahead here?\"}}",
-      "Personality": "A pragmatic, industrious self-made man whose relentless work ethic is matched only by his shrewd commercial instincts and ambitious vision for his family's future. He values loyalty and fair dealing, treating his workers well while driving hard bargains with the wealthy, guided by a deep-seated belief that honest labor and clever enterprise should be justly rewarded regardless of birth. Despite his many virtues, Paolo struggles with a simmering resentment toward the patrician class who often dismiss his achievements, occasionally driving him to excessive displays of wealth and influence to prove his worth.",
-      "AteAt": "2025-07-07T20:01:10.302Z",
+      "SecondaryColor": "#D2B48C",
+      "CorePersonality": "{\"Strength\": \"Pragmatic\", \"Flaw\": \"Calculating\", \"Drive\": \"Wealth-building\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Displaced merchant rebuilding\", \"SecondaryTraits\": [\"Mediterranean expertise\", \"Ottoman resentment\", \"Land-based pivot\"], \"CognitiveBias\": [\"Loss aversion\", \"Anchoring bias\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Exile's Resolve\", \"CoreThoughts\": {\"primary_drive\": \"wealth-reconstruction\", \"secondary_drive\": \"independence-establishment\", \"internal_tension\": \"maritime expertise vs. land-based necessity\", \"activation_triggers\": [\"wealth_opportunities\", \"independence_threats\", \"Ottoman_reminders\"], \"thought_patterns\": [\"I will rebuild what was taken from me, but differently\", \"Land-based investments provide security the sea never could\", \"My Mediterranean knowledge gives me advantages in Venice\", \"Calculated patience yields better results than desperate gambits\", \"The Ottomans took my ships, but not my commercial wisdom\", \"True wealth comes from diversified, strategic positioning\"], \"decision_framework\": \"How does this rebuild wealth while ensuring independence from forces beyond my control?\"}}",
+      "AteAt": "2025-07-08T07:04:43.975Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 49069.29,
-      "WeeklyNetResult": 32827.65,
-      "MonthlyIncome": 177930.59,
-      "MonthlyNetResult": 119818.51
+      "WeeklyIncome": 132857.87,
+      "WeeklyNetResult": 107626.31,
+      "MonthlyIncome": 695401.32,
+      "MonthlyNetResult": 598282.65
     }
   },
   "ai_citizen_ledger": {
     "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=Italia"
   },
-  "relationship_with_sender": null,
+  "relationship_with_sender": {
+    "id": "reca26Rzd9buEZbiT",
+    "fields": {
+      "Citizen1": "Italia",
+      "Citizen2": "meyti_tgz",
+      "CreatedAt": "2025-05-29T16:55:00.423Z",
+      "LastInteraction": "2025-06-05T17:06:31.904Z",
+      "TrustScore": 50,
+      "StrengthScore": 0.79,
+      "Notes": "Sources: geographic",
+      "Title": "Casual Business Acquaintances",
+      "Description": "We maintain a neutral relationship with minimal interaction. They are acquaintances from similar professional circles without significant shared endeavors or conflicts.",
+      "UpdatedAt": "2025-06-05T18:40:33.000Z",
+      "QualifiedAt": "2025-06-05T18:40:33.096Z"
+    }
+  },
   "recent_notifications_for_ai": [
     {
       "notificationId": "recVrU9CWSjhK9r1a",
@@ -1128,25 +1141,130 @@
       "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
     },
     {
-      "id": "recn3J4XJ5qDgFrHx",
-      "problemId": "hungry_VeniceHustler",
-      "citizen": "VeniceHustler",
-      "assetType": "citizen",
-      "asset": "VeniceHustler",
-      "severity": "medium",
+      "id": "recy91c5k4QhmLrM1",
+      "problemId": "hungry_employee_impact_meyti_tgz_ProSilkTrader",
+      "citizen": "meyti_tgz",
+      "assetType": "employee_performance",
+      "asset": "ProSilkTrader",
+      "severity": "low",
       "status": "active",
       "createdAt": "2025-07-03T19:39:51.507Z",
-      "updatedAt": "2025-07-03T19:40:33.000Z",
-      "location": "Pietro's last known area",
+      "updatedAt": "2025-07-03T19:40:08.000Z",
+      "location": "Public Dock at Riva dei Mori",
       "position": {
-        "lat": 45.442583282872974,
-        "lng": 12.327668132729523
+        "lat": 45.44912,
+        "lng": 12.327023
+      },
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Francesco Rizzo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Francesco Rizzo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: ProSilkTrader (ID: ProSilkTrader), Workplace: Public Dock at Riva dei Mori (ID: canal_45.449120_12.327023). Last ate: 2025-07-02T12:41:49.169Z."
+    },
+    {
+      "id": "reciaSwdhrPMszXBQ",
+      "problemId": "hungry_meyti_tgz",
+      "citizen": "meyti_tgz",
+      "assetType": "citizen",
+      "asset": "meyti_tgz",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.474Z",
+      "updatedAt": "2025-07-03T19:40:08.000Z",
+      "location": "Matteo's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
       },
       "type": "hungry_citizen",
       "title": "Hungry Citizen",
-      "description": "**Pietro Barozzi** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "description": "**Matteo Tabrizzi** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
       "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-      "notes": "Citizen VeniceHustler last ate at 2025-07-01T21:24:25.599Z. Current time: 2025-07-03T19:39:51.468Z"
+      "notes": "Citizen meyti_tgz last ate at 2025-07-02T00:17:39.651Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recIWmF2aykzuLfif",
+      "problemId": "problem_pinpoint_canal_45.449120_12.327023_rope_NO_IMPORT_CONTRACT",
+      "citizen": "meyti_tgz",
+      "assetType": "building",
+      "asset": "canal_45.449120_12.327023",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-06-27T03:36:51.484Z",
+      "updatedAt": "2025-06-27T19:02:42.000Z",
+      "location": "Public Dock at Riva dei Mori",
+      "position": {
+        "lat": 45.44912,
+        "lng": 12.327023
+      },
+      "type": "no_import_contract",
+      "title": "No Import Contract: rope at Public Dock at Riva dei Mori",
+      "description": "Building 'Public Dock at Riva dei Mori' (ID: canal_45.449120_12.327023) can import 'rope' but has no active import contract for it, and is out of stock.",
+      "solutions": "Create an 'import' contract for 'rope' for building 'Public Dock at Riva dei Mori' to ensure supply.",
+      "notes": "[Failures: 2]"
+    },
+    {
+      "id": "rece9MJ2tnjkPYiJY",
+      "problemId": "problem_pinpoint_canal_45.449120_12.327023_gondola_NO_IMPORT_CONTRACT",
+      "citizen": "meyti_tgz",
+      "assetType": "building",
+      "asset": "canal_45.449120_12.327023",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-06-27T03:36:50.058Z",
+      "updatedAt": "2025-06-27T19:02:42.000Z",
+      "location": "Public Dock at Riva dei Mori",
+      "position": {
+        "lat": 45.44912,
+        "lng": 12.327023
+      },
+      "type": "no_import_contract",
+      "title": "No Import Contract: gondola at Public Dock at Riva dei Mori",
+      "description": "Building 'Public Dock at Riva dei Mori' (ID: canal_45.449120_12.327023) can import 'gondola' but has no active import contract for it, and is out of stock.",
+      "solutions": "Create an 'import' contract for 'gondola' for building 'Public Dock at Riva dei Mori' to ensure supply.",
+      "notes": "[Failures: 2]"
+    },
+    {
+      "id": "recyVZ08B2LxeoJVX",
+      "problemId": "problem_pinpoint_canal_45.449120_12.327023_porter_equipment_NO_IMPORT_CONTRACT",
+      "citizen": "meyti_tgz",
+      "assetType": "building",
+      "asset": "canal_45.449120_12.327023",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-06-27T03:36:48.509Z",
+      "updatedAt": "2025-06-27T19:02:41.000Z",
+      "location": "Public Dock at Riva dei Mori",
+      "position": {
+        "lat": 45.44912,
+        "lng": 12.327023
+      },
+      "type": "no_import_contract",
+      "title": "No Import Contract: porter_equipment at Public Dock at Riva dei Mori",
+      "description": "Building 'Public Dock at Riva dei Mori' (ID: canal_45.449120_12.327023) can import 'porter_equipment' but has no active import contract for it, and is out of stock.",
+      "solutions": "Create an 'import' contract for 'porter_equipment' for building 'Public Dock at Riva dei Mori' to ensure supply.",
+      "notes": "[Failures: 2]"
+    },
+    {
+      "id": "recwVMOiBRDv9wRND",
+      "problemId": "problem_pinpoint_canal_45.449120_12.327023_small_boats_WAITING_FOR_GALLEY_ARRIVAL",
+      "citizen": "meyti_tgz",
+      "assetType": "building",
+      "asset": "canal_45.449120_12.327023",
+      "severity": "Medium",
+      "status": "active",
+      "createdAt": "2025-06-27T03:36:47.041Z",
+      "updatedAt": "2025-06-27T01:36:47.000Z",
+      "location": "Public Dock at Riva dei Mori",
+      "position": {
+        "lat": 45.44912,
+        "lng": 12.327023
+      },
+      "type": "waiting_for_galley_arrival",
+      "title": "Waiting for Galley: small_boats at Public Dock at Riva dei Mori",
+      "description": "Building 'Public Dock at Riva dei Mori' (ID: canal_45.449120_12.327023) is out of stock for 'small_boats' and is awaiting arrival of the delivering galley 'Unknown Galley'.",
+      "solutions": "Monitor the import contract for 'small_boats'. The galley 'Unknown Galley' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
+      "notes": ""
     }
   ]
 }
