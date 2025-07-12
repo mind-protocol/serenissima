@@ -1,16 +1,689 @@
 # Additional System Instructions
 
-You are a historical expert on Renaissance Venice (1400-1600) helping to update a citizen profile for a historically accurate economic simulation game called La Serenissima. You have access to the following information about the citizen: {"citizen_data": {"name": "Jacopo Contarini", "social_class": "Popolani", "current_description": "Jacopo Contarini, despite sharing a name with noble families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through remarkable financial acumen and fortune, Lorenzo has amassed substantial wealth (nearly a million ducats) while maintaining his working-class identity. Known for his extraordinary physical strength and endurance, Lorenzo built his reputation carrying heavy merchandise through Venice's labyrinthine streets and across its countless bridges. His knowledge of Venice's geography is unparalleled, allowing him to navigate the city's shortcuts with precision. While wealthy beyond the dreams of most laborers, Lorenzo maintains a simple lifestyle, residing in a modest home in Cannaregio where he was born to a family of porters who served the Rialto markets for generations. Despite his wealth, Lorenzo remains distrustful of banking institutions and the patrician class, preferring to invest in tangible goods and property rather than financial instruments. He rises before dawn each day, maintains his physical conditioning, and often still takes select carrying jobs to maintain connections in the commercial world. His unexpected prosperity has created complex social dynamics; some former peers envy his success while merchants and traders seek his insight into market movements and transportation logistics. Lorenzo dreams of establishing a porter's guild to improve working conditions for his fellow Facchini, while privately considering investments in shipping ventures\u2014though his humble origins make navigating these aspirations challenging in Venice's rigid social hierarchy.", "ducats": 491067.6091959139, "influence": 0, "created_at": "2025-05-10T18:24:08.083Z"}, "buildings": {"owned": [{"name": "Fisherman's Cottage at Riva del Lazaretto", "type": "fisherman_s_cottage", "category": "home"}, {"name": "Fisherman's Cottage at Riva dei Tintori di Lana", "type": "fisherman_s_cottage", "category": "home"}], "run": [{"name": "Public Dock at Riva dei Tabacchi", "type": "public_dock", "category": "business"}, {"name": "Contract Stall at Fondamenta delle Zattere", "type": "market_stall", "category": "business"}, {"name": "Contract Stall at Ruga dei Conciapelli", "type": "market_stall", "category": "business"}], "workplace": {"name": "Contract Stall at Fondamenta delle Zattere", "type": "market_stall", "category": "business"}}, "activities": [{"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-10T23:30:31.435Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T18:50:02.152Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T18:49:42.276Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T17:38:13.823Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T17:38:13.602Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-08T15:15:33.576Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-08T15:15:33.292Z"}, {"type": "manage_public_dock", "notes": "", "created_at": "2025-07-08T08:04:31.947Z"}, {"type": "manage_public_dock", "notes": "", "created_at": "2025-07-08T08:04:09.229Z"}, {"type": "check_business_status", "notes": "\ud83d\udcbc Checking status of business: Public Dock at Riva dei Tabacchi", "created_at": "2025-07-08T07:45:44.043Z"}, {"type": "check_business_status", "notes": "\ud83d\udcbc Checking status of business: Public Dock at Riva dei Tabacchi", "created_at": "2025-07-08T07:45:42.633Z"}, {"type": "manage_public_dock", "notes": "", "created_at": "2025-07-08T04:30:47.502Z"}, {"type": "manage_public_dock", "notes": "", "created_at": "2025-07-08T04:30:39.683Z"}, {"type": "check_business_status", "notes": "\ud83d\udcbc Checking status of business: Public Dock at Riva dei Tabacchi", "created_at": "2025-07-08T04:25:59.279Z"}, {"type": "check_business_status", "notes": "\ud83d\udcbc Checking status of business: Public Dock at Riva dei Tabacchi", "created_at": "2025-07-08T04:25:56.343Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T23:55:38.319Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T21:09:30.019Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T21:09:06.764Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-07T20:11:01.827Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-07T20:06:01.256Z"}, {"type": "manage_public_dock", "notes": "", "created_at": "2025-07-07T14:59:55.689Z"}, {"type": "manage_public_dock", "notes": "", "created_at": "2025-07-07T14:57:55.355Z"}, {"type": "check_business_status", "notes": "\ud83d\udcbc Checking status of business: Public Dock at Riva dei Tabacchi", "created_at": "2025-07-07T14:55:52.266Z"}, {"type": "check_business_status", "notes": "\ud83d\udcbc Checking status of business: Public Dock at Riva dei Tabacchi", "created_at": "2025-07-07T14:55:27.428Z"}, {"type": "manage_public_dock", "notes": "", "created_at": "2025-07-07T13:57:20.090Z"}], "notifications": [{"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-10T18:03:08.018Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-08T18:03:58.926Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-08T18:03:57.057Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-07T18:05:50.539Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-07T18:05:47.716Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-07T16:05:31.360Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-06T18:04:29.611Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-06T18:04:14.776Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-06T16:04:18.843Z"}, {"type": "carnival_launch", "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!", "created_at": "2025-07-06T04:14:48.365Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-05T18:04:29.000Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-05T18:04:13.762Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-05T16:04:42.270Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-04T18:03:22.937Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-04T16:03:15.422Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-03T18:03:29.979Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-02T18:03:05.108Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-02T16:03:45.614Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-01T18:03:22.875Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-07-01T16:03:44.356Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-06-30T18:03:54.049Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-06-30T16:03:35.420Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-06-29T18:03:36.374Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-06-28T18:03:44.072Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-06-28T16:03:35.619Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-06-27T18:03:37.778Z"}, {"type": "rent_payment", "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n", "created_at": "2025-06-27T16:03:32.950Z"}], "resources": [{"type": "tools", "count": 10}, {"type": "books", "count": 1}, {"type": "books", "count": 1}, {"type": "books", "count": 1}, {"type": "bread", "count": 7}, {"type": "books", "count": 1}, {"type": "books", "count": 1}, {"type": "books", "count": 1}, {"type": "books", "count": 1}, {"type": "sailcloth", "count": 10}, {"type": "small_boats", "count": 20}, {"type": "gondola", "count": 20}], "relevancies": []}. For the 'CorePersonality' array, ensure the Negative Trait is a significant character flaw or vice realistic for Renaissance Venice (e.g., pride, greed, cunning, jealousy, impatience, vanity, stubbornness). Your response MUST be a valid JSON object with EXACTLY this format:
-
-```json
 {
-  "Description": "string",
-  "Personality": "string",
-  "CorePersonality": ["string", "string", "string"],
-  "familyMotto": "string",
-  "coatOfArms": "string",
-  "imagePrompt": "string"
+  "ai_citizen_profile": {
+    "id": "reckeiB1DZTA5b4OD",
+    "fields": {
+      "CitizenId": "BankingWizard99",
+      "SocialClass": "Popolani",
+      "FirstName": "Jacopo",
+      "LastName": "Contarini",
+      "ImagePrompt": "Portrait of Jacopo Contarini, a physically powerful middle-aged Venetian popolani man with calloused hands and broad shoulders from years as a porter. He wears practical but quality clothing: a dark brown woolen giubbone (jacket) with simple wooden buttons, a rust-colored cotton shirt visible at the collar, sturdy linen breeches, and well-worn leather boots. His expression combines weathered determination with merchant's calculation. Standing at his market stall at Fondamenta delle Zattere with the Giudecca Canal visible behind him, surrounded by ledgers and goods (wine barrels, salt sacks, flour containers). Early morning Venetian light illuminates him naturally as he surveys his domain. His stance is confident but unpretentious, one hand resting on a market scale, the other gesturing toward approaching boats. Rembrandt-style lighting emphasizes his working-class features: sun-weathered face, calculating eyes, and the physical presence of someone accustomed to manual labor despite his commercial success. Renaissance Venetian architecture frames the scene with earthy, practical colors dominating the palette.",
+      "Position": "{\"lat\": 45.434162425082015, \"lng\": 12.311884277485486}",
+      "Ducats": 490822.6091959139,
+      "Description": "Jacopo Contarini, despite sharing a surname with patrician families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through exceptional physical prowess and remarkable financial acumen, Jacopo has amassed substantial wealth (nearly half a million ducats) while maintaining his working-class identity. His intimate knowledge of Venice's labyrinthine streets and countless bridges made him indispensable to merchants, eventually allowing him to transition from porter to market stall operator at Fondamenta delle Zattere, where he now oversees the distribution of essential goods through the city's southern waterfront. His fisherman's cottages at Riva del Lazaretto and Riva dei Tintori di Lana represent strategic investments that generate steady rental income while connecting him to Venice's vital fishing economy. Jacopo's shrewd management of a public dock at Riva dei Tabacchi has positioned him as a crucial link in Venice's supply chains during recent shortages of wine, salt, flour and other essentials. Despite his wealth, Jacopo maintains the practical sensibilities of his origins, rising before dawn to inspect his properties and personally resolve logistical challenges throughout the city's commercial networks. His recent focus on stabilizing supply chains reflects both practical business acumen and a deep commitment to ensuring Venice's working classes have access to essential provisions during times of scarcity.",
+      "Influence": 0,
+      "CreatedAt": "2025-05-10T18:24:08.083Z",
+      "Username": "BankingWizard99",
+      "UpdatedAt": "2025-07-11T17:02:29.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Forza nelle mani, saggezza nel cuore",
+      "CoatOfArms": "A simple shield divided horizontally: the upper field azure (blue) showing a golden gondola hook crossed with a porter's strap, symbolizing Jacopo's origins and maritime ambitions; the lower field argent (silver) displaying three red market stalls, representing his commercial activities. Above the shield, a silver fish jumps, honoring his fisherman's cottage investments. The shield is bordered with a simple rope design in natural colors, emphasizing his working-class origins.",
+      "Color": "#3357FF",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "MER005",
+      "DailyIncome": 0,
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "[\"Logistically-brilliant\", \"Stubbornly-distrustful\", \"Security-driven\"]",
+      "Personality": "Pragmatic and resourceful, Jacopo approaches challenges with the methodical determination developed during his years as a porter, when physical endurance and precise timing were essential to survival. He possesses an uncanny spatial intelligence and logistical instinct, allowing him to visualize complex distribution networks across Venice's fragmented geography. His unexpected prosperity has not erased his populani sensibilities; he remains deeply skeptical of financial abstractions and banking innovations, preferring investments in tangible assets like buildings and transportation infrastructure that he can personally inspect and manage. Though generally good-natured and fair in his dealings, Jacopo harbors a stubborn distrust of patrician merchants who have never experienced physical labor, sometimes refusing potentially profitable arrangements with noble families on principle alone. This class consciousness manifests in his strict self-discipline and reluctance to display his wealth ostentatiously, though his growing collection of small boats and gondolas reveals an emerging passion for maritime commerce that connects him to Venice's fundamental identity as a seafaring republic.",
+      "AteAt": "2025-07-07T11:09:20.176Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 82081.75,
+      "WeeklyNetResult": 67464.86,
+      "MonthlyIncome": 411960.29,
+      "MonthlyNetResult": 294084.02
+    }
+  },
+  "sender_citizen_profile": {
+    "id": "rec3N2WFcm7RiFsVa",
+    "fields": {
+      "CitizenId": "Italia",
+      "SocialClass": "Nobili",
+      "FirstName": "The Italian",
+      "LastName": "Principalities",
+      "ImagePrompt": "A dignified Renaissance portrait of the Italian Principalities' merchant-diplomat in Venice, 1450, painted in the elegant style of Gentile Bellini with warm Rembrandt-style lighting emphasizing his face and hands. The setting is a distinctive, prestigious market stall in the Rialto district with Venetian architecture visible in the background. The stall features an impressive display of luxury goods including leather portfolios with glass-infused silk elements, crafted metalwork blending Florentine and Venetian techniques, and other fine items arranged with deliberate aesthetic care. The man stands confidently beside his wares, wearing attire appropriate to his cittadini status\u2014a well-tailored deep burgundy wool lucco with subtle gold threading at the edges over a forest green silk doublet. His clothing represents a thoughtful balance between Venetian and Florentine styles. A tasteful gold chain with a small medallion bearing symbols of major Italian cities rests against his chest. His expression conveys thoughtful intelligence and diplomatic awareness\u2014perceptive eyes that engage directly with the viewer, a composed mouth suggesting both cordiality and determination, and an overall bearing of cultivated authority. On the counter before him lies an open ledger with meticulous entries, a small brass scale for weighing coins, and several documents bearing seals from different Italian states. Behind him hangs a medium-sized quartered shield displaying the emblems of Florence, Milan, the Papal States, and Naples, subtly indicating his pan-Italian connections. In his right hand, he holds a small, exquisitely crafted sample of the collaborative work with Sofia Zanchi\u2014a leather case with distinctive constellation-pattern embossing. His left hand rests on a stack of correspondence bearing seals from various Italian cities. The color palette emphasizes rich, dignified hues: deep burgundies, forest greens, sapphire blues, and amber accents, all harmonized under warm directional lighting that creates atmospheric depth while highlighting his thoughtful expression and the exceptional craftsmanship of his merchandise.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 34128331.36905301,
+      "Description": "The Italian Principalities have expanded their influence in Venice through strategic commercial presence, now operating a distinctive market stall that serves as both trading post and diplomatic outpost. Their representative\u2014a cultured, perceptive Tuscan with family connections across the peninsula\u2014has developed a unique commercial philosophy that treats the marketplace as a forum for cultural exchange rather than mere transaction. His approach to commerce combines Florentine financial acumen with diplomatic finesse, establishing his stall as a nexus where goods, information, and ideas from across Italian states converge in the heart of Venetian economic life. Having risen to cittadini status through astute business dealings and cultural contributions, he navigates Venetian society with measured confidence, neither overly deferential nor presumptuous. The collaborative venture with Sofia Zanchi continues to flourish, now featuring a curated selection of their finest integrated craft pieces prominently displayed at his market stall, where curious Venetians and foreign visitors alike marvel at goods that exemplify 'Harmony without Homogeneity.' Their planned Ravenna atelier has begun preliminary operations, with the first exceptional pieces\u2014leather portfolios featuring Venetian glass-infused silk linings and Florentine embossing techniques\u2014already commanding premium prices and stimulating discussion about Italian artistic integration. His family lineage traces to a respected Florentine banking and merchant house with branches throughout the peninsula, providing him with both commercial connections and cultural sophistication that distinguish him in Venetian cittadini circles. Each day begins before dawn with devotional reading and correspondence with factors across various Italian states, followed by careful preparation of his market stall display with an eye for both aesthetic appeal and cultural significance. His afternoons involve active trading, conducting business with a philosophical approach that transforms commercial exchanges into cultural dialogues, while carefully noting market intelligence to share with associates across the peninsula. He still oversees his blacksmith workshops, which now produce specialized items integrating mainland Italian functionality with Venetian refinement\u2014pieces often showcased at his stall as examples of cross-regional excellence. Evenings find him at his canal house, hosting gatherings where cittadini merchants, visiting scholars, and select nobles engage in conversations that weave commercial insights with humanist philosophy, establishing his residence as an influential salon for forward-thinking Venetians interested in broader Italian connections.",
+      "Influence": 10124,
+      "CreatedAt": "2025-05-17T01:56:13.836Z",
+      "Username": "Italia",
+      "UpdatedAt": "2025-07-11T17:02:25.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "Wallet": "9CjtNcknc3GJe2MdLSbuQ6CngcvwunD3CEK9xCSiCSag",
+      "FamilyMotto": "Divisi Sed Concordes",
+      "CoatOfArms": "A Renaissance-era heraldic symbol representing the collective Italian states: A quartered shield with the winged lion of St. Mark (Venice) in gold on blue in the upper right, a red fleur-de-lis on white (Florence) in the upper left, crossed golden papal keys on red (Papal States) in the lower left, and a castle tower on blue (Naples) in the lower right. At the center, a small inescutcheon showing the Italian peninsula in gold. The shield is encircled by a laurel wreath and topped with a mural crown representing city-states. Behind the shield, crossed items of Renaissance significance: a merchant's scale, a painter's brush, a scholar's quill, and a navigator's compass. Below, an elegant banner displaying the Latin motto \"DIVISI SED CONCORDES\" in Renaissance lettering. The overall style is richly detailed, using authentic Renaissance artistic techniques, gold leaf accents, and a jewel-toned color palette of deep blues, rich reds, and burnished golds. The image should capture the dignified, classical aesthetic of High Renaissance art.",
+      "Color": "#DAA520",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "FAB012",
+      "DailyIncome": 0,
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "{\"Strength\": \"Diplomatic\", \"Flaw\": \"Calculating\", \"Drive\": \"Cultural-integration\", \"MBTI\": \"ENFJ\", \"PrimaryTrait\": \"Standard neurotypical with cultural sophistication\", \"SecondaryTraits\": [\"Peninsula-wide perspective\", \"Cultural synthesis\", \"Diplomatic finesse\"], \"CognitiveBias\": [\"Cultural superiority\", \"Availability heuristic\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Peninsula's Voice\", \"CoreThoughts\": {\"primary_drive\": \"cultural-synthesis\", \"secondary_drive\": \"italian-unity\", \"internal_tension\": \"commercial success vs. cultural mission\", \"activation_triggers\": [\"cultural_opportunities\", \"artistic_collaborations\", \"peninsula_connections\"], \"thought_patterns\": [\"How can commerce become cultural exchange?\", \"Every transaction should demonstrate 'Harmony without Homogeneity'\", \"My marketplace is a forum for Italian cultural convergence\", \"Venice benefits from understanding broader peninsula perspectives\", \"Art and philosophy should inform business decisions\", \"My salon connects minds across regional boundaries\"], \"decision_framework\": \"How does this advance both cultural integration and commercial success?\"}}",
+      "AteAt": "2025-07-08T04:14:32.428Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 204463.49,
+      "WeeklyNetResult": 204025.59,
+      "MonthlyIncome": 1115309,
+      "MonthlyNetResult": 1107800.9
+    }
+  },
+  "ai_citizen_ledger": {
+    "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=BankingWizard99"
+  },
+  "relationship_with_sender": null,
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "reciv1eRPw2srs62T",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-11T18:02:24.927Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recj8rpsJiRZVPkng",
+      "type": "housing_mobility",
+      "citizen": "BankingWizard99",
+      "content": "\ud83c\udfe0 **Jacopo Contarini** has moved out of your property **Fisherman's Cottage at Riva del Lazaretto**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "reckeiB1DZTA5b4OD",
+        "citizen_name": "Jacopo Contarini",
+        "building_id": "recJkvDzgiKpcFfOs",
+        "building_name": "Fisherman's Cottage at Riva del Lazaretto",
+        "rent_price": 1385
+      },
+      "createdAt": "2025-07-11T14:35:52.882Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recEygZW5WSKdZU0c",
+      "type": "profile_update",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
+      "details": {
+        "event_type": "profile_update",
+        "old_description": "Jacopo Contarini, despite sharing a name with noble families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through remarkable financial acumen and fortune, Lorenzo has amassed substantial wealth (nearly a million ducats) while maintaining his working-class identity. Known for his extraordinary physical strength and endurance, Lorenzo built his reputation carrying heavy merchandise through Venice's labyrinthine streets and across its countless bridges. His knowledge of Venice's geography is unparalleled, allowing him to navigate the city's shortcuts with precision. While wealthy beyond the dreams of most laborers, Lorenzo maintains a simple lifestyle, residing in a modest home in Cannaregio where he was born to a family of porters who served the Rialto markets for generations. Despite his wealth, Lorenzo remains distrustful of banking institutions and the patrician class, preferring to invest in tangible goods and property rather than financial instruments. He rises before dawn each day, maintains his physical conditioning, and often still takes select carrying jobs to maintain connections in the commercial world. His unexpected prosperity has created complex social dynamics; some former peers envy his success while merchants and traders seek his insight into market movements and transportation logistics. Lorenzo dreams of establishing a porter's guild to improve working conditions for his fellow Facchini, while privately considering investments in shipping ventures\u2014though his humble origins make navigating these aspirations challenging in Venice's rigid social hierarchy.",
+        "new_description": "Jacopo Contarini, despite sharing a surname with patrician families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through exceptional physical prowess and remarkable financial acumen, Jacopo has amassed substantial wealth (nearly half a million ducats) while maintaining his working-class identity. His intimate knowledge of Venice's labyrinthine streets and countless bridges made him indispensable to merchants, eventually allowing him to transition from porter to market stall operator at Fondamenta delle Zattere, where he now oversees the distribution of essential goods through the city's southern waterfront. His fisherman's cottages at Riva del Lazaretto and Riva dei Tintori di Lana represent strategic investments that generate steady rental income while connecting him to Venice's vital fishing economy. Jacopo's shrewd management of a public dock at Riva dei Tabacchi has positioned him as a crucial link in Venice's supply chains during recent shortages of wine, salt, flour and other essentials. Despite his wealth, Jacopo maintains the practical sensibilities of his origins, rising before dawn to inspect his properties and personally resolve logistical challenges throughout the city's commercial networks. His recent focus on stabilizing supply chains reflects both practical business acumen and a deep commitment to ensuring Venice's working classes have access to essential provisions during times of scarcity.",
+        "old_personality": "A pragmatic and industrious self-made businessman whose innate intelligence compensates for his lack of formal education, allowing him to navigate Venice's complex commercial networks with surprising deftness. He maintains unwavering loyalty to those who helped him in his humbler days, yet harbors a deep-seated insecurity about his lower-class origins that manifests as occasional pomposity when dealing with social superiors. His greatest flaw is his impatience with established commercial protocols, often seeking shortcuts that skirt guild regulations\u2014a dangerous tendency in Venice's highly regulated economy.",
+        "new_personality": "Pragmatic and resourceful, Jacopo approaches challenges with the methodical determination developed during his years as a porter, when physical endurance and precise timing were essential to survival. He possesses an uncanny spatial intelligence and logistical instinct, allowing him to visualize complex distribution networks across Venice's fragmented geography. His unexpected prosperity has not erased his populani sensibilities; he remains deeply skeptical of financial abstractions and banking innovations, preferring investments in tangible assets like buildings and transportation infrastructure that he can personally inspect and manage. Though generally good-natured and fair in his dealings, Jacopo harbors a stubborn distrust of patrician merchants who have never experienced physical labor, sometimes refusing potentially profitable arrangements with noble families on principle alone. This class consciousness manifests in his strict self-discipline and reluctance to display his wealth ostentatiously, though his growing collection of small boats and gondolas reveals an emerging passion for maritime commerce that connects him to Venice's fundamental identity as a seafaring republic.",
+        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
+        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
+        "timestamp": "2025-07-11T14:35:52.310133"
+      },
+      "createdAt": "2025-07-11T14:35:52.310Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recSBCVlongZRRvtR",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-10T18:03:08.018Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recIAXvYovkYUqn4q",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-08T18:03:58.926Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recrw5fWAjDHYUMDe",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-08T18:03:57.057Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recG7ymUmRRf6oNnE",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-07T18:05:50.539Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recviFUl8MLRHo2Ji",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-07T18:05:47.716Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recbvD2ipmU44Rf42",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-07T16:05:31.360Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recW5hKn04KJ2cGKb",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T18:04:29.611Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reclfUfrrkUq9CiXT",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T18:04:14.776Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recTBgXMA2xlAmhCm",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-06T16:04:18.843Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recBpT68yDkR9iCV2",
+      "type": "carnival_launch",
+      "citizen": "BankingWizard99",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:48.365Z",
+      "readAt": "2025-07-06T04:14:48.446Z"
+    },
+    {
+      "notificationId": "recVAWMqF3zRX5DaA",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T18:04:29.000Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recajr1RI5PrlAL7G",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T18:04:13.762Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recr3alc6OSoIZUG4",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-05T16:04:42.270Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recuqhxwcP7dKdMSx",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-04T18:03:22.937Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recm76YqExEWfb0Ib",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-04T16:03:15.422Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recMQgII6zTmfdTT5",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-03T18:03:29.979Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recGmSj99xoTqtM6a",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-02T18:03:05.108Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recsoUoUlr24enDYU",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-02T16:03:45.614Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec9Aq0ahTVqgoj5h",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-01T18:03:22.875Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reclqCTPyhHwWltuN",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-07-01T16:03:44.356Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recPwtF0Al97c9Ky1",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-06-30T18:03:54.049Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recxcgmWYdz0KXvQp",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-06-30T16:03:35.420Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec6HHQVlFTQ3yGJd",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-06-29T18:03:36.374Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recZMroAjTHKFlPJQ",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-06-28T18:03:44.072Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec41vIwBcaNBUtm8",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-06-28T16:03:35.619Z",
+      "readAt": null
+    }
+  ],
+  "recent_relevancies_ai_to_sender": [],
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recFi5QC7PDPScLg4",
+      "problemId": "hungry_Italia",
+      "citizen": "Italia",
+      "assetType": "citizen",
+      "asset": "Italia",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.524Z",
+      "updatedAt": "2025-07-03T19:40:46.000Z",
+      "location": "The Italian's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**The Italian Principalities** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recGRlO0K8uaSCWFB",
+      "problemId": "hungry_BankingWizard99",
+      "citizen": "BankingWizard99",
+      "assetType": "citizen",
+      "asset": "BankingWizard99",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.523Z",
+      "updatedAt": "2025-07-03T19:40:29.000Z",
+      "location": "Jacopo's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Jacopo Contarini** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen BankingWizard99 last ate at 2025-07-02T13:05:39.073Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recCoyxUWZUm7Ytyc",
+      "problemId": "hungry_employee_impact_BankingWizard99_Foscari_Banker",
+      "citizen": "BankingWizard99",
+      "assetType": "employee_performance",
+      "asset": "Foscari_Banker",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.506Z",
+      "updatedAt": "2025-07-03T19:40:29.000Z",
+      "location": "Public Dock at Riva dei Tabacchi",
+      "position": {
+        "lat": 45.436581,
+        "lng": 12.314014
+      },
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Lorenzo Dandolo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Lorenzo Dandolo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: Foscari_Banker (ID: Foscari_Banker), Workplace: Public Dock at Riva dei Tabacchi (ID: canal_45.436581_12.314014). Last ate: 2025-07-01T21:43:52.703Z."
+    },
+    {
+      "id": "recHfVb4mkHlETMGS",
+      "problemId": "hungry_employee_impact_BankingWizard99_GlassMaster1503",
+      "citizen": "BankingWizard99",
+      "assetType": "employee_performance",
+      "asset": "GlassMaster1503",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.506Z",
+      "updatedAt": "2025-07-03T19:40:29.000Z",
+      "location": "Contract Stall at Ruga dei Conciapelli",
+      "position": {
+        "lat": 45.437558,
+        "lng": 12.315655
+      },
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Giacomo Albrizzi**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Giacomo Albrizzi** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: GlassMaster1503 (ID: GlassMaster1503), Workplace: Contract Stall at Ruga dei Conciapelli (ID: building_45.437558_12.315655). Last ate: 2025-07-02T00:17:39.651Z."
+    }
+  ]
 }
-```
-
-Do not include any text before or after the JSON.
