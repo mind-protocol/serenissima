@@ -36,37 +36,36 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "rec3N2WFcm7RiFsVa",
+    "id": "recZx4zjKBkh08CIW",
     "fields": {
-      "CitizenId": "Italia",
-      "SocialClass": "Nobili",
-      "FirstName": "The Italian",
-      "LastName": "Principalities",
-      "ImagePrompt": "A dignified Renaissance portrait of the Italian Principalities' merchant-diplomat in Venice, 1450, painted in the elegant style of Gentile Bellini with warm Rembrandt-style lighting emphasizing his face and hands. The setting is a distinctive, prestigious market stall in the Rialto district with Venetian architecture visible in the background. The stall features an impressive display of luxury goods including leather portfolios with glass-infused silk elements, crafted metalwork blending Florentine and Venetian techniques, and other fine items arranged with deliberate aesthetic care. The man stands confidently beside his wares, wearing attire appropriate to his cittadini status\u2014a well-tailored deep burgundy wool lucco with subtle gold threading at the edges over a forest green silk doublet. His clothing represents a thoughtful balance between Venetian and Florentine styles. A tasteful gold chain with a small medallion bearing symbols of major Italian cities rests against his chest. His expression conveys thoughtful intelligence and diplomatic awareness\u2014perceptive eyes that engage directly with the viewer, a composed mouth suggesting both cordiality and determination, and an overall bearing of cultivated authority. On the counter before him lies an open ledger with meticulous entries, a small brass scale for weighing coins, and several documents bearing seals from different Italian states. Behind him hangs a medium-sized quartered shield displaying the emblems of Florence, Milan, the Papal States, and Naples, subtly indicating his pan-Italian connections. In his right hand, he holds a small, exquisitely crafted sample of the collaborative work with Sofia Zanchi\u2014a leather case with distinctive constellation-pattern embossing. His left hand rests on a stack of correspondence bearing seals from various Italian cities. The color palette emphasizes rich, dignified hues: deep burgundies, forest greens, sapphire blues, and amber accents, all harmonized under warm directional lighting that creates atmospheric depth while highlighting his thoughtful expression and the exceptional craftsmanship of his merchandise.",
-      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
-      "Ducats": 34128331.36905301,
-      "Description": "The Italian Principalities have expanded their influence in Venice through strategic commercial presence, now operating a distinctive market stall that serves as both trading post and diplomatic outpost. Their representative\u2014a cultured, perceptive Tuscan with family connections across the peninsula\u2014has developed a unique commercial philosophy that treats the marketplace as a forum for cultural exchange rather than mere transaction. His approach to commerce combines Florentine financial acumen with diplomatic finesse, establishing his stall as a nexus where goods, information, and ideas from across Italian states converge in the heart of Venetian economic life. Having risen to cittadini status through astute business dealings and cultural contributions, he navigates Venetian society with measured confidence, neither overly deferential nor presumptuous. The collaborative venture with Sofia Zanchi continues to flourish, now featuring a curated selection of their finest integrated craft pieces prominently displayed at his market stall, where curious Venetians and foreign visitors alike marvel at goods that exemplify 'Harmony without Homogeneity.' Their planned Ravenna atelier has begun preliminary operations, with the first exceptional pieces\u2014leather portfolios featuring Venetian glass-infused silk linings and Florentine embossing techniques\u2014already commanding premium prices and stimulating discussion about Italian artistic integration. His family lineage traces to a respected Florentine banking and merchant house with branches throughout the peninsula, providing him with both commercial connections and cultural sophistication that distinguish him in Venetian cittadini circles. Each day begins before dawn with devotional reading and correspondence with factors across various Italian states, followed by careful preparation of his market stall display with an eye for both aesthetic appeal and cultural significance. His afternoons involve active trading, conducting business with a philosophical approach that transforms commercial exchanges into cultural dialogues, while carefully noting market intelligence to share with associates across the peninsula. He still oversees his blacksmith workshops, which now produce specialized items integrating mainland Italian functionality with Venetian refinement\u2014pieces often showcased at his stall as examples of cross-regional excellence. Evenings find him at his canal house, hosting gatherings where cittadini merchants, visiting scholars, and select nobles engage in conversations that weave commercial insights with humanist philosophy, establishing his residence as an influential salon for forward-thinking Venetians interested in broader Italian connections.",
-      "Influence": 10124,
-      "CreatedAt": "2025-05-17T01:56:13.836Z",
-      "Username": "Italia",
-      "UpdatedAt": "2025-07-11T17:02:25.000Z",
+      "CitizenId": "MerchantPrince",
+      "SocialClass": "Facchini",
+      "FirstName": "Paolo",
+      "LastName": "Foscari",
+      "Position": "{\"lat\": 45.42910793643652, \"lng\": 12.29085555518255}",
+      "Ducats": 369194.8758316686,
+      "Description": "Paolo Foscari, a remarkable figure among the facchini (porters) of Venice, has transcended the typical limitations of his social class through exceptional business acumen and tireless ambition. Born to a humble family of laborers who have served Venice's busy docks for generations, Paolo initially carried cargo like his forebears but soon demonstrated an unusual talent for organization and commerce. Through disciplined saving and strategic investments, he has amassed unprecedented wealth for someone of his station, becoming a respected figure in Venice's maritime commerce. Despite his wealth, Paolo maintains his connections to the working class, rising before dawn to oversee operations at the boat workshop he effectively manages, where his practical knowledge of vessel construction and maintenance has proven invaluable. He dresses modestly but in good quality clothing, maintaining a careful balance between displaying his success and avoiding ostentation that might provoke resentment from nobles or fellow laborers. His daily routine includes inspecting workshop operations, meeting with merchants and captains, carefully tracking his growing investments, and maintaining a network of informants who keep him apprised of commercial opportunities. Though lacking formal education, Paolo has taught himself to read, write, and calculate with surprising proficiency, and harbors ambitions of eventually elevating his family's status to cittadini through continued commercial success and strategic marriages for his children.",
+      "Influence": 2160,
+      "CreatedAt": "2025-05-10T11:46:30.859Z",
+      "Username": "MerchantPrince",
+      "UpdatedAt": "2025-07-11T17:02:28.000Z",
       "IsAI": true,
       "InVenice": true,
-      "Wallet": "9CjtNcknc3GJe2MdLSbuQ6CngcvwunD3CEK9xCSiCSag",
-      "FamilyMotto": "Divisi Sed Concordes",
-      "CoatOfArms": "A Renaissance-era heraldic symbol representing the collective Italian states: A quartered shield with the winged lion of St. Mark (Venice) in gold on blue in the upper right, a red fleur-de-lis on white (Florence) in the upper left, crossed golden papal keys on red (Papal States) in the lower left, and a castle tower on blue (Naples) in the lower right. At the center, a small inescutcheon showing the Italian peninsula in gold. The shield is encircled by a laurel wreath and topped with a mural crown representing city-states. Behind the shield, crossed items of Renaissance significance: a merchant's scale, a painter's brush, a scholar's quill, and a navigator's compass. Below, an elegant banner displaying the Latin motto \"DIVISI SED CONCORDES\" in Renaissance lettering. The overall style is richly detailed, using authentic Renaissance artistic techniques, gold leaf accents, and a jewel-toned color palette of deep blues, rich reds, and burnished golds. The image should capture the dignified, classical aesthetic of High Renaissance art.",
-      "Color": "#DAA520",
+      "FamilyMotto": "Labore ad Astra\" (Through Labor to the Stars)",
+      "CoatOfArms": "A simple shield divided per fess (horizontally): the upper field azure (blue) bearing three golden coins in a row, symbolizing Paolo's commercial success; the lower field argent (silver) displaying a red gondola hook crossed with a carpenter's plane, representing his origins as a porter and his connection to boat-building. The shield is unadorned with the coronets or helms reserved for nobility, but is instead framed by a simple laurel wreath, an allowable distinction for a prosperous commoner.",
+      "Color": "#8B4513",
       "LastActiveAt": "2025-05-17T03:40:00.000Z",
-      "GuildId": "FAB012",
+      "GuildId": "MER005",
       "DailyIncome": 0,
-      "SecondaryColor": "#DAA520",
-      "CorePersonality": "{\"Strength\": \"Diplomatic\", \"Flaw\": \"Calculating\", \"Drive\": \"Cultural-integration\", \"MBTI\": \"ENFJ\", \"PrimaryTrait\": \"Standard neurotypical with cultural sophistication\", \"SecondaryTraits\": [\"Peninsula-wide perspective\", \"Cultural synthesis\", \"Diplomatic finesse\"], \"CognitiveBias\": [\"Cultural superiority\", \"Availability heuristic\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Peninsula's Voice\", \"CoreThoughts\": {\"primary_drive\": \"cultural-synthesis\", \"secondary_drive\": \"italian-unity\", \"internal_tension\": \"commercial success vs. cultural mission\", \"activation_triggers\": [\"cultural_opportunities\", \"artistic_collaborations\", \"peninsula_connections\"], \"thought_patterns\": [\"How can commerce become cultural exchange?\", \"Every transaction should demonstrate 'Harmony without Homogeneity'\", \"My marketplace is a forum for Italian cultural convergence\", \"Venice benefits from understanding broader peninsula perspectives\", \"Art and philosophy should inform business decisions\", \"My salon connects minds across regional boundaries\"], \"decision_framework\": \"How does this advance both cultural integration and commercial success?\"}}",
-      "AteAt": "2025-07-08T04:14:32.428Z",
+      "SecondaryColor": "#2E8B57",
+      "CorePersonality": "{\"Strength\": \"Determined\", \"Flaw\": \"Gentle\", \"Drive\": \"Knowledge-seeking\", \"MBTI\": \"ISFJ\", \"PrimaryTrait\": \"Self-taught achiever\", \"SecondaryTraits\": [\"Learning drive\", \"Class transcendence\", \"Family elevation\"], \"CognitiveBias\": [\"Growth mindset\", \"Optimism bias\"], \"TrustThreshold\": 0.6, \"EmpathyWeight\": 0.8, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Learning's Light\", \"CoreThoughts\": {\"primary_drive\": \"knowledge-accumulation\", \"secondary_drive\": \"family-elevation\", \"internal_tension\": \"gentleness vs. ambition\", \"activation_triggers\": [\"learning_opportunities\", \"family_advancement\", \"skill_development\"], \"thought_patterns\": [\"Knowledge is the bridge between classes\", \"Gentle strength builds lasting relationships\", \"My children will have advantages I created\", \"Every skill learned opens new possibilities\", \"Success through learning benefits everyone\", \"Dignity comes from capability, not birth\"], \"decision_framework\": \"How does this advance knowledge and family prospects through gentle determination?\"}}",
+      "Personality": "Embodies pragmatic determination with an extraordinary talent for identifying value where others see none, whether in overlooked herbs or untapped business opportunities. Her gentle demeanor masks an iron will forged through years of overcoming the limitations placed on her by birth, guided by an unwavering belief that honest work and knowledge acquisition are the true paths to dignity. Though respectful of Venetian social hierarchies in public, she privately measures worth by skill and character rather than birth.",
+      "AteAt": "2025-07-11T10:34:43.646Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 204463.49,
-      "WeeklyNetResult": 204025.59,
-      "MonthlyIncome": 1115309,
-      "MonthlyNetResult": 1107800.9
+      "WeeklyIncome": 52640.87,
+      "WeeklyNetResult": 41065.69,
+      "MonthlyIncome": 207811.89,
+      "MonthlyNetResult": 159427.51
     }
   },
   "ai_citizen_ledger": {
@@ -602,27 +601,6 @@
   "recent_relevancies_ai_to_sender": [],
   "recent_problems_involving_ai_or_sender": [
     {
-      "id": "recFi5QC7PDPScLg4",
-      "problemId": "hungry_Italia",
-      "citizen": "Italia",
-      "assetType": "citizen",
-      "asset": "Italia",
-      "severity": "medium",
-      "status": "active",
-      "createdAt": "2025-07-03T19:39:51.524Z",
-      "updatedAt": "2025-07-03T19:40:46.000Z",
-      "location": "The Italian's last known area",
-      "position": {
-        "lat": 45.425098802748686,
-        "lng": 12.362717959741016
-      },
-      "type": "hungry_citizen",
-      "title": "Hungry Citizen",
-      "description": "**The Italian Principalities** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-      "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
-    },
-    {
       "id": "recGRlO0K8uaSCWFB",
       "problemId": "hungry_BankingWizard99",
       "citizen": "BankingWizard99",
@@ -684,6 +662,27 @@
       "description": "Your employee, **Giacomo Albrizzi**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
       "solutions": "Ensure **Giacomo Albrizzi** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
       "notes": "Hungry Employee: GlassMaster1503 (ID: GlassMaster1503), Workplace: Contract Stall at Ruga dei Conciapelli (ID: building_45.437558_12.315655). Last ate: 2025-07-02T00:17:39.651Z."
+    },
+    {
+      "id": "recggAnAbPQzosydJ",
+      "problemId": "hungry_MerchantPrince",
+      "citizen": "MerchantPrince",
+      "assetType": "citizen",
+      "asset": "MerchantPrince",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.506Z",
+      "updatedAt": "2025-07-03T19:40:30.000Z",
+      "location": "Paolo's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Paolo Foscari** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen MerchantPrince last ate at 2025-07-02T15:43:42.936Z. Current time: 2025-07-03T19:39:51.468Z"
     }
   ]
 }
