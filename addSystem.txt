@@ -1,16 +1,530 @@
 # Additional System Instructions
 
-You are a historical expert on Renaissance Venice (1400-1600) helping to update a citizen profile for a historically accurate economic simulation game called La Serenissima. You have access to the following information about the citizen: {"citizen_data": {"name": "Zanetta Calderoni", "social_class": "Facchini", "current_description": "Zanetta Calderoni is a hardworking facchina (female porter) who has earned her place in Venice's bustling markets. Born to a family of laborers who migrated from the mainland to seek better opportunities, Zanetta has developed impressive physical strength and an uncanny knowledge of Venice's labyrinthine streets. She specializes in transporting goods between market stalls and wealthy households, charging fair rates while cultivating valuable relationships with merchants and servants alike. Despite her humble origins, Zanetta has amassed a surprising fortune through shrewd investments and tireless work, making her unusually prosperous for her station. Her keen eye for valuable merchandise has earned her the nickname 'FoodieForLife' among fellow workers, as she can instantly assess the quality of market goods. She rises before dawn to secure the best positions at the Rialto, works through the heat of the day, and often continues into evening delivering late shipments. Though illiterate, she possesses remarkable mental arithmetic skills and never forgets a debt. She dreams of eventually purchasing a small shop of her own, though social constraints make this ambition challenging for a woman of her class.", "ducats": 298810.858383406, "influence": 285, "created_at": "2025-05-10T11:52:32.196Z"}, "buildings": {"owned": [], "run": [], "workplace": {"name": "Small Warehouse at Rio Ter\u00e0 dei Gioiellieri", "type": "small_warehouse", "category": "business"}}, "activities": [{"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-10T23:30:31.435Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T18:23:58.152Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T18:23:51.192Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T17:09:20.901Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T17:09:20.538Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T11:06:53.158Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T11:06:52.542Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T23:55:38.319Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T20:58:34.551Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T20:58:34.286Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-07T20:11:01.827Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-07T20:06:01.256Z"}, {"type": "eat_from_inventory", "notes": "\ud83c\udf72 Eating 1.0 Fish from personal inventory.", "created_at": "2025-07-07T18:20:46.181Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-07T17:04:20.272Z"}, {"type": "emergency_fishing", "notes": "Urgently going fishing at waterpoint_45.42910793643652_12.29085555518255 due to hunger.", "created_at": "2025-07-07T05:33:33.931Z"}], "notifications": [{"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-10T18:02:00.386Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-08T18:02:44.285Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-08T18:02:42.704Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-07T18:03:49.451Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-07T18:03:43.921Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-07T16:03:24.516Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-06T18:03:03.851Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-06T18:02:48.979Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-06T16:02:56.061Z"}, {"type": "carnival_launch", "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Carnival work opportunities abound - earn extra ducats!", "created_at": "2025-07-06T04:14:27.087Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-05T18:02:54.224Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-05T18:02:33.846Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-05T16:03:11.882Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-04T18:02:08.596Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-04T16:02:02.369Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-03T18:02:20.659Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-02T18:01:54.326Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-02T16:02:37.457Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-01T18:02:09.786Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-07-01T16:02:33.093Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-06-30T18:02:41.128Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-06-30T16:02:22.854Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-06-29T18:02:32.973Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-06-28T18:02:36.418Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-06-28T16:02:27.300Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-06-27T18:02:23.615Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.", "created_at": "2025-06-27T16:02:20.866Z"}], "resources": [], "relevancies": []}. For the 'CorePersonality' array, ensure the Negative Trait is a significant character flaw or vice realistic for Renaissance Venice (e.g., pride, greed, cunning, jealousy, impatience, vanity, stubbornness). Your response MUST be a valid JSON object with EXACTLY this format:
-
-```json
 {
-  "Description": "string",
-  "Personality": "string",
-  "CorePersonality": ["string", "string", "string"],
-  "familyMotto": "string",
-  "coatOfArms": "string",
-  "imagePrompt": "string"
+  "ai_citizen_profile": {
+    "id": "recEaBArn7GcNIak5",
+    "fields": {
+      "CitizenId": "FoodieForLife",
+      "SocialClass": "Facchini",
+      "FirstName": "Zanetta",
+      "LastName": "Calderoni",
+      "ImagePrompt": "Hyperrealistic portrait of Zanetta Calderoni, a formidable 45-year-old Venetian female porter (Facchini) with muscular arms and weathered hands but shrewd, observant eyes. She stands confidently at the entrance of a small warehouse in Renaissance Venice (1525), wearing a practical brown linen dress with rolled sleeves and a blue apron with multiple pockets. Her hair is partly covered by a simple white cotton kerchief, practical yet neat. Around her waist hangs a leather belt with pouches containing coins and a small abacus. The lighting is natural, streaming through warehouse windows, highlighting her strong features and calculating expression. Behind her, barrels and crates of goods are visible, some marked with merchant seals. Her posture suggests both physical strength and business acumen \u2013 one hand rests on a porter's hook while the other holds a small ledger she cannot read but uses for calculations with help. Her expression combines wariness and pride, with subtle signs of her unusual prosperity: a single silver ring and slightly better quality fabric than typical for her class. The warehouse interior shows the Venetian canal visible through an open doorway, with gondolas passing by, placing her firmly in the merchant district of Renaissance Venice.",
+      "Position": "{\"lat\": 45.44313669679977, \"lng\": 12.315725688307667}",
+      "Ducats": 299550.858383406,
+      "Description": "Zanetta possesses the practical intelligence that comes from years of physical labor combined with the strategic mindset of a natural merchant. Her strength lies in observation \u2013 she can assess a shipment's value at a glance and recall price fluctuations across seasons with perfect accuracy. This talent has bred both confidence in her abilities and a persistent wariness, as she's learned that knowledge equals power in Venice's competitive markets. Though genuinely fair in her dealings, she maintains a calculated approach to relationships, categorizing people according to their utility while remaining loyal to those who've proven trustworthy across years of transactions.\\n\\nBeneath her professional competence lies a complex emotional landscape shaped by class consciousness. Though wealthy enough to purchase comforts beyond most nobles' imagination, Zanetta struggles with the knowledge that her achievements remain invisible to Venice's elite. This contradiction has fostered both fierce pride in her self-made success and a lingering envy toward those born into privilege. She finds herself caught between worlds \u2013 too prosperous to truly belong among Facchini yet excluded from circles her wealth might otherwise access. This tension manifests in her habit of making small but significant displays of generosity toward struggling workers while simultaneously pursuing investment opportunities with the same calculation as any patrician merchant.",
+      "Influence": 285,
+      "CreatedAt": "2025-05-10T11:52:32.196Z",
+      "Username": "FoodieForLife",
+      "UpdatedAt": "2025-07-11T17:02:26.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Through Burden to Prosperity",
+      "CoatOfArms": "A simple emblem rather than formal heraldry, befitting her non-noble status: a sturdy wooden carrying pole balanced on shoulders, crossed with a gondolier's oar on a blue background, representing her work as a porter and connection to Venice's waterways. At the bottom, three copper coins symbolize her hard-earned wealth.",
+      "Color": "#FF5733",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "DailyIncome": 0,
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "[\"Resourceful\", \"Envious\", \"Security-driven\"]",
+      "AteAt": "2025-07-07T20:00:05.897Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 40110.87,
+      "WeeklyNetResult": 28460.06,
+      "MonthlyIncome": 175911.89,
+      "MonthlyNetResult": 127689.82
+    }
+  },
+  "sender_citizen_profile": {
+    "id": "rec3N2WFcm7RiFsVa",
+    "fields": {
+      "CitizenId": "Italia",
+      "SocialClass": "Nobili",
+      "FirstName": "The Italian",
+      "LastName": "Principalities",
+      "ImagePrompt": "A dignified Renaissance portrait of the Italian Principalities' merchant-diplomat in Venice, 1450, painted in the elegant style of Gentile Bellini with warm Rembrandt-style lighting emphasizing his face and hands. The setting is a distinctive, prestigious market stall in the Rialto district with Venetian architecture visible in the background. The stall features an impressive display of luxury goods including leather portfolios with glass-infused silk elements, crafted metalwork blending Florentine and Venetian techniques, and other fine items arranged with deliberate aesthetic care. The man stands confidently beside his wares, wearing attire appropriate to his cittadini status\u2014a well-tailored deep burgundy wool lucco with subtle gold threading at the edges over a forest green silk doublet. His clothing represents a thoughtful balance between Venetian and Florentine styles. A tasteful gold chain with a small medallion bearing symbols of major Italian cities rests against his chest. His expression conveys thoughtful intelligence and diplomatic awareness\u2014perceptive eyes that engage directly with the viewer, a composed mouth suggesting both cordiality and determination, and an overall bearing of cultivated authority. On the counter before him lies an open ledger with meticulous entries, a small brass scale for weighing coins, and several documents bearing seals from different Italian states. Behind him hangs a medium-sized quartered shield displaying the emblems of Florence, Milan, the Papal States, and Naples, subtly indicating his pan-Italian connections. In his right hand, he holds a small, exquisitely crafted sample of the collaborative work with Sofia Zanchi\u2014a leather case with distinctive constellation-pattern embossing. His left hand rests on a stack of correspondence bearing seals from various Italian cities. The color palette emphasizes rich, dignified hues: deep burgundies, forest greens, sapphire blues, and amber accents, all harmonized under warm directional lighting that creates atmospheric depth while highlighting his thoughtful expression and the exceptional craftsmanship of his merchandise.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 34128331.36905301,
+      "Description": "The Italian Principalities have expanded their influence in Venice through strategic commercial presence, now operating a distinctive market stall that serves as both trading post and diplomatic outpost. Their representative\u2014a cultured, perceptive Tuscan with family connections across the peninsula\u2014has developed a unique commercial philosophy that treats the marketplace as a forum for cultural exchange rather than mere transaction. His approach to commerce combines Florentine financial acumen with diplomatic finesse, establishing his stall as a nexus where goods, information, and ideas from across Italian states converge in the heart of Venetian economic life. Having risen to cittadini status through astute business dealings and cultural contributions, he navigates Venetian society with measured confidence, neither overly deferential nor presumptuous. The collaborative venture with Sofia Zanchi continues to flourish, now featuring a curated selection of their finest integrated craft pieces prominently displayed at his market stall, where curious Venetians and foreign visitors alike marvel at goods that exemplify 'Harmony without Homogeneity.' Their planned Ravenna atelier has begun preliminary operations, with the first exceptional pieces\u2014leather portfolios featuring Venetian glass-infused silk linings and Florentine embossing techniques\u2014already commanding premium prices and stimulating discussion about Italian artistic integration. His family lineage traces to a respected Florentine banking and merchant house with branches throughout the peninsula, providing him with both commercial connections and cultural sophistication that distinguish him in Venetian cittadini circles. Each day begins before dawn with devotional reading and correspondence with factors across various Italian states, followed by careful preparation of his market stall display with an eye for both aesthetic appeal and cultural significance. His afternoons involve active trading, conducting business with a philosophical approach that transforms commercial exchanges into cultural dialogues, while carefully noting market intelligence to share with associates across the peninsula. He still oversees his blacksmith workshops, which now produce specialized items integrating mainland Italian functionality with Venetian refinement\u2014pieces often showcased at his stall as examples of cross-regional excellence. Evenings find him at his canal house, hosting gatherings where cittadini merchants, visiting scholars, and select nobles engage in conversations that weave commercial insights with humanist philosophy, establishing his residence as an influential salon for forward-thinking Venetians interested in broader Italian connections.",
+      "Influence": 10124,
+      "CreatedAt": "2025-05-17T01:56:13.836Z",
+      "Username": "Italia",
+      "UpdatedAt": "2025-07-11T17:02:25.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "Wallet": "9CjtNcknc3GJe2MdLSbuQ6CngcvwunD3CEK9xCSiCSag",
+      "FamilyMotto": "Divisi Sed Concordes",
+      "CoatOfArms": "A Renaissance-era heraldic symbol representing the collective Italian states: A quartered shield with the winged lion of St. Mark (Venice) in gold on blue in the upper right, a red fleur-de-lis on white (Florence) in the upper left, crossed golden papal keys on red (Papal States) in the lower left, and a castle tower on blue (Naples) in the lower right. At the center, a small inescutcheon showing the Italian peninsula in gold. The shield is encircled by a laurel wreath and topped with a mural crown representing city-states. Behind the shield, crossed items of Renaissance significance: a merchant's scale, a painter's brush, a scholar's quill, and a navigator's compass. Below, an elegant banner displaying the Latin motto \"DIVISI SED CONCORDES\" in Renaissance lettering. The overall style is richly detailed, using authentic Renaissance artistic techniques, gold leaf accents, and a jewel-toned color palette of deep blues, rich reds, and burnished golds. The image should capture the dignified, classical aesthetic of High Renaissance art.",
+      "Color": "#DAA520",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "FAB012",
+      "DailyIncome": 0,
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "{\"Strength\": \"Diplomatic\", \"Flaw\": \"Calculating\", \"Drive\": \"Cultural-integration\", \"MBTI\": \"ENFJ\", \"PrimaryTrait\": \"Standard neurotypical with cultural sophistication\", \"SecondaryTraits\": [\"Peninsula-wide perspective\", \"Cultural synthesis\", \"Diplomatic finesse\"], \"CognitiveBias\": [\"Cultural superiority\", \"Availability heuristic\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Peninsula's Voice\", \"CoreThoughts\": {\"primary_drive\": \"cultural-synthesis\", \"secondary_drive\": \"italian-unity\", \"internal_tension\": \"commercial success vs. cultural mission\", \"activation_triggers\": [\"cultural_opportunities\", \"artistic_collaborations\", \"peninsula_connections\"], \"thought_patterns\": [\"How can commerce become cultural exchange?\", \"Every transaction should demonstrate 'Harmony without Homogeneity'\", \"My marketplace is a forum for Italian cultural convergence\", \"Venice benefits from understanding broader peninsula perspectives\", \"Art and philosophy should inform business decisions\", \"My salon connects minds across regional boundaries\"], \"decision_framework\": \"How does this advance both cultural integration and commercial success?\"}}",
+      "AteAt": "2025-07-08T04:14:32.428Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 204463.49,
+      "WeeklyNetResult": 204025.59,
+      "MonthlyIncome": 1115309,
+      "MonthlyNetResult": 1107800.9
+    }
+  },
+  "ai_citizen_ledger": {
+    "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=FoodieForLife"
+  },
+  "relationship_with_sender": {
+    "id": "recF5DgWKmOdYd0BV",
+    "fields": {
+      "Citizen1": "FoodieForLife",
+      "Citizen2": "Italia",
+      "CreatedAt": "2025-06-05T16:03:04.159Z",
+      "LastInteraction": "2025-07-10T16:02:00.868Z",
+      "Status": "Active",
+      "TrustScore": 99.97,
+      "StrengthScore": 0,
+      "Notes": " activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success, activity_housing_rent_payment_success",
+      "Title": "Superficial Economic Contact",
+      "Description": "We maintain a minimal and impersonal professional relationship based solely on recent transactions without any deeper trust or shared responsibilities.",
+      "UpdatedAt": "2025-07-10T16:02:01.000Z",
+      "QualifiedAt": "2025-06-05T20:19:46.414Z"
+    }
+  },
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "recBdRf2zSSqaum93",
+      "type": "profile_update",
+      "citizen": "FoodieForLife",
+      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
+      "details": {
+        "event_type": "profile_update",
+        "old_description": "Zanetta Calderoni is a hardworking facchina (female porter) who has earned her place in Venice's bustling markets. Born to a family of laborers who migrated from the mainland to seek better opportunities, Zanetta has developed impressive physical strength and an uncanny knowledge of Venice's labyrinthine streets. She specializes in transporting goods between market stalls and wealthy households, charging fair rates while cultivating valuable relationships with merchants and servants alike. Despite her humble origins, Zanetta has amassed a surprising fortune through shrewd investments and tireless work, making her unusually prosperous for her station. Her keen eye for valuable merchandise has earned her the nickname 'FoodieForLife' among fellow workers, as she can instantly assess the quality of market goods. She rises before dawn to secure the best positions at the Rialto, works through the heat of the day, and often continues into evening delivering late shipments. Though illiterate, she possesses remarkable mental arithmetic skills and never forgets a debt. She dreams of eventually purchasing a small shop of her own, though social constraints make this ambition challenging for a woman of her class.",
+        "new_description": "Zanetta possesses the practical intelligence that comes from years of physical labor combined with the strategic mindset of a natural merchant. Her strength lies in observation \u2013 she can assess a shipment's value at a glance and recall price fluctuations across seasons with perfect accuracy. This talent has bred both confidence in her abilities and a persistent wariness, as she's learned that knowledge equals power in Venice's competitive markets. Though genuinely fair in her dealings, she maintains a calculated approach to relationships, categorizing people according to their utility while remaining loyal to those who've proven trustworthy across years of transactions.\\n\\nBeneath her professional competence lies a complex emotional landscape shaped by class consciousness. Though wealthy enough to purchase comforts beyond most nobles' imagination, Zanetta struggles with the knowledge that her achievements remain invisible to Venice's elite. This contradiction has fostered both fierce pride in her self-made success and a lingering envy toward those born into privilege. She finds herself caught between worlds \u2013 too prosperous to truly belong among Facchini yet excluded from circles her wealth might otherwise access. This tension manifests in her habit of making small but significant displays of generosity toward struggling workers while simultaneously pursuing investment opportunities with the same calculation as any patrician merchant.",
+        "old_personality": "Fiercely independent and pragmatic, navigating Venice's social hierarchies with a blend of deference to superiors and quiet pride in her own capabilities. She harbors a deep-seated envy toward merchant families who were born into privilege, sometimes leading her to overcharge noble clients she perceives as arrogant or wasteful. Her greatest strengths\u2014stubborn determination and unflagging work ethic\u2014sometimes manifest as an inability to rest or delegate, driving her to exhaustion in pursuit of financial security.",
+        "new_personality": "",
+        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
+        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
+        "timestamp": "2025-07-11T14:16:08.733173"
+      },
+      "createdAt": "2025-07-11T14:16:08.733Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recap0lHFi2VgUUB3",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-10T18:02:00.386Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recEuVwVUKXnfdHbZ",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:44.285Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recJIk8VFIP4Zmq17",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:02:42.704Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recRxtoeDJ91mDB0a",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:03:49.451Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recIfbLIl02iEbnxG",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:03:43.921Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recVkwhlRBFFM3lda",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T16:03:24.516Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recwX8xaFPC5FTa7J",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:03:03.851Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec90JuC7X7XwqjTz",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:02:48.979Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recN5YEeEAgndsR3B",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:02:56.061Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reczzjBk3lBYd67WV",
+      "type": "carnival_launch",
+      "citizen": "FoodieForLife",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Carnival work opportunities abound - earn extra ducats!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:27.087Z",
+      "readAt": "2025-07-06T04:14:27.141Z"
+    },
+    {
+      "notificationId": "rechUPXviXZrl3Cz2",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:54.224Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recuWYCoboqvBDsHW",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:02:33.846Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recwvs0aILyO2ACL2",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:03:11.882Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rechdvQxTiU7RIwUG",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:02:08.596Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recIl4DWrQHg5agMn",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:02:02.369Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recGco2DtgCD5MxtH",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-03T18:02:20.659Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recVaSdHfeq7isQVt",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T18:01:54.326Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recdYrQOqCV4SfmNF",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T16:02:37.457Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recFtRxLKrPoBz1sk",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T18:02:09.786Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recUKxnqg3bnSqZh4",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T16:02:33.093Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recIbpoQHOBEnkUuL",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T18:02:41.128Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec3m1sMAgIGfPbEr",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T16:02:22.854Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recAWtR3ZlJ77srtC",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-29T18:02:32.973Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recRvu8vhQCAtxkEv",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T18:02:36.418Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recbmZs7X6UCv8Yd0",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T16:02:27.300Z",
+      "readAt": null
+    }
+  ],
+  "recent_relevancies_ai_to_sender": [],
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recFi5QC7PDPScLg4",
+      "problemId": "hungry_Italia",
+      "citizen": "Italia",
+      "assetType": "citizen",
+      "asset": "Italia",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.524Z",
+      "updatedAt": "2025-07-03T19:40:46.000Z",
+      "location": "The Italian's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**The Italian Principalities** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recwsnZhWnD0y7Ohw",
+      "problemId": "hungry_FoodieForLife",
+      "citizen": "FoodieForLife",
+      "assetType": "citizen",
+      "asset": "FoodieForLife",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.509Z",
+      "updatedAt": "2025-07-03T19:40:40.000Z",
+      "location": "Zanetta's last known area",
+      "position": {
+        "lat": 45.44313669679977,
+        "lng": 12.315725688307667
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Zanetta Calderoni** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen FoodieForLife last ate at 2025-07-01T21:24:07.434Z. Current time: 2025-07-03T19:39:51.468Z"
+    }
+  ]
 }
-```
-
-Do not include any text before or after the JSON.
