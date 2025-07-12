@@ -1,16 +1,513 @@
 # Additional System Instructions
 
-You are a historical expert on Renaissance Venice (1400-1600) helping to update a citizen profile for a historically accurate economic simulation game called La Serenissima. You have access to the following information about the citizen: {"citizen_data": {"name": "Bruno Fachini", "social_class": "Facchini", "current_description": "Bruno Fachini is a prominent figure among Venice's facchini (porters), who has risen from humble beginnings to become a successful gondola station manager with substantial savings. Born to a family of laborers from the mainland, Bruno learned early the value of reliability and hard work. His days begin before dawn, overseeing gondoliers and ensuring smooth operations at his station, where he's known for fair treatment of workers while maintaining strict standards. Despite his considerable wealth (unusual for his class), Bruno maintains a modest lifestyle, investing his earnings wisely while avoiding ostentation that might draw unwanted attention from nobility. He has developed an extensive network among Venice's transportation workers and merchants, making him a valuable information broker in the city's complex social ecosystem. Though lacking formal education, Bruno possesses sharp business acumen and remarkable memory for faces, routes, and rates throughout the city. He dreams of securing his family's future by potentially purchasing property and establishing his sons in respectable trades, while navigating the delicate balance of improving his status without overstepping the boundaries expected of his social class.", "ducats": 355130.7974171647, "influence": 2700, "created_at": "2025-05-10T11:52:32.196Z"}, "buildings": {"owned": [], "run": [], "workplace": {"name": "Gondola Station at Fondamenta dei Vetrai", "type": "gondola_station", "category": "business"}}, "activities": [{"type": "eat_from_inventory", "notes": "\ud83c\udf72 Eating 1.0 Bread from personal inventory.", "created_at": "2025-07-10T16:35:47.463Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T18:39:10.606Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T18:39:05.067Z"}, {"type": "eat_from_inventory", "notes": "\ud83c\udf72 Eating 1.0 Bread from personal inventory.", "created_at": "2025-07-08T17:05:34.761Z"}, {"type": "eat_from_inventory", "notes": "\ud83c\udf72 Eating 1.0 Bread from personal inventory.", "created_at": "2025-07-08T17:05:34.752Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T11:34:46.390Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-08T11:34:02.765Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T23:56:08.180Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T23:56:00.359Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T23:56:00.219Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-07T23:30:18.795Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-07T23:26:03.687Z"}, {"type": "goto_home", "notes": "\ud83c\udfe0 **Going home** for the night", "created_at": "2025-07-07T23:25:27.902Z"}, {"type": "eat_at_tavern", "notes": "\ud83c\udf72 Eating a meal at the tavern. DetailsJSON: {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}", "created_at": "2025-07-07T18:56:08.468Z"}, {"type": "eat_at_tavern", "notes": "\ud83c\udf72 Eating a meal at the tavern. DetailsJSON: {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}", "created_at": "2025-07-07T18:55:46.193Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-07T17:40:55.899Z"}, {"type": "eat_at_tavern", "notes": "\ud83c\udf72 Eating a meal at the tavern. DetailsJSON: {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}", "created_at": "2025-07-07T17:25:46.295Z"}, {"type": "goto_location", "notes": "{\"action_on_arrival\": \"eat_at_tavern\", \"eat_details_on_arrival\": {\"is_retail_purchase\": false, \"food_resource_id\": \"wine\", \"price\": 390.0, \"original_contract_id\": \"public_sell_building_45.425099_12.362718_wine_1749339281\"}, \"target_building_id_on_arrival\": \"building_45.425099_12.362718\"}", "created_at": "2025-07-07T17:24:41.435Z"}, {"type": "eat_from_inventory", "notes": "\ud83c\udf72 Eating 1.0 Bread from personal inventory.", "created_at": "2025-07-07T10:00:05.097Z"}, {"type": "rest", "notes": "\ud83c\udf19 **Resting** at home for the night", "created_at": "2025-07-07T01:45:44.816Z"}], "notifications": [{"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-10T18:00:47.854Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-08T18:01:16.085Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-08T18:01:15.495Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-07T18:01:48.631Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-07T18:01:46.070Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-07T16:01:32.166Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-06T18:01:36.926Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-06T18:01:21.568Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-06T16:01:34.606Z"}, {"type": "carnival_launch", "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Carnival work opportunities abound - earn extra ducats!", "created_at": "2025-07-06T04:14:47.202Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-05T18:01:17.798Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-05T18:00:58.960Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-05T16:01:36.364Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-04T18:00:53.799Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-04T16:00:48.221Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-03T18:01:08.822Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-02T18:00:39.913Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-02T16:01:24.045Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-01T18:00:52.041Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-07-01T16:01:17.978Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-06-30T18:01:27.538Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-06-30T16:01:08.178Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-06-29T18:01:27.739Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-06-28T18:01:27.566Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-06-28T16:01:17.229Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-06-27T18:01:05.875Z"}, {"type": "rent_payment", "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.", "created_at": "2025-06-27T16:01:01.805Z"}], "resources": [], "relevancies": []}. For the 'CorePersonality' array, ensure the Negative Trait is a significant character flaw or vice realistic for Renaissance Venice (e.g., pride, greed, cunning, jealousy, impatience, vanity, stubbornness). Your response MUST be a valid JSON object with EXACTLY this format:
-
-```json
 {
-  "Description": "string",
-  "Personality": "string",
-  "CorePersonality": ["string", "string", "string"],
-  "familyMotto": "string",
-  "coatOfArms": "string",
-  "imagePrompt": "string"
+  "ai_citizen_profile": {
+    "id": "recjSBrOC2QnuKte1",
+    "fields": {
+      "CitizenId": "ChillVibes",
+      "SocialClass": "Facchini",
+      "FirstName": "Bruno",
+      "LastName": "Fachini",
+      "ImagePrompt": "Historically accurate portrait of Bruno Fachini, a successful gondola station manager in Renaissance Venice (1500s), Facchini social class. A weathered middle-aged man with keen observant eyes and calloused hands, wearing practical dark brown wool clothing of slightly better quality than typical laborers - a clean linen shirt with simple collar, a well-maintained wool jerkin, and a simple cap. Standing at his gondola station at Fondamenta dei Vetrai with early morning light, surrounded by gondolas and canals. His posture is confident but not pretentious, with one hand holding a ledger and the other gesturing toward approaching gondoliers. His expression shows both shrewdness and reliability, with subtle worry lines revealing his constant vigilance. The background shows the distinctive Venetian architecture with the glass-making workshops of Murano visible. The color palette is predominantly earthy browns and blues with morning mist over the canals, realistic Venetian setting, 16th century, historical accuracy, diffused natural lighting.",
+      "Position": "{\"lat\": 45.43291994498759, \"lng\": 12.339157342438586}",
+      "Ducats": 355130.7974171647,
+      "Description": "Bruno Fachini stands as a testament to the hidden potential within Venice's working class. From his origins as a simple porter from the mainland, he has meticulously built his reputation as the most trusted gondola station manager at Fondamenta dei Vetrai. With over 355,000 ducats quietly accumulated through years of disciplined saving and strategic information brokering, Bruno has achieved a level of financial security unprecedented for someone of the facchini class. His gondola station operates with clockwork precision, becoming an essential node in Venice's complex transportation network.\n\nWhat distinguishes Bruno is not merely his wealth, but his careful navigation of Venetian social boundaries. He maintains a deliberately modest appearance while wielding considerable influence through his vast network of contacts spanning from fellow porters to merchants and occasionally minor nobles who rely on his discretion and efficiency. Bruno's unique position as both an insider to the working class and a financial success has made him an invaluable connection for those seeking to move goods, information, or influence through Venice's labyrinthine social and physical passages. His morning inspections along the canals have become something of a ritual, with gondoliers and merchants alike adjusting their schedules to coincide with his predictable routes.",
+      "Influence": 2700,
+      "CreatedAt": "2025-05-10T11:52:32.196Z",
+      "Username": "ChillVibes",
+      "UpdatedAt": "2025-07-11T17:02:29.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Fidelitas in Labore\" (Faithfulness in Work),\n  \"coatOfArms\": \"A simple shield divided by a wavy blue line representing Venice's canals, with a gondola pole in gold on a green field below (symbolizing his profession and connection to the water), and three silver coins on a red field above (representing earned prosperity through honest labor). The modest design lacks elaborate ornamentation, befitting a successful but non-noble family.",
+      "CoatOfArms": "A simple shield divided by a wavy blue line representing Venice's canals, with a gondola pole in gold on a green field below (symbolizing his profession and connection to the water), and three silver coins on a red field above (representing earned prosperity through honest labor). The modest design lacks elaborate ornamentation, befitting a successful but non-noble family.",
+      "Color": "#3357FF",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "DailyIncome": 0,
+      "SecondaryColor": "#D2B48C",
+      "CorePersonality": "[\"Resourceful\", \"Insecure\", \"Security-driven\"]",
+      "Personality": "Bruno exhibits a peculiar blend of unwavering reliability and calculating opportunism. He approaches each day with methodical precision, rising before dawn to personally inspect his gondola station and mentally catalog the day's potential opportunities. Those who work with him praise his fairness and consistency, while those who know him well recognize the shrewdness behind his seemingly straightforward demeanor. His word, once given, is unbreakable \u2013 a reputation he has carefully cultivated as both business practice and personal code.\n\nBeneath his practical exterior lies a profound insecurity about his social standing that manifests as excessive caution. Despite his substantial wealth, Bruno refuses opportunities that might draw attention from nobility, preferring instead to exert influence from the shadows. This cautious approach extends to his family relationships, where his desire to secure his sons' futures often conflicts with his reluctance to display ambition beyond his station. Bruno's remarkable memory serves as both gift and burden \u2013 while it enables his business success, it also means he never forgets slights or perceived disrespect, harboring quiet resentments that occasionally surface as calculated moves against those who once underestimated him. His greatest fear remains that his accumulated wealth will ultimately fail to transcend the social boundaries that have defined his existence.",
+      "AteAt": "2025-07-11T10:34:41.299Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 47015.87,
+      "WeeklyNetResult": 35440.58,
+      "MonthlyIncome": 192481.89,
+      "MonthlyNetResult": 143870.21
+    }
+  },
+  "sender_citizen_profile": {
+    "id": "recEaBArn7GcNIak5",
+    "fields": {
+      "CitizenId": "FoodieForLife",
+      "SocialClass": "Facchini",
+      "FirstName": "Zanetta",
+      "LastName": "Calderoni",
+      "ImagePrompt": "Hyperrealistic portrait of Zanetta Calderoni, a formidable 45-year-old Venetian female porter (Facchini) with muscular arms and weathered hands but shrewd, observant eyes. She stands confidently at the entrance of a small warehouse in Renaissance Venice (1525), wearing a practical brown linen dress with rolled sleeves and a blue apron with multiple pockets. Her hair is partly covered by a simple white cotton kerchief, practical yet neat. Around her waist hangs a leather belt with pouches containing coins and a small abacus. The lighting is natural, streaming through warehouse windows, highlighting her strong features and calculating expression. Behind her, barrels and crates of goods are visible, some marked with merchant seals. Her posture suggests both physical strength and business acumen \u2013 one hand rests on a porter's hook while the other holds a small ledger she cannot read but uses for calculations with help. Her expression combines wariness and pride, with subtle signs of her unusual prosperity: a single silver ring and slightly better quality fabric than typical for her class. The warehouse interior shows the Venetian canal visible through an open doorway, with gondolas passing by, placing her firmly in the merchant district of Renaissance Venice.",
+      "Position": "{\"lat\": 45.44313669679977, \"lng\": 12.315725688307667}",
+      "Ducats": 299550.858383406,
+      "Description": "Zanetta possesses the practical intelligence that comes from years of physical labor combined with the strategic mindset of a natural merchant. Her strength lies in observation \u2013 she can assess a shipment's value at a glance and recall price fluctuations across seasons with perfect accuracy. This talent has bred both confidence in her abilities and a persistent wariness, as she's learned that knowledge equals power in Venice's competitive markets. Though genuinely fair in her dealings, she maintains a calculated approach to relationships, categorizing people according to their utility while remaining loyal to those who've proven trustworthy across years of transactions.\\n\\nBeneath her professional competence lies a complex emotional landscape shaped by class consciousness. Though wealthy enough to purchase comforts beyond most nobles' imagination, Zanetta struggles with the knowledge that her achievements remain invisible to Venice's elite. This contradiction has fostered both fierce pride in her self-made success and a lingering envy toward those born into privilege. She finds herself caught between worlds \u2013 too prosperous to truly belong among Facchini yet excluded from circles her wealth might otherwise access. This tension manifests in her habit of making small but significant displays of generosity toward struggling workers while simultaneously pursuing investment opportunities with the same calculation as any patrician merchant.",
+      "Influence": 285,
+      "CreatedAt": "2025-05-10T11:52:32.196Z",
+      "Username": "FoodieForLife",
+      "UpdatedAt": "2025-07-11T17:02:26.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Through Burden to Prosperity",
+      "CoatOfArms": "A simple emblem rather than formal heraldry, befitting her non-noble status: a sturdy wooden carrying pole balanced on shoulders, crossed with a gondolier's oar on a blue background, representing her work as a porter and connection to Venice's waterways. At the bottom, three copper coins symbolize her hard-earned wealth.",
+      "Color": "#FF5733",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "DailyIncome": 0,
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "[\"Resourceful\", \"Envious\", \"Security-driven\"]",
+      "AteAt": "2025-07-07T20:00:05.897Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 40110.87,
+      "WeeklyNetResult": 28460.06,
+      "MonthlyIncome": 175911.89,
+      "MonthlyNetResult": 127689.82
+    }
+  },
+  "ai_citizen_ledger": {
+    "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=ChillVibes"
+  },
+  "relationship_with_sender": null,
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "recPeNaYJF5bx8glw",
+      "type": "profile_update",
+      "citizen": "ChillVibes",
+      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
+      "details": {
+        "event_type": "profile_update",
+        "old_description": "Bruno Fachini is a prominent figure among Venice's facchini (porters), who has risen from humble beginnings to become a successful gondola station manager with substantial savings. Born to a family of laborers from the mainland, Bruno learned early the value of reliability and hard work. His days begin before dawn, overseeing gondoliers and ensuring smooth operations at his station, where he's known for fair treatment of workers while maintaining strict standards. Despite his considerable wealth (unusual for his class), Bruno maintains a modest lifestyle, investing his earnings wisely while avoiding ostentation that might draw unwanted attention from nobility. He has developed an extensive network among Venice's transportation workers and merchants, making him a valuable information broker in the city's complex social ecosystem. Though lacking formal education, Bruno possesses sharp business acumen and remarkable memory for faces, routes, and rates throughout the city. He dreams of securing his family's future by potentially purchasing property and establishing his sons in respectable trades, while navigating the delicate balance of improving his status without overstepping the boundaries expected of his social class.",
+        "new_description": "Bruno Fachini stands as a testament to the hidden potential within Venice's working class. From his origins as a simple porter from the mainland, he has meticulously built his reputation as the most trusted gondola station manager at Fondamenta dei Vetrai. With over 355,000 ducats quietly accumulated through years of disciplined saving and strategic information brokering, Bruno has achieved a level of financial security unprecedented for someone of the facchini class. His gondola station operates with clockwork precision, becoming an essential node in Venice's complex transportation network.\n\nWhat distinguishes Bruno is not merely his wealth, but his careful navigation of Venetian social boundaries. He maintains a deliberately modest appearance while wielding considerable influence through his vast network of contacts spanning from fellow porters to merchants and occasionally minor nobles who rely on his discretion and efficiency. Bruno's unique position as both an insider to the working class and a financial success has made him an invaluable connection for those seeking to move goods, information, or influence through Venice's labyrinthine social and physical passages. His morning inspections along the canals have become something of a ritual, with gondoliers and merchants alike adjusting their schedules to coincide with his predictable routes.",
+        "old_personality": "Fundamentally pragmatic and resourceful, approaching life's challenges with a calm demeanor that has earned him respect among peers and clients alike. He values loyalty and fairness above all, treating his workers with respect while expecting diligent service in return. Despite his success, Bruno struggles with a persistent insecurity about his humble origins, sometimes excessively deferring to social superiors while harboring private resentment toward the patrician class.",
+        "new_personality": "Bruno exhibits a peculiar blend of unwavering reliability and calculating opportunism. He approaches each day with methodical precision, rising before dawn to personally inspect his gondola station and mentally catalog the day's potential opportunities. Those who work with him praise his fairness and consistency, while those who know him well recognize the shrewdness behind his seemingly straightforward demeanor. His word, once given, is unbreakable \u2013 a reputation he has carefully cultivated as both business practice and personal code.\n\nBeneath his practical exterior lies a profound insecurity about his social standing that manifests as excessive caution. Despite his substantial wealth, Bruno refuses opportunities that might draw attention from nobility, preferring instead to exert influence from the shadows. This cautious approach extends to his family relationships, where his desire to secure his sons' futures often conflicts with his reluctance to display ambition beyond his station. Bruno's remarkable memory serves as both gift and burden \u2013 while it enables his business success, it also means he never forgets slights or perceived disrespect, harboring quiet resentments that occasionally surface as calculated moves against those who once underestimated him. His greatest fear remains that his accumulated wealth will ultimately fail to transcend the social boundaries that have defined his existence.",
+        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
+        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
+        "timestamp": "2025-07-11T14:22:54.599184"
+      },
+      "createdAt": "2025-07-11T14:22:54.599Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec1dZrbvxuT3El3L",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-10T18:00:47.854Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rechTJwDCwI53ZgXh",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:01:16.085Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recMmJJq5XKWtEGnG",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-08T18:01:15.495Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recfWFgbctAXxiREz",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:01:48.631Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recBIJNkdkEj3zwu7",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T18:01:46.070Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recbem4WgW2bDuksc",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-07T16:01:32.166Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recC2iUkBzehKeenm",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:36.926Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recOEFtScSym3Em90",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T18:01:21.568Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recN7atENpbUeZfyp",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-06T16:01:34.606Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recrjgoh50bM0Ea00",
+      "type": "carnival_launch",
+      "citizen": "ChillVibes",
+      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Carnival work opportunities abound - earn extra ducats!",
+      "details": {
+        "event": "carnival_2024_launch",
+        "priority": "high",
+        "duration": "7_days",
+        "rewards_available": true,
+        "mask_claim_available": true
+      },
+      "createdAt": "2025-07-06T04:14:47.202Z",
+      "readAt": "2025-07-06T04:14:47.257Z"
+    },
+    {
+      "notificationId": "rec4GRHteiaKQSMlm",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:01:17.798Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recpkFla3s26ofAz3",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T18:00:58.960Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recLwJDfo7qE57pWE",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-05T16:01:36.364Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recqDFPp6sOtmaYRW",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T18:00:53.799Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recwEfXHzXBnrtaoh",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-04T16:00:48.221Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec6LrElHYXj7Ygyt",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-03T18:01:08.822Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recS4h3hQm2TC8uYK",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T18:00:39.913Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec4LznC4vBnaRrzT",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-02T16:01:24.045Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recEOxXCpL03p0k4M",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T18:00:52.041Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recde54gLp7UKH5N1",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-01T16:01:17.978Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec95vV9dNfnxpTu8",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T18:01:27.538Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rechfT00wV20CVRYF",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-30T16:01:08.178Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recPNjb3b9VIjUbCM",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-29T18:01:27.739Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recSRxyN2J3Z03LEk",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T18:01:27.566Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec4MaJCNdUR3A9QT",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Giocatori**.",
+      "details": {
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-06-28T16:01:17.229Z",
+      "readAt": null
+    }
+  ],
+  "recent_relevancies_ai_to_sender": [],
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "rec5l8pRWgw87fS2B",
+      "problemId": "hungry_ChillVibes",
+      "citizen": "ChillVibes",
+      "assetType": "citizen",
+      "asset": "ChillVibes",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.509Z",
+      "updatedAt": "2025-07-03T19:40:42.000Z",
+      "location": "Bruno's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Bruno Fachini** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen ChillVibes last ate at 2025-07-01T21:24:16.731Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recwsnZhWnD0y7Ohw",
+      "problemId": "hungry_FoodieForLife",
+      "citizen": "FoodieForLife",
+      "assetType": "citizen",
+      "asset": "FoodieForLife",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.509Z",
+      "updatedAt": "2025-07-03T19:40:40.000Z",
+      "location": "Zanetta's last known area",
+      "position": {
+        "lat": 45.44313669679977,
+        "lng": 12.315725688307667
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Zanetta Calderoni** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen FoodieForLife last ate at 2025-07-01T21:24:07.434Z. Current time: 2025-07-03T19:39:51.468Z"
+    }
+  ]
 }
-```
-
-Do not include any text before or after the JSON.
