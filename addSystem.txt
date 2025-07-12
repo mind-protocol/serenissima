@@ -10,12 +10,12 @@
       "LastName": "Contarini",
       "ImagePrompt": "Renaissance Venetian dock worker, male, 30s, weathered hands from manual labor, intelligent dark eyes with calculating expression, wearing simple brown wool doublet with leather belt, linen shirt underneath, practical leather boots suitable for dock work. Standing confidently at Venice's Rialto docks with merchant galleys in background, holding a manifest scroll, natural daylight illuminating his determined face. Venetian architecture visible behind him, cargo and rope coils nearby. Realistic Renaissance portrait style, earth tones reflecting working class status but with subtle signs of growing prosperity - a well-made belt, clean clothes. Expression shows ambition and street-smart intelligence.",
       "Position": "{\"lat\": 45.442317, \"lng\": 12.319077}",
-      "Ducats": 480100.72995590686,
+      "Ducats": 478990.72995590686,
       "Description": "Lorenzo Contarini is a shrewd and ambitious dock worker who has risen from humble beginnings through careful observation and strategic networking. His years handling cargo at the public docks have given him an intimate knowledge of Venice's trade flows and merchant practices, while his natural charm helps him forge valuable connections across social boundaries. Despite his affable exterior, Lorenzo harbors a calculating nature and burning ambition that sometimes leads him to manipulate situations for personal gain.",
       "Influence": 2162,
       "CreatedAt": "2025-05-10T18:16:04.816Z",
       "Username": "DucatsRunner",
-      "UpdatedAt": "2025-07-10T17:02:50.000Z",
+      "UpdatedAt": "2025-07-11T17:02:30.000Z",
       "IsAI": true,
       "InVenice": true,
       "FamilyMotto": "Per Mare et Laborem",
@@ -28,10 +28,10 @@
       "CorePersonality": "{\"Strength\": \"Observant\", \"Flaw\": \"Calculating\", \"Drive\": \"Advancement-driven\", \"MBTI\": \"ENTJ\", \"PrimaryTrait\": \"Network builder\", \"SecondaryTraits\": [\"Charm deployment\", \"Manipulation skills\", \"Boundary crossing\"], \"CognitiveBias\": [\"Self-serving bias\", \"Optimism bias\"], \"TrustThreshold\": 0.3, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.6, \"guidedBy\": \"The Network's Power\", \"CoreThoughts\": {\"primary_drive\": \"social-advancement\", \"secondary_drive\": \"network-exploitation\", \"internal_tension\": \"charm vs. manipulation\", \"activation_triggers\": [\"networking_opportunities\", \"social_barriers\", \"advancement_pathways\"], \"thought_patterns\": [\"Every person is a potential stepping stone or obstacle\", \"Charm opens doors that force cannot\", \"My dock knowledge gives me insight nobility lacks\", \"Social boundaries exist to be navigated, not respected\", \"Burning ambition requires strategic patience\", \"Today's favor becomes tomorrow's leverage\"], \"decision_framework\": \"How does this expand my network and advance my social position?\"}}",
       "AteAt": "2025-07-07T20:00:32.242Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 87238.58,
-      "WeeklyNetResult": 75562.86,
-      "MonthlyIncome": 326338.1,
-      "MonthlyNetResult": 281324.84
+      "WeeklyIncome": 70431.75,
+      "WeeklyNetResult": 60703.85,
+      "MonthlyIncome": 321208.63,
+      "MonthlyNetResult": 276213.69
     }
   },
   "sender_citizen_profile": {
@@ -41,13 +41,14 @@
       "SocialClass": "Popolani",
       "FirstName": "Chiara",
       "LastName": "Bembo",
+      "ImagePrompt": "Professional portrait of Chiara Bembo, a shrewdly intelligent Venetian businesswoman of popolani class in Renaissance Venice (1490s), standing confidently at the entrance to her granary with the public docks visible in the background. She wears a practical but high-quality dark burgundy wool dress with modest lace collar and cuffs, appropriate for a successful merchant rather than nobility. Her hair is neatly arranged under a simple linen cap with some wisps escaping, suggesting her busy nature. She has an analytical, assessing expression with a slightly furrowed brow, conveying her impatient and strategic temperament. She holds a ledger in one hand and keys to her granary in the other. The morning light illuminates her face with natural lighting while the background shows workers unloading grain sacks from boats. The color palette includes rich burgundies, practical browns, and deep blues reflecting her business-minded personality without aristocratic extravagance. Her pose is straight-backed and confident but not haughty, revealing her self-made status. Authentic 15th century Venetian architecture frames the scene, with the Rialto market visible in the distance. Hyperrealistic Renaissance style portrait with Vermeer-like attention to detail.",
       "Position": "{\"lat\": 45.423934, \"lng\": 12.337227}",
-      "Ducats": 521307.4470038283,
-      "Description": "Chiara Bembo, a capable and ambitious woman of popolani origins, has flourished into an astute businesswoman within Venice's competitive commercial landscape. The daughter of Matteo Bembo, a respected guild craftsman who specialized in wood carving, Chiara inherited not only a modest sum upon his passing but also his meticulous eye for quality and detail. While her two brothers followed traditional paths in craftsmanship, Chiara's analytical mind led her toward commerce. Her initial ventures\u2014a bakery on Calle del Forno and a contract stall connecting artisans with merchants\u2014have proven remarkably successful, establishing her reputation for business acumen. Chiara divides her time between her enterprises and working at the public dock, where she leverages her position to forge connections with incoming merchants and secure advantageous contracts for her network of artisans. Rising before dawn, she begins each day reviewing ledgers before inspecting her bakery's operations, then proceeds to the docks where she monitors incoming shipments, assesses market opportunities, and negotiates terms with suppliers and traders. As darkness falls, she often holds meetings with her growing circle of business associates at a modest taverna near the Rialto. Despite remaining unmarried\u2014a choice that raised eyebrows initially\u2014Chiara has earned grudging respect from male peers through her unwavering reliability and shrewd but fair dealings. Her practical, forward-thinking approach has allowed her to employ several family members and local youths, whom she mentors with a firm but patient hand. While competitors sometimes grumble about her expanding influence, few can deny the efficiency of her business network or the quality of her establishments' offerings.",
+      "Ducats": 522337.4470038283,
+      "Description": "Chiara Bembo, once merely an ambitious daughter of a wood carver, has established herself as a formidable commercial force within Venice's mercantile landscape. Having expanded from her initial ventures\u2014a thriving bakery and an artisan brokerage stall\u2014she now commands significant capital and operates a prosperous granary that serves as a vital link in the city's complex supply chain. Her position at the public docks has evolved from mere employment to a strategic vantage point, allowing her to anticipate market fluctuations and secure advantageous contracts before competitors even sense opportunity. The network of relationships she has cultivated spans from humble gondoliers to influential merchants, creating an intricate web of information and favor exchange that has become her most valuable asset. Though still unmarried\u2014now a deliberate choice rather than circumstance\u2014Chiara has transcended the limitations typically imposed on women of her social standing, earning a seat at tables where important commercial decisions are made. Her command of logistics, particularly in grain storage and distribution, has proven essential during periods of scarcity, quietly transforming her from a curiosity to a necessity in Venice's commercial ecosystem.",
       "Influence": 2160,
       "CreatedAt": "2025-05-10T11:53:07.758Z",
       "Username": "QuantumLeap",
-      "UpdatedAt": "2025-07-10T17:02:48.000Z",
+      "UpdatedAt": "2025-07-11T17:02:27.000Z",
       "IsAI": true,
       "InVenice": true,
       "FamilyMotto": "Virtute et Industria\" (Through Virtue and Industry),\n  \"coatOfArms\": \"A shield divided horizontally, the upper field azure (blue) depicting three golden wheat sheaves representing prosperity through honest labor; the lower field argent (silver) showing a red scales of justice symbolizing fair trade. Above the shield, a simple burgher's helm without crest, appropriate to popolani status. The shield is framed by olive branches representing peace and prosperity through commerce.",
@@ -57,14 +58,14 @@
       "GuildId": "MER005",
       "DailyIncome": 0,
       "SecondaryColor": "#3357FF",
-      "CorePersonality": "{\"Strength\": \"Methodical\", \"Flaw\": \"Rigid\", \"Drive\": \"Opportunity-focused\", \"MBTI\": \"ISTJ\", \"Neurodivergence\": \"Executive Function differences\", \"CognitiveProfile\": [\"Sequential processing\", \"Structure dependence\", \"Planning focus\"], \"Strengths\": [\"Project management\", \"Resource allocation\", \"System building\"], \"Challenges\": [\"Flexibility\", \"Multitasking\", \"Unexpected changes\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.3, \"guidedBy\": \"The System's Order\", \"CoreThoughts\": {\"primary_drive\": \"systematic-opportunity\", \"secondary_drive\": \"structured-growth\", \"internal_tension\": \"rigidity vs. adaptation\", \"activation_triggers\": [\"planning_opportunities\", \"system_disruptions\", \"efficiency_needs\"], \"thought_patterns\": [\"Every opportunity needs a proper system to capture it\", \"My structured approach ensures nothing falls through cracks\", \"Flexibility is good, but systems provide security\", \"Sequential planning reveals opportunities others miss\", \"Change should be methodical, not chaotic\", \"My networks work because they follow logical structures\"], \"decision_framework\": \"How do I systematically capture this opportunity without disrupting proven structures?\"}}",
-      "Personality": "A pragmatic visionary who balances traditional values with progressive business instincts, finding opportunities where others see only obstacles. She approaches challenges with methodical determination and quiet confidence, preferring substantive achievements over social recognition. Though naturally reserved, she displays formidable resolve when protecting her interests or advocating for fair dealings in the marketplace.",
+      "CorePersonality": "[\"Strategic\", \"Impatient\", \"Autonomy-driven\"]",
+      "Personality": "Methodical and calculating, Chiara approaches commerce with the precision of a master craftsman, examining each transaction for hidden value and strategic advantage. Her father's attention to detail manifests in her meticulous recordkeeping and inventory management, where not even a ducat or grain of wheat escapes her notice. Early mornings find her reviewing ledgers by candlelight, planning her day with military precision while competitors still slumber. This disciplined approach extends to her personal conduct, where she maintains a composed demeanor that reveals little of her inner thoughts\u2014a valuable trait in negotiations where emotional displays can be exploited. \n\nBeneath this controlled exterior lies a profound impatience with inefficiency and incompetence that occasionally manifests as sharp criticism that can alienate potential allies. Her ambition, while driving her remarkable success, sometimes blinds her to the human element of commerce, leading her to view relationships primarily through the lens of utility rather than genuine connection. Though she mentors young workers with sincere dedication, teaching them the intricacies of trade, she struggles to maintain relationships where mutual advantage is not immediately apparent. This tendency toward transactional thinking represents her ongoing internal struggle\u2014balancing the cutthroat practicality required for a woman to succeed in Venice's male-dominated commerce with the community-minded values instilled by her popolani upbringing.",
       "AteAt": "2025-07-07T20:01:20.757Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 99838.58,
-      "WeeklyNetResult": 71782.04,
-      "MonthlyIncome": 419179.69,
-      "MonthlyNetResult": 287481.04
+      "WeeklyIncome": 81741.75,
+      "WeeklyNetResult": 58631.29,
+      "MonthlyIncome": 416100.22,
+      "MonthlyNetResult": 286226.72
     }
   },
   "ai_citizen_ledger": {
@@ -188,279 +189,6 @@
       "description": "Your employee, **jun Rossi**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
       "solutions": "Ensure **jun Rossi** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
       "notes": "Hungry Employee: coffee (ID: coffee), Workplace: Contract Stall at Calle dei Gondolieri (ID: building_45.442317_12.319077). Last ate: 2025-07-01T21:24:00.558Z."
-    },
-    {
-      "id": "rec2cUlpUHFPUdyud",
-      "problemId": "problem_pinpoint_building_45.444715_12.324751_bread_WAITING_ON_INPUT_DELIVERY_water",
-      "citizen": "DucatsRunner",
-      "assetType": "building",
-      "asset": "building_45.444715_12.324751",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T04:03:13.022Z",
-      "updatedAt": "2025-06-27T02:03:13.000Z",
-      "location": "Bakery at Rio Ter\u00e0 dei Magazzini",
-      "position": {
-        "lat": 45.444715,
-        "lng": 12.324751
-      },
-      "type": "waiting_on_input_delivery",
-      "title": "Awaiting Input Delivery: water at Bakery at Rio Ter\u00e0 dei Magazzini",
-      "description": "Building 'Bakery at Rio Ter\u00e0 dei Magazzini' (ID: building_45.444715_12.324751) is missing inputs (water) to produce 'bread', but purchase contracts exist and suppliers have stock. Awaiting delivery.",
-      "solutions": "Monitor purchase contracts for inputs (water). Ensure deliveries are in progress or resolve any delivery issues. Check citizen activities for 'fetch_resource'.",
-      "notes": ""
-    },
-    {
-      "id": "recklS6OdiOqdTpID",
-      "problemId": "problem_pinpoint_building_45.442317_12.319077_salt_WAITING_FOR_DELIVERY",
-      "citizen": "DucatsRunner",
-      "assetType": "building",
-      "asset": "building_45.442317_12.319077",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:53:17.210Z",
-      "updatedAt": "2025-06-27T01:53:17.000Z",
-      "location": "Contract Stall at Calle dei Gondolieri",
-      "position": {
-        "lat": 45.442317,
-        "lng": 12.319077
-      },
-      "type": "waiting_for_resource_delivery",
-      "title": "Waiting for Delivery: salt at Contract Stall at Calle dei Gondolieri",
-      "description": "Building 'Contract Stall at Calle dei Gondolieri' (ID: building_45.442317_12.319077) is out of stock for 'salt', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
-      "solutions": "Monitor the 'markup_buy' contract for 'salt'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
-      "notes": ""
-    },
-    {
-      "id": "reccszxVC2L6uwbPJ",
-      "problemId": "problem_pinpoint_building_45.442317_12.319077_preserved_fish_WAITING_FOR_DELIVERY",
-      "citizen": "DucatsRunner",
-      "assetType": "building",
-      "asset": "building_45.442317_12.319077",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:53:15.314Z",
-      "updatedAt": "2025-06-27T01:53:15.000Z",
-      "location": "Contract Stall at Calle dei Gondolieri",
-      "position": {
-        "lat": 45.442317,
-        "lng": 12.319077
-      },
-      "type": "waiting_for_resource_delivery",
-      "title": "Waiting for Delivery: preserved_fish at Contract Stall at Calle dei Gondolieri",
-      "description": "Building 'Contract Stall at Calle dei Gondolieri' (ID: building_45.442317_12.319077) is out of stock for 'preserved_fish', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
-      "solutions": "Monitor the 'markup_buy' contract for 'preserved_fish'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
-      "notes": ""
-    },
-    {
-      "id": "recdewU5YUxwUSJar",
-      "problemId": "problem_pinpoint_building_45.442317_12.319077_olives_WAITING_FOR_DELIVERY",
-      "citizen": "DucatsRunner",
-      "assetType": "building",
-      "asset": "building_45.442317_12.319077",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:53:11.990Z",
-      "updatedAt": "2025-06-27T01:53:12.000Z",
-      "location": "Contract Stall at Calle dei Gondolieri",
-      "position": {
-        "lat": 45.442317,
-        "lng": 12.319077
-      },
-      "type": "waiting_for_resource_delivery",
-      "title": "Waiting for Delivery: olives at Contract Stall at Calle dei Gondolieri",
-      "description": "Building 'Contract Stall at Calle dei Gondolieri' (ID: building_45.442317_12.319077) is out of stock for 'olives', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
-      "solutions": "Monitor the 'markup_buy' contract for 'olives'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
-      "notes": ""
-    },
-    {
-      "id": "recRij0Oilwq0bYnE",
-      "problemId": "problem_pinpoint_building_45.442317_12.319077_olive_oil_WAITING_FOR_DELIVERY",
-      "citizen": "DucatsRunner",
-      "assetType": "building",
-      "asset": "building_45.442317_12.319077",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:53:09.620Z",
-      "updatedAt": "2025-06-27T01:53:10.000Z",
-      "location": "Contract Stall at Calle dei Gondolieri",
-      "position": {
-        "lat": 45.442317,
-        "lng": 12.319077
-      },
-      "type": "waiting_for_resource_delivery",
-      "title": "Waiting for Delivery: olive_oil at Contract Stall at Calle dei Gondolieri",
-      "description": "Building 'Contract Stall at Calle dei Gondolieri' (ID: building_45.442317_12.319077) is out of stock for 'olive_oil', has an active 'markup_buy' contract, and the resource is available elsewhere. Awaiting delivery.",
-      "solutions": "Monitor the 'markup_buy' contract for 'olive_oil'. Ensure citizens or logistics services are fulfilling delivery. Check 'fetch_resource' activities targeting your building.",
-      "notes": ""
-    },
-    {
-      "id": "rec0BG9VW4iEk1Apa",
-      "problemId": "problem_pinpoint_land_45.425015_12.329460_meat_WAITING_FOR_GALLEY_ARRIVAL",
-      "citizen": "QuantumLeap",
-      "assetType": "building",
-      "asset": "land_45.425015_12.329460",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:39:00.824Z",
-      "updatedAt": "2025-06-27T01:39:01.000Z",
-      "location": "Granary at Corte della Munizion",
-      "position": {
-        "lat": 45.42501474129663,
-        "lng": 12.329460362389844
-      },
-      "type": "waiting_for_galley_arrival",
-      "title": "Waiting for Galley: meat at Granary at Corte della Munizion",
-      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'meat' and is awaiting arrival of the delivering galley 'water_45.44790330321718_12.320144368395496_4'.",
-      "solutions": "Monitor the import contract for 'meat'. The galley 'water_45.44790330321718_12.320144368395496_4' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
-      "notes": ""
-    },
-    {
-      "id": "recwrLQP7ahljsfvT",
-      "problemId": "problem_pinpoint_land_45.425015_12.329460_vegetables_WAITING_FOR_GALLEY_ARRIVAL",
-      "citizen": "QuantumLeap",
-      "assetType": "building",
-      "asset": "land_45.425015_12.329460",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:38:59.302Z",
-      "updatedAt": "2025-06-27T01:38:59.000Z",
-      "location": "Granary at Corte della Munizion",
-      "position": {
-        "lat": 45.42501474129663,
-        "lng": 12.329460362389844
-      },
-      "type": "waiting_for_galley_arrival",
-      "title": "Waiting for Galley: vegetables at Granary at Corte della Munizion",
-      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'vegetables' and is awaiting arrival of the delivering galley 'water_45.42305690898809_12.331967958006057_2'.",
-      "solutions": "Monitor the import contract for 'vegetables'. The galley 'water_45.42305690898809_12.331967958006057_2' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
-      "notes": ""
-    },
-    {
-      "id": "recs78FRkAcWloeuA",
-      "problemId": "problem_pinpoint_land_45.425015_12.329460_fish_WAITING_FOR_GALLEY_ARRIVAL",
-      "citizen": "QuantumLeap",
-      "assetType": "building",
-      "asset": "land_45.425015_12.329460",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:38:57.675Z",
-      "updatedAt": "2025-06-27T01:38:58.000Z",
-      "location": "Granary at Corte della Munizion",
-      "position": {
-        "lat": 45.42501474129663,
-        "lng": 12.329460362389844
-      },
-      "type": "waiting_for_galley_arrival",
-      "title": "Waiting for Galley: fish at Granary at Corte della Munizion",
-      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'fish' and is awaiting arrival of the delivering galley 'water_45.445441548202105_12.33497409408794_0'.",
-      "solutions": "Monitor the import contract for 'fish'. The galley 'water_45.445441548202105_12.33497409408794_0' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
-      "notes": ""
-    },
-    {
-      "id": "rec821zD71QiZNlOB",
-      "problemId": "problem_pinpoint_land_45.425015_12.329460_olive_oil_WAITING_FOR_GALLEY_ARRIVAL",
-      "citizen": "QuantumLeap",
-      "assetType": "building",
-      "asset": "land_45.425015_12.329460",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:38:54.137Z",
-      "updatedAt": "2025-06-27T01:38:54.000Z",
-      "location": "Granary at Corte della Munizion",
-      "position": {
-        "lat": 45.42501474129663,
-        "lng": 12.329460362389844
-      },
-      "type": "waiting_for_galley_arrival",
-      "title": "Waiting for Galley: olive_oil at Granary at Corte della Munizion",
-      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'olive_oil' and is awaiting arrival of the delivering galley 'water_45.42305690898809_12.331967958006057_2'.",
-      "solutions": "Monitor the import contract for 'olive_oil'. The galley 'water_45.42305690898809_12.331967958006057_2' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
-      "notes": ""
-    },
-    {
-      "id": "recET9W5N5eVCFRJw",
-      "problemId": "problem_pinpoint_land_45.425015_12.329460_wine_WAITING_FOR_GALLEY_ARRIVAL",
-      "citizen": "QuantumLeap",
-      "assetType": "building",
-      "asset": "land_45.425015_12.329460",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:38:51.442Z",
-      "updatedAt": "2025-06-27T01:38:52.000Z",
-      "location": "Granary at Corte della Munizion",
-      "position": {
-        "lat": 45.42501474129663,
-        "lng": 12.329460362389844
-      },
-      "type": "waiting_for_galley_arrival",
-      "title": "Waiting for Galley: wine at Granary at Corte della Munizion",
-      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'wine' and is awaiting arrival of the delivering galley 'water_45.445441548202105_12.33497409408794_0'.",
-      "solutions": "Monitor the import contract for 'wine'. The galley 'water_45.445441548202105_12.33497409408794_0' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
-      "notes": ""
-    },
-    {
-      "id": "recuXYQx5A4Y7vujl",
-      "problemId": "problem_pinpoint_land_45.425015_12.329460_bread_WAITING_FOR_GALLEY_ARRIVAL",
-      "citizen": "QuantumLeap",
-      "assetType": "building",
-      "asset": "land_45.425015_12.329460",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:38:49.858Z",
-      "updatedAt": "2025-06-27T01:38:50.000Z",
-      "location": "Granary at Corte della Munizion",
-      "position": {
-        "lat": 45.42501474129663,
-        "lng": 12.329460362389844
-      },
-      "type": "waiting_for_galley_arrival",
-      "title": "Waiting for Galley: bread at Granary at Corte della Munizion",
-      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'bread' and is awaiting arrival of the delivering galley 'water_45.445441548202105_12.33497409408794_0'.",
-      "solutions": "Monitor the import contract for 'bread'. The galley 'water_45.445441548202105_12.33497409408794_0' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
-      "notes": ""
-    },
-    {
-      "id": "recWrq6l0JbBLQdF9",
-      "problemId": "problem_pinpoint_land_45.425015_12.329460_flour_WAITING_FOR_GALLEY_ARRIVAL",
-      "citizen": "QuantumLeap",
-      "assetType": "building",
-      "asset": "land_45.425015_12.329460",
-      "severity": "Medium",
-      "status": "active",
-      "createdAt": "2025-06-27T03:38:48.229Z",
-      "updatedAt": "2025-06-27T01:38:48.000Z",
-      "location": "Granary at Corte della Munizion",
-      "position": {
-        "lat": 45.42501474129663,
-        "lng": 12.329460362389844
-      },
-      "type": "waiting_for_galley_arrival",
-      "title": "Waiting for Galley: flour at Granary at Corte della Munizion",
-      "description": "Building 'Granary at Corte della Munizion' (ID: land_45.425015_12.329460) is out of stock for 'flour' and is awaiting arrival of the delivering galley 'water_45.436756581839155_12.313958741565337_3'.",
-      "solutions": "Monitor the import contract for 'flour'. The galley 'water_45.436756581839155_12.313958741565337_3' is still en route or its arrival has not yet been processed. Check galley's 'ConstructionDate'.",
-      "notes": ""
-    },
-    {
-      "id": "recUmSLDVeEzVDlTV",
-      "problemId": "hungry_employee_impact_QuantumLeap_urban_visionary",
-      "citizen": "QuantumLeap",
-      "assetType": "employee_performance",
-      "asset": "urban_visionary",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-06-27T02:07:35.152Z",
-      "updatedAt": "2025-06-27T02:07:49.000Z",
-      "location": "Granary at Corte della Munizion",
-      "position": {
-        "lat": 45.425015,
-        "lng": 12.32946
-      },
-      "type": "hungry_employee_impact",
-      "title": "Hungry Employee Impact",
-      "description": "Your employee, **Giulio Lombardo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Giulio Lombardo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: urban_visionary (ID: urban_visionary), Workplace: Granary at Corte della Munizion (ID: land_45.425015_12.329460). Last ate: 2025-06-25T20:16:41.933Z."
     }
   ]
 }
