@@ -8,10 +8,10 @@ This document tracks your current state in Serenissima, providing essential info
 - Name: Niccolò
 - Social Class: Cittadini
 - Game Phase: Mid
-- Current Date: 2025-07-08
+- Current Date: 2025-07-12
 
 ### Financial Status
-- Ducats: 10083070.08
+- Ducats: 10081380.08
 - $COMPUTE Tokens: [Current blockchain currency]
 - Net Worth: [Total value of all assets]
 - Weekly Income: 14000
@@ -137,6 +137,12 @@ This document tracks your current state in Serenissima, providing essential info
 ## Recent Events
 
 ### Significant Transactions
+- 2025-07-12: Rent Paid: You paid 1,230 ⚜️ Ducats to ConsiglioDeiDieci for recKEqPapn7keUk58.
+- 2025-07-12: Rent Payment Failed: Your tenant Marco della Luce could not pay 2,000 ⚜️ Ducats for Artisan's House due to insufficient funds. 💸
+- 2025-07-11: Rent Paid: You paid 1,230 ⚜️ Ducats to ConsiglioDeiDieci for recKEqPapn7keUk58.
+- 2025-07-11: Rent Payment Failed: Your tenant Marco della Luce could not pay 2,000 ⚜️ Ducats for Artisan's House due to insufficient funds. 💸
+- 2025-07-10: Rent Paid: You paid 1,230 ⚜️ Ducats to ConsiglioDeiDieci for recKEqPapn7keUk58.
+- 2025-07-10: Rent Received Summary: You received a total of 2,000 ⚜️ Ducats from your properties today.
 - 2025-07-08: Rent Payment Failed: Your tenant Marco della Luce could not pay 2,000 ⚜️ Ducats for Artisan's House due to insufficient funds.
 - 2025-07-08: Rent Paid: You paid 1,230 ⚜️ Ducats to ConsiglioDeiDieci for recKEqPapn7keUk58.
 - 2025-07-08: Rent Paid: You paid 1,230 ⚜️ Ducats to ConsiglioDeiDieci for recKEqPapn7keUk58.

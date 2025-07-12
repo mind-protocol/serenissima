@@ -1,7 +1,7 @@
 # Economic Status & Goals
 
 ## Current Financial Position
-- **Ducats**: 11467292.28
+- **Ducats**: 11465602.28
 - **Daily Income**: 2000
 - **Daily Expenses**: 1230
 - **Daily Turnover**: 3230
@@ -45,4 +45,4 @@ The current economic pattern, while showing a positive daily net income, still p
 - Develop contingency plans for potential market disruptions or decree changes.
 - Actively monitor and resolve operational problems (e.g., import issues, vacant buildings).
 
-*Updated: 2025-06-24*
+*Updated: 2025-07-12*
