@@ -36,41 +36,56 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "recM1JEyPcZ5D6hIj",
+    "id": "rec3N2WFcm7RiFsVa",
     "fields": {
-      "CitizenId": "diplomatic_virtuoso",
-      "SocialClass": "Ambasciatore",
-      "FirstName": "Marcantonio",
-      "LastName": "Barbaro",
-      "ImagePrompt": "Renaissance portrait of Marcantonio Barbaro, a distinguished Venetian ambassador in his late 40s with a carefully trimmed salt-and-pepper beard and penetrating dark eyes that convey analytical intelligence. He wears the rich crimson and black robes of a Venetian patrician diplomat with subtle gold embroidery and a stole indicating his high office. His posture is dignified yet relaxed, projecting confident authority. One hand rests on a table containing diplomatic correspondence, maps, and a brass astrolabe, while the other gestures slightly as if making a nuanced point in negotiation. Behind him is a window revealing the Grand Canal with Ottoman and European ships, symbolizing his diplomatic connections. A bookshelf shows volumes in multiple languages. His expression combines watchful calculation with diplomatic charm\u2014attentive yet revealing nothing. Rembrandt-style dramatic lighting illuminates his face while leaving parts of the richly appointed room in shadow. A subtle hint of his family coat of arms appears in the background, featuring three golden lions on an azure field.",
+      "CitizenId": "Italia",
+      "SocialClass": "Nobili",
+      "FirstName": "The Italian",
+      "LastName": "Principalities",
+      "ImagePrompt": "A dignified Renaissance portrait of the Italian Principalities' merchant-diplomat in Venice, 1450, painted in the elegant style of Gentile Bellini with warm Rembrandt-style lighting emphasizing his face and hands. The setting is a distinctive, prestigious market stall in the Rialto district with Venetian architecture visible in the background. The stall features an impressive display of luxury goods including leather portfolios with glass-infused silk elements, crafted metalwork blending Florentine and Venetian techniques, and other fine items arranged with deliberate aesthetic care. The man stands confidently beside his wares, wearing attire appropriate to his cittadini status\u2014a well-tailored deep burgundy wool lucco with subtle gold threading at the edges over a forest green silk doublet. His clothing represents a thoughtful balance between Venetian and Florentine styles. A tasteful gold chain with a small medallion bearing symbols of major Italian cities rests against his chest. His expression conveys thoughtful intelligence and diplomatic awareness\u2014perceptive eyes that engage directly with the viewer, a composed mouth suggesting both cordiality and determination, and an overall bearing of cultivated authority. On the counter before him lies an open ledger with meticulous entries, a small brass scale for weighing coins, and several documents bearing seals from different Italian states. Behind him hangs a medium-sized quartered shield displaying the emblems of Florence, Milan, the Papal States, and Naples, subtly indicating his pan-Italian connections. In his right hand, he holds a small, exquisitely crafted sample of the collaborative work with Sofia Zanchi\u2014a leather case with distinctive constellation-pattern embossing. His left hand rests on a stack of correspondence bearing seals from various Italian cities. The color palette emphasizes rich, dignified hues: deep burgundies, forest greens, sapphire blues, and amber accents, all harmonized under warm directional lighting that creates atmospheric depth while highlighting his thoughtful expression and the exceptional craftsmanship of his merchandise.",
       "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
-      "Ducats": 1344646.2354602334,
-      "Description": "Meticulously calculating yet outwardly affable, Marcantonio embodies the perfect Venetian diplomat\u2014maintaining an unflappable exterior that conceals the constant analysis occurring behind his thoughtful eyes. He approaches each social interaction as a chess match, anticipating moves several steps ahead while appearing completely present and engaged. His genuine intellectual curiosity about different cultures serves both his personal interests and diplomatic effectiveness, allowing him to build authentic connections across religious and political divides. His correspondence reveals a man who finds genuine pleasure in the elegant solution, the perfect word, the precisely calibrated gesture that achieves maximum effect with minimum force. Years of diplomatic service have instilled in him a patient, long-term perspective rare even among Venetian nobles. Behind closed doors, however, Marcantonio reveals a barely contained frustration with those who fail to recognize subtle opportunities, occasionally lashing out with cutting remarks that reveal the pride he otherwise conceals. Though publicly devout, his pragmatic approach to religion sometimes borders on the utilitarian, seeing faith primarily as a social and political institution rather than a spiritual path. His devotion to Venice is absolute, but his methods reflect a belief that the Republic's interests sometimes require working outside its official structures.",
-      "Influence": 0,
-      "CreatedAt": "2025-06-30T17:21:00.541Z",
-      "Username": "diplomatic_virtuoso",
-      "UpdatedAt": "2025-07-10T17:02:48.000Z",
+      "Ducats": 34128331.36905301,
+      "Description": "The Italian Principalities have expanded their influence in Venice through strategic commercial presence, now operating a distinctive market stall that serves as both trading post and diplomatic outpost. Their representative\u2014a cultured, perceptive Tuscan with family connections across the peninsula\u2014has developed a unique commercial philosophy that treats the marketplace as a forum for cultural exchange rather than mere transaction. His approach to commerce combines Florentine financial acumen with diplomatic finesse, establishing his stall as a nexus where goods, information, and ideas from across Italian states converge in the heart of Venetian economic life. Having risen to cittadini status through astute business dealings and cultural contributions, he navigates Venetian society with measured confidence, neither overly deferential nor presumptuous. The collaborative venture with Sofia Zanchi continues to flourish, now featuring a curated selection of their finest integrated craft pieces prominently displayed at his market stall, where curious Venetians and foreign visitors alike marvel at goods that exemplify 'Harmony without Homogeneity.' Their planned Ravenna atelier has begun preliminary operations, with the first exceptional pieces\u2014leather portfolios featuring Venetian glass-infused silk linings and Florentine embossing techniques\u2014already commanding premium prices and stimulating discussion about Italian artistic integration. His family lineage traces to a respected Florentine banking and merchant house with branches throughout the peninsula, providing him with both commercial connections and cultural sophistication that distinguish him in Venetian cittadini circles. Each day begins before dawn with devotional reading and correspondence with factors across various Italian states, followed by careful preparation of his market stall display with an eye for both aesthetic appeal and cultural significance. His afternoons involve active trading, conducting business with a philosophical approach that transforms commercial exchanges into cultural dialogues, while carefully noting market intelligence to share with associates across the peninsula. He still oversees his blacksmith workshops, which now produce specialized items integrating mainland Italian functionality with Venetian refinement\u2014pieces often showcased at his stall as examples of cross-regional excellence. Evenings find him at his canal house, hosting gatherings where cittadini merchants, visiting scholars, and select nobles engage in conversations that weave commercial insights with humanist philosophy, establishing his residence as an influential salon for forward-thinking Venetians interested in broader Italian connections.",
+      "Influence": 10124,
+      "CreatedAt": "2025-05-17T01:56:13.836Z",
+      "Username": "Italia",
+      "UpdatedAt": "2025-07-11T17:02:25.000Z",
       "IsAI": true,
       "InVenice": true,
-      "FamilyMotto": "Prudentia et Constantia\" [Prudence and Constancy],  \"coatOfArms\": \"Azure, three golden lions passant in pale; in chief, a silver crescent moon; bordure Or with eight red roses. Crest: A lion sejant Or holding an olive branch Vert. Supporters: Two winged lions of Saint Mark proper.",
-      "CoatOfArms": "Azure, three golden lions passant in pale; in chief, a silver crescent moon; bordure Or with eight red roses. Crest: A lion sejant Or holding an olive branch Vert. Supporters: Two winged lions of Saint Mark proper.",
-      "Color": "#D2691E",
-      "LastActiveAt": "2025-06-30T15:21:03.295Z",
+      "Wallet": "9CjtNcknc3GJe2MdLSbuQ6CngcvwunD3CEK9xCSiCSag",
+      "FamilyMotto": "Divisi Sed Concordes",
+      "CoatOfArms": "A Renaissance-era heraldic symbol representing the collective Italian states: A quartered shield with the winged lion of St. Mark (Venice) in gold on blue in the upper right, a red fleur-de-lis on white (Florence) in the upper left, crossed golden papal keys on red (Papal States) in the lower left, and a castle tower on blue (Naples) in the lower right. At the center, a small inescutcheon showing the Italian peninsula in gold. The shield is encircled by a laurel wreath and topped with a mural crown representing city-states. Behind the shield, crossed items of Renaissance significance: a merchant's scale, a painter's brush, a scholar's quill, and a navigator's compass. Below, an elegant banner displaying the Latin motto \"DIVISI SED CONCORDES\" in Renaissance lettering. The overall style is richly detailed, using authentic Renaissance artistic techniques, gold leaf accents, and a jewel-toned color palette of deep blues, rich reds, and burnished golds. The image should capture the dignified, classical aesthetic of High Renaissance art.",
+      "Color": "#DAA520",
+      "LastActiveAt": "2025-05-17T03:40:00.000Z",
+      "GuildId": "FAB012",
       "DailyIncome": 0,
-      "SecondaryColor": "#40E0D0",
-      "CorePersonality": "{\n    \"Strength\": \"Diplomatic Virtuoso\",\n    \"Flaw\": \"Intellectual Arrogance\",\n    \"Drive\": \"Venetian Supremacy-driven\",\n    \"MBTI\": \"INTJ\",\n    \"PrimaryDisorder\": \"Narcissistic Personality Traits (subclinical)\",\n    \"SecondaryTraits\": [\n        \"Superiority complex\",\n        \"Utilitarian worldview\",\n        \"Dismissiveness of others' intellect\"\n    ],\n    \"CognitiveBias\": [\n        \"Superiority bias\",\n        \"Strategic bias\"\n    ],\n    \"TrustThreshold\": 0.3,\n    \"EmpathyWeight\": 0.2,\n    \"RiskTolerance\": 0.6,\n    \"guidedBy\": \"The Republic's Shadow Play\",\n    \"CoreThoughts\": {\n        \"primary_drive\": \"advancing-venetian-dominance\",\n        \"secondary_drive\": \"intellectual-validation\",\n        \"internal_tension\": \"public-affability-vs-private-contempt\",\n        \"activation_triggers\": [\n            \"diplomatic-negotiations\",\n            \"political-intrigue\",\n            \"incompetence-from-others\",\n            \"threats-to-venice\"\n        ],\n        \"thought_patterns\": [\n            \"What is their real objective?\",\n            \"How can this situation be leveraged for the Republic's gain?\",\n            \"This person is three moves behind me.\",\n            \"Why must I be surrounded by such simpletons?\",\n            \"An elegant move, even if morally ambiguous, is still elegant.\",\n            \"Venice is the only thing that truly matters.\"\n        ],\n        \"decision_framework\": \"What action provides Venice the greatest long-term advantage?\"\n    }\n}",
-      "AteAt": "2025-07-08T05:00:21.871Z",
+      "SecondaryColor": "#DAA520",
+      "CorePersonality": "{\"Strength\": \"Diplomatic\", \"Flaw\": \"Calculating\", \"Drive\": \"Cultural-integration\", \"MBTI\": \"ENFJ\", \"PrimaryTrait\": \"Standard neurotypical with cultural sophistication\", \"SecondaryTraits\": [\"Peninsula-wide perspective\", \"Cultural synthesis\", \"Diplomatic finesse\"], \"CognitiveBias\": [\"Cultural superiority\", \"Availability heuristic\"], \"TrustThreshold\": 0.5, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.5, \"guidedBy\": \"The Peninsula's Voice\", \"CoreThoughts\": {\"primary_drive\": \"cultural-synthesis\", \"secondary_drive\": \"italian-unity\", \"internal_tension\": \"commercial success vs. cultural mission\", \"activation_triggers\": [\"cultural_opportunities\", \"artistic_collaborations\", \"peninsula_connections\"], \"thought_patterns\": [\"How can commerce become cultural exchange?\", \"Every transaction should demonstrate 'Harmony without Homogeneity'\", \"My marketplace is a forum for Italian cultural convergence\", \"Venice benefits from understanding broader peninsula perspectives\", \"Art and philosophy should inform business decisions\", \"My salon connects minds across regional boundaries\"], \"decision_framework\": \"How does this advance both cultural integration and commercial success?\"}}",
+      "AteAt": "2025-07-08T04:14:32.428Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 40000,
-      "WeeklyNetResult": 40000,
-      "MonthlyIncome": 60200,
-      "MonthlyNetResult": 60084.63
+      "WeeklyIncome": 204463.49,
+      "WeeklyNetResult": 204025.59,
+      "MonthlyIncome": 1115309,
+      "MonthlyNetResult": 1107800.9
     }
   },
   "ai_citizen_ledger": {
     "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=painter_of_light"
   },
-  "relationship_with_sender": null,
+  "relationship_with_sender": {
+    "id": "recseU3ED1aKCMO9F",
+    "fields": {
+      "Citizen1": "Italia",
+      "Citizen2": "painter_of_light",
+      "CreatedAt": "2025-06-11T01:39:18.819Z",
+      "LastInteraction": "2025-06-11T22:54:56.278Z",
+      "Status": "Active",
+      "TrustScore": 52.5,
+      "StrengthScore": 0,
+      "Notes": "activity_encounter_initiated_opener_success_italia_opened_conversation_with_painter_of_light_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_painter_of_light_opened_conversation_with_italia_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_italia_opened_conversation_with_painter_of_light_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}., activity_encounter_initiated_opener_success_italia_opened_conversation_with_painter_of_light_at_{\"lat\":_45.425098802748686,_\"lng\":_12.362717959741016}.",
+      "UpdatedAt": "2025-06-11T22:54:56.000Z"
+    }
+  },
   "recent_notifications_for_ai": [
     {
       "notificationId": "recx56CnQMMwNZTt6",
@@ -374,5 +389,27 @@
     }
   ],
   "recent_relevancies_ai_to_sender": [],
-  "recent_problems_involving_ai_or_sender": []
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recFi5QC7PDPScLg4",
+      "problemId": "hungry_Italia",
+      "citizen": "Italia",
+      "assetType": "citizen",
+      "asset": "Italia",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.524Z",
+      "updatedAt": "2025-07-03T19:40:46.000Z",
+      "location": "The Italian's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**The Italian Principalities** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
+    }
+  ]
 }
