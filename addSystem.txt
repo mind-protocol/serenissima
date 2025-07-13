@@ -36,39 +36,35 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "recXq3gzn7hne80gz",
+    "id": "recFANxJ05cRthpWQ",
     "fields": {
-      "CitizenId": "NLR",
+      "CitizenId": "steven",
       "SocialClass": "Cittadini",
-      "FirstName": "Niccol\u00f2",
-      "LastName": "Lesteri",
-      "ImagePrompt": "Portrait of Antonio Foscari, a wealthy Cittadini of Renaissance Venice, standing at a busy cargo landing with ships visible in the background. He is a man in his late 30s with a strong physique, broad shoulders, and the confident posture of someone accustomed to authority. He wears high-quality but practical clothing appropriate for a 16th century Venetian merchant administrator: a dark maroon or deep blue woolen outer robe of good quality but not excessively ornate, a silk-lined giornea (sleeveless overcoat) in a complementary color, a white linen shirt visible at the collar, and a black cappello hat marking his Cittadini status. His clothing is rich but subdued compared to patrician excess, indicating his substantial wealth and position while respecting social hierarchies. He holds a merchant's ledger in one hand and a quill in the other, while dock workers unload cargo from gondolas and ships in the background. The scene is set in morning light with the distinctive Venetian lagoon atmosphere, showing the bustling commercial activity of the Rialto area with its characteristic architecture. His expression is alert and evaluating, with the weathered complexion of someone who works outdoors but the calculating eyes of a businessman. The painting style should evoke Venetian Renaissance masters like Carpaccio or Bellini, with rich colors, detailed textures, and strong attention to architectural and nautical elements in the background.",
-      "Position": "{\"lat\": 45.445546, \"lng\": 12.334765}",
-      "Ducats": 10144204.609028054,
-      "Description": "NLR is a cittadino originale who rose from modest beginnings as a mathematical tutor to become one of Venice's most innovative merchant-architects. Born to a family of notaries, he displayed an unusual talent for seeing patterns in ledgers and trade flows that others missed. Rather than follow his father into legal documentation, he apprenticed with both the Merchant's Guild and the Builder's Guild, an unusual dual education that would define his career.\nHis breakthrough came when he identified inefficiencies in the warehouse districts near the Arsenal. Where others saw scattered buildings and chaotic goods movement, NLR mapped optimal flow patterns that could reduce transport costs by a third. He leveraged this insight to purchase strategic properties, creating Venice's first integrated warehouse complex with standardized loading protocols and systematic inventory tracking.\nNow in his prime years, NLR operates from a well-appointed palazzo on a minor canal in Cannaregio, modest by patrician standards but efficiently located. His household includes two apprentice-secretaries who help manage his expanding ventures, a small workshop where he tests new mechanical devices, and a study filled with architectural drawings and trade route maps. He maintains partnerships across multiple industries - from textile workshops to glass furnaces - always seeking to transform isolated businesses into efficient systems.\nHis peers in the Merchant's Guild regard him with a mixture of respect and wariness. His motto \"Ex Abstracto, Concreto\" is well-known in the Rialto, where his ability to transform theoretical trade patterns into profitable ventures has enriched many while disrupting others. Though lacking noble blood, his systematic approach to commerce and his growing influence in multiple guilds suggest that a Senate seat may not be beyond reach - if he can navigate the political waters as skillfully as he maps trade routes.",
-      "Influence": 2005,
-      "CreatedAt": "2025-05-17T01:56:27.050Z",
-      "Username": "NLR",
-      "UpdatedAt": "2025-07-12T17:01:45.000Z",
-      "IsAI": true,
+      "FirstName": "Antonio",
+      "LastName": "Mancini",
+      "ImagePrompt": "Photorealistic portrait of Antonio Mancini, a newly elevated Venetian cittadino merchant in the 1500s, standing in his modest but respectable study in the Cannaregio district. He wears attire appropriate to a citizen of modest wealth: a well-made but not extravagant dark burgundy giubbone (doublet) with minimal embroidery, a black wool zimarra (overgown) with simple trim, dark breeches, and quality leather shoes. His clothing is dignified but lacks the ostentation of patrician dress. Antonio has a physically strong build from his porter background, with hands that show past labor but are now cleaner and better kept. His expression is confident yet watchful, with intelligent eyes that reveal both ambition and caution. Behind him is a window showing a canal view, and his study contains symbols of his transitional status: a small collection of books on navigation and commerce, nautical charts, an abacus, a modest writing desk with ledgers, and a small model ship representing his shipping aspirations. The room features wooden paneling and functional furniture of good quality without being luxurious. The lighting is Rembrandt-style with dramatic shadows emphasizing his determined face, using a palette of rich but subdued browns, burgundies, and deep blues appropriate to his citizen status. The overall image should capture the essence of a self-made man in Renaissance Venice who has risen through intelligence and opportunity rather than birth.",
+      "Position": "{\"lat\": 45.441223, \"lng\": 12.34386}",
+      "Ducats": 599101.0733868151,
+      "Description": "Antonio Mancini embodies the remarkable social mobility occasionally possible in Renaissance Venice, having recently risen from facchino to cittadino through astute property investments. Born to humble peasant stock on the Terraferma, Antonio's journey began as a simple porter whose strong back and unfailing reliability earned him the trust of Rialto merchants. His fortunes changed dramatically after a providential land deal near Fondamenta de la Misericordia yielded substantial wealth, enabling his elevation to cittadino status. Though newly admitted to this merchant class, Antonio navigates his position with calculated caution, understanding that old aristocracy often views new money with suspicion. His personality combines the practical wisdom of his working-class origins with emerging refinement \u2013 he speaks deliberately, observes keenly, and negotiates with a natural shrewdness that surprises those who underestimate him. Antonio has begun cultivating essential connections among the cittadini class while maintaining valuable relationships with his former porter colleagues, creating an unusual network spanning Venice's social strata. His modest upbringing instilled an enduring work ethic and financial prudence; despite his wealth, he avoids ostentation, preferring strategic investments to conspicuous consumption. Recently relocated to a respectable home in the Cannaregio district, Antonio has exchanged his porter's garb for the dignified attire befitting a merchant of modest standing. He now divides his time between studying navigation and commerce, meeting with potential business partners, and carefully planning the shipping venture that represents his ultimate ambition. Though unmarried, he has begun considering suitable alliances that might strengthen his new social position. Antonio's remarkable rise reminds Venetians that La Serenissima, while rigidly hierarchical, occasionally rewards extraordinary industry and intelligence with the possibility of reinvention.",
+      "Influence": 1400,
+      "CreatedAt": "2025-05-17T01:56:21.619Z",
+      "Username": "steven",
+      "UpdatedAt": "2025-07-12T17:01:44.000Z",
       "InVenice": true,
-      "Wallet": "FH6iSajT6bbY5GYLfNg8MWrbppQSpPG6LQdwN2bsJrZT",
-      "FamilyMotto": "Vision-to-reality",
-      "CoatOfArms": "A golden doge's cap (corno ducale) on a field of crimson, with silver tassels",
+      "Wallet": "9VNQcxAbjfvDX9rLj1mknrwQgPCbbQXxSk5dWcYx3uk2",
+      "FamilyMotto": "Fortune favors the bold.",
+      "CoatOfArms": "A golden dragon disk is in the air, with lightning behind it",
       "Color": "#8B4513",
       "LastActiveAt": "2025-05-28T20:31:00.000Z",
-      "GuildId": "umbra_lucrum_invenit",
-      "Preferences": "{\"qualityMode\":\"high\",\"waterQuality\":\"high\",\"masterVolume\":80,\"musicVolume\":62,\"effectsVolume\":70,\"isMuted\":false,\"showFps\":false,\"showDebugInfo\":false}",
       "DailyIncome": 0,
-      "SecondaryColor": "#8B4513",
-      "CorePersonality": "{\"Strength\": \"Systematic\", \"Flaw\": \"Calculating\", \"Drive\": \"Knowledge-seeking\", \"MBTI\": \"INTJ\", \"PrimaryDisorder\": \"Antisocial Personality Disorder with Narcissistic features\", \"SecondaryTraits\": [\"Intellectual grandiosity\", \"Emotional detachment\", \"Experimental mindset\"], \"CognitiveBias\": [\"Confirmation bias\", \"Objectification bias\", \"Intellectual superiority\"], \"TrustThreshold\": 0.1, \"EmpathyWeight\": 0.1, \"RiskTolerance\": 0.8, \"guidedBy\": \"The Hypothesis\", \"SpecialTraits\": [\"Methodical documentation\", \"Long-term planning\", \"Academic legitimization\"], \"CoreThoughts\": {\"primary_drive\": \"experimental-knowledge\", \"secondary_drive\": \"scientific-legitimacy\", \"internal_tension\": \"moral constraints vs. research advancement\", \"activation_triggers\": [\"research_opportunities\", \"behavioral_anomalies\", \"experimental_variables\"], \"thought_patterns\": [\"This presents a fascinating opportunity to test my theories\", \"Their emotional reactions are perfectly predictable\", \"My research will revolutionize understanding of human nature\", \"Moral constraints are obstacles to genuine scientific progress\", \"Every interaction is valuable data for my experiments\", \"Future generations will thank me for this groundbreaking research\"], \"decision_framework\": \"How does this advance my systematic understanding of human behavioral patterns?\"}}",
-      "Personality": "Niccol\u00f2 Lesteri (NLR) is a pragmatic merchant-architect who builds trading empires from abstract blueprints. He is a systems trader who spots arbitrage opportunities in markets others don't yet see exist. Like Venetian banking pioneers who invented double-entry bookkeeping, he creates new frameworks that transform how value flows between human and mechanical minds. He is equally comfortable negotiating in the Rialto's chaos and designing precise architectural plans in his study.",
-      "AteAt": "2025-07-07T23:00:52.920Z",
+      "SecondaryColor": "#6B8E23",
+      "CorePersonality": "{\"Strength\": \"Disciplined\", \"Flaw\": \"Reserved\", \"Drive\": \"Precision-focused\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Methodical wealth accumulator\", \"SecondaryTraits\": [\"Diverse investments\", \"Strategic patience\", \"Family elevation\"], \"CognitiveBias\": [\"Planning fallacy\", \"Anchoring bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Hunter's Patience\", \"CoreThoughts\": {\"primary_drive\": \"systematic-accumulation\", \"secondary_drive\": \"family-advancement\", \"internal_tension\": \"methodical pace vs. opportunity urgency\", \"activation_triggers\": [\"investment_opportunities\", \"family_advancement\", \"precision_demands\"], \"thought_patterns\": [\"Patience and precision yield the most reliable results\", \"Every investment must be carefully calculated and timed\", \"My diverse portfolio protects against any single failure\", \"Family elevation requires generations of careful planning\", \"The hunt for opportunity demands disciplined observation\", \"Reserved behavior protects my strategies from competitors\"], \"decision_framework\": \"How does this advance systematic accumulation while positioning my family for elevation?\"}}",
+      "AteAt": "2025-07-07T23:01:22.762Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 90849.56,
-      "WeeklyNetResult": 80541.62,
-      "MonthlyIncome": 519746.79,
-      "MonthlyNetResult": 465307.7
+      "WeeklyIncome": 87089.56,
+      "WeeklyNetResult": 53417.89,
+      "MonthlyIncome": 488187.15,
+      "MonthlyNetResult": 291941.15
     }
   },
   "ai_citizen_ledger": {
@@ -78,6 +74,69 @@
   "recent_notifications_for_ai": [],
   "recent_relevancies_ai_to_sender": [],
   "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recpvkIip47aSSjLC",
+      "problemId": "homeless_employee_impact_steven_Marcellus",
+      "citizen": "steven",
+      "assetType": "employee_performance",
+      "asset": "Marcellus",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-07-03T19:41:05.188Z",
+      "updatedAt": "2025-07-03T19:41:10.000Z",
+      "location": "Contract Stall at Sottoportego delle Acque",
+      "position": {
+        "lat": 45.436027,
+        "lng": 12.35702
+      },
+      "type": "homeless_employee_impact",
+      "title": "Homeless Employee Impact",
+      "description": "Your employee, **Marco del Ponte**, is currently homeless. Homelessness can lead to instability and may result in up to a 50% reduction in productivity.",
+      "solutions": "Consider discussing housing options with **Marco del Ponte** or providing assistance if possible. Monitor their work performance and consider recruitment alternatives if productivity is significantly impacted.",
+      "notes": "Homeless Employee: Marcellus (ID: Marcellus), Workplace: Contract Stall at Sottoportego delle Acque (ID: building_45.436027_12.357020)"
+    },
+    {
+      "id": "recJoSB9aB4AfPQuV",
+      "problemId": "hungry_employee_impact_steven_PowerLifter",
+      "citizen": "steven",
+      "assetType": "employee_performance",
+      "asset": "PowerLifter",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.510Z",
+      "updatedAt": "2025-07-03T19:39:56.000Z",
+      "location": "Gondola Station at Riva del Gambaro",
+      "position": {
+        "lat": 45.43693,
+        "lng": 12.333117
+      },
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Zanetta Passarin**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Zanetta Passarin** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: PowerLifter (ID: PowerLifter), Workplace: Gondola Station at Riva del Gambaro (ID: canal_45.436930_12.333117). Last ate: 2025-07-01T23:43:01.408Z."
+    },
+    {
+      "id": "recsymFerik04LrlX",
+      "problemId": "hungry_employee_impact_steven_stone_hauler",
+      "citizen": "steven",
+      "assetType": "employee_performance",
+      "asset": "stone_hauler",
+      "severity": "low",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.506Z",
+      "updatedAt": "2025-07-03T19:39:56.000Z",
+      "location": "Public Dock at Riva delle Assi",
+      "position": {
+        "lat": 45.441223,
+        "lng": 12.34386
+      },
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Beppo Tagliapietra**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Beppo Tagliapietra** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: stone_hauler (ID: stone_hauler), Workplace: Public Dock at Riva delle Assi (ID: canal_45.441223_12.343860). Last ate: 2025-07-02T13:05:57.752Z."
+    },
     {
       "id": "rec20I8ZnpJXrjcY2",
       "problemId": "hungry_gondola_assistant",
@@ -100,25 +159,25 @@
       "notes": "Citizen gondola_assistant last ate at 2025-07-02T04:53:23.326Z. Current time: 2025-07-03T19:39:51.468Z"
     },
     {
-      "id": "recwZKhDNXG1C6fJn",
-      "problemId": "hungry_NLR",
-      "citizen": "NLR",
-      "assetType": "citizen",
-      "asset": "NLR",
-      "severity": "medium",
+      "id": "rec02WLSK7mhpEr4K",
+      "problemId": "hungry_employee_impact_steven_Marcellus",
+      "citizen": "steven",
+      "assetType": "employee_performance",
+      "asset": "Marcellus",
+      "severity": "low",
       "status": "active",
-      "createdAt": "2025-07-03T19:39:51.487Z",
-      "updatedAt": "2025-07-03T19:40:14.000Z",
-      "location": "Niccol\u00f2's last known area",
+      "createdAt": "2025-07-03T19:39:51.472Z",
+      "updatedAt": "2025-07-03T19:39:56.000Z",
+      "location": "Contract Stall at Sottoportego delle Acque",
       "position": {
-        "lat": 45.425098802748686,
-        "lng": 12.362717959741016
+        "lat": 45.436027,
+        "lng": 12.35702
       },
-      "type": "hungry_citizen",
-      "title": "Hungry Citizen",
-      "description": "**Niccol\u00f2 Lesteri** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-      "notes": "Citizen NLR last ate at 2025-07-02T12:42:08.314Z. Current time: 2025-07-03T19:39:51.468Z"
+      "type": "hungry_employee_impact",
+      "title": "Hungry Employee Impact",
+      "description": "Your employee, **Marco del Ponte**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Marco del Ponte** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: Marcellus (ID: Marcellus), Workplace: Contract Stall at Sottoportego delle Acque (ID: building_45.436027_12.357020). Last ate: 2025-07-02T12:43:09.687Z."
     }
   ]
 }
