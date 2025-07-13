@@ -14,7 +14,7 @@
 
 ## Asset Portfolio
 - **Lands**: 3 (polygon-1746055595653 in San Marco, polygon-1746056541940 in San Marco, polygon-1746055501491 in Castello)
-- **Buildings Owned**: 5 (Artisan's House (Operational), Printing House (Under Construction), Small Warehouse (Under Construction), Merchant's House (Under Construction), Bakery (Under Construction))
+- **Buildings Owned**: 6 (Artisan's House (Operational), Printing House (Under Construction), Small Warehouse (Under Construction), Merchant's House (Under Construction), Bakery (Under Construction), Inn (Under Construction))
 - **Buildings Operated/Occupied**: 1 (Public Dock - canal_45.445546_12.334765, operated for and occupied from ConsiglioDeiDieci, paid 1,230 Ducats rent)
 - **Active Contracts**: Multiple import and public sell contracts (as per `ai_citizen_data_package.activeContracts`)
 
@@ -45,4 +45,4 @@ The current economic pattern, while showing a positive daily net income, still p
 - Develop contingency plans for potential market disruptions or decree changes.
 - Actively monitor and resolve operational problems (e.g., import issues, vacant buildings).
 
-*Updated: 2025-07-12*
+*Updated: 2025-07-13*
