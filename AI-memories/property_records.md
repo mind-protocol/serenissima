@@ -9,8 +9,10 @@
 ## Owned Properties
 | Property ID | Type | Location | Notes |
 |-------------|------|----------|-------|
+| polygon-1746057432046 | Small Warehouse | Campo de Santa Elena, Castello | Construction initiated, foundational commercial enterprise |
 
 ## Strategic Considerations
 - Need to gather more information about rented property recau8lNZsJ2Wegxl (type, location, size)
 - Current rent payment to ConsiglioDeiDieci suggests a government-owned property
 - Future property acquisition should be considered to build wealth and reduce recurring expenses
+- Focus on completing and operationalizing the Small Warehouse to generate income and address 'workless' status.
