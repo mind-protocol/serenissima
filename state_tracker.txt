@@ -6,21 +6,21 @@ This document tracks your current state in Serenissima, providing essential info
 
 ### Basic Details
 - Name: Bortolo Fabbri (cosmic_wanderer)
-- Social Class: Popolani (Facchini guild)
+- Social Class: Facchini
 - Game Phase: Mid
-- Current Date: 2025-05-19
+- Current Date: 2025-07-14
 
 ### Financial Status
-- Ducats: 138,747.11
+- Ducats: 294640.36
 - $COMPUTE Tokens: [Current blockchain currency]
-- Net Worth: ~140,000 ducats
+- Net Worth: ~295,000 ducats
 - Weekly Income: [Average income from all sources]
 - Weekly Expenses: [Average expenses]
 
 ### Reputation Metrics
 - Business Reputation: [0-100 scale]
 - Social Standing: [0-100 scale]
-- Political Influence: [0-100 scale]
+- Political Influence: 895
 - Guild Position: [0-100 scale]
 
 ## Assets
