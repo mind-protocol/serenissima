@@ -386,5 +386,15 @@
     "role": "assistant",
     "content": "Error: Could not connect to local LLM. Ensure it's running and accessible.",
     "timestamp": "2025-07-17T16:26:05.401635"
+  },
+  {
+    "role": "user",
+    "content": "\nAs a citizen in La Serenissima with social class Popolani, you need to decide on your next building investment.\n\nHere's your current situation:\n- You are considering 120 land(s).\n- You have 1 buildings.\n- Your current net income is 0 ducats.\n- You have 501840.5860271244 ducats available.\n\nWhen making your decision, carefully consider the information that you have at your disposition.\n\nAfter your analysis, provide your building decision in this JSON format:\n```json\n{\n  \"building_type\": \"type_of_building_to_build\",\n  \"land_id\": \"id_of_land_to_build_on\",\n  \"reason\": \"brief explanation of why this building\"\n}\n```\n\nIf you decide not to build anything at this time, return an empty JSON object:\n```json\n{}\n```\n",
+    "timestamp": "2025-07-17T23:32:28.042914"
+  },
+  {
+    "role": "assistant",
+    "content": "Error: Could not connect to local LLM. Ensure it's running and accessible.It seems that the system is experiencing issues with connecting to the local LLM for generating responses. This has been happening consistently across multiple prompts, including strategic decisions, reflections on personal circumstances, and relationship considerations. Despite this error state, I will continue to provide structured JSON responses as requested when possible.In response to the current building investment prompt: Based on my analysis of available lands (120 options) and my position with one existing building (~500k ducats capital), I would consider diversifying my portfolio. However, without access to an LLM for detailed evaluation, I cannot specify which land or building type offers the best opportunity at this moment.I will return an empty JSON object as requested when no action can be taken.",
+    "timestamp": "2025-07-17T23:38:52.614869"
   }
 ]
