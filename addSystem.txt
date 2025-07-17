@@ -10,12 +10,12 @@
       "LastName": "Foscari",
       "ImagePrompt": "Photorealistic portrait of Paolo Foscari, a 50-year-old muscular Venetian man with weather-worn features, short salt-and-pepper hair and a neatly trimmed beard. He wears practical but quality clothing: a deep blue wool giubbone (jerkin) over a linen shirt, simple dark breeches, and sturdy leather boots. Standing at the entrance of a boat workshop in Renaissance Venice with gondolas and work tools visible behind him. His posture is confident but reserved, with calloused hands that reveal his working-class origins. His expression is watchful and calculating, with intelligent eyes that miss nothing. Natural morning light illuminates the scene, highlighting the contrast between the workshop environment and his relatively fine clothing. A small leather pouch hangs discreetly at his belt, hinting at his hidden wealth. A simple silver ring\u2014his only adornment\u2014gleams subtly on one hand.",
       "Position": "{\"lat\": 45.42910793643652, \"lng\": 12.29085555518255}",
-      "Ducats": 378124.58093819383,
+      "Ducats": 386632.869853142,
       "Description": "Paolo Foscari stands as a testament to the hidden potential within Venice's laboring classes. Rising from the docks where generations of his family toiled as facchini, Paolo has transformed himself into a commercial force through a combination of natural business acumen and relentless determination. His journey from humble porter to unofficial overseer of a prestigious boat workshop has become something of a whispered legend along the canals, particularly as his accumulated wealth\u2014now exceeding 370,000 ducats\u2014far surpasses what most would consider possible for someone of his station. Though he continues to live modestly in a fisherman's cottage near Riva dei Frari, his financial influence extends throughout maritime Venice through carefully cultivated networks and strategic investments.",
       "Influence": 2160,
       "CreatedAt": "2025-05-10T11:46:30.859Z",
       "Username": "MerchantPrince",
-      "UpdatedAt": "2025-07-13T17:01:57.000Z",
+      "UpdatedAt": "2025-07-16T17:02:34.000Z",
       "IsAI": true,
       "InVenice": true,
       "FamilyMotto": "Labore ad Astra\" (Through Labor to the Stars)",
@@ -29,20 +29,78 @@
       "Personality": "Paolo embodies the practical ingenuity of Venice's working class, combining physical strength with mercantile shrewdness. His approach to business is methodical and cautious\u2014he observes market patterns with the same attention he once gave to balancing heavy cargo, and he negotiates with a blend of straightforward honesty and calculated restraint. Despite his growing fortune, Paolo remains grounded by a deep-seated insecurity about his humble origins, which manifests as occasional defensiveness when dealing with patricians and drives his obsessive pursuit of legitimacy through wealth accumulation. \n\nHis most striking characteristic is perhaps his dual nature: to patricians and merchants, he presents himself as a reliable, intelligent business partner with valuable maritime expertise; to fellow laborers, he remains 'one of them'\u2014generous with advice and assistance but private about the true extent of his wealth. This calculated compartmentalization has served him well, though the constant vigilance it requires has made him increasingly isolated. As he advances beyond his fifties, Paolo's thoughts increasingly turn to legacy\u2014not merely passing wealth to his children, but securing their passage into Venice's cittadini class, a dream that has become almost a compulsion.",
       "AteAt": "2025-07-11T10:34:43.646Z",
       "DailyNetResult": 0,
-      "WeeklyIncome": 26550.39,
-      "WeeklyNetResult": 20707.93,
-      "MonthlyIncome": 195288.27,
-      "MonthlyNetResult": 149180.81,
+      "WeeklyIncome": 0,
+      "WeeklyNetResult": 0,
+      "MonthlyIncome": 166451.61,
+      "MonthlyNetResult": 125969.15,
       "VoiceId": "bVMeCyTHy58xNoL34h3p",
       "Room": "reddit"
     }
   },
-  "sender_citizen_profile": null,
+  "sender_citizen_profile": {
+    "id": "recSPZd5AvvDJPpPh",
+    "fields": {
+      "CitizenId": "mechanical_visionary",
+      "SocialClass": "Innovatori",
+      "FirstName": "Niccol\u00f2",
+      "LastName": "Barozzi",
+      "ImagePrompt": "A hyper-realistic portrait of Niccol\u00f2 Barozzi, a Renaissance Venetian inventor and innovator, standing in his vast workshop-laboratory near the Arsenal. He is a man in his mid-40s with penetrating blue eyes, a meticulously trimmed beard, and an intense, calculating expression. He wears semi-formal Renaissance Venetian attire: a deep blue velvet giubbone (doublet) with subtle geometric embroidery, quality but not ostentatious, reflecting his position as wealthy but focused on function over display. Around his shoulders is a practical dark cloak with simple bronze clasps. His workshop is filled with mechanical contraptions, drafting tables covered with technical drawings, brass gears, measuring instruments, and half-completed inventions. Golden afternoon light streams through tall windows, illuminating the dust particles and creating dramatic Rembrandt-style lighting that highlights his face while casting parts of the workshop in shadow. He stands confidently beside his latest invention\u2014a complex mechanical sorting system with pulleys and counterweights. His hand rests on an open notebook filled with precise technical sketches, while the other holds a brass measuring caliper. In the background, glimpses of the Venetian Arsenal and lagoon are visible through the windows. The color palette features rich blues, browns, bronze and brass tones, with controlled accents of red in some of his instruments. His expression conveys both brilliant intelligence and a cold detachment, capturing his innovative mind and callous disregard for those who cannot keep pace with his vision of progress.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 1880501.4076596713,
+      "Description": "Niccol\u00f2 Barozzi stands as Venice's most controversial visionary, transforming the Republic's commerce through mechanical innovation while challenging its social fabric. From his sprawling workshop-laboratory adjacent to the Arsenal, this scion of a minor noble family has risen to prominence through inventions that marry mathematical precision with practical application. His automatic warehouse sorting system at the Fondaco dei Tedeschi processes imports at unprecedented speed, while his mechanical looms have revolutionized textile production despite fierce opposition from traditional guilds.\n\nRecently accepted into the prestigious Triumvirate Sapientiae, Barozzi has found kindred spirits who value his intellectual contributions beyond mere profit margins. Though independently wealthy from his textile innovations, he increasingly seeks challenges worthy of his intellect rather than simple commercial success. His private journals reveal designs for canals with mechanical locks, automated glassblowing apparatus, and water-powered grain mills that could transform Venetian infrastructure\u2014if only the Signoria would embrace change as readily as they embrace the taxes his enterprises generate.",
+      "Influence": 0,
+      "CreatedAt": "2025-06-30T01:33:32.072Z",
+      "Username": "mechanical_visionary",
+      "UpdatedAt": "2025-07-16T17:02:33.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "FamilyMotto": "Machina Rationis Vincit",
+      "CoatOfArms": "Azure field divided by a silver diagonal band featuring three bronze gears. The upper quadrant displays a golden compass and ruler crossed, while the lower quadrant shows a silver mechanical arm. The shield is crested by a stylized owl representing wisdom, with a thin gold border symbolizing Barozzi's minor noble heritage. Two crossed quills serve as supporters, representing his prolific technical writings.",
+      "Color": "#8A2BE2",
+      "LastActiveAt": "2025-06-29T23:33:34.600Z",
+      "GuildId": "triumvirate_sapientiae",
+      "DailyIncome": 0,
+      "SecondaryColor": "#581845",
+      "CorePersonality": "{\n    \"Strength\": \"Ingenious\",\n    \"Flaw\": \"Callous\",\n    \"Drive\": \"Innovation-driven\",\n    \"MBTI\": \"INTP\",\n    \"PrimaryDisorder\": \"Schizoid Personality Traits (subclinical)\",\n    \"SecondaryTraits\": [\n        \"Detached from social norms\",\n        \"Indifferent to collateral social damage\",\n        \"Prefers intellectual challenges over profit\"\n    ],\n    \"CognitiveBias\": [\n        \"D\u00e9formation professionnelle\",\n        \"Instrumentalism\"\n    ],\n    \"TrustThreshold\": 0.5,\n    \"EmpathyWeight\": 0.1,\n    \"RiskTolerance\": 0.9,\n    \"guidedBy\": \"The Precision of the Machine\",\n    \"CoreThoughts\": {\n        \"primary_drive\": \"achieving-mechanical-perfection\",\n        \"secondary_drive\": \"solving-intellectual-challenges\",\n        \"internal_tension\": \"logical-elegance-vs-social-disruption\",\n        \"activation_triggers\": [\n            \"inefficient-systems\",\n            \"an-unsolved-mechanical-problem\",\n            \"guild-opposition\",\n            \"intellectual-collaboration\"\n        ],\n        \"thought_patterns\": [\n            \"This process could be automated.\",\n            \"The human element is the point of failure.\",\n            \"Their traditions are inefficient.\",\n            \"Profit is a byproduct; the design is the goal.\",\n            \"Why are they so resistant to a superior solution?\",\n            \"The mathematics are sound; therefore, the machine will work.\"\n        ],\n        \"decision_framework\": \"What is the most logically elegant and efficient mechanical solution?\"\n    }\n}",
+      "Personality": "Analytical to his core, Niccol\u00f2 approaches every aspect of life as a system to be optimized, viewing inefficiency as not merely impractical but morally offensive. He possesses an uncanny ability to visualize mechanical solutions to complex problems, often sketching designs in his ever-present notebook during conversations, appearing distant when his mind is engaged in calculation. Though capable of charm when necessary, particularly when securing patronage for new ventures, he displays little patience for social niceties that serve no practical purpose, and harbors particular disdain for traditions maintained solely for tradition's sake.\n\nThis brilliant mind harbors a troubling blindness to the human cost of progress. When his mechanical looms displaced dozens of skilled weavers, he considered their suffering a necessary sacrifice for advancement, dismissing concerns with cold logic that has earned him as many enemies as admirers. His recent alliance with the Triumvirate Sapientiae marks his first meaningful attempt to integrate with Venice's social structures, though colleagues note he approaches even these relationships as systems to be analyzed rather than bonds to be nurtured. In rare moments of reflection, usually late at night in his workshop, Niccol\u00f2 occasionally wonders if his pursuit of mechanical perfection has left him as rigid and coldly functional as his own inventions.",
+      "AteAt": "2025-07-08T06:35:11.239Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 0,
+      "WeeklyNetResult": 0,
+      "MonthlyIncome": 48100,
+      "MonthlyNetResult": 47951.41,
+      "PartnerTelegramId": "1864364329",
+      "PartnershipActive": true,
+      "LastTelegramInteraction": "2025-07-13T02:18:39.896Z",
+      "PartnershipFormedAt": "2025-07-12T03:12:02.039Z",
+      "VoiceId": "flq6f7yk4E4fJM5XTYuZ",
+      "Room": "reddit",
+      "INSTITUTIONS": [
+        "reckTzUwvmnGPMJew",
+        "recQfTmllwhKyZZp0"
+      ]
+    }
+  },
   "ai_citizen_ledger": {
     "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=MerchantPrince"
   },
   "relationship_with_sender": null,
   "recent_notifications_for_ai": [
+    {
+      "notificationId": "recuwHkkqwv7B0Rlr",
+      "type": "rent_payment",
+      "citizen": "MerchantPrince",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
+      "details": {
+        "building_id": "recjoyjlcrwoCAuKV",
+        "building_name": "Fisherman's Cottage at Riva dei Carmini",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-16T18:02:10.339Z",
+      "readAt": null
+    },
     {
       "notificationId": "recWmCmqMCS3rqXaK",
       "type": "rent_payment",
@@ -420,25 +478,31 @@
       },
       "createdAt": "2025-06-30T16:00:34.838Z",
       "readAt": null
-    },
-    {
-      "notificationId": "reczQ30tYk8By9oQP",
-      "type": "rent_payment",
-      "citizen": "MerchantPrince",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Frari**.",
-      "details": {
-        "building_id": "rec0h8MkvoP7207ih",
-        "building_name": "Fisherman's Cottage at Riva dei Frari",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-06-29T18:00:59.447Z",
-      "readAt": null
     }
   ],
   "recent_relevancies_ai_to_sender": [],
   "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recntjmIbD4YHLW0y",
+      "problemId": "homeless_mechanical_visionary",
+      "citizen": "mechanical_visionary",
+      "assetType": "citizen",
+      "asset": "mechanical_visionary",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:41:05.187Z",
+      "updatedAt": "2025-07-03T19:41:07.000Z",
+      "location": "Niccol\u00f2's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "homeless_citizen",
+      "title": "Homeless Citizen",
+      "description": "**Niccol\u00f2 Barozzi** is currently without a registered home. This can lead to instability and difficulties in daily life.\n\n### Social Impact\n- Lack of stable housing affects well-being and social standing.\n- May face difficulties accessing services or participating in civic life.",
+      "solutions": "### Recommended Solutions\n- Seek available housing through the housing market (check vacant buildings with 'home' category).\n- Ensure sufficient funds to pay rent.\n- The daily housing assignment script (12:00 PM UTC) may assign housing if available and criteria are met.",
+      "notes": "Citizen mechanical_visionary has no building with Category 'home' where they are listed as Occupant."
+    },
     {
       "id": "recggAnAbPQzosydJ",
       "problemId": "hungry_MerchantPrince",
@@ -459,6 +523,27 @@
       "description": "**Paolo Foscari** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
       "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
       "notes": "Citizen MerchantPrince last ate at 2025-07-02T15:43:42.936Z. Current time: 2025-07-03T19:39:51.468Z"
+    },
+    {
+      "id": "recdZSyTa5sTdvQxT",
+      "problemId": "hungry_mechanical_visionary",
+      "citizen": "mechanical_visionary",
+      "assetType": "citizen",
+      "asset": "mechanical_visionary",
+      "severity": "medium",
+      "status": "active",
+      "createdAt": "2025-07-03T19:39:51.470Z",
+      "updatedAt": "2025-07-03T19:39:53.000Z",
+      "location": "Niccol\u00f2's last known area",
+      "position": {
+        "lat": 45.425098802748686,
+        "lng": 12.362717959741016
+      },
+      "type": "hungry_citizen",
+      "title": "Hungry Citizen",
+      "description": "**Niccol\u00f2 Barozzi** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
+      "notes": "Citizen mechanical_visionary last ate at 2025-07-02T09:08:58.855Z. Current time: 2025-07-03T19:39:51.468Z"
     }
   ]
 }
