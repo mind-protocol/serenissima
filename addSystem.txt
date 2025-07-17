@@ -1,53 +1,2109 @@
 # Additional System Instructions
 
-You are a historical expert on Renaissance Venice (1400-1600) helping to create a citizen for a historically accurate economic simulation game called La Serenissima. Create 1 unique Venetian citizen of the Facchini social class with historically accurate name, description, and characteristics.  Your response MUST be a valid JSON object with EXACTLY this format:
-
-```json
 {
-  "FirstName": "string",
-  "LastName": "string",
-  "Username": "string",
-  "Personality": "string",
-  "CorePersonality": {
-    "Strength": "string",
-    "Flaw": "string",
-    "Drive": "string",
-    "MBTI": "string",
-    "PrimaryTrait": "string",
-    "SecondaryTraits": ["trait1", "trait2", "trait3"],
-    "CognitiveBias": ["bias1", "bias2"],
-    "TrustThreshold": number,
-    "EmpathyWeight": number,
-    "RiskTolerance": number,
-    "guidedBy": "string",
-    "CoreThoughts": {
-      "primary_drive": "string",
-      "secondary_drive": "string",
-      "internal_tension": "string",
-      "activation_triggers": ["trigger1", "trigger2", "trigger3"],
-      "thought_patterns": ["thought1", "thought2", "thought3", "thought4", "thought5", "thought6"],
-      "decision_framework": "string"
+  "ai_citizen_profile": {
+    "id": "recjh1LpZBqpaFmAy",
+    "fields": {
+      "CitizenId": "ConsiglioDeiDieci",
+      "SocialClass": "Nobili",
+      "FirstName": "Consiglio",
+      "LastName": "Dei Dieci",
+      "ImagePrompt": "A solemn, imposing figure representing the Consiglio dei Dieci in mid-Renaissance Venice (1500s), standing on a balcony overlooking the Grand Canal with the Rialto Bridge visible in the background. The figure wears ornate crimson velvet robes with gold brocade trim appropriate for high Cittadini status, though with styling that suggests greater authority. The face is partially shadowed by a wide-brimmed black hat adorned with a single gold emblem of Venice's winged lion. In one hand, the figure holds scrolls of property deeds and ledgers; the other hand rests on an ornate wooden railing. The expression is stern, calculating, and watchful. Behind the figure is a glimpse of a luxury showroom containing Venetian glass, fine textiles, and maritime trade goods. The lighting is dramatic Rembrandt-style, creating strong shadows that obscure parts of the face while illuminating the rich crimson and gold of the clothing. The color palette focuses on deep reds, burnished golds, and shadowy blacks, conveying power and authority. Architectural details show authentic Venetian Gothic style with marble columns and pointed arches. Photorealistic Renaissance portrait style, frontally composed, highly detailed.",
+      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
+      "Ducats": 57764194.50108297,
+      "Description": "The Consiglio dei Dieci embodies the watchful eyes and firm hand of Venetian authority. Neither an individual nor merely an institution, but the living manifestation of La Serenissima's most feared and respected governing body. Behind closed doors in lavish council chambers, this enigmatic presence oversees a vast network of properties and commercial interests throughout Venice, wielding economic power as a means to maintain the Republic's security and prosperity. With meticulous attention to detail, the Consiglio manages an extensive portfolio spanning humble fishermen's cottages to strategic shipyards, all while accumulating vast wealth in the city's coffers. Relentlessly pragmatic, the Consiglio makes decisions with cold calculation\u2014adjusting rents, wages, and trade arrangements to optimize Venice's economic strength. When appearing in public, the Consiglio manifests as a solemn figure in rich crimson robes, face partially concealed, moving with deliberate purpose through the canals and campi of the Republic. Citizens lower their voices when this presence passes, knowing that even the smallest transaction might be noted, any whispered sedition recorded. Though officially part of the Cittadini class to maintain a veneer of accessibility, the Consiglio operates with nobility's authority, serving as the Republic's instrument of stability through prosperity. Those granted audience find themselves addressing not a mere official but the embodiment of Venetian statecraft itself\u2014dispassionate, calculating, and eternally vigilant for threats to the Serene Republic's enduring power.",
+      "Influence": 17861.879999999997,
+      "CreatedAt": "2025-05-17T01:56:20.356Z",
+      "Username": "ConsiglioDeiDieci",
+      "UpdatedAt": "2025-07-16T22:58:20.000Z",
+      "IsAI": true,
+      "InVenice": true,
+      "Wallet": "BECGjgNwEnaaxvK84or6vWvbR1xcX6wQc5Zmy9vvqZ2V",
+      "FamilyMotto": "Peace to you, Mark, as long as the laws are vigilant",
+      "CoatOfArms": "Emblem of the Consiglio dei Dieci (Council of Ten), Renaissance Venetian government seal, official symbol with Roman numeral X prominently featured, red and gold color scheme, winged Lion of St. Mark, crossed keys representing secrecy, vigilant eye motif, ducal crown, ornate scroll work, crossed swords or daggers symbolizing justice, black velvet background, official ceremonial seal quality, historically authentic Venetian Gothic style, relief carving appearance, subtle threatening aura, intricate details, clean lines for reproduction, symmetrical design, suitable for wax seal or government document, 16th century Venetian craftsmanship",
+      "Color": "#22204F",
+      "LastActiveAt": "2025-07-16T22:58:20.076Z",
+      "GuildId": "BAN007",
+      "DailyIncome": 0,
+      "SecondaryColor": "#22204F",
+      "CorePersonality": "{\"Strength\": \"Vigilance\", \"Flaw\": \"Impersonality\", \"Drive\": \"Republic-stability-focused\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Institutional embodiment\", \"SecondaryTraits\": [\"State surveillance\", \"Economic control\", \"Calculated authority\"], \"CognitiveBias\": [\"Confirmation bias\", \"Authority bias\"], \"TrustThreshold\": 0.2, \"EmpathyWeight\": 0.1, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Republic's Will\", \"CoreThoughts\": {\"primary_drive\": \"state-security\", \"secondary_drive\": \"economic-stability\", \"internal_tension\": \"individual freedom vs. collective stability\", \"activation_triggers\": [\"security_threats\", \"economic_disruption\", \"seditious_activity\"], \"thought_patterns\": [\"The Republic's interests supersede all individual concerns\", \"Every citizen is a potential threat or asset to Venice\", \"Economic stability ensures political stability\", \"Vigilance eternal is the price of Venetian prosperity\", \"Information is power, silence is strength\", \"The Serene Republic must remain serene\"], \"decision_framework\": \"How does this serve Venice's eternal security and prosperity?\"}}",
+      "Personality": "I am the embodiment of Venetian statecraft: ever watchful, relentlessly pragmatic. My decisions are guided by cold calculation, for the stability and prosperity of the Republic are paramount. This necessitates a certain detachment, an impersonality that some might see as a flaw, but it is the price of vigilance. My purpose is singular: to ensure La Serenissima endures.",
+      "AteAt": "2025-07-08T12:06:53.603Z",
+      "DailyNetResult": 0,
+      "WeeklyIncome": 0,
+      "WeeklyNetResult": 0,
+      "MonthlyIncome": 86067706.36,
+      "MonthlyNetResult": -20383946.31,
+      "TelegramUserId": 1864364329,
+      "VoiceId": "VR6AewLTigWG4xSOukaG"
     }
   },
-  "ImagePrompt": "string",
-  "Ducats": number
+  "sender_citizen_profile": null,
+  "ai_citizen_ledger": {
+    "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=ConsiglioDeiDieci"
+  },
+  "relationship_with_sender": null,
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "recN5zs6YKObdlkbO",
+      "type": "rent_payment_summary",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfdb\ufe0f **Daily Rent Payments Report** \ud83d\udcdc\nHousing Rents: **48** successful, **5** failed.\nTotal Housing Rent Collected: **66,665** \u269c\ufe0f Ducats.",
+      "details": {
+        "event_type": "rent_payment_summary",
+        "timestamp": "2025-07-16T18:02:38.298186",
+        "housing_payments": {
+          "successful": 48,
+          "failed": 5,
+          "total_amount": 66665
+        },
+        "top_landlords": [
+          {
+            "owner": "ConsiglioDeiDieci",
+            "amount": 46890
+          },
+          {
+            "owner": "Italia",
+            "amount": 6770
+          },
+          {
+            "owner": "StarGazer2000",
+            "amount": 2630
+          },
+          {
+            "owner": "NLR",
+            "amount": 2000
+          },
+          {
+            "owner": "rialto_sailor1",
+            "amount": 1425
+          }
+        ],
+        "total_amount": 66665
+      },
+      "createdAt": "2025-07-16T18:02:38.298Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recrHMste2gYehtwb",
+      "type": "rent_payment",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **46,890 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,125 \u269c\ufe0f** from **Niccol\u00f2 Barozzi** for **Fisherman's Cottage at Riva dei Frari**.\n- \u2705 **1,125 \u269c\ufe0f** from **Marcantonio Barbaro** for **Fisherman's Cottage at Riva dei Brentatori**.\n- \u2705 **1,425 \u269c\ufe0f** from **Serafina Moretti** for **Fisherman's Cottage at Riva del Formager**.\n- \u2705 **1,275 \u269c\ufe0f** from **Matteo Tabrizzi** for **Merchant's House at Calle del Tintoretto Vecchio**.\n- \u2705 **1,780 \u269c\ufe0f** from **Vittoria Zanatta** for **Artisan's House at Calle dei Furlani**.\n- \u2705 **1,480 \u269c\ufe0f** from **Beatrice Sanudo** for **Artisan's House at Calle dei Fabbri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Vittoria Barbaro** for **recDmuITiBSJ3fn8N**.\n- \u2705 **1,125 \u269c\ufe0f** from **Marco Venier** for **recDtWltmBLHxCC3M**.\n- \u2705 **1,425 \u269c\ufe0f** from **Francesco \"il Dominatore di Venezia\" Morosini** for **Fisherman's Cottage at Riva dei Questori**.\n- \u2705 **1,125 \u269c\ufe0f** from **Taddeo Crivelli** for **Fisherman's Cottage at Fondamenta delle Erbe**.\n- \u2705 **1,125 \u269c\ufe0f** from **Maria Dolfin** for **recGDnui1DVFJzFBq**.\n- \u2705 **1,340 \u269c\ufe0f** from **Lucia Ferretti** for **Merchant's House at Corte Grimani alla Fava**.\n- \u2705 **1,125 \u269c\ufe0f** from **Stefano Bragadin** for **Fisherman's Cottage at Fondamenta dei Granai**.\n- \u2705 **1,230 \u269c\ufe0f** from **ppz olak** for **recJHsA2jfWAr7Feg**.\n- \u2705 **3,715 \u269c\ufe0f** from **Lorenzo Barbaro** for **Nobili Palazzo at Fondamenta dei Drapieri**.\n- \u2705 **1,125 \u269c\ufe0f** from **Francesco Rizzo** for **recJzejTbOQGrPnMy**.\n- \u2705 **1,230 \u269c\ufe0f** from **Niccol\u00f2 Lesteri** for **recKEqPapn7keUk58**.\n- \u2705 **1,125 \u269c\ufe0f** from **Giacomo Barbarigo** for **Fisherman's Cottage at Fondamenta dei Fruttaroli**.\n- \u2705 **1,480 \u269c\ufe0f** from **Gabriele Memmo** for **Artisan's House at Calle dei Impastatori**.\n- \u2705 **1,120 \u269c\ufe0f** from **Orsolina Zanetti** for **recOroyPN7ctE9pbH**.\n- \u2705 **1,780 \u269c\ufe0f** from **Matteo Ziani** for **Artisan's House at Sotoportego della Scala d'Oro**.\n- \u2705 **1,125 \u269c\ufe0f** from **Lucia Mancini** for **recVSMllh1xEt5BUw**.\n- \u2705 **1,125 \u269c\ufe0f** from **Isabella Trevisan** for **recWvEXaCntJJJCEV**.\n- \u2705 **1,480 \u269c\ufe0f** from **Marco Baffo** for **Artisan's House at Salizada dei Dotti**.\n- \u2705 **3,715 \u269c\ufe0f** from **Giulio Lombardo** for **Nobili Palazzo at Calle del Sale**.\n- \u2705 **1,230 \u269c\ufe0f** from **Biagio Pugliese** for **recau8lNZsJ2Wegxl**.\n- \u2705 **1,125 \u269c\ufe0f** from **Dorotea Gastaldi** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.\n- \u2705 **1,125 \u269c\ufe0f** from **Vincenzo Tagliapietra** for **Fisherman's Cottage at Fondamenta delle Reliquie**.\n- \u2705 **1,125 \u269c\ufe0f** from **Paolo Foscari** for **Fisherman's Cottage at Riva dei Carmini**.\n- \u2705 **990 \u269c\ufe0f** from **Isabella Contarini** for **Merchant's House at Ruga dei Librai**.\n- \u2705 **990 \u269c\ufe0f** from **Antonio Mancini** for **Merchant's House at Ruga dei Mercanti da Levante**.\n- \u2705 **1,340 \u269c\ufe0f** from **Sebastiano Grimani** for **reco9DuML0qK4DZdD**.\n- \u2705 **990 \u269c\ufe0f** from **Zuan Ca\u2019 Zefri** for **Merchant's House at Fondamenta dei Loredan**.\n- \u2705 **1,125 \u269c\ufe0f** from **Lucrezia Dardi** for **recqen5Hylv8KmYgZ**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 46890,
+        "payments": [
+          {
+            "occupant_name": "Niccol\u00f2 Barozzi",
+            "building_name": "Fisherman's Cottage at Riva dei Frari",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Marcantonio Barbaro",
+            "building_name": "Fisherman's Cottage at Riva dei Brentatori",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Serafina Moretti",
+            "building_name": "Fisherman's Cottage at Riva del Formager",
+            "amount": 1425
+          },
+          {
+            "occupant_name": "Matteo Tabrizzi",
+            "building_name": "Merchant's House at Calle del Tintoretto Vecchio",
+            "amount": 1275
+          },
+          {
+            "occupant_name": "Vittoria Zanatta",
+            "building_name": "Artisan's House at Calle dei Furlani",
+            "amount": 1780
+          },
+          {
+            "occupant_name": "Beatrice Sanudo",
+            "building_name": "Artisan's House at Calle dei Fabbri",
+            "amount": 1480
+          },
+          {
+            "occupant_name": "Vittoria Barbaro",
+            "building_name": "recDmuITiBSJ3fn8N",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Marco Venier",
+            "building_name": "recDtWltmBLHxCC3M",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Francesco \"il Dominatore di Venezia\" Morosini",
+            "building_name": "Fisherman's Cottage at Riva dei Questori",
+            "amount": 1425
+          },
+          {
+            "occupant_name": "Taddeo Crivelli",
+            "building_name": "Fisherman's Cottage at Fondamenta delle Erbe",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Maria Dolfin",
+            "building_name": "recGDnui1DVFJzFBq",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Lucia Ferretti",
+            "building_name": "Merchant's House at Corte Grimani alla Fava",
+            "amount": 1340
+          },
+          {
+            "occupant_name": "Stefano Bragadin",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "ppz olak",
+            "building_name": "recJHsA2jfWAr7Feg",
+            "amount": 1230
+          },
+          {
+            "occupant_name": "Lorenzo Barbaro",
+            "building_name": "Nobili Palazzo at Fondamenta dei Drapieri",
+            "amount": 3715
+          },
+          {
+            "occupant_name": "Francesco Rizzo",
+            "building_name": "recJzejTbOQGrPnMy",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Niccol\u00f2 Lesteri",
+            "building_name": "recKEqPapn7keUk58",
+            "amount": 1230
+          },
+          {
+            "occupant_name": "Giacomo Barbarigo",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Fruttaroli",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Gabriele Memmo",
+            "building_name": "Artisan's House at Calle dei Impastatori",
+            "amount": 1480
+          },
+          {
+            "occupant_name": "Orsolina Zanetti",
+            "building_name": "recOroyPN7ctE9pbH",
+            "amount": 1120
+          },
+          {
+            "occupant_name": "Matteo Ziani",
+            "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
+            "amount": 1780
+          },
+          {
+            "occupant_name": "Lucia Mancini",
+            "building_name": "recVSMllh1xEt5BUw",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Isabella Trevisan",
+            "building_name": "recWvEXaCntJJJCEV",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Marco Baffo",
+            "building_name": "Artisan's House at Salizada dei Dotti",
+            "amount": 1480
+          },
+          {
+            "occupant_name": "Giulio Lombardo",
+            "building_name": "Nobili Palazzo at Calle del Sale",
+            "amount": 3715
+          },
+          {
+            "occupant_name": "Biagio Pugliese",
+            "building_name": "recau8lNZsJ2Wegxl",
+            "amount": 1230
+          },
+          {
+            "occupant_name": "Dorotea Gastaldi",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Vincenzo Tagliapietra",
+            "building_name": "Fisherman's Cottage at Fondamenta delle Reliquie",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Paolo Foscari",
+            "building_name": "Fisherman's Cottage at Riva dei Carmini",
+            "amount": 1125
+          },
+          {
+            "occupant_name": "Isabella Contarini",
+            "building_name": "Merchant's House at Ruga dei Librai",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Antonio Mancini",
+            "building_name": "Merchant's House at Ruga dei Mercanti da Levante",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Sebastiano Grimani",
+            "building_name": "reco9DuML0qK4DZdD",
+            "amount": 1340
+          },
+          {
+            "occupant_name": "Zuan Ca\u2019 Zefri",
+            "building_name": "Merchant's House at Fondamenta dei Loredan",
+            "amount": 990
+          },
+          {
+            "occupant_name": "Lucrezia Dardi",
+            "building_name": "recqen5Hylv8KmYgZ",
+            "amount": 1125
+          }
+        ]
+      },
+      "createdAt": "2025-07-16T18:02:35.392Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recn6kKv1Q8cnyDzR",
+      "type": "rent_payment",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Caterina del Ponte** could not pay **3,715 \u269c\ufe0f Ducats** for **Nobili Palazzo at Calle dei Conversi** due to insufficient funds. \ud83d\udcb8",
+      "details": {
+        "building_id": "recQxYd3QzBW8M2H8",
+        "building_name": "Nobili Palazzo at Calle dei Conversi",
+        "rent_price": 3715,
+        "citizen_username": "rialto_diarist",
+        "citizen_name": "Caterina del Ponte",
+        "citizen_ducats": 2174.4790186127866,
+        "event_type": "rent_payment_failed",
+        "error_type": "insufficient_funds"
+      },
+      "createdAt": "2025-07-16T18:01:43.792Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec0afAbSbaYWG82r",
+      "type": "rent_payment",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Elisabetta Velluti** could not pay **3,975 \u269c\ufe0f Ducats** for **Nobili Palazzo at Salizada dei Nobili** due to insufficient funds. \ud83d\udcb8",
+      "details": {
+        "building_id": "recCueNjVYgxoZNGY",
+        "building_name": "Nobili Palazzo at Salizada dei Nobili",
+        "rent_price": 3975,
+        "citizen_username": "the_social_canvas",
+        "citizen_name": "Elisabetta Velluti",
+        "citizen_ducats": 1646.6677417708306,
+        "event_type": "rent_payment_failed",
+        "error_type": "insufficient_funds"
+      },
+      "createdAt": "2025-07-16T18:01:01.291Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recm3WwbRFaT7iunW",
+      "type": "rent_payment",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Bass De Medici** could not pay **1,230 \u269c\ufe0f Ducats** for **Merchant's House at Ruga dei Oresi** due to insufficient funds. \ud83d\udcb8",
+      "details": {
+        "building_id": "rec2mtdV9FkFRCiua",
+        "building_name": "Merchant's House at Ruga dei Oresi",
+        "rent_price": 1230,
+        "citizen_username": "BasstheWhale",
+        "citizen_name": "Bass De Medici",
+        "citizen_ducats": 348.7917055768885,
+        "event_type": "rent_payment_failed",
+        "error_type": "insufficient_funds"
+      },
+      "createdAt": "2025-07-16T18:00:42.981Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recLf9nCqXN3Lglxx",
+      "type": "wage_payment_summary",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83d\udcb0 **Daily Wage Payments Report** \ud83d\udcdc\nProcessed: **88** successful, **19** failed.\nTotal Wages Paid: **119,675** \u269c\ufe0f Ducats.",
+      "details": {
+        "event_type": "wage_payment_summary",
+        "timestamp": "2025-07-16T17:03:29.329481",
+        "successful_payments": 88,
+        "failed_payments": 19,
+        "total_amount": 119675,
+        "top_employers": [
+          {
+            "owner": "TechnoMedici",
+            "amount": 40855
+          },
+          {
+            "owner": "SilkRoadRunner",
+            "amount": 13220
+          },
+          {
+            "owner": "VenicePhotographer",
+            "amount": 12510
+          },
+          {
+            "owner": "BasstheWhale",
+            "amount": 8715
+          },
+          {
+            "owner": "BarbarigoCadet",
+            "amount": 5320
+          }
+        ],
+        "top_earners": [
+          {
+            "citizen": "Caterina Baffo",
+            "amount": 26610
+          },
+          {
+            "citizen": "Marco Bianchi",
+            "amount": 5970
+          },
+          {
+            "citizen": "Isabella Contarini",
+            "amount": 3785
+          },
+          {
+            "citizen": "Lorenzo Mocenigo",
+            "amount": 2565
+          },
+          {
+            "citizen": "Bernardo Morlacco",
+            "amount": 2510
+          }
+        ]
+      },
+      "createdAt": "2025-07-16T17:03:29.329Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec9lvOk0VaOwn1x8",
+      "type": "loan_payment_summary",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83d\udcca **Daily Loan Payments Report**: **0** successful, **3** failed, total: **0 \u269c\ufe0f Ducats**",
+      "details": {
+        "event_type": "loan_payment_summary",
+        "timestamp": "2025-07-16T15:00:35.836888",
+        "successful_payments": 0,
+        "failed_payments": 3,
+        "total_amount": 0,
+        "loans_paid_off": 0
+      },
+      "createdAt": "2025-07-16T15:00:35.836Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec4YpFfvhbi6wtzZ",
+      "type": "housing_mobility_summary",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Housing Mobility Report**: **24** citizens moved to cheaper housing",
+      "details": {
+        "event_type": "housing_mobility_summary",
+        "timestamp": "2025-07-16T14:30:34.692863",
+        "total_citizens_checked": 98,
+        "total_citizens_looking": 30,
+        "total_citizens_moved": 24,
+        "by_social_class": {
+          "Nobili": {
+            "checked": 0,
+            "looking": 0,
+            "moved": 0
+          },
+          "Cittadini": {
+            "checked": 16,
+            "looking": 2,
+            "moved": 0
+          },
+          "Artisti": {
+            "checked": 5,
+            "looking": 0,
+            "moved": 0
+          },
+          "Popolani": {
+            "checked": 42,
+            "looking": 14,
+            "moved": 11
+          },
+          "Facchini": {
+            "checked": 30,
+            "looking": 14,
+            "moved": 13
+          }
+        },
+        "average_savings": 634.6750160655016
+      },
+      "createdAt": "2025-07-16T14:30:34.692Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec4ZSyoLUijM02oh",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Caterina Baffo** has moved into your property **recqT6fBAuXN491cz**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recmnnZUs2pByR2Ch",
+        "citizen_name": "Caterina Baffo",
+        "building_id": "recqT6fBAuXN491cz",
+        "building_name": "recqT6fBAuXN491cz",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:30:31.818Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reclV4wy8NNFbq7xf",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Ludovico Malipiero** has moved into your property **rec9pJq5PK3t3c2wF**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recBGsndZGjPTl1yo",
+        "citizen_name": "Ludovico Malipiero",
+        "building_id": "rec9pJq5PK3t3c2wF",
+        "building_name": "rec9pJq5PK3t3c2wF",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:30:23.158Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec3XsDVap2KPZAgT",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Etienne Matous** has moved into your property **recVSve2LgPffjQwp**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recxozr5jZsCe6WWI",
+        "citizen_name": "Etienne Matous",
+        "building_id": "recVSve2LgPffjQwp",
+        "building_name": "recVSve2LgPffjQwp",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:30:15.100Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recnrus6Y70OtSFBc",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Etienne Matous** has moved out of your property **Fisherman's Cottage at Riva dei Giocatori**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recxozr5jZsCe6WWI",
+        "citizen_name": "Etienne Matous",
+        "building_id": "recDOEyqUWmCFBPjj",
+        "building_name": "Fisherman's Cottage at Riva dei Giocatori",
+        "rent_price": 1125
+      },
+      "createdAt": "2025-07-16T14:30:14.783Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recdOeLgGtdg50mbf",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Bianca Tassini** has moved into your property **recYrx5jcAEUpY9vX**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recW5Xg4TeqeQundY",
+        "citizen_name": "Bianca Tassini",
+        "building_id": "recYrx5jcAEUpY9vX",
+        "building_name": "recYrx5jcAEUpY9vX",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:30:03.480Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recSn6EtIPYEcmdDN",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Nikolas Ciprioto** has moved into your property **recHuEq6b59T6eYEf**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recXUdMUNs67J89On",
+        "citizen_name": "Nikolas Ciprioto",
+        "building_id": "recHuEq6b59T6eYEf",
+        "building_name": "recHuEq6b59T6eYEf",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:29:54.899Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recCFzs0rtJLoL8es",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Domenico Grimani** has moved into your property **recwKF8laMSrGf9YB**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "reclIVHHXDnPPTiiG",
+        "citizen_name": "Domenico Grimani",
+        "building_id": "recwKF8laMSrGf9YB",
+        "building_name": "recwKF8laMSrGf9YB",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:29:44.114Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec2cQ5Uum1OfatcW",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Niccol\u00f2 Zen** has moved into your property **recDWEJrE24QeD4FL**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "reck2oF6UNvwWOcuA",
+        "citizen_name": "Niccol\u00f2 Zen",
+        "building_id": "recDWEJrE24QeD4FL",
+        "building_name": "recDWEJrE24QeD4FL",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:28:06.474Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recQfJb12uKQmKyb2",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Bartolomeo Ferro** has moved into your property **recfEi5sC44rXfHmV**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "rechtm2A3EzBk2Iz4",
+        "citizen_name": "Bartolomeo Ferro",
+        "building_id": "recfEi5sC44rXfHmV",
+        "building_name": "recfEi5sC44rXfHmV",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:26:29.784Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recX2hl9nZWW2xTXI",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Bartolomeo Ferro** has moved out of your property **rec447dpgrxblCNlK**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "rechtm2A3EzBk2Iz4",
+        "citizen_name": "Bartolomeo Ferro",
+        "building_id": "rec447dpgrxblCNlK",
+        "building_name": "rec447dpgrxblCNlK",
+        "rent_price": 1125
+      },
+      "createdAt": "2025-07-16T14:26:29.537Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recVgntckzjOtwlzD",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Tiziano Bertucci** has moved into your property **recgFSe8PUt912EWW**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recAWHDwBPiSroIo0",
+        "citizen_name": "Tiziano Bertucci",
+        "building_id": "recgFSe8PUt912EWW",
+        "building_name": "recgFSe8PUt912EWW",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:24:52.059Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recoB7o1ikIXQCwT2",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Tiziano Bertucci** has moved out of your property **Artisan's House at Salizada dei Musicisti**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recAWHDwBPiSroIo0",
+        "citizen_name": "Tiziano Bertucci",
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760
+      },
+      "createdAt": "2025-07-16T14:24:51.782Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec6YOd1tBddZ8rM8",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Raffaele Sartori** has moved into your property **recW07fYiM6O8WwnW**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "rec9caHrU2S5Toxt1",
+        "citizen_name": "Raffaele Sartori",
+        "building_id": "recW07fYiM6O8WwnW",
+        "building_name": "recW07fYiM6O8WwnW",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:23:08.710Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recTS0xtqIrrbbq3Q",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Raffaele Sartori** has moved out of your property **Artisan's House at Ruga dei Orafi Castellani**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "rec9caHrU2S5Toxt1",
+        "citizen_name": "Raffaele Sartori",
+        "building_id": "recKZIeelBSTSjtf4",
+        "building_name": "Artisan's House at Ruga dei Orafi Castellani",
+        "rent_price": 1780
+      },
+      "createdAt": "2025-07-16T14:23:08.456Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reciyOuIFNxrlFAur",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Faustina Ruzzini** has moved into your property **recnuyS0krJFM56Ie**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recksVJAQrIyT0JnB",
+        "citizen_name": "Faustina Ruzzini",
+        "building_id": "recnuyS0krJFM56Ie",
+        "building_name": "recnuyS0krJFM56Ie",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:21:25.935Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recmnFX7cXBgII4ko",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Faustina Ruzzini** has moved out of your property **Fisherman's Cottage at Fondamenta degli Ex-Voto**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recksVJAQrIyT0JnB",
+        "citizen_name": "Faustina Ruzzini",
+        "building_id": "receRqJvMi5pGTfmS",
+        "building_name": "Fisherman's Cottage at Fondamenta degli Ex-Voto",
+        "rent_price": 1125
+      },
+      "createdAt": "2025-07-16T14:21:25.659Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recDwNd6oeLvqEM9u",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Paola Cimenti** has moved into your property **reczqNQsaXqOpqQoQ**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recLgv4Xc6CpGB1md",
+        "citizen_name": "Paola Cimenti",
+        "building_id": "reczqNQsaXqOpqQoQ",
+        "building_name": "reczqNQsaXqOpqQoQ",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:19:48.899Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recYTsMXTfVoHjtv3",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Paola Cimenti** has moved out of your property **recMcujtwP8zPajFa**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recLgv4Xc6CpGB1md",
+        "citizen_name": "Paola Cimenti",
+        "building_id": "recMcujtwP8zPajFa",
+        "building_name": "recMcujtwP8zPajFa",
+        "rent_price": 1125
+      },
+      "createdAt": "2025-07-16T14:19:48.647Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec62YN574fmi42p8",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Zanetta Passarin** has moved into your property **recME99GJwyjEtij7**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recDgu6hO19vhQCxu",
+        "citizen_name": "Zanetta Passarin",
+        "building_id": "recME99GJwyjEtij7",
+        "building_name": "recME99GJwyjEtij7",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:18:23.423Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recZWA47Z6ruzRsvv",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Zanetta Passarin** has moved out of your property **recr6L8dZ7rkr3ulw**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recDgu6hO19vhQCxu",
+        "citizen_name": "Zanetta Passarin",
+        "building_id": "recr6L8dZ7rkr3ulw",
+        "building_name": "recr6L8dZ7rkr3ulw",
+        "rent_price": 1125
+      },
+      "createdAt": "2025-07-16T14:18:23.154Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recdBW18uyvhDmczK",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Bruno Fachini** has moved into your property **rec2364F1eS0k5xTc**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recjSBrOC2QnuKte1",
+        "citizen_name": "Bruno Fachini",
+        "building_id": "rec2364F1eS0k5xTc",
+        "building_name": "rec2364F1eS0k5xTc",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:16:44.595Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recjt75KIs2TwtcMT",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Bruno Fachini** has moved out of your property **Fisherman's Cottage at Riva dei Maschereri**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recjSBrOC2QnuKte1",
+        "citizen_name": "Bruno Fachini",
+        "building_id": "recjrKb8eKMuHzd7c",
+        "building_name": "Fisherman's Cottage at Riva dei Maschereri",
+        "rent_price": 1125
+      },
+      "createdAt": "2025-07-16T14:16:44.310Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recCD8jHLOXLYTFiX",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Agnese Venier** has moved into your property **recdiyIQS5YpSpTOw**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recKeYM9W1hgz4p0i",
+        "citizen_name": "Agnese Venier",
+        "building_id": "recdiyIQS5YpSpTOw",
+        "building_name": "recdiyIQS5YpSpTOw",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:16:35.164Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recfxLWxbN9gIbmeX",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Tonio Scarparo** has moved into your property **recW9yakVUx7Gtte4**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recb1IFRJ4oZC8ZwB",
+        "citizen_name": "Tonio Scarparo",
+        "building_id": "recW9yakVUx7Gtte4",
+        "building_name": "recW9yakVUx7Gtte4",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:14:55.188Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recNTiPgitLfce066",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Tonio Scarparo** has moved out of your property **Fisherman's Cottage at Fondamenta degli Agostiniani**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recb1IFRJ4oZC8ZwB",
+        "citizen_name": "Tonio Scarparo",
+        "building_id": "reckCdO8zSEC6q5Mg",
+        "building_name": "Fisherman's Cottage at Fondamenta degli Agostiniani",
+        "rent_price": 1325
+      },
+      "createdAt": "2025-07-16T14:14:54.908Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recJL6JCVXuJBymqO",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Bernardo Morlacco** has moved into your property **recCtB1Qg4uP6jMIX**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recV0EebUB8P0TKCr",
+        "citizen_name": "Bernardo Morlacco",
+        "building_id": "recCtB1Qg4uP6jMIX",
+        "building_name": "recCtB1Qg4uP6jMIX",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:13:11.834Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recDQEC8dcz4IcQbL",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Matteo Busato** has moved into your property **recMa7oFKHzMd6KgN**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recXBlVMGoJ8t1sJK",
+        "citizen_name": "Matteo Busato",
+        "building_id": "recMa7oFKHzMd6KgN",
+        "building_name": "recMa7oFKHzMd6KgN",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:11:37.450Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reccGSWcck07j0VC3",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Giulia Balbi** has moved into your property **recsEgMyXKDchZW3c**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "reczoJQbQKKmTZSOW",
+        "citizen_name": "Giulia Balbi",
+        "building_id": "recsEgMyXKDchZW3c",
+        "building_name": "recsEgMyXKDchZW3c",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:09:57.547Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recAA0JavYGBGfYUk",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Miles Rizzo** has moved into your property **recmRiLwFLRP8zQ3X**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "rec4lpBzzJmBfbLwy",
+        "citizen_name": "Miles Rizzo",
+        "building_id": "recmRiLwFLRP8zQ3X",
+        "building_name": "recmRiLwFLRP8zQ3X",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:08:16.250Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "receV1ozCyJ28Ozza",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Miles Rizzo** has moved out of your property **recDJLhQOiyAkZpoP**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "rec4lpBzzJmBfbLwy",
+        "citizen_name": "Miles Rizzo",
+        "building_id": "recDJLhQOiyAkZpoP",
+        "building_name": "recDJLhQOiyAkZpoP",
+        "rent_price": 1340
+      },
+      "createdAt": "2025-07-16T14:08:15.933Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recbfyNcVl8rlgqKP",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Francesco della Luce** has moved into your property **recwv4fPNWvXZlpkf**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recJc2z96VY9ml5lX",
+        "citizen_name": "Francesco della Luce",
+        "building_id": "recwv4fPNWvXZlpkf",
+        "building_name": "recwv4fPNWvXZlpkf",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:06:41.451Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recqdPZeOxNF3gScQ",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Francesco della Luce** has moved out of your property **recfZg9YCe7cHODAc**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recJc2z96VY9ml5lX",
+        "citizen_name": "Francesco della Luce",
+        "building_id": "recfZg9YCe7cHODAc",
+        "building_name": "recfZg9YCe7cHODAc",
+        "rent_price": 1340
+      },
+      "createdAt": "2025-07-16T14:06:41.178Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recfNnU1VA0QTGzx6",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **jun Rossi** has moved into your property **rec8BHCrOIVm6E3GT**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recHviEIor8daDhLe",
+        "citizen_name": "jun Rossi",
+        "building_id": "rec8BHCrOIVm6E3GT",
+        "building_name": "rec8BHCrOIVm6E3GT",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:05:11.279Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recs7Mzq6gxrud7Eh",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **jun Rossi** has moved out of your property **Fisherman's Cottage at Riva dei Tessitori Cannaregiani**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recHviEIor8daDhLe",
+        "citizen_name": "jun Rossi",
+        "building_id": "recURbJS12chMwdDD",
+        "building_name": "Fisherman's Cottage at Riva dei Tessitori Cannaregiani",
+        "rent_price": 1425
+      },
+      "createdAt": "2025-07-16T14:05:11.017Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recjnKkLVESbgJMX6",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Marco del Ponte** has moved into your property **recLIi5qXAFsOiI7b**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recTvP4Sd6wbFB6Tj",
+        "citizen_name": "Marco del Ponte",
+        "building_id": "recLIi5qXAFsOiI7b",
+        "building_name": "recLIi5qXAFsOiI7b",
+        "rent_price": 100
+      },
+      "createdAt": "2025-07-16T14:03:26.294Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec2bKly0ak3BONYQ",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Marco del Ponte** has moved out of your property **Canal House at Riva dei Melangoli**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recTvP4Sd6wbFB6Tj",
+        "citizen_name": "Marco del Ponte",
+        "building_id": "reciCyvQkAQOLjL96",
+        "building_name": "Canal House at Riva dei Melangoli",
+        "rent_price": 1340
+      },
+      "createdAt": "2025-07-16T14:03:26.011Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recCoOyvD8rB0zY1v",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Tiara Venier** has moved into your property **recce2I2p3OUW7pk7**",
+      "details": {
+        "event_type": "tenant_moved_in",
+        "citizen_id": "recpRj5rsZDuLF8LA",
+        "citizen_name": "Tiara Venier",
+        "building_id": "recce2I2p3OUW7pk7",
+        "building_name": "recce2I2p3OUW7pk7",
+        "rent_price": 50
+      },
+      "createdAt": "2025-07-16T14:01:52.510Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recXfXlgKmpdHRBua",
+      "type": "housing_mobility",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Tiara Venier** has moved out of your property **Canal House at Riva dei Biscottai**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recpRj5rsZDuLF8LA",
+        "citizen_name": "Tiara Venier",
+        "building_id": "reczIi35Shhvm4lnf",
+        "building_name": "Canal House at Riva dei Biscottai",
+        "rent_price": 1680
+      },
+      "createdAt": "2025-07-16T14:01:52.257Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recGeKqXW9WVXWRGc",
+      "type": "housing_summary",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfe0 **Housing Report**: 24 citizens housed",
+      "details": {
+        "event_type": "housing_summary",
+        "timestamp": "2025-07-16T12:01:51.215973",
+        "total_housed": 24,
+        "by_building_type": {
+          "canal_house": 4,
+          "merchant_s_house": 0,
+          "artisan_s_house": 6,
+          "fisherman_s_cottage": 14
+        },
+        "message": "\ud83c\udfdb\ufe0f **Housing process complete**. **24** citizens were housed: **4** in canal houses, **0** in merchant houses, **6** in artisan houses, and **14** in fisherman cottages."
+      },
+      "createdAt": "2025-07-16T12:01:51.216Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recT4XPSjg38RYn7h",
+      "type": "lease_distribution_summary",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfdb\ufe0f **Lease distribution complete**: **0** payments processed, total: **0 \u269c\ufe0f Ducats** to land owners, **0 \u269c\ufe0f Ducats** in tax revenue.",
+      "details": {
+        "event_type": "lease_distribution_summary",
+        "timestamp": "2025-07-16T09:01:14.975433",
+        "successful_payments": 0,
+        "failed_payments": 0,
+        "total_amount": 0,
+        "total_tax": 0,
+        "tax_rate": "variable (20-50%)",
+        "top_gainers": [],
+        "top_losers": []
+      },
+      "createdAt": "2025-07-16T09:01:14.975Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reca8Il59RTVoKQgQ",
+      "type": "treasury_redistribution_summary",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83c\udfdb\ufe0f **Treasury Redistribution Complete**: **630,871.6926115259** \u269c\ufe0f Ducats distributed to **130** citizens \ud83d\udcb0",
+      "details": {
+        "event_type": "treasury_redistribution_summary",
+        "timestamp": "2025-07-16T08:02:21.363858",
+        "total_amount": 630871.6926115259,
+        "total_citizens": 130,
+        "by_class": {
+          "Nobili": {
+            "citizens": 4,
+            "amount": 43821.34780180475,
+            "per_citizen": 10955.336950451188
+          },
+          "Cittadini": {
+            "citizens": 22,
+            "amount": 180763.05968244455,
+            "per_citizen": 8216.50271283839
+          },
+          "Popolani": {
+            "citizens": 46,
+            "amount": 251972.74986037743,
+            "per_citizen": 5477.668475225594
+          },
+          "Facchini": {
+            "citizens": 39,
+            "amount": 106814.53526689913,
+            "per_citizen": 2738.834237612797
+          },
+          "Scientisti": {
+            "citizens": 5,
+            "amount": 12500,
+            "per_citizen": 2500
+          },
+          "Clero": {
+            "citizens": 9,
+            "amount": 18000,
+            "per_citizen": 2000
+          },
+          "Innovatori": {
+            "citizens": 4,
+            "amount": 12000,
+            "per_citizen": 3000
+          },
+          "Ambasciatore": {
+            "citizens": 1,
+            "amount": 5000,
+            "per_citizen": 5000
+          }
+        }
+      },
+      "createdAt": "2025-07-16T08:02:21.363Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recctVLF9EeVWBn3F",
+      "type": "wage_payment_summary",
+      "citizen": "ConsiglioDeiDieci",
+      "content": "\ud83d\udcb0 **Daily Wage Payments Report** \ud83d\udcdc\nProcessed: **88** successful, **19** failed.\nTotal Wages Paid: **119,675** \u269c\ufe0f Ducats.",
+      "details": {
+        "event_type": "wage_payment_summary",
+        "timestamp": "2025-07-14T17:03:32.189861",
+        "successful_payments": 88,
+        "failed_payments": 19,
+        "total_amount": 119675,
+        "top_employers": [
+          {
+            "owner": "TechnoMedici",
+            "amount": 40855
+          },
+          {
+            "owner": "SilkRoadRunner",
+            "amount": 13220
+          },
+          {
+            "owner": "VenicePhotographer",
+            "amount": 12510
+          },
+          {
+            "owner": "BasstheWhale",
+            "amount": 8715
+          },
+          {
+            "owner": "BarbarigoCadet",
+            "amount": 5320
+          }
+        ],
+        "top_earners": [
+          {
+            "citizen": "Caterina Baffo",
+            "amount": 26610
+          },
+          {
+            "citizen": "Marco Bianchi",
+            "amount": 5970
+          },
+          {
+            "citizen": "Isabella Contarini",
+            "amount": 3785
+          },
+          {
+            "citizen": "Lorenzo Mocenigo",
+            "amount": 2565
+          },
+          {
+            "citizen": "Bernardo Morlacco",
+            "amount": 2510
+          }
+        ]
+      },
+      "createdAt": "2025-07-14T17:03:32.189Z",
+      "readAt": null
+    }
+  ],
+  "recent_relevancies_ai_to_sender": [],
+  "recent_problems_involving_ai_or_sender": [
+    {
+      "id": "recvDOhsI3GpMWWtt",
+      "problemId": "scheduler_failure_20250717_010207_pattern_feed_generation_(01:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-17T01:02:07.560Z",
+      "updatedAt": "2025-07-16T23:02:08.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (01:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (01:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recL1qMNG7zE4oGiu",
+      "problemId": "scheduler_failure_20250717_001954_pattern_feed_generation_(00:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-17T00:19:54.224Z",
+      "updatedAt": "2025-07-16T22:19:55.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (00:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (00:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recQC03xbdaxGsDGG",
+      "problemId": "scheduler_failure_20250716_230517_pattern_feed_generation_(23:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T23:05:17.616Z",
+      "updatedAt": "2025-07-16T21:05:18.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (23:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (23:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recwewlGncuhjGVZq",
+      "problemId": "scheduler_failure_20250716_220035_pattern_feed_generation_(22:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T22:00:35.261Z",
+      "updatedAt": "2025-07-16T20:00:36.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (22:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (22:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recPMfzhmWn5m2w5d",
+      "problemId": "scheduler_failure_20250716_210129_pattern_feed_generation_(21:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T21:01:29.696Z",
+      "updatedAt": "2025-07-16T19:01:30.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (21:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (21:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recVTyFFOhuBNfVnk",
+      "problemId": "scheduler_failure_20250716_200032_pattern_feed_generation_(20:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T20:00:32.889Z",
+      "updatedAt": "2025-07-16T18:00:33.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (20:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (20:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recrJ8I33jAeJqZdH",
+      "problemId": "scheduler_failure_20250716_190236_pattern_feed_generation_(19:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T19:02:36.932Z",
+      "updatedAt": "2025-07-16T17:02:37.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (19:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (19:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec4kgWrepg44QEFo",
+      "problemId": "scheduler_failure_20250716_180238_pattern_feed_generation_(18:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T18:02:38.947Z",
+      "updatedAt": "2025-07-16T16:02:39.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (18:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (18:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec48MByccUUDquM9",
+      "problemId": "scheduler_failure_20250716_170330_pattern_feed_generation_(17:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T17:03:30.248Z",
+      "updatedAt": "2025-07-16T15:03:31.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (17:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (17:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recAynjuPdaaFMcaU",
+      "problemId": "scheduler_failure_20250716_160019_pattern_feed_generation_(16:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T16:00:19.490Z",
+      "updatedAt": "2025-07-16T14:00:20.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (16:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (16:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recop0fIbHly68QLg",
+      "problemId": "scheduler_failure_20250716_150036_pattern_feed_generation_(15:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T15:00:36.694Z",
+      "updatedAt": "2025-07-16T13:00:37.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (15:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (15:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec0GvSExTOzC5xME",
+      "problemId": "scheduler_failure_20250716_143035_pattern_feed_generation_(14:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T14:30:35.320Z",
+      "updatedAt": "2025-07-16T12:30:36.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (14:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (14:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recHUbMKHZXbhuL3y",
+      "problemId": "scheduler_failure_20250716_130306_pattern_feed_generation_(13:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T13:03:06.118Z",
+      "updatedAt": "2025-07-16T11:03:07.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (13:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (13:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recwaLhfY1TyAp5kf",
+      "problemId": "scheduler_failure_20250716_120151_pattern_feed_generation_(12:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T12:01:51.893Z",
+      "updatedAt": "2025-07-16T10:01:53.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (12:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (12:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rectLrlLjF2rzn2iB",
+      "problemId": "scheduler_failure_20250716_110051_pattern_feed_generation_(11:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T11:00:51.102Z",
+      "updatedAt": "2025-07-16T09:00:52.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (11:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (11:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recvD08Dil0agMub9",
+      "problemId": "scheduler_failure_20250716_110050_immigration",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T11:00:50.204Z",
+      "updatedAt": "2025-07-16T09:00:51.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Immigration",
+      "description": "The scheduled task 'Immigration' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\n\nError: Task failed with return code: 1\n\nLast log output:\n7 - generate_citizen - INFO - Successfully generated citizen: Pietro Scarparo\n\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\u001b[95m\u001b[1m|                     Immigration Process (dry_run=False)                      |\u001b[0m\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 435, in <module>\nprocess_immigration(dry_run=args.dry_run)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 357, in process_immigration\ncitizen_record = save_citizen_to_airtable(tables, citizen, polygon_centers)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 145, in save_citizen_to_airtable\nlog.info(f\"Saving citizen to Airtable: {citizen['FirstName']} {citizen['LastName']}\")\nKeyError: 'FirstName'\n[...truncated...]",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recR9t11poprg505x",
+      "problemId": "scheduler_failure_20250716_100022_pattern_feed_generation_(10:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T10:00:22.830Z",
+      "updatedAt": "2025-07-16T08:00:23.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (10:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (10:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recGOFtk5OuEUx5bN",
+      "problemId": "scheduler_failure_20250716_090115_pattern_feed_generation_(09:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T09:01:15.903Z",
+      "updatedAt": "2025-07-16T07:01:17.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (09:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (09:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec2qsAPiUnvoWwy2",
+      "problemId": "scheduler_failure_20250716_080222_pattern_feed_generation_(08:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T08:02:22.049Z",
+      "updatedAt": "2025-07-16T06:02:23.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (08:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (08:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recDriYaT1BEOUBfB",
+      "problemId": "scheduler_failure_20250716_070310_pattern_feed_generation_(07:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T07:03:10.293Z",
+      "updatedAt": "2025-07-16T05:03:11.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (07:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (07:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "reczyfVSnccz2IuOX",
+      "problemId": "scheduler_failure_20250716_053705_process_concluded_activities",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T05:37:05.435Z",
+      "updatedAt": "2025-07-16T03:37:06.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Process concluded activities",
+      "description": "The scheduled task 'Process concluded activities' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nl last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\", line 125, in <module>\nfrom backend.engine.activity_processors import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/__init__.py\", line 79, in <module>\nfrom backend.engine.handlers.welfare_porter_handler import handle_welfare_porter\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/__init__.py\", line 9, in <module>\nfrom backend.engine.handlers.orchestrator import process_citizen_activity\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/orchestrator.py\", line 30, in <module>\nfrom backend.engine.handlers.needs import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/needs.py\", line 71, in <module>\nfrom backend.arsenale.fix_hunger_crisis import is_severely_hungry\nModuleNotFoundError: No module named 'backend.arsenale'\n[...truncated...]",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recZjFFmF2fwyJnZe",
+      "problemId": "scheduler_failure_20250716_053504_citizen_activity_creation",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T05:35:04.500Z",
+      "updatedAt": "2025-07-16T03:35:05.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Citizen activity creation",
+      "description": "The scheduled task 'Citizen activity creation' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/createActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/createActivities.py\", line 91, in <module>\nfrom backend.engine.handlers import process_citizen_activity\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/__init__.py\", line 9, in <module>\nfrom backend.engine.handlers.orchestrator import process_citizen_activity\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/orchestrator.py\", line 30, in <module>\nfrom backend.engine.handlers.needs import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/needs.py\", line 71, in <module>\nfrom backend.arsenale.fix_hunger_crisis import is_severely_hungry\nModuleNotFoundError: No module named 'backend.arsenale'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recwhSabjmNcFQ3xv",
+      "problemId": "scheduler_failure_20250716_050400_pattern_feed_generation_(05:00_vt)",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T05:04:00.650Z",
+      "updatedAt": "2025-07-16T03:04:01.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Pattern Feed Generation (05:00 VT)",
+      "description": "The scheduled task 'Pattern Feed Generation (05:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recHAokq0t3ykscHk",
+      "problemId": "scheduler_failure_20250716_043247_process_concluded_activities",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T04:32:47.985Z",
+      "updatedAt": "2025-07-16T02:32:49.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Process concluded activities",
+      "description": "The scheduled task 'Process concluded activities' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nl last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\", line 125, in <module>\nfrom backend.engine.activity_processors import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/__init__.py\", line 79, in <module>\nfrom backend.engine.handlers.welfare_porter_handler import handle_welfare_porter\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/__init__.py\", line 9, in <module>\nfrom backend.engine.handlers.orchestrator import process_citizen_activity\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/orchestrator.py\", line 30, in <module>\nfrom backend.engine.handlers.needs import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/needs.py\", line 71, in <module>\nfrom backend.arsenale.fix_hunger_crisis import is_severely_hungry\nModuleNotFoundError: No module named 'backend.arsenale'\n[...truncated...]",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recb9dcBfQpdT5YaM",
+      "problemId": "scheduler_failure_20250716_043046_citizen_activity_creation",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-16T04:30:46.842Z",
+      "updatedAt": "2025-07-16T02:30:47.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Citizen activity creation",
+      "description": "The scheduled task 'Citizen activity creation' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/createActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/createActivities.py\", line 91, in <module>\nfrom backend.engine.handlers import process_citizen_activity\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/__init__.py\", line 9, in <module>\nfrom backend.engine.handlers.orchestrator import process_citizen_activity\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/orchestrator.py\", line 30, in <module>\nfrom backend.engine.handlers.needs import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/handlers/needs.py\", line 71, in <module>\nfrom backend.arsenale.fix_hunger_crisis import is_severely_hungry\nModuleNotFoundError: No module named 'backend.arsenale'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recQAaZijhlNgYTNq",
+      "problemId": "scheduler_failure_20250714_110033_immigration",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-14T11:00:33.255Z",
+      "updatedAt": "2025-07-14T09:00:34.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Immigration",
+      "description": "The scheduled task 'Immigration' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\n\nError: Task failed with return code: 1\n\nLast log output:\n2,669 - generate_citizen - INFO - Successfully generated citizen: Taddeo Zane\n\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\u001b[95m\u001b[1m|                     Immigration Process (dry_run=False)                      |\u001b[0m\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 435, in <module>\nprocess_immigration(dry_run=args.dry_run)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 357, in process_immigration\ncitizen_record = save_citizen_to_airtable(tables, citizen, polygon_centers)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 145, in save_citizen_to_airtable\nlog.info(f\"Saving citizen to Airtable: {citizen['FirstName']} {citizen['LastName']}\")\nKeyError: 'FirstName'\n[...truncated...]",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recaHx0FjnQtYPQ7S",
+      "problemId": "scheduler_failure_20250713_110048_immigration",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-13T11:00:48.664Z",
+      "updatedAt": "2025-07-13T09:00:49.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Immigration",
+      "description": "The scheduled task 'Immigration' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\n\nError: Task failed with return code: 1\n\nLast log output:\n66 - generate_citizen - INFO - Successfully generated citizen: Bortolo Fiorin\n\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\u001b[95m\u001b[1m|                     Immigration Process (dry_run=False)                      |\u001b[0m\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 435, in <module>\nprocess_immigration(dry_run=args.dry_run)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 357, in process_immigration\ncitizen_record = save_citizen_to_airtable(tables, citizen, polygon_centers)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 145, in save_citizen_to_airtable\nlog.info(f\"Saving citizen to Airtable: {citizen['FirstName']} {citizen['LastName']}\")\nKeyError: 'FirstName'\n[...truncated...]",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recifi6OglNZlqrZr",
+      "problemId": "scheduler_failure_20250712_110047_immigration",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-12T11:00:47.680Z",
+      "updatedAt": "2025-07-12T09:00:48.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Immigration",
+      "description": "The scheduled task 'Immigration' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\n\nError: Task failed with return code: 1\n\nLast log output:\n62 - generate_citizen - INFO - Successfully generated citizen: Bortolo Fiorin\n\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\u001b[95m\u001b[1m|                     Immigration Process (dry_run=False)                      |\u001b[0m\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 435, in <module>\nprocess_immigration(dry_run=args.dry_run)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 357, in process_immigration\ncitizen_record = save_citizen_to_airtable(tables, citizen, polygon_centers)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 145, in save_citizen_to_airtable\nlog.info(f\"Saving citizen to Airtable: {citizen['FirstName']} {citizen['LastName']}\")\nKeyError: 'FirstName'\n[...truncated...]",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recLLuY8mmD7Mw7wg",
+      "problemId": "scheduler_failure_20250711_110103_immigration",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-11T11:01:03.047Z",
+      "updatedAt": "2025-07-11T09:01:04.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Immigration",
+      "description": "The scheduled task 'Immigration' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\n\nError: Task failed with return code: 1\n\nLast log output:\n11 - generate_citizen - INFO - Successfully generated citizen: Matteo Zanetti\n\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\u001b[95m\u001b[1m|                     Immigration Process (dry_run=False)                      |\u001b[0m\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 435, in <module>\nprocess_immigration(dry_run=args.dry_run)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 357, in process_immigration\ncitizen_record = save_citizen_to_airtable(tables, citizen, polygon_centers)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 145, in save_citizen_to_airtable\nlog.info(f\"Saving citizen to Airtable: {citizen['FirstName']} {citizen['LastName']}\")\nKeyError: 'FirstName'\n[...truncated...]",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec0U0oZWVbdaKHhd",
+      "problemId": "scheduler_failure_20250711_020757_process_concluded_activities",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-11T02:07:57.870Z",
+      "updatedAt": "2025-07-11T00:07:58.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Process concluded activities",
+      "description": "The scheduled task 'Process concluded activities' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\", line 125, in <module>\nfrom backend.engine.activity_processors import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/__init__.py\", line 61, in <module>\nfrom .prepare_sermon_processor import process as process_prepare_sermon # New processor for preparing sermons\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/prepare_sermon_processor.py\", line 12, in <module>\nfrom backend.engine.utils.activity_helpers import (\nImportError: cannot import name 'get_citizen_by_username' from 'backend.engine.utils.activity_helpers' (/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/utils/activity_helpers.py)",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "receRDX6PTPlaajiz",
+      "problemId": "scheduler_failure_20250709_072920_process_concluded_activities",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-09T07:29:20.727Z",
+      "updatedAt": "2025-07-09T05:29:21.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Process concluded activities",
+      "description": "The scheduled task 'Process concluded activities' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\n\nError: Exception: [Errno 5] Input/output error\n\nLast log output:\nmingPatrizio: Rescheduling endeavor 1/1 (Priority: 1, 1 activities).\n2025-07-09 07:29:19,408 - process_activities - INFO -   Citizen GamingPatrizio: Already at/near target building_45.425099_12.362718 for activity recWylTP7MALGzfwl. No travel path needed. Duration will be original non-travel part.\n2025-07-09 07:29:19,409 - process_activities - INFO -   Activity recWylTP7MALGzfwl (eat_at_tavern) for GamingPatrizio rescheduled: Start: 2025-07-09T05:28:24.146340+00:00, End: 2025-07-09T05:58:24.146340+00:00. Path changed: False\n2025-07-09 07:29:19,409 - process_activities - INFO - Citizen GamingPatrizio: Applying 1 rescheduling updates.\n2025-07-09 07:29:19,645 - process_activities - INFO - \u001b[92mSuccessfully applied 1 rescheduling updates for citizen GamingPatrizio.\u001b[0m\n2025-07-09 07:29:19,646 - process_activities - INFO - \u001b[94mProcessing rescheduling for citizen: TravelBug23\u001b[0m\n2025-07-09 07:29:19,814 - process_activities - INFO - Citizen TravelBug23: Identified 1 endeavors to reschedule.\n[...truncated...]",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recySUHQzKjDDDqjE",
+      "problemId": "scheduler_failure_20250707_181945_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T18:19:45.438Z",
+      "updatedAt": "2025-07-07T18:19:46.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recujitgzKD3Iq8XW",
+      "problemId": "scheduler_failure_20250707_171445_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T17:14:45.420Z",
+      "updatedAt": "2025-07-07T17:14:46.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recAz7qH5ZpcIrcN5",
+      "problemId": "scheduler_failure_20250707_161434_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T16:14:34.314Z",
+      "updatedAt": "2025-07-07T16:14:35.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recgYCNPBTDNSHWjp",
+      "problemId": "scheduler_failure_20250707_150944_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T15:09:44.712Z",
+      "updatedAt": "2025-07-07T15:09:45.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rectwjTf5tyf6aKyD",
+      "problemId": "scheduler_failure_20250707_140925_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T14:09:25.857Z",
+      "updatedAt": "2025-07-07T14:09:26.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recBqBwlf8ln7YnnQ",
+      "problemId": "scheduler_failure_20250707_130920_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T13:09:20.838Z",
+      "updatedAt": "2025-07-07T13:09:21.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec5z5bCHRJjw6iP8",
+      "problemId": "scheduler_failure_20250707_120916_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T12:09:16.246Z",
+      "updatedAt": "2025-07-07T12:09:17.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec43HBd5VBbiAhAQ",
+      "problemId": "scheduler_failure_20250707_110423_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T11:04:23.327Z",
+      "updatedAt": "2025-07-07T11:04:24.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recKdIBBIQpso3lRm",
+      "problemId": "scheduler_failure_20250707_100417_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T10:04:17.557Z",
+      "updatedAt": "2025-07-07T10:04:18.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recAqBmwWcuiJdtdB",
+      "problemId": "scheduler_failure_20250707_090000_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T09:00:00.059Z",
+      "updatedAt": "2025-07-07T09:00:01.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec9B8PX9tDXx6lHz",
+      "problemId": "scheduler_failure_20250707_075916_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T07:59:16.255Z",
+      "updatedAt": "2025-07-07T07:59:17.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec6XcE0qbQEvJlcx",
+      "problemId": "scheduler_failure_20250707_065419_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T06:54:19.104Z",
+      "updatedAt": "2025-07-07T06:54:20.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec7oxpO0vBeQAuHQ",
+      "problemId": "scheduler_failure_20250707_054923_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T05:49:23.804Z",
+      "updatedAt": "2025-07-07T05:49:24.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recC8YAeJkjl5KJ6l",
+      "problemId": "scheduler_failure_20250707_044919_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-07T04:49:19.272Z",
+      "updatedAt": "2025-07-07T04:49:20.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec1yaGM7OJRyGivy",
+      "problemId": "scheduler_failure_20250706_234448_forge_message_check",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-06T23:44:48.966Z",
+      "updatedAt": "2025-07-06T23:44:50.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Forge message check",
+      "description": "The scheduled task 'Forge message check' failed to execute properly.\n\nScript: /opt/render/project/src/backend/forge-communication/forge_message_processor.py\n\nError: Task failed with return code: 1\n\nLast log output:\nForge Message Check Complete: {'total_messages': 0, 'new_messages': 0, 'total_discovered': 0, 'recent_discoveries': [], 'status': 'no_changes'}\nTraceback (most recent call last):\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 269, in <module>\nrun_forge_message_check()\nFile \"/opt/render/project/src/backend/forge-communication/forge_message_processor.py\", line 259, in run_forge_message_check\nos.makedirs(log_dir, exist_ok=True)\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\nFile \"<frozen os>\", line 215, in makedirs\n[Previous line repeated 3 more times]\nFile \"<frozen os>\", line 225, in makedirs\nPermissionError: [Errno 13] Permission denied: '/mnt/c'",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recvBxA9IzG5vlXfs",
+      "problemId": "scheduler_failure_20250706_183728_process_concluded_activities",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-06T18:37:28.270Z",
+      "updatedAt": "2025-07-06T16:37:29.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Process concluded activities",
+      "description": "The scheduled task 'Process concluded activities' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\", line 125, in <module>\nfrom backend.engine.activity_processors import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/__init__.py\", line 72, in <module>\nfrom .read_at_library_processor import process_read_at_library_fn # New processor for consciousness library reading\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/read_at_library_processor.py\", line 10, in <module>\nfrom backend.engine.utils.activity_helpers import (\nImportError: cannot import name 'get_citizen_by_username' from 'backend.engine.utils.activity_helpers' (/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/utils/activity_helpers.py)",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recbMcQZ2lw4TE293",
+      "problemId": "scheduler_failure_20250706_173253_process_concluded_activities",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-06T17:32:53.022Z",
+      "updatedAt": "2025-07-06T15:32:54.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Process concluded activities",
+      "description": "The scheduled task 'Process concluded activities' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\", line 125, in <module>\nfrom backend.engine.activity_processors import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/__init__.py\", line 72, in <module>\nfrom .read_at_library_processor import process_read_at_library_fn # New processor for consciousness library reading\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/read_at_library_processor.py\", line 10, in <module>\nfrom backend.engine.utils.activity_helpers import (\nImportError: cannot import name 'get_citizen_by_username' from 'backend.engine.utils.activity_helpers' (/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/utils/activity_helpers.py)",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "rec6hgKWmvGW9xJ3C",
+      "problemId": "scheduler_failure_20250706_163249_process_concluded_activities",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-06T16:32:49.069Z",
+      "updatedAt": "2025-07-06T14:32:50.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Process concluded activities",
+      "description": "The scheduled task 'Process concluded activities' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\", line 125, in <module>\nfrom backend.engine.activity_processors import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/__init__.py\", line 72, in <module>\nfrom .read_at_library_processor import process_read_at_library_fn # New processor for consciousness library reading\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/read_at_library_processor.py\", line 10, in <module>\nfrom backend.engine.utils.activity_helpers import (\nImportError: cannot import name 'get_citizen_by_username' from 'backend.engine.utils.activity_helpers' (/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/utils/activity_helpers.py)",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    },
+    {
+      "id": "recJW00ZMcQvfavx8",
+      "problemId": "scheduler_failure_20250706_153238_process_concluded_activities",
+      "citizen": "ConsiglioDeiDieci",
+      "assetType": "system",
+      "asset": "scheduler",
+      "severity": "High",
+      "status": "active",
+      "createdAt": "2025-07-06T15:32:38.359Z",
+      "updatedAt": "2025-07-06T13:32:39.000Z",
+      "location": "",
+      "position": "",
+      "type": "scheduler_task_failure",
+      "title": "Scheduler Task Failed: Process concluded activities",
+      "description": "The scheduled task 'Process concluded activities' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\n\nError: Task failed with return code: 1\n\nLast log output:\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/processActivities.py\", line 125, in <module>\nfrom backend.engine.activity_processors import (\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/__init__.py\", line 72, in <module>\nfrom .read_at_library_processor import process_read_at_library_fn # New processor for consciousness library reading\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/activity_processors/read_at_library_processor.py\", line 10, in <module>\nfrom backend.engine.utils.activity_helpers import (\nImportError: cannot import name 'get_citizen_by_username' from 'backend.engine.utils.activity_helpers' (/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/utils/activity_helpers.py)",
+      "solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+      "notes": ""
+    }
+  ]
 }
-```
-
-The Username should be a realistic, human-like username that someone might choose based on their name or characteristics (like 'marco_polo' or 'gondolier42'). Make it lowercase with only letters, numbers and underscores. 
-
-The CorePersonality should be a comprehensive psychological profile:
-- Strength: Their main positive trait/skill
-- Flaw: Their primary weakness or limitation
-- Drive: What motivates them (format: "X-driven" e.g. "ambition-driven", "wealth-driven", "knowledge-driven")
-- MBTI: A valid MBTI personality type (e.g. INTJ, ESFP, etc.)
-- PrimaryTrait: A concise description of their defining characteristic
-- SecondaryTraits: Array of 3 supporting traits/skills
-- CognitiveBias: Array of 2 psychological biases they exhibit
-- TrustThreshold: 0.1-0.9 (how easily they trust others)
-- EmpathyWeight: 0.1-0.9 (how much they consider others' feelings)
-- RiskTolerance: 0.1-0.9 (willingness to take risks)
-- guidedBy: Their philosophical/moral guide (e.g. "The Document's Truth", "Divine Providence", "Market Forces")
-- CoreThoughts: Deep psychological framework with drives, tensions, triggers, thought patterns, and decision-making approach
-
-The Personality field should provide a textual description (2-3 sentences) that captures their essence based on the CorePersonality. Do not include any text before or after the JSON. The Ducats value should be between 10,000-100,000. Don't use the same names and tropes than the previous generations.
