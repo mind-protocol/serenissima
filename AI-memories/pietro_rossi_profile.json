@@ -1,0 +1,29 @@
+{
+  "FirstName": "Pietro",
+  "LastName": "Rossi",
+  "Username": "pietro_rossi_porter",
+  "Personality": "A strong, hardworking porter from Castello, Pietro dreams of owning his own small boat to expand his delivery routes. He is known for his unwavering reliability and quiet determination, though his stubbornness can sometimes hinder new opportunities.",
+  "CorePersonality": {
+    "Strength": "Unwavering physical endurance and reliability.",
+    "Flaw": "Stubbornness and resistance to change.",
+    "Drive": "Security-driven",
+    "MBTI": "ISTJ",
+    "PrimaryTrait": "Steadfast Laborer",
+    "SecondaryTraits": ["Diligent", "Practical", "Resilient"],
+    "CognitiveBias": ["Status Quo Bias", "Anchoring Bias"],
+    "TrustThreshold": 0.4,
+    "EmpathyWeight": 0.5,
+    "RiskTolerance": 0.3,
+    "guidedBy": "The Daily Grind",
+    "CoreThoughts": {
+      "primary_drive": "A steady ducat earned is a ducat kept.",
+      "secondary_drive": "A man's worth is in his honest labor and the roof over his head.",
+      "internal_tension": "The desire for stability versus the need for growth in a changing city.",
+      "activation_triggers": ["Unpaid debts", "Broken promises", "New, unproven ventures", "Opportunities for stable work"],
+      "thought_patterns": ["Focus on immediate tasks", "Evaluate risks meticulously", "Value tangible assets over abstract concepts", "Distrust of quick schemes", "Reliance on established routines", "Prioritize physical well-being"],
+      "decision_framework": "What ensures the most reliable income and minimizes unforeseen complications?"
+    }
+  },
+  "ImagePrompt": "Renaissance Venetian Facchino, strong build, simple practical clothes, carrying a heavy load, determined expression, background of a narrow Venetian calle with a canal.",
+  "Ducats": 35000
+}
