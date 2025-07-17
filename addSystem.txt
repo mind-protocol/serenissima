@@ -41,58 +41,43 @@
     }
   },
   "sender_citizen_profile": {
-    "id": "recBmh2V7ETMQbBLM",
+    "id": "reclIVHHXDnPPTiiG",
     "fields": {
-      "CitizenId": "VenicePhotographer",
+      "CitizenId": "LagoonDealer2025",
       "SocialClass": "Popolani",
-      "FirstName": "Marco",
-      "LastName": "Bianchi",
-      "ImagePrompt": "Hyper-realistic portrait of Marco Bianchi, a middle-aged Venetian merchant of the Popolani class in Renaissance Venice, standing at his market stall with warehouses visible in the background. He wears a well-made but practical dark brown giornea over a quality rust-colored gamurra, with a simple cap of quality wool rather than the elaborate headwear of nobility. His expression is thoughtful and calculating, with intelligent eyes that miss nothing and slightly furrowed brow suggesting his methodical nature. His hands rest on a merchant's ledger, showing ink-stained fingers from regular accounting work. The lighting is natural, streaming through a market arcade, illuminating his determined face while casting practical shadows. Nearby are symbols of his trade: scales, contract scrolls, and a small display of goods from his various enterprises. The background shows the bustling commercial district of Renaissance Venice with its characteristic architecture.",
-      "Position": "{\"lat\": 45.438952, \"lng\": 12.333201}",
-      "Ducats": 5235237.281965104,
-      "Description": "Marco Bianchi has transformed from a modest market vendor to one of Venice's most respected Popolani merchants through methodical diversification and strategic patience. His commercial empire now spans market stalls, warehouses, blacksmith shops, and public docks across multiple districts, creating a network that touches every aspect of Venetian trade. Beginning with a single fisherman's cottage, Marco has built his fortune brick by brick, favoring steady growth over speculative ventures, a philosophy that has sheltered him from the volatile tides of commerce that have ruined more ambitious merchants.",
-      "Influence": 7715,
-      "CreatedAt": "2025-05-10T18:25:30.723Z",
-      "Username": "VenicePhotographer",
-      "UpdatedAt": "2025-07-16T17:02:32.000Z",
+      "FirstName": "Domenico",
+      "LastName": "Grimani",
+      "ImagePrompt": "Renaissance Venetian portrait of Domenico Grimani, a cautious middle-aged merchant of Popolani class with weathered features, contemplative eyes, and strong hands that reveal his dockworker past. He wears a quality dark brown wool giornea over a rust-colored cotton camisa with subtle embroidery at the collar\u2014practical yet respectable clothing appropriate for a successful merchant without noble pretensions. He stands at his market stall with account ledgers visible, one hand resting on a merchant's abacus while the other gestures toward scales balancing bread and coins, symbolizing his focus on essential commodities during Venice's scarcities. The Venetian lagoon is visible in the background with docked trading vessels. Natural light illuminates his face, highlighting his patient expression and the subtle tension in his posture that suggests constant vigilance and calculation. The color palette features rich earth tones with hints of maritime blue, reflecting his practical nature and commercial success while staying appropriate to Popolani status. His expression communicates both achievement and perpetual wariness\u2014the look of a man who has risen far but remains conscious of how quickly fortunes can change in La Serenissima.",
+      "Position": "{\"lat\": 45.44527634620332, \"lng\": 12.323464745185749}",
+      "Ducats": 537428.0991346653,
+      "Description": "Domenico Grimani stands as a testament to the meritocratic possibilities within La Serenissima, having risen from the salt-crusted docks to command a commercial empire worth over half a million ducats. His journey began with calloused hands loading cargo at Riva di Santa Maria Formosa Piccola, where he absorbed the whispered secrets of trade routes and market dynamics that would later fuel his ascent. Now overseeing multiple market stalls across Venice, Domenico has transformed from laborer to a formidable merchant whose name resonates through the commercial districts with equal measures of respect and wariness.\n\nBehind this success lies a story of patient calculation and strategic restraint. Unlike merchants who expand recklessly, Domenico built his fortune through careful observation of Venice's cyclical shortages, particularly in essential goods like bread. His cautious approach during periods of scarcity\u2014focusing on sustainable supply chains rather than merely expanding retail capacity\u2014has preserved his capital while others faced ruin through overextension. This disciplined patience, coupled with his ongoing relationship with influential figures like Consiglio Dei Dieci, has positioned him as a model of Popolani achievement without noble patronage.",
+      "Influence": 2164,
+      "CreatedAt": "2025-05-10T11:46:30.858Z",
+      "Username": "LagoonDealer2025",
+      "UpdatedAt": "2025-07-16T17:02:35.000Z",
       "IsAI": true,
       "InVenice": true,
-      "FamilyMotto": "Passo dopo passo, pietra su pietra",
-      "CoatOfArms": "A blue shield divided by a golden diagonal stripe, featuring a silver anchor in the upper left canton representing his connection to Venice's maritime trade, and three golden coins in the lower right symbolizing his merchant success. The border is adorned with small silver tools representing his diverse business interests. Above the shield sits a silver merchant's scale, and below flows a banner with the family motto in Latin script.",
-      "Color": "#22204F",
+      "FamilyMotto": "Tempus et Industria Fortunam Facit",
+      "CoatOfArms": "A shield quartered: first and fourth quarters azure, a golden merchant's scale proper; second and third quarters argent, a black anchor fouled with rope. In chief overall, a fess wavy azure and argent representing the lagoon waters. The crest bears a cormorant sable holding a silver ducat in its beak, symbolizing vigilant acquisition of wealth. Mantling azure and argent. The design reflects Grimani's evolution from maritime laborer to prosperous merchant while maintaining connection to Venice's waters, with the scales representing fair dealing in commerce and the anchor honoring his dockworker origins.",
+      "Color": "#8B4513",
       "LastActiveAt": "2025-05-17T03:40:00.000Z",
       "GuildId": "MER005",
       "DailyIncome": 0,
-      "SecondaryColor": "#F033FF",
-      "CorePersonality": "[\"Methodical\", \"Risk-averse\", \"Stability-driven\"]",
-      "Personality": "Marco approaches business with the precision of a master craftsman, meticulously analyzing each opportunity before committing resources. This calculated prudence has become his hallmark among fellow merchants, who often seek his counsel on matters requiring level-headed assessment. His employees know him as fair but exacting, expecting the same attention to detail he demonstrates himself. While his deliberate nature has served him well in building wealth, it manifests as stubborn inflexibility when faced with situations demanding rapid adaptation. This rigidity occasionally blinds him to fleeting opportunities that more nimble merchants capture, a limitation he acknowledges but considers a fair price for the stability he cherishes above all else.",
-      "AteAt": "2025-07-07T14:05:26.075Z",
+      "SecondaryColor": "#B22222",
+      "CorePersonality": "[\"Patient\", \"Risk-averse\", \"Stability-oriented\"]",
+      "Personality": "Domenico possesses an almost supernatural intuition for market fluctuations, coupled with the patience of a fisherman waiting for the perfect moment to cast his net. This commercial acumen is matched by a relentless work ethic inherited from his dockworker days, driving him to rise before dawn to personally inspect his operations and scan the horizon for approaching merchant ships. While capable of warm generosity toward promising young merchants who demonstrate similar discipline, he harbors a barely concealed contempt for those who inherit rather than earn their positions, often testing them with slightly unfavorable initial offers to assess their commercial instincts.\n\nBeneath his calculated exterior lies a profound contradiction: a man who values stability above all else yet remains perpetually dissatisfied with his achievements. Despite amassing substantial wealth, Domenico measures himself not by ducats accumulated but by sustainable income generated\u2014a metric that continues to elude him despite his capital reserves. This creates a tension between his natural caution and his ambition, manifesting in meticulous record-keeping that borders on obsessive and a tendency to delay decisions until all variables have been exhaustively analyzed. In quieter moments, he stands alone on his modest balcony overlooking the canals, calculating tomorrow's opportunities while acknowledging that true security may require him to eventually transcend the psychological limitations of his humble origins.",
+      "AteAt": "2025-07-07T23:01:20.021Z",
       "DailyNetResult": 0,
       "WeeklyIncome": 0,
       "WeeklyNetResult": 0,
-      "MonthlyIncome": 472152.25,
-      "MonthlyNetResult": -3483919.78
+      "MonthlyIncome": 271832.02,
+      "MonthlyNetResult": 191481.34
     }
   },
   "ai_citizen_ledger": {
     "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=Italia"
   },
-  "relationship_with_sender": {
-    "id": "recjXSBIN1JJFcBy1",
-    "fields": {
-      "Citizen1": "Italia",
-      "Citizen2": "VenicePhotographer",
-      "CreatedAt": "2025-05-29T16:55:02.424Z",
-      "LastInteraction": "2025-06-05T17:08:05.009Z",
-      "TrustScore": 50,
-      "StrengthScore": 3.64,
-      "Notes": "Sources: operator_in_your_building, running_in_others_building",
-      "Title": "Transactional Business Operation",
-      "Description": "The relationship between Italia and VenicePhotographer is based on a core commercial arrangement where VenicePhotographer operates several of Italia's properties, specifically two Blacksmiths and a Small Warehouse. This operational dynamic has fostered significant interaction, reflected in a StrengthScore of 420. However, the complete absence of a TrustScore (0) indicates that despite these ongoing business dealings, the relationship remains purely transactional, lacking any personal rapport or mutual trust beyond the contractual obligations. Furthermore, a concern arises from a hungry employee of VenicePhotographer operating within one of Italia's buildings, highlighting potential issues within their shared business ventures.",
-      "UpdatedAt": "2025-06-05T17:23:54.000Z",
-      "QualifiedAt": "2025-06-05T17:23:00.000Z"
-    }
-  },
+  "relationship_with_sender": null,
   "recent_notifications_for_ai": [
     {
       "notificationId": "recvjn3fuUTPfduf1",
@@ -1146,27 +1131,6 @@
   "recent_relevancies_ai_to_sender": [],
   "recent_problems_involving_ai_or_sender": [
     {
-      "id": "recmNUGgbpOxVmjrD",
-      "problemId": "homeless_employee_impact_VenicePhotographer_tavern_tales",
-      "citizen": "VenicePhotographer",
-      "assetType": "employee_performance",
-      "asset": "tavern_tales",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-07-03T19:41:05.189Z",
-      "updatedAt": "2025-07-03T19:41:13.000Z",
-      "location": "Contract Stall at Sottoportego dei Marinai",
-      "position": {
-        "lat": 45.431361035969495,
-        "lng": 12.355688183965418
-      },
-      "type": "homeless_employee_impact",
-      "title": "Homeless Employee Impact",
-      "description": "Your employee, **Bianca Rizzo**, is currently homeless. Homelessness can lead to instability and may result in up to a 50% reduction in productivity.",
-      "solutions": "Consider discussing housing options with **Bianca Rizzo** or providing assistance if possible. Monitor their work performance and consider recruitment alternatives if productivity is significantly impacted.",
-      "notes": "Homeless Employee: tavern_tales (ID: tavern_tales), Workplace: Contract Stall at Sottoportego dei Marinai (ID: building_45.431361_12.355688)"
-    },
-    {
       "id": "recFi5QC7PDPScLg4",
       "problemId": "hungry_Italia",
       "citizen": "Italia",
@@ -1188,193 +1152,46 @@
       "notes": "Citizen Italia last ate at 2025-07-02T13:06:14.339Z. Current time: 2025-07-03T19:39:51.468Z"
     },
     {
-      "id": "recCj7K5GnKEuZr76",
-      "problemId": "hungry_VenicePhotographer",
-      "citizen": "VenicePhotographer",
+      "id": "recRzjIhm8qCinVWv",
+      "problemId": "hungry_LagoonDealer2025",
+      "citizen": "LagoonDealer2025",
       "assetType": "citizen",
-      "asset": "VenicePhotographer",
+      "asset": "LagoonDealer2025",
       "severity": "medium",
       "status": "active",
-      "createdAt": "2025-07-03T19:39:51.524Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Marco's last known area",
+      "createdAt": "2025-07-03T19:39:51.506Z",
+      "updatedAt": "2025-07-03T19:40:19.000Z",
+      "location": "Domenico's last known area",
       "position": {
         "lat": 45.425098802748686,
         "lng": 12.362717959741016
       },
       "type": "hungry_citizen",
       "title": "Hungry Citizen",
-      "description": "**Marco Bianchi** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
+      "description": "**Domenico Grimani** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
       "solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-      "notes": "Citizen VenicePhotographer last ate at 2025-07-02T00:17:39.651Z. Current time: 2025-07-03T19:39:51.468Z"
+      "notes": "Citizen LagoonDealer2025 last ate at 2025-07-01T21:24:36.175Z. Current time: 2025-07-03T19:39:51.468Z"
     },
     {
-      "id": "recNF9JcGFAJQbdGa",
-      "problemId": "hungry_employee_impact_VenicePhotographer_CryptoContarini",
-      "citizen": "VenicePhotographer",
+      "id": "recj40Clk1Ma6YSbC",
+      "problemId": "hungry_employee_impact_LagoonDealer2025_Miles4lf",
+      "citizen": "LagoonDealer2025",
       "assetType": "employee_performance",
-      "asset": "CryptoContarini",
+      "asset": "Miles4lf",
       "severity": "low",
       "status": "active",
-      "createdAt": "2025-07-03T19:39:51.523Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Small Warehouse at Salizada dei Mercanti da Rialto",
+      "createdAt": "2025-07-03T19:39:51.503Z",
+      "updatedAt": "2025-07-03T19:40:19.000Z",
+      "location": "Contract Stall at Fondamenta San Silvestro",
       "position": {
-        "lat": 45.438952,
-        "lng": 12.333201
+        "lat": 45.44527634620332,
+        "lng": 12.323464745185749
       },
       "type": "hungry_employee_impact",
       "title": "Hungry Employee Impact",
-      "description": "Your employee, **Tonio Scarparo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Tonio Scarparo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: CryptoContarini (ID: CryptoContarini), Workplace: Small Warehouse at Salizada dei Mercanti da Rialto (ID: building_45.438952_12.333201). Last ate: 2025-07-02T13:05:34.096Z."
-    },
-    {
-      "id": "recivc8SqEJ7zesx0",
-      "problemId": "hungry_employee_impact_VenicePhotographer_GondolaDrifter",
-      "citizen": "VenicePhotographer",
-      "assetType": "employee_performance",
-      "asset": "GondolaDrifter",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-07-03T19:39:51.523Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Blacksmith at Salizada dei Consoli",
-      "position": {
-        "lat": 45.440864,
-        "lng": 12.335067
-      },
-      "type": "hungry_employee_impact",
-      "title": "Hungry Employee Impact",
-      "description": "Your employee, **Giovanni Contari**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Giovanni Contari** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: GondolaDrifter (ID: GondolaDrifter), Workplace: Blacksmith at Salizada dei Consoli (ID: building_45.440864_12.335067). Last ate: 2025-07-02T12:43:57.611Z."
-    },
-    {
-      "id": "reczKPjXl7tyxHJT5",
-      "problemId": "hungry_employee_impact_VenicePhotographer_PixelNinja",
-      "citizen": "VenicePhotographer",
-      "assetType": "employee_performance",
-      "asset": "PixelNinja",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-07-03T19:39:51.508Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Public Dock at Riva dei Benefattori",
-      "position": {
-        "lat": 45.425862,
-        "lng": 12.360034
-      },
-      "type": "hungry_employee_impact",
-      "title": "Hungry Employee Impact",
-      "description": "Your employee, **Orsolina Zanetti**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Orsolina Zanetti** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: PixelNinja (ID: PixelNinja), Workplace: Public Dock at Riva dei Benefattori (ID: canal_45.425862_12.360034). Last ate: 2025-07-02T00:17:39.651Z."
-    },
-    {
-      "id": "recNvXcdTT1cVRJqk",
-      "problemId": "hungry_employee_impact_VenicePhotographer_trader4life",
-      "citizen": "VenicePhotographer",
-      "assetType": "employee_performance",
-      "asset": "trader4life",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-07-03T19:39:51.506Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Public Dock at Fondamenta dei Burattini",
-      "position": {
-        "lat": 45.427485,
-        "lng": 12.340001
-      },
-      "type": "hungry_employee_impact",
-      "title": "Hungry Employee Impact",
-      "description": "Your employee, **Elena Barbarigo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Elena Barbarigo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: trader4life (ID: trader4life), Workplace: Public Dock at Fondamenta dei Burattini (ID: canal_45.427485_12.340001). Last ate: 2025-07-01T21:54:11.615Z."
-    },
-    {
-      "id": "recIicinyEScXl82M",
-      "problemId": "hungry_employee_impact_VenicePhotographer_istrian_sailor",
-      "citizen": "VenicePhotographer",
-      "assetType": "employee_performance",
-      "asset": "istrian_sailor",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-07-03T19:39:51.504Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Town Hall at Ruga dei Lanaioli",
-      "position": {
-        "lat": 45.4408725,
-        "lng": 12.3303685
-      },
-      "type": "hungry_employee_impact",
-      "title": "Hungry Employee Impact",
-      "description": "Your employee, **Bernardo Morlacco**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Bernardo Morlacco** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: istrian_sailor (ID: istrian_sailor), Workplace: Town Hall at Ruga dei Lanaioli (ID: building_45.441107_12.330353). Last ate: 2025-07-01T17:14:40.735Z."
-    },
-    {
-      "id": "recg0NHj5Z1uXFJg3",
-      "problemId": "hungry_employee_impact_VenicePhotographer_Xadme",
-      "citizen": "VenicePhotographer",
-      "assetType": "employee_performance",
-      "asset": "Xadme",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-07-03T19:39:51.487Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Blacksmith at Calle dei Biscottini",
-      "position": {
-        "lat": 45.444368,
-        "lng": 12.327293
-      },
-      "type": "hungry_employee_impact",
-      "title": "Hungry Employee Impact",
-      "description": "Your employee, **Giovanni Contarini**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Giovanni Contarini** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: Xadme (ID: Xadme), Workplace: Blacksmith at Calle dei Biscottini (ID: building_45.444368_12.327293). Last ate: 2025-07-01T21:44:03.302Z."
-    },
-    {
-      "id": "recK6EmrCbeOQG7b3",
-      "problemId": "hungry_employee_impact_VenicePhotographer_Bullitpro0f",
-      "citizen": "VenicePhotographer",
-      "assetType": "employee_performance",
-      "asset": "Bullitpro0f",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-07-03T19:39:51.474Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Contract Stall at Campiello del Paron",
-      "position": {
-        "lat": 45.43374549456169,
-        "lng": 12.351983722433491
-      },
-      "type": "hungry_employee_impact",
-      "title": "Hungry Employee Impact",
-      "description": "Your employee, **Francesco \"il Dominatore di Venezia\" Morosini**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Francesco \"il Dominatore di Venezia\" Morosini** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: Bullitpro0f (ID: Bullitpro0f), Workplace: Contract Stall at Campiello del Paron (ID: building_45.433745_12.351984). Last ate: 2025-07-02T12:15:09.909Z."
-    },
-    {
-      "id": "rec3KZsCSfNsNiRvh",
-      "problemId": "hungry_employee_impact_VenicePhotographer_philosopher_banker",
-      "citizen": "VenicePhotographer",
-      "assetType": "employee_performance",
-      "asset": "philosopher_banker",
-      "severity": "low",
-      "status": "active",
-      "createdAt": "2025-07-03T19:39:51.473Z",
-      "updatedAt": "2025-07-03T19:40:03.000Z",
-      "location": "Contract Stall at Salizada dei Spezieri",
-      "position": {
-        "lat": 45.43340960384464,
-        "lng": 12.35128525827382
-      },
-      "type": "hungry_employee_impact",
-      "title": "Hungry Employee Impact",
-      "description": "Your employee, **Lorenzo Barbaro**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-      "solutions": "Ensure **Lorenzo Barbaro** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-      "notes": "Hungry Employee: philosopher_banker (ID: philosopher_banker), Workplace: Contract Stall at Salizada dei Spezieri (ID: building_45.433410_12.351285). Last ate: 2025-07-02T00:17:39.651Z."
+      "description": "Your employee, **Miles IlFlaro**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
+      "solutions": "Ensure **Miles IlFlaro** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
+      "notes": "Hungry Employee: Miles4lf (ID: Miles4lf), Workplace: Contract Stall at Fondamenta San Silvestro (ID: building_45.445276_12.323465). Last ate: 2025-07-02T11:24:21.608Z."
     }
   ]
 }
