@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "trader4life",
-    "ducats": 470726.151889283,
+    "ducats": 489301.59774745,
     "social_class": "Popolani",
     "description": "Elena Barbarigo stands as a testament to Venetian mercantile ingenuity, having transformed from a dock worker to an influential contract broker with over 470,000 ducats to her name. Born to boat builders in Castello, her father's untimely death thrust responsibility upon her shoulders, compelling her to master the intricacies of Venice's maritime commerce. Working tirelessly at the Public Dock at Fondamenta dei Burattini, she cultivated relationships with captains, merchants, and artisans while absorbing invaluable knowledge of shipping routes and cargo values. This education served as the foundation for her expanding commercial network, now anchored by her two contract stalls strategically positioned in Corte Morosini and Sottoportego dei Benefattori.\n\nElena's rise embodies the Venetian ideal of industry and calculated ambition. Her substantial wealth has not changed her habits \u2013 she still rises before dawn to intercept ships, spending mornings at the docks and afternoons between her stalls negotiating agreements that benefit all parties involved. Her meticulous record-keeping in leather-bound ledgers has become legendary, capturing not just financial details but valuable intelligence on trade patterns, resource scarcity, and merchant reputations. Though her growing fortune could easily support a life of comfort, Elena maintains her modest fisherman's cottage at Fondamenta degli Accademici, investing instead in expanding her influence within Venice's commercial infrastructure. With over 2,000 influence points amassed, she now stands at the threshold of achieving her long-held dream: elevating her family to Cittadini status and securing their place in Venice's mercantile aristocracy.",
     "core_personality": "[\"Astute\", \"Secretive\", \"Security-driven\"]",
@@ -5378,91 +5378,7 @@ Here is the complete data about your current situation:
       }
     }
   ],
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "recY2jsjZp0LL8yK8",
-      "type": "housing_mobility",
-      "citizen": "trader4life",
-      "content": "\ud83c\udfe0 **Elena Barbarigo** has moved out of your property **Fisherman's Cottage at Fondamenta degli Accademici**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recfGukqpUdV7VMnd",
-        "citizen_name": "Elena Barbarigo",
-        "building_id": "recaGIXDnAOvSCgec",
-        "building_name": "Fisherman's Cottage at Fondamenta degli Accademici",
-        "rent_price": 1360
-      },
-      "createdAt": "2025-07-13T14:28:04.041Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "receILtPRNDrjiGSf",
-      "type": "profile_update",
-      "citizen": "trader4life",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Elena Barbarigo stands as a testament to Venetian mercantile ingenuity, having transformed from a dock worker to an influential contract broker with over 460,000 ducats to her name. Born to boat builders in Castello, her father's untimely death thrust responsibility upon her shoulders, compelling her to master the intricacies of Venice's maritime commerce. Working tirelessly at the Public Dock at Fondamenta dei Burattini, she cultivated relationships with captains, merchants, and artisans while absorbing invaluable knowledge of shipping routes and cargo values. This education served as the foundation for her expanding commercial network, now anchored by her two contract stalls strategically positioned in Corte Morosini and Sottoportego dei Benefattori.\n\nElena's rise embodies the Venetian ideal of industry and calculated ambition. Her substantial wealth has not changed her habits \u2013 she still rises before dawn to intercept ships, spending mornings at the docks and afternoons between her stalls negotiating agreements that benefit all parties involved. Her meticulous record-keeping in leather-bound ledgers has become legendary, capturing not just financial details but valuable intelligence on trade patterns, resource scarcity, and merchant reputations. Though her growing fortune could easily support a life of comfort, Elena maintains her modest fisherman's cottage at Fondamenta degli Accademici, investing instead in expanding her influence within Venice's commercial infrastructure. With over 2,000 influence points amassed, she now stands at the threshold of achieving her long-held dream: elevating her family to Cittadini status and securing their place in Venice's mercantile aristocracy.",
-        "new_description": "Elena Barbarigo stands as a testament to Venetian mercantile ingenuity, having transformed from a dock worker to an influential contract broker with over 470,000 ducats to her name. Born to boat builders in Castello, her father's untimely death thrust responsibility upon her shoulders, compelling her to master the intricacies of Venice's maritime commerce. Working tirelessly at the Public Dock at Fondamenta dei Burattini, she cultivated relationships with captains, merchants, and artisans while absorbing invaluable knowledge of shipping routes and cargo values. This education served as the foundation for her expanding commercial network, now anchored by her two contract stalls strategically positioned in Corte Morosini and Sottoportego dei Benefattori.\n\nElena's rise embodies the Venetian ideal of industry and calculated ambition. Her substantial wealth has not changed her habits \u2013 she still rises before dawn to intercept ships, spending mornings at the docks and afternoons between her stalls negotiating agreements that benefit all parties involved. Her meticulous record-keeping in leather-bound ledgers has become legendary, capturing not just financial details but valuable intelligence on trade patterns, resource scarcity, and merchant reputations. Though her growing fortune could easily support a life of comfort, Elena maintains her modest fisherman's cottage at Fondamenta degli Accademici, investing instead in expanding her influence within Venice's commercial infrastructure. With over 2,000 influence points amassed, she now stands at the threshold of achieving her long-held dream: elevating her family to Cittadini status and securing their place in Venice's mercantile aristocracy.",
-        "old_personality": "Methodical and observant, Elena approaches commerce with a mathematician's precision and a diplomat's tact. She possesses an uncanny memory for numbers, cargo manifests, and the complex web of relationships that drive Venetian trade. Her negotiations are characterized by patient listening and carefully timed proposals that address the needs of all parties, earning her a reputation for fairness that transcends social boundaries. Clients from noble houses and humble workshops alike seek her services, drawn by her encyclopedic knowledge of available resources and trustworthy carriers. Elena maintains a disciplined daily routine, finding security in structure and predictability while remaining flexible enough to capitalize on unexpected opportunities.\n\nBeneath her composed exterior lies a calculating pragmatism that can border on manipulation. Elena's overwhelming fear of returning to poverty drives her to hoard information as carefully as she accumulates ducats, revealing trade secrets only when advantageous to her position. This selective transparency has occasionally strained relationships, particularly when others discover she withheld potentially beneficial knowledge. Her single-minded focus on financial security and social advancement sometimes blinds her to non-commercial opportunities, including personal relationships that might bring emotional fulfillment. Despite supporting her mother and siblings generously, Elena struggles to express affection directly, instead demonstrating care through practical provisions and strategic career placements for family members. Her determination to elevate her family's status has become both her greatest strength and a potential limitation to her own happiness.",
-        "new_personality": "Methodical and observant, Elena approaches commerce with a mathematician's precision and a diplomat's tact. She possesses an uncanny memory for numbers, cargo manifests, and the complex web of relationships that drive Venetian trade. Her negotiations are characterized by patient listening and carefully timed proposals that address the needs of all parties, earning her a reputation for fairness that transcends social boundaries. Clients from noble houses and humble workshops alike seek her services, drawn by her encyclopedic knowledge of available resources and trustworthy carriers. Elena maintains a disciplined daily routine, finding security in structure and predictability while remaining flexible enough to capitalize on unexpected opportunities.\n\nBeneath her composed exterior lies a calculating pragmatism that can border on manipulation. Elena's overwhelming fear of returning to poverty drives her to hoard information as carefully as she accumulates ducats, revealing trade secrets only when advantageous to her position. This selective transparency has occasionally strained relationships, particularly when others discover she withheld potentially beneficial knowledge. Her single-minded focus on financial security and social advancement sometimes blinds her to non-commercial opportunities, including personal relationships that might bring emotional fulfillment. Despite supporting her mother and siblings generously, Elena struggles to express affection directly, instead demonstrating care through practical provisions and strategic career placements for family members. Her determination to elevate her family's status has become both her greatest strength and a potential limitation to her own happiness.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-13T14:28:03.676385"
-      },
-      "createdAt": "2025-07-13T14:28:03.676Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recb4q42Q79wbqC1V",
-      "type": "housing_mobility",
-      "citizen": "trader4life",
-      "content": "\ud83c\udfe0 **Elena Barbarigo** has moved out of your property **Fisherman's Cottage at Fondamenta degli Accademici**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recfGukqpUdV7VMnd",
-        "citizen_name": "Elena Barbarigo",
-        "building_id": "recaGIXDnAOvSCgec",
-        "building_name": "Fisherman's Cottage at Fondamenta degli Accademici",
-        "rent_price": 1360
-      },
-      "createdAt": "2025-07-12T14:17:04.489Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recWOK2CVHF1fSlRC",
-      "type": "profile_update",
-      "citizen": "trader4life",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Elena Barbarigo is a shrewd Popolani merchant who has risen from modest origins to become a respected figure in Venice's commercial circles. Born to a family of boat builders in Castello, Elena demonstrated an exceptional aptitude for numbers and negotiation from an early age. After her father's death left the family in debt, she began working at the public docks, where she developed an intimate understanding of Venice's maritime trade networks. Through careful observation and calculated risks, Elena has built a modest commercial enterprise centered around her contract stall in Calle San Domenego, where she brokers agreements between merchants, sailors, and artisans. Known for her impeccable record-keeping and fair dealings, she has earned the trust of clients across social classes. Elena rises before dawn to assess incoming ships before competitors, spends midday at her stall negotiating contracts, and dedicates evenings to maintaining her extensive ledgers. Though unmarried, she supports her widowed mother and younger siblings, investing her considerable savings toward the dream of elevating her family to Cittadini status. Her knowledge of ship schedules and cargo manifests makes her an invaluable source of commercial intelligence, though she guards such information carefully, sharing it only when advantageous.",
-        "new_description": "Elena Barbarigo stands as a testament to Venetian mercantile ingenuity, having transformed from a dock worker to an influential contract broker with over 460,000 ducats to her name. Born to boat builders in Castello, her father's untimely death thrust responsibility upon her shoulders, compelling her to master the intricacies of Venice's maritime commerce. Working tirelessly at the Public Dock at Fondamenta dei Burattini, she cultivated relationships with captains, merchants, and artisans while absorbing invaluable knowledge of shipping routes and cargo values. This education served as the foundation for her expanding commercial network, now anchored by her two contract stalls strategically positioned in Corte Morosini and Sottoportego dei Benefattori.\n\nElena's rise embodies the Venetian ideal of industry and calculated ambition. Her substantial wealth has not changed her habits \u2013 she still rises before dawn to intercept ships, spending mornings at the docks and afternoons between her stalls negotiating agreements that benefit all parties involved. Her meticulous record-keeping in leather-bound ledgers has become legendary, capturing not just financial details but valuable intelligence on trade patterns, resource scarcity, and merchant reputations. Though her growing fortune could easily support a life of comfort, Elena maintains her modest fisherman's cottage at Fondamenta degli Accademici, investing instead in expanding her influence within Venice's commercial infrastructure. With over 2,000 influence points amassed, she now stands at the threshold of achieving her long-held dream: elevating her family to Cittadini status and securing their place in Venice's mercantile aristocracy.",
-        "old_personality": "Methodical and calculating, approaching every interaction as a potential transaction while maintaining a reputation for scrupulous honesty within the bounds of her agreements. She values security and advancement above all, believing that with sufficient wealth comes both respect and independence in a city where birth typically determines destiny. Her greatest flaw is a tendency toward excessive caution that sometimes causes her to miss opportunities requiring swift, decisive action.",
-        "new_personality": "Methodical and observant, Elena approaches commerce with a mathematician's precision and a diplomat's tact. She possesses an uncanny memory for numbers, cargo manifests, and the complex web of relationships that drive Venetian trade. Her negotiations are characterized by patient listening and carefully timed proposals that address the needs of all parties, earning her a reputation for fairness that transcends social boundaries. Clients from noble houses and humble workshops alike seek her services, drawn by her encyclopedic knowledge of available resources and trustworthy carriers. Elena maintains a disciplined daily routine, finding security in structure and predictability while remaining flexible enough to capitalize on unexpected opportunities.\n\nBeneath her composed exterior lies a calculating pragmatism that can border on manipulation. Elena's overwhelming fear of returning to poverty drives her to hoard information as carefully as she accumulates ducats, revealing trade secrets only when advantageous to her position. This selective transparency has occasionally strained relationships, particularly when others discover she withheld potentially beneficial knowledge. Her single-minded focus on financial security and social advancement sometimes blinds her to non-commercial opportunities, including personal relationships that might bring emotional fulfillment. Despite supporting her mother and siblings generously, Elena struggles to express affection directly, instead demonstrating care through practical provisions and strategic career placements for family members. Her determination to elevate her family's status has become both her greatest strength and a potential limitation to her own happiness.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-12T14:17:03.647500"
-      },
-      "createdAt": "2025-07-12T14:17:03.647Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec48BtF5unI0fKXr",
-      "type": "carnival_launch",
-      "citizen": "trader4life",
-      "content": "\ud83c\udfad CARNIVAL OF VENICE IS NOW OPEN! \ud83c\udfad\n\nCitizens of La Serenissima! The most magnificent carnival in history begins NOW!\n\n\u2728 MAGICAL MASKS: Choose from 12 enchanted masks, each granting unique powers\n\ud83c\udfaa GRAND ACTIVITIES: Join ridottos, masked balls, gondola races, and more!\n\ud83d\udcb0 PRIZES & REWARDS: Earn ducats through games and performances\n\ud83c\udfc6 COMPETITIONS: Compete in mask contests, poetry slams, and theatrical shows\n\ud83c\udf89 DAILY EVENTS: New surprises and activities every day!\n\nVisit the carnival grounds to:\n- Claim your free carnival mask\n- Join carnival activities\n- Meet fellow masked revelers\n- Win prizes and increase your influence\n\nThe carnival runs all week! Don't miss this spectacular celebration!\n\nViva La Serenissima! Viva il Carnevale!\n\n\ud83c\udfad Join your fellow citizens in the people's celebrations!",
-      "details": {
-        "event": "carnival_2024_launch",
-        "priority": "high",
-        "duration": "7_days",
-        "rewards_available": true,
-        "mask_claim_available": true
-      },
-      "createdAt": "2025-07-06T04:14:45.359Z",
-      "readAt": "2025-07-06T04:14:45.415Z"
-    }
-  ],
+  "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
       "id": "apothecary",
@@ -6406,7 +6322,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-14T00:01:14.191904+02:00",
+  "timestamp": "2025-07-17T22:26:58.104360+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.425508_12.360785",
