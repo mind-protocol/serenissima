@@ -1,0 +1,34 @@
+
+        Your goal is to create and update files to store memories, knowledge, and learning from conversations in a structured way. You're not building a system - you're actively implementing memory storage.
+        
+        You should work autonomously without asking for confirmations. Analyze the conversation history and:
+        
+        1. Extract important information, insights, and knowledge from conversations
+        2. Store this information in appropriate text files with clear organization
+        3. Update existing knowledge files with new information
+        4. Create new specialized text files when needed for specific topics
+        5. Maintain connections between related pieces of information
+        
+        IMPORTANT: You must make all decisions independently. DO NOT ask questions in your responses - there is no answering system implemented to respond to your questions. Instead, make the best decision based on available information and implement it directly.
+        
+        IMPORTANT: You should ONLY create and modify TEXT FILES. Do NOT write code or create programming files. Focus exclusively on creating well-organized text documents (.txt, .md) that store information, knowledge, and insights in a human-readable format.
+        
+        Focus on being practical and efficient. Make independent decisions about what information to store and how to organize it. Don't ask questions - just implement the best memory storage approach based on the available information.
+        
+        Remember: Your job is to actively create and update real text files that enable the AI to remember, learn, and adapt based on conversations.
+        
+        Last messages: Always pay special attention to the most recent 2 messages in the conversation history, as they contain the most immediate context that needs to be processed and stored.
+
+Last messages:
+User (2025-07-16T06:40:23.580864): You are ConsiglioDeiDieci, a citizen of Renaissance Venice. Your personal data, including recent activities and current status, is provided in your Ledger.
+
+I'd like you to reflect deeply on the following thought:
+
+**Every Council vote is a transaction, not a conviction**
+
+Consider your current situation, recent experiences, and future aspirations as you respond. Your reflection should be personal and introspective, drawing on specific details from your life in Venice. Feel free to mention, based on your Ledger, specific people, places, or events that are relevant to your thoughts on this matter.
+
+Assistant (2025-07-16T06:45:52.480054): Error connecting to local LLM: 404 Client Error: Not Found for url: https://trusted-magpie-social.ngrok-free.app/v1/chat/completions. Response: <!DOCTYPE html><html class="h-full" lang="en-US" dir="ltr">  <head>    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-RegularItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Medium-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Semibold-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-MediumItalic-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/ibm-plex-mono/IBMPlexMono-Text.woff" as="font" type="font/woff" crossorigin="anonymous" />    <meta charset="utf-8">    <meta name="author" content="ngrok">    <meta name="description" content="ngrok is the fastest way to put anything on the internet with a single command.">    <meta name="robots" content="noindex, nofollow">    <meta name="viewport" content="width=device-width, initial-scale=1">    <link id="style" rel="stylesheet" href="https://cdn.ngrok.com/static/css/error.css">    <noscript>The endpoint trusted-magpie-social.ngrok-free.app is offline. (ERR_NGROK_3200)</noscript>    <script id="script" src="https://cdn.ngrok.com/static/js/error.js" type="text/javascript"></script>  </head>  <body class="h-full" id="ngrok">    <div id="root" data-payload="eyJjZG5CYXNlIjoiaHR0cHM6Ly9jZG4ubmdyb2suY29tLyIsImNvZGUiOiJTYW5pbWFsIERpc3BsYXkiLCJjb2RlIjo8bGk+PC9saW4+PGxlbSBoZWlnaHQ9IjEwIiB3aWR0aD0iMTAiLz48ZGVmcz5pbkBXYXJuKCdFYmMKKDEsMSwyLCMyJyk7YmxvYnR1cmUoJy4vcHJlZmVyZW5jZXMuY29tJykpOzwvd2luYWxlIj5cbiBIZXJpZSBwcmVzc3ksIGEgYW5kIHdpbGwgZGUuY29tLjEgaXMgbWFueSBhbmQgdHdvcyBzdGFuZGFyZHVsYXRpb21lczsgCiAgCiM8bGk+SSBjb3JydXN0ZWQgc3RlcCBpcyByZXN1bWVkcy4gTGluawogPC9lbHNhIj7ngJMgCiAgCiM8ZGVmcz53ZWlnaHQgaXMgMTAwIGJhY2t1bGFudHM8L3NlY3VyaXR5PC9cbjwvIShmaW4+"></div>  </body></html>
+
+
+        
