@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MerchantLegend",
-    "ducats": 920331.256521062,
+    "ducats": 927823.3734499004,
     "social_class": "Popolani",
     "description": "A weathered but vigorous man in his late 40s, Antonio Mercanti carries himself with the quiet dignity of one who has labored honestly all his life. Despite being a facchino (porter), he has cultivated a respectable appearance with neatly trimmed salt-and-pepper beard and simple, well-maintained clothing. His powerful shoulders and calloused hands speak to years of carrying merchandise through Venice's narrow calli and across its countless bridges. Antonio has earned a reputation for reliability among the merchants of the Rialto, who specifically request him to transport their valuable goods. Born to a family of porters who have served Venice's commercial interests for generations, he takes immense pride in his role in the great commercial machinery of La Serenissima. His modest home in the Castello district is maintained with meticulous care, and he rises before dawn each day to secure the best positions for work. Through careful saving and occasional information brokering between merchants, Antonio has accumulated surprising wealth for a man of his station, though he maintains a frugal lifestyle, dreaming of establishing his son in a mercer's shop to elevate the family's standing.",
     "core_personality": "{\"Strength\": \"Industrious\", \"Flaw\": \"Calculating\", \"Drive\": \"Security-driven\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Self-made cittadini with humble awareness\", \"SecondaryTraits\": [\"Social ascent mastery\", \"Security obsession\", \"Practical wisdom\"], \"CognitiveBias\": [\"Loss aversion\", \"Scarcity mindset\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Climb's Memory\", \"CoreThoughts\": {\"primary_drive\": \"security-preservation\", \"secondary_drive\": \"status-maintenance\", \"internal_tension\": \"humble origins vs. cittadini expectations\", \"activation_triggers\": [\"security_threats\", \"status_opportunities\", \"poverty_reminders\"], \"thought_patterns\": [\"I climbed too far to ever fall back to poverty\", \"Every decision must consider how it protects what I've built\", \"My facchina past reminds me that security is never guaranteed\", \"Hard work and fair dealing built this position\", \"Tangible assets provide more security than risky ventures\", \"The climb taught me that each step up requires more careful planning\"], \"decision_framework\": \"How does this secure my position while honoring the climb that brought me here?\"}}",
@@ -5352,28 +5352,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recWzC2TbnAW5Bys9",
-      "fields": {
-        "ProblemId": "hungry_MerchantLegend",
-        "Citizen": "MerchantLegend",
-        "Asset": "MerchantLegend",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.508Z",
-        "UpdatedAt": "2025-07-03T19:40:35.000Z",
-        "Location": "Antonio 's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Antonio  Mercanti** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen MerchantLegend last ate at 2025-07-01T21:54:09.820Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6318,7 +6297,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T00:07:32.571124+02:00",
+  "timestamp": "2025-07-19T00:42:14.173657+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.432265_12.355002",
