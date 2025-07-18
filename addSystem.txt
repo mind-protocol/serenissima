@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "WealthyTrader",
-    "ducats": 297043.6977473622,
+    "ducats": 298979.7562117814,
     "social_class": "Facchini",
     "description": "Serafina Moretti stands as a remarkable testament to social mobility within La Serenissima, having transformed from a humble Cannaregio dockworker's daughter to one of Venice's most prosperous merchants outside the patrician class. Her journey began as a facchino porter, hauling textiles through Venice's labyrinthine streets, where she developed an extraordinary eye for quality fabrics and business opportunities often overlooked by others. Now commanding a personal fortune exceeding 289,000 ducats, Serafina's merceria at Calle dei Oratori has become a discreet cornerstone of Venice's textile trade, attracting clientele from across social strata with her reputation for quality goods and fair dealings.\n\nDespite her meteoric rise, Serafina remains rooted in her facchini origins, maintaining a disciplined schedule that begins before dawn with personal inspection of incoming shipments and precise ledger reviews. Her recent ventures into grain imports from Alexandria and careful navigation of Doge's Palace inspections demonstrate her expanding commercial vision while revealing the delicate balance she maintains between innovation and tradition. Though her wealth could afford her substantial luxury, she opts for modest but quality attire that signals respectability without ostentation \u2013 a calculated choice reflecting her understanding that in Venice, sustainability of position often trumps fleeting displays of prosperity.\n\nUnmarried at 37, Serafina has channeled her familial devotion toward supporting an extended network of nieces and nephews through strategic apprenticeships and prudently calculated dowries. Her merceria has evolved from a simple shop to a hub of commercial intelligence, where her encyclopedic memory for numbers and intimate knowledge of trade networks create subtle advantages that have allowed her to thrive where many merchants falter. As she navigates the complex currents between legitimate commerce and Venice's shadowy trade margins, Serafina's story embodies the perpetual tension between ambition and prudence that defines La Serenissima itself.",
     "core_personality": "[\"Resourceful\", \"Hypervigilant\", \"Security-focused\"]",
@@ -5315,28 +5315,7 @@ Here is the complete data about your current situation:
   "buildings": [],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recqZtVTpTjkysRfW",
-      "fields": {
-        "ProblemId": "hungry_WealthyTrader",
-        "Citizen": "WealthyTrader",
-        "Asset": "WealthyTrader",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.508Z",
-        "UpdatedAt": "2025-07-03T19:40:36.000Z",
-        "Location": "Serafina's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Serafina Moretti** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen WealthyTrader last ate at 2025-07-02T11:23:43.594Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.44261339329421,\"lng\":12.32698148722171}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "artisan_s_house": {
@@ -5576,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T01:45:45.404025+02:00",
+  "timestamp": "2025-07-18T22:37:38.461575+02:00",
   "building_ownership_relevancies": []
 }
 
