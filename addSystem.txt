@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DogeLover88",
-    "ducats": 600664.7338945827,
+    "ducats": 607926.8508234211,
     "social_class": "Popolani",
     "description": "Lorenzo Mocenigo stands as a testament to the resilience and craft mastery of Venice's glassmaking tradition. Born to a humble Popolani family in the shadow of Murano's furnaces, his hands bear the calluses and minor burns of two decades dedicated to transforming sand and salt into luminous creations that grace patrician homes throughout La Serenissima. Despite accumulating considerable wealth through his diligent work at the Fondamenta dei Scudi workshop and his oversight of a mason's lodge, Lorenzo maintains the unassuming demeanor of his roots, preferring the rhythmic routine of the workshop to the political machinations of the wealthy.\n\nHis reputation for meticulous attention to detail has earned him respect among the Corporazione del Vetro Luminoso, though his reluctance to expand his operations during periods of resource scarcity reflects a calculated pragmatism rather than lack of ambition. The stability of his established practices provides comfort in Venice's volatile economic landscape, where even sand and salt\u2014the lifeblood of his craft\u2014can become scarce commodities overnight. When he speaks of glassmaking, his typically reserved demeanor gives way to passionate eloquence, revealing the depth of knowledge accumulated through years of patient observation and practice.",
     "core_personality": "[\"Methodical\", \"Overly-cautious\", \"Craft-perfection-driven\"]",
@@ -5327,48 +5327,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recsjROxkOHEv1QxH",
-      "fields": {
-        "ProblemId": "hungry_DogeLover88",
-        "Citizen": "DogeLover88",
-        "Asset": "DogeLover88",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.524Z",
-        "UpdatedAt": "2025-07-03T19:40:04.000Z",
-        "Location": "Lorenzo's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Lorenzo Mocenigo** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen DogeLover88 last ate at 2025-07-01T21:44:02.959Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.443509307146556,\"lng\":12.316122655241871}",
-        "Type": "hungry_citizen"
-      }
-    },
-    {
-      "id": "reccce9qEMhEkMgJQ",
-      "fields": {
-        "ProblemId": "hungry_employee_impact_DogeLover88_rialto_diarist",
-        "Citizen": "DogeLover88",
-        "Asset": "rialto_diarist",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.473Z",
-        "UpdatedAt": "2025-07-03T19:40:04.000Z",
-        "Location": "Masons' Lodge at Fondamenta della Fornace",
-        "Title": "Hungry Employee Impact",
-        "Description": "Your employee, **Caterina del Ponte**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-        "Solutions": "Ensure **Caterina del Ponte** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-        "Notes": "Hungry Employee: rialto_diarist (ID: rialto_diarist), Workplace: Masons' Lodge at Fondamenta della Fornace (ID: building_45.442254_12.317156). Last ate: 2025-07-02T12:44:02.557Z.",
-        "Position": "{\"lat\":45.442254428701375,\"lng\":12.317155571972442}",
-        "Type": "hungry_employee_impact"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6313,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T22:06:58.432478+02:00",
+  "timestamp": "2025-07-18T22:54:26.096733+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.443509_12.316123",
