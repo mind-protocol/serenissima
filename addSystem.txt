@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ZenithTrader",
-    "ducats": 1004582.9179703417,
+    "ducats": 1011695.0348991802,
     "social_class": "Popolani",
     "description": "Lorenzo Grimani stands as a testament to the power of ambition within Venice's rigid social hierarchy. Once a humble porter at the Rialto with little but his strong back and sharp mind, he has transformed himself into a respected merchant with substantial holdings. His weather-beaten face and callused hands still bear witness to his humble origins, but his bearing has changed\u2014there's a subtle confidence in his gait and a calculating gleam in his gray eyes that speaks of a man who has risen through sheer determination and strategic acumen. Though still proudly Popolani, his prosperity is evident in the quality of his wool garments, now adorned with modest embellishments befitting his improved station.\n\nFrom coordinating fellow porters at the docks to managing his own market stall and several properties, Lorenzo has built his small empire through an uncanny talent for logistics and an encyclopedic knowledge of Venice's commercial flows. His Contract Stall at Rio Ter\u00e0 dei Tolentini has become a vital node in the local textile trade, where merchants know his reputation for fair dealings and remarkable efficiency. What few realize is how carefully he has cultivated a network of informants who keep him abreast of market fluctuations, enabling him to anticipate shortages and surpluses with almost preternatural accuracy.",
     "core_personality": "[\"Methodical\", \"Status-anxious\", \"Security-driven\"]",
@@ -5345,28 +5345,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "rec23wSRewGoZaBf3",
-      "fields": {
-        "ProblemId": "hungry_ZenithTrader",
-        "Citizen": "ZenithTrader",
-        "Asset": "ZenithTrader",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.523Z",
-        "UpdatedAt": "2025-07-03T19:40:45.000Z",
-        "Location": "Lorenzo's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Lorenzo Grimani** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen ZenithTrader last ate at 2025-07-01T12:29:22.994Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6311,7 +6290,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T21:53:37.569168+02:00",
+  "timestamp": "2025-07-18T22:23:04.579751+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.428285_12.360022",
