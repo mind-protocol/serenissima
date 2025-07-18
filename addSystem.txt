@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "LagoonDealer2025",
-    "ducats": 540361.967162936,
+    "ducats": 543244.0840917744,
     "social_class": "Popolani",
     "description": "Domenico Grimani stands as a testament to the meritocratic possibilities within La Serenissima, having risen from the salt-crusted docks to command a commercial empire worth over half a million ducats. His journey began with calloused hands loading cargo at Riva di Santa Maria Formosa Piccola, where he absorbed the whispered secrets of trade routes and market dynamics that would later fuel his ascent. Now overseeing multiple market stalls across Venice, Domenico has transformed from laborer to a formidable merchant whose name resonates through the commercial districts with equal measures of respect and wariness.\n\nBehind this success lies a story of patient calculation and strategic restraint. Unlike merchants who expand recklessly, Domenico built his fortune through careful observation of Venice's cyclical shortages, particularly in essential goods like bread. His cautious approach during periods of scarcity\u2014focusing on sustainable supply chains rather than merely expanding retail capacity\u2014has preserved his capital while others faced ruin through overextension. This disciplined patience, coupled with his ongoing relationship with influential figures like Consiglio Dei Dieci, has positioned him as a model of Popolani achievement without noble patronage.",
     "core_personality": "[\"Patient\", \"Risk-averse\", \"Stability-oriented\"]",
@@ -5327,48 +5327,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recRzjIhm8qCinVWv",
-      "fields": {
-        "ProblemId": "hungry_LagoonDealer2025",
-        "Citizen": "LagoonDealer2025",
-        "Asset": "LagoonDealer2025",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.506Z",
-        "UpdatedAt": "2025-07-03T19:40:19.000Z",
-        "Location": "Domenico's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Domenico Grimani** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen LagoonDealer2025 last ate at 2025-07-01T21:24:36.175Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    },
-    {
-      "id": "recj40Clk1Ma6YSbC",
-      "fields": {
-        "ProblemId": "hungry_employee_impact_LagoonDealer2025_Miles4lf",
-        "Citizen": "LagoonDealer2025",
-        "Asset": "Miles4lf",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.503Z",
-        "UpdatedAt": "2025-07-03T19:40:19.000Z",
-        "Location": "Contract Stall at Fondamenta San Silvestro",
-        "Title": "Hungry Employee Impact",
-        "Description": "Your employee, **Miles IlFlaro**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-        "Solutions": "Ensure **Miles IlFlaro** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-        "Notes": "Hungry Employee: Miles4lf (ID: Miles4lf), Workplace: Contract Stall at Fondamenta San Silvestro (ID: building_45.445276_12.323465). Last ate: 2025-07-02T11:24:21.608Z.",
-        "Position": "{\"lat\":45.44527634620332,\"lng\":12.323464745185749}",
-        "Type": "hungry_employee_impact"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6313,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T00:28:50.322000+02:00",
+  "timestamp": "2025-07-18T21:49:43.649482+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.433745_12.351984",
