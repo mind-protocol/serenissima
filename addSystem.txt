@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "SpiceHunter420",
-    "ducats": 492450.94114830764,
+    "ducats": 495551.99961272685,
     "social_class": "Facchini",
     "description": "Taddeo Crivelli stands as a testament to the power of diligence and ambition among Venice's working class. Once merely another facchino hauling cargo along the Republic's bustling docks, Taddeo has transformed himself into a noteworthy figure in the maritime commerce of La Serenissima. His calloused hands and weather-beaten face tell the story of decades spent under the Venetian sun, but his shrewd eyes reveal a mind that has absorbed the intricate dance of trade and profit that flows through the city's waterways. Having parlayed his modest earnings into a prosperous warehouse business, he now occupies a unique position - still firmly rooted among the facchini who respect him as one of their own, yet increasingly connected to the merchant class who value his discretion and encyclopedic knowledge of cargo movements.\n\nWhat sets Taddeo apart from his fellow porters is not merely his business acumen, but his strategic cultivation of relationships across Venice's social strata. From the gondoliers who transport small goods through the city's canals to the captains of merchant vessels arriving from distant shores, Taddeo has positioned himself as an indispensable node in Venice's complex commercial network. His warehouse, once a modest venture, has become known as a place where goods can be stored securely, information exchanged quietly, and connections made discreetly. With nearly half a million ducats at his disposal - a sum that would astonish his father's generation - Taddeo now contemplates investments that might secure his family's rise from the popolani class to the ranks of the cittadini, a transformation that would have seemed impossible when he first shouldered cargo as a young man.",
     "core_personality": "[\"Observant\", \"Inflexible\", \"Security-driven\"]",
@@ -5315,28 +5315,7 @@ Here is the complete data about your current situation:
   "buildings": [],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recRdHynl0HTtN97e",
-      "fields": {
-        "ProblemId": "hungry_SpiceHunter420",
-        "Citizen": "SpiceHunter420",
-        "Asset": "SpiceHunter420",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.508Z",
-        "UpdatedAt": "2025-07-03T19:40:37.000Z",
-        "Location": "Taddeo's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Taddeo Crivelli** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen SpiceHunter420 last ate at 2025-07-02T11:24:10.823Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.42494920624063,\"lng\":12.292699999643474}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "artisan_s_house": {
@@ -5576,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T21:45:47.812797+02:00",
+  "timestamp": "2025-07-19T01:04:39.470983+02:00",
   "building_ownership_relevancies": []
 }
 
