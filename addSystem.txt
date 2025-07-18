@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BankingWizard99",
-    "ducats": 513887.4652671314,
+    "ducats": 517644.58219596976,
     "social_class": "Popolani",
     "description": "Jacopo Contarini, despite sharing a surname with patrician families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through exceptional physical prowess and remarkable financial acumen, Jacopo has amassed substantial wealth (nearly half a million ducats) while maintaining his working-class identity. His intimate knowledge of Venice's labyrinthine streets and countless bridges made him indispensable to merchants, eventually allowing him to transition from porter to market stall operator at Fondamenta delle Zattere, where he now oversees the distribution of essential goods through the city's southern waterfront. His fisherman's cottages at Riva del Lazaretto and Riva dei Tintori di Lana represent strategic investments that generate steady rental income while connecting him to Venice's vital fishing economy. Jacopo's shrewd management of a public dock at Riva dei Tabacchi has positioned him as a crucial link in Venice's supply chains during recent shortages of wine, salt, flour and other essentials. Despite his wealth, Jacopo maintains the practical sensibilities of his origins, rising before dawn to inspect his properties and personally resolve logistical challenges throughout the city's commercial networks. His recent focus on stabilizing supply chains reflects both practical business acumen and a deep commitment to ensuring Venice's working classes have access to essential provisions during times of scarcity.",
     "core_personality": "[\"Logistically-brilliant\", \"Stubbornly-distrustful\", \"Security-driven\"]",
@@ -5335,68 +5335,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recGRlO0K8uaSCWFB",
-      "fields": {
-        "ProblemId": "hungry_BankingWizard99",
-        "Citizen": "BankingWizard99",
-        "Asset": "BankingWizard99",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.523Z",
-        "UpdatedAt": "2025-07-03T19:40:29.000Z",
-        "Location": "Jacopo's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Jacopo Contarini** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen BankingWizard99 last ate at 2025-07-02T13:05:39.073Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    },
-    {
-      "id": "recCoyxUWZUm7Ytyc",
-      "fields": {
-        "ProblemId": "hungry_employee_impact_BankingWizard99_Foscari_Banker",
-        "Citizen": "BankingWizard99",
-        "Asset": "Foscari_Banker",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.506Z",
-        "UpdatedAt": "2025-07-03T19:40:29.000Z",
-        "Location": "Public Dock at Riva dei Tabacchi",
-        "Title": "Hungry Employee Impact",
-        "Description": "Your employee, **Lorenzo Dandolo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-        "Solutions": "Ensure **Lorenzo Dandolo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-        "Notes": "Hungry Employee: Foscari_Banker (ID: Foscari_Banker), Workplace: Public Dock at Riva dei Tabacchi (ID: canal_45.436581_12.314014). Last ate: 2025-07-01T21:43:52.703Z.",
-        "Position": "{\"lat\":45.436581,\"lng\":12.314014}",
-        "Type": "hungry_employee_impact"
-      }
-    },
-    {
-      "id": "recHfVb4mkHlETMGS",
-      "fields": {
-        "ProblemId": "hungry_employee_impact_BankingWizard99_GlassMaster1503",
-        "Citizen": "BankingWizard99",
-        "Asset": "GlassMaster1503",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.506Z",
-        "UpdatedAt": "2025-07-03T19:40:29.000Z",
-        "Location": "Contract Stall at Ruga dei Conciapelli",
-        "Title": "Hungry Employee Impact",
-        "Description": "Your employee, **Giacomo Albrizzi**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-        "Solutions": "Ensure **Giacomo Albrizzi** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-        "Notes": "Hungry Employee: GlassMaster1503 (ID: GlassMaster1503), Workplace: Contract Stall at Ruga dei Conciapelli (ID: building_45.437558_12.315655). Last ate: 2025-07-02T00:17:39.651Z.",
-        "Position": "{\"lat\":45.437558,\"lng\":12.315655}",
-        "Type": "hungry_employee_impact"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6341,7 +6280,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T01:09:56.591435+02:00",
+  "timestamp": "2025-07-19T00:51:57.924866+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.428144_12.357111",
