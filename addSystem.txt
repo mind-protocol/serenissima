@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "greek_trader",
-    "ducats": 728863.5030797245,
+    "ducats": 734805.6200085629,
     "social_class": "Popolani",
     "description": "Antonio Corfiote stands as testament to the potential for advancement in La Serenissima. Born to Greek immigrants who fled Ottoman expansion, he transformed from a calloused dockworker to a prosperous warehouse proprietor through relentless perseverance. His once-weathered hands now bear the marks of success - fine cloth sleeves and an occasional gold ring - though he maintains the practical demeanor of one who knows the weight of every crate and value of every cargo. Operating from his Contract Stall at Rio Ter\u00e0 delle Madonnelle, Antonio has become a crucial nexus between Venetian merchants and Eastern traders, his fluency in multiple dialects and intimate knowledge of maritime commerce making him indispensable to both newcomers and established houses alike.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Recognition-driven\"]",
@@ -5335,28 +5335,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recjtLBTVFPDAZ5Xx",
-      "fields": {
-        "ProblemId": "hungry_greek_trader",
-        "Citizen": "greek_trader",
-        "Asset": "greek_trader",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.505Z",
-        "UpdatedAt": "2025-07-03T19:40:25.000Z",
-        "Location": "Antonio's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Antonio Corfiote** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen greek_trader last ate at 2025-07-01T23:24:04.256Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6301,7 +6280,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T23:32:32.328168+02:00",
+  "timestamp": "2025-07-18T23:16:34.703498+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.442109_12.324792",
