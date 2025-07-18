@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "adriatic_captain",
-    "ducats": 645532.306850993,
+    "ducats": 651939.4237798314,
     "social_class": "Popolani",
     "description": "Meticulous and calculating, Stefano approaches each venture with the precision of a navigator plotting a course through treacherous waters. His years commanding ships instilled a disciplined patience that serves him well in his current enterprises\u2014whether measuring ingredients for the perfect loaf or analyzing property investments in Cannaregio. This methodical nature extends to his personal habits, as he rises before dawn like clockwork, maintains immaculate ledgers of all transactions, and carefully cultivates relationships with potential allies among both the Popolani and more influential citizens.Beneath his practical exterior lies a proud man struggling with his reduced circumstances, manifesting in occasional flashes of arrogance when his expertise is questioned. This pride drives both his greatest strengths and most significant weaknesses\u2014fueling his determination to rebuild his fortune while sometimes blinding him to opportunities that appear beneath his perceived station. Nevertheless, Stefano's adaptive resilience has allowed him to transform what others might see as setbacks into strategic repositioning, embodying the Venetian merchant's capacity to find opportunity in changing tides.",
     "core_personality": "[\"Strategically Patient\", \"Prideful\", \"Restoration-driven\"]",
@@ -5344,48 +5344,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recYtSgDYiblcWSKk",
-      "fields": {
-        "ProblemId": "hungry_employee_impact_adriatic_captain_skywalker88",
-        "Citizen": "adriatic_captain",
-        "Asset": "skywalker88",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.509Z",
-        "UpdatedAt": "2025-07-03T19:40:26.000Z",
-        "Location": "Inn at Unknown Street",
-        "Title": "Hungry Employee Impact",
-        "Description": "Your employee, **Orsetta Bosello**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-        "Solutions": "Ensure **Orsetta Bosello** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-        "Notes": "Hungry Employee: skywalker88 (ID: skywalker88), Workplace: Inn at Unknown Street (ID: building_45.440943_12.321047). Last ate: 2025-07-01T14:19:19.848Z.",
-        "Position": "{\"lat\":45.440943188879906,\"lng\":12.321047122274168}",
-        "Type": "hungry_employee_impact"
-      }
-    },
-    {
-      "id": "recCk430AwcUIXIeJ",
-      "fields": {
-        "ProblemId": "hungry_adriatic_captain",
-        "Citizen": "adriatic_captain",
-        "Asset": "adriatic_captain",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.505Z",
-        "UpdatedAt": "2025-07-03T19:40:25.000Z",
-        "Location": "Stefano's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Stefano Dalmazzo** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen adriatic_captain last ate at 2025-07-01T23:24:04.555Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6330,7 +6289,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T22:47:25.302620+02:00",
+  "timestamp": "2025-07-18T21:21:26.897995+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.439843_12.320672",
