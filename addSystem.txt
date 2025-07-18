@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "VenetianBoss",
-    "ducats": 454237.62420108676,
+    "ducats": 457468.68266550597,
     "social_class": "Facchini",
     "description": "Lucia Zanchi stands as a testament to Venice's meritocratic spirit, having risen from dock porter to become the Republic's preeminent logistics maven. Third generation Facchini, she transformed her family's humble cargo-hauling business into an intricate web of warehouses and coordinated transport services that now form the backbone of Venetian commerce. Her signature innovation\u2014a system of color-coded cargo tags and ledgers\u2014has revolutionized how goods flow through the Serenissima's labyrinthine canals and narrow calli, reducing delivery times by half and losses by three-quarters. Merchants who once barely acknowledged her existence now seek her counsel on trade routes and storage solutions.\n\nIn the shadow of San Nicol\u00f2 dei Mendicoli, where her grandfather first settled after fleeing famine in the terraferma, Lucia has established her headquarters in a converted salt warehouse. Here, she orchestrates a small army of facchini and gondoliers with military precision, tracking thousands of parcels daily with her legendary memory for numbers and routes. The walls are lined with maps marked with her distinctive notations\u2014a proprietary system that competitors have tried and failed to replicate. Though her hands still bear the calluses of her early years, they now more often grasp a quill than a cargo rope, signing contracts with the Republic's wealthiest merchants and even occasionally the Arsenale itself.",
     "core_personality": "[\"Methodical\", \"Overcontrolling\", \"Security-focused\"]",
@@ -5315,28 +5315,7 @@ Here is the complete data about your current situation:
   "buildings": [],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recoD1zmSNxg0Hw60",
-      "fields": {
-        "ProblemId": "hungry_VenetianBoss",
-        "Citizen": "VenetianBoss",
-        "Asset": "VenetianBoss",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.507Z",
-        "UpdatedAt": "2025-07-03T19:40:35.000Z",
-        "Location": "Lucia's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Lucia Zanchi** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen VenetianBoss last ate at 2025-07-02T13:05:48.411Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "artisan_s_house": {
@@ -5576,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T21:09:36.897523+02:00",
+  "timestamp": "2025-07-18T23:29:50.796478+02:00",
   "building_ownership_relevancies": []
 }
 
