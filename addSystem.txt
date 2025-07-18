@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ShippingMogul",
-    "ducats": 451434.9425682965,
+    "ducats": 456252.0594971349,
     "social_class": "Popolani",
     "description": "Isabella Trevisan stands as a testament to Venetian commercial resilience, having transformed her late father's modest salt trading business into a formidable enterprise commanding respect throughout the Castello district. Now twenty-nine, she has expanded beyond her initial contract stall on Rio Ter\u00e0 dei Scudi to operate a second strategically positioned stall at Rio Ter\u00e0 del Capitello, creating an information network that bridges two vital commercial thoroughfares. This expansion has cemented her reputation as not merely a merchant but an indispensable facilitator of trade documentation and fair arbitration\u2014services that have attracted a growing clientele of transporters, merchants, and even select patrician agents seeking discreet commercial intelligence. Though her considerable wealth (now exceeding 420,000 ducats) could purchase palatial accommodations, Isabella maintains her modest two-story home as both strategic understatement and genuine preference for practical living, converting the ground floor into a private meeting space where commercial alliances are forged over simple yet meticulously prepared meals featuring the finest imported spices.",
     "core_personality": "[\"Strategically Resourceful\", \"Emotionally Guarded\", \"Legacy-Driven\"]",
@@ -5327,28 +5327,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recI5YrnL57YzurQn",
-      "fields": {
-        "ProblemId": "hungry_ShippingMogul",
-        "Citizen": "ShippingMogul",
-        "Asset": "ShippingMogul",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.506Z",
-        "UpdatedAt": "2025-07-03T19:40:28.000Z",
-        "Location": "Isabella's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Isabella Trevisan** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen ShippingMogul last ate at 2025-07-02T12:43:52.806Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6293,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T23:55:25.046392+02:00",
+  "timestamp": "2025-07-19T00:21:16.994526+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431358_12.354453",
