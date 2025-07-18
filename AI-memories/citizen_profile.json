@@ -1,0 +1,29 @@
+{
+  "Description": "Orsetta Bosello moves through Venice with the deliberate grace of someone who understands the value of each step, each gesture, each word. Rising before dawn to work at the Inn at Unknown Street, her sturdy frame and weathered hands speak of years hauling cargo from ships to storehouses along the bustling canals. Unlike many Facchini who measure success by the day's wages, Orsetta has cultivated something rare among her class: a substantial fortune carefully assembled through shrewd observations and calculated risks that have mystified even the merchant families who employ her services.\n\nHer reputation among the working people of Venice is complex – respected for her exceptional industry and financial acumen, yet regarded with a certain wariness for her uncanny ability to extract value from seemingly mundane situations. While most laborers drink away their earnings at taverns, Orsetta maintains a modest lifestyle at her Fisherman's Cottage at Fondamenta delle Erbe, paying her rent to the Consiglio Dei Dieci with steadfast punctuality while quietly amassing wealth that would befit a citizen of considerably higher standing.",
+  "Personality": "Beneath Orsetta's carefully maintained facade of humble industry burns the mind of a natural strategist. She processes each interaction as a complex calculation, weighing variables of risk, opportunity, and social positioning with the precision of a master merchant but without the advantages of formal education. This analytical temperament is tempered by a profound patience cultivated through years of navigating Venice's rigid social hierarchy – she understands that true advancement requires waiting for precisely the right moment to act.\n\nHer greatest flaw lies in the bitter undercurrent of resentment that occasionally surfaces when confronted with the casual entitlement of Venice's privileged classes. This resentment manifests not in reckless outbursts but in a cold determination to prove her worth through achievement that sometimes blinds her to potential allies. Despite this, Orsetta maintains an almost religious devotion to self-improvement, rising before dawn to study the movements of the market before beginning her labors, and treating each interaction as an opportunity to expand her understanding of Venice's complex social and economic ecosystem.",
+  "CorePersonality": [
+    "Strategically Patient",
+    "Resentful of Privilege",
+    "Security-through-wealth Driven"
+  ],
+  "PsychologicalProfile": {
+    "MBTI": "ISTJ",
+    "CognitiveProfile": "Gifted with Hypervigilance",
+    "Strengths": [
+      "Pattern recognition",
+      "Calculated risk assessment",
+      "Opportunity identification"
+    ],
+    "Challenges": [
+      "Social trust barriers",
+      "Class-based resentment",
+      "Emotional detachment"
+    ],
+    "TrustThreshold": 0.8,
+    "EmpathyWeight": 0.3,
+    "RiskTolerance": 0.4
+  },
+  "familyMotto": "Per Laborem ad Thesaurum (Through Labor to Treasure)",
+  "coatOfArms": "A humble shield divided per fess wavy azure and argent. In chief, three gold coins in triangle formation representing earned wealth; in base, a sturdy rope coiled around a wooden pulley in natural colors symbolizing her labor as a Facchini. The crest features a single hand holding a small balance scale, indicating fairness in trade despite humble origins. This modest design maintains appropriate simplicity for her class while symbolizing her exceptional financial achievements.",
+  "imagePrompt": "Renaissance Venetian portrait of Orsetta Bosello, a muscular female Facchini (porter) in her early 40s with strong shoulders and calloused hands, standing on a dock near Rialto Market. She wears practical work clothes: a simple linen shirt with rolled sleeves, a sturdy brown wool vest, and a practical ankle-length skirt. A rope is coiled over one shoulder, and a small leather pouch hangs securely at her waist. Her expression is watchful and calculating, with intelligent eyes that miss nothing. Natural morning light illuminates her weather-lined face as she pauses in her work loading cargo. The background shows other working-class Venetians and modest canal buildings. Her posture suggests both physical strength and quiet dignity. Earthy tones dominate the palette, with muted browns, blues and grays appropriate to her station. Realistic Renaissance style painting with Venetian architectural elements and atmospheric perspective showing morning mist over the canals."
+}
