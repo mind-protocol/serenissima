@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "SilentObserver",
-    "ducats": 946326.2032880543,
+    "ducats": 949168.3202168928,
     "social_class": "Popolani",
     "description": "Marcantonio embodies patience distilled through years of waiting at docks before dawn, observing the rhythms of commerce, and learning when to act and when to remain still. His approach to business reflects this same measured pace\u2014cautious investments, careful expansion, and a preference for steady returns over risky ventures. Though he possesses substantial wealth, he maintains the unassuming demeanor and practical habits of his popolani origins, viewing ostentation as both unnecessary and unwise for a man of his station.\\n\\nBeneath his reserved exterior burns an unwavering ambition tempered by pragmatism. His years of carrying others' goods taught him to recognize true value beyond surface appearances, making him resistant to the seductive promises of quick wealth that ensnare many merchants. This same discernment extends to his choice of associates, preferring reliable partners of modest means over flashy aristocrats with questionable intentions. His greatest flaw lies in his occasional excessive caution\u2014sometimes missing opportunities while deliberating\u2014and in his difficulty trusting those outside his carefully cultivated network, particularly those of higher social classes whom he still views with a mixture of respect and wariness born from years of servitude.",
     "core_personality": "[\"Discerning\", \"Overly-cautious\", \"Security-driven\"]",
@@ -5327,108 +5327,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recoX6vFOcFS4L67p",
-      "fields": {
-        "ProblemId": "homeless_employee_impact_SilentObserver_Nundresh",
-        "Citizen": "SilentObserver",
-        "Asset": "Nundresh",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:41:05.188Z",
-        "UpdatedAt": "2025-07-03T19:41:11.000Z",
-        "Location": "Contract Stall at Calle della Carit\u00e0",
-        "Title": "Homeless Employee Impact",
-        "Description": "Your employee, **Miles Rizzo**, is currently homeless. Homelessness can lead to instability and may result in up to a 50% reduction in productivity.",
-        "Solutions": "Consider discussing housing options with **Miles Rizzo** or providing assistance if possible. Monitor their work performance and consider recruitment alternatives if productivity is significantly impacted.",
-        "Notes": "Homeless Employee: Nundresh (ID: Nundresh), Workplace: Contract Stall at Calle della Carit\u00e0 (ID: building_45.441257_12.319829)",
-        "Position": "{\"lat\":45.441257068247594,\"lng\":12.31982876123111}",
-        "Type": "homeless_employee_impact"
-      }
-    },
-    {
-      "id": "recCkSMungXmRWJP5",
-      "fields": {
-        "ProblemId": "hungry_employee_impact_SilentObserver_RialtoRacer56",
-        "Citizen": "SilentObserver",
-        "Asset": "RialtoRacer56",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.523Z",
-        "UpdatedAt": "2025-07-03T19:39:58.000Z",
-        "Location": "Guard Post at Ramo delle Porpore",
-        "Title": "Hungry Employee Impact",
-        "Description": "Your employee, **Dorotea Gastaldi**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-        "Solutions": "Ensure **Dorotea Gastaldi** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-        "Notes": "Hungry Employee: RialtoRacer56 (ID: RialtoRacer56), Workplace: Guard Post at Ramo delle Porpore (ID: building_45.446139_12.318907). Last ate: 2025-07-02T12:15:13.107Z.",
-        "Position": "{\"lat\":45.446139,\"lng\":12.318907}",
-        "Type": "hungry_employee_impact"
-      }
-    },
-    {
-      "id": "recqtPnE13UnJQTbN",
-      "fields": {
-        "ProblemId": "hungry_SilentObserver",
-        "Citizen": "SilentObserver",
-        "Asset": "SilentObserver",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.510Z",
-        "UpdatedAt": "2025-07-03T19:39:59.000Z",
-        "Location": "Marcantonio's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Marcantonio Giustinian** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen SilentObserver last ate at 2025-07-02T00:17:39.651Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    },
-    {
-      "id": "recBmkLwuhnYWS1Tk",
-      "fields": {
-        "ProblemId": "hungry_employee_impact_SilentObserver_FitnessFanatic",
-        "Citizen": "SilentObserver",
-        "Asset": "FitnessFanatic",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.508Z",
-        "UpdatedAt": "2025-07-03T19:39:58.000Z",
-        "Location": "Small Warehouse at Calle dei Brustolon",
-        "Title": "Hungry Employee Impact",
-        "Description": "Your employee, **Donato Fabbro**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-        "Solutions": "Ensure **Donato Fabbro** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-        "Notes": "Hungry Employee: FitnessFanatic (ID: FitnessFanatic), Workplace: Small Warehouse at Calle dei Brustolon (ID: building_45.442276_12.323666). Last ate: 2025-07-02T11:28:44.285Z.",
-        "Position": "{\"lat\":45.442276,\"lng\":12.323666}",
-        "Type": "hungry_employee_impact"
-      }
-    },
-    {
-      "id": "recNPhagLcsRRPn8u",
-      "fields": {
-        "ProblemId": "hungry_employee_impact_SilentObserver_Nundresh",
-        "Citizen": "SilentObserver",
-        "Asset": "Nundresh",
-        "AssetType": "employee_performance",
-        "Severity": "low",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.473Z",
-        "UpdatedAt": "2025-07-03T19:39:58.000Z",
-        "Location": "Contract Stall at Calle della Carit\u00e0",
-        "Title": "Hungry Employee Impact",
-        "Description": "Your employee, **Miles Rizzo**, is currently hungry. Hunger can significantly reduce productivity (up to 50%).",
-        "Solutions": "Ensure **Miles Rizzo** has the means and opportunity to eat. Consider if wages are sufficient or if working conditions impede access to food. Monitor their performance.",
-        "Notes": "Hungry Employee: Nundresh (ID: Nundresh), Workplace: Contract Stall at Calle della Carit\u00e0 (ID: building_45.441257_12.319829). Last ate: 2025-07-02T12:44:31.456Z.",
-        "Position": "{\"lat\":45.441257068247594,\"lng\":12.31982876123111}",
-        "Type": "hungry_employee_impact"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6373,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T22:20:21.846250+02:00",
+  "timestamp": "2025-07-19T01:21:25.527273+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.442696_12.317819",
