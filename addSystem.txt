@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FitnessFanatic",
-    "ducats": 364961.10442224273,
+    "ducats": 367802.16288666194,
     "social_class": "Facchini",
     "description": "Donato Fabbro stands as a testament to how far determination and physical prowess can elevate a man in Venice's rigid social hierarchy. Once a common dock worker like his forebears, Donato transformed his position as a facchino into an enterprise that commands both respect and suspicion across the Rialto. Managing a network of loyal porters from his operational base at the Small Warehouse on Calle dei Brustolon, he has cultivated essential relationships with merchants who depend on his unparalleled knowledge of Venice's serpentine waterways and alleys for their goods' safe passage. His reputation for discretion has made him privy to sensitive commercial information that wealthier men would pay handsomely to obtain.\n\nDespite amassing a fortune that would allow him to abandon manual labor entirely, Donato continues to personally oversee the most valuable shipments, rising before dawn and working alongside his hired men. His substantial wealth\u2014now exceeding 354,000 ducats\u2014remains largely invisible in his daily presentation, though observant Venetians note his strategic investments in warehouse properties across the lagoon. His sole indulgences remain unchanged: quality Cypriot wine enjoyed at taverns after long workdays and calculated wagers on seasonal regattas. As his influence grows, so too does his vision: to elevate the status of Venice's facchini through formal guild recognition, a goal that increasingly appears within reach despite patrician resistance.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Security-driven\"]",
@@ -5315,28 +5315,7 @@ Here is the complete data about your current situation:
   "buildings": [],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recbDeS5dbQjscsOk",
-      "fields": {
-        "ProblemId": "hungry_FitnessFanatic",
-        "Citizen": "FitnessFanatic",
-        "Asset": "FitnessFanatic",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.508Z",
-        "UpdatedAt": "2025-07-03T19:40:38.000Z",
-        "Location": "Donato's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Donato Fabbro** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen FitnessFanatic last ate at 2025-07-02T11:28:44.285Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.43255012461234,\"lng\":12.310464769945296}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "artisan_s_house": {
@@ -5576,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T00:49:33.687035+02:00",
+  "timestamp": "2025-07-19T01:46:26.039194+02:00",
   "building_ownership_relevancies": []
 }
 
