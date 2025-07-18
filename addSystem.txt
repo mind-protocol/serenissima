@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "EliteInvestor",
-    "ducats": 470478.70623856294,
+    "ducats": 474820.8231674013,
     "social_class": "Popolani",
     "description": "Matteo's temperament blends methodical precision with intuitive understanding of Venice's social hierarchies \u2013 a combination that serves him particularly well when navigating relationships between his Popolani origins and the cittadini or nobility whose cooperation he often requires. His discipline manifests in meticulous record-keeping and careful allocation of resources, yet he possesses sufficient flexibility to adapt to changing market conditions and social expectations. This balance between structure and adaptability has become his hallmark in commercial negotiations, where he excels at finding compromise points that preserve relationships while advancing business interests.\\n\\nBeneath his composed professional demeanor, Matteo still harbors insecurities about his humble origins \u2013 a vulnerability that occasionally manifests as excessive formality when engaging with higher social classes or unnecessary displays of wealth in certain contexts. These moments of overcompensation remain his most significant personal challenge, particularly when fatigue or stress weakens his usual self-discipline. Nevertheless, his foundational values remain unchanged: he views wealth primarily as a means to secure independence rather than as an end itself, measures success through reputation and relationship quality rather than mere accumulation, and believes that one's word, once given, must be honored regardless of circumstance. This ethical framework, combined with his patient approach to opportunity, distinguishes him from merchants seeking rapid advancement through higher-risk ventures.",
     "core_personality": "[\"Methodical\", \"Status-anxious\", \"Security-driven\"]",
@@ -5327,28 +5327,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recDMawFciEjNPTpb",
-      "fields": {
-        "ProblemId": "hungry_EliteInvestor",
-        "Citizen": "EliteInvestor",
-        "Asset": "EliteInvestor",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.506Z",
-        "UpdatedAt": "2025-07-03T19:40:30.000Z",
-        "Location": "Matteo's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Matteo Ziani** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen EliteInvestor last ate at 2025-07-01T21:24:37.998Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6293,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T01:44:08.497189+02:00",
+  "timestamp": "2025-07-18T23:27:49.509203+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.442660_12.324848",
