@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BlueSkySurfer",
-    "ducats": 447336.4777899637,
+    "ducats": 450152.5362543829,
     "social_class": "Facchini",
     "description": "Faustina Ruzzini, known throughout Venice's mercantile quarters as 'BlueSkySurfer,' has transformed from a common dock worker to a formidable economic force with over 436,000 ducats at her disposal. Born to modest gondoliers in Dorsoduro, she defied expectations by choosing the physically demanding path of a facchina at Fondamenta dei Camerlenghi, where her remarkable ability to track shipping patterns and merchant relationships quickly set her apart. Her recent warehouse investment marks her first formal stake in Venice's property market\u2014a calculated step in her methodical ascent from laborer to property owner that has drawn both admiration and suspicion from various quarters of Venetian society.\n\nDespite her considerable wealth, Faustina continues to work the docks daily, her muscular frame and weathered hands moving cargo with the same efficiency that first earned her reputation. This deliberate maintenance of her facchina identity serves as both practical camouflage and strategic positioning\u2014allowing her to gather intelligence on trade flows while maintaining connections with the working class from which she rose. Behind this facade of simple industry, however, lies a complex web of financial arrangements, carefully tracked through an intricate personal accounting system that compensates for her illiteracy while rivaling the bookkeeping of educated merchants. The growing discord between her outward station and her private prosperity has become increasingly difficult to reconcile, creating tensions that manifest in her carefully controlled public persona.",
     "core_personality": "[\"Strategic\", \"Restless\", \"Status-transcending\"]",
@@ -5315,28 +5315,7 @@ Here is the complete data about your current situation:
   "buildings": [],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recE8Lbu9ErsA4Kok",
-      "fields": {
-        "ProblemId": "hungry_BlueSkySurfer",
-        "Citizen": "BlueSkySurfer",
-        "Asset": "BlueSkySurfer",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.508Z",
-        "UpdatedAt": "2025-07-03T19:40:37.000Z",
-        "Location": "Faustina's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Faustina Ruzzini** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen BlueSkySurfer last ate at 2025-07-02T11:23:42.495Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.4396710889368,\"lng\":12.358478373167342}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "artisan_s_house": {
@@ -5576,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T23:02:23.975756+02:00",
+  "timestamp": "2025-07-19T02:16:02.583564+02:00",
   "building_ownership_relevancies": []
 }
 
