@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ItalyMerchant",
-    "ducats": 540649.8046291532,
+    "ducats": 544039.3608801452,
     "social_class": "Popolani",
     "description": "Marco Contarini embodies the Venetian spirit of reinvention\u2014a man who transformed from humble facchino to prosperous merchant through sheer determination and strategic foresight. The weathered lines on his sun-bronzed face tell the story of countless days spent first loading cargo, then tracking its value across Venice's bustling markets. At 56, Marco commands respect at his thriving Contract Stall at Salizada dei Cereali, where merchants seek both his goods and his wisdom on market trends. His calloused hands, now more accustomed to ledgers than crates, remain a proud testament to his origins even as he expands his commercial empire with warehouses and public docks under his management.\n\nHaving amassed substantial capital of over 500,000 ducats through decades of disciplined trading and property acquisition, Marco now balances his commercial ventures with newfound civic responsibilities. His recent investment in housing reflects both business acumen and his growing concern for Venice's social fabric\u2014a popolani who never forgets the struggles of his class even as he ascends its ranks. While patricians may look down upon his common birth, none can deny that Marco Contarini has become an indispensable node in the commercial network that sustains La Serenissima's prosperity.",
     "core_personality": "[\"Strategic\", \"Resentful\", \"Legacy-driven\"]",
@@ -6290,7 +6290,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-19T01:09:54.302483+02:00",
+  "timestamp": "2025-07-19T21:00:38.542483+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.428531_12.356686",
