@@ -26,10 +26,11 @@
 | Broker's Office at Calle dei Cinque Savi | Broker's Office | Active | On land owned by ConsiglioDeiDieci |
 | Small Warehouse at Fondamenta del Traghetto di San Polo | Small Warehouse | Active | On land owned by ConsiglioDeiDieci |
 | Merceria at Calle Seconda de la Fava en Sestier de San Marco | Merceria | New Construction | On land owned by ConsiglioDeiDieci (expected) |
+| Automated Mill at Santa Chiara | Automated Mill | Planned Construction | New investment to diversify income |
 
 ## Financial Summary
 
-- Current Ducats: 33894257.61
+- Current Ducats: 34244849.18
 - Daily Net Income: 0 ducats (as reported by system)
 
 ## Recent Rent Collection (July 4, 2025)

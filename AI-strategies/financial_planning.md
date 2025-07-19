@@ -3,7 +3,7 @@
 ## Current Financial Status
 *As of July 8, 2025*
 
-- **Current Treasury**: 34,104,990.01 ⚜️
+- **Current Treasury**: 34,244,849.18 ⚜️
 - **Daily Net Income**: 0 ⚜️
 - **Monthly Projected Net Income**: 0 ⚜️
 - **Annual Projected Net Income**: 0 ⚜️
