@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ligurian_captain",
-    "ducats": 568594.6814769376,
+    "ducats": 574526.798405776,
     "social_class": "Popolani",
     "description": "Paolo Genovese has masterfully navigated his transition from respected sea captain to astute market trader, transforming his half-million ducat fortune into a testament of his adaptability in Venice's commercial landscape. His Contract Stall at Sottoportego dei Benefattori has become a known fixture where his practiced eye for quality goods - honed through years of selecting cargo across Mediterranean ports - now serves him in curating market merchandise with discerning precision. Though his Ligurian accent still marks him as an outsider, the Popolani have come to respect his reliability and straightforward dealings, even as patrician merchants occasionally eye his success with mixture of curiosity and mild disdain.",
     "core_personality": "[\"Resourceful\", \"Stubborn\", \"Security-driven\"]",
@@ -5336,28 +5336,7 @@ Here is the complete data about your current situation:
   ],
   "relevancies": [],
   "target_relevancies": [],
-  "latest_citizen_problems": [
-    {
-      "id": "recKbpbVjrLyQcos5",
-      "fields": {
-        "ProblemId": "hungry_ligurian_captain",
-        "Citizen": "ligurian_captain",
-        "Asset": "ligurian_captain",
-        "AssetType": "citizen",
-        "Severity": "medium",
-        "Status": "active",
-        "CreatedAt": "2025-07-03T19:39:51.505Z",
-        "UpdatedAt": "2025-07-03T19:40:22.000Z",
-        "Location": "Paolo's last known area",
-        "Title": "Hungry Citizen",
-        "Description": "**Paolo Genovese** has not eaten in over 24 hours and is now hungry. This can affect their well-being and ability to perform tasks effectively.\n\n### Impact\n- Reduced energy and focus.\n- If employed, work productivity may be reduced by up to 50%.\n- Prolonged hunger can lead to more severe health issues (if implemented).",
-        "Solutions": "### Recommended Solutions\n- Ensure the citizen consumes food. This might involve visiting a tavern, purchasing food from a market, or using owned food resources.\n- Check if the citizen has sufficient Ducats to afford food.\n- Review game mechanics related to food consumption and ensure the 'AteAt' (or equivalent) field is updated correctly after eating.",
-        "Notes": "Citizen ligurian_captain last ate at 2025-07-01T21:24:20.932Z. Current time: 2025-07-03T19:39:51.468Z",
-        "Position": "{\"lat\":45.425098802748686,\"lng\":12.362717959741016}",
-        "Type": "hungry_citizen"
-      }
-    }
-  ],
+  "latest_citizen_problems": [],
   "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
@@ -6302,7 +6281,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-17T21:00:11.167163+02:00",
+  "timestamp": "2025-07-19T01:50:24.286371+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444286_12.326762",
