@@ -256,5 +256,15 @@
     "role": "assistant",
     "content": "{  \"building_type\": \"Warehouse\",  \"land_id\": \"L024\",  \"reason\": \"A warehouse is essential for storing goods and controlling inventory flow. With my current wealth in ducats, I can secure a prime location to facilitate trade operations.\"} ",
     "timestamp": "2025-07-19T19:29:05.308674"
+  },
+  {
+    "role": "user",
+    "content": "\nAs a citizen in La Serenissima with social class Facchini, you need to decide on your next building investment.\n\nHere's your current situation:\n- You are considering 120 land(s).\n- You have 0 buildings.\n- Your current net income is 0 ducats.\n- You have 375207.14831690356 ducats available.\n\nWhen making your decision, carefully consider the information that you have at your disposition.\n\nAfter your analysis, provide your building decision in this JSON format:\n```json\n{\n  \"building_type\": \"type_of_building_to_build\",\n  \"land_id\": \"id_of_land_to_build_on\",\n  \"reason\": \"brief explanation of why this building\"\n}\n```\n\nIf you decide not to build anything at this time, return an empty JSON object:\n```json\n{}\n```\n",
+    "timestamp": "2025-07-20T20:17:35.284016"
+  },
+  {
+    "role": "assistant",
+    "content": "{  \"building_type\": \"Warehouse\",  \"land_id\": \"L024\",  \"reason\": \"A warehouse is essential for storing goods and controlling inventory flow. With my current wealth in ducats, I can secure a prime location to facilitate trade operations.\"} ",
+    "timestamp": "2025-07-20T20:23:29.529484"
   }
 ]
