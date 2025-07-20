@@ -9116,6 +9116,40 @@ Here is the complete data about your current situation:
   "target_relevancies": [],
   "latest_citizen_problems": [
     {
+      "id": "rec3al3FpBybFmCDq",
+      "fields": {
+        "ProblemId": "scheduler_failure_20250720_200048_pattern_feed_generation_(20:00_vt)",
+        "Citizen": "ConsiglioDeiDieci",
+        "Asset": "scheduler",
+        "AssetType": "system",
+        "Severity": "High",
+        "Status": "active",
+        "CreatedAt": "2025-07-20T20:00:48.743Z",
+        "UpdatedAt": "2025-07-20T18:00:49.000Z",
+        "Title": "Scheduler Task Failed: Pattern Feed Generation (20:00 VT)",
+        "Description": "The scheduled task 'Pattern Feed Generation (20:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+        "Solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+        "Type": "scheduler_task_failure"
+      }
+    },
+    {
+      "id": "recv3kUIIkrFmvRgm",
+      "fields": {
+        "ProblemId": "scheduler_failure_20250720_190213_pattern_feed_generation_(19:00_vt)",
+        "Citizen": "ConsiglioDeiDieci",
+        "Asset": "scheduler",
+        "AssetType": "system",
+        "Severity": "High",
+        "Status": "active",
+        "CreatedAt": "2025-07-20T19:02:13.284Z",
+        "UpdatedAt": "2025-07-20T17:02:14.000Z",
+        "Title": "Scheduler Task Failed: Pattern Feed Generation (19:00 VT)",
+        "Description": "The scheduled task 'Pattern Feed Generation (19:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
+        "Solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
+        "Type": "scheduler_task_failure"
+      }
+    },
+    {
       "id": "reclZ9aBFjinbOMg8",
       "fields": {
         "ProblemId": "scheduler_failure_20250719_200029_pattern_feed_generation_(20:00_vt)",
@@ -9927,40 +9961,6 @@ Here is the complete data about your current situation:
         "UpdatedAt": "2025-07-17T09:01:13.000Z",
         "Title": "Scheduler Task Failed: Pattern Feed Generation (11:00 VT)",
         "Description": "The scheduled task 'Pattern Feed Generation (11:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
-        "Solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
-        "Type": "scheduler_task_failure"
-      }
-    },
-    {
-      "id": "recbUeuqFq4Aq9moY",
-      "fields": {
-        "ProblemId": "scheduler_failure_20250717_110111_immigration",
-        "Citizen": "ConsiglioDeiDieci",
-        "Asset": "scheduler",
-        "AssetType": "system",
-        "Severity": "High",
-        "Status": "active",
-        "CreatedAt": "2025-07-17T11:01:11.905Z",
-        "UpdatedAt": "2025-07-17T09:01:13.000Z",
-        "Title": "Scheduler Task Failed: Immigration",
-        "Description": "The scheduled task 'Immigration' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\n\nError: Task failed with return code: 1\n\nLast log output:\n520 - generate_citizen - INFO - Successfully generated citizen: Donato Fabbro\n\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\u001b[95m\u001b[1m|                     Immigration Process (dry_run=False)                      |\u001b[0m\n\u001b[95m\u001b[1m+------------------------------------------------------------------------------+\u001b[0m\n\nTraceback (most recent call last):\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 435, in <module>\nprocess_immigration(dry_run=args.dry_run)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 357, in process_immigration\ncitizen_record = save_citizen_to_airtable(tables, citizen, polygon_centers)\nFile \"/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/engine/immigration.py\", line 145, in save_citizen_to_airtable\nlog.info(f\"Saving citizen to Airtable: {citizen['FirstName']} {citizen['LastName']}\")\nKeyError: 'FirstName'\n[...truncated...]",
-        "Solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
-        "Type": "scheduler_task_failure"
-      }
-    },
-    {
-      "id": "recEMQ4qYcpnLhOPD",
-      "fields": {
-        "ProblemId": "scheduler_failure_20250717_100047_pattern_feed_generation_(10:00_vt)",
-        "Citizen": "ConsiglioDeiDieci",
-        "Asset": "scheduler",
-        "AssetType": "system",
-        "Severity": "High",
-        "Status": "active",
-        "CreatedAt": "2025-07-17T10:00:47.066Z",
-        "UpdatedAt": "2025-07-17T08:00:48.000Z",
-        "Title": "Scheduler Task Failed: Pattern Feed Generation (10:00 VT)",
-        "Description": "The scheduled task 'Pattern Feed Generation (10:00 VT)' failed to execute properly.\n\nScript: /mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py\n\nError: Task failed with return code: 2\n\nLast log output:\npython3: can't open file '/mnt/c/Users/reyno/universe-engine/universes/serenissima/backend/../citizens/_angels/pattern_angel/generate_ultimate_pattern_feed.py': [Errno 2] No such file or directory",
         "Solutions": "[\"Check if the script exists at the specified path\", \"Review the error message and fix any code issues\", \"Check for missing dependencies or environment variables\", \"Verify that required Airtable tables and API connections are working\", \"Review recent code changes that might have broken the script\"]",
         "Type": "scheduler_task_failure"
       }
@@ -11721,7 +11721,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-19T21:20:02.673651+02:00",
+  "timestamp": "2025-07-20T23:54:23.526070+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444013_12.323059",
