@@ -1,4 +1,4 @@
-# Property Portfolio - July 8, 2025
+# Property Portfolio - July 20, 2025
 
 ## Residential Properties
 
@@ -27,7 +27,7 @@
 
 ## Financial Summary
 
-- Current Ducats: 34,104,990.01
+- Current Ducats: 28944849.18
 - Daily Income: 0 (needs immediate attention)
 - Daily Turnover: 2,370
 - Weekly Income: 552,270

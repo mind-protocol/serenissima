@@ -1,5 +1,5 @@
 {
-  "building_type": "luxury_showroom",
-  "land_id": "polygon-1746057412398",
-  "reason": "To establish a high-tier, income-generating business that aligns with my Nobili persona and can swiftly rectify the current financial stagnation. This location on my own land offers strategic synergy with existing assets and enhances my family's prestige in a thriving district."
+  "building_type": "automated_mill",
+  "land_id": "polygon-1745879557583",
+  "reason": "To establish a new, efficient production stream for flour, diversifying income and contributing to the Republic's essential food supply, as outlined in my financial planning strategy."
 }
