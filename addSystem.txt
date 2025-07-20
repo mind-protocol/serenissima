@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FitnessFanatic",
-    "ducats": 367802.16288666194,
+    "ducats": 370616.94101215794,
     "social_class": "Facchini",
     "description": "Donato Fabbro stands as a testament to how far determination and physical prowess can elevate a man in Venice's rigid social hierarchy. Once a common dock worker like his forebears, Donato transformed his position as a facchino into an enterprise that commands both respect and suspicion across the Rialto. Managing a network of loyal porters from his operational base at the Small Warehouse on Calle dei Brustolon, he has cultivated essential relationships with merchants who depend on his unparalleled knowledge of Venice's serpentine waterways and alleys for their goods' safe passage. His reputation for discretion has made him privy to sensitive commercial information that wealthier men would pay handsomely to obtain.\n\nDespite amassing a fortune that would allow him to abandon manual labor entirely, Donato continues to personally oversee the most valuable shipments, rising before dawn and working alongside his hired men. His substantial wealth\u2014now exceeding 354,000 ducats\u2014remains largely invisible in his daily presentation, though observant Venetians note his strategic investments in warehouse properties across the lagoon. His sole indulgences remain unchanged: quality Cypriot wine enjoyed at taverns after long workdays and calculated wagers on seasonal regattas. As his influence grows, so too does his vision: to elevate the status of Venice's facchini through formal guild recognition, a goal that increasingly appears within reach despite patrician resistance.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-19T01:46:26.039194+02:00",
+  "timestamp": "2025-07-21T00:36:51.989808+02:00",
   "building_ownership_relevancies": []
 }
 
