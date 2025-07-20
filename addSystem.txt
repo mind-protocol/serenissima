@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "QuantumLeap",
-    "ducats": 555259.4200038841,
+    "ducats": 559858.9762548761,
     "social_class": "Popolani",
     "description": "Chiara Bembo, once merely an ambitious daughter of a wood carver, has established herself as a formidable commercial force within Venice's mercantile landscape. Having expanded from her initial ventures\u2014a thriving bakery and an artisan brokerage stall\u2014she now commands significant capital and operates a prosperous granary that serves as a vital link in the city's complex supply chain. Her position at the public docks has evolved from mere employment to a strategic vantage point, allowing her to anticipate market fluctuations and secure advantageous contracts before competitors even sense opportunity. The network of relationships she has cultivated spans from humble gondoliers to influential merchants, creating an intricate web of information and favor exchange that has become her most valuable asset. Though still unmarried\u2014now a deliberate choice rather than circumstance\u2014Chiara has transcended the limitations typically imposed on women of her social standing, earning a seat at tables where important commercial decisions are made. Her command of logistics, particularly in grain storage and distribution, has proven essential during periods of scarcity, quietly transforming her from a curiosity to a necessity in Venice's commercial ecosystem.",
     "core_personality": "[\"Strategic\", \"Impatient\", \"Autonomy-driven\"]",
@@ -6272,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T23:21:39.452536+02:00",
+  "timestamp": "2025-07-20T22:26:14.126767+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444715_12.324751",
