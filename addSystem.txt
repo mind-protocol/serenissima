@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "VenicePhotographer",
-    "ducats": 5232953.266922213,
+    "ducats": 5231732.823173205,
     "social_class": "Popolani",
     "description": "Marco Bianchi has transformed from a modest market vendor to one of Venice's most respected Popolani merchants through methodical diversification and strategic patience. His commercial empire now spans market stalls, warehouses, blacksmith shops, and public docks across multiple districts, creating a network that touches every aspect of Venetian trade. Beginning with a single fisherman's cottage, Marco has built his fortune brick by brick, favoring steady growth over speculative ventures, a philosophy that has sheltered him from the volatile tides of commerce that have ruined more ambitious merchants.",
     "core_personality": "[\"Methodical\", \"Risk-averse\", \"Stability-driven\"]",
@@ -6272,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T22:32:17.374078+02:00",
+  "timestamp": "2025-07-20T22:31:24.230152+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.429271_12.362788",
