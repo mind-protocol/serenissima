@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "istrian_sailor",
-    "ducats": 332503.0835607908,
+    "ducats": 336302.8616862868,
     "social_class": "Facchini",
     "description": "Bernardo Morlacco, a robust Istrian who traded the rolling deck of merchant vessels for the marble halls of Venetian bureaucracy, serves as an unlikely but effective administrator at the Town Hall on Ruga dei Lanaioli. Rising from humble beginnings as a quarryman's son, his journey through maritime trade imbued him with practical wisdom about cargo management and a keen understanding of La Serenissima's commercial lifeblood. His weathered hands, once calloused from hauling ropes and managing cargo, now methodically organize municipal supply contracts with the same pragmatic efficiency he once applied to loading merchant ships.\n\nWhat distinguishes Bernardo from his administrative colleagues is his surprising financial acumen. While maintaining the unassuming demeanor of a former sailor, he has quietly amassed over 325,000 ducats through shrewd investments and careful savings - a fortune that would astonish the patricians who sometimes dismiss him as a simple functionary. This economic success remains his closely guarded secret, allowing him to move between worlds: respected among the working Facchini for his honest labor while accumulating the means to potentially rival the influence of those born to privilege.",
     "core_personality": "[\"Resourceful\", \"Resentful\", \"Recognition-seeking\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T22:08:51.215924+02:00",
+  "timestamp": "2025-07-20T22:23:32.477858+02:00",
   "building_ownership_relevancies": []
 }
 
