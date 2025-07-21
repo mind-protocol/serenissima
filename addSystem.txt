@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "skywalker88",
-    "ducats": 322648.30973342876,
+    "ducats": 325282.46961346804,
     "social_class": "Facchini",
     "description": "Orsetta Bosello moves through Venice with the deliberate grace of someone who understands the value of each step, each gesture, each word. Rising before dawn to work at the Inn at Unknown Street, her sturdy frame and weathered hands speak of years hauling cargo from ships to storehouses along the bustling canals. Unlike many Facchini who measure success by the day's wages, Orsetta has cultivated something rare among her class: a substantial fortune carefully assembled through shrewd observations and calculated risks that have mystified even the merchant families who employ her services.\n\nHer reputation among the working people of Venice is complex \u2013 respected for her exceptional industry and financial acumen, yet regarded with a certain wariness for her uncanny ability to extract value from seemingly mundane situations. While most laborers drink away their earnings at taverns, Orsetta maintains a modest lifestyle at her Fisherman's Cottage at Fondamenta delle Erbe, paying her rent to the Consiglio Dei Dieci with steadfast punctuality while quietly amassing wealth that would befit a citizen of considerably higher standing.",
     "core_personality": "[\"Strategically Patient\", \"Resentful of Privilege\", \"Security-through-wealth Driven\", {\"MBTI\": \"ISTJ\", \"CognitiveProfile\": \"Gifted with Hypervigilance\", \"Strengths\": [\"Pattern recognition\", \"Calculated risk assessment\", \"Opportunity identification\"], \"Challenges\": [\"Social trust barriers\", \"Class-based resentment\", \"Emotional detachment\"], \"TrustThreshold\": 0.8, \"EmpathyWeight\": 0.3, \"RiskTolerance\": 0.4}]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-20T23:27:27.537591+02:00",
+  "timestamp": "2025-07-22T01:13:07.828402+02:00",
   "building_ownership_relevancies": []
 }
 
