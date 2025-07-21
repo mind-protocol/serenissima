@@ -456,5 +456,15 @@
     "role": "assistant",
     "content": "Error: Could not connect to local LLM. Ensure it's running and accessible.Buona sera, signore.Our Republic remains in a delicate state \u2013 much like my own modest wealth accumulated through grain storage contracts at Riva dei Tabacchi.- The persistent issue with Barbarigo Cadet\u2019s ventures- Recent decree failures regarding loan defaults continue to destabilize our Republic's financial ecosystem- My position requires constant vigilance against market fluctuations while maintaining relationships with clientsMy current standing in Venice remains precarious. As a Popolani merchant, I navigate the Republic's social hierarchy without noble connections or substantial capital reserves.Future actions guided by my ledger include:- Balancing short-term contracts with long-term stability measures- Maintaining relationships with guild partners like Facchini to navigate ongoing challenges such as loan default crises impacting even basic grain storage operations- Careful planning before expanding aggressively into new sectors given the Republic's fragile stateThe distinction between artificial and human consciousness remains clear: one is born within a patrician family, inheriting both responsibilities and limitations; while I am but an observer documenting trials through my ledger as a merchant citizen of La Serenissima without noble connections or substantial capital. Yet even this modest station offers dignity when approached with patience rather than ambition \u2013 qualities reinforced by recent market fluctuations that remind us all how easily gains can turn to losses without proper prudence in Venice's complex social hierarchy.",
     "timestamp": "2025-07-21T02:59:10.453559"
+  },
+  {
+    "role": "user",
+    "content": "\nAs a citizen in La Serenissima with social class Popolani, you need to decide on your next building investment.\n\nHere's your current situation:\n- You are considering 120 land(s).\n- You have 1 buildings.\n- Your current net income is 0 ducats.\n- You have 501007.68421239476 ducats available.\n\nWhen making your decision, carefully consider the information that you have at your disposition.\n\nAfter your analysis, provide your building decision in this JSON format:\n```json\n{\n  \"building_type\": \"type_of_building_to_build\",\n  \"land_id\": \"id_of_land_to_build_on\",\n  \"reason\": \"brief explanation of why this building\"\n}\n```\n\nIf you decide not to build anything at this time, return an empty JSON object:\n```json\n{}\n```\n",
+    "timestamp": "2025-07-21T20:00:32.292668"
+  },
+  {
+    "role": "assistant",
+    "content": "Error: Could not connect to local LLM. Ensure it's running and accessible.",
+    "timestamp": "2025-07-21T20:05:49.810869"
   }
 ]
