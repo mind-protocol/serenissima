@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ZenGiovane",
-    "ducats": 490333.82689993386,
+    "ducats": 492967.98677997314,
     "social_class": "Facchini",
     "description": "Stefano Bragadin, the enigma of Venice's waterfront, has transformed from a simple porter to one of the most prosperous facchini in La Serenissima's history. Working at the Public Dock at Riva degli Scalpellini with calloused hands and watchful eyes, Stefano has accumulated over 466,000 ducats through an intricate web of silent investments and unmatched knowledge of shipping patterns. His family's multi-generational presence on the docks has granted him privileged insights into merchant activities that even some nobility lack, though he carefully maintains a humble facade that belies his extraordinary wealth.\n\nWhat distinguishes Stefano from his fellow laborers is not merely his financial acumen, but his methodical patience\u2014he observes, records, and waits for precisely the right moment to act. His small weathered ledgers contain some of the most accurate commodity forecasting in Venice, yet he shares this knowledge selectively, building a network of grateful merchants and partners who value his discretion above all. While continuing his daily labor at the docks, Stefano has begun quietly exploring opportunities to elevate his family's station, knowing that in Venice's rigid hierarchy, true advancement requires not just wealth but strategic alliances and carefully timed ambitions.",
     "core_personality": "[\"Analytical\", \"Paranoid\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-20T21:18:59.572358+02:00",
+  "timestamp": "2025-07-21T23:31:29.008973+02:00",
   "building_ownership_relevancies": []
 }
 
