@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "RialtoRacer56",
-    "ducats": 432496.7485214251,
+    "ducats": 435130.9084014644,
     "social_class": "Facchini",
     "description": "Born to a family of cargo porters who have worked Venice's bustling docks for generations, Dorotea Gastaldi has transformed herself from humble facchini to a woman of substantial means through sheer determination and shrewd judgment. The calluses on her hands tell the story of her early years hauling goods across the city's bridges, while her current position at the Guard Post at Ramo delle Porpore represents her calculated ascent from physical labor to positions of greater authority. Her days are spent maintaining order in one of Venice's vital commercial arteries, where her intimate knowledge of the city's underbelly serves her well in distinguishing honest merchants from potential troublemakers.\n\nWith over 400,000 ducats carefully accumulated through prudent investments and disciplined saving, Dorotea stands at a crossroads between her working-class origins and potential entry into Venice's mercantile class. She lives modestly despite her wealth, renting rather than flaunting ownership, a strategic choice that allows her capital to work for her while maintaining valuable connections across social strata. Her dual existence\u2014respected guard by day, cunning investor in private\u2014has earned her both admiration and wariness from those who sense the calculating intelligence behind her straightforward demeanor.",
     "core_personality": "[\"Resourceful\", \"Calculating\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-20T23:46:41.145540+02:00",
+  "timestamp": "2025-07-21T23:18:32.274734+02:00",
   "building_ownership_relevancies": []
 }
 
