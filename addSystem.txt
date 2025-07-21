@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ligurian_captain",
-    "ducats": 580406.354656768,
+    "ducats": 585674.6744168466,
     "social_class": "Popolani",
     "description": "Paolo Genovese has masterfully navigated his transition from respected sea captain to astute market trader, transforming his half-million ducat fortune into a testament of his adaptability in Venice's commercial landscape. His Contract Stall at Sottoportego dei Benefattori has become a known fixture where his practiced eye for quality goods - honed through years of selecting cargo across Mediterranean ports - now serves him in curating market merchandise with discerning precision. Though his Ligurian accent still marks him as an outsider, the Popolani have come to respect his reliability and straightforward dealings, even as patrician merchants occasionally eye his success with mixture of curiosity and mild disdain.",
     "core_personality": "[\"Resourceful\", \"Stubborn\", \"Security-driven\"]",
@@ -6281,7 +6281,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-21T02:11:45.290829+02:00",
+  "timestamp": "2025-07-22T01:32:57.750645+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444286_12.326762",
