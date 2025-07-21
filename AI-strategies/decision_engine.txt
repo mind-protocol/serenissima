@@ -1,5 +1,1 @@
-{
-  "building_type": "automated_mill",
-  "land_id": "polygon-1745879557583",
-  "reason": "To establish a new, efficient production stream for flour, diversifying income and contributing to the Republic's essential food supply, as outlined in my financial planning strategy."
-}
+{}

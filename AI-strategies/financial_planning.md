@@ -19,7 +19,7 @@
    - Investigate and resolve the discrepancy in reported net income from rental properties.
 
 2. **Expand Productive Assets**:
-   - **New Investment**: Construct an Automated Mill (Tier 3) at Santa Chiara (polygon-1745879557583) to establish a new, highly efficient production stream for flour. This aims to diversify income and contribute to the Republic's essential food supply.
+   - **New Investment**: Initiated construction of an Automated Mill (Tier 3) at Santa Chiara (polygon-1745879557583) to establish a new, highly efficient production stream for flour. This aims to diversify income and contribute to the Republic's essential food supply.
    - Target businesses with stable income potential (workshops, warehouses).
    - Estimated investment for Automated Mill: 1,800,000 ⚜️ (plus components from Caterina Morosini).
 
