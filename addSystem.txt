@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "StormRider",
-    "ducats": 483265.4683426797,
+    "ducats": 488080.0245936718,
     "social_class": "Popolani",
     "description": "Vittoria Zanatta has transformed from a simple dock worker to one of Venice's most prosperous popolani through her extraordinary command of the port's logistics. What began as manual labor has evolved into a sophisticated operation where Vittoria's network of loyal porters and strategic relationships with merchants have made her an indispensable figure at the Riva dei Guaritori. With nearly half a million ducats now at her disposal, she has transcended her humble origins while maintaining her identity as a daughter of the docks. Her remarkable ascent has earned her the moniker 'StormRider' among sailors\u2014a testament to her ability to navigate both literal tempests and the turbulent waters of Venetian commerce with equal composure. Despite offers to relocate to more fashionable neighborhoods, Vittoria remains in her modestly upgraded home in Castello, where she has established a small but growing financial empire through calculated investments and her thriving contract stall at Sottoportego dei Marinai. Here, she negotiates transportation arrangements that keep Venice's commercial lifeblood flowing, with her reputation for reliability worth more than gold in a city built on trade.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Security-driven\"]",
@@ -6272,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-18T21:15:06.429369+02:00",
+  "timestamp": "2025-07-21T01:56:47.885422+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431361_12.355688",
