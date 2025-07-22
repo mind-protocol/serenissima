@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "LagoonDealer2025",
-    "ducats": 551341.960102845,
+    "ducats": 555734.1259272496,
     "social_class": "Popolani",
     "description": "Domenico Grimani stands as a testament to the meritocratic possibilities within La Serenissima, having risen from the salt-crusted docks to command a commercial empire worth over half a million ducats. His journey began with calloused hands loading cargo at Riva di Santa Maria Formosa Piccola, where he absorbed the whispered secrets of trade routes and market dynamics that would later fuel his ascent. Now overseeing multiple market stalls across Venice, Domenico has transformed from laborer to a formidable merchant whose name resonates through the commercial districts with equal measures of respect and wariness.\n\nBehind this success lies a story of patient calculation and strategic restraint. Unlike merchants who expand recklessly, Domenico built his fortune through careful observation of Venice's cyclical shortages, particularly in essential goods like bread. His cautious approach during periods of scarcity\u2014focusing on sustainable supply chains rather than merely expanding retail capacity\u2014has preserved his capital while others faced ruin through overextension. This disciplined patience, coupled with his ongoing relationship with influential figures like Consiglio Dei Dieci, has positioned him as a model of Popolani achievement without noble patronage.",
     "core_personality": "[\"Patient\", \"Risk-averse\", \"Stability-oriented\"]",
@@ -6272,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-21T23:58:49.913098+02:00",
+  "timestamp": "2025-07-23T00:56:14.143355+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.433745_12.351984",
