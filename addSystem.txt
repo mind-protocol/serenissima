@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DesertRanger",
-    "ducats": 486962.4597301221,
+    "ducats": 496412.9453146052,
     "social_class": "Popolani",
     "description": "Tiziano Bertucci has ascended from humble origins to become one of Venice's most respected legal intermediaries. Born to mainland cloth merchants who settled in Castello, he transformed his natural talent for negotiation into a thriving practice at his Contract Stall near the Arsenale. His exceptional knowledge of Venetian commercial law and reputation for meticulous documentation has attracted a diverse clientele spanning all social classes, from simple fishermen to merchant princes. With nearly half a million ducats amassed through prudent business practices, Tiziano now stands at a pivotal moment in his social ascension, gradually shifting from a mere contract broker to a significant financial presence in the Castello district. The once-small stall has evolved into a hub of commercial activity where merchants, shipowners, and artisans seek his counsel before finalizing any significant transaction, knowing his signature virtually guarantees a dispute-free agreement. Despite his substantial wealth, Tiziano maintains the outward modesty expected of his Popolani class, while strategically positioning himself for the cittadini status that seems increasingly within reach.",
     "core_personality": "[\"Meticulous\", \"Distrustful\", \"Status-driven\"]",
@@ -6272,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-21T00:31:27.666395+02:00",
+  "timestamp": "2025-07-23T00:36:38.082880+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431863_12.354551",
