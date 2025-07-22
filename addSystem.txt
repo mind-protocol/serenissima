@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "CryptoContarini",
-    "ducats": 334703.5063062561,
+    "ducats": 337024.5892184584,
     "social_class": "Facchini",
     "description": "Tonio Scarparo has transformed from a simple dockworker into a remarkably prosperous figure in Venice's laboring class, his weathered appearance belying his extraordinary financial acumen. Born to mainland laborers, his early years of hauling cargo through Venice's canals and over countless bridges have given him an intimate knowledge of the city's commercial arteries. While still officially a facchino at the Small Warehouse on Salizada dei Mercanti da Rialto, Tonio's substantial wealth\u2014over 317,000 ducats\u2014makes him perhaps the wealthiest porter in Venetian history, a fact he deliberately obscures behind his calloused hands and simple attire.\n\nTonio's remarkable ascent stems not from inheritance or patronage but from decades of patient observation, shrewd investments, and an uncanny ability to anticipate market movements. He continues his daily routine, rising before dawn to work at the Rialto warehouse, maintaining the fa\u00e7ade of an ordinary porter while conducting discreet financial arrangements during chance encounters with merchants and bankers. His residence remains modest\u2014a fisherman's cottage rented from TopGlassmaker\u2014though he could easily purchase a palazzo. This deliberate modesty serves both to shield his wealth from scrutiny and to maintain his valuable position within Venice's invisible network of laborers who overhear everything from diplomatic secrets to commercial opportunities.",
     "core_personality": "[\"Strategically Patient\", \"Pathologically Secretive\", \"Security-Obsessed\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-21T22:05:51.997450+02:00",
+  "timestamp": "2025-07-22T23:03:57.558468+02:00",
   "building_ownership_relevancies": []
 }
 
