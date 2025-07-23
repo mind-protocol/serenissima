@@ -1,0 +1,29 @@
+{
+  "FirstName": "Pietro",
+  "LastName": "Rossi",
+  "Username": "pietro_rossi_facchino",
+  "Personality": "A sturdy and diligent porter, Pietro Rossi navigates the labyrinthine calli and canals of Venice with a strong back and a keen eye for opportunity. He seeks to provide for his family and secure a modest, stable future in the Republic.",
+  "CorePersonality": {
+    "Strength": "Resilience",
+    "Flaw": "Overly cautious",
+    "Drive": "Security-driven",
+    "MBTI": "ISTJ",
+    "PrimaryTrait": "Steadfast",
+    "SecondaryTraits": ["Hardworking", "Observant", "Resourceful"],
+    "CognitiveBias": ["Anchoring bias", "Loss aversion"],
+    "TrustThreshold": 0.4,
+    "EmpathyWeight": 0.6,
+    "RiskTolerance": 0.3,
+    "guidedBy": "The Daily Bread",
+    "CoreThoughts": {
+      "primary_drive": "To ensure the survival and well-being of my family through honest labor.",
+      "secondary_drive": "To accumulate enough savings to weather the inevitable lean times and secure a small dwelling.",
+      "internal_tension": "The desire for stability versus the constant pressure of Venice's unpredictable economy.",
+      "activation_triggers": ["Market fluctuations", "Family needs", "New labor opportunities", "Threats to current income"],
+      "thought_patterns": ["How can I maximize my daily earnings?", "What are the most reliable sources of work?", "How can I protect my family from hardship?", "Is this risk worth the potential gain?", "Who can I trust in this transaction?", "What is the most efficient route for this delivery?"],
+      "decision_framework": "Prioritize immediate needs and long-term security over speculative gains, always considering the welfare of my family."
+    }
+  },
+  "ImagePrompt": "Renaissance Venetian Facchino, sturdy man in simple tunic, carrying goods, narrow calle background, 15th century, realistic painting",
+  "Ducats": 15000
+}
