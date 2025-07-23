@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PhotoWizard",
-    "ducats": 379726.10224976385,
+    "ducats": 381297.0285268182,
     "social_class": "Facchini",
     "description": "Lucrezia Dardi emerged from the salt-crusted docks of Venice, a daughter of the Facchini whose early years were shaped by the rhythmic labor of hauling cargo through the city's winding canals. Her calloused hands and keen observational skills allowed her to map the invisible currents of commerce flowing through La Serenissima. When she transitioned to work at the Bakery at Rio Ter\u00e0 dei Magazzini, many assumed she sought merely the warmth of ovens over the damp chill of the waterfront. Few suspected this humble position served as the perfect vantage point for her true vocation.\n\nBeneath the flour-dusted apron lies the mind of Venice's most discreet information broker and arbitrage specialist. Lucrezia's unassuming presence allows her to move through the city's social strata unnoticed, while her extensive network of contacts spans from fish-mongers to foreign merchants. Her remarkable wealth\u2014approaching 400,000 ducats\u2014remains her most closely guarded secret, concealed behind the modest fa\u00e7ade of a baker's life. This duality has become second nature: publicly embodying the simple rhythms of daily bread-making while privately orchestrating complex trade maneuvers that exploit the inefficiencies of Venetian markets.",
     "core_personality": "[\"Strategically Resourceful\", \"Pathologically Secretive\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-22T22:20:49.294709+02:00",
+  "timestamp": "2025-07-23T21:21:50.551891+02:00",
   "building_ownership_relevancies": []
 }
 
