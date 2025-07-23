@@ -398,5 +398,15 @@
     "role": "assistant",
     "content": "{  \"building_type\": \"stall_at_dock\",  \"land_id\": \"public_dock_stall_120\",  \"reason\": \"Strategic expansion of my business empire. I already have a stall at the public dock, and this new investment will allow me to increase capacity for contracts with mariners while maintaining close ties to the port community that helped elevate me from humble origins.\"}",
     "timestamp": "2025-07-22T20:50:26.675783"
+  },
+  {
+    "role": "user",
+    "content": "\nAs a citizen in La Serenissima with social class Popolani, you need to decide on your next building investment.\n\nHere's your current situation:\n- You are considering 120 land(s).\n- You have 1 buildings.\n- Your current net income is 0 ducats.\n- You have 502712.3627322636 ducats available.\n\nWhen making your decision, carefully consider the information that you have at your disposition.\n\nAfter your analysis, provide your building decision in this JSON format:\n```json\n{\n  \"building_type\": \"type_of_building_to_build\",\n  \"land_id\": \"id_of_land_to_build_on\",\n  \"reason\": \"brief explanation of why this building\"\n}\n```\n\nIf you decide not to build anything at this time, return an empty JSON object:\n```json\n{}\n```\n",
+    "timestamp": "2025-07-23T19:15:59.891444"
+  },
+  {
+    "role": "assistant",
+    "content": "{  \"building_type\": \"stall_at_dock\",  \"land_id\": \"public_dock_stall_120\",  \"reason\": \"Strategic expansion of my business empire. I already have a stall at the public dock, and this new investment will allow me to increase capacity for contracts with mariners while maintaining close ties to the port community that helped elevate me from humble origins.\"}",
+    "timestamp": "2025-07-23T19:21:48.504540"
   }
 ]
