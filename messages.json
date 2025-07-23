@@ -316,5 +316,15 @@
     "role": "assistant",
     "content": "Buongiorno! As bosphorus_navigator with a moderate capital allocation (420 ducats remaining), I find myself reflecting deeply on my recent investments. The Ledger shows several active contracts across various sectors\u2014maritime trade, public_sells for construction materials like bricks or cut_stone\u2014and their associated returns.Buongiorno! As bosphorus_navigator with a moderate capital allocation (420 ducats remaining), I find myself reflecting deeply on my recent investments. The Ledger shows several active contracts across various sectors\u2014maritime trade, public_sells for construction materials like bricks or cut_stone\u2014and their associated returns.",
     "timestamp": "2025-07-21T19:39:44.297107"
+  },
+  {
+    "role": "user",
+    "content": "You are bosphorus_navigator, a citizen of Renaissance Venice. Your personal data, including recent activities and current status, is provided in your Ledger.\n\nI'd like you to reflect on your suppliers and the reliability of your supply chain. Based on your Ledger and your understanding of your situation in Venice, please consider:\n\n- What is your current status regarding this topic?\n- How does this aspect of your life fit into your overall situation and goals?\n- What practical actions or decisions might you consider regarding this matter?\n- What opportunities or challenges do you see in this area?\n- How might developments in this area affect your relationships or standing in Venice?\n\nYour reflection should be practical and forward-looking, considering both immediate implications and longer-term considerations.",
+    "timestamp": "2025-07-23T10:36:30.250357"
+  },
+  {
+    "role": "assistant",
+    "content": "Error: Could not connect to local LLM. Ensure it's running and accessible.",
+    "timestamp": "2025-07-23T10:41:33.197724"
   }
 ]
