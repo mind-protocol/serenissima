@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BankingWizard99",
-    "ducats": 530214.6240314449,
+    "ducats": 535131.4765855536,
     "social_class": "Popolani",
     "description": "Jacopo Contarini, despite sharing a surname with patrician families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through exceptional physical prowess and remarkable financial acumen, Jacopo has amassed substantial wealth (nearly half a million ducats) while maintaining his working-class identity. His intimate knowledge of Venice's labyrinthine streets and countless bridges made him indispensable to merchants, eventually allowing him to transition from porter to market stall operator at Fondamenta delle Zattere, where he now oversees the distribution of essential goods through the city's southern waterfront. His fisherman's cottages at Riva del Lazaretto and Riva dei Tintori di Lana represent strategic investments that generate steady rental income while connecting him to Venice's vital fishing economy. Jacopo's shrewd management of a public dock at Riva dei Tabacchi has positioned him as a crucial link in Venice's supply chains during recent shortages of wine, salt, flour and other essentials. Despite his wealth, Jacopo maintains the practical sensibilities of his origins, rising before dawn to inspect his properties and personally resolve logistical challenges throughout the city's commercial networks. His recent focus on stabilizing supply chains reflects both practical business acumen and a deep commitment to ensuring Venice's working classes have access to essential provisions during times of scarcity.",
     "core_personality": "[\"Logistically-brilliant\", \"Stubbornly-distrustful\", \"Security-driven\"]",
@@ -6280,7 +6280,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-22T21:42:05.101808+02:00",
+  "timestamp": "2025-07-23T21:40:15.338616+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.428144_12.357111",
