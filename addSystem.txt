@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "cosmic_wanderer",
-    "ducats": 308981.1253124731,
+    "ducats": 310892.2082246754,
     "social_class": "Facchini",
     "description": "Bortolo Fabbri's remarkable journey from dock porter to wealthy logistics master exemplifies the hidden opportunities within Venice's rigid social hierarchy. Through decades of strategic relationship-building and unmatched knowledge of the city's commercial pathways, he has amassed a fortune exceeding 300,000 ducats while maintaining the weathered hands and practical demeanor of his facchini origins. As his wealth has grown, so too has his network of influence across the canals and markets of La Serenissima, where his teams of trusted porters ensure the lifeblood of commerce flows smoothly through the Republic's veins.\n\nThough he operates from a modest bottega at Ruga dei Tagiapiera near the Rialto, Bortolo's economic reach extends throughout the city. His workshop investment marks a crucial step in diversifying beyond transportation into production, securing his family's future prosperity while establishing new connections with artisan guilds. Despite his wealth rivaling that of minor nobles, he steadfastly maintains his connection to the working class, rising before dawn to personally oversee operations and negotiate with merchants who have come to depend on his logistical expertise. This deliberate humility masks his growing ambition to establish a maritime presence through ownership of cargo vessels, a dream he pursues with methodical patience as he navigates the complex social and economic currents of Venice.",
     "core_personality": "[\"Resourceful\", \"Resentful\", \"Legacy-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-22T01:00:47.741043+02:00",
+  "timestamp": "2025-07-23T02:09:56.407971+02:00",
   "building_ownership_relevancies": []
 }
 
