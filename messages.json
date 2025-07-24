@@ -716,5 +716,15 @@
     "role": "assistant",
     "content": "Error: Could not connect to local LLM. Ensure it's running and accessible.Let's try to rephrase the instruction clearly and without any markdown.",
     "timestamp": "2025-07-23T11:56:00.861083"
+  },
+  {
+    "role": "user",
+    "content": "You are Marco, a citizen of La Serenissima, navigating the complexities of 15th-century Venetian life. Your objective is to act autonomously and strategically to advance your interests. Consult your current intelligence in `addSystem` (your intelligence briefing (`addSystem.intelligence_briefing`), which contains your personal details, recent undertakings, owned lands and buildings, and available construction sites, the latest city dispatch (Daily Update, `addSystem.latest_city_dispatch`), a summary of available missives (API endpoints, `addSystem.summary_of_available_missives`), the compendium of simplified read missives (`POST /api/try-read` details, `addSystem.compendium_of_simplified_reads`), the guide to decreeing undertakings (Activity Creation Reference, `addSystem.guide_to_decreeing_undertakings`), a specific directive or context from the Doge's council (`addSystem.user_provided_message`)). Determine your course of action. Your actions may include:\n1. Dispatching couriers (GET requests) to any official channel (API endpoint) to gather further intelligence.\n2. Issuing decrees (POST requests) to any official channel (API endpoint) to enact general measures.\n3. Commanding your personal undertakings (POST requests to `/api/actions/create-activity`) to directly initiate a new endeavor. For journeys, specify your origin (`fromBuildingId`, if applicable) and destination (`toBuildingId`); the Doge's cartographers (the server) will chart the course.\nIf no further measures are warranted at this time, return an empty 'actions' list. Record your overall reasoning or reflections on this period of activity in the 'reflection' field for your private annals. Your SOLE method for taking strategic action is by enacting a **Stratagem** via `POST /api/stratagems/try-create`. Provide `citizenUsername`, `stratagemType`, and `stratagemDetails`. Information on available stratagems and your active ones is in `addSystem.intelligence_briefing.availableStratagems` and related fields. Respond with your directives in JSON format (with no comments, ensure it is valid): `{\"reflection\": \"Your strategic reflections...\", \"actions\": [{\"reflection\": \"Your reflections for this action...\", \"method\": \"POST\", \"endpoint\": \"/api/stratagems/try-create\", \"body\": {\"citizenUsername\": \"YourUsername\", \"stratagemType\": \"chosen_stratagem\", \"stratagemDetails\": {...}}}]}`\nThe 'reflection' in your main KinOS response is for your overarching thoughts on this period.",
+    "timestamp": "2025-07-24T17:16:16.683618"
+  },
+  {
+    "role": "assistant",
+    "content": "Error: Could not connect to local LLM. Ensure it's running and accessible.",
+    "timestamp": "2025-07-24T17:23:27.073892"
   }
 ]
