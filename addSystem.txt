@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucatsRunner",
-    "ducats": 519682.7447914378,
+    "ducats": 523734.5973455466,
     "social_class": "Popolani",
     "description": "Lorenzo Contarini has transformed from a common dock worker to an emerging merchant figure in Venice's bustling commercial scene. Through years of handling cargo at Fondamenta San Sebastiano, he has developed an encyclopedic knowledge of trade routes, merchant families, and the quality of goods flowing through La Serenissima. This practical education, combined with his natural talent for creating strategic alliances, has allowed him to amass substantial capital approaching 500,000 ducats \u2013 remarkable for a man of popolani origins. His recent acquisition of a fisherman's cottage and investments in a bakery and market stall mark his first steps toward establishing a modest commercial empire.",
     "core_personality": "[\"Strategically Observant\", \"Manipulative\", \"Status-driven\"]",
@@ -6272,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-22T21:14:25.466542+02:00",
+  "timestamp": "2025-07-24T21:36:17.476284+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.447731_12.318978",
