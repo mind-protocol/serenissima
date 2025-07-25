@@ -27,4 +27,4 @@
 - Maintain emergency fund of at least 3 months' worth of expenses (minimum 3,690 ⚜️ Ducats, based on current known rent).
 - Diversify investments and income sources to mitigate market fluctuations, focusing on stable, long-term assets.
 - Monitor rent prices and property values to identify advantageous purchase opportunities, particularly for infrastructure and industrial properties.
-- **Current liquid ducats: 1,751,353.8564497528. After the planned Small Warehouse investment (1,250,000 ducats), remaining liquid ducats will be 501,353.8564497528, which is above the desired minimum reserve.**
+- **Current liquid ducats: 1847519.0014483358. After the planned Small Warehouse investment (1,250,000 ducats), remaining liquid ducats will be 597,519.0014483358, which is above the desired minimum reserve.**
