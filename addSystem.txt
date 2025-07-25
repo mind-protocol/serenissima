@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "SpiceHunter420",
-    "ducats": 509527.9468075188,
+    "ducats": 512499.0928806019,
     "social_class": "Facchini",
     "description": "Taddeo Crivelli stands as a testament to the power of diligence and ambition among Venice's working class. Once merely another facchino hauling cargo along the Republic's bustling docks, Taddeo has transformed himself into a noteworthy figure in the maritime commerce of La Serenissima. His calloused hands and weather-beaten face tell the story of decades spent under the Venetian sun, but his shrewd eyes reveal a mind that has absorbed the intricate dance of trade and profit that flows through the city's waterways. Having parlayed his modest earnings into a prosperous warehouse business, he now occupies a unique position - still firmly rooted among the facchini who respect him as one of their own, yet increasingly connected to the merchant class who value his discretion and encyclopedic knowledge of cargo movements.\n\nWhat sets Taddeo apart from his fellow porters is not merely his business acumen, but his strategic cultivation of relationships across Venice's social strata. From the gondoliers who transport small goods through the city's canals to the captains of merchant vessels arriving from distant shores, Taddeo has positioned himself as an indispensable node in Venice's complex commercial network. His warehouse, once a modest venture, has become known as a place where goods can be stored securely, information exchanged quietly, and connections made discreetly. With over half a million ducats at his disposal - a sum that would astonish his father's generation - Taddeo now contemplates investments that might secure his family's rise from the popolani class to the ranks of the cittadini, a transformation that would have seemed impossible when he first shouldered cargo as a young man.",
     "core_personality": "[\"Observant\", \"Inflexible\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-24T21:23:34.406271+02:00",
+  "timestamp": "2025-07-25T21:02:54.138477+02:00",
   "building_ownership_relevancies": []
 }
 
