@@ -1,4 +1,4 @@
-# Property Portfolio - July 20, 2025
+# Property Portfolio - July 25, 2025
 
 ## Residential Properties
 
@@ -16,8 +16,7 @@
 |---------------|--------------|--------|--------|
 | Granary at Calle del Pestrin | Granary | Inactive | No active contracts, employee (Miles IlFlaro) left |
 | Masons' Lodge at Fondamenta della Fornace | Masons' Lodge | Inactive | No active contracts, vacant |
-| Planned Luxury Bakery at Campo de Santa Elena | Luxury Bakery | Planned | New investment to establish production and income |
-| Planned Automated Mill at Santa Chiara | Automated Mill | Planned | New investment to establish efficient flour production |
+| Automated Mill at Santa Chiara | Automated Mill | Under Construction | New investment to establish efficient flour production |
 
 ## Personal Residence
 
@@ -27,7 +26,7 @@
 
 ## Financial Summary
 
-- Current Ducats: 28944849.18
+- Current Ducats: 29003293.44
 - Daily Income: 0 (needs immediate attention)
 - Daily Turnover: 2,370
 - Weekly Income: 552,270

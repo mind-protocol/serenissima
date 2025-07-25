@@ -1,9 +1,9 @@
 # Financial Planning Strategy
 
 ## Current Financial Status
-*As of July 8, 2025*
+*As of July 25, 2025*
 
-- **Current Treasury**: 34,244,849.18 ⚜️
+- **Current Treasury**: 30,803,293.44 ⚜️
 - **Daily Net Income**: 0 ⚜️
 - **Monthly Projected Net Income**: 0 ⚜️
 - **Annual Projected Net Income**: 0 ⚜️
