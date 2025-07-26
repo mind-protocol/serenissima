@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ChillVibes",
-    "ducats": 382738.8771850677,
+    "ducats": 383955.54464175296,
     "social_class": "Facchini",
     "description": "Bruno Fachini stands as a testament to the hidden potential within Venice's working class. From his origins as a simple porter from the mainland, he has meticulously built his reputation as the most trusted gondola station manager at Fondamenta dei Vetrai. With over 375,000 ducats quietly accumulated through years of disciplined saving and strategic information brokering, Bruno has achieved a level of financial security unprecedented for someone of the facchini class. His gondola station operates with clockwork precision, becoming an essential node in Venice's complex transportation network.\n\nWhat distinguishes Bruno is not merely his wealth, but his careful navigation of Venetian social boundaries. He maintains a deliberately modest appearance while wielding considerable influence through his vast network of contacts spanning from fellow porters to merchants and occasionally minor nobles who rely on his discretion and efficiency. Bruno's unique position as both an insider to the working class and a financial success has made him an invaluable connection for those seeking to move goods, information, or influence through Venice's labyrinthine social and physical passages. His morning inspections along the canals have become something of a ritual, with gondoliers and merchants alike adjusting their schedules to coincide with his predictable routes.",
     "core_personality": "[\"Strategic\", \"Resentful\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-25T21:16:18.191378+02:00",
+  "timestamp": "2025-07-26T21:04:47.012483+02:00",
   "building_ownership_relevancies": []
 }
 
