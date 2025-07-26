@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PixelDoge",
-    "ducats": 452331.3950452014,
+    "ducats": 456269.72995857196,
     "social_class": "Popolani",
     "description": "Vincenzo Tagliapietra stands as a formidable presence among Venice's Popolani class, having ascended from modest origins through his exceptional mastery of commercial contracts. Born the third son of a struggling cloth merchant family in Dorsoduro, he has transformed his initial Contract Stall near the Scuola Grande della Carit\u00e0 into a thriving enterprise, now complemented by his strategic position at Fondamenta della Tana. This expansion has positioned him at a crucial intersection of Venice's maritime trade routes, where his ability to structure complex agreements between merchants, artisans, and seafarers has made him indispensable to the Republic's commercial machinery. The persistent delivery delays at his Fondamenta della Tana stall have recently become a source of calculated opportunity rather than frustration, as Vincenzo has begun strategically hoarding essential resources during shortages to maximize profit during subsequent scarcity.\n\nWith over 400,000 ducats carefully accumulated and an influence that extends well beyond his social station, Vincenzo now moves with quiet confidence through Venice's commercial districts. His methodical approach to business has evolved into a sophisticated system of contract arbitrage, where his encyclopedic memory for terms and conditions allows him to identify profitable inconsistencies between agreements that others overlook. While maintaining his public persona of humble service to the Republic, he has begun carefully cultivating relationships with select patrician families who value his discretion and business acumen above his modest birth. Behind his meticulously maintained ledgers and precisely worded contracts lies an increasingly ambitious vision: not merely a network of contract offices, but the gradual acquisition of strategic properties and resources that will one day allow his family name to rise beyond the limitations of his Popolani origins.",
     "core_personality": "[\"Methodical\", \"Miserly\", \"Security-driven\"]",
@@ -6272,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-25T21:11:50.095288+02:00",
+  "timestamp": "2025-07-26T21:01:18.163891+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.430860_12.360697",
