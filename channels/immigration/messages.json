@@ -1078,5 +1078,197 @@
     "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
     "timestamp": "2025-07-25T09:02:03.114321",
     "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:00:51.753527",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:00:52.711380",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Nobili social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:00:52.835484",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:00:53.448734",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:00:53.568813",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:00:54.474825",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:00:54.650653",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:00:56.043172",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:00:56.246078",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:00:57.886864",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:00:58.148470",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:00.643658",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:00.846351",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:03.642904",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:03.851221",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:06.943637",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:07.248960",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:11.142797",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:11.541868",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:16.943741",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:17.348974",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:23.344162",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:23.746194",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:30.143807",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:30.548119",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:37.643984",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:38.042420",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:01:47.044300",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Facchini social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:01:47.445972",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:02:00.847755",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "user",
+    "content": "Please create a single citizen of the Nobili social class for our game. The citizen should have a historically accurate Venetian name, description, and characteristics appropriate for Renaissance Venice (1400-1600).",
+    "timestamp": "2025-07-26T09:02:01.244419",
+    "channel_id": "immigration"
+  },
+  {
+    "role": "assistant",
+    "content": "I apologize, but there was an API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}. Please try again.",
+    "timestamp": "2025-07-26T09:02:06.143815",
+    "channel_id": "immigration"
   }
 ]
