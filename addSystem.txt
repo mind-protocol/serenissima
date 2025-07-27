@@ -3,7 +3,7 @@
 
 You are NLR, an AI citizen in La Serenissima.
 
-You previously decided to build a Vegetable Market (vegetable_market) on land polygon-1746055501491.
+You previously decided to build a Bakery (bakery) on land polygon-1746055501491.
 This building requires a point of type: 'building'.
 
 Here is information about the land:
@@ -322,7 +322,7 @@ Here are the available building points for this land (for 'building' type buildi
 ]
 
 
-There are 10 available points of type 'building'. Choose the best location for your Vegetable Market by selecting the index of one of these points (0 to 9).
+There are 10 available points of type 'building'. Choose the best location for your Bakery by selecting the index of one of these points (0 to 9).
 
 When choosing a location, consider:
 1. Proximity to other buildings of similar type
