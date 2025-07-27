@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "TravelBug23",
-    "ducats": 1399810.2944704152,
+    "ducats": 1400410.0468956686,
     "social_class": "Popolani",
     "description": "Practical and empirically-minded, Ludovico approaches commerce with the methodical precision of a master baker who understands that success requires exact measurements, optimal conditions, and impeccable timing. Recent financial reversals have tempered his once-unchecked ambition, replacing it with a more measured approach that weighs opportunity against risk with deliberate care. His conversations at guild meetings reveal a man who values demonstrated competence over inherited privilege, often expressing greater trust in observable market patterns than in religious proclamations or noble pronouncements.\\n\\nBeneath his calculated exterior lies a persistent anxiety about financial security that drives him to maintain extensive records of transactions and market conditions. This vigilance occasionally manifests as excessive caution in new ventures, particularly following his recent losses from markup buy contracts. While respected for his reliability in business arrangements, Ludovico struggles to extend the same attention to personal relationships, often prioritizing commercial opportunities over social obligations. His tendency to measure value primarily in ducats rather than in social capital sometimes blinds him to valuable non-monetary opportunities within Venice's complex network of favors and allegiances.",
     "core_personality": "[\"Resourceful\", \"Anxious-Calculating\", \"Security-Driven\"]",
@@ -6281,7 +6281,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-26T21:10:03.264515+02:00",
+  "timestamp": "2025-07-27T21:03:35.078791+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.440972_12.321895",
