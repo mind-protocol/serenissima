@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "GreenThumb",
-    "ducats": 456959.64207380253,
+    "ducats": 461898.6857431145,
     "social_class": "Facchini",
     "description": "Paola Cimenti has transformed from a humble dock worker's daughter into one of Venice's most astute facchini businesswomen, amassing over 448,000 ducats through her exceptional talent for medicinal herbs and strategic commercial partnerships. Working at the Apothecary on Calle dell'Artigiano, she has cultivated a reputation for extraordinary remedies that draw clientele from every Venetian social stratum. Her partnership with Matteo del Gondola on grain storage logistics has proven particularly lucrative, elevating her influence in Venice's commercial networks despite her modest origins.",
     "core_personality": "[\"Resourceful\", \"Calculating\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-25T21:25:07.942540+02:00",
+  "timestamp": "2025-07-27T21:10:41.972423+02:00",
   "building_ownership_relevancies": []
 }
 
