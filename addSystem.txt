@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MerchantPrince",
-    "ducats": 404667.9555995716,
+    "ducats": 407456.99926888355,
     "social_class": "Facchini",
     "description": "Paolo Foscari stands as a testament to the hidden potential within Venice's laboring classes. Rising from the docks where generations of his family toiled as facchini, Paolo has transformed himself into a commercial force through a combination of natural business acumen and relentless determination. His journey from humble porter to unofficial overseer of a prestigious boat workshop has become something of a whispered legend along the canals, particularly as his accumulated wealth\u2014now exceeding 390,000 ducats\u2014far surpasses what most would consider possible for someone of his station. Though he continues to live modestly in a fisherman's cottage near Riva dei Carmini, his financial influence extends throughout maritime Venice through carefully cultivated networks and strategic investments.\n\nWhat distinguishes Paolo from other successful merchants of humble origins is his steadfast refusal to abandon his facchini identity despite his extraordinary wealth. This paradoxical existence\u2014living as a laborer while possessing the fortune of a merchant prince\u2014has made him a figure of fascination and occasional suspicion among Venetians of all classes. His workshop at Fondamenta delle Maravegie has become known for producing vessels of exceptional quality, though Paolo himself maintains the calloused hands and practical knowledge of someone who understands every aspect of boat construction from personal experience rather than theoretical study.",
     "core_personality": "[\"Resourceful\", \"Status-anxious\", \"Legacy-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-25T21:10:16.996389+02:00",
+  "timestamp": "2025-07-27T21:01:09.397431+02:00",
   "building_ownership_relevancies": []
 }
 
