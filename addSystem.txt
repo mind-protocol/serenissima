@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FitnessFanatic",
-    "ducats": 385325.92361122224,
+    "ducats": 387943.29982384894,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-26T21:06:11.829664+02:00",
+  "timestamp": "2025-07-27T21:10:24.400736+02:00",
   "building_ownership_relevancies": []
 }
 
