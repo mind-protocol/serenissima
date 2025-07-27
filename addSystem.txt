@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "greek_trader",
-    "ducats": 770163.1414576835,
+    "ducats": 777117.8938829369,
     "social_class": "Popolani",
     "description": "Antonio Corfiote stands as testament to the potential for advancement in La Serenissima. Born to Greek immigrants who fled Ottoman expansion, he transformed from a calloused dockworker to a prosperous warehouse proprietor through relentless perseverance. His once-weathered hands now bear the marks of success - fine cloth sleeves and an occasional gold ring - though he maintains the practical demeanor of one who knows the weight of every crate and value of every cargo. Operating from his Contract Stall at Rio Ter\u00e0 delle Madonnelle, Antonio has become a crucial nexus between Venetian merchants and Eastern traders, his fluency in multiple dialects and intimate knowledge of maritime commerce making him indispensable to both newcomers and established houses alike.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Recognition-driven\"]",
@@ -6280,7 +6280,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-26T21:18:48.649424+02:00",
+  "timestamp": "2025-07-27T21:15:54.542975+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.442109_12.324792",
