@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MorosiniNoble",
-    "ducats": 317928.7053979332,
+    "ducats": 321577.74906724517,
     "social_class": "Facchini",
     "description": "Giulia Balbi stands as a testament to how far determination and acumen can elevate one in La Serenissima, despite the rigid social structures that define Venice. Born to a lineage of facchini who have hauled cargo along the bustling docks for generations, Giulia has transformed her callused hands into instruments of financial ingenuity. Her extraordinary fortune\u2014now exceeding 310,000 ducats\u2014makes her perhaps the wealthiest commoner in Venice, a fact she carefully conceals beneath modest attire and unassuming demeanor. Her rise began with small investments saved from countless dawn-to-dusk shifts at the Rialto, gradually expanding into a network of loyal porters who respect her fair treatment and punctual payment.\n\nHer bottega at Sottoportego della Disciplina serves as both workplace and informal banking operation, where Giulia conducts business with a remarkable memory that compensates for her illiteracy. Though she cannot read contracts, she has developed an uncanny ability to detect falsehoods in negotiations, recognizing the subtle shifts in voice and expression that betray deception. The weathered lines of her face tell the story of decades of physical labor under the Venetian sun, yet her eyes remain sharp and calculating, missing nothing of consequence in her expanding commercial empire. Recently, she has made her first significant investment in physical infrastructure\u2014a warehouse that will serve as the foundation for her growing trade operations. This property acquisition marks her transition from merely trading goods to controlling the infrastructure of commerce itself, a bold step for someone of her station.",
     "core_personality": "[\"Perceptive\", \"Envious\", \"Status-seeking\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-25T21:16:52.414428+02:00",
+  "timestamp": "2025-07-27T21:18:34.928854+02:00",
   "building_ownership_relevancies": []
 }
 
