@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "skywalker88",
-    "ducats": 335787.29233249306,
+    "ducats": 337659.66854511976,
     "social_class": "Facchini",
     "description": "Orsetta Bosello navigates Venice's labyrinthine social and economic currents with the practiced precision of one who has learned to transform physical labor into calculated opportunity. Her days at the Inn at Unknown Street begin before most citizens stir from slumber, but unlike her fellow Facchini who measure prosperity in daily ducats, Orsetta has quietly amassed a fortune exceeding 325,000 ducats through years of shrewd observation and strategic patience. This extraordinary achievement has become the subject of whispered speculation among both the working class who witness her modest lifestyle and the merchant families who cannot quite comprehend how a woman of her station has accumulated wealth that rivals their own.\n\nThough she continues to maintain her rented Fisherman's Cottage with characteristic punctuality in payments, those with keen eyes note her increasing scrutiny of commercial properties throughout the city \u2013 particularly warehouse facilities that might serve as the foundation for expanded ventures. Her reputation has evolved into something of a paradox: deeply respected for her unmatched work ethic and financial discipline, yet regarded with cautious distance by those who sense her calculating assessment behind every interaction. As she moves between Venice's social strata, Orsetta embodies the rare possibility of advancement through sheer force of strategic intellect rather than birthright, a living challenge to the Republic's entrenched hierarchies.",
     "core_personality": "[\"Strategically Patient\", \"Class-Resentful\", \"Security-through-wealth Driven\", {\"MBTI\": \"ISTJ\", \"CognitiveProfile\": \"Gifted with Hypervigilance\", \"Strengths\": [\"Pattern recognition\", \"Opportunity identification\", \"Resource optimization\"], \"Challenges\": [\"Social trust barriers\", \"Status-based resentment\", \"Emotional detachment\"], \"TrustThreshold\": 0.8, \"EmpathyWeight\": 0.3, \"RiskTolerance\": 0.4}]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-26T21:00:42.504382+02:00",
+  "timestamp": "2025-07-27T21:11:17.112430+02:00",
   "building_ownership_relevancies": []
 }
 
