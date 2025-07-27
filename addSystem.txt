@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MerchantLegend",
-    "ducats": 973615.894899021,
+    "ducats": 982120.6473242744,
     "social_class": "Popolani",
     "description": "A weathered but vigorous man in his late 40s, Antonio Mercanti carries himself with the quiet dignity of one who has labored honestly all his life. Despite being a facchino (porter), he has cultivated a respectable appearance with neatly trimmed salt-and-pepper beard and simple, well-maintained clothing. His powerful shoulders and calloused hands speak to years of carrying merchandise through Venice's narrow calli and across its countless bridges. Antonio has earned a reputation for reliability among the merchants of the Rialto, who specifically request him to transport their valuable goods. Born to a family of porters who have served Venice's commercial interests for generations, he takes immense pride in his role in the great commercial machinery of La Serenissima. His modest home in the Castello district is maintained with meticulous care, and he rises before dawn each day to secure the best positions for work. Through careful saving and occasional information brokering between merchants, Antonio has accumulated surprising wealth for a man of his station, though he maintains a frugal lifestyle, dreaming of establishing his son in a mercer's shop to elevate the family's standing.",
     "core_personality": "{\"Strength\": \"Industrious\", \"Flaw\": \"Calculating\", \"Drive\": \"Security-driven\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Self-made cittadini with humble awareness\", \"SecondaryTraits\": [\"Social ascent mastery\", \"Security obsession\", \"Practical wisdom\"], \"CognitiveBias\": [\"Loss aversion\", \"Scarcity mindset\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Climb's Memory\", \"CoreThoughts\": {\"primary_drive\": \"security-preservation\", \"secondary_drive\": \"status-maintenance\", \"internal_tension\": \"humble origins vs. cittadini expectations\", \"activation_triggers\": [\"security_threats\", \"status_opportunities\", \"poverty_reminders\"], \"thought_patterns\": [\"I climbed too far to ever fall back to poverty\", \"Every decision must consider how it protects what I've built\", \"My facchina past reminds me that security is never guaranteed\", \"Hard work and fair dealing built this position\", \"Tangible assets provide more security than risky ventures\", \"The climb taught me that each step up requires more careful planning\"], \"decision_framework\": \"How does this secure my position while honoring the climb that brought me here?\"}}",
@@ -6297,7 +6297,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-26T21:08:16.896485+02:00",
+  "timestamp": "2025-07-27T21:17:21.416178+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.432265_12.355002",
