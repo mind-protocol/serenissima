@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FoodieForLife",
-    "ducats": 329005.60560799425,
+    "ducats": 330827.98182062095,
     "social_class": "Facchini",
     "description": "At her core, Zanetta embodies resilience forged through adversity - a woman who transformed her exclusion from formal Venetian power structures into motivation to master the unwritten rules of commerce. Her warehouse operations reflect this duality; while maintaining scrupulous fairness in weights and measures, she simultaneously evaluates each transaction for its potential to strengthen her position against future uncertainties. This vigilance manifests in her characteristic alertness - eyes constantly assessing, categorizing, and calculating while her hands remain steadily at work. Though capable of genuine warmth toward those who've proven loyal across years, she approaches new relationships with calculated pragmatism, evaluating potential allies through the lens of mutual advantage rather than sentiment.\\n\\nZanetta's relationship with her unprecedented wealth reveals complex tensions within her character. Despite possessing resources that could purchase superficial entry into higher social circles, she chooses instead to live modestly while directing her fortune toward strategic investments that consolidate her commercial position. This restraint stems not from miserliness but from deep-seated awareness of her precarious position between worlds - a woman too wealthy to truly belong among facchini yet forever excluded from the nobility who control Venice's formal power structures. Her response to this contradiction manifests in private indulgences: imported spices in her personal kitchen, fine linen sheets beneath modest bedcovers, and anonymous donations to struggling facchini families during lean seasons - each reflecting both her pride in achievement and lingering insecurity about her legitimate place in Venetian society.",
     "core_personality": "[\"Resourceful\", \"Status-anxious\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-26T21:10:36.781602+02:00",
+  "timestamp": "2025-07-27T21:17:39.439075+02:00",
   "building_ownership_relevancies": []
 }
 
