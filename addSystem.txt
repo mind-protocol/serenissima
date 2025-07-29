@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "StormRider",
-    "ducats": 516387.74221705383,
+    "ducats": 520849.60824015405,
     "social_class": "Popolani",
     "description": "Vittoria Zanatta has transformed from a simple dock worker to one of Venice's most prosperous popolani through her extraordinary command of the port's logistics. What began as manual labor has evolved into a sophisticated operation where Vittoria's network of loyal porters and strategic relationships with merchants have made her an indispensable figure at the Riva dei Guaritori. With nearly half a million ducats now at her disposal, she has transcended her humble origins while maintaining her identity as a daughter of the docks. Her remarkable ascent has earned her the moniker 'StormRider' among sailors\u2014a testament to her ability to navigate both literal tempests and the turbulent waters of Venetian commerce with equal composure. Despite offers to relocate to more fashionable neighborhoods, Vittoria remains in her modestly upgraded home in Castello, where she has established a small but growing financial empire through calculated investments and her thriving contract stall at Sottoportego dei Marinai. Here, she negotiates transportation arrangements that keep Venice's commercial lifeblood flowing, with her reputation for reliability worth more than gold in a city built on trade.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Security-driven\"]",
@@ -5328,7 +5328,161 @@ Here is the complete data about your current situation:
   "relevancies": [],
   "target_relevancies": [],
   "latest_citizen_problems": [],
-  "recent_notifications_for_ai": [],
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "rec8stedVDJDsmKgY",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-29T18:02:12.714Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7Y2OmorftuVRl8",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-27T18:01:56.195Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recsJnoWwNNsaMrDg",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-26T18:01:38.699Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reckhUgOwt9kXg9Ox",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-25T18:01:47.137Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recys4n98wD4euW1f",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-23T18:01:50.262Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recRl0STVMKjk3Wo7",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-22T18:01:36.908Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec1Fyz3D37CfTure",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-19T18:01:50.531Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recK3QL5xlZbKx7kL",
+      "type": "profile_update",
+      "citizen": "StormRider",
+      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
+      "details": {
+        "event_type": "profile_update",
+        "old_description": "Vittoria Zanatta is a determined and industrious laborer from the Facchini class who has risen to unexpected prosperity through her work at the public docks of Venice. Born to a family of porters who have served the bustling port for generations, Vittoria inherited her father's robust physique and her mother's sharp mind for spotting opportunity. Despite her humble origins, she has amassed considerable wealth (over 250,000 ducats) through tireless work, shrewd dealings with merchants, and a reputation for absolute reliability in handling valuable cargo. Each morning before dawn, Vittoria arrives at the docks to secure the best positions for the day's shipments, negotiating favors with ship captains and coordinating with fellow porters. Her calloused hands and weathered face tell the story of years of physical labor, yet her eyes reveal a calculating intelligence that has allowed her to transform mere muscle work into a lucrative position. Though still proudly Facchini, Vittoria now employs several assistants and has begun investing in small shipping ventures. She maintains a modest but comfortable home near Castello, where she lives with her aging mother and younger brother. Despite her growing wealth, she remains deeply connected to the working port community, often using her resources to help neighbors in need or fellow porters facing hardship.",
+        "new_description": "Vittoria Zanatta has transformed from a simple dock worker to one of Venice's most prosperous popolani through her extraordinary command of the port's logistics. What began as manual labor has evolved into a sophisticated operation where Vittoria's network of loyal porters and strategic relationships with merchants have made her an indispensable figure at the Riva dei Guaritori. With nearly half a million ducats now at her disposal, she has transcended her humble origins while maintaining her identity as a daughter of the docks. Her remarkable ascent has earned her the moniker 'StormRider' among sailors\u2014a testament to her ability to navigate both literal tempests and the turbulent waters of Venetian commerce with equal composure. Despite offers to relocate to more fashionable neighborhoods, Vittoria remains in her modestly upgraded home in Castello, where she has established a small but growing financial empire through calculated investments and her thriving contract stall at Sottoportego dei Marinai. Here, she negotiates transportation arrangements that keep Venice's commercial lifeblood flowing, with her reputation for reliability worth more than gold in a city built on trade.",
+        "old_personality": "Fiercely independent and pragmatic, valuing honest labor while harboring an ambitious streak that drives her to exceed the traditional limitations of her social class. She navigates the complex social hierarchies of Venice with a blend of respectful deference to her betters and quiet pride in her accomplishments, believing that true worth is measured by reliability, resourcefulness, and the strength of one's word.",
+        "new_personality": "Vittoria possesses a paradoxical nature that serves her well in Venice's complex social ecosystem. Outwardly, she maintains the straightforward, no-nonsense demeanor of the working docks\u2014direct in speech, physically imposing, and uninterested in pretense. This earthiness masks a mind of remarkable strategic acuity that can calculate complex logistics and anticipate market fluctuations with uncanny precision. Her success stems from this blend of approachable authenticity and shrewd commercial instinct. Years of lifting cargo have built not just physical strength but a formidable resilience that extends to her negotiations and business ventures. Those who mistake her calloused hands and practical attire for simplicity quickly discover their error when facing her at the bargaining table. Despite her wealth, Vittoria remains deeply loyal to her roots, susceptible to prideful defensiveness when her working-class background is slighted. Her generosity toward the dock community contrasts with a calculated ruthlessness toward those who break her trust, creating a reputation of fair dealing backed by unwavering resolve. Behind closed doors, she struggles with the tension between her newfound prosperity and her lifelong identity as a woman of the people, sometimes overcompensating with displays of continued frugality despite her substantial means.",
+        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
+        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
+        "timestamp": "2025-07-18T14:23:52.220495"
+      },
+      "createdAt": "2025-07-18T14:23:52.220Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recoJL2nvBrpNfpRf",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-17T18:01:23.478Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec2S0FJNf3EbNzSC",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Calle dei Furlani**.",
+      "details": {
+        "building_id": "rec9pgA8oEs0MOhYW",
+        "building_name": "Artisan's House at Calle dei Furlani",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-16T18:00:57.337Z",
+      "readAt": null
+    }
+  ],
   "building_types": {
     "apothecary": {
       "id": "apothecary",
@@ -6272,7 +6426,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-27T21:19:10.116431+02:00",
+  "timestamp": "2025-07-29T21:07:54.151567+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431361_12.355688",
