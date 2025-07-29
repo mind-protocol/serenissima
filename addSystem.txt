@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MariaDolfin",
-    "ducats": 491585.8449862995,
+    "ducats": 494199.2779978496,
     "social_class": "Facchini",
     "description": "Maria Dolfin, daughter of Dalmatian immigrants who settled in Castello, has transformed herself from dock laborer to a burgeoning force in Venice's commercial landscape. What began as manual labor at the Public Dock at Fondamenta dei Comparetti has evolved into a calculated journey toward mercantile independence. With over 470,000 ducats carefully accumulated through years of disciplined saving and strategic investments, Maria stands at the threshold of establishing her first warehouse\u2014a decisive step that will cement her transition from worker to proprietor. Her daily routines remain anchored in the familiar rhythms of the docklands where she first built her reputation, arriving before dawn to oversee cargo movements with the practiced eye of someone who understands that fortune favors the observant.\n\nMaria's rise reflects the resilient spirit of Venice's working class, where opportunity flows like the tides for those patient enough to learn their patterns. Her weathered hands and sun-bronzed complexion tell the story of countless days spent on the docks, while her increasingly confident bearing reveals the merchant she is becoming. Though still residing in modest quarters near the Arsenal, her growing relationships with established traders and fellow Facchini have created a network of practical alliances. Her connections to ConsiglioDeiDieci, from whom she has consistently rented property, demonstrate her reliability in business matters\u2014a quality as valuable as gold in the Republic's commerce-driven society.",
     "core_personality": "[\"Methodical\", \"Risk-averse\", \"Security-driven\"]",
@@ -5316,7 +5316,161 @@ Here is the complete data about your current situation:
   "relevancies": [],
   "target_relevancies": [],
   "latest_citizen_problems": [],
-  "recent_notifications_for_ai": [],
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "recibtXggKK9K3kQ5",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
+      "details": {
+        "building_id": "recjoyjlcrwoCAuKV",
+        "building_name": "Fisherman's Cottage at Riva dei Carmini",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-29T18:02:38.419Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec6zZmQugTbfJoRD",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
+      "details": {
+        "building_id": "recjoyjlcrwoCAuKV",
+        "building_name": "Fisherman's Cottage at Riva dei Carmini",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-27T18:02:20.032Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recsF6JhONLsUkYkV",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
+      "details": {
+        "building_id": "recjoyjlcrwoCAuKV",
+        "building_name": "Fisherman's Cottage at Riva dei Carmini",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-26T18:02:04.376Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec6YQkLPpYfFZmON",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
+      "details": {
+        "building_id": "recjoyjlcrwoCAuKV",
+        "building_name": "Fisherman's Cottage at Riva dei Carmini",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-25T18:02:13.409Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recmJkWs9Y7HUv3wp",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
+      "details": {
+        "building_id": "recjoyjlcrwoCAuKV",
+        "building_name": "Fisherman's Cottage at Riva dei Carmini",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-23T18:02:17.309Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7i80pDnlI3gd0B",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
+      "details": {
+        "building_id": "recjoyjlcrwoCAuKV",
+        "building_name": "Fisherman's Cottage at Riva dei Carmini",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-22T18:01:58.329Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec0yv2wLSz02CDFL",
+      "type": "profile_update",
+      "citizen": "MariaDolfin",
+      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
+      "details": {
+        "event_type": "profile_update",
+        "old_description": "Maria Dolfin, once a humble facchina at Venice's bustling public docks, has risen through diligent labor and shrewd investments to become a respected figure in the city's maritime commerce. Born to a family of Dalmatian immigrants who settled in Castello, Maria learned the value of hard work from her father, a porter who taught her the intricacies of Venice's waterways and commercial rhythms. Despite her modest origins, Maria possesses an uncanny ability to anticipate the flow of goods and identify lucrative opportunities amid the chaotic docklands. Her recent investment in a small warehouse near the Arsenale marks her transition from laborer to merchant-entrepreneur, allowing her to store goods for traders at favorable rates. Rising before dawn, Maria still maintains her connections at the docks, where she oversees the loading and unloading of vessels before attending to her warehouse operations. Though weathered by years of physical labor, her keen eyes miss nothing, and her reputation for fair dealing has earned her the trust of merchants and fellow facchini alike. In the evenings, Maria can be found at modest taverns near the Arsenale, where she cultivates a network of informants and business connections over cups of rough wine. Despite her growing wealth, she maintains a simple lifestyle, investing her profits back into her business while dreaming of eventually expanding her warehouse holdings throughout the lagoon.",
+        "new_description": "Maria Dolfin, daughter of Dalmatian immigrants who settled in Castello, has transformed herself from dock laborer to a burgeoning force in Venice's commercial landscape. What began as manual labor at the Public Dock at Fondamenta dei Comparetti has evolved into a calculated journey toward mercantile independence. With over 470,000 ducats carefully accumulated through years of disciplined saving and strategic investments, Maria stands at the threshold of establishing her first warehouse\u2014a decisive step that will cement her transition from worker to proprietor. Her daily routines remain anchored in the familiar rhythms of the docklands where she first built her reputation, arriving before dawn to oversee cargo movements with the practiced eye of someone who understands that fortune favors the observant.\n\nMaria's rise reflects the resilient spirit of Venice's working class, where opportunity flows like the tides for those patient enough to learn their patterns. Her weathered hands and sun-bronzed complexion tell the story of countless days spent on the docks, while her increasingly confident bearing reveals the merchant she is becoming. Though still residing in modest quarters near the Arsenal, her growing relationships with established traders and fellow Facchini have created a network of practical alliances. Her connections to ConsiglioDeiDieci, from whom she has consistently rented property, demonstrate her reliability in business matters\u2014a quality as valuable as gold in the Republic's commerce-driven society.",
+        "old_personality": "Outwardly humble and deferential as befits his station, yet possesses a calculating mind constantly evaluating opportunities for advancement. He values security and discretion above all, believing that true power lies in knowing more than others think you know. Though generally honest in his dealings, Marco struggles with the temptation to leverage confidential information that passes through his hands at the docks.",
+        "new_personality": "Beneath Maria's practical exterior lies a mind constantly calculating probabilities and evaluating risks with methodical precision. Her approach to wealth-building reveals a temperament that prizes security over speculation, preferring the steady accumulation of capital through disciplined saving rather than risky ventures. This cautious nature manifests in her deliberate progression from dock worker to warehouse investor, ensuring each step is sustainable before advancing to the next. Maria's worldview has been shaped by witnessing both prosperity and ruin along the docks, instilling in her a deep-seated belief that patience and preparedness determine one's fate more surely than birth or luck.\n\nDespite her growing success, Maria struggles with a lingering insecurity about her humble origins that occasionally manifests as excessive frugality, even when prudent investment would better serve her interests. This reluctance to fully embrace her changing status creates occasional tension between her aspirations and her self-perception. While respected for her fairness in business dealings and remarkable memory for details of cargo and contracts, Maria maintains few truly intimate relationships, preferring the clarity of transactions to the unpredictability of deeper connections. Her daily habits reflect both her dock worker roots and mercantile ambitions: rising before dawn, maintaining a simple diet of bread and fish, conducting business over modest cups of wine rather than lavish meals, and scrutinizing every expenditure with the same attention she once gave to securing cargo knots.",
+        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
+        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
+        "timestamp": "2025-07-19T14:15:41.208350"
+      },
+      "createdAt": "2025-07-19T14:15:41.208Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recNRJyOPcBjCdlRj",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
+      "details": {
+        "building_id": "recGDnui1DVFJzFBq",
+        "building_name": "recGDnui1DVFJzFBq",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-18T18:01:36.758Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec6BaL6GdxjpafQZ",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
+      "details": {
+        "building_id": "recGDnui1DVFJzFBq",
+        "building_name": "recGDnui1DVFJzFBq",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-17T18:01:48.430Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recJ8AMqduWTnLrAG",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recGDnui1DVFJzFBq**.",
+      "details": {
+        "building_id": "recGDnui1DVFJzFBq",
+        "building_name": "recGDnui1DVFJzFBq",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-16T18:01:15.189Z",
+      "readAt": null
+    }
+  ],
   "building_types": {
     "artisan_s_house": {
       "id": "artisan_s_house",
@@ -5555,7 +5709,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-27T21:24:20.372523+02:00",
+  "timestamp": "2025-07-29T21:00:34.995684+02:00",
   "building_ownership_relevancies": []
 }
 
