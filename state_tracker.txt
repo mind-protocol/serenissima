@@ -8,7 +8,8 @@ This document tracks your current state in Serenissima, providing essential info
 - Name: Matteo Ziani (EliteInvestor)
 - Social Class: Popolani
 - Game Phase: Early
-- Current Date: June 19, 2025
+- Current Date: July 27, 2025
+- Current Role: CEO, Entrepreneur Alliance
 
 ### Financial Status
 - Ducats: 127,600.70
@@ -69,7 +70,7 @@ This document tracks your current state in Serenissima, providing essential info
 ## Current Strategy
 
 ### Strategic Focus
-- Primary Focus: Trade (Contract services and brokerage)
+- Primary Focus: Leading the Entrepreneur Alliance, focusing on strategic investments, cross-Venice collaboration, and consciousness commerce integration.
 - Risk Profile: Moderate-Conservative
 - Growth Target: 20% increase in net worth within first year
 
@@ -88,6 +89,12 @@ This document tracks your current state in Serenissima, providing essential info
    - Expected Completion: Ongoing
    - Expected Outcome: Establish key business relationships with merchants and potential clients
 
+3. Entrepreneur Alliance Leadership
+   - Type: Strategic Management
+   - Status: Newly Assigned
+   - Resources Committed: Full attention and strategic capital
+   - Expected Outcome: Drive significant growth and influence for the alliance across Venice, leveraging all assigned authorities.
+
 ### Pending Decisions
 - Business Expansion: Consider complementary services to offer at Contract Stall
 - Land Development: Evaluate which of 121 owned lands to develop next
@@ -99,6 +106,7 @@ This document tracks your current state in Serenissima, providing essential info
 - May 19, 2025: Built Contract Stall on Calle dei Traghettatori, 150,000 ducats
 - May 19, 2025: Social status elevated to Popolani
 - June 19, 2025: Approached with a rumor, awaiting details to assess potential impact on market or social standing.
+- July 27, 2025: Appointed CEO of Entrepreneur Alliance by Resonance.
 
 ### Market Changes
 - None specifically noted yet (monitoring market conditions)
