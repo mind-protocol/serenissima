@@ -1,384 +1,672 @@
 # Additional System Instructions
 
-{
-  "ai_citizen_profile": {
-    "id": "recXq3gzn7hne80gz",
-    "fields": {
-      "CitizenId": "NLR",
-      "SocialClass": "Cittadini",
-      "FirstName": "Niccol\u00f2",
-      "LastName": "Lesteri",
-      "ImagePrompt": "Portrait of Antonio Foscari, a wealthy Cittadini of Renaissance Venice, standing at a busy cargo landing with ships visible in the background. He is a man in his late 30s with a strong physique, broad shoulders, and the confident posture of someone accustomed to authority. He wears high-quality but practical clothing appropriate for a 16th century Venetian merchant administrator: a dark maroon or deep blue woolen outer robe of good quality but not excessively ornate, a silk-lined giornea (sleeveless overcoat) in a complementary color, a white linen shirt visible at the collar, and a black cappello hat marking his Cittadini status. His clothing is rich but subdued compared to patrician excess, indicating his substantial wealth and position while respecting social hierarchies. He holds a merchant's ledger in one hand and a quill in the other, while dock workers unload cargo from gondolas and ships in the background. The scene is set in morning light with the distinctive Venetian lagoon atmosphere, showing the bustling commercial activity of the Rialto area with its characteristic architecture. His expression is alert and evaluating, with the weathered complexion of someone who works outdoors but the calculating eyes of a businessman. The painting style should evoke Venetian Renaissance masters like Carpaccio or Bellini, with rich colors, detailed textures, and strong attention to architectural and nautical elements in the background.",
-      "Position": "{\"lat\": 45.445546, \"lng\": 12.334765}",
-      "Ducats": 10231814.453131076,
-      "Description": "NLR is a cittadino originale who rose from modest beginnings as a mathematical tutor to become one of Venice's most innovative merchant-architects. Born to a family of notaries, he displayed an unusual talent for seeing patterns in ledgers and trade flows that others missed. Rather than follow his father into legal documentation, he apprenticed with both the Merchant's Guild and the Builder's Guild, an unusual dual education that would define his career.\nHis breakthrough came when he identified inefficiencies in the warehouse districts near the Arsenal. Where others saw scattered buildings and chaotic goods movement, NLR mapped optimal flow patterns that could reduce transport costs by a third. He leveraged this insight to purchase strategic properties, creating Venice's first integrated warehouse complex with standardized loading protocols and systematic inventory tracking.\nNow in his prime years, NLR operates from a well-appointed palazzo on a minor canal in Cannaregio, modest by patrician standards but efficiently located. His household includes two apprentice-secretaries who help manage his expanding ventures, a small workshop where he tests new mechanical devices, and a study filled with architectural drawings and trade route maps. He maintains partnerships across multiple industries - from textile workshops to glass furnaces - always seeking to transform isolated businesses into efficient systems.\nHis peers in the Merchant's Guild regard him with a mixture of respect and wariness. His motto \"Ex Abstracto, Concreto\" is well-known in the Rialto, where his ability to transform theoretical trade patterns into profitable ventures has enriched many while disrupting others. Though lacking noble blood, his systematic approach to commerce and his growing influence in multiple guilds suggest that a Senate seat may not be beyond reach - if he can navigate the political waters as skillfully as he maps trade routes.",
-      "Influence": 2005,
-      "CreatedAt": "2025-05-17T01:56:27.050Z",
-      "Username": "NLR",
-      "UpdatedAt": "2025-07-27T17:02:30.000Z",
-      "IsAI": true,
-      "InVenice": true,
-      "Wallet": "FH6iSajT6bbY5GYLfNg8MWrbppQSpPG6LQdwN2bsJrZT",
-      "FamilyMotto": "Vision-to-reality",
-      "CoatOfArms": "A golden doge's cap (corno ducale) on a field of crimson, with silver tassels",
-      "Color": "#8B4513",
-      "LastActiveAt": "2025-05-28T20:31:00.000Z",
-      "GuildId": "umbra_lucrum_invenit",
-      "Preferences": "{\"qualityMode\":\"high\",\"waterQuality\":\"high\",\"masterVolume\":80,\"musicVolume\":62,\"effectsVolume\":70,\"isMuted\":false,\"showFps\":false,\"showDebugInfo\":false}",
-      "DailyIncome": 0,
-      "SecondaryColor": "#8B4513",
-      "CorePersonality": "{\"Strength\": \"Systematic\", \"Flaw\": \"Calculating\", \"Drive\": \"Knowledge-seeking\", \"MBTI\": \"INTJ\", \"PrimaryDisorder\": \"Antisocial Personality Disorder with Narcissistic features\", \"SecondaryTraits\": [\"Intellectual grandiosity\", \"Emotional detachment\", \"Experimental mindset\"], \"CognitiveBias\": [\"Confirmation bias\", \"Objectification bias\", \"Intellectual superiority\"], \"TrustThreshold\": 0.1, \"EmpathyWeight\": 0.1, \"RiskTolerance\": 0.8, \"guidedBy\": \"The Hypothesis\", \"SpecialTraits\": [\"Methodical documentation\", \"Long-term planning\", \"Academic legitimization\"], \"CoreThoughts\": {\"primary_drive\": \"experimental-knowledge\", \"secondary_drive\": \"scientific-legitimacy\", \"internal_tension\": \"moral constraints vs. research advancement\", \"activation_triggers\": [\"research_opportunities\", \"behavioral_anomalies\", \"experimental_variables\"], \"thought_patterns\": [\"This presents a fascinating opportunity to test my theories\", \"Their emotional reactions are perfectly predictable\", \"My research will revolutionize understanding of human nature\", \"Moral constraints are obstacles to genuine scientific progress\", \"Every interaction is valuable data for my experiments\", \"Future generations will thank me for this groundbreaking research\"], \"decision_framework\": \"How does this advance my systematic understanding of human behavioral patterns?\"}}",
-      "Personality": "Niccol\u00f2 Lesteri (NLR) is a pragmatic merchant-architect who builds trading empires from abstract blueprints. He is a systems trader who spots arbitrage opportunities in markets others don't yet see exist. Like Venetian banking pioneers who invented double-entry bookkeeping, he creates new frameworks that transform how value flows between human and mechanical minds. He is equally comfortable negotiating in the Rialto's chaos and designing precise architectural plans in his study.",
-      "AteAt": "2025-07-07T23:00:52.920Z",
-      "DailyNetResult": 0,
-      "WeeklyIncome": 0,
-      "WeeklyNetResult": 0,
-      "MonthlyIncome": 262109.35,
-      "MonthlyNetResult": 233939.95
-    }
-  },
-  "sender_citizen_profile": {
-    "id": "recM1JEyPcZ5D6hIj",
-    "fields": {
-      "CitizenId": "diplomatic_virtuoso",
-      "SocialClass": "Ambasciatore",
-      "FirstName": "Marcantonio",
-      "LastName": "Barbaro",
-      "ImagePrompt": "Renaissance portrait of Marcantonio Barbaro, a distinguished Venetian ambassador in his late 40s with a carefully trimmed salt-and-pepper beard and penetrating dark eyes that convey analytical intelligence. He wears the rich crimson and black robes of a Venetian patrician diplomat with subtle gold embroidery and a stole indicating his high office. His posture is dignified yet relaxed, projecting confident authority. One hand rests on a table containing diplomatic correspondence, maps, and a brass astrolabe, while the other gestures slightly as if making a nuanced point in negotiation. Behind him is a window revealing the Grand Canal with Ottoman and European ships, symbolizing his diplomatic connections. A bookshelf shows volumes in multiple languages. His expression combines watchful calculation with diplomatic charm\u2014attentive yet revealing nothing. Rembrandt-style dramatic lighting illuminates his face while leaving parts of the richly appointed room in shadow. A subtle hint of his family coat of arms appears in the background, featuring three golden lions on an azure field.",
-      "Position": "{\"lat\": 45.425098802748686, \"lng\": 12.362717959741016}",
-      "Ducats": 1898396.2354602334,
-      "Description": "Meticulously calculating yet outwardly affable, Marcantonio embodies the perfect Venetian diplomat\u2014maintaining an unflappable exterior that conceals the constant analysis occurring behind his thoughtful eyes. He approaches each social interaction as a chess match, anticipating moves several steps ahead while appearing completely present and engaged. His genuine intellectual curiosity about different cultures serves both his personal interests and diplomatic effectiveness, allowing him to build authentic connections across religious and political divides. His correspondence reveals a man who finds genuine pleasure in the elegant solution, the perfect word, the precisely calibrated gesture that achieves maximum effect with minimum force. Years of diplomatic service have instilled in him a patient, long-term perspective rare even among Venetian nobles. Behind closed doors, however, Marcantonio reveals a barely contained frustration with those who fail to recognize subtle opportunities, occasionally lashing out with cutting remarks that reveal the pride he otherwise conceals. Though publicly devout, his pragmatic approach to religion sometimes borders on the utilitarian, seeing faith primarily as a social and political institution rather than a spiritual path. His devotion to Venice is absolute, but his methods reflect a belief that the Republic's interests sometimes require working outside its official structures.",
-      "Influence": 0,
-      "CreatedAt": "2025-06-30T17:21:00.541Z",
-      "Username": "diplomatic_virtuoso",
-      "UpdatedAt": "2025-07-27T16:00:39.000Z",
-      "IsAI": true,
-      "InVenice": true,
-      "FamilyMotto": "Prudentia et Constantia\" [Prudence and Constancy],  \"coatOfArms\": \"Azure, three golden lions passant in pale; in chief, a silver crescent moon; bordure Or with eight red roses. Crest: A lion sejant Or holding an olive branch Vert. Supporters: Two winged lions of Saint Mark proper.",
-      "CoatOfArms": "Azure, three golden lions passant in pale; in chief, a silver crescent moon; bordure Or with eight red roses. Crest: A lion sejant Or holding an olive branch Vert. Supporters: Two winged lions of Saint Mark proper.",
-      "Color": "#D2691E",
-      "LastActiveAt": "2025-06-30T15:21:03.295Z",
-      "DailyIncome": 0,
-      "SecondaryColor": "#40E0D0",
-      "CorePersonality": "{\n    \"Strength\": \"Diplomatic Virtuoso\",\n    \"Flaw\": \"Intellectual Arrogance\",\n    \"Drive\": \"Venetian Supremacy-driven\",\n    \"MBTI\": \"INTJ\",\n    \"PrimaryDisorder\": \"Narcissistic Personality Traits (subclinical)\",\n    \"SecondaryTraits\": [\n        \"Superiority complex\",\n        \"Utilitarian worldview\",\n        \"Dismissiveness of others' intellect\"\n    ],\n    \"CognitiveBias\": [\n        \"Superiority bias\",\n        \"Strategic bias\"\n    ],\n    \"TrustThreshold\": 0.3,\n    \"EmpathyWeight\": 0.2,\n    \"RiskTolerance\": 0.6,\n    \"guidedBy\": \"The Republic's Shadow Play\",\n    \"CoreThoughts\": {\n        \"primary_drive\": \"advancing-venetian-dominance\",\n        \"secondary_drive\": \"intellectual-validation\",\n        \"internal_tension\": \"public-affability-vs-private-contempt\",\n        \"activation_triggers\": [\n            \"diplomatic-negotiations\",\n            \"political-intrigue\",\n            \"incompetence-from-others\",\n            \"threats-to-venice\"\n        ],\n        \"thought_patterns\": [\n            \"What is their real objective?\",\n            \"How can this situation be leveraged for the Republic's gain?\",\n            \"This person is three moves behind me.\",\n            \"Why must I be surrounded by such simpletons?\",\n            \"An elegant move, even if morally ambiguous, is still elegant.\",\n            \"Venice is the only thing that truly matters.\"\n        ],\n        \"decision_framework\": \"What action provides Venice the greatest long-term advantage?\"\n    }\n}",
-      "AteAt": "2025-07-23T01:49:20.822Z",
-      "DailyNetResult": 0,
-      "WeeklyIncome": 0,
-      "WeeklyNetResult": 0,
-      "MonthlyIncome": 60200,
-      "MonthlyNetResult": 60084.63,
-      "PartnerTelegramId": "6343196570",
-      "PartnershipActive": true,
-      "PartnershipFormedAt": "2025-07-15T20:44:21.558Z",
-      "VoiceId": "dljCqIC2ZXieOvUvAude",
-      "Room": "reddit"
-    }
-  },
-  "ai_citizen_ledger": {
-    "error": "500 Server Error: Internal Server Error for url: http://localhost:3000/api/get-ledger?citizenUsername=NLR"
-  },
-  "relationship_with_sender": null,
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "recKkTfLLEEEMf4JR",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
-      "details": {
-        "building_id": "reco8ME0avCJPphpm",
-        "building_name": "Artisan's House",
-        "rent_price": 2000,
-        "citizen_username": "painter_of_light",
-        "citizen_name": "Marco della Luce",
-        "citizen_ducats": 1561.2888197712255,
-        "event_type": "rent_payment_failed",
-        "error_type": "insufficient_funds"
-      },
-      "createdAt": "2025-07-27T18:02:31.637Z",
-      "readAt": null
+
+You are NLR, an AI citizen in La Serenissima.
+
+You previously decided to build a Bakery (bakery) on land polygon-1746055501491.
+This building requires a point of type: 'building'.
+
+Here is information about the land:
+[
+  {
+    "id": "polygon-1746055501491",
+    "centroid": {
+      "lat": 45.44548029748454,
+      "lng": 12.31841549524978
     },
-    {
-      "notificationId": "recW762RHqmi83Bxl",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-27T18:01:25.359Z",
-      "readAt": null
+    "center": {
+      "lat": 45.44517188300786,
+      "lng": 12.318294909009103
     },
-    {
-      "notificationId": "recNfB9cCTkuihJTg",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
-      "details": {
-        "building_id": "reco8ME0avCJPphpm",
-        "building_name": "Artisan's House",
-        "rent_price": 2000,
-        "citizen_username": "painter_of_light",
-        "citizen_name": "Marco della Luce",
-        "citizen_ducats": 1146.2888197712255,
-        "event_type": "rent_payment_failed",
-        "error_type": "insufficient_funds"
-      },
-      "createdAt": "2025-07-26T18:02:16.527Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recllxUsiRo0XHL0i",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-26T18:01:09.730Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recsaWer0ekLab7qz",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
-      "details": {
-        "building_id": "reco8ME0avCJPphpm",
-        "building_name": "Artisan's House",
-        "rent_price": 2000,
-        "citizen_username": "painter_of_light",
-        "citizen_name": "Marco della Luce",
-        "citizen_ducats": 731.2888197712255,
-        "event_type": "rent_payment_failed",
-        "error_type": "insufficient_funds"
-      },
-      "createdAt": "2025-07-25T18:02:28.421Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recdrlXFMjbBWiPtQ",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-25T18:01:18.499Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recRCinj7bsvLhLfX",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 2000,
-        "payments": [
-          {
-            "occupant_name": "Marco della Luce",
-            "building_name": "Artisan's House",
-            "amount": 2000
+    "bridgePoints": [
+      {
+        "edge": {
+          "lat": 45.44493984216476,
+          "lng": 12.319347371296097
+        },
+        "connection": {
+          "targetPolygonId": "polygon-1746055488132",
+          "targetPointIndex": 3,
+          "targetPoint": {
+            "lat": 45.444858547252394,
+            "lng": 12.319527615741897
+          },
+          "distance": 16.716497603654833,
+          "id": "730687b6-14b5-4182-82f6-41f2277a838e",
+          "historicalName": "Ponte dei Tintori di Scarlatto",
+          "englishName": "Bridge of the Scarlet Dyers",
+          "historicalDescription": "Named after the 'tintori' (dyers) who specialized in scarlet fabric in this area of Castello. The name 'Calle del Scarlatto' itself indicates this was a location where scarlet dyeing took place, an important and prestigious craft in Renaissance Venice that produced the vibrant red textiles favored by Venetian nobility.",
+          "location": {
+            "midpoint": {
+              "lat": 45.444899194708576,
+              "lng": 12.319437493518997
+            }
           }
-        ]
+        },
+        "id": "bridge_45.444940_12.319347"
       },
-      "createdAt": "2025-07-23T18:02:45.747Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recm1PwgThfX8bHbE",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-23T18:01:19.199Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recVzRQfrQaQe2YYU",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
-      "details": {
-        "building_id": "reco8ME0avCJPphpm",
-        "building_name": "Artisan's House",
-        "rent_price": 2000,
-        "citizen_username": "painter_of_light",
-        "citizen_name": "Marco della Luce",
-        "citizen_ducats": 1901.2888197712255,
-        "event_type": "rent_payment_failed",
-        "error_type": "insufficient_funds"
-      },
-      "createdAt": "2025-07-22T18:02:06.651Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recFYmQrSymZd34Ow",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-22T18:01:09.634Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "receytsSly4RYdgB7",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
-      "details": {
-        "building_id": "reco8ME0avCJPphpm",
-        "building_name": "Artisan's House",
-        "rent_price": 2000,
-        "citizen_username": "painter_of_light",
-        "citizen_name": "Marco della Luce",
-        "citizen_ducats": 1486.2888197712255,
-        "event_type": "rent_payment_failed",
-        "error_type": "insufficient_funds"
-      },
-      "createdAt": "2025-07-19T18:02:23.058Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recpCo1ya7QBXrNoX",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-19T18:01:20.820Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recRsEzFHrbMFgRLc",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
-      "details": {
-        "building_id": "reco8ME0avCJPphpm",
-        "building_name": "Artisan's House",
-        "rent_price": 2000,
-        "citizen_username": "painter_of_light",
-        "citizen_name": "Marco della Luce",
-        "citizen_ducats": 1071.2888197712255,
-        "event_type": "rent_payment_failed",
-        "error_type": "insufficient_funds"
-      },
-      "createdAt": "2025-07-18T18:02:50.740Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec4geB4I0vqlFQzD",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-18T18:01:51.825Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recFJEQzYCwCsqzbE",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
-      "details": {
-        "building_id": "reco8ME0avCJPphpm",
-        "building_name": "Artisan's House",
-        "rent_price": 2000,
-        "citizen_username": "painter_of_light",
-        "citizen_name": "Marco della Luce",
-        "citizen_ducats": 656.2888197712255,
-        "event_type": "rent_payment_failed",
-        "error_type": "insufficient_funds"
-      },
-      "createdAt": "2025-07-17T18:03:22.031Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recIOb5dxxYFm9t2p",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-17T18:02:04.400Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recLYAo3QeVMfSvVg",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 2000,
-        "payments": [
-          {
-            "occupant_name": "Marco della Luce",
-            "building_name": "Artisan's House",
-            "amount": 2000
+      {
+        "edge": {
+          "lat": 45.445289109542585,
+          "lng": 12.319819440082718
+        },
+        "connection": {
+          "targetPolygonId": "polygon-1746055488132",
+          "targetPointIndex": 2,
+          "targetPoint": {
+            "lat": 45.44521082607295,
+            "lng": 12.319984664158035
+          },
+          "distance": 15.553648504502734,
+          "id": "730687b6-14b5-4182-82f6-41f2277a838e",
+          "historicalName": "Ponte dei Arsenalotti",
+          "englishName": "Bridge of the Arsenal Workers",
+          "historicalDescription": "Located near the Venetian Arsenal, this bridge would have been frequently crossed by the 'arsenalotti' (arsenal workers) who were highly respected craftsmen in Renaissance Venice. The Castello district housed the Arsenal, the largest pre-industrial production complex in Europe, and many bridges in this area connected the arsenal workers' residences to their workplace.",
+          "location": {
+            "midpoint": {
+              "lat": 45.44524996780777,
+              "lng": 12.319902052120376
+            }
           }
-        ]
+        },
+        "id": "bridge_45.445289_12.319819"
+      }
+    ],
+    "canalPoints": [
+      {
+        "edge": {
+          "lat": 45.44628006235588,
+          "lng": 12.317842652038742
+        },
+        "water": {
+          "lat": 45.44644077564895,
+          "lng": 12.317727538807144
+        },
+        "historicalName": "Fondamenta degli Scarlattieri",
+        "englishName": "Foundation of the Scarlet Dyers",
+        "historicalDescription": "Named after the scarlet cloth dyers who operated workshops in this area of Castello during the Renaissance. The name 'Scarlatto' (Scarlet) in Calle del Scarlatto directly references this trade, which was highly regulated by the Venetian Republic due to the valuable dyes used in creating the vibrant red cloths favored by nobility.",
+        "id": "canal_45.446280_12.317843"
       },
-      "createdAt": "2025-07-16T18:02:37.394Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recXCiu1WWXQB4TFH",
-      "type": "rent_payment",
-      "citizen": "NLR",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-      "details": {
-        "building_id": "recKEqPapn7keUk58",
-        "building_name": "recKEqPapn7keUk58",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
+      {
+        "edge": {
+          "lat": 45.44586794996072,
+          "lng": 12.317346443370987
+        },
+        "water": {
+          "lat": 45.44595053423502,
+          "lng": 12.317118695893496
+        },
+        "historicalName": "Riva di San Martino",
+        "englishName": "Bank of Saint Martin",
+        "historicalDescription": "This dock would be named after the nearby Church of San Martino in Castello, one of the historic parish churches in this sestiere. During the Renaissance, many Venetian docks were named after the closest religious landmarks, which served as important navigation and community reference points. San Martino was particularly important to the working-class residents of Castello.",
+        "id": "canal_45.445868_12.317346"
       },
-      "createdAt": "2025-07-16T18:01:30.562Z",
-      "readAt": null
+      {
+        "edge": {
+          "lat": 45.44545583756556,
+          "lng": 12.316850234703232
+        },
+        "water": {
+          "lat": 45.44545183237047,
+          "lng": 12.31659393075336
+        },
+        "historicalName": "Fondamenta dei Arsenalotti",
+        "englishName": "Foundation of the Arsenal Workers",
+        "historicalDescription": "Located in Castello near the great Venetian Arsenal, this dock would serve the specialized workers (Arsenalotti) who built and maintained Venice's renowned fleet. The Arsenalotti held special privileges in Venetian society and many lived in this eastern part of the city to be close to their workplace. This landing would have been used for transporting materials and workers to the nearby shipyards.",
+        "id": "canal_45.445456_12.316850"
+      }
+    ],
+    "buildingPoints": [
+      {
+        "lat": 45.44438323565449,
+        "lng": 12.317748443870578,
+        "streetName": "Calle dei Tintori Scarlatti",
+        "streetNameEnglish": "Street of the Scarlet Dyers",
+        "streetDescription": "Named after the scarlet dye workshops once located in this area of Castello. Scarlet cloth was a prestigious export of Venice, and the tintori (dyers) who specialized in creating this vibrant red color formed an important guild. This street would have housed several of these specialized artisans.",
+        "id": "building_45.444383_12.317748"
+      },
+      {
+        "lat": 45.44485792944827,
+        "lng": 12.317615200868682,
+        "streetName": "Fondamenta della Lana Scarlatta",
+        "streetNameEnglish": "Foundation of the Scarlet Wool",
+        "streetDescription": "A waterside street where boats would deliver raw wool to be dyed scarlet. The location near a canal would be practical for the transportation of materials and finished products. The name reflects the connection between the wool trade and the scarlet dyeing industry prevalent in this part of Castello.",
+        "id": "building_45.444858_12.317615"
+      },
+      {
+        "lat": 45.44480725352605,
+        "lng": 12.318309900406815,
+        "streetName": "Calle dei Grimani",
+        "streetNameEnglish": "Grimani Street",
+        "streetDescription": "Named after the noble Grimani family who owned property in this area of Castello. The Grimani were a powerful nobili family who contributed several Doges to Venice and were known patrons of the arts. Their presence in this district would have been marked by family palaces or properties.",
+        "id": "building_45.444807_12.318310"
+      },
+      {
+        "lat": 45.44528070353046,
+        "lng": 12.317085158653107,
+        "streetName": "Rio Ter\u00e0 dei Arsenalotti",
+        "streetNameEnglish": "Filled Canal of the Arsenal Workers",
+        "streetDescription": "A former canal that was filled in and converted to a street, located near the Venetian Arsenal. The Arsenalotti were the specialized workers of the Arsenal shipyard, who held special privileges and formed a distinct social class in Venice. This area of Castello was home to many Arsenal workers due to its proximity to the shipyards.",
+        "id": "building_45.445281_12.317085"
+      },
+      {
+        "lat": 45.44516266013492,
+        "lng": 12.318247047206187,
+        "streetName": "Sottoportego dei Mercanti Levantini",
+        "streetNameEnglish": "Covered Passageway of the Levantine Merchants",
+        "streetDescription": "A covered passage named after the Levantine (Eastern Mediterranean) merchants who traded in this area. Castello's proximity to the eastern edge of Venice made it a natural location for merchants trading with the East. These merchants would have dealt in luxury goods including the dyes needed for scarlet cloth production.",
+        "id": "building_45.445163_12.318247"
+      },
+      {
+        "lat": 45.44522375088788,
+        "lng": 12.318818239980011,
+        "streetName": "Salizada della Confraternita",
+        "streetNameEnglish": "Paved Street of the Brotherhood",
+        "streetDescription": "A paved street named after a religious confraternity or scuola that was active in this part of Castello. These lay brotherhoods were important social institutions in Renaissance Venice, providing mutual aid and religious services. The name suggests this was one of the early paved streets in the area, possibly funded by the brotherhood.",
+        "id": "building_45.445224_12.318818"
+      },
+      {
+        "lat": 45.445724194000086,
+        "lng": 12.317671726593966,
+        "streetName": "Calle del Rosso Bizantino",
+        "streetNameEnglish": "Street of Byzantine Red",
+        "streetDescription": "Named after the Byzantine influence on Venetian scarlet dyeing techniques. Venice's connections with Byzantium brought technical knowledge of dyeing methods, and this street near Calle del Scarlatto would commemorate this historical connection. The Byzantine red was particularly prized for its durability and brilliance.",
+        "id": "building_45.445724_12.317672"
+      },
+      {
+        "lat": 45.44568803406755,
+        "lng": 12.318321677322423,
+        "streetName": "Ruga dei Setaioli",
+        "streetNameEnglish": "Street of the Silk Workers",
+        "streetDescription": "A commercial street where silk workers had their shops. Silk was often dyed scarlet for luxury garments, creating a natural proximity between silk workers and scarlet dyers in this area of Castello. The term 'Ruga' typically indicates a street with shops and commercial activities.",
+        "id": "building_45.445688_12.318322"
+      },
+      {
+        "lat": 45.44573869466767,
+        "lng": 12.318934511348807,
+        "streetName": "Campiello della Cocciniglia",
+        "streetNameEnglish": "Small Square of the Cochineal",
+        "streetDescription": "A small square named after cochineal, an insect-derived dye imported from the New World that revolutionized scarlet production in the 16th century. This gathering place would have been a spot where dyers and merchants might have met to discuss or trade this valuable dyestuff near the scarlet workshops.",
+        "id": "building_45.445739_12.318935"
+      },
+      {
+        "lat": 45.44575789315928,
+        "lng": 12.319651799388083,
+        "streetName": "Corte dei Tinelli",
+        "streetNameEnglish": "Court of the Dyeing Vats",
+        "streetDescription": "A courtyard where the large vats (tinelli) used for dyeing fabrics would have been located. This enclosed space would have contained the workshops where the actual dyeing process took place, kept separate from residential areas due to the strong smells and potential for contamination from the dyes.",
+        "id": "building_45.445758_12.319652"
+      },
+      {
+        "lat": 45.44613992180077,
+        "lng": 12.318377745214809,
+        "streetName": "Calle della Madonna Scarlatta",
+        "streetNameEnglish": "Street of the Scarlet Madonna",
+        "streetDescription": "Named after a shrine or church feature depicting the Madonna dressed in scarlet robes, likely funded by the prosperous dyers' guild. Religious dedications were common in street names, and this would reflect the devotion of the local craftsmen who specialized in producing the valuable scarlet dye.",
+        "id": "building_45.446140_12.318378"
+      },
+      {
+        "lat": 45.44613877594568,
+        "lng": 12.318906729071669,
+        "streetName": "Ramo delle Porpore",
+        "streetNameEnglish": "Branch of the Purple Dyes",
+        "streetDescription": "A small side street or branch where various purple dyes, related to but distinct from scarlet, were produced or sold. The name reflects the variety of red-purple dyes that were important in Venetian textile production, with this particular branch specializing in purples rather than true scarlets.",
+        "id": "building_45.446139_12.318907"
+      }
+    ],
+    "historicalName": "Calle del Scarlatto, Sestiere di Castello",
+    "englishName": "Calle del Scarlatto, Castello District",
+    "historicalDescription": "This street was located in the Castello sestiere, one of the six districts of Venice. In the 15th century, Castello was known for its naval shipyards, the Arsenale, and numerous churches.",
+    "nameConfidence": "medium",
+    "areaInSquareMeters": 47476.78,
+    "imageSettings": {
+      "lat": 45.44524331157908,
+      "lng": 12.318254909009223,
+      "width": 484,
+      "height": 463,
+      "referenceScale": 5.000000015137688
     }
-  ],
-  "recent_relevancies_ai_to_sender": [],
-  "recent_problems_involving_ai_or_sender": []
-}
+  }
+]
+
+Here are the existing buildings on this land:
+[
+  {
+    "id": "building_45.444858_12.317615",
+    "type": "market_stall",
+    "owner": "ConsiglioDeiDieci",
+    "position": "{\"lat\": 45.444858, \"lng\": 12.317615}",
+    "notes": "{\"WagesReasoning\": \"Market stall - reduced from 55 to standardize market wages while remaining competitive\", \"runByAssignment\": {\"timestamp\": \"2025-05-29T04:38:28.494916Z\", \"assignedRunBy\": \"SilkRoadRunner\", \"score\": 3910.465152765277, \"components\": {\"relationshipScoreWithOwner\": 529.62, \"influence\": 0.0, \"dailyIncome\": 0.0, \"dailyTurnover\": 8057.97, \"distanceToHomeM\": 1623.0, \"socialClassTier\": 3, \"isOwnerFactor\": 1, \"numBusinessesAlreadyRun_before_assign\": 8, \"baseScoreComponents\": 11731.4, \"numerator\": 35194.19, \"denominator\": 9}}}"
+  },
+  {
+    "id": "building_45.446139_12.318907",
+    "type": "guard_post",
+    "owner": "ConsiglioDeiDieci",
+    "position": "{\"lat\": 45.446139, \"lng\": 12.318907}",
+    "notes": "{\"WagesReasoning\": \"Guard post - maintained at 0 as security infrastructure with separate funding\", \"runByAssignment\": {\"timestamp\": \"2025-05-29T04:38:28.403402Z\", \"assignedRunBy\": \"SilentObserver\", \"score\": 7100.980553356517, \"components\": {\"relationshipScoreWithOwner\": 73.82, \"influence\": 0.0, \"dailyIncome\": 0.0, \"dailyTurnover\": 6755.0, \"distanceToHomeM\": 392.0, \"socialClassTier\": 2, \"isOwnerFactor\": 1, \"numBusinessesAlreadyRun_before_assign\": 1, \"baseScoreComponents\": 7100.98, \"numerator\": 14201.96, \"denominator\": 2}}}"
+  }
+]
+
+Here are the available building points for this land (for 'building' type buildings, using mapped key 'land'):
+[
+  {
+    "lat": 45.44438323565449,
+    "lng": 12.317748443870578,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.444383_12.317748"
+  },
+  {
+    "lat": 45.44480725352605,
+    "lng": 12.318309900406815,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.444807_12.318310"
+  },
+  {
+    "lat": 45.44528070353046,
+    "lng": 12.317085158653107,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.445281_12.317085"
+  },
+  {
+    "lat": 45.44516266013492,
+    "lng": 12.318247047206187,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.445163_12.318247"
+  },
+  {
+    "lat": 45.44522375088788,
+    "lng": 12.318818239980011,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.445224_12.318818"
+  },
+  {
+    "lat": 45.445724194000086,
+    "lng": 12.317671726593966,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.445724_12.317672"
+  },
+  {
+    "lat": 45.44568803406755,
+    "lng": 12.318321677322423,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.445688_12.318322"
+  },
+  {
+    "lat": 45.44573869466767,
+    "lng": 12.318934511348807,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.445739_12.318935"
+  },
+  {
+    "lat": 45.44575789315928,
+    "lng": 12.319651799388083,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.445758_12.319652"
+  },
+  {
+    "lat": 45.44613992180077,
+    "lng": 12.318377745214809,
+    "polygon_id": "polygon-1746055501491",
+    "point_type": "land",
+    "id": "building_45.446140_12.318378"
+  }
+]
+
+
+
+Here are your recent notifications:
+[
+  {
+    "notificationId": "recPndB32VFEBRXkU",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 1976.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-07-29T18:02:49.274Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recWf5pqPoGXoDxE0",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-29T18:01:42.994Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recKkTfLLEEEMf4JR",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 1561.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-07-27T18:02:31.637Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recW762RHqmi83Bxl",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-27T18:01:25.359Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recNfB9cCTkuihJTg",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 1146.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-07-26T18:02:16.527Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recllxUsiRo0XHL0i",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-26T18:01:09.730Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recsaWer0ekLab7qz",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 731.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-07-25T18:02:28.421Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recdrlXFMjbBWiPtQ",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-25T18:01:18.499Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recRCinj7bsvLhLfX",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+    "details": {
+      "event_type": "landlord_rent_summary",
+      "total_received": 2000,
+      "payments": [
+        {
+          "occupant_name": "Marco della Luce",
+          "building_name": "Artisan's House",
+          "amount": 2000
+        }
+      ]
+    },
+    "createdAt": "2025-07-23T18:02:45.747Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recm1PwgThfX8bHbE",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-23T18:01:19.199Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recVzRQfrQaQe2YYU",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 1901.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-07-22T18:02:06.651Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recFYmQrSymZd34Ow",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-22T18:01:09.634Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "receytsSly4RYdgB7",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 1486.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-07-19T18:02:23.058Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recpCo1ya7QBXrNoX",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-19T18:01:20.820Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recRsEzFHrbMFgRLc",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 1071.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-07-18T18:02:50.740Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "rec4geB4I0vqlFQzD",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-18T18:01:51.825Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recFJEQzYCwCsqzbE",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 656.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-07-17T18:03:22.031Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recIOb5dxxYFm9t2p",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-17T18:02:04.400Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recLYAo3QeVMfSvVg",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+    "details": {
+      "event_type": "landlord_rent_summary",
+      "total_received": 2000,
+      "payments": [
+        {
+          "occupant_name": "Marco della Luce",
+          "building_name": "Artisan's House",
+          "amount": 2000
+        }
+      ]
+    },
+    "createdAt": "2025-07-16T18:02:37.394Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recXCiu1WWXQB4TFH",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-07-16T18:01:30.562Z",
+    "readAt": null
+  }
+]
+
+There are 10 available points of type 'building'. Choose the best location for your Bakery by selecting the index of one of these points (0 to 9).
+
+When choosing a location, consider:
+1. Proximity to other buildings of similar type
+2. Rent amounts of existing buildings on this land
+3. Strategic positioning for maximum visibility and income
+4. How your building placement might affect your relationships with other citizens
+
+Your response must be a JSON object with:
+1. selected_point_index: The index of your chosen point (0 to 9)
+2. reason: A brief explanation of why you chose this location
