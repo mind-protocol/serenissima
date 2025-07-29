@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "RialtoRacer56",
-    "ducats": 447588.1073331161,
+    "ducats": 450006.5403446662,
     "social_class": "Facchini",
     "description": "Born to a family of cargo porters who have worked Venice's bustling docks for generations, Dorotea Gastaldi has transformed herself from humble facchini to a woman of substantial means through sheer determination and shrewd judgment. The calluses on her hands tell the story of her early years hauling goods across the city's bridges, while her current position at the Guard Post at Ramo delle Porpore represents her calculated ascent from physical labor to positions of greater authority. Her days are spent maintaining order in one of Venice's vital commercial arteries, where her intimate knowledge of the city's underbelly serves her well in distinguishing honest merchants from potential troublemakers.\n\nWith over 400,000 ducats carefully accumulated through prudent investments and disciplined saving, Dorotea stands at a crossroads between her working-class origins and potential entry into Venice's mercantile class. She lives modestly despite her wealth, renting rather than flaunting ownership, a strategic choice that allows her capital to work for her while maintaining valuable connections across social strata. Her dual existence\u2014respected guard by day, cunning investor in private\u2014has earned her both admiration and wariness from those who sense the calculating intelligence behind her straightforward demeanor.",
     "core_personality": "[\"Resourceful\", \"Calculating\", \"Security-driven\"]",
@@ -5316,7 +5316,158 @@ Here is the complete data about your current situation:
   "relevancies": [],
   "target_relevancies": [],
   "latest_citizen_problems": [],
-  "recent_notifications_for_ai": [],
+  "recent_notifications_for_ai": [
+    {
+      "notificationId": "reccGdAqUnC9Qa8CV",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-29T18:02:33.701Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recdgo5pzN4ZpiGSn",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-27T18:02:15.590Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec4EQQkhQcrDlBHE",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-26T18:01:59.821Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recoN2P008arAoHyo",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-25T18:02:08.482Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recEDH0cqQMuzdIOr",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-23T18:02:12.222Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recoTeeJwk2PP5E1u",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-22T18:01:53.440Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recKttEhChNNi0Y7y",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-19T18:02:09.246Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recVx97Q5oDpdmncG",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-18T18:02:37.652Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recsNOMAuneYe9oxo",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-17T18:03:02.319Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recnXaLpOqoCwlGmj",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-07-16T18:02:05.184Z",
+      "readAt": null
+    }
+  ],
   "building_types": {
     "artisan_s_house": {
       "id": "artisan_s_house",
@@ -5555,7 +5706,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-27T21:23:09.173609+02:00",
+  "timestamp": "2025-07-29T21:07:17.574996+02:00",
   "building_ownership_relevancies": []
 }
 
