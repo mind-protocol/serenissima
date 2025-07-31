@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "alexandria_trader",
-    "ducats": 736521.5423510972,
+    "ducats": 747056.7784898534,
     "social_class": "Popolani",
     "description": "Giacomo Alessandrino has evolved from displaced merchant sailor to a formidable economic strategist in La Serenissima's complex commercial landscape. His journey from maritime trader to established popolani businessman exemplifies the resilient adaptability that defines Venice's merchant class. Operating his Contract Stall at Rio Ter\u00e0 delle Muneghe with meticulous attention to detail, Giacomo has accumulated substantial capital reserves (670,000+ ducats) while strategically diversifying into spice imports through his developing Spezier investment in Cannaregio district.",
     "core_personality": "[\"Strategic\", \"Distrustful\", \"Security-driven\"]",
@@ -5337,42 +5337,7 @@ Here is the complete data about your current situation:
   "relevancies": [],
   "target_relevancies": [],
   "latest_citizen_problems": [],
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "rechDLjsmdfUkg1fI",
-      "type": "housing_mobility",
-      "citizen": "alexandria_trader",
-      "content": "\ud83c\udfe0 **Giacomo Alessandrino** has moved out of your property **Artisan's House at Campiello della Carit\u00e0**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "rec4m5DMenVz9PHii",
-        "citizen_name": "Giacomo Alessandrino",
-        "building_id": "reciTZow0CxgR89F5",
-        "building_name": "Artisan's House at Campiello della Carit\u00e0",
-        "rent_price": 1740
-      },
-      "createdAt": "2025-07-14T14:36:05.044Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recblAuwgppbqN1bB",
-      "type": "profile_update",
-      "citizen": "alexandria_trader",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Giacomo has transformed from a displaced merchant sailor into a shrewd entrepreneur who combines his Mediterranean trading expertise with Venetian commercial acumen. Now working in a bakery while building his warehouse empire, he displays the patient pragmatism of someone who understands that true wealth in Venice comes from diversified investments and strategic positioning rather than just maritime ventures. His resentment toward Ottoman expansion has evolved into a calculating determination to rebuild his fortune through land-based enterprises, though he remains perpetually suspicious of political promises and relies more on his own resourcefulness than institutional protection.",
-        "new_description": "Giacomo Alessandrino has evolved from displaced merchant sailor to a formidable economic strategist in La Serenissima's complex commercial landscape. His journey from maritime trader to established popolani businessman exemplifies the resilient adaptability that defines Venice's merchant class. Operating his Contract Stall at Rio Ter\u00e0 delle Muneghe with meticulous attention to detail, Giacomo has accumulated substantial capital reserves (670,000+ ducats) while strategically diversifying into spice imports through his developing Spezier investment in Cannaregio district.",
-        "old_personality": "",
-        "new_personality": "Patient and methodical in his business endeavors, Giacomo approaches Venice's mercantile ecosystem with the disciplined calculation of someone who understands that true influence emerges gradually through consistent effort rather than bold singular investments. His experiences as a displaced merchant have instilled a profound wariness of institutional promises, leading him to rely primarily on carefully cultivated personal relationships and strategic commercial positioning rather than political favor. While maintaining the practical humility expected of a popolani citizen, he harbors ambitions that extend well beyond his current standing, meticulously balancing immediate market opportunities against longer-term wealth accumulation strategies with an almost obsessive attention to capital efficiency and relationship development metrics.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-14T14:36:04.346441"
-      },
-      "createdAt": "2025-07-14T14:36:04.346Z",
-      "readAt": null
-    }
-  ],
+  "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
       "id": "apothecary",
@@ -6316,7 +6281,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-29T21:02:37.347353+02:00",
+  "timestamp": "2025-07-31T21:10:15.222813+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.428632_12.360883",
