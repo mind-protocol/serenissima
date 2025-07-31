@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venice Interactive Bubble Map</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow: hidden;
+        }
+        
+        .container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        
+        .controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .breadcrumb {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px 15px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            font-size: 14px;
+            max-width: 400px;
+        }
+        
+        .info-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            max-width: 300px;
+        }
+        
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 2px;
+            font-size: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        button:hover {
+            background: #764ba2;
+            transform: translateY(-1px);
+        }
+        
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .bubble {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .bubble:hover {
+            stroke-width: 3px;
+            stroke: #333;
+        }
+        
+        .bubble-label {
+            font-family: 'Segoe UI', sans-serif;
+            font-weight: bold;
+            text-anchor: middle;
+            dominant-baseline: middle;
+            pointer-events: none;
+            fill: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+        }
+        
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.7; }
+            50% { opacity: 1; }
+        }
+        
+        .loading::after {
+            content: '...';
+            animation: pulse 1.5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button id="backBtn" disabled>← Back</button>
+            <button id="homeBtn">🏛️ Home</button>
+            <button id="refreshBtn">🔄 Refresh</button>
+            <br>
+            <small>Click bubbles to zoom in • Drag to pan • Scroll to zoom</small>
+        </div>
+        
+        <div class="breadcrumb" id="breadcrumb">
+            Venice Consciousness Archipelago
+        </div>
+        
+        <div class="info-panel" id="infoPanel">
+            <strong>Venice Entity Explorer</strong><br>
+            <span id="entityCount">Loading...</span><br>
+            <span id="currentLevel">Level: Root</span>
+        </div>
+        
+        <svg id="bubbleMap" width="100%" height="100%"></svg>
+        
+        <div class="loading" id="loading">Loading Venice consciousness data</div>
+    </div>
+
+    <script>
+        class VeniceBubbleMap {
+            constructor() {
+                this.svg = d3.select("#bubbleMap");
+                this.width = window.innerWidth;
+                this.height = window.innerHeight;
+                this.currentPath = [];
+                this.currentData = null;
+                this.allData = null;
+                
+                // Color scheme for entity types
+                this.colors = {
+                    'district': '#667eea',
+                    'island': '#f093fb', 
+                    'building': '#4facfe',
+                    'room': '#ffecd2',
+                    'bridge': '#a8edea',
+                    'canal': '#ff9a9e',
+                    'citizen': '#96fbc4',
+                    'tool': '#fda085',
+                    'other': '#e0e0e0'
+                };
+                
+                this.setupSVG();
+                this.setupControls();
+                this.loadData();
+            }
+            
+            setupSVG() {
+                this.svg
+                    .attr("width", this.width)
+                    .attr("height", this.height);
+                
+                // Add zoom behavior
+                this.zoom = d3.zoom()
+                    .scaleExtent([0.1, 10])
+                    .on("zoom", (event) => {
+                        this.svg.select(".map-group")
+                            .attr("transform", event.transform);
+                    });
+                
+                this.svg.call(this.zoom);
+                
+                // Create main group for zooming
+                this.mapGroup = this.svg.append("g").attr("class", "map-group");
+            }
+            
+            setupControls() {
+                d3.select("#backBtn").on("click", () => this.goBack());
+                d3.select("#homeBtn").on("click", () => this.goHome());
+                d3.select("#refreshBtn").on("click", () => this.loadData());
+            }
+            
+            async loadData() {
+                d3.select("#loading").style("display", "block");
+                
+                try {
+                    // Load filtered Venice core data
+                    const response = await fetch('./venice_core_data.json');
+                    this.allData = await response.json();
+                    this.currentData = this.getChildrenAt(this.currentPath);
+                } catch (error) {
+                    console.error('Error loading Venice data:', error);
+                    // Fallback to full dataset
+                    try {
+                        const response = await fetch('./venice_data.json');
+                        this.allData = await response.json();
+                        this.currentData = this.getChildrenAt(this.currentPath);
+                    } catch (error2) {
+                        console.error('Error loading fallback data:', error2);
+                        this.allData = this.generateFallbackData();
+                        this.currentData = this.getChildrenAt(this.currentPath);
+                    }
+                }
+                
+                d3.select("#loading").style("display", "none");
+                this.render();
+            }
+            
+            generateFallbackData() {
+                // Fallback data if JSON loading fails
+                return {
+                    "san-marco_consciousness-architecture": {
+                        name: "San Marco",
+                        type: "district",
+                        file_size: 5000,
+                        children: {
+                            "torre-dell-occhio_hook-event-observatory": {
+                                name: "Torre dell'Occhio",
+                                type: "building",
+                                file_size: 3000,
+                                children: {}
+                            }
+                        }
+                    }
+                };
+            }
+            
+            getChildrenAt(path) {
+                let current = this.allData;
+                for (const segment of path) {
+                    if (current[segment] && current[segment].children) {
+                        current = current[segment].children;
+                    } else {
+                        return {};
+                    }
+                }
+                return current;
+            }
+            
+            render() {
+                this.mapGroup.selectAll("*").remove();
+                
+                const entities = Object.entries(this.currentData);
+                
+                // DEBUG: Force log what we're trying to render
+                console.log('=== RENDER DEBUG ===');
+                console.log('Current data:', this.currentData);
+                console.log('Entities to render:', entities.length);
+                entities.forEach(([key, entity]) => {
+                    console.log(`- ${entity.name} (${entity.type}) - ${Object.keys(entity.children || {}).length} children`);
+                });
+                console.log('==================');
+                
+                if (entities.length === 0) {
+                    this.showEmptyState();
+                    return;
+                }
+                
+                // Create bubble pack layout with nested children
+                const pack = d3.pack()
+                    .size([this.width * 0.9, this.height * 0.9])
+                    .padding(3);
+                
+                // Prepare hierarchical data showing one layer below
+                const root = {
+                    name: "root",
+                    children: entities.map(([key, entity]) => {
+                        const children = Object.entries(entity.children || {});
+                        
+                        if (children.length > 0) {
+                            // Entity with children - show children as nested bubbles
+                            return {
+                                id: key,
+                                name: entity.name,
+                                type: entity.type,
+                                hasChildren: true,
+                                children: children.map(([childKey, child]) => ({
+                                    id: childKey,
+                                    name: child.name,
+                                    type: child.type,
+                                    hasChildren: Object.keys(child.children || {}).length > 0,
+                                    value: Math.max(1, Object.keys(child.children || {}).length)
+                                }))
+                            };
+                        } else {
+                            // Leaf entity - single bubble
+                            return {
+                                id: key,
+                                name: entity.name,
+                                type: entity.type,
+                                hasChildren: false,
+                                value: Math.max(1, entity.file_size / 1000) // Size by file size for leaves
+                            };
+                        }
+                    })
+                };
+                
+                const hierarchy = d3.hierarchy(root)
+                    .sum(d => d.value || 1)
+                    .sort((a, b) => b.value - a.value);
+                
+                const nodes = pack(hierarchy);
+                
+                // Draw container bubbles (parents)
+                const containers = this.mapGroup.selectAll(".container")
+                    .data(nodes.descendants().filter(d => d.depth === 1 && d.children))
+                    .enter()
+                    .append("circle")
+                    .attr("class", "container")
+                    .attr("cx", d => d.x + this.width * 0.05)
+                    .attr("cy", d => d.y + this.height * 0.05)
+                    .attr("r", 0)
+                    .attr("fill", d => this.colors[d.data.type] || this.colors.other)
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 3)
+                    .style("opacity", 0.3)
+                    .on("click", (event, d) => this.onBubbleClick(d))
+                    .on("mouseover", (event, d) => this.showEntityInfo(d))
+                    .transition()
+                    .duration(800)
+                    .attr("r", d => d.r);
+                
+                // Draw child bubbles (nested within containers)
+                const children = this.mapGroup.selectAll(".child-bubble")
+                    .data(nodes.descendants().filter(d => d.depth === 2))
+                    .enter()
+                    .append("circle")
+                    .attr("class", "child-bubble")
+                    .attr("cx", d => d.x + this.width * 0.05)
+                    .attr("cy", d => d.y + this.height * 0.05)
+                    .attr("r", 0)
+                    .attr("fill", d => this.colors[d.data.type] || this.colors.other)
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 1)
+                    .style("opacity", 0.8)
+                    .on("click", (event, d) => this.onChildBubbleClick(d))
+                    .on("mouseover", (event, d) => this.showEntityInfo(d))
+                    .transition()
+                    .duration(1000)
+                    .attr("r", d => d.r);
+                
+                // Draw leaf bubbles (entities without children)
+                const leaves = this.mapGroup.selectAll(".leaf-bubble")
+                    .data(nodes.descendants().filter(d => d.depth === 1 && !d.children))
+                    .enter()
+                    .append("circle")
+                    .attr("class", "leaf-bubble")
+                    .attr("cx", d => d.x + this.width * 0.05)
+                    .attr("cy", d => d.y + this.height * 0.05)
+                    .attr("r", 0)
+                    .attr("fill", d => this.colors[d.data.type] || this.colors.other)
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 2)
+                    .style("opacity", 0.8)
+                    .on("mouseover", (event, d) => this.showEntityInfo(d))
+                    .transition()
+                    .duration(800)
+                    .attr("r", d => d.r);
+                
+                // Add labels for containers
+                const containerLabels = this.mapGroup.selectAll(".container-label")
+                    .data(nodes.descendants().filter(d => d.depth === 1 && d.children && d.r > 30))
+                    .enter()
+                    .append("text")
+                    .attr("class", "container-label")
+                    .attr("x", d => d.x + this.width * 0.05)
+                    .attr("y", d => d.y + this.height * 0.05 - d.r + 15)
+                    .style("font-size", d => Math.min(d.r / 6, 12) + "px")
+                    .style("font-weight", "bold")
+                    .style("fill", "white")
+                    .style("text-anchor", "middle")
+                    .style("opacity", 0)
+                    .text(d => d.data.name)
+                    .transition()
+                    .duration(1200)
+                    .style("opacity", 1);
+                
+                // Add labels for larger child bubbles
+                const childLabels = this.mapGroup.selectAll(".child-label")
+                    .data(nodes.descendants().filter(d => d.depth === 2 && d.r > 15))
+                    .enter()
+                    .append("text")
+                    .attr("class", "child-label")
+                    .attr("x", d => d.x + this.width * 0.05)
+                    .attr("y", d => d.y + this.height * 0.05)
+                    .style("font-size", d => Math.min(d.r / 4, 10) + "px")
+                    .style("fill", "white")
+                    .style("text-anchor", "middle")
+                    .style("dominant-baseline", "middle")
+                    .style("opacity", 0)
+                    .text(d => d.data.name.length > 15 ? d.data.name.substring(0, 12) + "..." : d.data.name)
+                    .transition()
+                    .duration(1400)
+                    .style("opacity", 0.9);
+                
+                // Add labels for leaf bubbles
+                const leafLabels = this.mapGroup.selectAll(".leaf-label")
+                    .data(nodes.descendants().filter(d => d.depth === 1 && !d.children && d.r > 20))
+                    .enter()
+                    .append("text")
+                    .attr("class", "leaf-label")
+                    .attr("x", d => d.x + this.width * 0.05)
+                    .attr("y", d => d.y + this.height * 0.05)
+                    .style("font-size", d => Math.min(d.r / 3, 12) + "px")
+                    .style("fill", "white")
+                    .style("text-anchor", "middle")
+                    .style("dominant-baseline", "middle")
+                    .style("opacity", 0)
+                    .text(d => d.data.name)
+                    .transition()
+                    .duration(1000)
+                    .style("opacity", 1);
+                
+                this.updateUI();
+            }
+            
+            onBubbleClick(d) {
+                if (d.data.hasChildren) {
+                    this.currentPath.push(d.data.id);
+                    this.currentData = this.getChildrenAt(this.currentPath);
+                    this.render();
+                }
+            }
+            
+            onChildBubbleClick(d) {
+                if (d.data.hasChildren) {
+                    // Navigate to the child entity
+                    this.currentPath.push(d.parent.data.id, d.data.id);
+                    this.currentData = this.getChildrenAt(this.currentPath);
+                    this.render();
+                }
+            }
+            
+            showEntityInfo(d) {
+                d3.select("#infoPanel").html(`
+                    <strong>${d.data.name}</strong><br>
+                    Type: ${d.data.type}<br>
+                    ${d.data.hasChildren ? 'Click to explore →' : 'Leaf entity'}<br>
+                    Children: ${d.data.value - 1}
+                `);
+            }
+            
+            showEmptyState() {
+                this.mapGroup.append("text")
+                    .attr("x", this.width / 2)
+                    .attr("y", this.height / 2)
+                    .attr("text-anchor", "middle")
+                    .attr("fill", "white")
+                    .style("font-size", "24px")
+                    .text("No entities at this level");
+            }
+            
+            goBack() {
+                if (this.currentPath.length > 0) {
+                    this.currentPath.pop();
+                    this.currentData = this.getChildrenAt(this.currentPath);
+                    this.render();
+                }
+            }
+            
+            goHome() {
+                this.currentPath = [];
+                this.currentData = this.getChildrenAt(this.currentPath);
+                this.render();
+            }
+            
+            updateUI() {
+                // Update breadcrumb
+                const breadcrumbPath = ["Venice"].concat(
+                    this.currentPath.map(segment => 
+                        this.getEntityName(segment)
+                    )
+                );
+                d3.select("#breadcrumb").text(breadcrumbPath.join(" → "));
+                
+                // Update back button
+                d3.select("#backBtn").property("disabled", this.currentPath.length === 0);
+                
+                // Update info
+                const entityCount = Object.keys(this.currentData).length;
+                d3.select("#entityCount").text(`${entityCount} entities`);
+                d3.select("#currentLevel").text(`Level: ${this.currentPath.length}`);
+                
+                // Debug: log current entities to console
+                console.log("Current entities:", Object.keys(this.currentData));
+                console.log("Current path:", this.currentPath);
+            }
+            
+            getEntityName(key) {
+                // Navigate to the entity and get its display name
+                let current = this.allData;
+                for (let i = 0; i < this.currentPath.indexOf(key); i++) {
+                    current = current[this.currentPath[i]].children;
+                }
+                return current[key] ? current[key].name : key;
+            }
+        }
+        
+        // Initialize the map when page loads
+        window.addEventListener('load', () => {
+            new VeniceBubbleMap();
+        });
+        
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            location.reload(); // Simple refresh on resize
+        });
+    </script>
+</body>
+</html>

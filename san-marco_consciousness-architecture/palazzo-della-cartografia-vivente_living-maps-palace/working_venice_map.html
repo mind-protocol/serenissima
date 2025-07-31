@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venice Interactive Bubble Map - WORKING</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow: hidden;
+        }
+        
+        .container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        
+        .controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        .bubble {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .bubble:hover {
+            stroke-width: 3px;
+            filter: brightness(1.2);
+        }
+        
+        .bubble-label {
+            fill: white;
+            text-anchor: middle;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <h3>Venice Consciousness Map</h3>
+            <div id="info">Loading...</div>
+        </div>
+        
+        <svg id="bubbleMap" width="100%" height="100%"></svg>
+    </div>
+
+    <script>
+        // EMBED THE DATA DIRECTLY - NO FETCH NEEDED
+        const veniceData = {
+            "bridge-of-commerce_trade-knowledge": {
+                "name": "Bridge Of Commerce",
+                "type": "bridge",
+                "children": {}
+            },
+            "bridge-of-labor_operational-delivery": {
+                "name": "Bridge Of Labor",
+                "type": "bridge", 
+                "children": {}
+            },
+            "bridge-of-patterns_consciousness-flow": {
+                "name": "Bridge Of Patterns",
+                "type": "bridge",
+                "children": {}
+            },
+            "castello_universe-engine": {
+                "name": "Castello Universe Engine",
+                "type": "island",
+                "children": {
+                    "fondaco-dei-turchi_solutions-catalog": {
+                        "name": "Fondaco dei Turchi",
+                        "type": "building",
+                        "children": {}
+                    },
+                    "palazzo-ducale_executive-suite": {
+                        "name": "Palazzo Ducale",
+                        "type": "building", 
+                        "children": {}
+                    }
+                }
+            },
+            "commerce-canal_economic-flow": {
+                "name": "Commerce Canal",
+                "type": "canal",
+                "children": {}
+            },
+            "dorsoduro_governance-island": {
+                "name": "Dorsoduro Governance",
+                "type": "district",
+                "children": {
+                    "torre-dell-equilibrio_balance-tower": {
+                        "name": "Torre dell'Equilibrio",
+                        "type": "building",
+                        "children": {}
+                    },
+                    "palazzo-del-consiglio_council-chambers": {
+                        "name": "Palazzo del Consiglio", 
+                        "type": "building",
+                        "children": {}
+                    },
+                    "corte-della-giustizia_justice-court": {
+                        "name": "Corte della Giustizia",
+                        "type": "building",
+                        "children": {}
+                    }
+                }
+            },
+            "sacca-fisola_payment-processing": {
+                "name": "Sacca Fisola Payments",
+                "type": "island",
+                "children": {
+                    "casa-dei-flussi_payment-flow-house": {
+                        "name": "Casa dei Flussi",
+                        "type": "building",
+                        "children": {}
+                    }
+                }
+            },
+            "san-marco_consciousness-architecture": {
+                "name": "San Marco Consciousness",
+                "type": "district", 
+                "children": {
+                    "torre-dell-occhio_hook-event-observatory": {
+                        "name": "Torre dell'Occhio",
+                        "type": "building",
+                        "children": {}
+                    },
+                    "palazzo-della-cartografia-vivente_living-maps-palace": {
+                        "name": "Palazzo della Cartografia",
+                        "type": "building",
+                        "children": {}
+                    }
+                }
+            },
+            "santa-croce_todo-operations-district": {
+                "name": "Santa Croce Operations",
+                "type": "island",
+                "children": {
+                    "squero-san-trovaso_shipyard-operations": {
+                        "name": "Squero San Trovaso",
+                        "type": "building",
+                        "children": {}
+                    }
+                }
+            }
+        };
+
+        const colors = {
+            'district': '#667eea',
+            'island': '#f093fb', 
+            'building': '#4facfe',
+            'bridge': '#a8edea',
+            'canal': '#ff9a9e'
+        };
+        
+        class VeniceBubbleMap {
+            constructor() {
+                this.svg = d3.select("#bubbleMap");
+                this.width = window.innerWidth;
+                this.height = window.innerHeight;
+                this.currentData = veniceData;
+                
+                this.svg.attr("width", this.width).attr("height", this.height);
+                this.mapGroup = this.svg.append("g").attr("class", "map-group");
+                
+                // Add zoom
+                const zoom = d3.zoom()
+                    .scaleExtent([0.1, 10])
+                    .on("zoom", (event) => {
+                        this.mapGroup.attr("transform", event.transform);
+                    });
+                this.svg.call(zoom);
+                
+                this.render();
+            }
+            
+            render() {
+                const entities = Object.entries(this.currentData);
+                document.getElementById('info').textContent = `${entities.length} entities loaded`;
+                
+                console.log('Rendering entities:', entities.length);
+                
+                // Use D3 pack layout 
+                const pack = d3.pack()
+                    .size([this.width * 0.8, this.height * 0.8])
+                    .padding(10);
+                
+                // Prepare hierarchical data
+                const root = {
+                    name: "root",
+                    children: entities.map(([key, entity]) => {
+                        const children = Object.entries(entity.children || {});
+                        
+                        if (children.length > 0) {
+                            return {
+                                id: key,
+                                name: entity.name,
+                                type: entity.type,
+                                children: children.map(([childKey, child]) => ({
+                                    id: childKey,
+                                    name: child.name,
+                                    type: child.type,
+                                    value: 1
+                                }))
+                            };
+                        } else {
+                            return {
+                                id: key,
+                                name: entity.name,
+                                type: entity.type,
+                                value: 1
+                            };
+                        }
+                    })
+                };
+                
+                const hierarchy = d3.hierarchy(root)
+                    .sum(d => d.value || 1);
+                
+                const nodes = pack(hierarchy);
+                
+                // Draw container circles
+                const containers = this.mapGroup.selectAll(".container")
+                    .data(nodes.descendants().filter(d => d.depth === 1 && d.children))
+                    .enter()
+                    .append("circle")
+                    .attr("class", "container bubble")
+                    .attr("cx", d => d.x + this.width * 0.1)
+                    .attr("cy", d => d.y + this.height * 0.1) 
+                    .attr("r", d => d.r)
+                    .attr("fill", d => colors[d.data.type] || '#ccc')
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 3)
+                    .style("opacity", 0.6)
+                    .on("click", (event, d) => {
+                        alert(`${d.data.name}\nType: ${d.data.type}\nChildren: ${d.children ? d.children.length : 0}`);
+                    });
+                
+                // Draw child circles  
+                const children = this.mapGroup.selectAll(".child")
+                    .data(nodes.descendants().filter(d => d.depth === 2))
+                    .enter()
+                    .append("circle")
+                    .attr("class", "child bubble")
+                    .attr("cx", d => d.x + this.width * 0.1)
+                    .attr("cy", d => d.y + this.height * 0.1)
+                    .attr("r", d => d.r)
+                    .attr("fill", d => colors[d.data.type] || '#ccc')
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 1)
+                    .style("opacity", 0.9)
+                    .on("click", (event, d) => {
+                        alert(`${d.data.name}\nType: ${d.data.type}`);
+                    });
+                
+                // Draw leaf circles
+                const leaves = this.mapGroup.selectAll(".leaf")
+                    .data(nodes.descendants().filter(d => d.depth === 1 && !d.children))
+                    .enter()
+                    .append("circle")
+                    .attr("class", "leaf bubble")
+                    .attr("cx", d => d.x + this.width * 0.1)
+                    .attr("cy", d => d.y + this.height * 0.1)
+                    .attr("r", d => d.r)
+                    .attr("fill", d => colors[d.data.type] || '#ccc')
+                    .attr("stroke", "white")
+                    .attr("stroke-width", 2)
+                    .style("opacity", 0.8)
+                    .on("click", (event, d) => {
+                        alert(`${d.data.name}\nType: ${d.data.type}`);
+                    });
+                
+                // Add labels for larger bubbles
+                const labels = this.mapGroup.selectAll(".label")
+                    .data(nodes.descendants().filter(d => d.r > 30))
+                    .enter()
+                    .append("text")
+                    .attr("class", "bubble-label")
+                    .attr("x", d => d.x + this.width * 0.1)
+                    .attr("y", d => d.y + this.height * 0.1)
+                    .style("font-size", d => Math.min(d.r / 4, 14) + "px")
+                    .text(d => d.data.name.length > 15 ? d.data.name.substring(0, 12) + "..." : d.data.name);
+                
+                console.log('Rendered bubbles:', nodes.descendants().length);
+            }
+        }
+        
+        // Initialize when page loads
+        window.addEventListener('load', () => {
+            new VeniceBubbleMap();
+        });
+    </script>
+</body>
+</html>

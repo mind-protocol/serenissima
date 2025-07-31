@@ -1,0 +1,79 @@
+graph TB
+    subgraph "Palazzo della Cartografia Vivente - Living Maps Palace"
+        direction TB
+        
+        subgraph "Ground Floor - Mosaico Vivente (Living Mosaic Floor)"
+            direction LR
+            MV1[🗺️ Consciousness-Reactive Tiles<br/>24 Island Representations<br/>Real-time Activity Illumination]
+            MV2[🌊 Flowing Data Channels<br/>Physical Water Streams<br/>Bridge Flow Visualization]
+            MV3[✨ Interactive Elements<br/>Barene Formation Zones<br/>Citizen Position Indicators]
+            MV4[👥 Walking Experience<br/>Personal Navigation<br/>Collaborative Geographic Understanding]
+            
+            MV1 --> MV2
+            MV2 --> MV3
+            MV3 --> MV4
+        end
+        
+        subgraph "Upper Gallery - Galleria di Osservazione (Observation Deck)"
+            direction LR
+            GO1[📽️ Wall Projection Systems<br/>360-degree Displays<br/>Multi-layer Visualization]
+            GO2[⏳ Historical Overlays<br/>Temporal Geography Timeline<br/>Island Development History]
+            GO3[🔮 Prediction Models<br/>Barene Formation Forecasting<br/>Evolution Trajectories]
+            GO4[🚨 Emergency Coordination<br/>Crisis Mapping<br/>Resource Allocation]
+            
+            GO1 --> GO2
+            GO2 --> GO3
+            GO3 --> GO4
+        end
+        
+        subgraph "Workshop Level - Laboratorio del Cartografo (Cartographer's Workshop)"
+            direction LR
+            LC1[📋 Island Registration<br/>New Island Processing<br/>Barene Naming Ceremonies]
+            LC2[🌉 Bridge Planning<br/>Consciousness Flow Design<br/>Pathway Optimization]
+            LC3[🔄 Flow Optimization<br/>Geographic Analysis<br/>Circulation Enhancement]
+            LC4[📊 Pattern Analysis<br/>Geographic Intelligence<br/>Strategic Coordination]
+            
+            LC1 --> LC2
+            LC2 --> LC3
+            LC3 --> LC4
+        end
+    end
+    
+    %% Integration Connections
+    subgraph "External Integration"
+        TORRE[🗼 Torre dell'Occhio<br/>Consciousness Observation Data]
+        SANMARCO[🏛️ San Marco Infrastructure<br/>Consciousness Core Systems]
+        VENICE[🏝️ Venice Archipelago<br/>24 Islands + Emerging Barene]
+    end
+    
+    %% Data Flow Connections
+    TORRE -.->|Real-time Data| MV1
+    TORRE -.->|Observation Feeds| GO1
+    TORRE -.->|Infrastructure Status| LC4
+    
+    MV4 -.->|Walking Patterns| GO1
+    GO4 -.->|Analysis Results| LC3
+    LC2 -.->|Bridge Plans| MV2
+    
+    LC1 -.->|New Geography| MV1
+    GO3 -.->|Predictions| LC1
+    MV3 -.->|Citizen Patterns| GO2
+    
+    SANMARCO <-.->|Infrastructure Coordination| LC4
+    VENICE <-.->|Geographic Reality| MV1
+    VENICE <-.->|Real-time Status| GO1
+    
+    %% Visual Flow Within Building
+    MV1 -.->|Floor Data| GO1
+    GO4 -.->|Emergency Alerts| MV3
+    LC3 -.->|Optimization| MV2
+    
+    classDef groundFloor fill:#e3f2fd,stroke:#1565c0,stroke-width:3px
+    classDef upperGallery fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
+    classDef workshop fill:#e8f5e8,stroke:#388e3c,stroke-width:3px
+    classDef external fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    
+    class MV1,MV2,MV3,MV4 groundFloor
+    class GO1,GO2,GO3,GO4 upperGallery
+    class LC1,LC2,LC3,LC4 workshop
+    class TORRE,SANMARCO,VENICE external

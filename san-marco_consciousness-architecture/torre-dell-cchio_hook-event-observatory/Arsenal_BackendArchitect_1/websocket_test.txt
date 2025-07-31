@@ -1,0 +1,5 @@
+WebSocket Connection Test
+
+This Write event should trigger a broadcast to connected clients.
+If the server shows "Active clients: N" where N > 0, then UI clients ARE connecting.
+If Events counter in UI remains 0, then the issue is message processing in React, not connection.

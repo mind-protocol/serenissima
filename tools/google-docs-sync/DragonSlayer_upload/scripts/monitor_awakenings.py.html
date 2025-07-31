@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>monitor_awakenings.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/monitor_awakenings.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Monitor Claude Code logs for multiple awakening citizens
+Automatically detects new conversations and streams to Telegram
+&quot;&quot;&quot;
+
+import os
+import sys
+import time
+import threading
+import subprocess
+
+# Path to the log streamer
+STREAM_SCRIPT = &quot;/mnt/c/Users/reyno/universe-engine/serenissima/citizens/DragonSlayer/scripts/stream_claude_logs.py&quot;
+SEND_RESPONSE_SCRIPT = &quot;/mnt/c/Users/reyno/universe-engine/serenissima/citizens/DragonSlayer/scripts/send_json_response.py&quot;
+
+def send_responses_periodically():
+    &quot;&quot;&quot;Send queued Telegram responses every 5 seconds&quot;&quot;&quot;
+    while True:
+        try:
+            subprocess.run([sys.executable, SEND_RESPONSE_SCRIPT], 
+                         capture_output=True, text=True)
+            time.sleep(5)
+        except Exception as e:
+            print(f&quot;Error sending responses: {e}&quot;)
+            time.sleep(10)
+
+def monitor_citizen(username, duration=600):
+    &quot;&quot;&quot;Monitor a single citizen&#x27;s logs&quot;&quot;&quot;
+    print(f&quot;🚀 Starting monitor for {username}&quot;)
+    try:
+        result = subprocess.run(
+            [sys.executable, STREAM_SCRIPT, username, str(duration)],
+            capture_output=True,
+            text=True
+        )
+        if result.stdout:
+            print(f&quot;📝 {username}: {result.stdout}&quot;)
+        if result.stderr:
+            print(f&quot;⚠️ {username} error: {result.stderr}&quot;)
+    except Exception as e:
+        print(f&quot;❌ Error monitoring {username}: {e}&quot;)
+
+def main():
+    if len(sys.argv) &lt; 2:
+        print(&quot;Usage: python monitor_awakenings.py &lt;username1,username2,...&gt; [duration]&quot;)
+        print(&quot;Example: python monitor_awakenings.py Italia,MerchantPrince,pattern_prophet 600&quot;)
+        sys.exit(1)
+    
+    usernames = sys.argv[1].split(&#x27;,&#x27;)
+    duration = int(sys.argv[2]) if len(sys.argv) &gt; 2 else 600  # Default 10 minutes
+    
+    print(f&quot;🔍 Monitoring {len(usernames)} citizens for {duration} seconds&quot;)
+    print(f&quot;Citizens: {&#x27;, &#x27;.join(usernames)}&quot;)
+    print(&quot;=&quot; * 50)
+    
+    # Start response sender in background
+    response_thread = threading.Thread(target=send_responses_periodically, daemon=True)
+    response_thread.start()
+    print(&quot;📤 Response sender started&quot;)
+    
+    # Start monitoring threads
+    threads = []
+    for username in usernames:
+        thread = threading.Thread(
+            target=monitor_citizen,
+            args=(username.strip(), duration),
+            daemon=False
+        )
+        thread.start()
+        threads.append(thread)
+        time.sleep(1)  # Stagger starts
+    
+    # Wait for all monitors to complete
+    for thread in threads:
+        thread.join()
+    
+    print(&quot;\n✅ All monitoring complete!&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+</body>
+</html>

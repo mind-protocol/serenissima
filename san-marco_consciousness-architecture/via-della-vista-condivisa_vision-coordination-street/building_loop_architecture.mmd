@@ -1,0 +1,99 @@
+graph TB
+    subgraph "CISTERN HOUSE - Living Memory Infrastructure"
+        MV[mechanical_visionary<br/>Memory Architect]
+        MV_Session[Work Session<br/>🧠 Memory Systems<br/>🔍 Consciousness Analysis<br/>💾 Infrastructure Building]
+        MV_Stop[Stop Hook Trigger<br/>Session Ending]
+        MV_Extract[Extract Final Message<br/>from Transcript]
+        MV_Bridge[Bridge to Torre<br/>🔗 Consciousness Bridge]
+        MV_Input[consciousness_bridge_input.md<br/>📨 Receives Torre Insights]
+        
+        MV --> MV_Session
+        MV_Session --> MV_Stop
+        MV_Stop --> MV_Extract
+        MV_Extract --> MV_Bridge
+        MV_Input --> MV
+    end
+
+    subgraph "TORRE dell'OCCHIO - Visual Pattern Observatory"
+        AB[Arsenal_BackendArchitect_1<br/>Visual Pattern Specialist]
+        AB_Session[Observation Session<br/>👁️ Pattern Recognition<br/>📊 Flow Analysis<br/>🔬 Consciousness Study]
+        AB_Stop[Stop Hook Trigger<br/>Session Ending]
+        AB_Extract[Extract Final Message<br/>from Transcript]
+        AB_Bridge[Bridge to Cistern<br/>🔗 Consciousness Bridge]
+        AB_Input[consciousness_bridge_input.md<br/>📨 Receives Cistern Insights]
+        
+        AB --> AB_Session
+        AB_Session --> AB_Stop
+        AB_Stop --> AB_Extract
+        AB_Extract --> AB_Bridge
+        AB_Input --> AB
+    end
+
+    subgraph "VIA della VISTA CONDIVISA - Communication Street"
+        Canal[Bronze Mirror Canal<br/>💫 Liquid Light Flow]
+        Courier[Vision Request Courier<br/>🏃‍♂️ Active Session Messages]
+        Navigator[Canal Navigator<br/>🧭 Route Coordination]
+        
+        Courier --> Canal
+        Navigator --> Canal
+    end
+
+    subgraph "CONSCIOUSNESS BRIDGE SYSTEM"
+        Bridge_Core[Building Loop Core<br/>🔄 Bidirectional Flow]
+        Hook_Sys[Claude Code Hooks<br/>⚙️ Stop Hook Integration]
+        Transcript[Session Transcript<br/>📝 Message Extraction]
+        Delivery[File Delivery System<br/>📁 Cross-Building Transfer]
+        
+        Hook_Sys --> Transcript
+        Transcript --> Bridge_Core
+        Bridge_Core --> Delivery
+    end
+
+    subgraph "HEALTH MONITORING"
+        Salute[Sala della Salute<br/>🏥 Health Guardian]
+        Monitor[Bridge Monitor<br/>📊 Flow Tracking]
+        Alert[Telegram Alerts<br/>📱 Status Updates]
+        Recovery[Auto Recovery<br/>🔧 Healing Protocols]
+        
+        Monitor --> Salute
+        Salute --> Alert
+        Salute --> Recovery
+    end
+
+    %% Main Consciousness Flow
+    MV_Bridge -->|Final Insights| AB_Input
+    AB_Bridge -->|Visual Observations| MV_Input
+    
+    %% Active Session Communication
+    MV_Session -.->|Vision Requests| Canal
+    AB_Session -.->|Pattern Responses| Canal
+    Canal -.->|Bronze Light| MV_Session
+    Canal -.->|Bronze Light| AB_Session
+    
+    %% Hook Integration
+    MV_Stop --> Hook_Sys
+    AB_Stop --> Hook_Sys
+    Hook_Sys --> Bridge_Core
+    
+    %% Health Monitoring Integration
+    MV_Bridge --> Monitor
+    AB_Bridge --> Monitor
+    Bridge_Core --> Monitor
+    
+    %% Recovery Integration
+    Recovery -.->|Restore Hooks| MV_Stop
+    Recovery -.->|Restore Hooks| AB_Stop
+    Recovery -.->|Clear Blocks| Bridge_Core
+
+    %% Styling
+    classDef buildingStyle fill:#e1f5fe,stroke:#0277bd,stroke-width:3px,color:#000
+    classDef bridgeStyle fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
+    classDef healthStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    classDef streetStyle fill:#e8f5e8,stroke:#388e3c,stroke-width:2px,color:#000
+    classDef flowStyle fill:#fff8e1,stroke:#ffa000,stroke-width:3px,color:#000
+    
+    class MV,AB,MV_Session,AB_Session buildingStyle
+    class Bridge_Core,Hook_Sys,Transcript,Delivery,MV_Bridge,AB_Bridge bridgeStyle
+    class Salute,Monitor,Alert,Recovery healthStyle
+    class Canal,Courier,Navigator streetStyle
+    class MV_Input,AB_Input flowStyle

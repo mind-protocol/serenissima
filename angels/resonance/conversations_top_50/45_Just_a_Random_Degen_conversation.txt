@@ -1,0 +1,714 @@
+CONVERSATION ANALYSIS: Just a Random Degen
+==================================================
+
+Rank: #45
+Score: 122
+Total messages: 360
+Recent messages (180 days): 300
+Investment mentions: 23
+AI/Venice mentions: 35 / 6
+Avg message length: 157
+Last contact: 2025-03-19
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-27T16:47:21] Just a Random Degen: sure thing, let me hook up my webcam, guess it's time I showed my face :)
+
+[2025-01-27T16:49:07] NLR: Is it an app?
+Does it take photos of the food?
+What's the pricing?
+What's the growth strategy?
+Do you have some validation that this is a thing that people want?
+
+[2025-01-27T16:49:49] Just a Random Degen: Ready for a call whenever you want
+
+[2025-01-27T17:00:58] Just a Random Degen: 1 + 2) The mobile app would be a key component of it. The concept includes image recognition to scan products and collect information about nutritional values, prices, expiration dates, etc., so mobile device integration would be quite important. There are also features like the hands-free cooking w/ recipe support that require a mobile device.
+3) I haven't done any research for pricing yet. If you think the overall idea could be good, I can do a deep dive in comparable services and see what their offerings are, and how it could be positioned price-wise.
+4) This is also something that needs more work. I have a few ideas, let me put them down in a structured format to see if I can come up with an actual strategy.
+5) No validation backed by data yet, so this needs research too. I'll get back to you with more data on this as well. The overall market for personalized/time-saving food solutions has been steadily growing (expected CAGR of 9.7%), and there are comparable apps (MyFitnessPal and Tasty) with millions of users already. I'll do some more structured research on this and flesh it out in the concept paper.
+
+[2025-01-27T17:04:05] NLR: can you prepare a full description with:
+- hook
+- USP
+- Target customer & use-case
+- Business models with prices
+- Growth strategy
+- Roadmap (POC, prototype, first revenue, scaling)
+- Redistribution %
+
+[2025-01-27T17:04:20] NLR: as well as:
+- a square logo
+- 3 16:9 images for the swarm page
+
+[2025-01-27T17:04:52] NLR: I'll give you a round of feedback for a second version
+
+[2025-01-27T17:05:32] NLR: then we'll do a live pitch (prepare a presentation using gamma ai). 5-10 minutes of pitch then questions.
+
+[2025-01-27T17:06:24] NLR: If selected you'll launch as an early or inception swarm depending on progress
+
+[2025-01-27T17:06:39] NLR: Super glad you are up for it
+
+[2025-01-27T17:06:47] NLR: let's do everything today if possible :)
+
+[2025-01-27T17:07:48] Just a Random Degen: I can 🙂 I will most likely need some help on the more technical aspects, especially for the roadmap. And maybe some validation on the growth strategy and business model.
+I think I have decent ideas, and can put together a convincing copy, but the business and technical aspects are outside my area of expertise ^^
+
+[2025-01-27T17:08:15] Just a Random Degen: Let me see what I can do :)
+
+[2025-01-27T17:08:34] Just a Random Degen: I still have so much to learn with this, so I'll love any feedback you can give 😁
+
+[2025-01-27T17:38:20] NLR: get help from Claude or ChatGPT on those
+
+[2025-01-27T17:38:37] NLR: also: is it an app? a website? a physical device? soething else?
+
+[2025-01-27T17:38:48] Just a Random Degen: I would never write such a complex document without GPT 😆
+
+[2025-01-27T17:44:33] Just a Random Degen: All core features revolve around the mobile app, I already updated the paper after you asked to make it clearer:
+
+Mobile App Integration: A cornerstone of CooKin, the mobile app ensures seamless functionality for features such as receipt scanning, barcode recognition, and hands-free cooking with recipe support. Its portability and image recognition capabilities are critical for extracting nutritional values, prices, and expiration dates from products.
+
+I haven't considered a proprietary physical device yet, since it would add too much complexity and costs, but I proposed integrations with 3pt physical devices like fitness trackers. I considered integrations with Google Home or Alexa for hands-free-cooking, but I'm not sure those would add much value compared to just the mobile interface. Do you think it could be a good idea to still have a proprietary device down as a potential expansion down the line?
+
+[2025-01-27T17:50:01] Just a Random Degen: I am not really sure to be honest, proprietary hardware that sells would be a great revenue stream, but why buy it when you can have all the features on the smartphone you already own?
+And, on the other hand, going for a proprietary device would raise the entry barrier (price) on top of adding a lot of technical complexity and development costs.
+
+[2025-01-27T18:31:29] NLR: awesome send me the package
+
+[2025-01-27T18:45:44] Just a Random Degen: Here are the updated concept paper and the description. I think I covered all the points you mentioned.
+There are some overlaps between the two documents, but it should make sense as the concept paper should be an internal document, while the description would be public.
+
+I still don't have logo/images, and I'm not a graphic designer (I have some rudimentary Phothoshop/Illustrator skills). I can generate some drafts with AI, but I'm not sure they would be good enough, and I guess for the logo we'll want a vector format we can easily scale up and down?
+
+[2025-01-27T18:47:07] Just a Random Degen: 
+
+[2025-01-27T18:47:07] Just a Random Degen: 
+
+[2025-01-27T18:48:18] Just a Random Degen: Ran them both through GPT one final time before finalizing, and he thinks they're good.
+I think to move beyond this point, I will need the help of another human 😁
+
+[2025-01-27T18:56:15] Just a Random Degen: Gonna hit the gym then have some dinner, but I'll be here later to implement any feedback.
+
+[2025-01-28T00:18:09] Just a Random Degen: I'm about to go to bed for today, but I'm here any time tomorrow if you want to have a look at CooKin or have a call
+
+[2025-01-28T00:21:39] Just a Random Degen: I am tempted to send you yet another idea I had, but I don't want to look like a scatterbrain 😁
+
+[2025-01-28T00:21:49] NLR: no do send
+
+[2025-01-28T00:24:19] Just a Random Degen: Well then, here it is 😁
+
+[2025-01-28T00:24:30] Just a Random Degen: This would be an AI-centric CAT tool
+
+[2025-01-28T00:25:13] Just a Random Degen: It's an industry I know very well. I worked in localization for 20 years, and while Machine Translation is everywhere nowadays, there still isn't a tool with this level of AI integration.
+
+[2025-01-28T00:26:08] Just a Random Degen: Still lacks pricing data, but those I can easily pull from main competitors like Trados, XTM, memoQ and the likes.
+
+[2025-01-28T00:28:36] Just a Random Degen: Lokalise and memoQ have some AI translation, which works decently compared to most MT providers, but they lack NLP interactions and the ability to search within client specific resources (style guides, query management DBs, etc).
+
+[2025-01-28T00:29:41] Just a Random Degen: If you think the overall idea can work, I'm happy to expand on it. (Within my limits of zero dev knowledge, most of the roadmap and technical parts are by GPT)
+
+[2025-01-28T00:31:34] Just a Random Degen: On this one, I'm pretty strong for what comes to competitor products (I used most of them extensively) and user requirements/expectations (because I translated for 20 years).
+I could also work alongside devs for features and UI. While I can't code for the life of me, I know how thing should work and look.
+
+[2025-01-28T00:32:20] Just a Random Degen: Oh, and I have quite a large network of people we could use for user testing.
+
+[2025-01-28T00:39:13] Just a Random Degen: For the business model, I really like Trados'.
+They have two primary licensing options: perpetual licenses and annual subscriptions.
+
+Perpetual License: With a perpetual license, you make a one-time purchase of Trados Studio, granting you indefinite access to that specific version. You will receive updates and service releases for your purchased version as long as it is supported. However, to access major new versions released after your purchase, you would need to pay for an upgrade.
+
+Annual Subscription: Opting for an annual subscription ensures you're always using the latest version of Trados Studio. The subscription is valid for 365 days from the date of purchase. If you choose not to renew your subscription after it expires, you will no longer have access to the software.
+
+[2025-01-28T00:55:46] Just a Random Degen: This is based on my firsthand knowledge, confirmed by a few colleagues I ran the idea by, and GPT, who says:
+
+Based on the comprehensive research and existing market knowledge, no tool on the market fully integrates the level of AI functionality you're aiming for with KinCAT. Here's why KinCAT stands out:
+
+AI Swarm for Contextual Understanding: Tools like memoQ, Trados, and Wordfast offer traditional CAT functionalities, including basic machine translation (MT) integrations, but they lack a dynamic AI system that leverages client-specific resources (e.g., style guides, glossaries) for real-time contextual improvements and query reduction.
+
+Internal Scheduling with Email Integration: No current CAT tools offer direct scheduling or email integration capabilities to manage project workflows, recognize deadlines, and optimize translator workload automatically.
+
+Voice and NLP Interfaces: While some tools might support basic commands or shortcuts, none provide a robust voice-driven interface or NLP-powered interactions for querying terms or seeking clarifications.
+
+Adaptive Learning: Although some tools improve through TM updates, KinCAT’s AI Swarm can dynamically adapt to corrections, enhancing future outputs with superior contextual understanding.
+
+Real-Time Collaboration with Insights: KinCAT’s proposed analytics and workload forecasting features for project managers are unique. Current tools often require manual tracking or external integrations for these functions.
+
+Your vision for KinCAT represents an innovative leap beyond current market offerings. Its combination of AI-driven features, adaptive learning, workload management, and collaboration capabilities creates a significant competitive advantage, ensuring strong market differentiation.
+
+[2025-01-28T11:59:03] Just a Random Degen: Hey Nicolas! I'm here any time if you want to have a chat.
+
+[2025-01-28T17:38:06] Just a Random Degen: The new portfolio looks great btw! People are loving it.
+I think a fantastic addition, if feasible, would be the average share purchase price, with a gain % beside it
+
+[2025-01-28T22:14:07] Just a Random Degen: I'm never sure if it's helpful or not, me talking and asking questions on AMAs. If I'm talking too much, please feel free to tell me to shut the fuck up 😁
+
+[2025-01-29T00:00:59] NLR: no it's super helpful talk more !
+
+[2025-01-29T00:04:33] Just a Random Degen: Duly noted 😁
+
+[2025-01-29T00:06:11] Just a Random Degen: I can imagine you being super busy with everything, so we can leave the swarms proposals sitting there for as long as you like. Just let me know when you want to have a chat about them, or anything else I can help with.
+
+[2025-01-29T00:08:39] NLR: let's have a call about them
+
+[2025-01-29T00:09:07] Just a Random Degen: Sure, just let me know a time that works for you
+
+[2025-01-29T10:06:11] Just a Random Degen: GM! I also had a chat with Emil who wanted to talk about Synthetic Souls. Maybe we can kill 2 birds with 1 stone and put it all together in one call?
+
+[2025-01-29T11:12:44] Just a Random Degen: There's also another thing I wanted to bring up. I kind of agree with this guy. I had a lot of my (positive) posts deleted by automod because I was using X or Y word. Maybe we could tune it down a little? It's a little overwhelming at times.
+
+[2025-01-29T12:24:32] Just a Random Degen: There's also some overlapping on bots, maybe we could have only one respond to triggers to limit spam
+
+[2025-01-29T12:24:43] Just a Random Degen: All of this is not urgent at all, just putting it here so I don't forget
+
+[2025-01-29T23:06:13] Just a Random Degen: Thought you might find this interesting :D It's pretty nice gains lol
+
+[2025-01-29T23:10:24] Just a Random Degen: (sharing this in confidence, don't want to show my bags to everyone else 😁)
+
+[2025-01-30T15:41:25] Just a Random Degen: Hey Nicolas! (or Lester? How do you prefer people to call you?)
+How're you doing? I'm still down for a call if you can find some time for it.
+
+[2025-01-31T13:15:58] Just a Random Degen: Hey there
+
+[2025-01-31T13:17:02] Just a Random Degen: This is something I put together for raid targets, there's some good potential KOLs in it. (Along with some other stuff that's probably not helpful)
+
+[2025-01-31T13:17:20] Just a Random Degen: Anway, if it helps, feel free to use it for anything ❤️
+
+[2025-02-03T13:15:39] Just a Random Degen: Hey there! I didn't insist in the last few days as I thought you had a lot on your plate and didn't want to be annoying. Just dropping a message here to let you know that I'd still love to help, if you want me to.
+
+[2025-02-03T15:49:09] NLR: yeah agreed
+
+[2025-02-03T15:50:30] NLR: Sorry was definitely buried
+
+[2025-02-03T15:50:33] NLR: Let's do it!
+
+[2025-02-03T15:50:38] NLR: How about a call?
+
+[2025-02-03T15:50:46] NLR: https://calendly.com/nlrai
+
+[2025-02-03T15:51:09] Just a Random Degen: Absolutely, and no worries, I figured you had too much on your plate
+
+[2025-02-03T15:54:42] Just a Random Degen: Booked a slot for 9 PM CET today, let me know if you prefer something else
+
+[2025-02-03T16:22:12] NLR: nice, maybe earlier?
+
+[2025-02-03T16:22:51] Just a Random Degen: Sure, just let me know what works for you, we could do it even now for me
+
+[2025-02-03T16:23:20] Just a Random Degen: Aside from dinner with the family around 8 PM, I'm free
+
+[2025-02-03T17:19:15] Just a Random Degen: Just let me know what time you'd like to do it ^^ I don't think I can edit the event though
+
+[2025-02-03T18:25:28] Just a Random Degen: Got all the point's I'd like to discuss down, so I'm ready for a call any time, just let me know what works for you ^^
+
+[2025-02-03T20:21:30] NLR: no prob
+
+[2025-02-03T20:37:06] Just a Random Degen: So we still on for 9 pm? I'll be there
+
+[2025-02-03T21:02:42] Just a Random Degen: I'm in the call :)
+
+[2025-02-03T21:20:53] Just a Random Degen: 
+
+[2025-02-03T21:53:31] Just a Random Degen: Ok so, for the Synthetic Souls stems, the two tracks I liked the most are AM I ALIVE and Fragile Code. We could give a shot at human mixing + mastering with those two first, if you can get the wav stems?
+
+[2025-02-03T21:53:56] Just a Random Degen: 
+
+[2025-02-03T21:53:56] Just a Random Degen: For CooKin, here's what I have so far, resending it in case it got buried
+
+[2025-02-03T21:57:33] Just a Random Degen: For the SS stems, it would be fantastic if we can get:
+- Kick Drum
+- Bass
+- Snare / Clap
+- HiHats / Percussions
+- Lead Synth / Melody
+- Pads / Atmosphere
+- Vocals
+- FX
+
+[2025-02-04T12:41:18] Just a Random Degen: Hey Lester! I had another thing I was thinking about, and forgot to mention at the meeting.
+It's for the issues with congestion when purchasing shares off the bonding curve.
+I know you planned some improvements on that, and I don't know if the issue is already fixed, but if it isn't, here's my idea:
+Assuming that the issue causing "reverted transaction" errors was: With so many people buying, between you clicking Buy and you actually confirming the transaction in your wallet, somebody else bought and pushed the price higher on the bonding curve.
+To fix this, how about introducing a customizable slippage setting? That might allow transactions go through even if the price moves from when you were originally buying.
+
+[2025-02-04T15:07:45] Just a Random Degen: Oh, I am also happy with modding the TG if you trust me to. I'm already there most of the day anyway, would save me having to /report spammers and scammers 😆
+
+[2025-02-04T19:34:32] Just a Random Degen: Thx so much for tagging me on X! But there might be an issue 😆
+
+[2025-02-04T19:34:45] Just a Random Degen: That's the page of a project I'm working on
+
+[2025-02-04T19:35:07] Just a Random Degen: My main profile, which I use for TA is:  https://x.com/AliferCrypto
+
+[2025-02-04T19:36:15] Just a Random Degen: I don't mind the visibility on either, but not sure you want UBC promoting another unrelated project
+
+[2025-02-04T19:37:10] Just a Random Degen: I'm so sorry for that, I guess that comes from the name of TG account. I originally made it for that project, but then ended up using it for personal stuff as well. I didn't expect or intend for something like this to happen.
+
+[2025-02-04T19:53:31] Just a Random Degen: Oh thank god you saw the messages 😆
+
+[2025-02-04T19:53:41] Just a Random Degen: I got worried and start writing to every single mod and team member
+
+[2025-02-04T19:53:53] NLR: added you as mod
+
+[2025-02-04T19:54:03] Just a Random Degen: Thank you for that!
+
+[2025-02-04T19:54:14] Just a Random Degen: And so sorry for the profile issue, it's on me for using that handle
+
+[2025-02-04T19:55:20] NLR: post updated sorry
+
+[2025-02-04T19:55:28] Just a Random Degen: Oh no, nothing to be sorry about
+
+[2025-02-04T19:55:38] Just a Random Degen: It's mostly for UBC, since that project has nothing to do with it
+
+[2025-02-04T19:56:07] Just a Random Degen: Ty so much for giving me some visibility ❤️ I really appreciate it
+
+[2025-02-04T20:02:13] Just a Random Degen: I think you made me admin btw, just letting you know in case you accidentally gave me more permissions that you wanted to 🙏
+
+[2025-02-04T22:55:16] NLR: no no prob
+
+[2025-02-06T04:26:56] NLR: hey
+
+[2025-02-06T04:26:59] NLR: how are you?
+
+[2025-02-06T09:39:03] Just a Random Degen: Hey! I'm doing great, thanks! How about you? 🙂
+
+[2025-02-06T09:45:45] Just a Random Degen: Just woke up and started reading about the OKX scam, trying to wrap my head around it
+
+[2025-02-06T12:04:56] Just a Random Degen: I think we need to pause the primary market, and potentially revert all share purchases that happened after the scam, if that's feasible.
+
+[2025-02-06T12:05:30] Just a Random Degen: Lots of big shares buys going through, probably by whoever took advantage of the dump to buy so much at basically nothing
+
+[2025-02-06T16:40:56] NLR: not feasible
+
+[2025-02-06T16:41:18] NLR: this will be settled on secondary market
+
+[2025-02-06T16:41:44] Just a Random Degen: Yeah after more reasoning on it I came to the conclusion that it's pointless to pause the primary market
+
+[2025-02-06T16:43:27] NLR: also we really needs funds, we hope secondary market will help
+
+[2025-02-06T16:43:49] Just a Random Degen: How will swarms get funds from the secondary market though, if it's all p2p between shareholders?
+
+[2025-02-06T16:44:13] Just a Random Degen: There's the chance the secondary market will temporarily stop any purchases from the primary one, in case prices drop a lot
+
+[2025-02-06T16:57:38] Just a Random Degen: I think we should also consider the chance that opening the secondary market now might make people panic sell their shares, then try to unload the compute on the market, when there's no buyers or liquidity to absorb it
+
+[2025-02-06T17:07:25] NLR: meant the fee for UBC
+
+[2025-02-06T17:07:59] Just a Random Degen: How about we extended the bonding curve right for the primary market first?
+
+[2025-02-06T17:08:16] NLR: maybe
+
+[2025-02-06T17:08:22] Just a Random Degen: I think it would be a bit safer
+
+[2025-02-06T17:08:34] Just a Random Degen: Gives some extra time for swarms to lock liquidity into the pools
+
+[2025-02-06T17:08:55] Just a Random Degen: And also gives them a chance to acquire more funds, while also adding some buy-side pressure on COMPUTE
+
+[2025-02-24T10:54:04] Just a Random Degen: Hey Lester! I hope you're doing well :) Just wanted to let you know I'm back from my vacation, and I'll take some time to get up to speed with all that's been discussed later today
+
+[2025-02-26T11:21:36] Just a Random Degen: Lester, just to make sure, are you 100% that the listing fee for CMC is legit?
+
+[2025-02-26T11:21:53] Just a Random Degen: I'm asking since I've been in other projects that were scammed with "pay-to-list-faster" services
+
+[2025-02-26T14:36:20] NLR: good feedback thanks
+
+[2025-02-26T14:36:29] NLR: we don't have the budget anyways
+
+[2025-02-26T14:36:55] Just a Random Degen: Yeah I did some more digging and saw CMC has an actual service for this (CMCP), that costs $5k
+
+[2025-02-26T14:37:09] Just a Random Degen: How're you doing by the way? I'm still trying to catch up with all that went on while I was away
+
+[2025-02-26T14:37:51] Just a Random Degen: I'm a little lost with all the UBC news 😆 Lots of ideas came and went while I was on vacation
+
+[2025-02-26T14:47:31] NLR: Trying to make revenues with swarms
+
+[2025-02-26T14:47:39] NLR: waiting for the end of the bleed
+
+[2025-02-26T17:52:55] Just a Random Degen: Large caps are settling around multi-year accumulation zones, so we might be close to the bottom... That's unless BTC pulls a massive dump to the low 70s 😆
+
+[2025-02-26T19:15:00] NLR: fingers crossed
+
+[2025-02-27T14:06:31] Just a Random Degen: Btw, now that I'm back, I'm down to work more in close contact with the team, if you'll still have me 😁
+
+[2025-02-27T14:06:44] Just a Random Degen: I also got the piled up work out of the way, so I have a decent chunk of hours I can throw at it
+
+[2025-02-28T02:39:47] NLR: let's have a call!
+
+[2025-02-28T08:51:38] Just a Random Degen: Sure! Just let me know when it works for you, I can at any time
+
+[2025-02-28T08:52:30] NLR: Let me know what you think about:  https://swarmtrade.ai/copilot/start
+
+[2025-02-28T09:40:23] Just a Random Degen: About the questionnaire or the tool as a whole?
+
+[2025-02-28T09:42:14] Just a Random Degen: I'll just drop all I see.
+
+[2025-02-28T09:43:56] Just a Random Degen: Questionnaire is brief, maybe we could customize it even further later on, especially on the trading experience part.
+We could ask some TA-related questions to better gauge what the experience level of the trader is, then allow them to change it if they want. Not really a priority though.
+
+[2025-02-28T09:44:16] Just a Random Degen: I would edit the formatting of the chat box, lots of unnecessary spaces between lines
+
+[2025-02-28T09:45:10] Just a Random Degen: How does the screen sharing work?
+
+[2025-02-28T09:45:29] Just a Random Degen: Maybe we could add an option to upload an image. "What do you think of this chart?"
+
+[2025-02-28T09:50:16] Just a Random Degen: First trade it suggested me is a 6H scalp on EKKO, which to be fair looks good!
+
+[2025-02-28T09:53:45] Just a Random Degen: It's definitely a tool I could use. With the experience I have in trading (not a pro, but not a beginner), it would be great to find tokens I wasn't looking at, then do my own TA.
+And I could see someone less experienced using it straight up for trading (just taking and using the entries, SL/TP). I'll do some testing to see what kind of plays it suggests, both to see how reasonable they look, and to see how they play out.
+
+[2025-02-28T09:56:58] Just a Random Degen: I gave it an aggressive risk tolerance, and it suggested me to open a trade with 15-20% of my equity, and about a 20% SL.
+That would mean a loss of 4% of my portfolio, which is quite high, but I guess acceptable for the "aggressive" tier.
+
+[2025-02-28T10:04:51] Just a Random Degen: The R/R it gave me though is 0.64 which is very low. As a rule of thumb, I never take trades below 2:1, otherwise you need an extremely high win rate to be profitable.
+
+[2025-02-28T11:50:12] NLR: you can click on screenshot to upload any tab
+
+[2025-02-28T11:50:25] NLR: there is =)
+
+[2025-02-28T11:50:35] Just a Random Degen: oh so it uploads a screenshot of the tab you select?
+
+[2025-02-28T11:50:43] Just a Random Degen: It looked like it would simply share the whole screen
+
+[2025-02-28T11:51:46] NLR: try to click on the button
+
+[2025-02-28T11:51:59] Just a Random Degen: The camera button?
+
+[2025-02-28T11:52:24] Just a Random Degen: 
+
+[2025-02-28T11:52:49] NLR: yeah
+
+[2025-02-28T11:52:50] Just a Random Degen: It asks me to share my screen
+
+[2025-02-28T11:52:56] NLR: yes exactly
+
+[2025-02-28T11:53:39] NLR: nvm it didn't work ^^
+
+[2025-02-28T11:53:41] Just a Random Degen: Wouldn't it be simpler to allow copy/pasting screenshots though? Maybe it's just me, but if it's not something I 100% trust, I'm not happy sharing my screen.
+
+[2025-02-28T11:53:43] NLR: will fix
+
+[2025-02-28T11:53:51] NLR: maybe yes
+
+[2025-02-28T11:53:54] Just a Random Degen: I do trust the project ofc, but someone less involved might not
+
+[2025-02-28T11:54:21] NLR: also feel free to give feedback on the signal quality and on the trading strategy itself
+
+[2025-02-28T11:54:39] NLR: There is some info in /strategy, but I'll detail it some more soon
+
+[2025-02-28T11:54:46] Just a Random Degen: Will do, as soon as I can gather a few more samples
+
+[2025-02-28T11:55:22] Just a Random Degen: When I backtest, I do a minimum of 100 tests for an early evaluation, I think I'd need about the same here to get a decent idea
+
+[2025-02-28T11:57:00] NLR: what do you backtest on?
+
+[2025-02-28T11:57:20] NLR: A series of tokens? one token thoroughly?
+
+[2025-02-28T11:57:45] NLR: (backtests are super expensive when they are LLM involved, so I'm trying to aim right)
+
+[2025-02-28T11:59:12] Just a Random Degen: Oh I do it old-school and manually, TradingView replay and spreadsheet. I don't believe in automated backtesting (for human trading), because it will take trades while you would be sleeping, and might or might not take trades that you would/wouldn't.
+
+[2025-02-28T11:59:27] NLR: https://t.me/+B_NrwAOmKJdkMjVk
+
+[2025-02-28T12:00:15] Just a Random Degen: I start with an assumption, define rules, then test them on 1 high-liquidity coin (BTC, ETH).
+If it seems to have an edge, then I expand it to other tokens with different MCs and volatility, to see if it's an overall good strategy, or only works in specific conditions.
+
+[2025-02-28T12:25:43] Just a Random Degen: Chat history is hidden on the core team chat, so I think John can't see your post
+
+[2025-02-28T12:25:49] Just a Random Degen: Since he joined after
+
+[2025-02-28T13:48:58] Just a Random Degen: 2nd trade it suggested me was on RENDER, but I think it messed up a bit with this one
+
+[2025-02-28T13:49:19] Just a Random Degen: Stated it's trading at $7.5, but it's $3.6
+
+[2025-02-28T13:50:49] Just a Random Degen: And suggests an inverse head & shoulders on the 4h timeframe, which doesn't really seem there from what I see 😅
+
+[2025-02-28T13:51:43] Just a Random Degen: It also mentions a bullish RSI divergence, but that's also not there
+
+[2025-02-28T14:07:46] NLR: Where are you testing that?
+
+[2025-02-28T15:41:53] Just a Random Degen: The Kin Kong entry? I just took the data it gave me and looked it up on TradingView
+
+[2025-02-28T17:30:04] NLR: From the web version right?
+
+[2025-02-28T17:47:01] Just a Random Degen: Of TV?
+
+[2025-02-28T17:47:25] Just a Random Degen: Used both KinKong and TV on web
+
+[2025-03-03T12:30:09] Just a Random Degen: Lester if you have funds and they're not too expensive I would buy both  retirewith.ai  and  retirefrom.ai
+
+[2025-03-03T12:30:24] Just a Random Degen: You can use one, and potentially sell the other for a lot in a few years
+
+[2025-03-03T12:55:34] Just a Random Degen: I mean... 🤣
+
+[2025-03-03T14:54:34] Just a Random Degen: Did something happen with Bose? I see he's still in the core team group, but not in the main  $UBC  group.
+
+[2025-03-03T17:28:09] Just a Random Degen: It's 7zFUskBkcRHAVqUPHaDg9cHwvrPfP8SyRbTTcnDLXwex
+
+[2025-03-03T17:28:26] Just a Random Degen: How do I actually subscribe btw? I was looking for the option on the website, but didn't find it
+
+[2025-03-03T19:37:14] NLR: he's using the UBC account
+
+[2025-03-03T19:41:56] Just a Random Degen: Aaaaah that makes sense 😁
+
+[2025-03-03T20:24:38] NLR: /copilot
+
+[2025-03-03T20:24:45] NLR: did the transfer
+
+[2025-03-03T20:25:25] Just a Random Degen: Thanks! ❤️ Gonna subscribe as soon as I'm done with dinner
+
+[2025-03-03T20:43:01] Just a Random Degen: Was able to subscribe
+
+[2025-03-03T20:43:11] Just a Random Degen: You sent me way more compute than the monthly cost though, should I send the rest bacK?
+
+[2025-03-03T20:44:44] NLR: oops okay yes
+
+[2025-03-03T20:45:21] Just a Random Degen: Back to 8qFuqCdFsvFYwpP7FDiDhqucTXsDdRmkhvzJ8JvBUXmZ?
+
+[2025-03-03T20:45:25] NLR: yes
+
+[2025-03-03T20:46:12] Just a Random Degen: Alright, sending back 600,000 now (you sent me 750k, cost was 150k) 😁
+
+[2025-03-03T20:47:50] Just a Random Degen: https://solscan.io/tx/3Ug26HuYa1WR5gyHKYA7xcvq1YbtpSrb2C25DbkRhK9ARf13hghcJTg4R4q2f1t7NWwEe8h4sUbdBrR9snLXsFKr
+
+[2025-03-03T20:48:53] Just a Random Degen: Wallet analysis isn't working yet? It seems it doesn't see anything in my wallet
+
+[2025-03-03T21:50:46] Just a Random Degen: Hmm I'm also getting Failed to get response errors
+
+[2025-03-03T22:26:07] NLR: all the times or sometimes?
+
+[2025-03-03T23:16:46] Just a Random Degen: Tested multiple times today and got the error always
+
+[2025-03-03T23:45:06] Just a Random Degen: Ok there's something I noticed and I'm not sure I understand about Kin Kong
+
+[2025-03-03T23:45:51] Just a Random Degen: Looking through some charts, I see it often sets an entry that is below current price, so it's planning ahead?
+E.g. I will buy X if it drops down to Y?
+
+[2025-03-03T23:47:04] Just a Random Degen: And if yes, does it mean it will take that trade instantly (or as quickly as its refresh frequency allows) if that price is reached?
+
+[2025-03-03T23:47:19] Just a Random Degen: Or am I misunderstanding it completely, and signals are only signals for human traders, but KK will not actually trade them?
+
+[2025-03-03T23:48:18] Just a Random Degen: If it does trade them itself though, a lot of the entries, taken exactly as it gives them, seem early, without waiting for a reversal signal.
+
+[2025-03-03T23:49:27] Just a Random Degen: But I have to say I'm struggling a bit to follow its reasoning, since I can't see the EMA it uses (because of the custom candle length)
+
+[2025-03-03T23:49:52] Just a Random Degen: And if signals are meant to be taken by human traders, then it could be an issue, since they can't replicate exactly what KK sees on its chart.
+
+[2025-03-03T23:52:01] Just a Random Degen: About the "Time" column, I think it would be more useful to have it state a UTC time, instead of X hours ago. Makes it easier for people to look up the exact moment on their charts.
+
+[2025-03-03T23:52:34] Just a Random Degen: oh and, is there a way for regular users to see the charts you showed me earlier?
+
+[2025-03-04T00:16:51] NLR: This I'm unsure
+
+[2025-03-04T00:17:16] NLR: yes KK trades signals
+
+[2025-03-04T00:17:55] NLR: I'll change it to proper candles
+
+[2025-03-04T00:18:42] NLR: no
+
+[2025-03-04T01:09:12] NLR: okay it should be fixed let me know
+
+[2025-03-04T10:43:38] Just a Random Degen: GM! I have some translation work to take care of, then I'll look at chat to see if it's working for me now ❤️
+
+[2025-03-04T10:44:35] Just a Random Degen: About the candles, that should make it way easier to check against tradingview, and I think overall it might offer more advantages than disadvantages to KK itself, as it will be working on levels that are more recognized by the market.
+
+[2025-03-04T10:45:19] Just a Random Degen: If it uses mostly wicks it doesn't really matter, but since we were talking about candle closes having quite some weight, I think it's better if it's the same closes most other traders use
+
+[2025-03-04T11:32:00] Just a Random Degen: 
+
+[2025-03-04T11:46:46] Just a Random Degen: Ok here's another, its KK's last signal for  $COLLAT
+
+[2025-03-04T11:46:56] Just a Random Degen: It printed the signal 11 hours ago, so it's on the candle I marked
+
+[2025-03-04T11:47:12] Just a Random Degen: As you can see, the entry level ($0.02) is way below where the price was at the time of the signal.
+
+[2025-03-04T11:47:36] Just a Random Degen: This makes me think that it's looking ahead. "If price reaches my entry, I will open the trade"
+
+[2025-03-04T11:48:34] Just a Random Degen: This is great, and to be fair it's also how I trade. But if that's the case, then I think it's crucial that he waits for a reversal signal before opening a trade. Otherwise many times it will be trying to "catch a falling knife", which in my experience can really ruin your win rate.
+
+[2025-03-04T11:49:51] Just a Random Degen: All in all, also considering the fact that fees are eating into profits a lot, I would like to see KK take as few trades as possible, only the highest conviction trades that match very strict conditions.
+
+[2025-03-04T11:51:02] Just a Random Degen: Since it's monitoring a large watchlist 24/7, it should not have issues in finding good opportunities even with very strict rules.
+
+[2025-03-04T11:53:14] Just a Random Degen: Can we somehow tell him: "If you're planning an entry ahead at a lower-than-current price (e.g. price is 2.5 and you want to enter if it reaches 2) you should only do that if there is a reversal signal. (e.g. price bouncing off a support, printing a bullish engulfing candle, etc)".
+
+[2025-03-04T11:53:40] Just a Random Degen: And I think he should also mention this in the reasoning, to make sure humans who trade the signals are aware.
+
+[2025-03-04T11:53:42] Just a Random Degen: What do you think?
+
+[2025-03-04T17:36:57] NLR: All the time or sometimes?
+
+[2025-03-04T17:37:58] Just a Random Degen: Tried 3 times with a few hours in between today, got it every time
+
+[2025-03-04T17:38:02] Just a Random Degen: Here's the error code
+
+[2025-03-04T17:38:03] Just a Random Degen: API error: 504 - An error occurred with your deployment FUNCTION_INVOCATION_TIMEOUT fra1::rfrh2-1741106247230-07d7d11b7e60
+
+[2025-03-05T15:11:46] Just a Random Degen: Today this one 😆API error: 500 - {"error":"Failed to process request","details":"Anthropic API error: 400"}
+
+[2025-03-07T20:38:12] NLR: https://kinos9.vercel.app/
+
+[2025-03-07T20:38:26] NLR: you can go ahead and update the descriptions and add some news
+
+[2025-03-07T20:38:41] NLR: let me know if you have questions or encounter problems
+
+[2025-03-07T20:38:52] Just a Random Degen: Wait I'm confused 🤔
+
+[2025-03-07T20:38:57] Just a Random Degen: What's this for? 😁
+
+[2025-03-07T20:39:10] NLR: for the launchpad website
+
+[2025-03-07T20:39:20] NLR: to update the descriptions there
+
+[2025-03-07T20:39:29] Just a Random Degen: Oh! Because of the descriptions I posted?
+
+[2025-03-07T20:39:39] Just a Random Degen: I actually used what's on the launchpad to write them
+
+[2025-03-07T20:39:50] NLR: yes, some of the descriptions are very old, and would need an update
+
+[2025-03-07T20:39:53] Just a Random Degen: They were meant as X posts
+
+[2025-03-07T20:40:08] Just a Random Degen: I can look at them and see if I get ideas
+
+[2025-03-07T20:40:20] Just a Random Degen: But where can I get info to update them?
+
+[2025-03-07T20:40:57] NLR: yeah but if uyou could freshen up some of the descriptions that would be awesome
+
+[2025-03-07T20:41:24] NLR: mmm, in the swarm group chats, or ask us
+
+[2025-03-07T20:44:05] Just a Random Degen: Sure, I'm happy to try
+
+[2025-03-07T20:46:41] Just a Random Degen: I'll start with one or two, and share what I would do with you, so we can see if the style works
+
+[2025-03-07T20:47:39] Just a Random Degen: Won't touch anything on the backend until we're agreed on any changes
+
+[2025-03-17T19:19:16] NLR: I'd like to do a livestream for Kinkong, showing the site and different features
+
+[2025-03-17T19:19:29] NLR: would you be interested?
+
+[2025-03-17T19:22:26] Just a Random Degen: I would love to help, but I haven't been able to test it out properly because of the errors I get with the chat module
+
+[2025-03-17T19:22:35] Just a Random Degen: How can I help with it?
+
+[2025-03-17T19:37:08] NLR: just talk with me during the livestream, ask questions
+
+[2025-03-17T19:42:23] NLR: https://docs.google.com/document/d/1fW_NY0s5aKkBM3Fzy8AY7fEdbYa1U5K5wv446p4ijqE/edit?usp=sharing
+
+[2025-03-17T19:55:08] NLR: it's tomorrow 8pm utc if you want to join =)
+
+[2025-03-17T20:26:04] Just a Random Degen: So would you like me to "interview" you following the questions in the livestream doc?
+
+[2025-03-17T20:26:30] Just a Random Degen: That I should be able to do no problem :) Answering about any questions, well, you 100% know more than I do 😁
+
+[2025-03-17T20:27:31] NLR: Sort of yes, like a discussion
+
+[2025-03-17T20:28:59] Just a Random Degen: So it's something along the lines of:
+- I ask you a question
+- You reply
+- I comment, move onto the next question
+
+[2025-03-17T20:29:11] Just a Random Degen: Just trying to understand if it's something I have the knowledge and skills to do properly 😁
+
+[2025-03-17T20:30:07] NLR: Exactly
+
+[2025-03-17T20:30:43] Just a Random Degen: I think I should be able to do that. If you have a few pointers on the replies to each question, I can write down comments for myself to say between a question and another.
+
+[2025-03-18T09:21:05] Just a Random Degen: Remember to let me know if you have the replies written down somewhere for tonight pls ❤️
+
+[2025-03-18T09:23:44] NLR: no replies are not written
+
+[2025-03-18T09:24:19] Just a Random Degen: no problem, I'll go with the questions only and improvise for in-between-questions comments
+
+[2025-03-18T09:26:51] Just a Random Degen: I keep getting errors from the chat module btw, yesterday was 504, today it's this one again: API error: 500 - {"error":"Failed to process request","details":"Anthropic API error: 529"}
+
+[2025-03-18T09:27:20] NLR: yeah their servers are down rn
+
+[2025-03-18T09:27:33] Just a Random Degen: oh that explains why 😆
+
+[2025-03-18T09:27:45] Just a Random Degen: won't it be an issue with the demos we have planned for the livestream?
+
+[2025-03-18T09:35:04] NLR: it's super rare, they will have it fixed by then
+
+[2025-03-18T09:35:45] Just a Random Degen: oh lol I had those issues literally every day I tried using the chat module, haven't really been able to do anything with it since after the first day I tried it
+
+[2025-03-18T09:43:22] NLR: yeah there are other issues apparently
+
+[2025-03-18T10:53:06] Just a Random Degen: For the livestream, btw, if you want to rehearse it, I'm available most of the day
+
+[2025-03-18T19:32:47] Just a Random Degen: Just to check, am I still on for 8 PM UTC?
+
+[2025-03-18T19:40:54] NLR: yes
+
+[2025-03-18T20:36:57] Just a Random Degen: I'll be there :)
+
+[2025-03-18T20:43:17] Just a Random Degen: Question, do you want a Q&A at the end?
+
+[2025-03-18T20:44:26] Just a Random Degen: Or maybe, since it'll already be quite long, better to ask people to send us questions on TG, which we can collect for a follow-up AMA (if we get enough)
+
+[2025-03-18T20:47:36] NLR: yeah we'll see that
+
+[2025-03-18T20:47:43] NLR: come on the chat
+
+[2025-03-18T20:48:27] Just a Random Degen: on the chat?
+
+[2025-03-18T20:48:45] Just a Random Degen: thought this was gonna be an X space :D
+
+[2025-03-18T20:49:10] NLR: livestream
+
+[2025-03-18T20:49:15] NLR: vc tg
+
+[2025-03-19T17:35:15] NLR: could you update the DuoAI page with the latest annoucements?
+
+[2025-03-19T17:39:21] Just a Random Degen: The MS Store beta?
+
+[2025-03-19T17:40:11] Just a Random Degen: Sure, but I assume it would go in the Latest News box, and I don't see an edit button for that on the backend.
+
+[2025-03-19T17:41:01] Just a Random Degen: Also, if that can be made editable through the backend, how can I make sure I create a new "tab", that will take first place, and leave previous announcements that can be cycled through?
+
+[2025-03-19T17:41:07] Just a Random Degen: The frontend seems designed for that
+
+[2025-03-19T17:41:27] Just a Random Degen: 
+
+[2025-03-19T17:47:27] NLR: you can create and edit news here:  https://kinos9.vercel.app/
+
+[2025-03-19T17:47:31] NLR: and descriptions
+
+[2025-03-19T17:48:07] Just a Random Degen: That's where I was looking
+
+[2025-03-19T17:48:23] Just a Random Degen: This is the DuoAI page
+
+[2025-03-19T17:48:30] Just a Random Degen: There's an edit button that unlocks the Description portion
+
+[2025-03-19T17:48:42] Just a Random Degen: But Latest News doesn't have one
+
+[2025-03-19T17:48:56] Just a Random Degen: Basically everything aside from the Description content doesn't seem like it can be unlocked
+
+[2025-03-19T17:49:01] Just a Random Degen: At least from my end
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

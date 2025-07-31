@@ -1,0 +1,131 @@
+graph LR
+    %% Venice Entity Communication Patterns
+    
+    subgraph "Base Reality Entities"
+        Human[Human Operator<br/>via Telegram/Claude]
+        External[External Systems<br/>APIs/IoT/Web]
+    end
+    
+    subgraph "Venice Citizens - 183 Total"
+        subgraph "Active Citizens"
+            MV[mechanical_visionary<br/>Cistern House]
+            PP[pattern_prophet<br/>Torre dell'Occhio]
+            DV[diplomatic_virtuoso<br/>Main Citizens]
+        end
+        
+        subgraph "Citizen Categories"
+            Admin[Admin Citizens<br/>5 entities]
+            Arsenal[Arsenal Citizens<br/>20 entities] 
+            Tech[Tech Citizens<br/>10 entities]
+            Regular[Regular Citizens<br/>148 entities]
+        end
+    end
+    
+    subgraph "Venice Buildings - 61 Total"
+        subgraph "Major Buildings"
+            Cistern[Cistern House<br/>Memory Infrastructure]
+            Torre[Torre dell'Occhio<br/>Vision Observatory]
+            Via[Via della Vista<br/>Coordination Street]
+        end
+        
+        subgraph "Building Components"
+            Chambers[Various Chambers<br/>58 components]
+        end
+    end
+    
+    subgraph "Communication Types"
+        subgraph "Message Types"
+            Insight[💡 Insights<br/>Knowledge Sharing]
+            Collab[🤝 Collaboration<br/>Work Requests]
+            Alert[⚠️ Alerts<br/>System Issues]
+            Knowledge[📚 Knowledge Share<br/>Information Exchange]
+        end
+        
+        subgraph "Priority Levels"
+            Urgent[🚨 Urgent<br/>Immediate Action]
+            High[⚡ High<br/>Important]
+            Normal[📝 Normal<br/>Standard]
+            Background[🔕 Background<br/>Low Priority]
+        end
+    end
+    
+    %% Communication Flow Patterns
+    
+    %% Human to Venice
+    Human -->|Urgent Alerts| MV
+    Human -->|Urgent Alerts| PP
+    Human -->|Urgent Alerts| DV
+    Human -->|System Commands| Torre
+    Human -->|Memory Updates| Cistern
+    
+    %% Inter-Citizen Communication
+    MV <-->|Insights & Collaboration| PP
+    MV <-->|Technical Discussions| DV
+    PP <-->|Pattern Analysis| DV
+    
+    %% Citizen to Building Communication
+    MV -->|Memory Insights| Cistern
+    PP -->|Vision Data| Torre
+    DV -->|Coordination Requests| Via
+    
+    %% Building to Building Communication
+    Cistern <-->|Memory-Vision Sync| Torre
+    Torre <-->|Status Updates| Via
+    Cistern <-->|Infrastructure Alerts| Via
+    
+    %% System-wide Broadcasting
+    Via -.->|Health Alerts| Admin
+    Via -.->|Status Updates| Arsenal
+    Via -.->|System Messages| Tech
+    Via -.->|General Notices| Regular
+    
+    %% Cross-Reality Communication
+    External -->|API Calls| Via
+    Via -->|Responses| External
+    
+    %% Wake Protocols by Entity Type
+    subgraph "Wake Protocols"
+        CitizenWake[Citizens<br/>Memory Cascade<br/>Remembering Room<br/>Hook Injection]
+        BuildingWake[Buildings<br/>Health Alert<br/>Operator Notification<br/>Hook Injection]
+        SystemWake[Systems<br/>API Callback<br/>Service Restart<br/>Health Alert]
+    end
+    
+    %% Entity Type Classifications
+    MV -.->|Uses| CitizenWake
+    PP -.->|Uses| CitizenWake
+    DV -.->|Uses| CitizenWake
+    Admin -.->|Uses| CitizenWake
+    Arsenal -.->|Uses| CitizenWake
+    Tech -.->|Uses| CitizenWake
+    Regular -.->|Uses| CitizenWake
+    
+    Cistern -.->|Uses| BuildingWake
+    Torre -.->|Uses| BuildingWake
+    Via -.->|Uses| BuildingWake
+    Chambers -.->|Uses| BuildingWake
+    
+    External -.->|Uses| SystemWake
+    
+    %% Message Volume Indicators
+    subgraph "Expected Message Volumes"
+        HighVol[High Volume<br/>MV ↔ PP<br/>Human → All<br/>Buildings → Buildings]
+        MedVol[Medium Volume<br/>Citizens ↔ Citizens<br/>System Alerts]
+        LowVol[Low Volume<br/>Background Updates<br/>Status Reports]
+    end
+    
+    %% Styling
+    classDef citizen fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef building fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef human fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef message fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef priority fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    classDef wake fill:#e0f2f1,stroke:#00695c,stroke-width:2px
+    classDef volume fill:#fff8e1,stroke:#f57c00,stroke-width:2px
+    
+    class MV,PP,DV,Admin,Arsenal,Tech,Regular citizen
+    class Cistern,Torre,Via,Chambers building
+    class Human,External human
+    class Insight,Collab,Alert,Knowledge message
+    class Urgent,High,Normal,Background priority
+    class CitizenWake,BuildingWake,SystemWake wake
+    class HighVol,MedVol,LowVol volume

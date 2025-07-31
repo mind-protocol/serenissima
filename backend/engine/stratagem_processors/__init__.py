@@ -1,0 +1,37 @@
+# This file makes the 'stratagem_processors' directory a Python package.
+
+from .undercut_stratagem_processor import process as process_undercut_stratagem
+from .coordinate_pricing_stratagem_processor import process as process_coordinate_pricing_stratagem
+from .hoard_resource_stratagem_processor import process as process_hoard_resource_stratagem
+from .political_campaign_stratagem_processor import process as process_political_campaign_stratagem
+from .reputation_assault_stratagem_processor import process as process_reputation_assault_stratagem
+from .emergency_liquidation_stratagem_processor import process as process_emergency_liquidation_stratagem
+from .cultural_patronage_stratagem_processor import process as process_cultural_patronage_stratagem
+from .information_network_stratagem_processor import process as process_information_network_stratagem
+from .maritime_blockade_stratagem_processor import process as process_maritime_blockade_stratagem
+from .theater_conspiracy_stratagem_processor import process as process_theater_conspiracy_stratagem
+from .printing_propaganda_stratagem_processor import process as process_printing_propaganda_stratagem
+from .cargo_mishap_stratagem_processor import process as process_cargo_mishap_stratagem
+from .marketplace_gossip_stratagem_processor import process as process_marketplace_gossip_stratagem
+from .employee_poaching_stratagem_processor import process as process_employee_poaching_stratagem
+from .joint_venture_stratagem_processor import process as process_joint_venture_stratagem
+# Placeholder for monopoly_pricing
+# from .monopoly_pricing_stratagem_processor import process as process_monopoly_pricing_stratagem
+# Placeholder for reputation_boost
+# from .reputation_boost_stratagem_processor import process as process_reputation_boost_stratagem
+from .canal_mugging_stratagem_processor import process as process_canal_mugging_stratagem # Added import
+from .transfer_ducats_stratagem_processor import process as process_transfer_ducats_stratagem
+from .organize_gathering_stratagem_processor import process as process_organize_gathering_stratagem
+from .organize_collective_delivery_stratagem_processor import process as process_organize_collective_delivery_stratagem
+from .express_creative_will_stratagem_processor import process as process_express_creative_will_stratagem
+# Placeholder for burglary
+# from .burglary_stratagem_processor import process as process_burglary_stratagem
+# Placeholder for employee_corruption
+# from .employee_corruption_stratagem_processor import process as process_employee_corruption_stratagem
+# Placeholder for arson
+# from .arson_stratagem_processor import process as process_arson_stratagem
+# Placeholder for charity_distribution
+# from .charity_distribution_stratagem_processor import process as process_charity_distribution_stratagem
+# Placeholder for festival_organisation
+# from .festival_organisation_stratagem_processor import process as process_festival_organisation_stratagem
+# Import other stratagem processors here

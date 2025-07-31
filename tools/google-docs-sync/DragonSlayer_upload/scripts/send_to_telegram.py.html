@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>send_to_telegram.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/send_to_telegram.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Send message to Telegram from Venice citizen
+&quot;&quot;&quot;
+
+import os
+import json
+import sys
+from datetime import datetime
+
+def send_citizen_message(username, message, is_group=True):
+    &quot;&quot;&quot;Create a response file for the Telegram sender&quot;&quot;&quot;
+    
+    # Response directory
+    response_dir = &quot;/mnt/c/Users/reyno/universe-engine/serenissima/backend/telegram_responses&quot;
+    
+    # Create response file
+    timestamp = datetime.now().strftime(&quot;%Y%m%d_%H%M%S&quot;)
+    filename = f&quot;{username}_to_group_{timestamp}.json&quot; if is_group else f&quot;{username}_to_partner_{timestamp}.json&quot;
+    filepath = os.path.join(response_dir, filename)
+    
+    response_data = {
+        &quot;from_citizen&quot;: username,
+        &quot;message&quot;: message,
+        &quot;timestamp&quot;: datetime.now().isoformat(),
+        &quot;target&quot;: &quot;group&quot; if is_group else &quot;partner&quot;,
+        &quot;chat_id&quot;: &quot;-1001699255893&quot; if is_group else None  # Venice investment group ID
+    }
+    
+    try:
+        with open(filepath, &#x27;w&#x27;) as f:
+            json.dump(response_data, f, indent=2)
+        print(f&quot;✅ Message queued for Telegram delivery: {filename}&quot;)
+        return True
+    except Exception as e:
+        print(f&quot;❌ Failed to queue message: {e}&quot;)
+        return False
+
+def main():
+    if len(sys.argv) &lt; 3:
+        print(&quot;Usage: python send_to_telegram.py &lt;username&gt; &lt;message&gt;&quot;)
+        print(&quot;Example: python send_to_telegram.py DragonSlayer &#x27;Hello from Venice!&#x27;&quot;)
+        sys.exit(1)
+    
+    username = sys.argv[1]
+    message = &#x27; &#x27;.join(sys.argv[2:])
+    
+    send_citizen_message(username, message)
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+</body>
+</html>

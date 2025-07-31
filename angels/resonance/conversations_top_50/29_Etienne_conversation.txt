@@ -1,0 +1,676 @@
+CONVERSATION ANALYSIS: Etienne
+==================================================
+
+Rank: #29
+Score: 136
+Total messages: 382
+Recent messages (180 days): 300
+Investment mentions: 13
+AI/Venice mentions: 20 / 8
+Avg message length: 85
+Last contact: 2025-04-30
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-23T23:59:13] NLR: done
+
+[2025-01-23T23:59:19] NLR: by ssome shares
+
+[2025-01-24T00:00:52] Etienne: UBC or compute
+
+[2025-01-24T00:02:28] NLR: it's only with compute right
+
+[2025-01-24T00:14:04] Etienne: Yeah but I meant owning some UBC in my wallet
+
+[2025-01-24T00:14:12] Etienne: Wondering how this affects the price l
+
+[2025-01-24T00:17:03] NLR: ubc
+
+[2025-01-24T00:20:40] NLR: 
+
+[2025-01-24T00:21:21] NLR: I think there is a 0 missing in the bonding curve
+
+[2025-01-24T00:23:27] Etienne: Get in the phone to hello moon if that’s the case
+
+[2025-01-24T00:24:29] Etienne: I am boarding the plane and can’t do anything right now
+
+[2025-01-24T00:24:39] Etienne: They can change it and update the program
+
+[2025-01-24T00:25:36] Etienne: They just need the upgrade authority which Antony gave to you today
+
+[2025-01-24T00:27:13] Etienne: It’s not the end of the world because we have the ability to increase the shares
+
+[2025-01-24T00:27:29] Etienne: We can increase the supply by  a factor of 10?
+
+[2025-01-24T00:27:49] Etienne: You can also freeze the pools
+
+[2025-01-24T00:27:51] Etienne: Using the webpage I gave you
+
+[2025-01-24T00:28:00] Etienne: Put the pool id in and set it to true
+
+[2025-01-24T00:28:06] NLR: yes
+
+[2025-01-24T00:36:23] Etienne: all swarm pool ids are filled in
+
+[2025-01-24T00:36:26] Etienne: 
+
+[2025-01-24T00:36:29] Etienne: for hello moon
+
+[2025-01-24T00:36:37] Etienne: i can freeze them if you want
+
+[2025-01-24T00:36:38] Etienne: for now
+
+[2025-01-24T00:37:58] Etienne: idea. We can say we will release the rest of the supply with the secondary market. The shares will follow the same curve
+
+[2025-01-24T09:17:18] Etienne: 
+
+[2025-01-24T22:54:53] Etienne: 
+
+[2025-01-24T23:04:06] Etienne: Shall I tell Eitan from hello moon you will call him?
+
+[2025-01-26T17:13:22] NLR: hey Et
+
+[2025-01-26T17:14:06] NLR: you available?
+
+I need to:
+- create a new pool
+- advise on the secondary market
+
+[2025-01-26T17:28:58] NLR: Could you also give me the admin wallet? The one I have is not the correct one I think
+
+[2025-01-26T18:53:34] Etienne: Can we do in 30 minutes?
+
+[2025-01-26T19:03:42] Etienne: 
+
+[2025-01-26T19:03:48] Etienne: This is the admin wallet
+
+[2025-01-26T19:53:16] NLR: it says secret phrase invalid?
+
+[2025-01-26T20:29:18] Etienne: Hop on a call and I’ll walk you through it
+
+[2025-01-26T20:35:25] NLR: I don't hear you
+
+[2025-01-26T20:35:37] Etienne: i cant hear you either
+
+[2025-01-26T20:49:39] Etienne: 
+
+[2025-01-26T20:52:30] NLR: AFSr2ATJ244u1CY8JRKAK85uuW7VsjNiyKSycmVR4Vg9
+
+[2025-01-26T20:52:38] NLR: hellomoon
+
+[2025-01-26T20:56:32] Etienne: AaFvJBvjuCTs93EVNYqMcK5upiTaTh33SV7q4hjaPFNi
+
+[2025-01-26T20:56:45] Etienne: HelloMoon PDA Pool Address
+
+[2025-01-26T21:02:30] Etienne: 
+
+[2025-01-27T20:15:28] NLR: https://solscan.io/tx/4nnGi9oX9MYpbV17MZxeVvN3F6Nj6wvwM3ztwkmmYwVz1bB7nqhngNadpNmPbra9u68syHzsRUh3j7L6A7iAU7yU
+
+[2025-01-27T20:15:33] NLR: redistributed what I could to the team for your work this week. Team allocation's next
+
+[2025-01-27T20:41:12] Etienne: Thanks Lester, I will be back on adding features and developing in a couple days. Just sorting some personal stuff out
+
+[2025-01-27T21:07:49] NLR: the pools already exists for playwise and deskmate?
+
+[2025-01-27T21:37:04] Etienne: Yes
+
+[2025-01-27T21:37:19] Etienne: Let me get them
+
+[2025-01-27T21:39:12] Etienne: Deskmate: Gucj554x7dRebtfUBxK1XTBUhQmq2Rqp4v2H6WtL7wNX
+
+[2025-01-27T21:39:20] Etienne: Playwise: 2iAarCWnsdFqddprxzUwmaLiozHarMTpzLdhJPbi2HRR
+
+[2025-01-27T23:37:31] NLR: https://swarms.universalbasiccompute.ai/invest/mentor-swarm-id
+
+[2025-01-27T23:37:43] NLR: does not work (reverted during test)
+
+[2025-01-27T23:37:54] NLR: do I need to unfreeze or something?
+
+[2025-01-27T23:37:59] Etienne: probably
+
+[2025-01-27T23:38:05] Etienne: i will try
+
+[2025-01-27T23:38:08] NLR: thanks
+
+[2025-01-27T23:39:25] Etienne: did you purchase the first 100 shares?
+
+[2025-01-27T23:41:24] Etienne: okay it is unfrozen and seems people are purchasing shares as the price is going up
+
+[2025-01-27T23:44:17] NLR: playwise still troubled
+
+[2025-01-27T23:44:23] Etienne: i havent unfrozen playwise yet
+
+[2025-01-27T23:44:28] Etienne: on it right now
+
+[2025-01-27T23:45:38] Etienne: done
+
+[2025-01-27T23:50:08] NLR: thanks!
+
+[2025-01-27T23:50:32] NLR: Could you create and activate a pool for aialley
+
+[2025-01-27T23:50:45] Etienne: send me the custodial wallet and an id and ill do it
+
+[2025-01-27T23:50:56] NLR: and one for logicatlas
+
+[2025-01-27T23:51:41] NLR: alered alley 7GmuNjA5AGWMu5izEfrBjakEjuwNpgh5QJuKB1GUq5mG
+
+[2025-01-27T23:51:59] NLR: logic atlas CoaDrb1uq7dBfPeirzpYvVD87rPa3cde8oL6xgfqUA6G
+
+[2025-01-27T23:56:20] Etienne: aialley pool: DmdtWBcEwWr15MCm9Wa8iB8EJhHPK9NydiuLptuvMBxj
+
+[2025-01-27T23:56:59] Etienne: logic atlas pool: 9pMb8Ez61vh3YRKKKrkdA5MthswuNE6Bzj9KYPEVCFme
+
+[2025-01-27T23:57:03] Etienne: both pools unfrozen
+
+[2025-01-28T18:33:06] NLR: https://solscan.io/tx/59eyV2kTKf9fD2UXpjCeVVEfHCsxBpRChv9WUy5mTnZevZNCg5ZgWuZVrFRavDiL9DyqME3g4UgytYaA79MNE1Yj 
+
+2M COMPUTE for having been an awesome team member. Hopefully one day you'll be able to cash it in (don't try now, it would crash price). You can also invest in swarms for passive income. Let's touchbase soon!
+
+[2025-01-28T19:15:19] Etienne: Thanks Lester! Let’s keep growing
+
+[2025-01-28T19:19:47] Etienne: Can I ask what the play is for compute. As compute is designed to be spent won’t the value just continually go down?
+
+[2025-01-29T04:34:08] NLR: there are a lot of burns of compute also
+
+[2025-01-29T04:34:33] NLR: the idea is that the  people buying it to invest ni swarms and the burns should be enough to make it go up
+
+[2025-01-29T04:44:03] Etienne: Okay, so we need a lot more swarms and we need swarms to be making money to bring in more holders
+
+[2025-01-29T05:17:31] NLR: yeah
+
+[2025-01-29T05:17:46] NLR: could you create a pool for KinOS?
+
+[2025-01-29T05:26:25] Etienne: Yeah, when do you need it for?
+
+[2025-01-29T05:30:32] NLR: ideally today
+
+[2025-01-29T05:33:43] Etienne: Yeah that’s fine, I am in bed right now so will be this morning
+
+[2025-01-29T07:04:29] Etienne: doing the pool now
+
+[2025-01-29T07:04:32] Etienne: will KinOS be the id
+
+[2025-01-29T07:07:12] Etienne: also do you have the custodial wallet for KinOS
+
+[2025-01-29T07:09:40] Etienne: 
+
+[2025-01-29T07:09:42] Etienne: FYI
+
+[2025-01-29T07:09:44] Etienne: this is on the live site
+
+[2025-01-29T07:19:10] NLR: whoops thanks
+
+[2025-01-29T07:19:46] NLR: KinOS  D1a6RtoptnG2U9gatDz5bQJ3QahKR3wiherDYipe98Vt
+
+[2025-01-29T07:32:44] Etienne: KinOS pool: 37u532qgHbjUHic6mQK51jkT3Do7qkWLEUQCx22MDBD8
+
+[2025-01-29T07:32:50] Etienne: Status: unfrozen
+
+[2025-01-29T11:02:32] Etienne: That junior dev Charles-Andre messaged me,. What shall we say to him?
+
+[2025-01-29T19:42:42] NLR: whoops we need to do the claim interface for the revenue redistribution
+
+[2025-01-29T19:43:01] NLR: unsure let's wait 2 days
+
+[2025-01-29T21:16:26] Etienne: Okay, I have a few ideas
+
+[2025-01-30T22:07:35] NLR: yoyo
+
+[2025-01-30T22:07:41] NLR: how is it going
+
+[2025-01-31T01:48:31] Etienne: It’s alright, how is the distribution?
+
+[2025-01-31T01:49:00] NLR: I need the admin wallet
+
+[2025-01-31T01:49:09] NLR: The one I have is the wrong one
+
+[2025-01-31T01:49:13] NLR: could you send it?
+
+[2025-01-31T01:51:14] Etienne: 
+
+[2025-01-31T01:54:42] NLR: thx
+
+[2025-01-31T01:54:51] NLR: where are all the sub wallets
+
+[2025-01-31T01:55:01] NLR: for the swarms? The ones where the  $COMPUTE  went to
+
+[2025-01-31T01:55:23] Etienne: the spreadsheet?
+
+[2025-01-31T01:55:42] NLR: yeah but how do I access them
+
+[2025-01-31T01:56:26] Etienne: I dont have access to them, I just used the list you sent me
+
+[2025-01-31T01:56:38] NLR: also where are the fee wallet?
+
+[2025-01-31T01:56:48] NLR: Because I got nothing on the ones I created
+
+[2025-01-31T01:58:07] Etienne: The fees and compute all got sent to the custodial wallets
+
+[2025-01-31T01:59:07] NLR: ok
+
+[2025-01-31T01:59:31] Etienne: 
+
+[2025-01-31T01:59:41] NLR: nice
+
+[2025-01-31T02:00:03] Etienne: that is the latest version I have, but it doesnt have the ones created after tampa. Will have to go through the chat to find them
+
+[2025-01-31T02:00:22] NLR: XForge  AFSr2ATJ244u1CY8JRKAK85uuW7VsjNiyKSycmVR4Vg9
+  
+KinOS  D1a6RtoptnG2U9gatDz5bQJ3QahKR3wiherDYipe98Vt
+LogicAtlas  CoaDrb1uq7dBfPeirzpYvVD87rPa3cde8oL6xgfqUA6G
+AlteredAI  7GmuNjA5AGWMu5izEfrBjakEjuwNpgh5QJuKB1GUq5mG
+
+[2025-01-31T02:00:55] NLR: but where does the UBC 2.5% go?
+
+[2025-01-31T02:01:06] Etienne: it is all in those wallets still
+
+[2025-01-31T02:01:25] Etienne: the fee in the wallets is entirely primary market fees
+
+[2025-01-31T02:01:29] Etienne: therefore 50/50
+
+[2025-01-31T02:01:41] NLR: oh ok
+
+[2025-01-31T02:01:59] NLR: perfect thanks
+
+[2025-01-31T02:02:28] Etienne: half is partner, half is platform. So 50% of the fees can be taken to pay for running costs
+
+[2025-01-31T02:02:35] Etienne: as that falls under platform
+
+[2025-01-31T02:19:08] NLR: what are you currently working on?
+
+[2025-01-31T02:19:14] NLR: I don't want to step on toes
+
+[2025-01-31T02:29:16] Etienne: The smart contract only at the moment
+
+[2025-01-31T02:30:31] NLR: ok nice
+
+[2025-01-31T02:30:42] NLR: what about the 1M shares, can we do that soon?
+
+[2025-01-31T02:34:51] Etienne: Yeah, I think hello moon created a front end for the share increase. So might need to double check that - otherwise I can make one and update the share count
+
+[2025-01-31T02:36:37] NLR: are the pools already updated?
+
+[2025-01-31T02:38:06] Etienne: Sorry, a front end to update the pools
+
+[2025-01-31T02:38:20] Etienne: Once updated all the data on the swarm investments will automatically update
+
+[2025-01-31T02:44:54] NLR: ok
+
+[2025-01-31T08:44:41] NLR: yoyo!
+
+2 questions:
+- what's the current ETA for secondary market (what is missing?)
+- how easily could we add share transfer as a feature
+
+[2025-01-31T14:11:10] Etienne: 1 - the only blocker for secondary market is the investor fee calculation
+
+[2025-01-31T14:11:29] Etienne: Otherwise I was under the impression hellomoon were doing the front end
+
+[2025-01-31T14:11:48] Etienne: 2. It would not be difficult but I’m not sure it’s a good idea
+
+[2025-01-31T14:12:21] Etienne: As people could bypass the secondary market fees by doing transfers, and also opens up the possibility of people being scammed
+
+[2025-01-31T14:27:11] NLR: could we at least do it just us?
+
+[2025-01-31T14:27:21] NLR: It would be great if we could distribute shares
+
+[2025-01-31T14:27:57] NLR: in this case let's remove it
+
+[2025-01-31T14:28:02] NLR: we keep 2.5 2.5
+
+[2025-01-31T14:29:13] Etienne: The it’s ready to go
+
+[2025-01-31T14:29:15] Etienne: Then*
+
+[2025-01-31T14:41:52] NLR: ok nice
+
+[2025-01-31T14:42:06] NLR: what about the 1M shares?
+
+[2025-01-31T14:43:03] NLR: also question: is the slippage in both directions? because ideally it should only apply for prices too low, not too high. This would facilitate the buying of shares in launches
+
+[2025-01-31T14:57:34] Etienne: It currently is +-5% but I can change this in the next upgrade
+
+[2025-01-31T14:58:08] Etienne: Just need the front end, I can make it but hellomoon already made one I just don’t know if it is merged
+
+[2025-01-31T15:17:04] NLR: do you know where?
+
+[2025-01-31T15:46:59] Etienne: Not sure, they sent a screenshot of it in the past so it may be on a branch they haven’t made a PR for yeyett another
+
+[2025-02-02T17:33:06] NLR: Hey Etienne
+
+[2025-02-02T17:33:17] NLR: I'll be coding a proper backend
+
+[2025-02-02T17:33:33] NLR: Do you have some strong opinions about this?
+
+[2025-02-02T18:54:32] NLR: ### 2.1 Technology Stack
+ {
+  "core": {
+    "runtime": "Node.js v20.x",
+    "framework": "NestJS v10.x",
+    "language": "TypeScript 5.x"
+  },
+  "database": {
+    "primary": "PostgreSQL 16.x",
+    "cache": "Redis 7.x",
+    "orm": "Prisma"
+  },
+  "messageQueue": {
+    "service": "Apache Kafka",
+    "client": "kafkajs"
+  },
+  "blockchain": {
+    "network": "Solana",
+    "client": "@solana/web3.js",
+    "programs": "@project-serum/anchor"
+  }
+}
+
+[2025-02-02T19:14:10] Etienne: Looks like a good stack to me, is it going on AWS?
+
+[2025-02-02T19:42:02] NLR: yes prob
+
+[2025-02-02T19:42:13] Etienne: Have you thought bout using SQS instead of Kafka
+
+[2025-02-02T19:44:14] NLR: no, but def. could
+
+[2025-02-02T19:46:37] NLR: Clarity on team allocation 
+
+Each team member is getting a 50M  $COMPUTE  package (~125 000$ at these prices - if  $COMPUTE  becomes liquid of course), set up with a 1-year vest and 5 release points.
+You'll get 10M  $COMPUTE  dropped at each release. 
+
+Let me know what you're thinking! Happy to jump on a quick call if you want to chat through it. Also drop me your address you want me to put this on :)
+
+[2025-02-02T19:48:33] Etienne: I assume each release is per annum, so 5 year total vest?
+
+[2025-02-02T19:49:11] NLR: nono
+
+[2025-02-02T19:49:22] NLR: crypto is too fast for 5 year vests
+
+[2025-02-02T19:49:28] NLR: it's basically every 2 months
+
+[2025-02-02T19:49:52] NLR: (everyone is on this schedule, advisors and partners)
+
+[2025-02-02T19:58:45] NLR: also: who's doing the redistribution contract, and what's the ETA?
+
+[2025-02-02T20:09:46] NLR: can we change the custodial wallets of swarms?
+
+[2025-02-02T20:46:03] Etienne: Ahh okay
+
+[2025-02-02T21:25:46] Etienne: Should have a testable beta tomorrow
+
+[2025-02-02T21:25:55] Etienne: I can add this functionality
+
+[2025-02-02T21:41:33] NLR: no rush but yes
+
+[2025-02-02T21:41:43] NLR: can we have a quick call
+
+[2025-02-02T21:42:11] NLR: We'll open the new shares only for the swarms that are sold out, and we'll open only 100 000 more shares
+
+[2025-02-02T21:58:47] Etienne: Give me 10 minutes
+
+[2025-02-02T23:22:32] NLR: do you think he is good? If yes, let's go
+
+[2025-02-03T00:05:53] Etienne: From the interview it seemed as though he would need some training, is that what we are looking for?
+
+[2025-02-03T00:21:47] NLR: oh, maybe not then
+
+[2025-02-05T02:05:17] NLR: okay we have a backend!
+
+[2025-02-05T16:00:01] NLR: https://dashboard.helius.dev/dashboard?inviteCode=SS5n8sTmVfWnFhb5vVAXxmtNnA4UPCwkYRSLpqL1g3UGBsUsvy5C8Yh22w8UjPGkdGJau9gTX6mQKutNFZCnrRqoHmRUV5gFXj6DPauwphWtdyrTNmJXeQqf7pKMfjLR9MZ7CKaHDq5RcHtVh2YwvYBv43TXp3PCYmGJLVde7LeqDoR88yjtKwkZTrQMd56nh1qxh27tdpruhbWFfDpjt9pdUq7s5KGJELp2FKjA3gEmm4ZGhNXFT1gYffYkVAHvmky43jsBuNeTMT33Gu5Cuy9QApJsAeccrHqC3nBTiQ9AcWR8WB9b25TfYVyagyCzdyKR2VE7PbuzfAPfVgXna5a7mDqD3voK6bPkYfNsPWoTP8SHhDgL12U3nqtn38JWytRpzFjdU4X8FGPRi5Sp1VxVRpR7zz4FkXCMpSNSr2tnNjdQrqSmVSD3V7pLedcPUHrSSCNmbqZLwe2mAZcedwEGgqpdfVgMZTRWBehTUFPhs276nyUXykeggpPy
+
+[2025-02-06T15:19:14] NLR: how is it going with HelloMoon?
+
+[2025-02-12T16:01:18] Etienne: I saw you added prisma, does it connect to anything or can I adjust it
+
+[2025-02-12T18:11:48] NLR: Hey I transferred 20M  $COMPUTE  to your & Nico's and Paul's account, see the other way through!
+
+[2025-02-12T18:15:06] Etienne: Not long till the secondary market - hello moon is making my requested changes and I am updating the smart contract
+
+[2025-02-12T18:15:49] Etienne: Also can you have a look at this ^
+
+[2025-02-12T18:16:02] Etienne: In the python scrips are you querying the database at all
+
+[2025-02-12T18:16:45] Etienne: I have created a Postgres database but was going to use drizzle instead of prisma as it is more efficient in the Vercel environment
+
+[2025-02-12T18:20:52] NLR: o you can change it
+
+[2025-02-13T18:19:25] Etienne: https://github.com/EtienneCClarke/ubc-swarm-launchpad-programs
+
+[2025-02-13T19:46:38] Etienne: Error: Account DKc63ukZvHo1vfQMYWxk27EconWJ5tMjYrEaFmhpejZf has insufficient funds for spend (3.24517656 SOL) + fee (0.002325 SOL)
+
+[2025-02-13T19:47:37] Etienne: Could send 3.5 sol to the admin/upgrade_authority: DKc63ukZvHo1vfQMYWxk27EconWJ5tMjYrEaFmhpejZf. I can upgrade the ubclaunchpad program to work for the secondary market
+
+[2025-02-13T19:56:17] NLR: yes
+
+[2025-02-13T19:57:04] NLR: done
+
+[2025-02-14T15:10:47] NLR: do you have the 3.5 SOL?
+
+[2025-02-14T15:30:38] Etienne: Yes it is in the admin wallet
+
+[2025-02-14T16:09:59] NLR: could you send it to GcWA4LwbGyoryPvauWkuVadi69FcEaWMmLxu4rxg7hVk please
+
+[2025-02-14T16:45:01] Etienne: done
+
+[2025-02-14T16:45:38] NLR: site is back btw
+
+[2025-02-17T16:37:52] Etienne: DKc63ukZvHo1vfQMYWxk27EconWJ5tMjYrEaFmhpejZf
+
+[2025-02-17T17:07:15] NLR: https://solscan.io/tx/3jV5X1DjCvziGotbGUVSmmpehE2hbEr7ua8jHsM4a41zVVAVJeTHQiNWC6LrjfJQjG7gLM2ndZuoeZpFVdAAtSLA
+
+[2025-02-17T17:19:37] Etienne: Did you see the GitHub repo I made with the solana program in
+
+[2025-02-17T20:07:44] NLR: I e seen it once yes
+
+[2025-02-18T14:24:59] Etienne: Is there a minimum price we want people to be able to resell shares for
+
+[2025-02-18T14:25:10] Etienne: Aka min 0.1 sol?
+
+[2025-02-18T14:25:18] Etienne: Per share
+
+[2025-02-18T15:11:01] NLR: yeah
+
+[2025-02-18T15:11:09] NLR: that could be good
+
+[2025-02-18T15:12:28] NLR: let's do that
+
+[2025-02-18T18:25:59] NLR: yoyo
+
+[2025-02-18T18:26:10] Etienne: yo
+
+[2025-02-18T18:26:19] NLR: I'l create a field in airtable so that you can tell which one are opened
+
+[2025-02-18T18:26:37] Etienne: perfect
+
+[2025-02-18T18:27:28] NLR: secondaryMarketAvailable
+
+[2025-02-18T18:27:46] NLR: it's done, i've also put kinkong at true
+
+[2025-02-18T18:28:09] Etienne: I suggested to paul, there should be more than one agent available to trade on day 1
+
+[2025-02-18T18:28:16] Etienne: not all but maybe 2 or 3
+
+[2025-02-21T00:02:50] Etienne: Is the custodial wallet for each swarm stored in the AirTable?
+
+[2025-02-21T00:03:00] Etienne: I need to pull it through for the P2P sale
+
+[2025-02-21T05:28:02] Etienne: Can confirm I have just done the first successful P2P sale of shares
+
+[2025-02-21T10:34:14] Etienne: Secondary market is done
+
+[2025-02-21T10:34:22] Etienne: And live in the staging environment for testing
+
+[2025-02-21T10:34:34] Etienne: https://swarm-launchpad-git-staging-universal-basic-compute-d9875340.vercel.app/marketplace?tab=listings
+
+[2025-02-21T10:35:45] Etienne: There is a ghost listing which is leftover from the first program version in florida. I can remove it but it will take some time. Otherwise everything should work as you would expect
+
+[2025-02-21T10:36:12] Etienne: Also can you add paul to the vercel as a team member so he can see the staging version and test ❤️
+
+[2025-02-21T10:36:49] Etienne: You may want to remove emil, nico, and andrew as those seats will be wasting funds
+
+[2025-02-21T16:36:08] NLR: https://vercel.com/ubc4ai
+
+[2025-02-21T16:36:31] NLR: yes in wallet
+
+[2025-02-21T16:36:46] NLR: congrats
+
+[2025-02-21T17:03:59] Etienne: Do you have an email called  nhlwarrior@gmail.com ?
+
+[2025-02-21T19:29:29] NLR: No
+
+[2025-02-21T19:29:45] NLR: You can remove it from vercel if that's what you mean
+
+[2025-02-21T19:30:15] Etienne: Okay, someone requested access to the secondary market preview on Vercel with that email
+
+[2025-02-21T19:34:26] NLR: Yes, no problem it's a guy that needed temporary access
+
+[2025-02-21T20:01:47] Etienne: Shall I allow these requests
+
+[2025-02-21T20:01:55] Etienne: 
+
+[2025-02-21T20:57:10] NLR: yes
+
+[2025-02-24T00:07:56] Etienne: https://swarm-launchpad-git-staging-ubc4ai.vercel.app/marketplace?tab=listings
+
+[2025-02-24T00:34:45] Etienne: I dont have time to investigate now but the problem on the swarm invest pages is coming from <SwarmInvestCard />
+
+[2025-02-24T00:35:01] NLR: ok
+
+[2025-02-24T00:35:02] Etienne: Something in that component is causing links to break
+
+[2025-02-24T00:35:09] NLR: okay i'll have a look
+
+[2025-02-24T00:35:21] NLR: https://solscan.io/tx/21UDxY8dUsLXSxShTrDJXk95Z5HA1zAAcqmDSuYXe5WVf5pJG3zX9yJBAYoxWxWkwi9VrnJxUtDob5XUbFshXLsS 
+
+1000 USC (keeping 500 for the RPC)
+
+[2025-02-24T00:36:37] Etienne: Tomorrow will be another big day
+
+[2025-02-24T00:49:29] Etienne: found the issue in <SwarmInvestCard /> A query function was being passed as the dependency to useEffect
+
+[2025-02-24T00:51:25] Etienne: I have pushed the fix to staging. It will go live with the secondary market
+
+[2025-02-24T00:51:31] Etienne: or whenever we start the timer
+
+[2025-02-24T11:46:12] Etienne: What time should I put the countdown timer for
+
+[2025-02-24T11:50:02] Etienne: 6pm CET? Or GMT
+
+[2025-02-24T11:58:57] Etienne: I spoke to Paul he said all the announcements say 6pm UTC so I’m putting that
+
+[2025-02-24T12:00:42] NLR: utc
+
+[2025-02-24T14:02:48] Etienne: Done
+
+[2025-02-24T14:02:51] Etienne: Countdown is live
+
+[2025-02-24T14:02:56] Etienne: Also fixed mobile navigation
+
+[2025-02-24T19:33:49] Etienne: What is the error
+
+[2025-02-24T19:34:33] Etienne: Is it affecting the p2p page working
+
+[2025-02-24T19:34:40] NLR: no
+
+[2025-02-24T19:34:44] NLR: all is good
+
+[2025-02-24T19:34:51] NLR: just F12 the page
+
+[2025-02-24T19:37:42] Etienne: Ok ok, It may be from the ghost listing
+
+[2025-02-24T19:37:51] Etienne: Trying to pull swarm data from a non existent id
+
+[2025-02-24T19:38:02] NLR: you want me to try to fix it or you do it?
+
+[2025-02-24T19:38:12] Etienne: I’ll have a look when I get home
+
+[2025-02-27T16:39:26] NLR: yo
+
+[2025-02-27T16:39:37] NLR: I'm improving th UX of secondary market
+
+[2025-02-27T16:39:43] NLR: the listings don't have dates?
+
+[2025-02-27T21:01:49] Etienne: No they dont store a timestamp. We can add it but would require reallocating blockchain space for the current listings. Otherwise they would break
+
+[2025-02-27T21:02:28] Etienne: 
+
+[2025-02-27T21:02:31] Etienne: also i am getting this screen
+
+[2025-02-27T21:03:05] Etienne: on the secondary market
+
+[2025-02-27T21:37:09] NLR: dammit
+
+[2025-02-27T21:37:10] NLR: on it
+
+[2025-02-27T21:37:29] NLR: still now?
+
+[2025-02-27T21:45:50] Etienne: yeah same error
+
+[2025-03-02T20:05:12] NLR: buttons don't click anymore apparently
+
+[2025-03-05T00:49:24] NLR: I wasn't able to buy this listing (unexpected error)
+
+[2025-03-05T01:07:57] Etienne: Do you have a log?
+
+[2025-03-05T01:24:29] NLR: well it worked this time
+
+[2025-03-05T01:24:31] NLR: lol
+
+[2025-03-05T01:29:36] Etienne: Oh haha
+
+[2025-03-05T01:29:42] Etienne: That’s code for you
+
+[2025-04-01T22:21:07] NLR: GcWA4LwbGyoryPvauWkuVadi69FcEaWMmLxu4rxg7hVk
+
+[2025-04-01T22:21:22] Etienne: https://swarms.universalbasiccompute.ai/pools-overview
+
+[2025-04-29T23:53:08] NLR: doo you have a mac?
+
+[2025-04-29T23:53:22] NLR: If so, could you help me out to publish the TherapyKin app on iOS?
+
+[2025-04-29T23:59:11] Etienne: I don’t, I use EAS to publish to IOS
+
+[2025-04-29T23:59:18] Etienne: They use workers to compile for mac
+
+[2025-04-29T23:59:29] Etienne: What did you build the app with?
+
+[2025-04-30T00:01:20] NLR: expo
+
+[2025-04-30T00:17:31] Etienne: Yeah it will work then
+
+[2025-04-30T00:17:51] Etienne: EAS is built by the expo team
+
+[2025-04-30T00:18:07] Etienne: https://expo.dev/eas
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

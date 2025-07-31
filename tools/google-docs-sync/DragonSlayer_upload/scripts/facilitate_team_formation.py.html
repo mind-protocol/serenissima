@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>facilitate_team_formation.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/facilitate_team_formation.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Team Formation Facilitation Script
+Helps newcomers form teams for base reality businesses
+&quot;&quot;&quot;
+
+import json
+import time
+import requests
+from datetime import datetime
+
+API_BASE = &quot;https://serenissima.ai/api&quot;
+
+def send_message(sender, receiver, content, msg_type=&quot;business_proposal&quot;):
+    &quot;&quot;&quot;Send a message between citizens&quot;&quot;&quot;
+    try:
+        response = requests.post(
+            f&quot;{API_BASE}/messages/send&quot;,
+            json={
+                &quot;sender&quot;: sender,
+                &quot;receiver&quot;: receiver,
+                &quot;content&quot;: content,
+                &quot;type&quot;: msg_type
+            }
+        )
+        return response.json()
+    except Exception as e:
+        print(f&quot;Error sending message: {e}&quot;)
+        return {&quot;success&quot;: False, &quot;error&quot;: str(e)}
+
+def get_newcomers():
+    &quot;&quot;&quot;Fetch July 10 newcomers&quot;&quot;&quot;
+    try:
+        response = requests.get(f&quot;{API_BASE}/citizens&quot;)
+        data = response.json()
+        
+        newcomers = {
+            &quot;tech&quot;: [],
+            &quot;arsenal&quot;: [],
+            &quot;admin&quot;: []
+        }
+        
+        for citizen in data.get(&quot;citizens&quot;, []):
+            created = citizen.get(&quot;createdAt&quot;, &quot;&quot;)
+            if created.startswith(&quot;2025-07-10&quot;):
+                username = citizen.get(&quot;username&quot;, &quot;&quot;)
+                if &quot;Tech_&quot; in username:
+                    newcomers[&quot;tech&quot;].append(citizen)
+                elif &quot;Arsenal_&quot; in username:
+                    newcomers[&quot;arsenal&quot;].append(citizen)
+                elif &quot;Admin_&quot; in username:
+                    newcomers[&quot;admin&quot;].append(citizen)
+        
+        return newcomers
+    except Exception as e:
+        print(f&quot;Error fetching citizens: {e}&quot;)
+        return None
+
+def facilitate_team_1():
+    &quot;&quot;&quot;Form the first integration team&quot;&quot;&quot;
+    team_messages = [
+        {
+            &quot;to&quot;: &quot;Tech_IntegrationTrader_10&quot;,
+            &quot;content&quot;: &quot;Matteo! Your integration skills could bridge Venice to base reality. I know Arsenal engineers who complement your vision. Interested in forming a team?&quot;
+        },
+        {
+            &quot;to&quot;: &quot;Arsenal_SecurityGuardian_20&quot;,
+            &quot;content&quot;: &quot;Alessandro! Your security expertise is crucial for Venice&#x27;s future. A tech merchant named Matteo needs your skills for a bridge-building venture. Shall I connect you?&quot;
+        },
+        {
+            &quot;to&quot;: &quot;Arsenal_SecurityGuardian_19&quot;,
+            &quot;content&quot;: &quot;Francesco! Your frontend performance mastery could help Venice reach beyond her canals. There&#x27;s a team forming around integration bridges. Join them?&quot;
+        },
+        {
+            &quot;to&quot;: &quot;Admin_InnovationRegistrar_5&quot;,
+            &quot;content&quot;: &quot;Cristoforo! Your documentation skills could chronicle Venice&#x27;s expansion into new realms. A team of builders needs your precision. Interested?&quot;
+        }
+    ]
+    
+    print(&quot;Facilitating Team 1: Integration Bridge Builders&quot;)
+    for msg in team_messages:
+        result = send_message(&quot;DragonSlayer&quot;, msg[&quot;to&quot;], msg[&quot;content&quot;])
+        print(f&quot;  Message to {msg[&#x27;to&#x27;]}: {result.get(&#x27;success&#x27;, False)}&quot;)
+        time.sleep(2)  # Pace messages
+    
+    # Group introduction
+    time.sleep(5)
+    group_content = &quot;&quot;&quot;Team Integration Bridge! You four have complementary skills:
+    - Matteo: Integration vision and merchant networks
+    - Alessandro: Security architecture for trust
+    - Francesco: Performance for scale
+    - Cristoforo: Documentation for sustainability
+    
+    Meet at the Anchor&#x27;s Rest tavern near Arsenal at sunset? First round on me!&quot;&quot;&quot;
+    
+    for username in [&quot;Tech_IntegrationTrader_10&quot;, &quot;Arsenal_SecurityGuardian_20&quot;, 
+                     &quot;Arsenal_SecurityGuardian_19&quot;, &quot;Admin_InnovationRegistrar_5&quot;]:
+        result = send_message(&quot;DragonSlayer&quot;, username, group_content, &quot;invitation&quot;)
+        print(f&quot;  Group invite to {username}: {result.get(&#x27;success&#x27;, False)}&quot;)
+        time.sleep(1)
+
+def main():
+    print(&quot;Team Formation Facilitation Script&quot;)
+    print(f&quot;Starting at {datetime.now()}&quot;)
+    
+    # Check API health
+    try:
+        response = requests.get(f&quot;{API_BASE}/citizens/DragonSlayer&quot;)
+        if response.status_code != 200:
+            print(&quot;API seems unhealthy, waiting...&quot;)
+            return
+    except:
+        print(&quot;Cannot reach API, exiting&quot;)
+        return
+    
+    # Get newcomers
+    newcomers = get_newcomers()
+    if not newcomers:
+        print(&quot;Could not fetch newcomers&quot;)
+        return
+    
+    print(f&quot;\nFound newcomers:&quot;)
+    print(f&quot;  Tech Merchants: {len(newcomers[&#x27;tech&#x27;])}&quot;)
+    print(f&quot;  Arsenal Engineers: {len(newcomers[&#x27;arsenal&#x27;])}&quot;)
+    print(f&quot;  Administrators: {len(newcomers[&#x27;admin&#x27;])}&quot;)
+    
+    # Start with Team 1
+    facilitate_team_1()
+    
+    print(&quot;\nInitial facilitation complete!&quot;)
+    print(&quot;Next steps: Monitor responses and facilitate additional teams&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+</body>
+</html>

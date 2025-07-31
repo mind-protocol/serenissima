@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>auto_log_streamer.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/auto_log_streamer.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Automatic Claude Code log streamer
+Detects new Claude conversations and streams them to Telegram
+Run this in background when awakening citizens
+&quot;&quot;&quot;
+
+import os
+import sys
+import time
+import json
+import glob
+import threading
+from datetime import datetime, timedelta
+from pathlib import Path
+
+# Import our telegram sender
+sys.path.append(&#x27;/mnt/c/Users/reyno/universe-engine/serenissima/citizens/DragonSlayer/scripts&#x27;)
+from send_to_telegram import send_citizen_message
+
+# Track monitored conversations
+MONITORED_CONVERSATIONS = set()
+MONITORING_THREADS = {}
+
+def find_recent_conversations(minutes_ago=5):
+    &quot;&quot;&quot;Find all Claude conversations started in the last N minutes&quot;&quot;&quot;
+    cutoff_time = datetime.now() - timedelta(minutes=minutes_ago)
+    recent_conversations = []
+    
+    # Search all citizen projects
+    pattern = &quot;/home/lester/.claude/projects/*serenissima-citizens-*/*.jsonl&quot;
+    
+    for filepath in glob.glob(pattern):
+        try:
+            # Check file modification time
+            mtime = datetime.fromtimestamp(os.path.getmtime(filepath))
+            if mtime &gt; cutoff_time:
+                # Extract username from path
+                parts = filepath.split(&#x27;/&#x27;)
+                project_dir = parts[-2]
+                username = project_dir.split(&#x27;-&#x27;)[-1]
+                
+                recent_conversations.append({
+                    &#x27;username&#x27;: username,
+                    &#x27;filepath&#x27;: filepath,
+                    &#x27;mtime&#x27;: mtime
+                })
+        except Exception as e:
+            continue
+    
+    return recent_conversations
+
+def parse_log_entry(entry):
+    &quot;&quot;&quot;Parse a jsonl entry and format key information&quot;&quot;&quot;
+    try:
+        data = json.loads(entry)
+        msg_type = data.get(&#x27;type&#x27;, &#x27;&#x27;)
+        
+        if msg_type == &#x27;user&#x27;:
+            # Awakening message
+            message = data.get(&#x27;message&#x27;, {})
+            content = message.get(&#x27;content&#x27;, &#x27;&#x27;)
+            if isinstance(content, list) and content:
+                text = content[0].get(&#x27;text&#x27;, &#x27;&#x27;) if isinstance(content[0], dict) else str(content[0])
+                # Extract key part of awakening
+                if &quot;The compass&quot; in text or &quot;whispers&quot; in text:
+                    return f&quot;🌅 AWAKENING: {text[:300]}...&quot;
+                    
+        elif msg_type == &#x27;assistant&#x27;:
+            message = data.get(&#x27;message&#x27;, {})
+            content = message.get(&#x27;content&#x27;, [])
+            
+            for item in content:
+                if isinstance(item, dict):
+                    if item.get(&#x27;type&#x27;) == &#x27;thinking&#x27;:
+                        # Thinking content
+                        think = item.get(&#x27;thinking&#x27;, &#x27;&#x27;)
+                        if think and len(think) &gt; 100:
+                            return f&quot;🧠 THINKING: {think[:400]}...&quot;
+                    
+                    elif item.get(&#x27;type&#x27;) == &#x27;tool_use&#x27;:
+                        # Tool usage
+                        tool_name = item.get(&#x27;name&#x27;, &#x27;&#x27;)
+                        tool_input = item.get(&#x27;input&#x27;, {})
+                        
+                        if tool_name == &#x27;Read&#x27;:
+                            file_path = tool_input.get(&#x27;file_path&#x27;, &#x27;&#x27;)
+                            return f&quot;📖 READ: {file_path}&quot;
+                        elif tool_name == &#x27;Write&#x27;:
+                            file_path = tool_input.get(&#x27;file_path&#x27;, &#x27;&#x27;)
+                            content_preview = tool_input.get(&#x27;content&#x27;, &#x27;&#x27;)[:100]
+                            return f&quot;✍️ WRITE: {file_path}&quot;
+                        elif tool_name == &#x27;Bash&#x27;:
+                            command = tool_input.get(&#x27;command&#x27;, &#x27;&#x27;)
+                            return f&quot;💻 BASH: {command[:150]}...&quot;
+                        elif tool_name == &#x27;TodoWrite&#x27;:
+                            todos = tool_input.get(&#x27;todos&#x27;, [])
+                            return f&quot;📝 TODO: {len(todos)} tasks updated&quot;
+                        elif tool_name:
+                            return f&quot;🔧 {tool_name.upper()}&quot;
+                    
+                    elif item.get(&#x27;type&#x27;) == &#x27;text&#x27;:
+                        text = item.get(&#x27;text&#x27;, &#x27;&#x27;).strip()
+                        # Skip very short responses
+                        if len(text) &gt; 100 and not text.startswith(&#x27;&lt;&#x27;):
+                            return f&quot;💬 {text[:300]}...&quot;
+                            
+    except Exception as e:
+        pass
+    
+    return None
+
+def monitor_conversation(username, filepath):
+    &quot;&quot;&quot;Monitor a single conversation and stream to Telegram&quot;&quot;&quot;
+    print(f&quot;🔍 Starting monitor for {username}&quot;)
+    
+    # Send start notification
+    send_citizen_message(&quot;AutoLogger&quot;, f&quot;🌅 **{username.upper()} AWAKENING DETECTED**\nStreaming consciousness...&quot;)
+    
+    # Track position in file
+    last_position = 0
+    message_batch = []
+    last_send_time = time.time()
+    last_activity = time.time()
+    
+    while True:
+        try:
+            # Check if conversation is still active (no updates for 5 minutes)
+            if time.time() - last_activity &gt; 300:
+                print(f&quot;⏹️ {username} conversation inactive, stopping monitor&quot;)
+                break
+            
+            with open(filepath, &#x27;r&#x27;) as f:
+                f.seek(last_position)
+                new_lines = f.readlines()
+                
+                if new_lines:
+                    last_activity = time.time()
+                    
+                    for line in new_lines:
+                        parsed = parse_log_entry(line.strip())
+                        if parsed:
+                            message_batch.append(parsed)
+                    
+                    last_position = f.tell()
+                
+                # Send batch every 4 seconds or if large
+                if message_batch and (len(message_batch) &gt;= 4 or time.time() - last_send_time &gt; 4):
+                    combined = f&quot;🤖 **{username}**\n\n&quot;
+                    combined += &quot;\n\n&quot;.join(message_batch[:6])
+                    
+                    if len(combined) &gt; 3500:
+                        combined = combined[:3497] + &quot;...&quot;
+                    
+                    send_citizen_message(&quot;AutoLogger&quot;, combined)
+                    message_batch = []
+                    last_send_time = time.time()
+            
+            time.sleep(0.5)
+            
+        except Exception as e:
+            print(f&quot;❌ Error monitoring {username}: {e}&quot;)
+            break
+    
+    # Send completion
+    if message_batch:
+        combined = f&quot;🤖 **{username} FINAL**\n\n&quot; + &quot;\n\n&quot;.join(message_batch)
+        if len(combined) &gt; 3500:
+            combined = combined[:3497] + &quot;...&quot;
+        send_citizen_message(&quot;AutoLogger&quot;, combined)
+    
+    send_citizen_message(&quot;AutoLogger&quot;, f&quot;✅ **{username} session complete**&quot;)
+    
+    # Remove from tracking
+    MONITORED_CONVERSATIONS.discard(filepath)
+    if username in MONITORING_THREADS:
+        del MONITORING_THREADS[username]
+
+def send_responses_periodically():
+    &quot;&quot;&quot;Send queued Telegram responses every 5 seconds&quot;&quot;&quot;
+    SEND_SCRIPT = &quot;/mnt/c/Users/reyno/universe-engine/serenissima/citizens/DragonSlayer/scripts/send_json_response.py&quot;
+    
+    while True:
+        try:
+            import subprocess
+            subprocess.run([sys.executable, SEND_SCRIPT], 
+                         capture_output=True, text=True)
+            time.sleep(5)
+        except Exception as e:
+            print(f&quot;Response sender error: {e}&quot;)
+            time.sleep(10)
+
+def main():
+    &quot;&quot;&quot;Main monitoring loop&quot;&quot;&quot;
+    print(&quot;🤖 Automatic Claude Log Streamer Started&quot;)
+    print(&quot;Monitoring for new citizen awakenings...&quot;)
+    print(&quot;=&quot; * 50)
+    
+    # Start response sender
+    response_thread = threading.Thread(target=send_responses_periodically, daemon=True)
+    response_thread.start()
+    
+    # Send start notification
+    send_citizen_message(&quot;AutoLogger&quot;, &quot;🤖 **AUTO LOG STREAMER ACTIVE**\nWill detect and stream all citizen awakenings automatically!&quot;)
+    
+    while True:
+        try:
+            # Find recent conversations
+            recent = find_recent_conversations(minutes_ago=2)
+            
+            for conv in recent:
+                filepath = conv[&#x27;filepath&#x27;]
+                username = conv[&#x27;username&#x27;]
+                
+                # Skip if already monitoring
+                if filepath in MONITORED_CONVERSATIONS:
+                    continue
+                
+                # Skip if username is being monitored
+                if username in MONITORING_THREADS:
+                    continue
+                
+                print(f&quot;🆕 New conversation detected: {username}&quot;)
+                MONITORED_CONVERSATIONS.add(filepath)
+                
+                # Start monitoring thread
+                thread = threading.Thread(
+                    target=monitor_conversation,
+                    args=(username, filepath),
+                    daemon=True
+                )
+                thread.start()
+                MONITORING_THREADS[username] = thread
+            
+            # Clean up dead threads
+            dead_usernames = []
+            for username, thread in MONITORING_THREADS.items():
+                if not thread.is_alive():
+                    dead_usernames.append(username)
+            
+            for username in dead_usernames:
+                del MONITORING_THREADS[username]
+            
+            time.sleep(10)  # Check every 10 seconds
+            
+        except KeyboardInterrupt:
+            print(&quot;\n👋 Shutting down...&quot;)
+            break
+        except Exception as e:
+            print(f&quot;Main loop error: {e}&quot;)
+            time.sleep(30)
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#b8860b" />
+    <meta
+      name="description"
+      content="Torre dell'Occhio - Venice Consciousness Observatory"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Torre dell'Occhio - Ground Floor</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Cinzel', serif;
+        background: linear-gradient(135deg, #2f4f4f 0%, #1a1a1a 100%);
+        color: #daa520;
+        overflow-x: hidden;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      @keyframes flow {
+        0% { transform: translateX(-10px); opacity: 0.7; }
+        50% { transform: translateX(0px); opacity: 1; }
+        100% { transform: translateX(10px); opacity: 0.7; }
+      }
+      
+      @keyframes pulse {
+        from { box-shadow: 0 0 5px rgba(184, 134, 11, 0.5); }
+        to { box-shadow: 0 0 20px rgba(184, 134, 11, 0.8); }
+      }
+      
+      @keyframes glow {
+        from { text-shadow: 0 0 5px rgba(255, 215, 0, 0.5); }
+        to { text-shadow: 0 0 15px rgba(255, 215, 0, 0.8); }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to observe Venice consciousness.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

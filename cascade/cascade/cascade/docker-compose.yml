@@ -1,0 +1,113 @@
+version: '3.8'
+
+services:
+  # Frontend Next.js application
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8000
+      - NEXT_PUBLIC_WS_URL=ws://backend:8000
+      - NEXT_PUBLIC_MAPBOX_TOKEN=${MAPBOX_TOKEN}
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+
+  # Backend FastAPI application
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - VENICE_API_KEY=${VENICE_API_KEY}
+      - VENICE_API_URL=${VENICE_API_URL}
+      - DATABASE_URL=postgresql://cascade:cascade@postgres:5432/cascade
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=${JWT_SECRET}
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./backend:/app
+
+  # Venice Bridge Service
+  bridge:
+    build:
+      context: ./bridge
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    environment:
+      - VENICE_API_KEY=${VENICE_API_KEY}
+      - VENICE_API_URL=${VENICE_API_URL}
+      - CASCADE_BACKEND_URL=http://backend:8000
+      - SYNC_INTERVAL=30
+    depends_on:
+      - backend
+
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      - POSTGRES_USER=cascade
+      - POSTGRES_PASSWORD=cascade
+      - POSTGRES_DB=cascade
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  # Redis for caching and real-time
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./infrastructure/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./infrastructure/nginx/ssl:/etc/nginx/ssl
+    depends_on:
+      - frontend
+      - backend
+
+  # Monitoring with Prometheus
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./infrastructure/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+
+  # Grafana for visualization
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD}
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./infrastructure/grafana/dashboards:/etc/grafana/provisioning/dashboards
+
+volumes:
+  postgres_data:
+  redis_data:
+  prometheus_data:
+  grafana_data:

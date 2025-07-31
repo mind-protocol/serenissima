@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>send_json_response.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/send_json_response.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Quick script to send JSON responses to Telegram
+&quot;&quot;&quot;
+
+import os
+import json
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TELEGRAM_BOT_TOKEN = os.getenv(&quot;TELEGRAM_BOT_TOKEN&quot;)
+RESPONSE_DIR = &quot;/mnt/c/Users/reyno/universe-engine/serenissima/backend/telegram_responses&quot;
+
+def send_telegram_message(chat_id: str, text: str):
+    &quot;&quot;&quot;Send a message via Telegram Bot API.&quot;&quot;&quot;
+    url = f&quot;https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage&quot;
+    
+    data = {
+        &#x27;chat_id&#x27;: chat_id,
+        &#x27;text&#x27;: text
+    }
+    
+    try:
+        response = requests.post(url, json=data)
+        result = response.json()
+        
+        if result.get(&#x27;ok&#x27;):
+            print(f&quot;✅ Message sent successfully to {chat_id}&quot;)
+            return True
+        else:
+            print(f&quot;❌ Telegram API error: {result}&quot;)
+            return False
+    except Exception as e:
+        print(f&quot;❌ Error sending message: {e}&quot;)
+        return False
+
+def main():
+    # Find JSON files
+    json_files = [f for f in os.listdir(RESPONSE_DIR) if f.endswith(&#x27;.json&#x27;)]
+    
+    print(f&quot;Found {len(json_files)} JSON responses to send&quot;)
+    
+    for filename in json_files:
+        filepath = os.path.join(RESPONSE_DIR, filename)
+        
+        try:
+            with open(filepath, &#x27;r&#x27;) as f:
+                data = json.load(f)
+            
+            chat_id = data.get(&#x27;chat_id&#x27;)
+            message = data.get(&#x27;message&#x27;)
+            from_citizen = data.get(&#x27;from_citizen&#x27;, &#x27;Unknown&#x27;)
+            
+            if chat_id and message:
+                # Override with correct chat ID
+                chat_id = &quot;-1001699255893&quot;  # Venice investment group
+                
+                # Don&#x27;t add prefix for AutoLogger messages
+                if from_citizen == &quot;AutoLogger&quot;:
+                    formatted_message = message
+                else:
+                    formatted_message = f&quot;🏛️ Message from {from_citizen}\n\n{message}&quot;
+                
+                if send_telegram_message(chat_id, formatted_message):
+                    # Move to sent directory
+                    sent_dir = os.path.join(RESPONSE_DIR, &quot;sent&quot;)
+                    sent_path = os.path.join(sent_dir, filename)
+                    os.rename(filepath, sent_path)
+                    print(f&quot;Moved {filename} to sent/&quot;)
+            
+        except Exception as e:
+            print(f&quot;Error processing {filename}: {e}&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+</body>
+</html>

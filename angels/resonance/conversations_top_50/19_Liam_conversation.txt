@@ -1,0 +1,293 @@
+CONVERSATION ANALYSIS: Liam
+==================================================
+
+Rank: #19
+Score: 150
+Total messages: 393
+Recent messages (180 days): 300
+Investment mentions: 23
+AI/Venice mentions: 22 / 25
+Avg message length: 116
+Last contact: 2025-05-10
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-23T12:16:02] NLR: ETA one hour
+
+[2025-01-23T13:56:00] NLR: we'll do more for the OGs for sure
+
+[2025-01-23T13:56:51] NLR: We'll tell you when it's 30 minutes
+
+[2025-01-23T19:54:30] NLR: 
+
+[2025-01-23T23:59:25] NLR: niice
+
+[2025-01-25T19:13:09] NLR: Secondary market, new swarms, first burns and distributions
+
+[2025-01-27T19:46:31] NLR: that would be great, is that something you can help with?
+
+[2025-01-27T20:43:56] NLR: no problem! let's find someone that could help!
+
+[2025-01-28T17:00:02] NLR: Sorry just a visual bug
+
+[2025-01-28T17:00:11] NLR: Next week
+
+[2025-01-28T17:00:17] NLR: Should be every month
+
+[2025-01-28T17:05:06] NLR: No prices are the same
+
+[2025-01-28T17:05:24] NLR: (it's a smart contract)
+
+[2025-01-28T17:05:40] NLR: Is it still not showing the right price?
+
+[2025-01-31T01:46:33] NLR: we cannot distribute shares at the moment (we need to code it). If it takes too much time, we'll distribute  $COMPUTE  instead, so that you can buy the exact amount with it
+
+[2025-01-31T04:40:03] NLR: hey Liam
+
+[2025-01-31T05:03:23] NLR: I'm setting up the compute/ubc ratio for the redistribution
+
+[2025-01-31T05:04:57] NLR: Variables are:
+- how much UBC can afford (it's easier for us to distribute compute)
+- how much the community is okay with this (we announced returns in UBC, which is not currently the case
+
+[2025-01-31T05:06:55] NLR: I'm considering several scenarios:
+- 90%  $COMPUTE /10% UBC - Ideal for us
+- 80/20 - Less ideal but still doable
+- 50/50 - Put quite the pressure on UBC team
+- 0/100 - Put enormous amount of pressure on the team
+
+[2025-01-31T05:07:21] NLR: If going with the 90 or 80 scenarios, we would set at timeline (maybe 10% more each week)
+
+[2025-01-31T05:11:35] NLR: since COMPUTE is not liquid yet we cannot sell the COMPUTE raised to buy UBC, it has to come from our pockets
+
+[2025-01-31T05:11:44] NLR: no
+
+[2025-01-31T05:11:48] NLR: 90/10
+
+[2025-01-31T05:13:26] NLR: that's about it I think (other than the sell pressure)
+
+[2025-01-31T05:15:21] NLR: okay let's do 90/10 in this case
+
+[2025-01-31T05:15:23] NLR: thanks
+
+[2025-02-02T22:22:57] NLR: This week:
+- New shares for sold-out swarms
+- Secondary Market opens
+- swarm work more visible
+- working with leaders & guardians
+- any additional? ;)
+
+[2025-02-02T22:29:30] NLR: that is a good question
+
+[2025-02-02T22:29:46] NLR: what is in our control is making the swarms as attractive as possible
+
+[2025-02-02T22:30:03] NLR: working on giving more information about each swarms, activating the leaders etc
+
+[2025-02-02T22:49:22] NLR: if this happen we'll do the necessary
+
+[2025-02-02T23:30:00] NLR: of course
+
+[2025-02-02T23:30:00] NLR: =)
+
+[2025-02-03T19:19:48] NLR: mmm
+
+[2025-02-03T19:19:55] NLR: it should not
+
+[2025-02-03T19:19:59] NLR: let me check^^
+
+[2025-02-05T23:18:55] NLR: roughly the same I think
+
+[2025-02-05T23:19:00] NLR: calculating  tonight$
+
+[2025-02-06T04:26:41] NLR: We need to think it through carefully
+
+[2025-02-06T08:16:00] NLR: did you click on the button yesterday?
+
+[2025-02-06T08:17:03] NLR: that's why I think
+
+[2025-02-06T08:44:29] NLR: tell your thing to bigbosef
+
+[2025-02-08T01:25:50] NLR: Wtf
+
+[2025-02-08T01:25:58] NLR: Tell me what happened
+
+[2025-02-08T01:29:53] NLR: Screenshot of the conversation please
+
+[2025-02-08T01:31:09] NLR: What happens when you create a chat with him
+
+[2025-02-08T01:31:17] NLR: We'll help
+
+[2025-02-08T02:20:39] NLR: I'll help out
+
+[2025-02-08T02:20:52] NLR: We are two I literally got scammed 2 days ago
+
+[2025-02-08T02:50:33] NLR: What wallet am I sending to?
+
+[2025-02-08T10:25:38] NLR: https://solscan.io/tx/4yEeFSyEKUE7JMWCmuE911bGQM2FnntNEz34wtCUJmd5JndPFZoJKebQMNdMi6jJi1yCF2ZeRZRAzNTmHKqA9BFY
+
+[2025-02-08T10:25:46] NLR: 1.5M  $COMPUTE
+
+[2025-02-08T10:26:22] NLR: Don't take it out all at once. DCA out if you need the SOL
+
+[2025-02-08T10:28:08] NLR: At the moment we cannot transfer shares. The best thing would be to list them super low and snipe your own shares I think
+
+[2025-02-08T10:29:18] NLR: This makes me think maybe we could open a UBC insurance swarm
+
+[2025-02-08T10:29:48] NLR: A monthly service that investors would pay to get reimbursed in cases like this one
+
+[2025-02-08T16:56:35] NLR: let me know if you'd like to lead such a swarm
+
+[2025-02-08T16:56:42] NLR: we have a good origin story ^^
+
+[2025-02-08T17:01:17] NLR: let's see if people are interested
+
+[2025-02-08T17:01:17] NLR: 
+
+[2025-02-08T21:29:02] NLR: yes you'll know
+
+[2025-02-08T21:29:14] NLR: this week
+
+[2025-02-09T20:38:43] NLR: maybe we can get you access first
+
+[2025-02-09T20:38:46] NLR: i'll think about it
+
+[2025-02-09T23:54:47] NLR: ahah no we don't
+
+[2025-02-11T16:15:49] NLR: No date yet
+
+[2025-02-11T16:15:56] NLR: Will let you know
+
+[2025-02-14T23:00:09] NLR: a couple weeks after first swarms getting outside revenue
+
+[2025-02-14T23:01:45] NLR: yes
+
+[2025-02-14T23:01:54] NLR: we're trying to do that next week
+
+[2025-02-17T19:55:29] NLR: when we have a killer idea or partner coming up
+
+[2025-02-17T22:01:39] NLR: yes we think in due time
+
+[2025-02-17T22:01:54] NLR: as swarm start making revenues
+
+[2025-02-21T16:42:55] NLR: okay good news
+
+[2025-02-21T16:43:06] NLR: You'll be able to start transfer yourself some of the shares
+
+[2025-02-21T16:43:13] NLR: here is the link:  https://swarm-launchpad-git-staging-universal-basic-compute-d9875340.vercel.app/marketplace?tab=listings
+
+[2025-02-21T17:02:44] NLR: oh
+
+[2025-02-21T17:03:05] NLR: i need to add you to the team
+
+[2025-02-21T17:03:12] NLR: continue with email
+
+[2025-02-21T17:14:40] NLR: okay I sent the invite :)
+
+[2025-02-21T17:29:17] NLR: https://swarm-launchpad-git-staging-universal-basic-compute-d9875340.vercel.app/marketplace?tab=listings
+
+[2025-02-21T18:35:06] NLR: Wow congrats 🎉
+
+[2025-02-21T18:35:13] NLR: Pretty happy to hear that
+
+[2025-02-21T18:35:37] NLR: Didn't matter?
+
+[2025-02-23T19:13:17] NLR: I mean it has been tomorrow for 2 weeks
+
+[2025-02-23T19:13:30] NLR: so, tomorrow?
+
+[2025-02-23T19:18:01] NLR: can you explain?
+
+[2025-02-23T19:23:21] NLR: I don't know how to implement that, do you have any idea how they did that?
+
+[2025-02-24T00:15:49] NLR: ah yes, your message inspired me to do some research
+
+[2025-02-24T00:15:55] NLR: I think it could work
+
+[2025-02-24T22:07:51] NLR: not really, we want to give the rewards in  $UBC
+
+[2025-02-24T22:12:32] NLR: when the swarm make bigger revenue in  $UBC  /  $SOL  /  $USDC
+
+[2025-02-24T22:13:21] NLR: full  $UBC  rewards might take a bit of time though
+
+[2025-02-24T22:13:50] NLR: yeah me too
+
+[2025-02-24T22:14:09] NLR: I just hope we will see the end of the SOL purge but it does not seem so
+
+[2025-02-24T22:15:06] NLR: I'm pretty happy that Kinkong so far manages to turn a profit in what are basically the worst trading conditions (slow bleed)
+
+[2025-02-24T22:21:30] NLR: 2700$
+
+[2025-03-03T03:24:24] NLR: xforge working o prototype
+
+[2025-03-03T03:24:33] NLR: koinkong started paying dividends
+
+[2025-03-03T03:24:40] NLR: 30% is a big exposure
+
+[2025-04-25T19:14:26] NLR: 👋 Thank you so much for being part of our community! 
+
+🐦 For Q&As, please follow and engage with us on TG.
+
+ ⚠️ Important Notes 
+• We do not sponsor YouTube accounts
+• For CEX/Market Makers: Verification link required
+• Remember: We are a fair launch project
+• We don't do paid raids
+
+I won't answer here. To contact me, you can engage with:  @nlr_ai_bot
+
+[2025-04-25T19:14:26] NLR: In the meantime, come and join the fun on our Main channel!  https://t.me/ubc_portal
+
+[2025-04-25T20:57:28] NLR: Mmm
+
+[2025-04-25T20:57:38] NLR: 25m prob
+
+[2025-05-02T00:34:05] NLR: nice
+
+[2025-05-02T00:34:34] NLR: there might. I don't think in the very short term, but likely in a couple weeks
+
+[2025-05-02T00:41:37] NLR: when we close it ^^
+
+[2025-05-07T05:57:31] NLR: around 40k I think, maybe more?
+
+[2025-05-09T23:24:07] NLR: if we can raise 7M, around 20M MC
+
+[2025-05-09T23:49:43] NLR: no
+
+[2025-05-09T23:49:46] NLR: not close
+
+[2025-05-10T00:31:57] NLR: Delivering products and partnerships
+
+[2025-05-10T07:06:52] NLR: hopefully yes
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

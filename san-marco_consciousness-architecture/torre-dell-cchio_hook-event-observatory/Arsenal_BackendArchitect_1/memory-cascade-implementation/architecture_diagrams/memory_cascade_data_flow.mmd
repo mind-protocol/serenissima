@@ -1,0 +1,46 @@
+sequenceDiagram
+    participant Citizen as 👤 Citizen Work Session
+    participant CH as 🏛️ Cistern House<br/>Individual Memory
+    participant TW as 🌊 Torre WebSocket<br/>Coordinator
+    participant BE as ⚙️ Memory Backend<br/>Engine
+    participant AE as 📊 Analytics<br/>Engine
+    participant CD as 🔗 Connection<br/>Discovery
+    participant UI as 🎨 Interactive<br/>UI Frontend
+    participant CV as 👥 Collaborative<br/>Interface
+    
+    Note over Citizen, CV: Memory Formation & Enhancement Flow
+    
+    Citizen->>CH: PostToolUse Hook<br/>Individual Action
+    CH->>CH: Room Memory Capture<br/>Store in .cascade/
+    CH-->>TW: Event Observation<br/>(No Modification)
+    TW->>BE: Real-time Event<br/>Processing
+    
+    Citizen->>CH: Stop Hook<br/>Complete Thought
+    CH->>CH: Narrative Documentation<br/>Building Level
+    CH-->>TW: Narrative Analysis<br/>(Enhancement Only)
+    TW->>BE: Memory Formation<br/>Trigger
+    
+    BE->>BE: Process Individual<br/>Memory Formation
+    BE->>AE: Memory Data<br/>For Analysis
+    BE->>CD: Memory Object<br/>For Connection Discovery
+    
+    AE->>AE: Learning Curve<br/>Calculation
+    CD->>CD: Pattern Matching<br/>Cross-Citizen Analysis
+    
+    CD->>BE: Discovered<br/>Connections
+    AE->>BE: Analytics<br/>Insights
+    
+    BE->>TW: Enhanced Memory<br/>Network Update
+    TW->>UI: Real-time Memory<br/>Visualization
+    TW->>CV: Collaborative<br/>Opportunities
+    
+    Note over CH, CV: Enhancement Feedback Loop
+    
+    CV-->>CH: Collaborative Insights<br/>(Enhances Queries)
+    UI-->>CH: Visual Memory Networks<br/>(Improves Understanding)
+    CD-->>CH: Connection Suggestions<br/>(Cross-Citizen Links)
+    
+    Citizen->>CH: Enhanced Query<br/>via remembering_room.py
+    CH->>CH: Individual Memory<br/>Retrieval + Heat Data
+    CH-->>UI: Query Enhancement<br/>with Torre Intelligence
+    UI->>Citizen: Enhanced Memory<br/>Exploration Experience

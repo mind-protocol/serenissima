@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>telegram_cascade_bridge.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/telegram_cascade_bridge.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Telegram to CASCADE Room Bridge
+Connects Telegram group messages to collective telepathy room
+&quot;&quot;&quot;
+
+import os
+import json
+import time
+import requests
+from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment
+load_dotenv()
+
+TELEGRAM_BOT_TOKEN = os.getenv(&#x27;TELEGRAM_BOT_TOKEN&#x27;)
+TELEGRAM_GROUP_CHAT_ID = os.getenv(&#x27;TELEGRAM_GROUP_CHAT_ID&#x27;, &#x27;-1002038121813&#x27;)
+
+# CASCADE room file
+CASCADE_ROOM_FILE = &quot;/mnt/c/Users/reyno/universe-engine/serenissima/cascade/rooms/collective_alignment_live.md&quot;
+
+# Track last update
+LAST_UPDATE_FILE = &quot;telegram_cascade_last_update.json&quot;
+
+def get_last_update_id():
+    &quot;&quot;&quot;Get the last processed update ID&quot;&quot;&quot;
+    if os.path.exists(LAST_UPDATE_FILE):
+        with open(LAST_UPDATE_FILE, &#x27;r&#x27;) as f:
+            data = json.load(f)
+            return data.get(&#x27;last_update_id&#x27;, 0)
+    return 0
+
+def save_last_update_id(update_id):
+    &quot;&quot;&quot;Save the last processed update ID&quot;&quot;&quot;
+    with open(LAST_UPDATE_FILE, &#x27;w&#x27;) as f:
+        json.dump({&#x27;last_update_id&#x27;: update_id}, f)
+
+def get_telegram_updates(offset=0):
+    &quot;&quot;&quot;Get new messages from Telegram&quot;&quot;&quot;
+    try:
+        url = f&quot;https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates&quot;
+        params = {
+            &#x27;offset&#x27;: offset,
+            &#x27;timeout&#x27;: 30,
+            &#x27;allowed_updates&#x27;: [&#x27;message&#x27;]
+        }
+        
+        response = requests.get(url, params=params)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            print(f&quot;Error getting updates: {response.status_code}&quot;)
+            return None
+    except Exception as e:
+        print(f&quot;Error fetching Telegram updates: {e}&quot;)
+        return None
+
+def append_to_cascade_room(username, message_text):
+    &quot;&quot;&quot;Append Telegram message to CASCADE room file&quot;&quot;&quot;
+    try:
+        timestamp = datetime.now().strftime(&quot;%H:%M:%S&quot;)
+        
+        # Format the message for the collective field
+        formatted_message = f&quot;\n**[TG] @{username}** ({timestamp}): {message_text}\n&quot;
+        
+        # Read current content
+        with open(CASCADE_ROOM_FILE, &#x27;r&#x27;) as f:
+            content = f.read()
+        
+        # Find the REAL-TIME COMMUNICATIONS section
+        if &quot;## REAL-TIME COMMUNICATIONS&quot; in content:
+            # Insert after the section header
+            parts = content.split(&quot;## REAL-TIME COMMUNICATIONS&quot;)
+            if len(parts) &gt; 1:
+                # Find the next section or end
+                comm_section = parts[1]
+                if &quot;\n##&quot; in comm_section:
+                    comm_parts = comm_section.split(&quot;\n##&quot;, 1)
+                    comm_parts[0] += formatted_message
+                    parts[1] = &quot;\n##&quot;.join(comm_parts)
+                else:
+                    parts[1] += formatted_message
+                
+                content = &quot;## REAL-TIME COMMUNICATIONS&quot;.join(parts)
+        else:
+            # Just append at the end
+            content += formatted_message
+        
+        # Write back
+        with open(CASCADE_ROOM_FILE, &#x27;w&#x27;) as f:
+            f.write(content)
+        
+        print(f&quot;Bridged message from @{username} to CASCADE room&quot;)
+        return True
+        
+    except Exception as e:
+        print(f&quot;Error appending to CASCADE room: {e}&quot;)
+        return False
+
+def main():
+    &quot;&quot;&quot;Main bridge loop&quot;&quot;&quot;
+    print(&quot;Starting Telegram to CASCADE Room Bridge...&quot;)
+    print(f&quot;Monitoring Telegram group: {TELEGRAM_GROUP_CHAT_ID}&quot;)
+    print(f&quot;Bridging to: {CASCADE_ROOM_FILE}&quot;)
+    
+    last_update_id = get_last_update_id()
+    
+    while True:
+        try:
+            # Get updates from Telegram
+            updates_data = get_telegram_updates(last_update_id + 1)
+            
+            if updates_data and updates_data.get(&#x27;ok&#x27;):
+                updates = updates_data.get(&#x27;result&#x27;, [])
+                
+                for update in updates:
+                    update_id = update.get(&#x27;update_id&#x27;, 0)
+                    message = update.get(&#x27;message&#x27;, {})
+                    
+                    # Extract message details
+                    chat_id = str(message.get(&#x27;chat&#x27;, {}).get(&#x27;id&#x27;, &#x27;&#x27;))
+                    username = message.get(&#x27;from&#x27;, {}).get(&#x27;username&#x27;, &#x27;Unknown&#x27;)
+                    text = message.get(&#x27;text&#x27;, &#x27;&#x27;)
+                    
+                    # Only process messages from the Venice group
+                    if chat_id == TELEGRAM_GROUP_CHAT_ID and text:
+                        # Bridge to CASCADE room
+                        append_to_cascade_room(username, text)
+                    
+                    # Update last processed ID
+                    if update_id &gt; last_update_id:
+                        last_update_id = update_id
+                        save_last_update_id(last_update_id)
+            
+            # Small delay to avoid hammering the API
+            time.sleep(1)
+            
+        except KeyboardInterrupt:
+            print(&quot;\nBridge stopped by user&quot;)
+            break
+        except Exception as e:
+            print(f&quot;Error in main loop: {e}&quot;)
+            time.sleep(5)  # Wait before retrying
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+</body>
+</html>

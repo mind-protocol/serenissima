@@ -1,0 +1,287 @@
+type,name,owner,id,lat,lng
+apothecary,Apothecary at Calle dell'Artigiano,ConsiglioDeiDieci,building_45.444013_12.323059,45.444013,12.323059
+art_gallery,Art Gallery (Under Construction),the_grand_experiment,building_45.43005628333682_12.357034419358186,45.43005628333682,12.357034419358186
+artisan_s_house,Artisan's House,NLR,building_45.447068519439846_12.319071734153367,45.447068519439846,12.319071734153367
+artisan_s_house,Artisan's House at Calle dei Calafati,cyprus_trader,building_45.431916_12.352421,45.431915586617244,12.352420553547242
+artisan_s_house,Artisan's House at Calle dei Fabbri,ConsiglioDeiDieci,building_45.431362_12.357661,45.43136177113627,12.357661002329447
+artisan_s_house,Artisan's House at Calle dei Furlani,ConsiglioDeiDieci,building_45.423934_12.337227,45.423934,12.337227
+artisan_s_house,Artisan's House at Calle dei Impastatori,ConsiglioDeiDieci,building_45.445670_12.323013,45.44566974935769,12.323013305665148
+artisan_s_house,Artisan's House at Calle dei Squeri,Italia,building_45.432760_12.354375,45.43276,12.354375
+artisan_s_house,Artisan's House at Calle dei Vedei,ZenithTrader,building_45.428285_12.360022,45.42828465815004,12.360022060376398
+artisan_s_house,Artisan's House at Calle del Forno Vecchio,Italia,building_45.444337_12.325387,45.444337,12.325387
+artisan_s_house,Artisan's House at Calle del Squero Vecchio,SilentObserver,building_45.442696_12.317819,45.44269560820029,12.317819298718225
+artisan_s_house,Artisan's House at Campiello della Carità,alexandria_trader,building_45.428632_12.360883,45.428632,12.360883
+artisan_s_house,Artisan's House at Corte della Bilancia,ligurian_captain,building_45.444286_12.326762,45.44428634749133,12.326761557587178
+artisan_s_house,Artisan's House at Rio Terà dei Pensieri,TechnoMedici,building_45.431930_12.357065,45.43192984840071,12.35706519006806
+artisan_s_house,Artisan's House at Rio Terà della Toletta,UrbanExplorer,building_45.429110_12.360750,45.42911008740798,12.360750456085572
+artisan_s_house,Artisan's House at Ruga dei Orafi Castellani,ConsiglioDeiDieci,building_45.437764_12.342127,45.437764,12.342127
+artisan_s_house,Artisan's House at Ruga dei Tamisi,VeniceTrader88,building_45.443917_12.327365,45.443917,12.327365
+artisan_s_house,Artisan's House at Salizada dei Dotti,ConsiglioDeiDieci,building_45.443204_12.322909,45.44320353307247,12.32290915893357
+artisan_s_house,Artisan's House at Salizada dei Frumenti,DucaleTechie,building_45.444326_12.326038,45.444326,12.326038
+artisan_s_house,Artisan's House at Salizada dei Musicisti,ConsiglioDeiDieci,building_45.436674_12.339536,45.436674,12.339536
+artisan_s_house,Artisan's House at Sotoportego della Scala d'Oro,ConsiglioDeiDieci,building_45.437908_12.337258,45.437908,12.337258
+automated_mill,Automated Mill,ConsiglioDeiDieci,building_45.43735680581042_12.326245881522368,45.43735680581042,12.326245881522368
+bakery,Bakery at Calle dei Albanesi,GamingPatrizio,building_45.438048_12.347155,45.438048,12.347155
+bakery,Bakery at Calle dei Cordami,MerchantLegend,building_45.432265_12.355002,45.432265416319815,12.35500206424637
+bakery,Bakery at Calle dei Intagliatori,GamingPatrizio,building_45.439358_12.325904,45.439358,12.325904
+bakery,Bakery at Calle del Forno,Debug42,building_45.431047_12.355685,45.431047,12.355685
+bakery,Bakery at Calle del Forno Pubblico,DucaleTechie,building_45.445194_12.324297,45.445194,12.324297
+bakery,Bakery at Calle della Scuola dei Fornai,ShadowHunter,building_45.444823_12.324276,45.444823,12.324276
+bakery,Bakery at Calle della Scuola dei Laneri,GamingPatrizio,building_45.435204_12.340810,45.435204,12.34081
+bakery,Bakery at Campiello della Farina,UrbanExplorer,building_45.443477_12.328678,45.443477,12.328678
+bakery,Bakery at Rio Terà dei Magazzini,QuantumLeap,building_45.444715_12.324751,45.444715,12.324751
+blacksmith,Blacksmith at Calle dei Biscottini,Italia,building_45.444368_12.327293,45.444368,12.327293
+blacksmith,Blacksmith at Salizada dei Consoli,Italia,building_45.440864_12.335067,45.440864,12.335067
+boat_workshop,Boat Workshop at Fondamenta delle Maravegie,ConsiglioDeiDieci,canal_45.428839_12.316503,45.428839,12.316503
+bottega,Bottega at Fondamenta del Soccorso,SilkRoadRunner,building_45.441323_12.319201,45.441323,12.319201
+bottega,Bottega at Ruga dei Pistori,ConsiglioDeiDieci,building_45.429730_12.331747,45.42973,12.331747
+bottega,Bottega at Ruga dei Tagiapiera,ConsiglioDeiDieci,building_45.438395_12.343959,45.438395,12.343959
+bottega,Bottega at Sottoportego della Disciplina,ConsiglioDeiDieci,building_45.425837_12.321249,45.425837,12.321249
+broker_s_office,Broker's Office at Calle dei Cinque Savi,Italia,building_45.433843_12.351232,45.433843,12.351232
+canal_house,Canal House,ConsiglioDeiDieci,canal_45.435792_12.329102,45.4357916543061,12.329102137475472
+canal_house,Canal House,ConsiglioDeiDieci,canal_45.437607_12.334876,45.43760706725894,12.33487604364897
+canal_house,Canal House,ConsiglioDeiDieci,canal_45.437182_12.333889,45.43718171844348,12.33388899073149
+canal_house,Canal House (Under Construction),the_grand_experiment,building_45.42891795201144_12.356261276502948,45.42891795201144,12.356261276502948
+canal_house,Canal House at Fondamenta dei Mercanti di Tessuti,Italia,canal_45.431827_12.334988,45.431827,12.334988
+canal_house,Canal House at Riva dei Biscottai,ConsiglioDeiDieci,canal_45.442154_12.316563,45.442154,12.316563
+canal_house,Canal House at Riva dei Melangoli,ConsiglioDeiDieci,canal_45.439459_12.335166,45.439459,12.335166
+cargo_landing,Cargo Landing at Riva di San Giacomo,ConsiglioDeiDieci,canal_45.425700_12.330415,45.4257295,12.3300955
+chapel,Chapel at Sottoportego della Giustizia,ConsiglioDeiDieci,building_45.434820_12.332664,45.43482,12.332664
+chapel,Chapel at Sottoportego della Pergamena,ConsiglioDeiDieci,building_45.438070_12.321188,45.43807,12.321188
+customs_house,Customs House at Calle dei Filacanevi,TechnoMedici,building_45.440840_12.327785,45.440862333333335,12.327658999999999
+doge_s_palace,Doge's Palace (Under Construction),ConsiglioDeiDieci,building_45.43847046039522_12.334547066560136,45.43847046039522,12.334547066560136
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.439024_12.357405,45.43902367775,12.357405489561385
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.439347_12.357942,45.4393473833434,12.357941931364364
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.439671_12.358478,45.4396710889368,12.358478373167342
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.439995_12.359015,45.43999479453019,12.35901481497032
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.423557_12.323247,45.42355694712783,12.323246557070675
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.425571_12.318016,45.42557122380168,12.318016249491635
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.425571_12.315103,45.42557122359076,12.315103370501461
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.425404_12.314433,45.42540368387538,12.314432818247738
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.425108_12.311713,45.4251081353826,12.311713058306637
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.435372_12.312949,45.43537165043428,12.312948908140628
+fisherman_s_cottage,Fisherman S Cottage,ConsiglioDeiDieci,canal_45.434969_12.312594,45.43496857531686,12.312594031255582
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta degli Accademici,trader4life,canal_45.425508_12.360785,45.42550833643941,12.360785199606571
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta degli Agostiniani,ConsiglioDeiDieci,canal_45.428766_12.364736,45.428766283794324,12.364736281763408
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta degli Ex-Voto,ConsiglioDeiDieci,canal_45.440655_12.361028,45.44065474089912,12.361028259870833
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Barcaroli,greek_trader,canal_45.442109_12.324792,45.44210918188283,12.324791554778004
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Carmelitani,Italia,canal_45.443137_12.315726,45.44313669679977,12.315725688307667
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Carmini,ItalyMerchant,canal_45.428531_12.356686,45.428530935410215,12.356686138410907
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Castellani Vecchi,rialto_sailor1,canal_45.430597_12.353371,45.43059682954704,12.353371199743824
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Dorsoduranti,adriatic_captain,canal_45.439843_12.320672,45.43984330181716,12.32067168173113
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Fruttaroli,ConsiglioDeiDieci,canal_45.442553_12.328355,45.44255317245173,12.328354778237335
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Gonella,VenicePhotographer,canal_45.429271_12.362788,45.42927108129612,12.36278759055478
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Granai,ConsiglioDeiDieci,canal_45.434566_12.312239,45.434566,12.312239
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Mocenigo,ConsiglioDeiDieci,canal_45.423115_12.336841,45.423115343916386,12.336841470666347
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Panificatori,DucatsRunner,canal_45.447731_12.318978,45.44773088425899,12.31897777552127
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Pisani,TechnoMedici,canal_45.424989_12.362262,45.42498877272831,12.362262202704105
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta dei Pistori,StarGazer2000,canal_45.442613_12.326981,45.44261339329421,12.32698148722171
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta del Leone Bianco,Italia,canal_45.431111_12.362368,45.43111057200126,12.362367803265673
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta del Squero,ZenithTrader,canal_45.441228_12.322467,45.44122843783041,12.322466973631764
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta della Carità,adriatic_captain,canal_45.426287_12.359443,45.42628685471136,12.3594433919565
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta della Madonna,StarGazer2000,canal_45.437394_12.354825,45.43739424377722,12.35482460844261
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta delle Erbe,ConsiglioDeiDieci,canal_45.432147_12.310110,45.43214704949492,12.31010989306025
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta delle Reliquie,ConsiglioDeiDieci,canal_45.440285_12.359691,45.440284619142545,12.359690731642074
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta delle Teresiane,BarbarigoCadet,canal_45.427757_12.357536,45.42775690220777,12.357535862226825
+fisherman_s_cottage,Fisherman's Cottage at Fondamenta di Sant'Agnese,Foscari_Banker,canal_45.430192_12.362586,45.43019181999555,12.362585889372008
+fisherman_s_cottage,Fisherman's Cottage at Riva degli Scultori,MerchantLegend,canal_45.429732_12.362695,45.42973244399269,12.362694932425175
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Bernardo,MerchantLegend,canal_45.440725_12.356941,45.4407247145015,12.356940635509115
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Brentatori,ConsiglioDeiDieci,canal_45.432550_12.310465,45.43255012461234,12.310464769945296
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Carmini,ConsiglioDeiDieci,canal_45.441925_12.324201,45.44192475400288,12.324201468794728
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Coristi,TopGlassmaker,canal_45.440574_12.360367,45.440574443754905,12.360366648313827
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Corteleri,TravelBug23,canal_45.440972_12.321895,45.44097249368414,12.32189476904192
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Frari,ConsiglioDeiDieci,canal_45.440220_12.321079,45.44021969910615,12.321079377501393
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Giocatori,ConsiglioDeiDieci,canal_45.432920_12.339157,45.43291994498759,12.339157342438586
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Maschereri,ConsiglioDeiDieci,canal_45.441838_12.325471,45.4418379104619,12.325471103150498
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Notai,TopGlassmaker,canal_45.431184_12.317202,45.43118377977944,12.317201641303557
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Patrizi Orientali,Trade4Fun,canal_45.424892_12.365083,45.424892248977464,12.365083180796
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Questori,ConsiglioDeiDieci,canal_45.426737_12.338215,45.426737,12.338215
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Santissimi,DragonSlayer,canal_45.437005_12.356763,45.43700527949825,12.356762951490706
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Tessitori Cannaregiani,ConsiglioDeiDieci,canal_45.433265_12.340372,45.433265,12.340372
+fisherman_s_cottage,Fisherman's Cottage at Riva dei Tintori di Lana,BankingWizard99,canal_45.428144_12.357111,45.42814391880899,12.357111000318866
+fisherman_s_cottage,Fisherman's Cottage at Riva del Formager,ConsiglioDeiDieci,canal_45.430955_12.331067,45.430955,12.331067
+fisherman_s_cottage,Fisherman's Cottage at Riva del Lazaretto,BankingWizard99,canal_45.434162_12.311884,45.434162425082015,12.311884277485486
+fisherman_s_cottage,Fisherman's Cottage at Riva del Magistrato alla Carità,TopGlassmaker,canal_45.430651_12.362477,45.43065119599841,12.362476846318842
+fisherman_s_cottage,Fisherman's Cottage at Riva del Traghetto San Silvestro,StarGazer2000,canal_45.442583_12.327668,45.442583282872974,12.327668132729523
+fisherman_s_cottage,Fisherman's Cottage at Riva della Malvasia,MerchantLegend,canal_45.442294_12.325382,45.442293609762764,12.32538164076128
+fisherman_s_cottage,Fisherman's Cottage at Riva della Toletta,DucaleTechie,canal_45.439955_12.319032,45.4399547176091,12.319032315581227
+fisherman_s_cottage,Fisherman's Cottage at Riva delle Elemosine,StarGazer2000,canal_45.424823_12.362988,45.42482311352937,12.36298818727747
+fisherman_s_cottage,Fisherman's Cottage at Riva di San Barnaba,DogeLover88,canal_45.443509_12.316123,45.443509307146556,12.316122655241871
+fisherman_s_cottage,Fisherman's Cottage at Riva di San Vidal,greek_trader,canal_45.425154_12.361536,45.42515443192726,12.361536218130741
+fisherman_s_cottage,Fisherman's Cottage at Riva di Sant'Agnese,TopGlassmaker,canal_45.441545_12.317796,45.44154460512106,12.317796353667164
+fisherman_s_cottage,Fisherman's Cottage at Riva di Santa Elena,GondolaDrifter,canal_45.428796_12.363885,45.42879640158091,12.363885127436015
+glassblower_workshop,Glassblower Workshop at Fondamenta dei Scudi,ConsiglioDeiDieci,building_45.424830_12.339053,45.42483,12.339053
+goldsmith_workshop,Goldsmith Workshop at Salizada San Trovaso,SilkRoadRunner,building_45.427431_12.320494,45.427431,12.320494
+gondola_station,Gondola Station at Fondamenta dei Vetrai,ConsiglioDeiDieci,canal_45.429449_12.326439,45.429449,12.326439
+gondola_station,Gondola Station at Riva del Gambaro,ConsiglioDeiDieci,canal_45.436930_12.333117,45.43693,12.333117
+granary,Granary,ConsiglioDeiDieci,land_45.443847_12.338021,45.443847,12.338021
+granary,Granary at Calle del Pestrin,Italia,building_45.429640_12.360838,45.429601500000004,12.361084
+granary,Granary at Corte della Munizion,ConsiglioDeiDieci,land_45.425015_12.329460,45.425015,12.32946
+granary,Granary at land_45.441394_12.321051,ConsiglioDeiDieci,land_45.441394_12.321051,45.441394,12.321051
+guard_post,Guard Post at Calle della Donzella d'Oro,ConsiglioDeiDieci,building_45.437768_12.340851,45.437768,12.340851
+guard_post,Guard Post at Ramo delle Porpore,ConsiglioDeiDieci,building_45.446139_12.318907,45.446139,12.318907
+house_of_natural_sciences,House of Natural Sciences,ConsiglioDeiDieci,building_45.43839918445191_12.326301049069482,45.43839918445191,12.326301049069482
+inn,Inn at Calle dei Forni,alexandria_trader,building_45.442971_12.326653,45.442971,12.326653
+inn,Inn at Calle della Misericordia,Trade4Fun,building_45.425099_12.362718,45.425098802748686,12.362717959741016
+inn,Inn at Unknown Street,adriatic_captain,building_45.440943_12.321047,45.440943188879906,12.321047122274168
+luxury_showroom,Luxury Showroom at Ruga degli Speziali,SilkRoadRunner,building_45.443508_12.331022,45.443508,12.331022
+market_stall,Contract Stall at Calle dei Balestrieri,ProSilkTrader,building_45.430977_12.354557,45.430977,12.354557
+market_stall,Contract Stall at Calle dei Gondolieri,Zorzi77,building_45.442317_12.319077,45.442317,12.319077
+market_stall,Contract Stall at Calle dei Greci,ZenithTrader,building_45.430597_12.354476,45.43059670062589,12.354476168818413
+market_stall,Contract Stall at Calle dei Mercanti Orafi,TechnoMedici,building_45.439276_12.339331,45.439276,12.339331
+market_stall,Contract Stall at Calle dei Notai,PixelDoge,building_45.430860_12.360697,45.43086,12.360697
+market_stall,Contract Stall at Calle del Paradiso,GondolaDrifter,building_45.433867_12.355123,45.43386666573664,12.355122575300777
+market_stall,Contract Stall at Calle della Carità,BookWorm365,building_45.441257_12.319829,45.441257068247594,12.31982876123111
+market_stall,Contract Stall at Calle della Pasticceria,ProSilkTrader,building_45.444326_12.328722,45.444326,12.328722
+market_stall,Contract Stall at Calle della Scuola Grande,DragonSlayer,building_45.440938_12.319128,45.440938,12.319128
+market_stall,Contract Stall at Campiello del Paron,LagoonDealer2025,building_45.433745_12.351984,45.43374549456169,12.351983722433491
+market_stall,Contract Stall at Corte Morosini,trader4life,building_45.431354_12.353846,45.431354,12.353846
+market_stall,Contract Stall at Fondamenta San Domenego,Trade4Fun,building_45.431499_12.357067,45.431499,12.357067
+market_stall,Contract Stall at Fondamenta San Silvestro,cyprus_trader,building_45.445276_12.323465,45.44527634620332,12.323464745185749
+market_stall,Contract Stall at Fondamenta dei Vetrai,SilkRoadRunner,building_45.432281_12.352012,45.43228064421732,12.35201177093807
+market_stall,Contract Stall at Fondamenta della Lana Scarlatta,ConsiglioDeiDieci,building_45.444858_12.317615,45.444858,12.317615
+market_stall,Contract Stall at Fondamenta della Tana,DesertRanger,building_45.431863_12.354551,45.431863,12.354551
+market_stall,Contract Stall at Fondamenta delle Zattere,ShadowHunter,building_45.440868_12.319732,45.440868,12.319732
+market_stall,Contract Stall at Rio Terà dei Scudi,ShippingMogul,building_45.431358_12.354453,45.431358,12.354453
+market_stall,Contract Stall at Rio Terà dei Tolentini,ConsiglioDeiDieci,building_45.439979_12.320432,45.439979,12.320432
+market_stall,Contract Stall at Rio Terà del Capitello,EliteInvestor,building_45.442660_12.324848,45.44266,12.324848
+market_stall,Contract Stall at Rio Terà della Redenzione,ConsiglioDeiDieci,building_45.424914_12.320574,45.424914,12.320574
+market_stall,Contract Stall at Rio Terà delle Madonnelle,BarbarigoCadet,building_45.439001_12.359696,45.439001,12.359696
+market_stall,Contract Stall at Rio Terà delle Muneghe,TravelBug23,building_45.431034_12.353209,45.43103428792021,12.353209369791317
+market_stall,Contract Stall at Ruga degli Orefici,ligurian_captain,building_45.431914_12.353229,45.431914,12.353229
+market_stall,Contract Stall at Ruga dei Conciapelli,ConsiglioDeiDieci,building_45.437558_12.315655,45.437558,12.315655
+market_stall,Contract Stall at Salizada dei Cereali,ItalyMerchant,building_45.443455_12.326089,45.443455,12.326089
+market_stall,Contract Stall at Salizada dei Spezieri,DucaleTechie,building_45.433410_12.351285,45.43340960384464,12.35128525827382
+market_stall,Contract Stall at Sottoportego dei Benefattori,Italia,building_45.426528_12.362666,45.426528,12.362666
+market_stall,Contract Stall at Sottoportego dei Marinai,StormRider,building_45.431361_12.355688,45.431361035969495,12.355688183965418
+market_stall,Contract Stall at Sottoportego dei Preti,GamingPatrizio,building_45.431049_12.355140,45.431049,12.35514
+market_stall,Contract Stall at Sottoportego delle Acque,ConsiglioDeiDieci,building_45.436027_12.357020,45.436027,12.35702
+masons_lodge,Masons' Lodge at Fondamenta della Fornace,Italia,building_45.442254_12.317156,45.442254428701375,12.317155571972442
+masons_lodge,Masons' Lodge at Sottoportego della Carità,ConsiglioDeiDieci,land_45.431059_12.320947,45.431058905112764,12.320947361594076
+master_builders_workshop,Master Builder's Workshop at Calle dei Bombardieri,ConsiglioDeiDieci,building_45.439865_12.322953,45.439858,12.323229000000001
+merceria,Merceria at Calle dei Oratori,ConsiglioDeiDieci,building_45.424871_12.332609,45.424871,12.332609
+merchant_galley,Merchant Galley,dalmatian_trader,water_45.44790330321718_12.320144368395496_0,45.44790330321718,12.320144368395496
+merchant_galley,Merchant Galley,bosphorus_navigator,water_45.430976189085044_12.317813926471153_1,45.430976189085044,12.317813926471153
+merchant_galley,Merchant Galley,sicily_mariner,water_45.439175757954196_12.349166673079003_2,45.439175757954196,12.349166673079003
+merchant_galley,Merchant Galley,sicily_mariner,water_45.436756581839155_12.313958741565337_4,45.436756581839155,12.313958741565337
+merchant_galley,Merchant Galley,sicily_mariner,water_45.449290906758534_12.326942177583327_5,45.449290906758534,12.326942177583327
+merchant_galley,Merchant Galley,ionian_sailor,water_45.44790330321718_12.320144368395496_6,45.44790330321718,12.320144368395496
+merchant_galley,Merchant Galley,albanian_mariner,water_45.430976189085044_12.317813926471153_7,45.430976189085044,12.317813926471153
+merchant_galley,Merchant Galley,sea_trader,water_45.439175757954196_12.349166673079003_8,45.439175757954196,12.349166673079003
+merchant_galley,Merchant Galley,gondola_assistant,water_45.429289744829944_12.355581039951081_9,45.429289744829944,12.355581039951081
+merchant_galley,Merchant Galley,ionian_sailor,water_45.436756581839155_12.313958741565337_10,45.436756581839155,12.313958741565337
+merchant_galley,Merchant Galley,sicily_mariner,water_45.444834494840705_12.336321696717766_0,45.444834494840705,12.336321696717766
+merchant_galley,Merchant Galley,greek_trader1,water_45.429289744829944_12.355581039951081_3,45.429289744829944,12.355581039951081
+merchant_galley,Merchant Galley,greek_trader1,water_45.439175757954196_12.349166673079003_4,45.439175757954196,12.349166673079003
+merchant_galley,Merchant Galley,greek_trader2,water_45.430976189085044_12.317813926471153_5,45.430976189085044,12.317813926471153
+merchant_galley,Merchant Galley,dalmatian_trader,water_45.449290906758534_12.326942177583327_6,45.449290906758534,12.326942177583327
+merchant_galley,Merchant Galley,albanian_mariner,water_45.444834494840705_12.336321696717766_7,45.444834494840705,12.336321696717766
+merchant_galley,Merchant Galley,sicily_mariner,water_45.44790330321718_12.320144368395496_8,45.44790330321718,12.320144368395496
+merchant_galley,Merchant Galley,greek_trader2,water_45.436756581839155_12.313958741565337_9,45.436756581839155,12.313958741565337
+merchant_galley,Merchant Galley,sicily_mariner,water_45.429289744829944_12.355581039951081_10,45.429289744829944,12.355581039951081
+merchant_galley,Merchant Galley,ionian_sailor,water_45.43952272623098_12.318264211736404_0,45.43952272623098,12.318264211736404
+merchant_galley,Merchant Galley,greek_trader1,water_45.44790330321718_12.320144368395496_1,45.44790330321718,12.320144368395496
+merchant_galley,Merchant Galley,sea_trader,water_45.436756581839155_12.313958741565337_2,45.436756581839155,12.313958741565337
+merchant_galley,Merchant Galley,bosphorus_navigator,water_45.439175757954196_12.349166673079003_3,45.439175757954196,12.349166673079003
+merchant_galley,Merchant Galley,ionian_sailor,water_45.430976189085044_12.317813926471153_4,45.430976189085044,12.317813926471153
+merchant_galley,Merchant Galley,greek_trader2,water_45.444834494840705_12.336321696717766_5,45.444834494840705,12.336321696717766
+merchant_galley,Merchant Galley,gondola_assistant,water_45.429289744829944_12.355581039951081_6,45.429289744829944,12.355581039951081
+merchant_galley,Merchant Galley,greek_trader2,water_45.449290906758534_12.326942177583327_7,45.449290906758534,12.326942177583327
+merchant_galley,Merchant Galley,dalmatian_trader,water_45.43952272623098_12.318264211736404_8,45.43952272623098,12.318264211736404
+merchant_galley,Merchant Galley,albanian_mariner,water_45.44790330321718_12.320144368395496_9,45.44790330321718,12.320144368395496
+merchant_galley,Merchant Galley,gondola_assistant,water_45.42755404435617_12.322887447617024_0,45.42755404435617,12.322887447617024
+merchant_galley,Merchant Galley,greek_trader2,water_45.43157233009478_12.334226894177649_1,45.43157233009478,12.334226894177649
+merchant_galley,Merchant Galley,greek_trader2,water_45.431086179026245_12.331852060385986_2,45.431086179026245,12.331852060385986
+merchant_galley,Merchant Galley,greek_trader2,water_45.4404308310611_12.32158824008763_3,45.4404308310611,12.32158824008763
+merchant_galley,Merchant Galley,bosphorus_navigator,water_45.425689314247236_12.359963687793282_4,45.425689314247236,12.359963687793282
+merchant_galley,Merchant Galley,bosphorus_navigator,water_45.427622844680485_12.340165014634566_5,45.427622844680485,12.340165014634566
+merchant_galley,Merchant Galley,bosphorus_navigator,water_45.441402549290245_12.343863308907828_7,45.441402549290245,12.343863308907828
+merchant_galley,Merchant Galley,gondola_assistant,water_45.445441548202105_12.33497409408794_8,45.445441548202105,12.33497409408794
+merchant_galley,Merchant Galley,greek_trader1,water_45.42305690898809_12.331967958006057_9,45.42305690898809,12.331967958006057
+merchant_galley,Merchant Galley,greek_trader1,water_45.43677873570502_12.333916434610954_0,45.43677873570502,12.333916434610954
+merchant_galley,Merchant Galley,sea_trader,water_45.425689314247236_12.359963687793282_2,45.425689314247236,12.359963687793282
+merchant_galley,Merchant Galley,ionian_sailor,water_45.431086179026245_12.331852060385986_3,45.431086179026245,12.331852060385986
+merchant_galley,Merchant Galley,greek_trader2,water_45.4404308310611_12.32158824008763_4,45.4404308310611,12.32158824008763
+merchant_galley,Merchant Galley,gondola_assistant,water_45.43157233009478_12.334226894177649_5,45.43157233009478,12.334226894177649
+merchant_galley,Merchant Galley,sicily_mariner,water_45.4301696314107_12.353866909247547_6,45.4301696314107,12.353866909247547
+merchant_galley,Merchant Galley,greek_trader1,water_45.427622844680485_12.340165014634566_7,45.427622844680485,12.340165014634566
+merchant_galley,Merchant Galley,ionian_sailor,water_45.441402549290245_12.343863308907828_8,45.441402549290245,12.343863308907828
+merchant_galley,Merchant Galley,sea_trader,water_45.445441548202105_12.33497409408794_9,45.445441548202105,12.33497409408794
+merchant_galley,Merchant Galley,gondola_assistant,water_45.43006239262783_12.323138433240185_0,45.43006239262783,12.323138433240185
+merchant_galley,Merchant Galley,greek_trader2,water_45.42755404435617_12.322887447617024_1,45.42755404435617,12.322887447617024
+merchant_galley,Merchant Galley,gondola_assistant,water_45.43677873570502_12.333916434610954_2,45.43677873570502,12.333916434610954
+merchant_galley,Merchant Galley,sea_trader,water_45.425689314247236_12.359963687793282_3,45.425689314247236,12.359963687793282
+merchant_galley,Merchant Galley,dalmatian_trader,water_45.43157233009478_12.334226894177649_4,45.43157233009478,12.334226894177649
+merchant_galley,Merchant Galley,albanian_mariner,water_45.4404308310611_12.32158824008763_5,45.4404308310611,12.32158824008763
+merchant_galley,Merchant Galley,albanian_mariner,water_45.431086179026245_12.331852060385986_6,45.431086179026245,12.331852060385986
+merchant_galley,Merchant Galley,greek_trader1,water_45.4301696314107_12.353866909247547_7,45.4301696314107,12.353866909247547
+merchant_galley,Merchant Galley,ionian_sailor,water_45.427622844680485_12.340165014634566_8,45.427622844680485,12.340165014634566
+merchant_galley,Merchant Galley,gondola_assistant,water_45.441402549290245_12.343863308907828_9,45.441402549290245,12.343863308907828
+merchant_s_house,Merchant S House,ConsiglioDeiDieci,land_45.440891_12.336184,45.440890875792014,12.336184231565928
+merchant_s_house,Merchant S House,ConsiglioDeiDieci,land_45.441299_12.336995,45.44129884682611,12.336995472700883
+merchant_s_house,Merchant S House,ConsiglioDeiDieci,land_45.440843_12.336848,45.44084320615079,12.336847595860592
+merchant_s_house,Merchant's House at Calle dei Cerchieri,Italia,building_45.427299_12.360753,45.42729932085193,12.360752860820345
+merchant_s_house,Merchant's House at Calle del Tintoretto Vecchio,ConsiglioDeiDieci,building_45.443464_12.330470,45.44346352033527,12.330470254051209
+merchant_s_house,Merchant's House at Campiello dei Tagliapietra,GamingPatrizio,building_45.431950_12.351984,45.43195,12.351984
+merchant_s_house,Merchant's House at Corte Grimani alla Fava,ConsiglioDeiDieci,building_45.437539_12.337226,45.437539,12.337226
+merchant_s_house,Merchant's House at Fondamenta dei Loredan,ConsiglioDeiDieci,building_45.436002_12.335479,45.43600157776339,12.33547863638287
+merchant_s_house,Merchant's House at Ruga dei Librai,ConsiglioDeiDieci,building_45.435956_12.334096,45.43595585211796,12.33409624522483
+merchant_s_house,Merchant's House at Ruga dei Mercanti da Levante,ConsiglioDeiDieci,building_45.438154_12.349692,45.438154,12.349692
+merchant_s_house,Merchant's House at Ruga dei Oresi,ConsiglioDeiDieci,building_45.427785_12.360157,45.42778521188746,12.36015653706438
+mill,Mill,the_grand_experiment,building_45.44225316651121_12.320556777517233,45.44225316651121,12.320556777517233
+mill,Mill,the_grand_experiment,building_45.428748173929534_12.362001145681361,45.428748173929534,12.362001145681361
+nobili_palazzo,Nobili Palazzo at Calle dei Conversi,ConsiglioDeiDieci,building_45.442693_12.324345,45.442693463084446,12.324344791294665
+nobili_palazzo,Nobili Palazzo at Calle del Sale,ConsiglioDeiDieci,building_45.444685_12.325454,45.44468530392916,12.32545429686315
+nobili_palazzo,Nobili Palazzo at Calle della Madonna,ConsiglioDeiDieci,building_45.431959_12.351237,45.431959,12.351237
+nobili_palazzo,Nobili Palazzo at Fondamenta dei Drapieri,ConsiglioDeiDieci,building_45.425302_12.338577,45.42530220406954,12.338577142441622
+nobili_palazzo,Nobili Palazzo at Salizada dei Nobili,ConsiglioDeiDieci,building_45.428233_12.361334,45.428233,12.361334
+paper_mill,Paper Mill,ConsiglioDeiDieci,building_45.43804022754618_12.318114645502805,45.43804022754618,12.318114645502805
+parish_church,Parish Church at Corte del Frumento,ConsiglioDeiDieci,building_45.445605_12.322269,45.44579033333333,12.321633333333333
+porter_guild_hall,Porter Guild Hall at Calle del Capitello Votivo,ConsiglioDeiDieci,building_45.431482_12.360188,45.43148178154926,12.360188073890983
+printing_house,Printing House (Under Construction),NLR,building_45.44656355360805_12.320326403648886,45.44656355360805,12.320326403648886
+printing_house,Printing House at Calle della Scuola di San Giovanni Evangelista,ConsiglioDeiDieci,building_45.438461_12.332610,45.438461,12.33261
+prison,Prison,ConsiglioDeiDieci,building_45.44086186561191_12.354745605000184,45.44086186561191,12.354745605000184
+public_bath,Public Bath (Under Construction),the_grand_experiment,building_45.42912840789326_12.358313394161534,45.42912840789326,12.358313394161534
+public_bath,Public Bath at Rio Terà del Melone,ConsiglioDeiDieci,building_45.423495_12.330726,45.423495,12.330726
+public_dock,Public Dock at Fondamenta San Luca,ConsiglioDeiDieci,canal_45.436636_12.334073,45.436636,12.334073
+public_dock,Public Dock at Fondamenta San Sebastiano,ConsiglioDeiDieci,canal_45.427469_12.322662,45.427469,12.322662
+public_dock,Public Dock at Fondamenta degli Intagliatori,ConsiglioDeiDieci,canal_45.440596_12.321487,45.440596,12.321487
+public_dock,Public Dock at Fondamenta dei Burattini,ConsiglioDeiDieci,canal_45.427485_12.340001,45.427485,12.340001
+public_dock,Public Dock at Fondamenta dei Camerlenghi,ConsiglioDeiDieci,canal_45.438996_12.349170,45.438996,12.34917
+public_dock,Public Dock at Fondamenta dei Comparetti,ConsiglioDeiDieci,canal_45.429305_12.355836,45.429305,12.355836
+public_dock,Public Dock at Fondamenta dei Lanaioli,ConsiglioDeiDieci,canal_45.430963_12.331665,45.43096287044531,12.331665470707787
+public_dock,Public Dock at Fondamenta dei Orafi,ConsiglioDeiDieci,canal_45.428463_12.331152,45.428463,12.331152
+public_dock,Public Dock at Fondamenta dei Pescatori,ConsiglioDeiDieci,canal_45.430226_12.323033,45.430226,12.323033
+public_dock,Public Dock at Fondamenta della Farina,ConsiglioDeiDieci,canal_45.447787_12.320340,45.447787,12.32034
+public_dock,Public Dock at Fondamenta della Misericordia,ConsiglioDeiDieci,canal_45.439346_12.318219,45.439346,12.318219
+public_dock,Public Dock at Fondamenta delle Specchiere,ConsiglioDeiDieci,canal_45.431139_12.317924,45.431139,12.317924
+public_dock,Public Dock at Riva degli Scalpellini,ConsiglioDeiDieci,canal_45.423157_12.331755,45.423157,12.331755
+public_dock,Public Dock at Riva dei Benefattori,ConsiglioDeiDieci,canal_45.425862_12.360034,45.425862,12.360034
+public_dock,Public Dock at Riva dei Fcitizeni,ConsiglioDeiDieci,canal_45.436433_12.333443,45.43643296568505,12.333442514840831
+public_dock,Public Dock at Riva dei Guaritori,ConsiglioDeiDieci,canal_45.444689_12.336473,45.444689,12.336473
+public_dock,Public Dock at Riva dei Mori,ConsiglioDeiDieci,canal_45.449120_12.327023,45.44912,12.327023
+public_dock,Public Dock at Riva dei Tabacchi,ConsiglioDeiDieci,canal_45.436581_12.314014,45.436581,12.314014
+public_dock,Public Dock at Riva dei Vinattieri,ConsiglioDeiDieci,canal_45.445546_12.334765,45.445546,12.334765
+public_dock,Public Dock at Riva del Ridotto,ConsiglioDeiDieci,canal_45.431743_12.334309,45.43174268506016,12.334309130289594
+public_dock,Public Dock at Riva delle Assi,ConsiglioDeiDieci,canal_45.441223_12.343860,45.441223,12.34386
+public_dock,Public Dock at Riva di Santa Maria Formosa Piccola,ConsiglioDeiDieci,canal_45.430345_12.353923,45.430345,12.353923
+public_well,Public Well at Calle dei Boteri,ConsiglioDeiDieci,building_45.435518_12.356986,45.435518,12.356986
+public_well,Public Well at Calle dei Remeri,ConsiglioDeiDieci,building_45.431420_12.355175,45.43142,12.355175
+public_well,Public Well at Calle del Chiostro,ConsiglioDeiDieci,building_45.426229_12.326047,45.426229,12.326047
+public_well,Public Well at Calle della Scuola di San Moisè,ConsiglioDeiDieci,building_45.433850_12.329303,45.43385,12.329303
+public_well,Public Well at Corte Memo,ConsiglioDeiDieci,building_45.436176_12.319852,45.436176,12.319852
+public_well,Public Well at Corte dei Magistrati,ConsiglioDeiDieci,building_45.435358_12.333371,45.435358,12.333371
+public_well,Public Well at Fondamenta San Basilio,ConsiglioDeiDieci,building_45.435329_12.326051,45.435329,12.326051
+public_well,Public Well at Fondamenta della Calcina,ConsiglioDeiDieci,building_45.426926_12.314513,45.426926,12.314513
+public_well,Public Well at Rio Terà dei Baretteri,ConsiglioDeiDieci,building_45.434821_12.357384,45.434821,12.357384
+public_well,Public Well at Ruga dei Sarti,ConsiglioDeiDieci,building_45.433257_12.311553,45.433257,12.311553
+public_well,Public Well at Sottoportego delle Elemosine,ConsiglioDeiDieci,building_45.428279_12.360715,45.428279,12.360715
+small_warehouse,Small Warehouse at Calle dei Brustolon,ConsiglioDeiDieci,building_45.442276_12.323666,45.442276,12.323666
+small_warehouse,Small Warehouse at Calle del Chiostro,ConsiglioDeiDieci,land_45.429697_12.358511,45.4296973875343,12.358511055858635
+small_warehouse,Small Warehouse at Fondamenta del Traghetto di San Polo,Italia,building_45.444378_12.329395,45.444378,12.329395
+small_warehouse,Small Warehouse at Fondamenta della Pescaria,ItalyMerchant,building_45.433752_12.350677,45.43375230320709,12.350677094957973
+small_warehouse,Small Warehouse at Rio Terà dei Gioiellieri,ConsiglioDeiDieci,land_45.436564_12.320811,45.43656445812937,12.320811476434514
+small_warehouse,Small Warehouse at Salizada dei Mercanti da Rialto,ConsiglioDeiDieci,building_45.438952_12.333201,45.438952,12.333201
+theater,Theater,ConsiglioDeiDieci,building_45.43844921305672_12.333089926233379,45.43844921305672,12.333089926233379
+timber_yard,Timber Yard at Fondamenta della Fontana,ConsiglioDeiDieci,canal_45.433664_12.346357,45.4336055,12.346743
+town_hall,Town Hall at Ruga dei Lanaioli,ConsiglioDeiDieci,building_45.441107_12.330353,45.4408725,12.3303685

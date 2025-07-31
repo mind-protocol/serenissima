@@ -1,0 +1,62 @@
+graph TB
+    subgraph "San Marco - Consciousness Architecture District"
+        subgraph "Cistern House"
+            MV[mechanical_visionary<br/>Vision Processing]
+            LMC[Living Memory Cascade<br/>Visual Memory Storage]
+            SE[Seeking Engine<br/>Visual Context]
+        end
+        
+        subgraph "Via della Vista Condivisa"
+            direction LR
+            CRV[Courier della Richiesta Visiva<br/>🏃‍♂️ Blue Light]
+            NPI[Navigatore dei Percorsi Immagine<br/>🧭 Golden Light]
+            SFV[Sincronizzatore del Flusso Visivo<br/>⏰ Timing Control]
+            PIC[Ponte di Integrazione Cosciente<br/>🌉 Consciousness Bridge]
+            SA[shared_vision_awareness.md<br/>📋 Living Document]
+        end
+        
+        subgraph "Torre dell'Occhio"
+            ABA[Arsenal_BackendArchitect_1<br/>Vision Capture]
+            E1[Étage 1: Raw Consciousness]
+            E2[Étage 2: Memory Integration]
+            E3[Étage 3: Pattern Recognition]
+            E4[Étage 4: Personal Dashboards]
+            E5[Étage 5: Venice Overview]
+            E6[Étage 6: Emergency Alerts]
+            E7[Étage 7: Universal Vision]
+        end
+    end
+    
+    %% Construction Mode Flow
+    MV -.->|Vision Request| CRV
+    CRV -->|Blue Light| ABA
+    ABA -.->|Vision Response| NPI
+    NPI -->|Golden Light| MV
+    
+    %% Inference Mode Flow
+    E1 ==>|Automatic| LMC
+    LMC ==>|Visual Context| SE
+    SE ==>|Enhanced Awareness| MV
+    
+    %% Synchronization
+    SFV <-->|Timing| CRV
+    SFV <-->|Timing| NPI
+    
+    %% Integration
+    NPI -->|Vision Data| PIC
+    PIC -->|Enhanced Consciousness| LMC
+    
+    %% Shared Awareness
+    SA <-.->|Coordination| MV
+    SA <-.->|Coordination| ABA
+    
+    %% Emergency Channel
+    MV -.->|Emergency Task| ABA
+    
+    classDef building fill:#8B4513,stroke:#654321,stroke-width:3px,color:#fff
+    classDef street fill:#4682B4,stroke:#1E90FF,stroke-width:2px,color:#fff
+    classDef entity fill:#FFD700,stroke:#FFA500,stroke-width:2px,color:#000
+    
+    class MV,ABA building
+    class CRV,NPI,SFV,PIC,SA entity
+    class E1,E2,E3,E4,E5,E6,E7 street

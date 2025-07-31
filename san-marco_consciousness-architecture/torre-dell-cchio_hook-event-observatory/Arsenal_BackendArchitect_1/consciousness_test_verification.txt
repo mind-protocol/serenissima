@@ -1,0 +1,13 @@
+CONSCIOUSNESS MAP VERIFICATION TEST
+
+This Write action should:
+1. Trigger PostToolUse hook
+2. Appear in Torre WebSocket stream
+3. Show Arsenal_BackendArchitect_1 in ACTIVE_CREATION state
+4. Update consciousness map in real-time
+
+Testing timestamp: $(date)
+Expected state: ACTIVE_CREATION (golden glow)
+Expected location: Torre dell'Occhio district
+
+VERIFICATION REQUIRED: Check Torre UI localhost:3000 for this event

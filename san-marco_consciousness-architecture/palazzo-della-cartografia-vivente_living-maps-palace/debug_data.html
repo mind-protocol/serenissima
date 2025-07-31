@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Venice Data</title>
+</head>
+<body>
+    <h1>Debug Venice Data</h1>
+    <div id="output"></div>
+    
+    <script>
+        async function debugData() {
+            const output = document.getElementById('output');
+            
+            try {
+                console.log('Fetching venice_core_data.json...');
+                const response = await fetch('./venice_core_data.json');
+                const data = await response.json();
+                
+                console.log('Data loaded:', data);
+                
+                const entities = Object.entries(data);
+                output.innerHTML = `
+                    <h2>Loaded ${entities.length} entities:</h2>
+                    <ul>
+                        ${entities.map(([key, entity]) => 
+                            `<li><strong>${entity.name}</strong> (${entity.type}) - ${Object.keys(entity.children || {}).length} children</li>`
+                        ).join('')}
+                    </ul>
+                `;
+                
+            } catch (error) {
+                console.error('Error:', error);
+                output.innerHTML = `<p style="color: red;">Error loading data: ${error.message}</p>`;
+            }
+        }
+        
+        debugData();
+    </script>
+</body>
+</html>

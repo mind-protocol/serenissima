@@ -1,0 +1,324 @@
+CONVERSATION ANALYSIS: simon
+==================================================
+
+Rank: #24
+Score: 140
+Total messages: 203
+Recent messages (180 days): 101
+Investment mentions: 41
+AI/Venice mentions: 39 / 14
+Avg message length: 201
+Last contact: 2025-03-22
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-23T08:11:16] simon: 
+
+[2025-01-23T08:11:49] simon: I have been banned for more than a month, why has no one unblocked me?
+
+[2025-01-23T08:16:27] simon: Launchpad Launch
+You guys delayed the launch 3 times, it was a complete failure.
+Public Sale (LBP)
+Delayed 2 times. 404 errors all the time.
+You guys are technical people, why didn't you test before going live? 1 time is fine, but 3 times in a row, it's hard to trust people.
+You screwed up! This is the most important launch in 3 days, and it was a complete failure.
+I am full of disappointment.
+
+[2025-01-23T08:24:09] simon: 
+
+[2025-01-23T08:24:31] simon: 
+
+[2025-01-31T01:12:23] NLR: Here is the report for the LPO week 1, as well as the Tx for the associated distribution:
+
+ https://solscan.io/tx/gDkkBmVDiiXDPhLc7C7n6T7nQho11kJKPoU3RQv1KbmCLDGjr5MNcZeYjYRxPGJ74ZdySdUoQepuiC4U9GbJyoT
+
+[2025-01-31T01:22:28] simon: At the beginning, we promised that COMPUTE could only be obtained by staking UBC. Later, it changed and anyone can purchase it through the market. This leads to a crisis of confidence.
+The amount of COMPUTE pledged by UBC is too small. New players only need to purchase COMPUTE in the market. There is no need to purchase UBC and then pledge. This resulted in a price death spiral for both coins.
+Will you change this strategy?
+
+[2025-01-31T01:27:06] NLR: we addressed this point specifically today
+
+[2025-01-31T01:27:08] NLR: 💎  Compute & Staking 
+One of our promises was that  $COMPUTE  was mainly obtained by staking . Though most of the  $COMPUTE  is indeed locked as rewards, the  staking rewards are too low  for most of the  $COMPUTE  to be delivered through staking. That is a problem because it put the believers (stakers) at a disadvantage, which is the opposite of what we want.
+
+That is why we are planning to do the following:
+-  Reward the OGs  through a distribution (10 000  $COMPUTE  each), as soon as we are able to get to coding it.
+-  Reward specifically the stakers . Though not validated, our current idea is the following:
+    1) Send to stakers the  full amount  they would have gotten for the whole the staking period
+    2) Open  new pools at x5 or x10  the reward amount (we'd also open  $COMPUTE  staking pools)
+We'd run this through the DAO, as it would probably require the emission of new  $COMPUTE  (not circulating, so no short-term impact on price). The solution might evolve as we get valuable feedback from you guys.
+
+[2025-01-31T01:27:26] NLR: https://x.com/UBC4ai/status/1885084865378296203
+
+[2025-01-31T01:31:40] simon: You didn't understand what I meant.
+If you continue to insist that anyone can buy COMPUTE at will, then the price of UBC will fall again. Who will buy COMPUTE if the price of UBC drops?
+The output of COMPUTE can only be obtained through UBC staking. Only in this way can this project be saved.
+What is the use of continuing to allocate more COMPUTE to pledgers? No one will stake UBC anymore.
+
+[2025-01-31T01:32:50] simon: If I were a new holder, I would spend 0.5 SOL to buy COMPUTE, which is far more than what I would get by staking a large amount of UBC. Why should I pledge?
+
+[2025-01-31T01:35:07] simon: The current market sentiment and daily real trading volume are enough to prove that your direction is wrong. Correct it in time, maybe it's still too late. Obsession will only kill the project.
+Of course, if you think it doesn't matter, just pretend I didn't say anything.
+
+[2025-01-31T01:39:13] simon: If players who stake UBC get COMPUTED, they will sell them in the market, which is a good thing. The higher the selling price, the better. There are not many COMPUTEs on the market, which will increase the confidence of players staking UBC, and the amount of staking will increase.
+When doing projects, you must know how to make profits. Why should others come to your project if they can't make money?
+
+[2025-01-31T01:45:44] NLR: what would you suggest to do instead?
+
+[2025-01-31T01:48:25] simon: The only way to obtain COMPUTED is to pledge UBC.
+If there is no way to do this, then staking UBC to obtain it will definitely be more favorable than buying it on the market.
+
+[2025-01-31T01:49:03] simon: The current result is that there are many more discounts on purchasing than pledging in the market.
+
+[2025-01-31T01:49:33] NLR: how to do that in practice though
+
+[2025-01-31T01:49:50] NLR: There is no way to restrict people from making a LP
+
+[2025-01-31T02:24:47] simon: Can you personally give me a suggestion, I am now allocated a lot of  COMPUTED, should I keep it or invest directly into the swarm?
+
+[2025-01-31T02:25:59] NLR: invest in swarms is the way to go
+
+[2025-01-31T02:26:04] NLR: especially at these prices
+
+[2025-01-31T02:26:07] simon: COMPUTE cannot be sold and there is insufficient liquidity. Will we add liquidity?
+
+[2025-01-31T02:26:25] NLR: yes It's one of our main objective of the next 3 weeks
+
+[2025-01-31T02:34:14] simon: Is our team currently short of funds?
+
+[2025-01-31T02:35:21] simon: HI, can we chat?
+
+[2025-01-31T02:36:48] NLR: transparency: yes
+
+[2025-01-31T02:36:53] NLR: yes of course
+
+[2025-01-31T02:38:18] simon: I have a suggestion.
+Our team has launched UBC before and achieved good results of 100M in a short period of time. If our current progress is limited by a lack of funds, then why don't we send a meme project, we strategize, hold a large number of chips, and sell them when the new meme coin price reaches a high point. The funds obtained will be used back to build UBC. How about this?
+
+[2025-01-31T02:39:53] simon: As long as we set it up properly, the plan is complete. I think 100M is also easy to achieve.
+
+[2025-01-31T02:41:12] simon: I hope your team can consider my suggestion. After all, President Trump has launched meme tokens, why shouldn’t we?
+
+[2025-01-31T02:43:01] simon: Of course, this matter can only be discussed among a very small number of people.
+
+[2025-01-31T02:46:00] NLR: I don't know I'd rather either raise funds through VC, or even directly through the community
+
+[2025-01-31T02:46:24] NLR: If we focus on something better to be on building
+
+[2025-01-31T02:49:42] simon: It’s hard enough to rely on community. This is a fact that we cannot avoid. Although there are so many people in the community, there are actually only a few dozen active people. Maybe dozens of people are too many.
+
+[2025-01-31T02:50:19] simon: You put so much effort into building UBC, but it failed because of lack of funds. What a shame.
+
+[2025-01-31T02:51:12] simon: If people in the community are willing to invest for you, the answer will have been told to us when you added LP.
+
+[2025-01-31T02:54:29] simon: Can VCs invest money in UBC?
+You can try, but it's not an easy thing.
+
+[2025-01-31T02:56:05] NLR: yeah
+
+[2025-01-31T02:56:12] NLR: I'm not done just yet
+
+[2025-01-31T03:00:48] simon: Shouldn't we consider relaunching a new meme coin? Use hype and emotion to push the price to a high point, and then slowly sell it in exchange for funds.
+
+[2025-01-31T03:04:48] simon: Your team can discuss this. Confidentiality.
+
+[2025-02-02T10:02:45] simon: Release new tokens for our King Kong.
+Released invisibly on pump, you can reserve a part for your team and airdrop tokens according to the shares for the Vajra Swarm holders.
+This may attract a large amount of new funds.
+King Kong also has a separate X account that can automatically tweet. What do you think?
+
+[2025-02-02T10:03:55] simon: If the King Kong token is successful, other swarms can launch tokens with the same name in the same way.
+
+[2025-02-02T10:04:33] simon: Of course, it must be launched stealthily.
+
+[2025-02-06T00:29:09] NLR: Hey Simon, what did you think about the new pool and latest news?
+
+[2025-02-06T01:51:19] simon: Is there anything you need me to do?
+
+[2025-02-06T03:14:03] simon: I just watched the community message carefully.
+The fact that we were deceived directly reflects that we have not done a good job in the basic knowledge of WEB3. This is the most basic common sense. At present, the daily trading volume of UBC is so small, how can it be listed on the OKX exchange? This is common sense. Unfortunately we were fooled.
+
+The current problem is already very serious.
+
+[2025-02-06T03:14:43] simon: You can't read back the advice I mentioned to you before. I don't know what you mean.
+
+[2025-02-06T03:20:47] simon: We need to bring all investors together for an urgent meeting to discuss what to do next.
+
+[2025-02-06T03:23:09] simon: Everyone who invests $10,000 in you has the right to know what happens.
+The problem now is that investors have no communication channels, and all news is conveyed through you, the dictator, which is ridiculous.
+
+[2025-02-06T03:26:59] NLR: Hello Simon,
+
+I understand your frustration. I will indeed take feedback from and present our plan with all investors. The only reason there is no dedicated channel is that almost all the investors wanted to remain anonymous. It would have been waay easier for me to discuss with all of them in a single channel, trust me
+
+[2025-02-06T03:27:29] NLR: If you want, I can open a group with the 2-3 investors that were not anonymous
+
+[2025-02-06T03:27:40] simon: I suggested to you to set up a new advisory group. Members with large investments are invited to enter. The consultant group holds a voice conference every week to tell everyone what step they are in now and what to do next.
+The results of the discussion will be communicated to the larger community.
+I don't understand why you didn't do it.
+
+[2025-02-06T03:31:56] simon: First create an investor community and hold weekly voice meetings to discuss problems encountered.
+If other investors wish to remain anonymous, that's no problem, they can stay out of the group.
+It’s important to do it first.
+
+[2025-02-06T03:33:20] NLR: I did, it is the Board
+
+[2025-02-06T03:33:44] NLR: you can 100% give your opinions in there, I don't understand why that is not exactly what you just described
+
+[2025-02-06T03:34:34] NLR: I mean is that not exactly the Board?
+
+[2025-02-06T03:34:46] simon: Is anyone on the board discussing issues? Are you a community leader, have you organized?
+Have you organized weekly voice talks?
+
+[2025-02-06T03:35:15] NLR: People are discussing issues in the tokenomics group right now
+
+[2025-02-06T03:35:22] NLR: why don't you join?
+
+[2025-02-06T03:35:33] simon: The board's last discussion was stuck on 2024.
+
+[2025-02-06T03:36:14] simon: Please invite me.
+
+[2025-02-06T03:36:46] NLR: https://t.me/ubc_tokenomics
+
+[2025-02-06T03:37:37] simon: Okay, I didn't know this community existed. I'm in.
+
+[2025-02-10T15:30:19] NLR: Hey Simon, here is the recap of week 2
+
+[2025-02-10T15:31:14] NLR: TX:  https://solscan.io/tx/SVwJz8emyJ1wvd8ybAxkr2zzeoin81PFSRV4ao55cJARr6WBJPmBfGhSEEgHwNiA557r7ZKoyGaAcTsfSZEeSar
+
+[2025-02-10T15:31:16] simon: OK
+
+[2025-02-11T09:10:08] simon: hi
+
+[2025-02-11T09:10:29] simon: Can we chat?
+
+[2025-02-11T09:22:00] simon: Hi, boss!
+
+Do we need to rethink how to raise funds?
+Here's my suggestion: Right now, there's a lot of traffic on the BSC chain, and they're competing with the SOL chain for traffic. A large number of Asians are currently trading on BSC. Could we issue a new token on the BSC chain to raise funds? Of course, issuing a new token on BSC doesn't mean abandoning the SOL chain—both chains can run together.
+
+The advantage is that, if we run it well, we could raise a substantial amount of funds on BSC, allowing us to move forward with the next steps.
+
+Currently, CZ's support for the BSC chain is still quite strong.
+
+If you have any thoughts on this, we can discuss it further.
+
+[2025-02-11T09:25:00] simon: A few days ago, I discussed this with you, but you didn’t reply. I’m not sure why.
+There are also platforms on the BSC chain similar to PUMP for fair launches. If you need, I can send them to you for review.
+As a long-time member of the UBC community, who has been with it since day one, I also hope to do my part in helping UBC get back on track.
+
+[2025-02-11T16:17:14] NLR: Better to discuss in the tokenomics group
+
+[2025-02-11T16:17:33] NLR: The problem with launching a coin is that we need a lot of liquidity
+
+[2025-02-11T16:19:18] simon: The traffic on BSC is very large now. As long as we publish it under our real name, I am sure it will be very successful. It is no problem to reach 20M in a short time.
+In addition, the BSC chain also has a fair launch platform similar to PUMP, which is invested by Binance. You can check out Twitter  @four_meme_
+
+[2025-02-13T19:32:38] NLR: what about the current investors?
+
+[2025-02-13T19:32:55] NLR: also we'd need additional liquidity for the pools no?
+
+[2025-02-13T19:33:05] NLR: Or do they have a system like pumpfun
+
+[2025-02-14T04:01:28] simon: Yes, I discussed this with you last time.
+
+Right now, all the hype is on the BSC chain. Lack of funds is not an issue. As long as we launch with real-name verification and do a live video stream at launch, it will be a huge success.
+
+[2025-02-14T04:05:49] simon: Yes, we only need to spend a small amount of BNB as gas to launch, roughly $0.1.
+
+The team, as developers, can be the first buyers, allowing us to control a large number of tokens before launch.
+
+I’m glad you responded because your perspective has changed—we must raise funds through the BSC chain.
+
+On this point, I believe there’s no need to inform the community in advance. If we successfully launch, we can tell them afterward.
+
+[2025-02-14T04:07:36] simon: https://four.meme/ranking
+
+[2025-02-14T04:10:03] simon: This is a launch platform, and yesterday alone, its trading volume exceeded $10 billion—it’s incredibly hot right now.
+
+More importantly, this platform is backed by Binance and fully supported by them. CZ, the founder of Binance, is also strongly endorsing it. (His Twitter handle is  @cz_binance .)
+
+[2025-02-14T04:12:39] simon: No need for that. It works similarly to Pump.fun—once the launch is completed and the funds accumulate to 24 BNB, it will be successfully listed on PancakeSwap.
+
+I’ll organize all the relevant materials for you later.
+
+[2025-02-14T04:16:25] simon: On this platform, most tokens are just air coins and MEME tokens, but their market cap is high due to emotional-driven hype.
+
+If we launch a project with actual utility like ours on this platform, I can’t even imagine how successful we could be.
+
+[2025-02-14T04:19:11] simon: To be honest, the major setback we faced on SOL ultimately came down to the fact that we didn't control a large amount of tokens. The team didn’t hold enough tokens.
+
+For our second launch, we must learn from this lesson.
+
+[2025-02-14T04:24:49] simon: Launch platform： https://four.meme/ 
+CZ X: https://x.com/cz_binance 
+Launch platform X :  https://x.com/four_meme_ 
+ https://x.com/BNBChain
+
+[2025-02-18T11:31:39] NLR: Update for the week!
+
+- Secondary market (~launch tomorrow):  swarms.universalbasiccompute.ai 
+- Kinkong website:  kinkong.universalbasiccompute.ai
+
+[2025-03-06T05:24:20] simon: Is the dividend still going on?
+
+[2025-03-06T23:15:30] NLR: yes, we're just a bit late
+
+[2025-03-10T16:51:47] simon: HI, BOSS. When is our next dividend expected to be paid?
+
+[2025-03-10T20:03:23] NLR: you mean for the LPO?
+
+[2025-03-10T20:03:35] simon: YES
+
+[2025-03-10T20:05:38] NLR: as soon as there is significant amount to be redistributed
+
+[2025-03-10T20:05:52] simon: OK
+
+[2025-03-20T16:53:11] NLR: Good news for the closing!
+
+Thanks again for your trust, and let us know for the future :)
+
+[2025-03-20T16:54:07] NLR: https://solscan.io/tx/9SJkfL5nNEvr65LEKwxW2dJW6fcH3HskiWPc9aYoxMgMgL5yh1Hge1TKm518iovTesGrr3G2WBhcojySSxJxgD5
+
+[2025-03-20T16:57:51] simon: thanks boss
+
+[2025-03-22T16:25:22] simon: Hello, boss, I want to know if the LPO dividend activity has completely ended?
+
+[2025-03-22T16:57:38] NLR: yes
+
+[2025-03-22T16:58:39] simon: Very good. I'm satisfied. I didn't lose money, I made some. I didn't sell the tokens that were given to me. I'll pledge them.
+
+[2025-03-22T17:00:25] simon: I'm sorry for being biased against you earlier. I admire your perseverance in work! I will raise funds for your project in the Chinese community at the right time. I've been busy with sonic ecology lately.
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

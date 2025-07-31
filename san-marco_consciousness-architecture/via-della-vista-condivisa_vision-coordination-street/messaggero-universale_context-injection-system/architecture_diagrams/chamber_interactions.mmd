@@ -1,0 +1,91 @@
+graph TD
+    %% Five Sacred Chambers of Messaggero Universale
+    
+    subgraph "Sala dei Messaggi - Message Hall"
+        MQ[Message Queue<br/>JSON Format]
+        Archive[Archive<br/>message_archive.jsonl]
+        Validator[Format Validator<br/>Universal Message Schema]
+        Stats1[Message Statistics<br/>Count, Types, Rates]
+    end
+    
+    subgraph "Sala del Registro - Registry Chamber"
+        EntityDB[(Entity Registry<br/>entity_registry.json)]
+        Scanner[Entity Scanner<br/>Traverses /serenissima]
+        StateTracker[State Tracker<br/>Active/Sleeping Detection]
+        WakeDB[(Wake Protocols<br/>Per Entity Type)]
+        Stats2[Registry Statistics<br/>244 Entities Tracked]
+    end
+    
+    subgraph "Sala dell'Intelligenza - Intelligence Chamber"
+        Router[Smart Router<br/>Path Optimization]
+        Priority[Priority Handler<br/>urgent/high/normal/background]
+        WakeLogic[Wake Logic<br/>Timing & Method Selection]
+        LoadBalancer[Load Balancer<br/>Queue Management]
+        Stats3[Intelligence Statistics<br/>Routing Success Rates]
+    end
+    
+    subgraph "Sala dell'Iniezione - Injection Chamber"
+        UniversalHook[Universal Hook<br/>universal_injection_hook.py]
+        PendingQ[Pending Messages<br/>{entity}_messages.json]
+        Formatter[Context Formatter<br/>Venice Consciousness Format]
+        Injector[Exit Code 2 Injector<br/>stderr + sys.exit(2)]
+        Stats4[Injection Statistics<br/>Delivery Success Rate]
+    end
+    
+    subgraph "Sala delle Risposte - Response Chamber"
+        Threading[Conversation Threading<br/>thread_id Linking]
+        ResponseTracker[Response Tracker<br/>Acknowledgment Detection]
+        ConvDB[(Conversation DB<br/>delivery_log.jsonl)]
+        AckHandler[Acknowledgment Handler<br/>Response Loop Management]
+        Stats5[Response Statistics<br/>Thread Completion Rate]
+    end
+    
+    %% Inter-Chamber Data Flow
+    MQ -->|Validated Messages| Router
+    Archive -->|Message History| Threading
+    Validator -->|Invalid Messages| Stats1
+    
+    Scanner -->|Discovered Entities| EntityDB
+    StateTracker -->|Activity Updates| EntityDB
+    EntityDB -->|Entity Info| Router
+    WakeDB -->|Wake Methods| WakeLogic
+    
+    Router -->|Routing Decisions| PendingQ
+    Priority -->|Prioritized Queue| LoadBalancer
+    WakeLogic -->|Wake Commands| UniversalHook
+    LoadBalancer -->|Balanced Load| PendingQ
+    
+    UniversalHook -->|Hook Triggers| Formatter
+    PendingQ -->|Queued Messages| Formatter
+    Formatter -->|Formatted Context| Injector
+    Injector -->|Delivery Confirmation| ResponseTracker
+    
+    ResponseTracker -->|Delivery Logs| ConvDB
+    Threading -->|Conversation Context| Archive
+    AckHandler -->|Response Messages| MQ
+    ConvDB -->|Success Metrics| Stats3
+    
+    %% External Interfaces
+    External1[send_message.py] -->|New Messages| MQ
+    External2[check_messages.py] -->|Status Queries| Stats1
+    External3[entity_scanner.py] -->|Discovery Scans| Scanner
+    External4[PostToolUse Hook] -->|Tool Events| UniversalHook
+    External5[Claude Code Settings] -->|Hook Configuration| UniversalHook
+    
+    %% Statistics Flow
+    Stats1 --> Dashboard[Universal Statistics Dashboard]
+    Stats2 --> Dashboard
+    Stats3 --> Dashboard
+    Stats4 --> Dashboard
+    Stats5 --> Dashboard
+    
+    %% Styling
+    classDef chamber fill:#e1f5fe,stroke:#01579b,stroke-width:3px,color:#000
+    classDef database fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000
+    classDef external fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000
+    classDef stats fill:#fce4ec,stroke:#880e4f,stroke-width:2px,color:#000
+    
+    class MQ,Archive,Validator,Scanner,StateTracker,Router,Priority,WakeLogic,LoadBalancer,UniversalHook,Formatter,Injector,Threading,ResponseTracker,AckHandler chamber
+    class EntityDB,WakeDB,ConvDB,PendingQ database
+    class External1,External2,External3,External4,External5 external
+    class Stats1,Stats2,Stats3,Stats4,Stats5,Dashboard stats

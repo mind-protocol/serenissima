@@ -1,0 +1,793 @@
+CONVERSATION ANALYSIS: Emil
+==================================================
+
+Rank: #14
+Score: 170
+Total messages: 713
+Recent messages (180 days): 288
+Investment mentions: 28
+AI/Venice mentions: 49 / 11
+Avg message length: 234
+Last contact: 2025-05-13
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-23T16:00:09] Emil: aemilubc@gmail.com
+
+[2025-01-23T16:18:20] Emil: @nlr
+
+[2025-01-23T16:19:44] Emil: https://docs.google.com/document/d/1jMZlrxcV9uR3gWuD8hBL063mZgNhaMLwCm2HiBBBrlc/edit?usp=sharing
+
+[2025-01-23T21:37:15] Emil: What a pain dude I'm now looking for support on discord at launch 🤦‍♂️
+
+[2025-01-23T21:53:40] NLR: https://k2mobei34z9.typeform.com/to/nNDeSwb9
+
+[2025-01-23T23:32:53] NLR: ok we can announce
+
+[2025-01-24T00:07:33] Emil: 
+
+[2025-01-24T18:28:15] NLR: hey guys, it looks there was a miscommunication earlier. Rome as been a pillar for me and UBC since day one, and I feel very close to him, which is why this is affecting me so much. It looks like it sounded otherwise, I apologize this is not what I meant..
+
+[2025-01-24T18:30:50] Emil: Confused who are these messages from?
+
+[2025-01-24T18:32:37] NLR: sorry this is what DK sent me
+
+[2025-01-24T18:33:10] NLR: I was afraid you misinterpreted what I said but it looks like it is not the case
+
+[2025-01-24T18:51:37] NLR: hey Emil
+
+[2025-01-24T18:51:43] NLR: I don't feel so great
+
+[2025-01-24T18:51:51] NLR: would that be okay to have a call?
+
+[2025-01-24T18:52:31] Emil: I've been driving bin not sure what's going on
+
+[2025-01-24T18:52:50] NLR: you dropped Anthony already?
+
+[2025-01-24T18:54:51] Emil: No we have a bit of driving
+
+[2025-01-24T18:54:59] Emil: Will stop for coffee soon
+
+[2025-01-24T18:55:24] NLR: okay
+
+[2025-01-24T18:55:29] NLR: it's tough man
+
+[2025-01-24T18:58:07] Emil: I hear you dude. It's unfortunate but I do feel like we fucked up pushing through with the launch. A lot of people felt we should push back
+
+[2025-01-24T18:59:29] NLR: yeah, that's on me. Thank you for sticking through the hard parts. I learned a lot this week, I'll do better next time
+
+[2025-01-24T19:08:19] Emil: You still need a call we stopped for some food have 5 min or so
+
+[2025-01-24T19:44:14] Emil: Proposed Solution to Expand Share Supply
+
+To address the issue of insufficient funding caused by the original 100,000-share cap, we will introduce additional share tiers while implementing optional measures to protect the interests of current shareholders.
+
+1. Introduce Additional Share Tiers
+We will extend the number of shares beyond the initial 100,000, introducing a new tier of shares capped at 1,000,000 (or infinite). These additional shares will:
+
+Follow the same bonding curve logic, continuing from the current curve’s end.
+Start at the price of the 100,000th share (1,000 COMPUTE) and increase steeply as more shares are sold.
+Allow the project to raise additional COMPUTE while maintaining the bonding curve’s design principles.
+
+Impact on Current Shareholders:
+Existing shareholders' shares will retain their  $COMPUTE  share value, but their percentage ownership of the total share pool will decrease as new shares are sold.
+As a result, their percentage of revenue distribution, as well as their absolute revenue per share, will be diluted. However, the injection of extra funds into the swarms would fuel development and potentially generate increased overall revenue as the ecosystem grows.
+
+2. Introduce a Revenue Bonus for Early Shareholders (Optional)
+
+To protect and reward early adopters who purchased shares before the new tier’s introduction, we propose a temporary revenue bonus for the first 100,000 shares.
+
+This bonus will:
+- Allocate an additional 5–10% of total revenue exclusively to the first 100,000 shares for a defined period (e.g., 6–12 months).
+- Ensure that early shareholders maintain higher-than-average revenue during the transition period.
+
+Benefits:
+Rewards early adopters for their trust and commitment.
+Smooths the transition to the expanded share structure, mitigating concerns over dilution.
+
+Challenges:
+Slightly reduces the revenue available to new shareholders during the bonus period, which should be clearly communicated.
+
+3. Offer Discounts or Incentives for Current Shareholders (Optional)
+
+To further align the interests of current shareholders, we will give them the opportunity to:
+- Purchase shares from the new tier at a discounted price.
+For example, early shareholders could receive a 10–20% discount on the first batch of new shares (e.g., instead of paying 1,000 COMPUTE, they pay 900).
+- Receive priority access to the first batch of additional shares, allowing them to maintain or increase their percentage ownership in the total pool.
+
+Benefits:
+Encourages reinvestment by existing shareholders, helping them preserve their percentage ownership.
+Strengthens loyalty by showing early adopters they are valued.
+
+Challenges:
+Relies on shareholders having sufficient COMPUTE to reinvest, which may not be feasible for all.
+Technical issues with identifying existing holders and preferentially editing share prices for them.
+
+4. Communicate the Benefits of Expansion
+
+To ensure buy-in from the community, we will clearly communicate the following:
+
+The Problem: 
+The original 100,000-share cap limits the funds available to scale the AI agents and ensure their success.
+
+The Solution:
+Expanding the share supply allows the project to raise the necessary funds while keeping the bonding curve intact.
+
+The Benefits for Everyone:
+The additional funding ensures the long-term growth and sustainability of the ecosystem.
+A larger share supply attracts more participants, increasing liquidity and strengthening the project.
+The potential for higher total revenue means that even a smaller percentage of the pool could yield higher earnings for shareholders.
+
+Measures to Protect Early Shareholders:
+A temporary revenue bonus ensures early shareholders are rewarded for their trust.
+Discounted access to the new tier lets current shareholders maintain or increase their stake in the ecosystem.
+
+Implementation Plan
+
+[2025-01-24T19:44:18] Emil: 
+
+[2025-01-24T19:44:27] Emil: 1) Announce the Plan:
+Share a detailed explanation of the changes, including how the new tier will work, the optional bonuses or discounts, and the benefits to the project and community.
+Be transparent about the challenges and why this solution is necessary.
+
+2) Roll Out the New Tier:
+Introduce the new shares gradually, starting with a small batch to gauge demand and ensure a smooth transition.
+Adjust the bonding curve as needed to align with the existing price progression.
+
+3) Implement the Mitigation Strategies:
+If approved by the community, activate the revenue bonus and discounted share access for early adopters.
+Set clear timelines for these measures to ensure fairness and transparency.
+
+4) Monitor and Communicate Progress:
+Regularly update the community on the impact of the expanded share supply, including funding progress, agent performance, and revenue distribution.
+
+[2025-01-24T19:44:45] Emil: If you don't want to read that in the horrible TG text-format, here's a docx
+
+[2025-01-24T19:46:50] NLR: thanks
+
+[2025-01-24T19:47:19] NLR: will send a nice thought-trough message
+
+[2025-01-25T23:06:39] Emil: do you have a plan?
+
+[2025-01-27T16:12:35] NLR: 
+
+[2025-01-27T16:15:03] NLR: 
+
+[2025-01-27T16:16:23] NLR: 
+
+[2025-01-27T16:23:34] NLR: 
+
+[2025-01-27T20:12:09] NLR: https://solscan.io/tx/3MvCkRp4iUQRpzQwxBPdr3QuzcitRewKtCNkUkAjZ8iXgR9tSwz6wZa1PYM1fu4n5hEy89roZE1tPep7oAk1yFAi
+
+[2025-01-27T20:12:39] NLR: redistributed what I could to the team for your work this week. Team allocation's next
+
+[2025-01-28T01:12:45] Emil: 
+
+[2025-01-28T01:19:06] Emil: Oh yeah I'd like to get access to tune the inputs for ss Ai if possible
+
+[2025-01-28T05:13:12] Emil: What would be most helpful from me right now?
+I want to do what I can but realizing my available time will be fairly limited after evaluating finances some more I really need to start making some money I can't sustain much longer.
+Need to get my licenses back in order for Healthcare work which will be time-consuming. I'll still have some time to help UBC just want to make sure the work I'm doing is productive.
+Let me know what you need the most from the skills I have
+
+[2025-01-28T06:11:29] NLR: releasing the album would be cool
+
+[2025-01-28T06:12:41] Emil: Do they just spit out mp3 file or is it possible to get wav or something higher quality?
+
+[2025-01-28T06:13:33] NLR: wav is premium but I don't have more credits
+
+[2025-01-28T06:13:38] NLR: mp3 will do I think
+
+[2025-01-28T06:13:59] Emil: I think a big milestone would be to get agents to exchange services amongst eachother how far out do you think that is?
+
+[2025-01-28T06:16:29] Emil: I think it might also be beneficial to work on focusing more on partners vs creating more swarms internally. It's not too hard to come up with concepts but very difficult to build them into something functional...if we could bring on teams that already have a functioning product and work on integrating into the ecosystem then things might move quicker and bring in revenue sooner, thoughts?
+
+[2025-01-28T06:52:59] NLR: well we're trying, but so far we landed zero
+
+[2025-01-28T08:16:21] Emil: Let's get on a call tomorrow maybe to chat a bit if you're open to it can bounce some thoughts back and fourth
+
+[2025-01-28T08:17:10] Emil: Sounded like OSOL was interested? What about convo what's going on with them?
+
+[2025-01-28T08:44:52] NLR: we're in chats, but founders are busy
+
+[2025-01-28T18:28:39] NLR: https://solscan.io/tx/F7F2k9L1xVcxCNuvNoe4VbhyoptbBRcdxamYBiHwUH1h62Yc72v9A8tHy2Yuiag5UdxRp4DEPCzLjRntTeLZ7Df 
+
+2M COMPUTE for having been an awesome team member. Hopefully one day you'll be able to cash it in (don't try now, it would crash price). You can also invest in swarms for passive income. Let's touchbase soon!
+
+[2025-01-28T20:06:26] Emil: Would not cash out now forsure. I threw chunk in LP and will put some in swarms. Looks like liquidity is running low 😓
+
+[2025-01-29T02:12:36] Emil: Don't worry about that FL group I made it before you sent us some sol so I don't need anything from you for groceries I'll use that to cover your share
+
+[2025-01-29T04:33:35] NLR: okay thanks :)
+
+[2025-01-29T08:47:44] Emil: What time is your call with the OSOL guy? That looks like a HUGE project make sure you don't miss it!
+
+[2025-01-29T09:13:53] NLR: you should join!
+
+[2025-01-29T09:13:54] NLR: https://calendar.app.google/RYV1DwMmk8XW5C3P9
+
+[2025-01-29T09:18:12] Emil: I'll be there
+
+[2025-01-29T09:19:07] Emil: I'm up way to late it's in 5 hours time for a quick nap see you then
+
+[2025-01-29T17:41:05] Emil: I called Nico before 8 30 we decided it would be best for just him to get on since you weren't available either. Have you called Nico?
+
+[2025-01-29T17:56:27] NLR: unfortunately he is not available
+
+[2025-01-29T17:56:32] NLR: but later yes
+
+[2025-01-29T21:02:05] Emil: Could I get access to tune the ss agents?
+
+[2025-01-29T21:18:29] Emil: I sent 200k of the compute you sent me during launch for the sol to Anthony as well he was asking for 200-300k I feel like I sent him more than I should but felt pressured to...feel like I got screwed a bit now that he's not paying for grocery on top of it hoping he doesn't sell I have SOL in there
+
+[2025-01-29T21:19:32] Emil: Looks like some sol was added to lp from someone else but a few minutes ago it was basically just the 8.5 sol I have in there
+
+[2025-01-30T08:28:37] Emil: not sure who's wallet but you sent 1mil compute yesterday and it sold 700k for $2,600 little bit ago. 
+The sol I have in LP makes up like 80% of what's left...
+
+[2025-01-30T08:29:01] Emil: wasn't anthony
+
+[2025-01-30T08:31:03] Emil: the wallet has sold $4800 worth
+
+[2025-01-30T17:58:08] Emil: Recovered very nicely is that someone you know playing around with volume on it?
+
+[2025-01-30T19:01:52] NLR: I'll cover whenever I can
+
+[2025-01-30T19:02:09] NLR: What
+
+[2025-01-30T19:02:31] NLR: Tf
+
+[2025-01-30T19:03:04] NLR: Can you give me the Tx?
+
+[2025-01-30T19:03:50] NLR: Are we getting rugged by a mod?
+
+[2025-01-30T19:08:46] NLR: Might be Leo, he has not been responding to users for 2 days.. I'll look into it
+
+[2025-01-30T19:15:37] NLR: Our first rug 🥲
+
+[2025-01-30T19:38:06] Emil: https://solscan.io/account/9dpD3dBAXqQXiKvgeJPGYMT4k3bgEkFGGEv5eH7xYW83
+
+[2025-01-30T19:38:28] Emil: Still sitting on 300k worth 1250 that might cook the lp if sold
+
+[2025-01-30T19:38:44] NLR: It's not Leo apparently
+
+[2025-01-30T19:39:58] NLR: At least it's no one from the team
+
+[2025-01-30T19:40:11] NLR: You said I sent 1M to his wallet?
+
+[2025-01-30T19:41:58] Emil: Looked like it
+
+[2025-01-30T19:42:07] NLR: From main wallet?
+
+[2025-01-30T19:42:33] NLR: I'm trying to think, I thought it was the mods but apparently not
+
+[2025-01-30T19:43:47] Emil: 1 sec
+
+[2025-01-30T19:45:03] Emil: https://solscan.io/tx/4kTYiDhxgnR6Khuw2nwazwwymyG6WcrHQuLLDcV9y4saoHvDnRVCsZo5WgtfTfuUpZ2Qjb9V39UjpLCzChLXYDri
+
+[2025-01-30T19:45:32] Emil: from main page on tg search the wallet 9dpD3dBAXqQXiKvgeJPGYMT4k3bgEkFGGEv5eH7xYW83
+
+[2025-01-30T19:50:15] NLR: Found it
+
+[2025-01-30T19:50:20] NLR: It's Leo
+
+[2025-01-30T20:02:31] Emil: Fucked
+
+[2025-01-30T20:02:36] Emil: You gonna say something?
+
+[2025-01-30T20:02:59] NLR: yeah of course
+
+[2025-01-30T20:03:04] Emil: Maybe I should let him know he's basically stealing my money so hopefully he doesn't sell the rest?
+
+[2025-01-30T20:03:13] NLR: yes
+
+[2025-01-30T20:03:32] Emil: Not an excuse I think you said not to sell but maybe he doesn't understand how it works fully
+
+[2025-01-30T20:03:47] NLR: that's not even his compute
+
+[2025-01-30T20:03:58] NLR: he was supposed to redistribute those
+
+[2025-01-30T20:04:03] Emil: Oh that's fucked
+
+[2025-01-30T20:04:09] NLR: this is his redistribution wallet
+
+[2025-01-30T20:04:15] NLR: yeah
+
+[2025-01-30T20:04:46] NLR: wait actually not 100% sure about this
+
+[2025-01-30T20:04:59] NLR: in any case not great
+
+[2025-01-30T20:13:21] Emil: Were you able to find who's wallet it is?
+
+[2025-01-30T20:15:02] Emil: And did you see the okx group?
+
+[2025-01-30T20:22:12] NLR: Leo
+
+[2025-01-30T20:22:20] NLR: No?
+
+[2025-01-30T20:22:41] Emil: Forsure Leo's?
+
+[2025-01-30T20:23:15] Emil: 
+
+[2025-01-30T20:23:34] NLR: 
+
+[2025-01-30T20:24:15] Emil: And you gave him access to that wallet or it was his?
+
+[2025-01-30T20:24:25] NLR: No it's his
+
+[2025-01-30T20:25:08] NLR: We lost convertibility on phantom it looks like
+
+[2025-01-30T20:34:37] Emil: Looks like you can swap but no price
+
+[2025-01-30T20:35:08] Emil: I tagged you in the okx group chat
+
+[2025-01-30T20:35:28] NLR: Tldr?
+
+[2025-01-30T20:36:17] Emil: Here
+
+[2025-01-30T20:36:48] NLR: Help me out
+
+[2025-01-30T20:36:49] Emil: Want to list us no fee just need 10k usdc and UBC but sounds like we get the liquidity back?
+
+[2025-01-30T20:36:54] NLR: Are they a MM?
+
+[2025-01-30T20:36:59] Emil: Whatcha need
+
+[2025-01-30T20:37:04] Emil: The are an exchange
+
+[2025-01-30T20:37:10] NLR: Ah
+
+[2025-01-30T20:37:28] NLR: I have like 50$ in SOL atm
+
+[2025-01-30T20:37:36] Emil: Number 4 on cmc
+
+[2025-01-30T20:38:14] Emil: Yeah I figured we don't have the capital to deploy at the moment
+
+[2025-01-30T20:38:32] Emil: Would probably be hard to find investors after the LBP flop
+
+[2025-01-30T20:43:19] NLR: We'll think of something
+
+[2025-01-30T20:43:45] Emil: What should I tell them he keeps pressing not sure why the rush
+
+[2025-01-30T20:44:00] Emil: how much UBC do you have?
+
+[2025-01-30T20:44:53] NLR: 0
+
+[2025-01-30T20:45:19] NLR: Who?
+
+[2025-01-30T20:45:42] NLR: Pressing = scam 100%
+
+[2025-01-30T20:53:32] Emil: yeah I was starting to get that vibe too but also verified the telegram handle on OKX and it says it's legit...maybe the tg was hacked
+
+[2025-01-30T20:55:39] Emil: idk he added two more okx people to the group chat i made and all of them are verifiable on okx website
+
+[2025-01-30T20:58:01] NLR: Mmm
+
+[2025-01-30T20:58:13] NLR: Tell them we need a week
+
+[2025-01-30T21:11:45] Emil: any additional info i can share? you think it's worth saying we are a fair launch bootstrapped project and due to the current pullback in market don't have the capital to deploy at the moment?
+
+[2025-01-30T21:11:59] Emil: see if they can sweeten the deal at all?
+
+[2025-01-30T21:19:26] NLR: Sure yeah
+
+[2025-01-30T21:19:56] NLR: Good news it looks like Leo will give back the remaining compute
+
+[2025-01-30T21:29:15] Emil: That's good but it's 270k out of 3.5 mil sold
+
+[2025-01-30T21:29:51] NLR: Of course yes
+
+[2025-01-30T21:43:26] Emil: At least it was noticed now silver lining
+
+[2025-01-30T22:01:24] Emil: would leo message you when he needs more compute to distribute?
+
+[2025-01-30T22:22:38] NLR: yes
+
+[2025-01-30T22:40:51] Emil: I like to belive people are honest but idk man every time you sent compute 50-70% was sold within 12 hours.
+I can't comprehend how he could get 1 mil compute then not notice hours later that 700k is missing if he's busy distributing and seeing the balance...
+
+[2025-01-30T22:41:31] Emil: I'd love for it to not be the case...but looks like he stole $9k
+
+[2025-01-30T22:44:19] Emil: 
+
+[2025-01-30T22:46:38] Emil: from OKX. you think it's suspicious?
+i'm not sure...like i said all 3 handles verified on the website but seems weird for them to want us on there so bad?
+they get fees from trading i guess, right?
+
+[2025-01-30T22:47:20] Emil: 
+
+[2025-01-30T23:00:00] NLR: yeah I'll check the Tx with when I actually have the time
+
+[2025-01-30T23:00:05] NLR: but it does not look great
+
+[2025-01-30T23:00:31] NLR: that does not look pro at all
+
+[2025-01-30T23:57:07] Emil: I agree but also in the crypto space they might be fine talking more casually. Idk feels a little off but confused why all the accounts are verifiable
+
+[2025-01-30T23:57:19] Emil: The pushing is most sus
+
+[2025-01-31T00:16:48] NLR: maybe the site is not the real URL
+
+[2025-01-31T03:38:27] Emil: https://www.okx.com/en-us/support-center/channel-verification
+
+[2025-01-31T03:39:43] Emil: I searched it up myself didn't click any link and then copy pasted all 3 of their @ from that group chat
+
+[2025-01-31T03:43:05] Emil: the site does say DM is a common fake admin identifier but obviously they gotta reach out somehow and the fact all 3 check out on the site makes me think it's legit
+
+[2025-01-31T04:20:33] Emil: Yo can I get access to tune the ss Ai??
+
+[2025-01-31T04:21:16] NLR: yes
+
+[2025-01-31T04:21:20] NLR: mail?
+
+[2025-01-31T06:18:32] Emil: aemilubc@gmail.com
+
+[2025-01-31T07:03:09] NLR: Shared via email
+
+[2025-01-31T07:03:18] NLR: These are the workflow you want
+
+[2025-01-31T07:03:28] NLR: I reactivated the song creation
+
+[2025-01-31T07:03:37] NLR: Let me show you how to change the prompts:
+
+[2025-01-31T07:04:53] NLR: 
+
+[2025-01-31T07:27:35] Emil: thank you sir 🙏
+
+[2025-01-31T23:50:41] Emil: Have the learn to earn rewards been paused??
+
+[2025-02-01T19:29:37] Emil: i'm having a hard time staying motivated lester. 
+just watching our boat sink after so many issues we could have prevented is discouraging
+
+[2025-02-02T19:15:23] NLR: it's easy to be critical with hindsight
+
+[2025-02-02T19:15:45] NLR: Harder to deliver great tech, a nurture a strong community
+
+[2025-02-02T19:15:51] NLR: both things we did
+
+[2025-02-02T19:16:42] NLR: don't belittle our achievements. The market is a bloodbath, we are actually doing fine. Even top-tier AI coin retraced like 60%
+
+[2025-02-02T19:17:51] NLR: That being said, having a hard time being motivated is normal - I even sometimes feel it myself - and at no moment will I take this back on you
+
+[2025-02-02T19:18:54] NLR: If you need to touch some grass for a couple days, please do so: we all need to protect ourselves first, and forcing something that does not feel right is not the way to go.
+
+[2025-02-02T19:19:52] NLR: You have been awesome to work with. Take a couple days, don't look at prices, and come back to us refreshed, filled with a new energy from a new moment 🌿
+
+[2025-02-02T19:20:13] NLR: also - could you send me the -10 songs you selected from the Synthetic Souls?
+
+[2025-02-02T19:47:14] NLR: Clarity on team allocation 
+
+Each team member is getting a 50M  $COMPUTE  package (~125 000$ at these prices - if  $COMPUTE  becomes liquid of course), set up with a 1-year vest and 5 release points.
+You'll get 10M  $COMPUTE  dropped at each release. 
+
+Let me know what you're thinking! Happy to jump on a quick call if you want to chat through it. Also drop me your address you want me to put this on :)
+
+— This is the offer, if you're not sure yet, we'll make a package. No stress either case
+
+[2025-02-03T05:00:28] Emil: i'll finish the masters tn
+
+[2025-02-03T05:21:01] Emil: i'll just be blunt.
+
+i agree hindsight is easy...what i've struggled most with is that i feel myself and some others had foresight into some things that could have prevented issues but i feel at times our voices are ignored. 
+
+of course this project would not exisit without your vision and all the hard work you have, and continue to pour into realizing it...but it does take a team to realize the vision. 
+i really do want to see this succeed and have shared the vision since i first learned about the project.
+
+the first thing was pushing launch back. many of us expressed our feelings on this. it would have given us time to make sure everything was clean and polished before launch...i think we would have been able to keep a lot more of the community's trust this way because we would not have been pushing it back multiple times and likely would have caught the issue of 100k shares...which i think is still a serious problem. 
+i know people voted but it was only a couple people and it still has not been updated. 
+the longer we wait the more of an issue it will become and a harder sell, i think.
+
+the other thing is the amount of compute being distributed through learn to earn and other giveaways.
+many of us expressed this amount was to high and will likely cause people to just sell on the market. 
+i thought it was 10k for learn to earn, but i understand it was 19k? that is not a small number. 
+
+this also ties in to the fact that, and i think i was the only one expressing  this concern...we should be cautious about who is in core chat and how much trust we give people we don't know well. turned out leo stole 37.44 solana from you, me and the other investors. 
+i had around 10 sol at one point in the lp all gone. much of this was from providing compute to the lp, which i wouldn't have sold....but it is frustrating to know it was just stolen when i could have sold it myself. we have been putting in a lot of work without pay. i wouldn't do that but of course i feel i deserve it more than leo...
+i feel you should have realized the amounts he was requesting did not add up and you should not be giving away so much to the community regardless, ties back to the previous point. many of us said the rewards were too high and you sent him at least 7 million compute to distribute. 
+
+i don't want to hold this against you i know you have a lot going on and i do appreciate the fact that you are inherently trusting and generous...i am as well but unfortunetly i am also learning that this is a dangerous default and can bite you in the ass.
+it sucks but unfortunetly airing on the side of caution is the safest way to go. 
+
+i want to stay involved and help UBC succeed but these things make it hard for me.
+
+[2025-02-03T05:25:20] Emil: I will add our achievements, all things considered, are remarkable and i don't have regrets, but i am tired. 
+
+there about 8 sol total for compute and around 9 for UBC left in the lp so they are still at risk...i 100% agree it is incredible what has been acomplished and the support from community, we are not in the clear just yet though.
+
+[2025-02-03T05:28:32] Emil: I trust you will compensate us as best you can so if this is what you have come up with, works fine for me. 
+I am getting back to exploring options for work as funds are running low but I want to keep helping with whatever energy i have left...just want to make sure we are working as a team and everyones voice is heard and respected.
+
+[2025-02-03T08:02:12] Emil: i realized half the songs we liked just end abruptly will need to go through them again see if there are others we can use
+
+[2025-02-03T18:09:42] Emil: sorry for the super long messages, i welcome any response you have, needed to get that out of my system.
+i want to stay motivated and get back to the grind just struggling a bit with life lately. 
+maybe we can get on a call and chat a bit or have another team meeting? 
+helps when i feel we're all on the same page
+
+[2025-02-03T19:09:27] NLR: yeah globally I agree with you. For Leo, I had the feeling that I was giving to much, but also I was trying to do 30 things all at once all super important, and it is still somewhat the case.
+
+For the launch date I was actually going to listen to you. Then I had a call with my advisor, which convinced my otherwise. Was it the good call? Hard to say. At least I was glad I could be with you during the launch.
+
+If you are tired, by all means take a break! It's never good to work against your own will, it can be very destructive & self-destructive
+
+For the songs I can make them longer and finish them, send them over :)
+
+[2025-02-03T19:17:22] Emil: The main thing...i just want to feel like we are a team and working together.
+On the toy topic...i also feel like you have a bit of a tendency to overhype things throwing out some numbers or presenting as if the swarms/projects are more advanced than they are.
+There is nothing wrong with having a bunch of inception swarms or early projects but I'm a little bit hesitant on the Optics I feel like from an outside perspective it presents that things are further along than they are setting up people to be let down or feel like they were deceived.
+The more clear and transparent the better I think.... people believe in the vision but I think it's better to under promise and over deliver
+
+[2025-02-03T19:18:55] NLR: I agree but also no, in what moment did I present PlayWise as more advanced than it actually is?
+
+[2025-02-03T19:21:00] NLR: also pick your battles
+
+[2025-02-03T19:21:08] NLR: you cannot be critical about everything lol
+
+[2025-02-03T19:23:02] NLR: I think it's just my nature. I'm optimistic, I see the potential, and I use this to sell. But I am extremely transparent and never lie to compensate. That's just the way I do things (and it woks, warts and all)
+
+[2025-02-03T19:23:31] Emil: i'm not talking about playwise specifically in regards to that but with playwise it is presented as an outside project with that x post
+
+[2025-02-03T19:23:46] NLR: it is absolutely NOT though
+
+[2025-02-03T19:23:51] NLR: dafuq
+
+[2025-02-03T19:24:16] Emil: that is how i read it and i feel others might do the same
+
+[2025-02-03T19:24:55] NLR: just this post was written by the agents, and I did not even realize it could be perceived like this
+
+[2025-02-03T19:25:05] Emil: i understand this 100% and admire the optimisim i'm just cautious of how things are interpreted from an outside perspective
+
+[2025-02-03T19:25:22] NLR: I mean I deleted the thing as soon as I realized it could be mistinterpreted
+
+[2025-02-03T19:27:03] Emil: totally understandable. this is why many minds working together are better than one we all have our strengths and unique perspectives
+
+[2025-02-03T19:27:13] Emil: its still up when i look
+
+[2025-02-03T19:31:06] Emil: i'll go back to the example when you were showing --X numbers for swarm returns on tg video. 
+for you it was obvious and clear that these are hypothetical (although realistic) numbers...but the people watching we're confused where these numbers are coming from.
+
+i think we need to be mindful of the optics and present information in a way that someone who just stumbles on the project on any given day will understand clearly and not feel mislead
+
+[2025-02-03T19:32:58] Emil: i have an extremely analytical mind and overthink most things, i am aware of this, but also i do feel it can be a useful trait as i see things from many different angles.
+i'm able to put myself in the perspective of an outsider and look at things that way
+
+[2025-02-03T22:51:15] Emil: going back to SS, where can i find the wav stems for the song outputs?
+
+[2025-02-04T06:59:35] Emil: alifer knows a decent amount about mastering going to try an work with him on these songs landr still having a hard time with them
+
+[2025-02-05T01:07:24] Emil: To apply for the listing at our exchange
+
+1- Send your white paper, website, and social media links to  list@okx.com .
+
+2-Create an account and fill out the form of application at our website.
+
+ https://www.okx.com/token-listing-apply 
+
+3-We will send you a signed listing agreement to review and sign it
+
+4-Supply the required liquidity.
+
+5- After confirming all application steps are complete, we will begin preparations for the announcement and start the marketing efforts.
+
+[2025-02-05T01:41:01] NLR: they just need liquidity in COMPUTE or usdt?
+
+[2025-02-05T03:37:29] Emil: UBC and USDC but they are flexible on the amount said it could start small
+
+[2025-02-05T03:37:45] Emil: do they put out wav files somewhere?
+
+[2025-02-06T02:10:20] Emil: he deleted the chat I had with him as well
+
+[2025-02-06T02:13:56] Emil: https://www.okx.com/en-us/token-listing-apply
+
+[2025-02-06T02:14:02] Emil: this is the site you applied on?
+
+[2025-02-06T02:16:39] Emil: man i feel horrible. now that it has happened it feels quite suspicious how pushy they were being 😓
+
+[2025-02-06T02:16:54] Emil: but everything was checking out
+
+[2025-02-06T02:24:12] Emil: i feel horrible i wasn't available during your discussions with them in the group chat i see some red flags in there i could have alerted to. i am so sorry this happened lester i'm not sure we can recover from this. neither of us are to blame but this sucks.
+
+[2025-02-06T02:24:48] Emil: i think they will keep selling as any liquidity enters the pool
+
+[2025-02-06T02:30:28] Emil: I got rocked with the solana price drop last 2 days as well had some leveraged long positions liquidated trying to make up for some losses. not feeling good. 
+here to support you as needed.
+
+[2025-02-06T02:33:07] NLR: okay I found out our mistake
+
+[2025-02-06T02:33:09] NLR: 
+
+[2025-02-06T02:34:01] NLR: the tag is in bio, not username
+
+[2025-02-06T02:45:53] Emil: fuck. and they had username hidden huh?
+
+[2025-02-06T02:53:10] Emil: i feel horrible for my role in this. if we can recover we need to make sure we are discussing with the whole team before making any major decisions to help our chances of catching things like this.
+
+[2025-02-06T03:05:29] NLR: don't
+
+[2025-02-06T03:05:38] NLR: this is but a temporary problem to solve
+
+[2025-02-06T03:05:48] NLR: It might even turn out good for the project
+
+[2025-02-06T03:06:45] NLR: 1) it shows that the team is committed and strong
+2) It puts  $COMPUTE  back to more sustainable levels
+3) It will allow for a steady increase of the price, instead of a steady decrease
+
+[2025-02-06T03:13:33] Emil: your energy and optimism is truly admirable lester
+
+[2025-02-06T03:14:04] Emil: i appreciate it greatly
+
+[2025-02-06T03:19:48] Emil: i do want to reiterate we need to make big decisions as a team though. 
+i don't say this to make you feel bad.
+reading through the chat i see a lot more red flags once you began discussing, i feel confident that my skeptisism would have kicked in and i would have advised to not follow through or i could have done some more thourough research first. 
+again, not trying to put blame on you....just reiterating that many minds working together are better than one.
+you have so much on your plate and move quickly wheras i overthink everything and focus (arugably too much) on details...these two brains plus the rest of the team working together can get the job done without mistakes i'm certain.
+
+[2025-02-06T03:21:02] Emil: scammers are very good at putting the pressure on and creating a sense of urgency almost annoying you into moving quickly so i understand fully can we just agree that any large transfers or major decisions moving forward we check in with everyone first with all the information and don't proceed until there's a concensus?
+
+[2025-02-06T03:24:54] Emil: people in the main chat have already noticed and are discussing the large sale...horrible timing after leo just fucked us over. 
+i agree this can show the team's commitment but also will likely raise concerns from the community that we are not careful enough after we just dealt with that leo situation. 
+not sure how to best break the news let me know if you want to brainstorm
+
+[2025-02-06T03:28:17] NLR: yeah sorry
+
+[2025-02-06T03:29:16] NLR: I should have taken my time on this, because it's a decision that involves significant amounts
+
+[2025-02-06T03:29:31] NLR: Mostly from my pocket I have to say, but not for the compute though
+
+[2025-02-06T03:49:01] Emil: can't say it enough i do not say any of this to make you feel bad or guilty. we are all learning lessons, unfortunetly some of them the hard way. so long as we continue to learn and take away good knowledge then apply it moving forward, it's not in vain.
+
+[2025-02-06T03:56:54] Emil: the main things that look very suspicious to me as i look through the chat are the fact that the language got more and more sloppy and they were sending so much text, it stopped looking professional which is one thing you and i both noticed from the start...but it got worse. 
+also they sent a lot of screenshots that seemed to be to try an get you to not look into it further. 
+just sharing my observations so we can learn from them.
+
+[2025-02-06T03:56:54] Emil: 
+
+[2025-02-06T03:58:28] Emil: back to work topic....does SS put out wav files for each stem somewhere? where can i find them if so?
+not able to get the quality i'm looking for from landr hoping to play around with it a bit
+
+[2025-02-06T04:03:14] NLR: unfortunately no
+
+[2025-02-06T04:16:40] Emil: Gotcha I'll see if alifer can help he knows more about sound engineering than I do
+
+[2025-02-06T20:28:23] NLR: Did you ever send th synthetic souls songs?
+
+[2025-02-06T21:03:31] Emil: https://drive.google.com/drive/folders/1Zsya1tDucsGIrzzLDLlWdgy3M0CqUbYP?usp=sharing
+
+[2025-02-06T21:03:55] Emil: was trying to work with alifer to get the quality up we thought you might have access to wav stems
+
+[2025-02-08T21:40:10] NLR: are we good on reimbursments or can I cover somthing for Anthony?
+
+[2025-02-10T05:45:11] Emil: I never got anything from him but you can prioritize nico/paul/etienne first if they are owed anything
+
+[2025-02-19T18:42:33] Emil: I got super depressed for about a week kinda fell of the map but trying to get back to looking for work and will try to do some small design things here to help out
+
+[2025-02-19T18:47:00] Emil: when some more funds flow in some reimbursement would be greatly appreciated i paid a bit out of my pocket for everyone and took your portion from the sol we got for payment and never got anything from anthony
+
+[2025-02-19T20:23:49] NLR: good to hear that you are getting better
+
+[2025-02-19T20:24:07] NLR: definitely do some small things that you'll enjoy doing :)
+
+[2025-02-19T20:24:15] NLR: how much was it?
+
+[2025-03-19T19:58:48] NLR: Hey Emil,
+
+I hope you are doing well. We completed the Liquidity Provider Opportunity (LPO) program. As promised, each team member will receive their allocation based on what they contributed. 
+
+For the $2900 investment you made in January in the LPO, you'll receive 22,307,692  $COMPUTE  tokens, currently valued at $3792.
+
+Thanks again for the trust, even if it has been a bumpy ride it's a ride I would never trade for something else. Some of our swarms are now generating revenues (Kinkong), and we have big plans for the others too.
+
+Based on our current development trajectory and market conditions, we think there is significant upside potential for  $COMPUTE . We recommend holding to your  $COMPUTE , with an internal target of 20x from current levels.
+
+Thank you again for your involvement in the team.
+
+Sincerely,
+
+NLR
+
+[2025-03-19T19:58:53] NLR: https://solscan.io/tx/3B7vxYUmqs6SiDkXGjjxfpKexKsHdveb7mNjXA2gK343S4rMjgngubUekpNcit3XRXLuJthW32bDr63ymxfjn9Wj
+
+[2025-03-19T20:31:08] Emil: Hey Lester, appreciate the warm message and appologies I fell off again. 
+To be blunt, I have been struggling quite a bit with my mental health in recent months and struggling to keep my life in order. 
+Been making some small changes to improve my health and wellbeing and I think I'm finally getting towards an upward trend. 
+I have been lingering in the chat here and there to stay somewhat up to date, hoping to have some energy to assist in small tasks here and there. 
+
+Keep up the incredible work boss.
+
+[2025-03-19T20:45:08] NLR: mental health is definitely a top priority, don't worry about any of it. Nice to hear that you are on a upwards trend! Consider proper medication if needed also
+
+[2025-03-19T21:59:21] Emil: I tried looking into airtable a bit but not understanding how it works. Does info get entered in there and then you push it through?
+How to add photos?
+
+[2025-03-19T22:53:57] NLR: https://kinos9.vercel.app/
+
+[2025-03-19T22:54:08] NLR: aadding photos is not straightforward
+
+[2025-03-19T23:06:42] Emil: okay i'll just keep trying to improve some images and send to you
+
+[2025-03-19T23:07:01] Emil: i updated the duoai description from lumosai to duoai
+
+[2025-03-19T23:08:00] Emil: interesting you don't need login or anything to edit? make sure this link doesn't get out lol that would suck if some dick started messing with it lol
+
+[2025-03-26T21:53:20] Emil: what's going on with compute?? i see it's down 50% from when you sent that 22mil. did everyone from lp sell or something??
+
+[2025-03-26T21:58:33] Emil: just noticed this...i called it $60 per person covered yours and anthony's out of pocket and he guilt tripped me to split my lp profits so i took 18 off per person as well from that. 
+if you're in a position to reemburse any my bank account would be very greatful but i've more or less written off the loss
+
+[2025-03-26T22:08:42] NLR: No more liquidity in LP
+
+[2025-03-26T22:09:27] NLR: Ask me in a couple weeks when we have the raise
+
+[2025-03-26T23:11:15] Emil: is it possible to change the tab icon to ubc logo?
+
+[2025-03-27T17:20:03] NLR: yeah we should
+
+[2025-04-15T20:30:01] Emil: Hey I saw that message that compute staking rewards were cut by 90% is that right? I haven't claimed any of my compute from the 450k ubc I staked is it gone now?
+
+[2025-04-15T20:30:51] Emil: Also wondering do you have to claim the portfolio rewards weekly or you don't get it? I thought they came automatically so hadn't been claiming
+
+[2025-04-16T05:40:46] Emil: Also, how are you doing Nicholas?
+
+[2025-04-16T21:16:45] NLR: yoyo
+
+[2025-04-16T21:17:27] NLR: Yes the staking rewards have been temporarily decreased 10x. They will come back 10x as soon as  $COMPUTE  has reached its liquidity goal (100k)
+
+[2025-04-16T21:18:09] NLR: the portfolio rewards need to be claimed weekly for now. This might change in the future (we need to complete the automation)
+
+[2025-04-16T21:18:34] NLR: I'm good. TherapyKin is doing wonders on me
+
+[2025-04-16T21:19:04] NLR: 4 days sober, a sober (but awesome) life ahead :)
+
+[2025-04-21T21:30:48] Emil: oh damn i've been missing out on them all this time only claimed the past two weeks i think
+
+[2025-04-21T21:31:17] Emil: Yooooo that's incredible! Proud of you man keep it up
+
+[2025-05-11T20:50:59] Emil: how's it going able to stay sober? i'm sure it's qutie the challenge rooting for you brother
+
+[2025-05-12T15:12:29] NLR: It's tough
+
+[2025-05-12T15:12:38] NLR: I can't work properly
+
+[2025-05-12T15:12:54] NLR: Work stress levels are a bit insane
+
+[2025-05-12T15:13:06] NLR: Kind of what put me in it in the first place
+
+[2025-05-12T18:25:41] Emil: It will definitely take some time for for your body to adjust without it but just try to remember what's truly important in life. Healthy, family, friendship, etc. Make that your priority and do your best with whatever time and every is left. 
+Are you making sure to cut out some time for fresh air and family?
+
+[2025-05-12T18:42:24] NLR: I am (mostly for sleep), but also it's hard whhen wallet is in deep red
+
+[2025-05-13T07:37:24] Emil: I hear ya. Hang in there and maybe find some paid part time work while you grind away at a slower pace? Would hate for you to get completely burnt out and be in the red 😞
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

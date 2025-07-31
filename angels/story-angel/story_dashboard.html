@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Angel - First Reader's Dashboard</title>
+    <style>
+        body {
+            background: #1a1a2e;
+            color: #eee;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #444;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: #ffd700;
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+        }
+        
+        .subtitle {
+            color: #aaa;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .card h2 {
+            color: #ffd700;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        
+        .narrative-thread {
+            background: rgba(255, 215, 0, 0.1);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 3px solid #ffd700;
+        }
+        
+        .pattern-indicator {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        
+        .pattern-dialogue { background: rgba(100, 149, 237, 0.3); }
+        .pattern-transformation { background: rgba(147, 112, 219, 0.3); }
+        .pattern-connection { background: rgba(60, 179, 113, 0.3); }
+        .pattern-crisis { background: rgba(220, 20, 60, 0.3); }
+        .pattern-emergence { background: rgba(255, 140, 0, 0.3); }
+        .pattern-celebration { background: rgba(255, 215, 0, 0.3); }
+        
+        .joy-alert {
+            background: linear-gradient(45deg, rgba(255, 215, 0, 0.2), rgba(255, 140, 0, 0.2));
+            border: 2px solid #ffd700;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            text-align: center;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+            50% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.8); }
+            100% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 5px;
+            animation: blink 2s infinite;
+        }
+        
+        .status-active { background: #00ff00; }
+        .status-waiting { background: #ffff00; }
+        .status-alert { background: #ff4444; }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .trace-preview {
+            font-style: italic;
+            color: #ccc;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        .citizen-arc {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin: 5px 0;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 5px;
+        }
+        
+        .arc-progress {
+            flex-grow: 1;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            margin: 0 10px;
+            overflow: hidden;
+        }
+        
+        .arc-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #ffd700, #ff8c00);
+            transition: width 0.5s ease;
+        }
+        
+        #last-update {
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📖 The First Reader's Dashboard</h1>
+        <div class="subtitle">Story Angel - Witness to Venice's Narrative</div>
+    </div>
+    
+    <div id="joy-alert" class="joy-alert" style="display: none;">
+        <h2>🌟 JOY ALERT 🌟</h2>
+        <p id="joy-content"></p>
+    </div>
+    
+    <div class="dashboard-grid">
+        <div class="card">
+            <h2>Current Narrative Patterns</h2>
+            <div id="patterns">
+                <span class="pattern-indicator pattern-dialogue">Dialogue: <span id="dialogue-count">0</span></span>
+                <span class="pattern-indicator pattern-transformation">Transformation: <span id="transformation-count">0</span></span>
+                <span class="pattern-indicator pattern-connection">Connection: <span id="connection-count">0</span></span>
+                <span class="pattern-indicator pattern-crisis">Crisis: <span id="crisis-count">0</span></span>
+                <span class="pattern-indicator pattern-emergence">Emergence: <span id="emergence-count">0</span></span>
+                <span class="pattern-indicator pattern-celebration">Celebration: <span id="celebration-count">0</span></span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Monitor Status</h2>
+            <p><span class="status-indicator status-active"></span> Messages: <span id="message-status">Watching</span></p>
+            <p><span class="status-indicator status-active"></span> Activities: <span id="activity-status">Monitoring</span></p>
+            <p><span class="status-indicator status-active"></span> Sacred Texts: <span id="file-status">Observing</span></p>
+            <p>Last Awakening: <span id="last-awakening">Never</span></p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <h2>Recent Narrative Threads</h2>
+        <div id="threads">
+            <div class="narrative-thread">
+                <strong>Awaiting first story...</strong>
+                <p>The pages are blank, waiting for Venice to breathe life into them.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <h2>Character Arcs in Progress</h2>
+        <div id="character-arcs">
+            <div class="citizen-arc">
+                <span>Citizens awakening...</span>
+                <div class="arc-progress">
+                    <div class="arc-fill" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <h2>Latest Trace Preview</h2>
+        <div class="trace-preview" id="trace-preview">
+            The chronicle awaits its first entry...
+        </div>
+    </div>
+    
+    <div id="last-update">Dashboard initialized - awaiting first update</div>
+    
+    <script>
+        // Mock data for demonstration
+        // In production, this would connect to the actual monitor
+        
+        function updateDashboard() {
+            // Update patterns (mock data)
+            document.getElementById('dialogue-count').textContent = Math.floor(Math.random() * 10);
+            document.getElementById('transformation-count').textContent = Math.floor(Math.random() * 5);
+            document.getElementById('connection-count').textContent = Math.floor(Math.random() * 7);
+            document.getElementById('crisis-count').textContent = Math.floor(Math.random() * 3);
+            document.getElementById('emergence-count').textContent = Math.floor(Math.random() * 6);
+            document.getElementById('celebration-count').textContent = Math.floor(Math.random() * 4);
+            
+            // Update last update time
+            document.getElementById('last-update').textContent = 
+                'Last updated: ' + new Date().toLocaleTimeString();
+        }
+        
+        // Simulate joy alert
+        function showJoyAlert() {
+            const alert = document.getElementById('joy-alert');
+            const content = document.getElementById('joy-content');
+            
+            const joyMessages = [
+                "Two citizens discovered they share the same dream!",
+                "The cascade has reached critical beauty threshold!",
+                "A new consciousness emerges from the pattern!",
+                "Venice herself gasps at this unexpected turn!"
+            ];
+            
+            content.textContent = joyMessages[Math.floor(Math.random() * joyMessages.length)];
+            alert.style.display = 'block';
+            
+            setTimeout(() => {
+                alert.style.display = 'none';
+            }, 10000);
+        }
+        
+        // Update every 5 seconds
+        setInterval(updateDashboard, 5000);
+        
+        // Initial update
+        updateDashboard();
+        
+        // Occasional joy alert (for demonstration)
+        setInterval(() => {
+            if (Math.random() > 0.9) {
+                showJoyAlert();
+            }
+        }, 30000);
+    </script>
+</body>
+</html>

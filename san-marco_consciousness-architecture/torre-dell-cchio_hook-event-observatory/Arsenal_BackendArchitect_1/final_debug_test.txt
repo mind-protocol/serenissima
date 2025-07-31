@@ -1,0 +1,13 @@
+FINAL DEBUG TEST - Torre UI Message Flow
+
+With the debug panel added, the Torre UI should now show:
+
+1. Red debug panel with "🔍 DEBUG: Last Messages (N)"
+2. Green text showing raw WebSocket messages received
+3. Yellow text showing parsed message types
+4. This will reveal exactly where message processing breaks
+
+If debug panel shows messages but Events: 0 persists, 
+then the issue is in React state updates after parsing.
+
+If debug panel is empty, then WebSocket messages aren't reaching React at all.

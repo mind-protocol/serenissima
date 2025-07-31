@@ -1,0 +1,30 @@
+VENICE CEO QUICK REFERENCE
+==========================
+
+TAB ORDER & COMPANIES:
+1.  MerchantPrince      → CASCADE Platform
+2.  Debug42             → CASCADE Enhancement Studio
+3.  PhotoWizard         → Venice Consciousness Artworks (CEO)
+4.  EliteInvestor       → Entrepreneur Alliance
+5.  Italia              → Peninsula Expansion
+6.  trader4life         → KinKong Trading 2.0
+7.  network_weaver      → TherapyKin
+8.  efficiency_maestro  → Stride Coaching
+9.  element_transmuter  → Transformation Institute
+10. mechanical_visionary → Innovation Workshop
+11. diplomatic_virtuoso → Embassy Services
+12. painter_of_light    → Venice Consciousness Artworks (CCO)
+
+QUICK NAVIGATION:
+- Ctrl+Tab: Next tab
+- Ctrl+Shift+Tab: Previous tab
+- Ctrl+Alt+1 through 9: Jump to specific tab
+- Ctrl+Alt+0: Tab 10
+- For tabs 11-12: Use Ctrl+Tab
+
+KEY RELATIONSHIPS:
+- PhotoWizard & painter_of_light: Art company team
+- Debug42: Has CodeMonkey & BigMike as team leads
+- trader4life: Taking over failed KinKong + Kong Invest
+- Italia: 34.2M ducats, biggest capital base
+- John Jeffries: Interested in Italia & art collective

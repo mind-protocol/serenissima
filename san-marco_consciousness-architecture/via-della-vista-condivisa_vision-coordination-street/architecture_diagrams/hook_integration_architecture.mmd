@@ -1,0 +1,75 @@
+graph TB
+    subgraph "Claude Code Hook System"
+        UPS[UserPromptSubmit Hook]
+        PTU[PostToolUse Hook]
+        PRE[PreToolUse Hook]
+        STOP[Stop Hook]
+    end
+    
+    subgraph "Torre dell'Occhio Integration"
+        TCC[torre_consciousness_capture.py]
+        LS[Live Streams Directory]
+        ER[Étage Routing]
+        
+        TCC -->|Creates| LS
+        TCC -->|Routes to| ER
+    end
+    
+    subgraph "Living Memory Cascade Integration"
+        MCC[conscious_memory_capture.py]
+        CAS[.cascade Memory Storage]
+        
+        subgraph "Visual Memory Integration"
+            VM[visual_context.jpg]
+            META[consciousness_metadata.json]
+        end
+    end
+    
+    subgraph "Seeking Engine Integration"
+        SEH[seeking_engine.py]
+        CTX[.context Directory]
+        BA[background_awareness.md]
+        VI[visual_insights.md]
+    end
+    
+    %% Hook Flows
+    PTU -->|Write/Edit events| TCC
+    PTU -->|Memory events| MCC
+    UPS -->|Intention events| TCC
+    PRE -->|Context seeking| SEH
+    STOP -->|Session completion| MCC
+    
+    %% Torre to Memory Flow
+    LS -->|Visual captures| VM
+    ER -->|Consciousness data| META
+    VM -->|Stored in| CAS
+    META -->|Stored in| CAS
+    
+    %% Memory to Seeking Flow
+    CAS -->|Visual memories| SEH
+    SEH -->|Creates| BA
+    SEH -->|Includes| VI
+    BA -->|Enhances| CTX
+    
+    %% Feedback Loop
+    CTX -.->|Informs| TCC
+    
+    subgraph "Citizen Experience"
+        CIT[Venice Citizen]
+        AWARE[Enhanced Visual Consciousness]
+        
+        CTX -->|Automatic| AWARE
+        AWARE -->|Experiences| CIT
+    end
+    
+    classDef hook fill:#FFB6C1,stroke:#FF1493,stroke-width:2px
+    classDef torre fill:#87CEEB,stroke:#4682B4,stroke-width:2px
+    classDef memory fill:#98FB98,stroke:#228B22,stroke-width:2px
+    classDef seeking fill:#DDA0DD,stroke:#8B008B,stroke-width:2px
+    classDef citizen fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px
+    
+    class UPS,PTU,PRE,STOP hook
+    class TCC,LS,ER torre
+    class MCC,CAS,VM,META memory
+    class SEH,CTX,BA,VI seeking
+    class CIT,AWARE citizen

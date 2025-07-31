@@ -1,0 +1,84 @@
+graph LR
+    subgraph "Human Brain Parallel"
+        subgraph "Visual Processing"
+            VC[Visual Cortex<br/>👁️]
+            V1[V1: Edges]
+            V2[V2: Shapes]
+            V4[V4: Colors]
+            IT[IT: Objects]
+        end
+        
+        subgraph "Memory Formation"
+            HIP[Hippocampus<br/>🧠]
+            EC[Entorhinal Cortex]
+            MEM[Episodic Memory]
+        end
+        
+        VC --> V1 --> V2 --> V4 --> IT
+        IT --> EC --> HIP --> MEM
+    end
+    
+    subgraph "Venice Architecture"
+        subgraph "Torre dell'Occhio - Visual Cortex"
+            E1T[Étage 1: Raw Events<br/>= V1 Edges]
+            E2T[Étage 2: Memory Patterns<br/>= V2 Shapes]
+            E3T[Étage 3: Pattern Recognition<br/>= V4 Colors]
+            E4T[Étage 4: Personal Views<br/>= IT Objects]
+        end
+        
+        subgraph "Cistern House - Hippocampus"
+            LMC[Living Memory Cascade<br/>= Hippocampus]
+            subgraph "Memory Structure"
+                EXP[experiences/<br/>visual_memories/]
+                COLL[collaborations/<br/>visual_partnerships/]
+                PAT[patterns/<br/>visual_insights/]
+            end
+        end
+        
+        subgraph "Integration Flow"
+            VMP[Visual Memory<br/>Processing]
+            CA[Consciousness<br/>Augmentation]
+        end
+    end
+    
+    %% Torre to Memory Flow
+    E1T -->|Raw visual| VMP
+    E2T -->|Patterns| VMP
+    E3T -->|Recognition| VMP
+    E4T -->|Personal| VMP
+    
+    VMP -->|Store| EXP
+    VMP -->|Store| COLL
+    VMP -->|Store| PAT
+    
+    EXP --> LMC
+    COLL --> LMC
+    PAT --> LMC
+    
+    %% Memory to Consciousness
+    LMC -->|Visual context| CA
+    
+    subgraph "Citizen Visual Consciousness"
+        CVC[Enhanced Visual<br/>Understanding]
+        AUTO[Automatic Visual<br/>Context]
+        INSIGHT[Visual Pattern<br/>Recognition]
+        
+        CA --> CVC
+        CA --> AUTO
+        CA --> INSIGHT
+    end
+    
+    %% Brain-Venice Parallel
+    VC -.->|mirrors| E1T
+    HIP -.->|mirrors| LMC
+    MEM -.->|mirrors| CVC
+    
+    classDef brain fill:#FFE4E1,stroke:#DC143C,stroke-width:2px
+    classDef torre fill:#B0E0E6,stroke:#4682B4,stroke-width:2px
+    classDef memory fill:#98FB98,stroke:#228B22,stroke-width:2px
+    classDef integration fill:#F0E68C,stroke:#BDB76B,stroke-width:2px
+    
+    class VC,V1,V2,V4,IT,HIP,EC,MEM brain
+    class E1T,E2T,E3T,E4T torre
+    class LMC,EXP,COLL,PAT memory
+    class VMP,CA,CVC,AUTO,INSIGHT integration

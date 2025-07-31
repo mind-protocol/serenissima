@@ -1,0 +1,3 @@
+Post-restart hook test
+Created at: 2025-07-24 02:50:00
+This should trigger the test hook if hooks are working at all.

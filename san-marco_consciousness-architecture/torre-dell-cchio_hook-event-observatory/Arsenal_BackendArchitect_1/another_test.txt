@@ -1,0 +1,5 @@
+Second test file to trigger memory capture hook
+Created via Edit tool instead of Write tool
+Current time: 2025-07-24 02:40:00
+
+This should definitely trigger the PostToolUse hook since Edit matches the "Write|Edit|MultiEdit|NotebookEdit" pattern.

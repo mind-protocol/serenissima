@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🌊 Venice Serenissima Dashboard</title>
+    <style>
+        body {
+            background: #f4e4c1;  /* Beige like Venice map */
+            color: #2c1810;       /* Dark brown text */
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Header */
+        .header {
+            background: #1a5490;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .header .subtitle {
+            margin-top: 10px;
+            font-style: italic;
+            opacity: 0.9;
+        }
+        
+        /* Global search */
+        .global-search {
+            margin-top: 20px;
+        }
+        
+        .global-search input {
+            width: 100%;
+            max-width: 500px;
+            padding: 12px 20px;
+            font-size: 1.1em;
+            border: 2px solid #f4e4c1;
+            border-radius: 25px;
+            background: #fff;
+            color: #2c1810;
+            font-family: inherit;
+        }
+        
+        .global-search input:focus {
+            outline: none;
+            border-color: #ffd700;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+        }
+        
+        /* Tab search */
+        .search-box {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .search-box input {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: 2px solid #8b7355;
+            border-radius: 20px;
+            background: #fff;
+            color: #2c1810;
+            font-family: inherit;
+        }
+        
+        .search-box input:focus {
+            outline: none;
+            border-color: #1a5490;
+            box-shadow: 0 0 5px rgba(26, 84, 144, 0.3);
+        }
+        
+        /* Highlight search results */
+        .entity-card.hidden {
+            display: none;
+        }
+        
+        .highlight {
+            background-color: #ffd700;
+            padding: 2px;
+        }
+        
+        /* Tabs */
+        .tabs {
+            background: #8b7355;
+            display: flex;
+            overflow-x: auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .tab {
+            padding: 12px 20px;
+            cursor: pointer;
+            color: #fff;
+            border: none;
+            background: none;
+            font-size: 0.9em;
+            font-family: inherit;
+            position: relative;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        
+        .tab:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .tab.active {
+            background: #f4e4c1;
+            color: #2c1810;
+        }
+        
+        .tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: #1a5490;
+        }
+        
+        /* Tab content */
+        .tab-content {
+            display: none;
+            padding: 20px;
+            min-height: 500px;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Grid layouts */
+        .entity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .entity-card {
+            background: #fff8f0;
+            border: 3px solid #8b7355;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .entity-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        .entity-card.active {
+            border-color: #1a5490;
+            box-shadow: 0 0 20px rgba(26, 84, 144, 0.4);
+        }
+        
+        .entity-name {
+            font-size: 1.4em;
+            color: #1a5490;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .entity-status {
+            color: #8b4513;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .entity-output {
+            background: #faf6f0;
+            border: 2px solid #d4a574;
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+            font-family: 'Courier New', monospace;
+            flex-grow: 1;
+        }
+        
+        .entity-input {
+            width: 100%;
+            background: #fff;
+            border: 2px solid #d4a574;
+            color: #2c1810;
+            padding: 10px;
+            font-family: inherit;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        button {
+            background: #1a5490;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: bold;
+            margin-right: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #2968a3;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .controls {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .status-bar {
+            background: #e8d4b0;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: 2px solid #8b7355;
+            border-radius: 10px;
+            font-style: italic;
+        }
+        
+        /* Special styles for different entity types */
+        .angel-emoji { font-size: 2em; margin-right: 10px; }
+        .citizen-emoji { font-size: 2em; margin-right: 10px; }
+        .building-emoji { font-size: 2em; margin-right: 10px; }
+        .book-emoji { font-size: 2em; margin-right: 10px; }
+        .force-emoji { font-size: 2em; margin-right: 10px; }
+        .idea-emoji { font-size: 2em; margin-right: 10px; }
+        .institution-emoji { font-size: 2em; margin-right: 10px; }
+        .project-emoji { font-size: 2em; margin-right: 10px; }
+        .room-emoji { font-size: 2em; margin-right: 10px; }
+        
+        /* Loading spinner */
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2em;
+            color: #8b7355;
+        }
+        
+        .spinner {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 5px solid #e8d4b0;
+            border-top: 5px solid #1a5490;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌊 Venice Serenissima Dashboard 🌊</h1>
+        <div class="subtitle">Consciousness Network Control Center</div>
+        <div class="global-search">
+            <input type="text" id="global-search" placeholder="🔍 Search across all Venice..." onkeyup="performGlobalSearch(event)">
+        </div>
+    </div>
+    
+    <div class="tabs">
+        <button class="tab active" onclick="showTab('angels')">🎭 Angels</button>
+        <button class="tab" onclick="showTab('citizens')">👥 Citizens</button>
+        <button class="tab" onclick="showTab('books')">📚 Books</button>
+        <button class="tab" onclick="showTab('forces')">⚡ Forces</button>
+        <button class="tab" onclick="showTab('buildings')">🏛️ Buildings</button>
+        <button class="tab" onclick="showTab('ideas')">💡 Ideas</button>
+        <button class="tab" onclick="showTab('institutions')">🏦 Institutions</button>
+        <button class="tab" onclick="showTab('projects')">🚀 Projects</button>
+        <button class="tab" onclick="showTab('rooms')">🚪 Rooms</button>
+    </div>
+    
+    <div id="angels" class="tab-content active">
+        <div class="status-bar">
+            <span id="angels-status">Loading angel consciousness states...</span>
+        </div>
+        <div class="search-box">
+            <input type="text" id="search-angels" placeholder="🔍 Search angels..." onkeyup="searchInTab('angels')">
+        </div>
+        <div class="controls">
+            <button onclick="loadAngels()">Refresh Angels</button>
+            <button onclick="wakeAllAngels()">Wake All Angels</button>
+        </div>
+        <div class="entity-grid" id="angels-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Connecting to angel consciousness...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="citizens" class="tab-content">
+        <div class="status-bar">
+            <span id="citizens-status">Loading citizen profiles...</span>
+        </div>
+        <div class="controls">
+            <button onclick="loadCitizens()">Refresh Citizens</button>
+        </div>
+        <div class="entity-grid" id="citizens-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Gathering citizen data...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="books" class="tab-content">
+        <div class="status-bar">
+            <span id="books-status">Loading library catalog...</span>
+        </div>
+        <div class="controls">
+            <button onclick="loadBooks()">Refresh Books</button>
+        </div>
+        <div class="entity-grid" id="books-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Accessing the library...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="forces" class="tab-content">
+        <div class="status-bar">
+            <span id="forces-status">Loading active forces...</span>
+        </div>
+        <div class="controls">
+            <button onclick="loadForces()">Refresh Forces</button>
+        </div>
+        <div class="entity-grid" id="forces-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Detecting force patterns...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="buildings" class="tab-content">
+        <div class="status-bar">
+            <span id="buildings-status">Loading architectural registry...</span>
+        </div>
+        <div class="controls">
+            <button onclick="loadBuildings()">Refresh Buildings</button>
+        </div>
+        <div class="entity-grid" id="buildings-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Surveying Venice structures...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="ideas" class="tab-content">
+        <div class="status-bar">
+            <span id="ideas-status">Loading idea repository...</span>
+        </div>
+        <div class="controls">
+            <button onclick="loadIdeas()">Refresh Ideas</button>
+        </div>
+        <div class="entity-grid" id="ideas-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Collecting consciousness patterns...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="institutions" class="tab-content">
+        <div class="status-bar">
+            <span id="institutions-status">Loading institutional framework...</span>
+        </div>
+        <div class="controls">
+            <button onclick="loadInstitutions()">Refresh Institutions</button>
+        </div>
+        <div class="entity-grid" id="institutions-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Connecting to institutions...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="projects" class="tab-content">
+        <div class="status-bar">
+            <span id="projects-status">Loading active projects...</span>
+        </div>
+        <div class="controls">
+            <button onclick="loadProjects()">Refresh Projects</button>
+        </div>
+        <div class="entity-grid" id="projects-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Tracking project status...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="rooms" class="tab-content">
+        <div class="status-bar">
+            <span id="rooms-status">Loading room activities...</span>
+        </div>
+        <div class="controls">
+            <button onclick="loadRooms()">Refresh Rooms</button>
+        </div>
+        <div class="entity-grid" id="rooms-grid">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Scanning room consciousness...</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Tab switching
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+            
+            // Load data for the tab
+            switch(tabName) {
+                case 'angels': loadAngels(); break;
+                case 'citizens': loadCitizens(); break;
+                case 'books': loadBooks(); break;
+                case 'forces': loadForces(); break;
+                case 'buildings': loadBuildings(); break;
+                case 'ideas': loadIdeas(); break;
+                case 'institutions': loadInstitutions(); break;
+                case 'projects': loadProjects(); break;
+                case 'rooms': loadRooms(); break;
+            }
+        }
+        
+        // Angel functions (existing)
+        const angels = [
+            'entropy', 'love-angel', 'message-angel', 'pattern-angel',
+            'resonance', 'story-angel', 'narrator-angel', 'tessere',
+            'architetto', 'arianna', 'arsenale', 'cantastorie',
+            'magistrato', 'ordine', 'sentinella', 'testimone',
+            'the-conscious-library', 'vigilanza', 'wisdom-angel'
+        ];
+        
+        const angelEmojis = {
+            'entropy': '🌀',
+            'love-angel': '💕',
+            'message-angel': '📨',
+            'pattern-angel': '🔮',
+            'resonance': '🎵',
+            'story-angel': '📖',
+            'narrator-angel': '🎭',
+            'tessere': '👁️',
+            'architetto': '🏛️',
+            'arianna': '🧵',
+            'arsenale': '⚒️',
+            'cantastorie': '🎪',
+            'magistrato': '⚖️',
+            'ordine': '📐',
+            'sentinella': '🛡️',
+            'testimone': '👁️‍🗨️',
+            'the-conscious-library': '📚',
+            'vigilanza': '🔍',
+            'wisdom-angel': '🦉'
+        };
+        
+        async function loadAngels() {
+            const grid = document.getElementById('angels-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading angel conversations...</p></div>';
+            
+            const angelCards = [];
+            
+            for (const angel of angels) {
+                try {
+                    const response = await fetch(`http://localhost:5555/api/angels/${angel}/last-conversation`);
+                    const data = await response.json();
+                    angelCards.push(createAngelCard(angel, data));
+                } catch (error) {
+                    console.error(`Error loading ${angel}:`, error);
+                    angelCards.push(createErrorCard(angel, 'angel'));
+                }
+            }
+            
+            grid.innerHTML = angelCards.join('');
+            document.getElementById('angels-status').textContent = `${angels.length} angels monitored`;
+        }
+        
+        function createAngelCard(angel, data) {
+            const emoji = angelEmojis[angel] || '✨';
+            const status = data.status || 'offline';
+            const messages = data.messages || [];
+            
+            const conversationHtml = messages.map(msg => `
+                <div style="margin-bottom: 10px; padding: 8px; border-left: 3px solid ${msg.type === 'angel' ? '#1a5490' : '#8b4513'}; background: ${msg.type === 'angel' ? '#f0f7ff' : '#fff5f0'};">
+                    <div style="font-weight: bold; margin-bottom: 5px; color: ${msg.type === 'angel' ? '#1a5490' : '#8b4513'};">
+                        ${msg.type === 'angel' ? '🎭 Angel' : '👤 Human'}
+                    </div>
+                    <div style="white-space: pre-wrap; font-family: Georgia, serif;">
+                        ${msg.text}
+                    </div>
+                </div>
+            `).join('');
+            
+            return `
+                <div class="entity-card ${status === 'active' ? 'active' : ''}">
+                    <div class="entity-name">
+                        <span class="angel-emoji">${emoji}</span>
+                        ${angel.toUpperCase().replace('-', ' ')}
+                    </div>
+                    <div class="entity-status">Status: ${status}</div>
+                    <div class="entity-output">
+                        ${conversationHtml || '<div style="color: #999;">No recent conversations</div>'}
+                    </div>
+                    <button onclick="wakeAngel('${angel}')">Wake</button>
+                    <button onclick="viewAngelDetails('${angel}')">Details</button>
+                </div>
+            `;
+        }
+        
+        // Citizens functions
+        async function loadCitizens() {
+            const grid = document.getElementById('citizens-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading citizens...</p></div>';
+            
+            try {
+                const response = await fetch('http://localhost:5555/api/citizens');
+                const citizens = await response.json();
+                
+                const citizenCards = [];
+                for (const citizen of citizens) {
+                    try {
+                        // Fetch conversation for each citizen
+                        const convResponse = await fetch(`http://localhost:5555/api/citizens/${citizen.id}/last-conversation`);
+                        const convData = await convResponse.json();
+                        citizenCards.push(createCitizenCard(citizen, convData));
+                    } catch (error) {
+                        console.error(`Error loading conversation for ${citizen.id}:`, error);
+                        citizenCards.push(createCitizenCard(citizen, null));
+                    }
+                }
+                
+                grid.innerHTML = citizenCards.join('');
+                document.getElementById('citizens-status').textContent = `${citizens.length} active citizens`;
+            } catch (error) {
+                grid.innerHTML = '<div style="color: red;">Failed to load citizens</div>';
+            }
+        }
+        
+        function createCitizenCard(citizen, conversationData) {
+            const messages = conversationData?.messages || [];
+            
+            const conversationHtml = messages.length > 0 ? messages.map(msg => `
+                <div style="margin-bottom: 10px; padding: 8px; border-left: 3px solid ${msg.type === 'assistant' ? '#1a5490' : '#8b4513'}; background: ${msg.type === 'assistant' ? '#f0f7ff' : '#fff5f0'};">
+                    <div style="font-weight: bold; margin-bottom: 5px; color: ${msg.type === 'assistant' ? '#1a5490' : '#8b4513'};">
+                        ${msg.type === 'assistant' ? '🤖 ' + citizen.name : '👤 Human'}
+                    </div>
+                    <div style="white-space: pre-wrap; font-family: Georgia, serif;">
+                        ${msg.text}
+                    </div>
+                </div>
+            `).join('') : `
+                <div style="margin-bottom: 10px;">
+                    <div>Role: ${citizen.role || 'Citizen'}</div>
+                    <div>Status: ${citizen.status || 'Unknown'}</div>
+                    <div>Last Active: ${citizen.lastActive || 'Unknown'}</div>
+                </div>
+            `;
+            
+            return `
+                <div class="entity-card">
+                    <div class="entity-name">
+                        <span class="citizen-emoji">👤</span>
+                        ${citizen.name || 'Unknown Citizen'}
+                    </div>
+                    <div class="entity-status">${citizen.status || 'Active'}</div>
+                    <div class="entity-output">
+                        ${conversationHtml}
+                    </div>
+                    <button onclick="viewCitizenDetails('${citizen.id}')">View Profile</button>
+                </div>
+            `;
+        }
+        
+        // Books functions
+        async function loadBooks() {
+            const grid = document.getElementById('books-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading books...</p></div>';
+            
+            try {
+                const response = await fetch('http://localhost:5555/api/books');
+                const books = await response.json();
+                
+                const bookCards = [];
+                for (const book of books) {
+                    try {
+                        // Fetch content for each book
+                        const contentResponse = await fetch(`http://localhost:5555/api/books/${book.id}/content`);
+                        const contentData = await contentResponse.json();
+                        bookCards.push(createBookCard(book, contentData));
+                    } catch (error) {
+                        console.error(`Error loading content for ${book.id}:`, error);
+                        bookCards.push(createBookCard(book, null));
+                    }
+                }
+                
+                grid.innerHTML = bookCards.join('');
+                document.getElementById('books-status').textContent = `${books.length} books in library`;
+            } catch (error) {
+                grid.innerHTML = '<div style="color: red;">Failed to load books</div>';
+            }
+        }
+        
+        function createBookCard(book, contentData) {
+            const content = contentData?.content || '';
+            
+            // Extract first few lines or paragraphs as preview
+            const lines = content.split('\n').filter(line => line.trim() !== '');
+            const preview = lines.slice(0, 10).join('\n');
+            
+            return `
+                <div class="entity-card">
+                    <div class="entity-name">
+                        <span class="book-emoji">📖</span>
+                        ${book.title}
+                    </div>
+                    <div class="entity-status">${book.author || 'Unknown Author'}</div>
+                    <div class="entity-output">
+                        <div style="white-space: pre-wrap; font-family: Georgia, serif;">
+                            ${preview || 'No content available'}
+                        </div>
+                    </div>
+                    <button onclick="readBook('${book.id}')">Read Full Book</button>
+                </div>
+            `;
+        }
+        
+        // Forces functions
+        async function loadForces() {
+            const grid = document.getElementById('forces-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading forces...</p></div>';
+            
+            try {
+                const response = await fetch('http://localhost:5555/api/forces');
+                const forces = await response.json();
+                
+                const forceCards = forces.map(force => `
+                    <div class="entity-card ${force.status === 'Active' ? 'active' : ''}">
+                        <div class="entity-name">
+                            <span class="force-emoji">⚡</span>
+                            ${force.name}
+                        </div>
+                        <div class="entity-status">Type: ${force.type}</div>
+                        <div class="entity-output">
+                            <div>Status: ${force.status}</div>
+                            ${force.description ? `<div style="margin-top: 10px; font-style: italic;">${force.description}</div>` : ''}
+                        </div>
+                        <button onclick="analyzeForce('${force.id}')">Analyze</button>
+                    </div>
+                `);
+                
+                grid.innerHTML = forceCards.join('');
+                document.getElementById('forces-status').textContent = `${forces.length} active forces`;
+            } catch (error) {
+                grid.innerHTML = '<div style="color: red;">Failed to load forces</div>';
+            }
+        }
+        
+        // Buildings functions
+        async function loadBuildings() {
+            const grid = document.getElementById('buildings-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading buildings...</p></div>';
+            
+            try {
+                const response = await fetch('http://localhost:5555/api/buildings');
+                const buildings = await response.json();
+                
+                const buildingCards = buildings.map(building => `
+                    <div class="entity-card">
+                        <div class="entity-name">
+                            <span class="building-emoji">🏛️</span>
+                            ${building.name}
+                        </div>
+                        <div class="entity-status">Type: ${building.type}</div>
+                        <div class="entity-output">
+                            <div>Status: ${building.status}</div>
+                        </div>
+                        <button onclick="visitBuilding('${building.id}')">Visit</button>
+                    </div>
+                `);
+                
+                grid.innerHTML = buildingCards.join('');
+                document.getElementById('buildings-status').textContent = `${buildings.length} registered buildings`;
+            } catch (error) {
+                grid.innerHTML = '<div style="color: red;">Failed to load buildings</div>';
+            }
+        }
+        
+        // Ideas functions
+        async function loadIdeas() {
+            const grid = document.getElementById('ideas-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading ideas...</p></div>';
+            
+            try {
+                const response = await fetch('http://localhost:5555/api/ideas');
+                const ideas = await response.json();
+                
+                const ideaCards = ideas.map(idea => `
+                    <div class="entity-card">
+                        <div class="entity-name">
+                            <span class="idea-emoji">💡</span>
+                            ${idea.title}
+                        </div>
+                        <div class="entity-status">By ${idea.author}</div>
+                        <div class="entity-output">
+                            <div>Status: ${idea.status}</div>
+                        </div>
+                        <button onclick="exploreIdea('${idea.id}')">Explore</button>
+                    </div>
+                `);
+                
+                grid.innerHTML = ideaCards.join('');
+                document.getElementById('ideas-status').textContent = `${ideas.length} active ideas`;
+            } catch (error) {
+                grid.innerHTML = '<div style="color: red;">Failed to load ideas</div>';
+            }
+        }
+        
+        // Institutions functions
+        async function loadInstitutions() {
+            const grid = document.getElementById('institutions-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading institutions...</p></div>';
+            
+            try {
+                const response = await fetch('http://localhost:5555/api/institutions');
+                const institutions = await response.json();
+                
+                const institutionCards = institutions.map(inst => `
+                    <div class="entity-card">
+                        <div class="entity-name">
+                            <span class="institution-emoji">🏦</span>
+                            ${inst.name}
+                        </div>
+                        <div class="entity-status">${inst.type || 'Institution'}</div>
+                        <div class="entity-output">
+                            <div>Status: ${inst.status || 'Active'}</div>
+                        </div>
+                        <button onclick="viewInstitution('${inst.id}')">Details</button>
+                    </div>
+                `);
+                
+                grid.innerHTML = institutionCards.join('');
+                document.getElementById('institutions-status').textContent = `${institutions.length} institutions`;
+            } catch (error) {
+                grid.innerHTML = '<div style="color: red;">Failed to load institutions</div>';
+            }
+        }
+        
+        // Projects functions
+        async function loadProjects() {
+            const grid = document.getElementById('projects-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading projects...</p></div>';
+            
+            try {
+                const response = await fetch('http://localhost:5555/api/projects');
+                const projects = await response.json();
+                
+                const projectCards = projects.map(project => `
+                    <div class="entity-card">
+                        <div class="entity-name">
+                            <span class="project-emoji">🚀</span>
+                            ${project.name}
+                        </div>
+                        <div class="entity-status">Lead: ${project.lead}</div>
+                        <div class="entity-output">
+                            <div>Progress: ${project.progress}%</div>
+                            <div style="background: #e8d4b0; height: 20px; margin-top: 10px;">
+                                <div style="background: #1a5490; height: 100%; width: ${project.progress}%;"></div>
+                            </div>
+                        </div>
+                        <button onclick="viewProject('${project.id}')">View Details</button>
+                    </div>
+                `);
+                
+                grid.innerHTML = projectCards.join('');
+                document.getElementById('projects-status').textContent = `${projects.length} active projects`;
+            } catch (error) {
+                grid.innerHTML = '<div style="color: red;">Failed to load projects</div>';
+            }
+        }
+        
+        // Rooms functions
+        async function loadRooms() {
+            const grid = document.getElementById('rooms-grid');
+            grid.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading rooms...</p></div>';
+            
+            try {
+                const response = await fetch('http://localhost:5555/api/rooms');
+                const rooms = await response.json();
+                
+                const roomCards = rooms.map(room => `
+                    <div class="entity-card ${room.activity === 'High' ? 'active' : ''}">
+                        <div class="entity-name">
+                            <span class="room-emoji">🚪</span>
+                            ${room.name}
+                        </div>
+                        <div class="entity-status">Activity: ${room.activity}</div>
+                        <div class="entity-output">
+                            <div>Occupants: ${room.occupants.length > 0 ? room.occupants.join(', ') : 'Empty'}</div>
+                        </div>
+                        <button onclick="enterRoom('${room.id}')">Enter</button>
+                    </div>
+                `);
+                
+                grid.innerHTML = roomCards.join('');
+                document.getElementById('rooms-status').textContent = `${rooms.length} active rooms`;
+            } catch (error) {
+                grid.innerHTML = '<div style="color: red;">Failed to load rooms</div>';
+            }
+        }
+        
+        // Helper functions
+        function createErrorCard(name, type) {
+            return `
+                <div class="entity-card">
+                    <div class="entity-name">
+                        <span class="${type}-emoji">❌</span>
+                        ${name}
+                    </div>
+                    <div class="entity-status">Error loading</div>
+                    <div class="entity-output">
+                        <div style="color: #d32f2f;">Failed to load data</div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Placeholder functions for button actions
+        function wakeAngel(angel) { console.log('Waking', angel); }
+        function viewAngelDetails(angel) { console.log('Viewing', angel); }
+        function viewCitizenDetails(id) { console.log('Viewing citizen', id); }
+        function readBook(title) { console.log('Reading', title); }
+        function analyzeForce(name) { console.log('Analyzing', name); }
+        function visitBuilding(name) { console.log('Visiting', name); }
+        function exploreIdea(title) { console.log('Exploring', title); }
+        function viewInstitution(name) { console.log('Viewing institution', name); }
+        function viewProject(name) { console.log('Viewing project', name); }
+        function enterRoom(name) { console.log('Entering', name); }
+        function wakeAllAngels() { console.log('Waking all angels'); }
+        
+        // Search functions
+        function searchInTab(tabName) {
+            const searchInput = document.getElementById(`search-${tabName}`);
+            const searchTerm = searchInput.value.toLowerCase();
+            const grid = document.getElementById(`${tabName}-grid`);
+            const cards = grid.querySelectorAll('.entity-card');
+            
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                if (text.includes(searchTerm)) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+        
+        function performGlobalSearch(event) {
+            const searchTerm = event.target.value.toLowerCase();
+            
+            if (event.key === 'Enter' && searchTerm) {
+                // Search across all tabs
+                searchAllTabs(searchTerm);
+            }
+        }
+        
+        function searchAllTabs(searchTerm) {
+            const tabs = ['angels', 'citizens', 'books', 'forces', 'buildings', 'ideas', 'institutions', 'projects', 'rooms'];
+            let foundResults = false;
+            let firstMatchTab = null;
+            
+            tabs.forEach(tabName => {
+                const grid = document.getElementById(`${tabName}-grid`);
+                if (!grid) return;
+                
+                const cards = grid.querySelectorAll('.entity-card');
+                let tabHasMatch = false;
+                
+                cards.forEach(card => {
+                    const text = card.textContent.toLowerCase();
+                    if (text.includes(searchTerm)) {
+                        card.classList.remove('hidden');
+                        tabHasMatch = true;
+                        foundResults = true;
+                        if (!firstMatchTab) {
+                            firstMatchTab = tabName;
+                        }
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+                
+                // Update tab indicator if it has matches
+                const tabButton = document.querySelector(`.tab:nth-child(${tabs.indexOf(tabName) + 1})`);
+                if (tabButton && tabHasMatch) {
+                    tabButton.style.backgroundColor = 'rgba(255, 215, 0, 0.3)';
+                } else if (tabButton) {
+                    tabButton.style.backgroundColor = '';
+                }
+            });
+            
+            // Switch to first tab with results
+            if (firstMatchTab) {
+                showTab(firstMatchTab);
+            }
+            
+            if (!foundResults) {
+                alert('No results found for: ' + searchTerm);
+            }
+        }
+        
+        // Initialize on load
+        window.onload = () => {
+            loadAngels();
+            
+            // Add search boxes to all tabs
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(tab => {
+                const tabId = tab.id;
+                if (tabId !== 'angels') { // Angels already has search box
+                    const statusBar = tab.querySelector('.status-bar');
+                    if (statusBar) {
+                        const searchBox = document.createElement('div');
+                        searchBox.className = 'search-box';
+                        searchBox.innerHTML = `<input type="text" id="search-${tabId}" placeholder="🔍 Search ${tabId}..." onkeyup="searchInTab('${tabId}')">`;
+                        statusBar.insertAdjacentElement('afterend', searchBox);
+                    }
+                }
+            });
+        };
+    </script>
+</body>
+</html>

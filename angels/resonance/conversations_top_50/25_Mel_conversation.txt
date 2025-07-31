@@ -1,0 +1,295 @@
+CONVERSATION ANALYSIS: Mel
+==================================================
+
+Rank: #25
+Score: 140
+Total messages: 262
+Recent messages (180 days): 88
+Investment mentions: 36
+AI/Venice mentions: 40 / 16
+Avg message length: 284
+Last contact: 2025-03-20
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-23T01:15:54] Mel: Exciting !! :)
+
+[2025-01-23T01:16:01] Mel: How are you doing?
+
+[2025-01-23T02:09:50] NLR: good
+
+[2025-01-23T02:09:58] NLR: I need more liquidity i the pool
+
+[2025-01-23T02:10:11] NLR: we are at a good price but we need to maintain it
+
+[2025-01-23T02:20:41] Mel: Yeah - it will take some time to build that.. holding pretty nicely
+
+[2025-01-23T02:29:49] NLR: hey
+
+[2025-01-23T02:30:16] Mel: Sorry it cut out. There is a huge storm here at the moment and my Internet is super spotty !
+
+[2025-01-23T02:30:17] NLR: I need advice, do you have a moment
+
+[2025-01-23T02:30:29] Mel: 
+
+[2025-01-23T02:30:39] Mel: Give me a minute I’ll find a better spot
+
+[2025-01-23T05:06:44] NLR: 🌊 Introducing: LP-to-earn!
+ 
+Hello community!  First we want to thank you for this amazing launch. The 100M$ MC we achieved in less than 2 hours is incredible, going even higher than the original  $UBC  wave! We are still holding strong at 74M$ MC, and we still have the Launchpad coming, more announcements, and the beginning of the interesting parts of the LBP.
+
+To help consolidate the position that we've all created, we're launching a targeted program that will help  $COMPUTE 's stabilize at these prices. This program is designed to reward the believers in the project, and saveguard this value for everybody.
+
+ 🪙  LP-to-earn! 
+• Before the end of tomorrow, add SOL liquidity to COMPUTE/SOL pool —>  https://app.meteora.ag/dlmm/7EVJ9P1M9qeNWLYPWWBbGwrWDtTCWo6r2A7J7XU19tNw 
+• Send the transaction to  @Abhi80a80 , with the amount, saying your are entering the LP-to-earn
+• Maintain position for 4 weeks (until February 22nd), then send a screenshot of your position
+• Receive  10 000  $COMPUTE  for each SOL you deposited in the LP  🔥
+ Example: Add 10 SOL → Get 100 000  $COMPUTE  -> You now have 10 SOL and 100k  $COMPUTE ! 
+
+💰And of course you'll get the fees from the liquidity providing, which quickly add-up!
+
+🤝 Together we are putting the basis for a transition that  will  change the world
+
+[2025-01-23T05:16:43] Mel: Have you posted this yet ?
+
+[2025-01-23T05:23:15] Mel: Oh i saw it online. Was more thinking there could be a better way than the screenshot
+
+[2025-01-23T05:23:33] Mel: Have to be carful with degens - if there is a way to game it, they will
+
+[2025-01-23T05:28:25] NLR: the other option was transaction of closing the position?
+
+[2025-01-23T05:39:40] NLR: who did you say I should contact, Moonpay?
+
+[2025-01-23T06:29:34] Mel: The person who Keith introduced you to on email that’s head of partnerships
+
+[2025-01-23T07:54:20] Mel: 
+
+[2025-01-23T07:54:34] Mel: Did you meet Andres?
+
+[2025-01-23T07:56:04] NLR: yes
+
+[2025-01-23T08:08:50] Mel: Cool - did you land on what you can do together ?
+
+[2025-01-23T08:09:03] Mel: Keith spoke really highly of you :)
+
+[2025-01-24T15:30:25] NLR: Need advice
+
+[2025-01-24T15:30:31] NLR: when are you available?
+
+[2025-01-24T15:35:15] NLR: Problems:
+- Price going way too low in the LBP  https://app.fjordfoundry.com/token-sales/4Jot2JtKav3Xd8tSQ2XdMErhnHFab2yushSfXF6BXwq6 
+- High likelyhood of dump in the LP in 1 day 14 hours
+- No depth in the LPs : we are almost the only ones to defend the price: 10 out of 10k to defend COMPUTE/UBC, 6 out of 11k to defend COMPUTE/SOL
+
+[2025-01-24T21:45:56] Mel: Hi, The issue isn’t the LP it’s attention. You launched when the whole marketplace was paying attention to trump, politics & the meta has moved for a bit. This coupled with the need for people to pay extra attention to understand the launch & its complexity means the attention just isn’t there this week
+
+[2025-01-24T21:49:15] NLR: Yes that might very well be true. I had to make a call and I made it. However, I am looking for advice for this
+
+[2025-01-24T21:51:22] Mel: Right - so the way you fix the LP issue is to fix the attention issue. The way to fix that is to show the interesting things your project can do, both in public and also in private, to groups or people who play on the LP space.
+
+[2025-01-24T21:51:38] Mel: The ask can’t be about the LP it has to be about the project.
+
+[2025-01-24T21:53:10] NLR: yeah, correct
+
+[2025-01-24T21:53:23] Mel: Let me have a think about ideas this morning.  It’s about looking out at the memetic space and understanding the narrative and being somewhat ahead of that.
+
+[2025-01-24T21:54:21] Mel: Like.. how can you take a relevant current front of mind thing & solve / showcase/ elevate it with your product or how can you create something more interesting..
+
+[2025-01-24T21:54:52] Mel: I wasn’t trying to blame here - just establishing clarity on the issue ;) timing is hard
+
+[2025-01-24T22:06:14] Mel: The g20 proposal was much better than the other one. I’d probably counter with saying you want an initial 6month trial or $5k per month for 12
+
+[2025-01-24T22:07:27] Mel: Where did things land with Moonpay ? Having a ai that has its own on/off boarding is an amazing thing & so is a partnership with them.. that would solve your attention issues for at least a few days :)
+
+[2025-01-25T18:05:21] NLR: There's just that I don't know how to find the collateral
+
+[2025-01-25T18:05:46] NLR: Good, I'll move it forward
+
+[2025-01-27T00:28:03] Mel: Hey ! I had someone reach out and point out some actions in some of your wallets - 
+
+ https://solscan.io/account/GcWA4LwbGyoryPvauWkuVadi69FcEaWMmLxu4rxg7hVk
+
+[2025-01-27T00:28:14] Mel: This wallet is sending tokens to other wallets which are then selling
+
+[2025-01-27T00:28:40] Mel: And this one showing as the top trader of the token on Dex 
+
+ https://solscan.io/account/9dpD3dBAXqQXiKvgeJPGYMT4k3bgEkFGGEv5eH7xYW83?page=65#transfers
+
+[2025-01-27T00:29:15] Mel: People in the space watch everything - is there some thinking im missing behind this?
+
+[2025-01-27T00:31:17] Mel: Have you tried to do a seed round / raise capital?
+
+[2025-01-29T11:08:36] Mel: You should consider Cobies new project -  https://echo.xyz/
+
+[2025-01-30T23:25:02] NLR: thanks
+
+[2025-01-30T23:25:17] NLR: yeah we found the culprit
+
+[2025-01-30T23:25:30] NLR: One of our mods basically rugged 8k out of us
+
+[2025-01-30T23:26:00] NLR: I think we need to, since the LBP was a failure
+
+[2025-01-30T23:26:11] NLR: could we have a call?
+
+[2025-01-31T01:11:16] NLR: Here is the report for the LPO week 1, as well as the Tx for the associated distribution:
+ https://solscan.io/tx/NAkBANASGWvcJ9N4JN3cXthXivg1R4sezTGwGxEsbM3ysvtPeWACBKorS9qbaA3EBrL8vaWDybWp5YUVKx1W6kj
+
+[2025-01-31T02:38:01] Mel: The issue is, that you are relying on the behaviour of the market for the outcome of specific funding needs. It’s not only almost impossible it’s also inauthentic to the overall position and purpose of the tokens. Doubling down & changing the token structure to continue this path is likely to give you the same or similar outcome. 
+
+Instead of reacting to the launch not going to plan, you need to take the somewhat counter intuitive action of stepping back & figuring out a new strategy to achieve a better outcome for the project & it’s longer term vision. 
+
+To do this I would suggest the following - 
+
+1) raise capital (perhaps via the incubator or via the significant abundant currently available in the market for projects in ai - loads of vc/ individual/ partner funds available right now) the pressure of your need for adequate funding is warping your ability to make the correct decisions about both launch timing and token structure. This has to be resolved if you want to make better choices in the future. 
+
+2) create a much more long focused clear strategy around the use of raised capital to create partnerships for proof of PMF & also buoyancy of the tokens. 
+
+3) avoid any further complexity or major changes to the token structure. Adding complexity to systems that have not proven successful further reduces the likely hood of them succeeding. Reducing complexity, creating more space for emergence & response is the path to them succeeding. 
+
+While taking on a new approach perhaps delay commitments - so for example extend the LP return to two months or three with supporting plan to justify why so that you have more time to give LPs a roi & create a better outcome overall. 
+
+Lastly - I advised you of this prior, but just want to double down - secure your token setup so that no insider can ever undermine your project again - this is fundamental to your success - even with the best strategy/ GTM - one bad actor will destroy all your value in an instance if you allow it.
+
+[2025-01-31T02:47:20] NLR: I agree
+
+[2025-01-31T02:49:07] NLR: Lack of funding is pushing us into very unpleasant corners
+
+[2025-01-31T02:50:49] NLR: Is this something you could help out with?
+
+[2025-01-31T02:55:10] NLR: - I've raised before, and I know the enormous amount of work & time it takes. Maybe it's different right now because of good timing though. I feel we do have a window, spending 80% of my time for the next 3-9 months is unfeasable both on a financial and project viewpoint (I don't have this much leeway, neither does the team)
+
+- delay commitment is a good idea
+
+- yes I'll take some time to take a step back, it's planned next week
+
+[2025-01-31T03:08:42] Mel: Raising capital is not my area of expertise, so below is just my take on what I know and what I've seen of what you are creating.
+Here is how I would approach it.
+Give yourself a super tight timeline—like Elon style, a ridiculous timeline.
+Let's say 3 weeks.
+ 1 Use the tools you have to make this much easier. Create a capital-raising swarm, use AI to find every person or VC funding your area, and use AI to create a strategy for supporting your approach, following up, and generating the right type of hype as needed.
+ 2 Split it into three 1-week segments: Planning, Meeting, Closing.
+ 3 Get AI to gather every piece of VC Twitter advice on raising techniques and turn it into a system you can implement. Delegate almost everything else to your team while you focus on this.
+ 4 Planning: Create a list, develop a personalized approach for everyone on the list, create a tracking sheet to monitor progress, and devise a plan for meeting and pitching to them all. Rank your list by legitimacy, public perception, potential help, etc.—everyone has money; what do you really need alongside the money?
+ 5 Use AI to create your pitch—you could even incorporate this whole AI pitch approach as part of your presentation. Building over talking, doing over thinking, etc.
+ 6 Refine your pitch—don’t get bogged down in the details of your tokens; focus on the vision and provide clear, honest answers that address the lessons you have learned so far.
+ 7 Make the deck 5 pages, with page one featuring stats on things you have actually done, and page two showcasing the biggest vision you can imagine—be absurd.
+ 8 Ask for 50% more than you need.
+
+[2025-01-31T03:10:42] Mel: For the meeting week - do realtime feedback loops on your own performance. So every meeting is a level up - apply a strategy (could use ai to rank them too) of doing a few less important pitches first before hitting the top 10 on your list.
+
+[2025-01-31T03:13:25] Mel: So week 1 is - create the strategy, build an ai assist to support you, get the list, make the meetings. Do as many of these meetings in person as possible. 
+
+Week 2 is meetings, feedback - like daily full performance reviews & amendments to pitch. 
+
+Week 3 is closing - this will require framing in your meetings - like - setting a time for a follow up call the next week, asking specific questions on process, getting docs from their website / online to review how they invest before even going in etc
+
+[2025-01-31T03:13:39] Mel: It intense, but possible
+
+[2025-01-31T03:35:44] NLR: Thanks
+
+[2025-01-31T03:35:57] NLR: I'll run it by the team, and reflect on the idea
+
+[2025-01-31T03:36:04] NLR: definitely the way to do it if I do
+
+[2025-02-10T15:38:20] NLR: Recap week 2
+
+[2025-02-10T15:38:25] NLR: rough week for us
+
+[2025-02-10T15:38:56] NLR: https://solscan.io/tx/3hRNihXTGb5b5gPnj6d4CBkpiUHckTk1PUkoAmbxvbpryRwoWubDLJ2AHBuhsfdkbR4Db7ZuRihRD74VWHunhbha
+
+[2025-02-12T23:59:35] Mel: I just got a note from Keith saying you didn’t even respond to the Moonpay teams multiple messages. That is at a minimum unprofessional & doesn’t bide well if you are looking to create in the broader crypto space long term. 
+
+I understand that you have a lot going on as a founder, but more and more it would appear that your decisions are really off base.
+
+[2025-02-13T00:09:27] Mel: This transaction - is this for me? The 20m compute?
+
+[2025-02-13T00:12:21] NLR: yes
+
+[2025-02-13T00:13:10] Mel: What address is it sent to?
+
+[2025-02-13T00:13:24] Mel: 3mdXwo8QScXU9AmE31a7g6GmZXKTdFANDKnwXzTm1TvG
+
+[2025-02-13T00:13:27] Mel: This is my wallet
+
+[2025-02-13T00:17:16] Mel: Not sure who it was sent to but I did not receive any compute
+
+[2025-02-13T00:18:57] Mel: You sent the compute to an exchange Solana address
+
+[2025-02-13T00:20:30] Mel: I clearly stated above that the compute needed to be sent to this wallet. The other one is a central exchange where I sent you Solana from
+
+[2025-02-13T00:21:21] NLR: ho apologies
+
+[2025-02-13T00:21:31] NLR: I'll re-send
+
+[2025-02-13T00:21:43] Mel: 
+
+[2025-02-13T00:22:18] NLR: yes, my bad
+
+[2025-02-13T00:24:54] NLR: https://solscan.io/tx/413EHhy6g7rrEWgukq2UXZemkPuaPHy7ATDozX1Ckr4fZ14dVmiKq9vUXJ4hfUvPw7ZeXdpJUFgKKUqgnL45rEPn
+
+[2025-02-15T13:41:49] Mel: Been thinking overall where things are at. 
+
+Quite a few incorrect moves have been made overall but alas, there is always an opportunity to try again. 
+
+A good way to decide your next moves might be to go back to scratch and imagine what you would do  differently, in that - based on what you now know what would have been best strategy if you had a redo 
+
+Then, literally do that. 
+
+Some of the lessons that stand out to me are making sure the launch date is aligned with the marketplace. Making sure the token dynamics are as simple as they possibly can be without breaking. Making sure you have ample capital so as not being dependent on the token price. Having more live examples of the product. Making sure you have buttoned down your security in every possible way & putting a system in place to ensure no future insider issues. 
+
+You could reset your strategy & try again. You would need to be considerate and generous towards existing holders, but as long as you can manage that - it should be fine. 
+
+When raising capital, I would lead with a working product & then the truth about the mistakes made and the new plan. 
+
+It has potential, someone will back it if you are honest & thoughtful about what you do next. 
+
+Obviously no obligation to take any of this advice. 
+
+:) hope this helps.
+
+[2025-02-18T10:53:04] NLR: thanks for the advice. A lot learned for sure. But we are not done just yet! Currently working on the products as you say, so we are discussing about 1) a real marketplace and 2) real products
+
+[2025-02-18T11:28:14] NLR: Update for the week!
+
+- Secondary market (~launch tomorrow):  swarms.universalbasiccompute.ai 
+- Kinkong website:  kinkong.universalbasiccompute.ai
+
+[2025-02-18T11:30:43] NLR: Our AIs buying and selling services in  $COMPUTE
+
+[2025-03-19T19:19:54] NLR: 
+
+[2025-03-20T16:41:36] NLR: still here?
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

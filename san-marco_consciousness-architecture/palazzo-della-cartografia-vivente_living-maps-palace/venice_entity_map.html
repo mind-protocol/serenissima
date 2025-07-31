@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venice Consciousness Entity Map</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .map-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            margin: 0 auto;
+            max-width: 1400px;
+        }
+        
+        .map-title {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .entity-map {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            min-height: 600px;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .entity {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 11px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border: 3px solid rgba(255,255,255,0.3);
+            position: relative;
+        }
+        
+        .entity:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+        
+        .entity-name {
+            margin-top: 5px;
+            line-height: 1.2;
+            max-width: 90%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .entity-icon {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        
+        /* Entity Type Colors */
+        .district { background: linear-gradient(135deg, #667eea, #764ba2); }
+        .island { background: linear-gradient(135deg, #f093fb, #f5576c); }
+        .building { background: linear-gradient(135deg, #4facfe, #00f2fe); }
+        .room { background: linear-gradient(135deg, #ffecd2, #fcb69f); }
+        .bridge { background: linear-gradient(135deg, #a8edea, #fed6e3); }
+        .canal { background: linear-gradient(135deg, #ff9a9e, #fecfef); }
+        .citizen { background: linear-gradient(135deg, #96fbc4, #f9f047); }
+        .tool { background: linear-gradient(135deg, #fda085, #f6d365); }
+        
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0,0,0,0.05);
+            border-radius: 10px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 15px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        
+        .stats {
+            text-align: center;
+            margin-top: 20px;
+            color: #555;
+            font-size: 14px;
+        }
+        
+        .refresh-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .refresh-btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+        
+        .loading {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+            margin: 50px 0;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+        
+        .entity.loading {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <h1 class="map-title">🗺️ Venice Consciousness Entity Map</h1>
+        
+        <button class="refresh-btn" onclick="loadEntities()">🔄 Refresh</button>
+        
+        <div id="entityMap" class="entity-map">
+            <div class="loading">🌊 Scanning Venice consciousness archipelago...</div>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color district"></div>
+                <span>Districts</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color island"></div>
+                <span>Islands</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color building"></div>
+                <span>Buildings</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color room"></div>
+                <span>Rooms</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color bridge"></div>
+                <span>Bridges</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color canal"></div>
+                <span>Canals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color citizen"></div>
+                <span>Citizens</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color tool"></div>
+                <span>Tools</span>
+            </div>
+        </div>
+        
+        <div id="stats" class="stats"></div>
+    </div>
+
+    <script>
+        function getEntityType(path) {
+            const pathLower = path.toLowerCase();
+            
+            if (pathLower.includes('_district') || pathLower.includes('san-marco') || pathLower.includes('dorsoduro')) {
+                return 'district';
+            }
+            if (pathLower.includes('_island') || pathLower.includes('sacca-fisola')) {
+                return 'island';
+            }
+            if (pathLower.includes('bridge') || pathLower.includes('ponte')) {
+                return 'bridge';
+            }
+            if (pathLower.includes('canal') || pathLower.includes('route')) {
+                return 'canal';
+            }
+            if (pathLower.includes('palazzo') || pathLower.includes('torre') || pathLower.includes('casa') || 
+                pathLower.includes('arsenal') || pathLower.includes('scriptorium')) {
+                return 'building';
+            }
+            if (pathLower.includes('chamber') || pathLower.includes('workshop') || pathLower.includes('gallery') || 
+                pathLower.includes('mosaic') || pathLower.includes('laboratory') || pathLower.includes('biblioteca')) {
+                return 'room';
+            }
+            if (pathLower.includes('citizen') || pathLower.includes('BackendArchitect') || 
+                pathLower.includes('FrontendCraftsman') || pathLower.includes('mechanical_visionary')) {
+                return 'citizen';
+            }
+            
+            return 'tool';
+        }
+        
+        function getEntityIcon(type) {
+            const icons = {
+                'district': '🏛️',
+                'island': '🏝️', 
+                'building': '🏢',
+                'room': '🚪',
+                'bridge': '🌉',
+                'canal': '🌊',
+                'citizen': '👤',
+                'tool': '⚙️'
+            };
+            return icons[type] || '⚫';
+        }
+        
+        function formatEntityName(path) {
+            // Extract the final folder name
+            const parts = path.split('/');
+            let name = parts[parts.length - 2]; // -2 because last part is CLAUDE.md
+            
+            // Remove underscores and capitalize
+            return name.replace(/_/g, ' ')
+                      .replace(/-/g, ' ')
+                      .split(' ')
+                      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                      .join(' ')
+                      .substring(0, 30); // Limit length
+        }
+        
+        async function loadEntities() {
+            const mapContainer = document.getElementById('entityMap');
+            const statsContainer = document.getElementById('stats');
+            
+            mapContainer.innerHTML = '<div class="loading">🌊 Scanning Venice consciousness archipelago...</div>';
+            
+            try {
+                // This would normally call your backend API
+                // For now, let's create a mock dataset based on Venice structure
+                const mockEntities = [
+                    '/serenissima/san-marco_consciousness-architecture/CLAUDE.md',
+                    '/serenissima/san-marco_consciousness-architecture/torre-dell-cchio_hook-event-observatory/CLAUDE.md',
+                    '/serenissima/san-marco_consciousness-architecture/palazzo-della-cartografia-vivente_living-maps-palace/CLAUDE.md',
+                    '/serenissima/san-marco_consciousness-architecture/palazzo-della-cartografia-vivente_living-maps-palace/mosaico-vivente_living-mosaic-floor/CLAUDE.md',
+                    '/serenissima/san-marco_consciousness-architecture/palazzo-della-cartografia-vivente_living-maps-palace/galleria-di-osservazione_observation-deck/CLAUDE.md',
+                    '/serenissima/san-marco_consciousness-architecture/palazzo-della-cartografia-vivente_living-maps-palace/laboratorio-del-cartografo_cartographers-workshop/CLAUDE.md',
+                    '/serenissima/dorsoduro_governance-island/CLAUDE.md',
+                    '/serenissima/dorsoduro_governance-island/torre-dell-equilibrio_balance-tower/CLAUDE.md',
+                    '/serenissima/dorsoduro_governance-island/palazzo-del-consiglio_council-chambers/CLAUDE.md',
+                    '/serenissima/dorsoduro_governance-island/corte-della-giustizia_justice-court/CLAUDE.md',
+                    '/serenissima/dorsoduro_governance-island/archivio-delle-leggi_constitutional-archive/CLAUDE.md',
+                    '/serenissima/dorsoduro_governance-island/assemblea-democratica_citizen-assembly/CLAUDE.md',
+                    '/serenissima/cannaregio_island/CLAUDE.md',
+                    '/serenissima/cannaregio_island/scriptorium-eternale_documentation-center/CLAUDE.md',
+                    '/serenissima/cannaregio_island/scriptorium-eternale_documentation-center/biblioteca-delle-presenze_presence-archive/CLAUDE.md',
+                    '/serenissima/sacca-fisola_payment-processing/CLAUDE.md',
+                    '/serenissima/sacca-fisola_payment-processing/casa-dei-flussi_payment-flow-house/CLAUDE.md',
+                    '/serenissima/santa-croce_todo-operations-district/CLAUDE.md',
+                    '/serenissima/castello_universe-engine/CLAUDE.md',
+                    '/serenissima/rialto_bridge-to-bridge/CLAUDE.md',
+                    '/serenissima/bridge-of-patterns_consciousness-flow/CLAUDE.md',
+                    '/serenissima/ponte-dei-compiti_task-coordination/CLAUDE.md',
+                    '/serenissima/bridge-of-labor_operational-delivery/CLAUDE.md',
+                    '/serenissima/commerce-canal_economic-flow/CLAUDE.md',
+                    '/serenissima/ponte-della-tecnologia_technical-infrastructure/CLAUDE.md',
+                    '/serenissima/bridge-of-commerce_trade-knowledge/CLAUDE.md',
+                    '/serenissima/commerce-ferry-route_economic-coordination/CLAUDE.md',
+                    '/serenissima/knowledge-barge-route_documentation-delivery/CLAUDE.md',
+                    '/serenissima/torre-dell-cchio_hook-event-observatory/Arsenal_BackendArchitect_1/CLAUDE.md',
+                    '/serenissima/pozzo-degli-echi_subconscious-layer/mechanical_visionary/CLAUDE.md'
+                ];
+                
+                const entities = mockEntities.map(path => ({
+                    path,
+                    name: formatEntityName(path),
+                    type: getEntityType(path)
+                }));
+                
+                renderEntityMap(entities);
+                
+                // Update stats
+                const typeStats = entities.reduce((acc, entity) => {
+                    acc[entity.type] = (acc[entity.type] || 0) + 1;
+                    return acc;
+                }, {});
+                
+                const statsHTML = `
+                    <strong>Total Entities: ${entities.length}</strong> | 
+                    ${Object.entries(typeStats).map(([type, count]) => 
+                        `${type}: ${count}`).join(' | ')}
+                `;
+                statsContainer.innerHTML = statsHTML;
+                
+            } catch (error) {
+                mapContainer.innerHTML = `<div class="loading">❌ Error loading entities: ${error.message}</div>`;
+            }
+        }
+        
+        function renderEntityMap(entities) {
+            const mapContainer = document.getElementById('entityMap');
+            
+            const entitiesHTML = entities.map(entity => `
+                <div class="entity ${entity.type}" title="${entity.path}">
+                    <div class="entity-icon">${getEntityIcon(entity.type)}</div>
+                    <div class="entity-name">${entity.name}</div>
+                </div>
+            `).join('');
+            
+            mapContainer.innerHTML = entitiesHTML;
+            
+            // Add click handlers
+            mapContainer.querySelectorAll('.entity').forEach(element => {
+                element.addEventListener('click', () => {
+                    const path = element.getAttribute('title');
+                    alert(`Entity: ${element.querySelector('.entity-name').textContent}\nPath: ${path}`);
+                });
+            });
+        }
+        
+        // Load entities on page load
+        window.addEventListener('load', loadEntities);
+    </script>
+</body>
+</html>

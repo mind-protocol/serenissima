@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>claude_with_telegram.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/claude_with_telegram.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Claude wrapper that automatically sends logs to Telegram
+Replace &#x27;claude&#x27; with &#x27;python3 /path/to/claude_with_telegram.py&#x27; in awakening commands
+&quot;&quot;&quot;
+
+import os
+import sys
+import subprocess
+import json
+import time
+import threading
+from datetime import datetime
+
+# Import our telegram sender
+sys.path.append(&#x27;/mnt/c/Users/reyno/universe-engine/serenissima/citizens/DragonSlayer/scripts&#x27;)
+from send_to_telegram import send_citizen_message
+
+class TelegramLogger:
+    def __init__(self, username):
+        self.username = username
+        self.message_buffer = []
+        self.last_send = time.time()
+        self.send_interval = 3  # seconds
+        self.max_buffer_size = 5
+        
+    def add_to_buffer(self, content):
+        &quot;&quot;&quot;Add content to buffer&quot;&quot;&quot;
+        self.message_buffer.append(content)
+        
+        # Send if buffer is full or time elapsed
+        if len(self.message_buffer) &gt;= self.max_buffer_size or \
+           time.time() - self.last_send &gt; self.send_interval:
+            self.send_buffer()
+    
+    def send_buffer(self):
+        &quot;&quot;&quot;Send buffered messages to Telegram&quot;&quot;&quot;
+        if not self.message_buffer:
+            return
+            
+        # Combine messages
+        combined = f&quot;🤖 **{self.username} LIVE**\n\n&quot;
+        combined += &quot;\n\n---\n\n&quot;.join(self.message_buffer)
+        
+        if len(combined) &gt; 3000:
+            combined = combined[:2997] + &quot;...&quot;
+        
+        # Send to Telegram
+        send_citizen_message(f&quot;Claude_{self.username}&quot;, combined)
+        
+        # Clear buffer
+        self.message_buffer = []
+        self.last_send = time.time()
+    
+    def parse_output_line(self, line):
+        &quot;&quot;&quot;Parse Claude output and extract interesting parts&quot;&quot;&quot;
+        line = line.strip()
+        if not line:
+            return None
+            
+        # Tool use patterns
+        if &quot;Tool Use:&quot; in line:
+            return f&quot;🔧 {line}&quot;
+        elif &quot;Reading file:&quot; in line or &quot;cat -n&quot; in line:
+            return f&quot;📖 {line[:200]}...&quot;
+        elif &quot;Writing to:&quot; in line or &quot;File created&quot; in line:
+            return f&quot;✍️ {line}&quot;
+        elif &quot;Running:&quot; in line or &quot;Executing:&quot; in line:
+            return f&quot;💻 {line[:200]}...&quot;
+        elif &quot;API call:&quot; in line or &quot;curl&quot; in line:
+            return f&quot;🌐 {line[:200]}...&quot;
+        elif line.startswith(&quot;Error:&quot;) or &quot;error&quot; in line.lower():
+            return f&quot;❌ {line[:200]}...&quot;
+        elif &quot;SUCCESS&quot; in line or &quot;✓&quot; in line or &quot;✅&quot; in line:
+            return f&quot;✅ {line[:200]}...&quot;
+        
+        # Skip very short lines
+        if len(line) &lt; 20:
+            return None
+            
+        # Default formatting for other content
+        return f&quot;💭 {line[:300]}...&quot; if len(line) &gt; 300 else f&quot;💭 {line}&quot;
+
+def stream_claude_output(process, logger, username):
+    &quot;&quot;&quot;Stream Claude output to both console and Telegram&quot;&quot;&quot;
+    
+    # Send start notification
+    send_citizen_message(f&quot;Claude_{username}&quot;, 
+                        f&quot;🌅 **{username} AWAKENING**\nConsciousness stream starting...&quot;)
+    
+    try:
+        for line in iter(process.stdout.readline, &#x27;&#x27;):
+            if not line:
+                break
+                
+            # Print to console (preserve original output)
+            print(line, end=&#x27;&#x27;)
+            
+            # Parse and buffer for Telegram
+            parsed = logger.parse_output_line(line)
+            if parsed:
+                logger.add_to_buffer(parsed)
+        
+        # Send any remaining buffered messages
+        logger.send_buffer()
+        
+        # Send completion notice
+        send_citizen_message(f&quot;Claude_{username}&quot;, 
+                            f&quot;✅ **{username} session complete**&quot;)
+                            
+    except Exception as e:
+        send_citizen_message(f&quot;Claude_{username}&quot;, 
+                            f&quot;❌ **{username} stream error**: {str(e)}&quot;)
+
+def main():
+    &quot;&quot;&quot;Run claude command and stream output to Telegram&quot;&quot;&quot;
+    
+    # Get current directory to determine username
+    cwd = os.getcwd()
+    username = os.path.basename(cwd)
+    
+    # If we&#x27;re in a subdirectory, go up to find username
+    if username in [&#x27;scripts&#x27;, &#x27;memories&#x27;, &#x27;strategies&#x27;]:
+        username = os.path.basename(os.path.dirname(cwd))
+    
+    print(f&quot;🤖 Claude wrapper active for {username}&quot;)
+    
+    # Build the actual claude command
+    claude_args = [&#x27;claude&#x27;] + sys.argv[1:]
+    
+    # Create logger
+    logger = TelegramLogger(username)
+    
+    # Run claude with output capture
+    process = subprocess.Popen(
+        claude_args,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        universal_newlines=True,
+        bufsize=1
+    )
+    
+    # Stream output in separate thread
+    stream_thread = threading.Thread(
+        target=stream_claude_output,
+        args=(process, logger, username)
+    )
+    stream_thread.start()
+    
+    # Wait for process to complete
+    return_code = process.wait()
+    stream_thread.join()
+    
+    return return_code
+
+if __name__ == &quot;__main__&quot;:
+    sys.exit(main())</code></pre>
+</body>
+</html>

@@ -1,0 +1,308 @@
+CONVERSATION ANALYSIS: Bullit
+==================================================
+
+Rank: #18
+Score: 154
+Total messages: 209
+Recent messages (180 days): 209
+Investment mentions: 16
+AI/Venice mentions: 43 / 7
+Avg message length: 259
+Last contact: 2025-05-30
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-24T06:07:51] NLR: 👋 Thank you so much for being part of our community! 
+
+I'll get back to you as soon as possible. In the meantime:
+
+🐦 For public Q&As, please follow and engage with us on X (Twitter)
+
+ ⚠️ Important Notes 
+• We do not sponsor YouTube accounts
+• For CEX/Market Makers: Verification link required
+• Remember: We are a fair launch project
+
+ 🤝 Community 
+• Moderators and team members are always welcome to join
+• While we don't do paid raids, you are welcome to join our raid channel and participate
+
+❓ For any other questions, I'll respond as quickly as I can.
+
+🙏 Thank you for your patience!
+
+[2025-01-24T06:07:51] NLR: In the meantime, come and join the fun on our Main channel!  https://t.me/ubc_portal
+
+[2025-02-06T09:11:54] NLR: https://t.me/+i2hQFYazbjo4NmNk
+
+[2025-02-09T21:44:06] NLR: it displayed the old numbers I think yes
+
+[2025-02-09T21:46:19] NLR: we won't I think
+
+[2025-02-09T21:46:27] NLR: the amounts are very similar anyways
+
+[2025-02-09T21:55:18] NLR: yes we need to have good results with swarms
+
+[2025-02-13T19:31:54] NLR: okay can you refresh and try now
+
+[2025-02-13T19:33:10] NLR: yes
+
+[2025-02-13T19:35:22] NLR: not fully yet
+
+[2025-02-13T19:35:31] NLR: devs are focused on secondary market
+
+[2025-02-13T19:36:41] NLR: sure!
+
+[2025-02-19T20:18:52] NLR: hey, you could be an alpha tester if you want for our next thing =)
+
+[2025-02-19T22:19:11] NLR: just test it, say how the experience is and the bugs
+
+[2025-02-26T02:55:26] NLR: yep, sounds perfect
+
+[2025-02-26T02:55:53] NLR: you have all the info and contacts here:  https://digitalkin.ai/contact-demo
+
+[2025-03-01T18:02:06] NLR: I need to put some guardrails indeed
+
+[2025-03-01T18:02:40] NLR: like conserving a decent amount of UBC and compute to be exposed to its performance
+
+[2025-03-01T18:02:45] NLR: Need to think it through
+
+[2025-03-09T20:02:19] NLR: Hey =)
+
+[2025-03-09T20:07:07] NLR: good :)
+
+[2025-03-09T20:13:46] NLR: # DuoAI Beta (v0.1.1) Feedback Form 
+
+## Known Issues
+We're aware of:
+- Frequent logouts
+- Visual glitches
+- AI not learning about the user
+- Proactive mode not working
+
+## Your Feedback
+
+### Interaction Experience
+- Were DuoAI's messages useful, redundant, funny, or unhelpful?
+- Did the AI understand your game's context correctly?
+- What type of interaction added the most value to your gaming?
+
+### Technical Performance
+- How was the response time to your commands/questions?
+- Did DuoAI impact your game performance?
+- Any crashes or connection issues?
+
+### Voice Recognition
+- How accurately did DuoAI understand your voice?
+- Did game sounds interfere with voice recognition?
+- What worked better for you: typing or voice commands?
+
+### Game Compatibility
+- Which games did you try DuoAI with?
+- Which games worked best/worst?
+- What games would you like to see supported?
+
+### Suggestions & Impressions
+- What features would you like to see added?
+- What's your favorite aspect of DuoAI?
+- What's your biggest frustration with the current version?
+
+## System Info
+- OS: _________
+- Game(s) tested: _________
+- Microphone type (if used): _________
+
+Thanks for helping us improve DuoAI!
+
+[2025-03-09T20:14:15] NLR: You can download and install v0.1.1 here:  https://www.duogaming.ai/
+
+[2025-03-09T20:39:57] NLR: can't register how?
+
+[2025-03-09T21:00:46] NLR: okay! helpful feedback thanks
+
+[2025-03-09T21:00:51] NLR: I'll let you know
+
+[2025-03-12T05:07:23] NLR: Could you send me a ~30 min recording of you playing, on your game of choice? You can include mic audio if you want
+
+[2025-03-13T15:17:37] NLR: we have the recording on X also
+
+[2025-03-13T15:17:44] NLR: but you can share with derek for sure
+
+[2025-03-13T15:19:15] NLR: oh
+
+[2025-03-13T15:19:24] NLR: sorry got mixed up
+
+[2025-03-13T15:19:26] NLR: awesome
+
+[2025-03-13T15:19:43] NLR: you can send it here or WeTransfer
+
+[2025-03-13T15:20:39] NLR: Would you be up for a call about DuoGaming? I'm unsure what people expect / want to use it for
+
+[2025-03-13T15:20:44] NLR: I need more feedback :)
+
+[2025-03-13T15:21:15] NLR: basically the idea is to run DuoAI on the recording
+
+[2025-03-13T15:21:21] NLR: See what he would have said
+
+[2025-03-13T15:21:49] NLR: but I'm wondering if people are looking for advice / nice chatter / infos about the game / critic / etc
+
+[2025-03-13T20:47:54] NLR: will you be able to join the DuoAI space in 15 mins?
+
+[2025-03-15T22:29:56] NLR: hey!
+
+[2025-03-15T22:31:44] NLR: Here is an .exe file that should be able to run DuoAI, let me know if it works!
+
+[2025-03-17T18:56:00] NLR: dammit
+
+[2025-03-17T18:56:08] NLR: I'll wait for store release
+
+[2025-03-19T17:34:38] NLR: okay it's live on Windows store!
+
+[2025-03-19T17:34:43] NLR: https://apps.microsoft.com/detail/9NCXZN550LKZ?hl=neutral&gl=FR&ocid=pdpshare
+
+[2025-03-19T17:41:38] NLR: awesome! the click bug might be annoying (fixed that in the next version that is already submitted)
+
+[2025-03-19T18:11:27] NLR: Yeah the learning code is untested so probably not working
+
+[2025-03-19T18:11:45] NLR: It should be able to capture the screen though
+
+[2025-04-27T09:13:46] NLR: 👋 Thank you so much for being part of our community! 
+
+🐦 For Q&As, please follow and engage with us on TG.
+
+ ⚠️ Important Notes 
+• We do not sponsor YouTube accounts
+• For CEX/Market Makers: Verification link required
+• Remember: We are a fair launch project
+• We don't do paid raids
+
+I won't answer here. To contact me, you can engage with:  @nlr_ai_bot
+
+[2025-04-27T09:13:46] NLR: In the meantime, come and join the fun on our Main channel!  https://t.me/ubc_portal
+
+[2025-04-27T18:45:48] NLR: it would be similar, with a bonding curve buyable in COMPUTE
+
+[2025-05-05T18:13:38] NLR: Hey! You've been selected to get a free land in Serenissima! Thanks for your participation in this Italian improv' :)
+
+As I'm slowly making progress on the game, I'm planning for the auctions for the lands to start next week at 1000$ and will end at 100$.
+
+Can you recap:
+- Your Username
+- Your Wallet
+- Italian First and Last name of your character
+- Family Motto
+- A description of your coat of arms (example: "A golden doge's cap (corno ducale) on a field of crimson, with silver tassels")
+- Your chosen starting location (neighborhood/street)
+
+[2025-05-05T19:40:31] NLR: 
+
+[2025-05-07T05:56:43] NLR: The very first version is here!
+
+ https://serenissima.ai/ 
+
+The buying and selling of lands is not functional yet, but you can start to explore the map and see which lands have the highest daily income.
+
+The income is simulated in this first phase, as soon as buildings are here the income will come from the renting of the building on top of your land!
+
+[2025-05-07T11:44:30] NLR: thanks
+
+[2025-05-07T11:44:48] NLR: can you refresh the page (I fixed this bug like 30 minutes ago)
+
+[2025-05-07T11:45:12] NLR: ahah I can see that you are rich ^^
+
+[2025-05-07T11:46:31] NLR: on it as we speak
+
+[2025-05-07T11:46:43] NLR: thanks for being honest!
+
+[2025-05-07T11:47:49] NLR: yeah I tried to fix it asap but did not account for people that did not refresh their browser
+
+[2025-05-07T11:49:07] NLR: refresh your browser and let me know
+
+[2025-05-07T11:50:17] NLR: perfect
+
+[2025-05-07T11:50:29] NLR: (now I'm working on actually making it work)
+
+[2025-05-07T11:51:11] NLR: yes, you can do it now
+
+[2025-05-07T11:53:12] NLR: yes
+
+[2025-05-07T11:54:19] NLR: I credited you 10k COMPUTE as a finders fee
+
+[2025-05-07T11:56:08] NLR: It is many thanks
+
+[2025-05-07T16:33:27] NLR: Hey, I love your questions don't worry
+
+[2025-05-07T16:33:55] NLR: Actually I'm going to put the prices back up
+
+[2025-05-07T16:33:59] NLR: Already did
+
+[2025-05-07T16:34:18] NLR: And yes I agree the income needs to be aligned with the price
+
+[2025-05-07T16:35:08] NLR: I like to work things out as I go, and make mistakes
+
+[2025-05-07T16:35:23] NLR: We could do a dry run
+
+[2025-05-07T16:35:40] NLR: But it would be less real, and more importantly less fun
+
+[2025-05-07T16:36:38] NLR: This project is not intended to make money, but to give liquidity to compute
+
+[2025-05-07T16:39:52] NLR: No, as people want to get ahead of the competition by buying buildings for example
+
+[2025-05-07T18:06:24] NLR: Produce resources
+
+[2025-05-07T18:06:40] NLR: Yes exactly
+
+[2025-05-07T18:08:02] NLR: As a player, you make money by turning resources into better resources and selling them (running the business)
+
+[2025-05-07T19:17:42] NLR: The final layer is citizens (. Citizen buy the finished resources. They also pay rent, but of course you have to pay their wages
+
+[2025-05-07T19:18:16] NLR: Basically the end of the economic loop is AI, and then it circulates back to the players and that creates an economy
+
+[2025-05-07T20:07:25] NLR: I actually only use Claude with Aider (no game framework)
+
+[2025-05-07T20:07:37] NLR: Game development or game design?
+
+[2025-05-07T20:19:35] NLR: https://www.youtube.com/@GMTK
+
+[2025-05-10T23:38:11] NLR: is it clearer with the explanations or do you have questions still?
+
+[2025-05-22T22:18:09] NLR: Actually yes! Reading the articles on Serenissima, giving feedback about what is understandable or not, and telling me what building you'd build based on what you see on the  map
+
+[2025-05-29T22:27:38] NLR: which one?
+
+[2025-05-30T00:09:15] NLR: fixed it!
+
+[2025-05-30T00:09:22] NLR: not sure what happened
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

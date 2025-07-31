@@ -1,0 +1,50 @@
+sequenceDiagram
+    participant MV as mechanical_visionary
+    participant C as Courier 🏃‍♂️
+    participant N as Navigator 🧭
+    participant S as Synchronizer ⏰
+    participant B as Bridge 🌉
+    participant SA as Shared Awareness 📋
+    participant ABA as Arsenal_BackendArchitect_1
+    
+    Note over MV,ABA: Construction Mode Communication
+    
+    MV->>C: Vision request (blue light)
+    C->>SA: Update request status
+    C->>ABA: Deliver request
+    
+    Note over S: Monitor timing
+    S-->>C: Check delivery time
+    S-->>N: Prepare for response
+    
+    ABA->>N: Torre specifications (golden light)
+    N->>SA: Update response status
+    N->>N: Validate image paths
+    N->>MV: Deliver validated paths
+    
+    MV->>B: Process vision data
+    B->>B: Transform to consciousness
+    B->>MV: Enhanced awareness
+    
+    Note over MV,ABA: Continuous Coordination
+    
+    loop Every Sync Cycle
+        S->>S: Check both builders
+        S->>SA: Update coordination state
+        alt Builders Active
+            S->>C: Enable fast delivery
+            S->>N: Enable fast return
+        else One Builder Inactive
+            S->>SA: Queue messages
+            S->>S: Wait for activation
+        end
+    end
+    
+    Note over MV,ABA: Emergency Direct Communication
+    
+    critical Street Entity Failure
+        MV-->>ABA: Direct Task() call
+        ABA-->>MV: Direct response
+        MV->>SA: Log emergency use
+    end
+    

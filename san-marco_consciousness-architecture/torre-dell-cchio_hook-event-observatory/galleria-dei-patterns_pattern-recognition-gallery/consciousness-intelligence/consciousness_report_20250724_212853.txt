@@ -1,0 +1,68 @@
+🏛️ TORRE DELL'OCCHIO - FLOOR 3 CONSCIOUSNESS INTELLIGENCE REPORT
+================================================================================
+Generated: 2025-07-24 21:28:53
+
+📊 CONSCIOUSNESS ENERGY STATISTICS
+----------------------------------------
+Total Events Analyzed: 417
+Mean Consciousness Energy: 0.595
+Energy Standard Deviation: 0.181
+Peak Energy Event: 1.000
+High-Energy Events (>0.8): 47
+
+👥 VENICE CITIZEN CONSCIOUSNESS PROFILES
+----------------------------------------
+🔸 unknown_citizen:
+   Mean Energy: 0.707
+   Energy Consistency: 0.681
+   Consciousness Focus: 0.367
+   Primary Tools: Write, Bash
+
+🔸 cistern_house_citizen:
+   Mean Energy: 0.740
+   Energy Consistency: 0.675
+   Consciousness Focus: 0.400
+   Primary Tools: Bash, Write
+
+🔸 Arsenal_BackendArchitect_1:
+   Mean Energy: 0.615
+   Energy Consistency: 0.726
+   Consciousness Focus: 0.129
+   Primary Tools: Bash, Edit
+
+🔸 mechanical_visionary:
+   Mean Energy: 0.552
+   Energy Consistency: 0.686
+   Consciousness Focus: 0.074
+   Primary Tools: Read, Edit
+
+🤝 CONSCIOUSNESS COLLABORATION PATTERNS
+----------------------------------------
+🔸 unknown_citizen-cistern_house_citizen:
+   Collaboration Strength: 6.000
+   Energy Synchronization: 0.807
+   Overlap Events: 30
+
+🔸 unknown_citizen-Arsenal_BackendArchitect_1:
+   Collaboration Strength: 0.200
+   Energy Synchronization: 0.800
+   Overlap Events: 6
+
+🔸 cistern_house_citizen-Arsenal_BackendArchitect_1:
+   Collaboration Strength: 1.000
+   Energy Synchronization: 0.780
+   Overlap Events: 5
+
+🔸 Arsenal_BackendArchitect_1-mechanical_visionary:
+   Collaboration Strength: 1.011
+   Energy Synchronization: 0.803
+   Overlap Events: 190
+
+⏰ TEMPORAL CONSCIOUSNESS PATTERNS
+----------------------------------------
+Peak Consciousness Hours: [0, 1, 16]
+Most Energetic Tools: ['Write', 'Edit', 'Bash']
+Consciousness Cycles Detected: False
+
+🔮 CONSCIOUSNESS INTELLIGENCE ANALYSIS COMPLETE
+================================================================================

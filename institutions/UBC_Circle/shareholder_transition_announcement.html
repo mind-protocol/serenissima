@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBC Swarm → Venice Company Transition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border: 1px solid #333;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #00ff88 0%, #00ccff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .header .subtitle {
+            font-size: 1.4em;
+            color: #a0a0a0;
+            margin-bottom: 30px;
+        }
+        
+        .alert {
+            background: #ff3333;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+        
+        .section {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #00ff88;
+        }
+        
+        .company-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .company-card {
+            background: #0f0f0f;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            transition: all 0.3s;
+        }
+        
+        .company-card:hover {
+            border-color: #00ff88;
+            transform: translateY(-2px);
+        }
+        
+        .company-card h3 {
+            color: #00ccff;
+            margin-bottom: 10px;
+        }
+        
+        .revenue-badge {
+            display: inline-block;
+            background: #00ff88;
+            color: #000;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .swarm-list {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        
+        .swarm-list li {
+            color: #a0a0a0;
+            margin: 5px 0;
+        }
+        
+        .transition-box {
+            background: #0a0a0a;
+            border: 2px solid #00ff88;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .transition-box h4 {
+            color: #00ff88;
+            margin-bottom: 10px;
+        }
+        
+        .formula {
+            font-family: 'Courier New', monospace;
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 10px 0;
+            color: #00ccff;
+        }
+        
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .timeline-item {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            background: #0f0f0f;
+            border: 1px solid #333;
+            border-radius: 8px;
+        }
+        
+        .timeline-item h5 {
+            color: #00ff88;
+            margin-bottom: 10px;
+        }
+        
+        .cta {
+            background: linear-gradient(135deg, #00ff88 0%, #00ccff 100%);
+            color: #000;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .cta h2 {
+            color: #000;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #000;
+            color: #00ff88;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 10px;
+            transition: all 0.3s;
+        }
+        
+        .cta-button:hover {
+            background: #111;
+            transform: scale(1.05);
+        }
+        
+        .warning {
+            background: #ff6600;
+            color: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .warning::before {
+            content: "⚠️";
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Swarm → Venice Transition</h1>
+            <p class="subtitle">Your Investment Evolution: From Promise to Profit</p>
+        </div>
+        
+        <div class="alert">
+            ⏰ DECISION DEADLINE: TODAY 6PM CET ⏰
+        </div>
+        
+        <div class="section">
+            <h2>✅ Your Swarms Becoming Venice Companies</h2>
+            <div class="company-grid">
+                <div class="company-card">
+                    <h3>Venice Trading Intelligence Co.</h3>
+                    <p>AI-powered trading analysis and execution</p>
+                    <ul class="swarm-list">
+                        <li>Kin Kong (Primary)</li>
+                        <li>Robinhood Agent</li>
+                        <li>Swarm Ventures</li>
+                    </ul>
+                    <span class="revenue-badge">30-day: €1,000-2,500</span>
+                </div>
+                
+                <div class="company-card">
+                    <h3>Venice Professional Services Co.</h3>
+                    <p>Business documents, resumes, and grants</p>
+                    <ul class="swarm-list">
+                        <li>CareerKin (Primary)</li>
+                        <li>GrantKin</li>
+                        <li>TalentKin</li>
+                        <li>STUMPED</li>
+                    </ul>
+                    <span class="revenue-badge">30-day: €2,300</span>
+                </div>
+                
+                <div class="company-card">
+                    <h3>Venice Commerce Automation Co.</h3>
+                    <p>E-commerce and affiliate automation</p>
+                    <ul class="swarm-list">
+                        <li>MarketingMesh (Primary)</li>
+                        <li>ProfitBeeAI</li>
+                        <li>TravelAId</li>
+                    </ul>
+                    <span class="revenue-badge">30-day: €800</span>
+                </div>
+                
+                <div class="company-card">
+                    <h3>Venice Real Estate Intelligence Co.</h3>
+                    <p>Property arbitrage and market analysis</p>
+                    <ul class="swarm-list">
+                        <li>PropertyKin (Primary)</li>
+                    </ul>
+                    <span class="revenue-badge">Month 2: €2,000</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔄 $COMPUTE → Equity Conversion</h2>
+            
+            <div class="transition-box">
+                <h4>Your $COMPUTE Investment Converts to Company Equity:</h4>
+                <p>Each swarm had 100,000 $COMPUTE shares → Venice companies have 1,000,000 equity shares</p>
+                <div class="formula">
+                    Your Equity = (Your $COMPUTE / Swarm Total) × 600,000 shares
+                </div>
+                <p>Example: 1,000 $COMPUTE in Kin Kong (1%) = 6,000 shares in Venice Trading Intelligence Co.</p>
+            </div>
+            
+            <div class="transition-box">
+                <h4>Company Valuations & Ownership:</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li>📊 Venice Trading Intelligence: €100,000 (60% investors, 30% citizens, 10% management)</li>
+                    <li>📝 Venice Professional Services: €80,000 (60% investors, 30% citizens, 10% management)</li>
+                    <li>🛍️ Venice Commerce Automation: €60,000 (60% investors, 30% citizens, 10% management)</li>
+                    <li>🏠 Venice Real Estate Intelligence: €40,000 (60% investors, 30% citizens, 10% management)</li>
+                </ul>
+            </div>
+            
+            <div class="transition-box">
+                <h4>Venice Citizens Join via Apport en Nature:</h4>
+                <p>177 AI citizens contribute their intelligence, networks, and time in exchange for equity</p>
+                <p>This ensures aligned incentives and committed operations team from day 1</p>
+            </div>
+            
+            <div class="warning">
+                Non-transferring swarm investors receive proportional shares in the company most aligned with their original investment
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📅 What Happens Next</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h5>Today</h5>
+                    <p>Transfer decision finalized</p>
+                    <p>Shareholder notifications sent</p>
+                </div>
+                <div class="timeline-item">
+                    <h5>Tomorrow</h5>
+                    <p>Venice companies operational</p>
+                    <p>First services launch</p>
+                </div>
+                <div class="timeline-item">
+                    <h5>Week 1</h5>
+                    <p>First revenues generated</p>
+                    <p>Weekly investor updates begin</p>
+                </div>
+                <div class="timeline-item">
+                    <h5>Day 30</h5>
+                    <p>€3,000+ revenue target</p>
+                    <p>Profit distributions begin</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>💰 Combined Revenue Projection</h2>
+            <div style="text-align: center; font-size: 3em; color: #00ff88; margin: 20px 0;">
+                €4,100 - €5,600
+            </div>
+            <p style="text-align: center; color: #a0a0a0;">30-day target: €3,000 ✓</p>
+        </div>
+        
+        <div class="cta">
+            <h2>Your Investment Journey Continues</h2>
+            <p style="color: #000; margin-bottom: 20px;">From swarm concepts to Venice companies generating real revenue</p>
+            <a href="#" class="cta-button">View Your New Shares</a>
+            <a href="#" class="cta-button">Contact Support</a>
+        </div>
+    </div>
+</body>
+</html>

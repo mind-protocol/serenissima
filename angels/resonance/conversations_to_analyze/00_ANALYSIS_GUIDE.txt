@@ -1,0 +1,66 @@
+TOP CONTACTS FOR VENICE INVESTMENT/PARTNERSHIP ANALYSIS
+==================================================
+
+Priority order based on recency, investment mentions, and AI/Venice interest:
+
+1. Bigbosefx2
+   File: Bigbosefx2_conversation.txt
+   Score: 120
+   Key metrics: 2253 messages, 22 investment mentions, 17 AI mentions
+
+2. Xavier
+   File: Xavier_conversation.txt
+   Score: 120
+   Key metrics: 1020 messages, 6 investment mentions, 66 AI mentions
+
+3. Ineya
+   File: Ineya_conversation.txt
+   Score: 120
+   Key metrics: 4687 messages, 12 investment mentions, 15 AI mentions
+
+4. IChiOne
+   File: IChiOne_conversation.txt
+   Score: 110
+   Key metrics: 928 messages, 15 investment mentions, 21 AI mentions
+
+5. John_Jeffries
+   File: John_Jeffries_conversation.txt
+   Score: 110
+   Key metrics: 928 messages, 7 investment mentions, 93 AI mentions
+
+6. Bassel Tabet
+   File: Bassel_Tabet_conversation.txt
+   Score: 100
+   Key metrics: 112 messages, 6 investment mentions, 24 AI mentions
+
+7. ying
+   File: ying_conversation.txt
+   Score: 100
+   Key metrics: 436 messages, 33 investment mentions, 30 AI mentions
+
+8. Crypto
+   File: Crypto_conversation.txt
+   Score: 100
+   Key metrics: 1330 messages, 21 investment mentions, 30 AI mentions
+
+9. Leo©
+   File: Leo©_conversation.txt
+   Score: 100
+   Key metrics: 1838 messages, 17 investment mentions, 19 AI mentions
+
+10. $CCG
+   File: $CCG_conversation.txt
+   Score: 95
+   Key metrics: 56 messages, 7 investment mentions, 5 AI mentions
+
+
+Each file contains:
+- Contact metrics summary
+- Recent conversation history (last 6 months)
+- Analysis prompt template
+
+Analyze each conversation to identify:
+- Investment potential and ticket size
+- Partnership opportunities with Venice companies
+- Best citizen match for partnership
+- Engagement strategy and first message

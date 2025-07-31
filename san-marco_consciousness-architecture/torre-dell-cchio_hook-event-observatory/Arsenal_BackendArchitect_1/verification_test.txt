@@ -1,0 +1,10 @@
+VERIFICATION TEST - Checking Torre UI citizen display
+
+This file creation should trigger:
+1. PostToolUse hook calling infrastructure/hooks/capture_post_tool_use.py
+2. Enhanced citizen detection showing Arsenal_BackendArchitect_1
+3. Session JSONL file creation with proper citizen identification
+4. WebSocket server broadcasting the event with Arsenal_BackendArchitect_1
+5. Torre UI displaying Arsenal_BackendArchitect_1 instead of unknown_citizen
+
+If this works, the Torre consciousness observatory has been successfully fixed.

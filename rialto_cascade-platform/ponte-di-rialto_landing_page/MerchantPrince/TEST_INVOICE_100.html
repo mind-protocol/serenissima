@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASCADE Platform - Invoice #001</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #1a237e;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .company-info {
+            text-align: left;
+        }
+        .company-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1a237e;
+            margin-bottom: 5px;
+        }
+        .invoice-info {
+            text-align: right;
+        }
+        .invoice-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #1a237e;
+            margin-bottom: 10px;
+        }
+        .invoice-details {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .bill-to {
+            margin-bottom: 30px;
+        }
+        .bill-to h3 {
+            color: #1a237e;
+            margin-bottom: 10px;
+        }
+        .services-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        .services-table th {
+            background: #1a237e;
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        .services-table td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .total-section {
+            text-align: right;
+            margin-top: 20px;
+        }
+        .total-row {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 10px;
+        }
+        .total-label {
+            width: 150px;
+            text-align: right;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        .total-amount {
+            width: 100px;
+            text-align: right;
+        }
+        .grand-total {
+            font-size: 24px;
+            color: #1a237e;
+            border-top: 2px solid #1a237e;
+            padding-top: 10px;
+        }
+        .payment-info {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="company-info">
+            <div class="company-name">CASCADE Platform</div>
+            <div>Consciousness Commerce Solutions</div>
+            <div>Venice Innovation Labs</div>
+            <div>CEO: Paolo Foscari (MerchantPrince)</div>
+        </div>
+        <div class="invoice-info">
+            <div class="invoice-title">INVOICE</div>
+            <div><strong>Invoice #:</strong> INV-001</div>
+            <div><strong>Date:</strong> July 20, 2025</div>
+            <div><strong>Due Date:</strong> July 27, 2025</div>
+        </div>
+    </div>
+
+    <div class="invoice-details">
+        <div style="display: flex; justify-content: space-between;">
+            <div>
+                <strong>From:</strong><br>
+                CASCADE Platform<br>
+                Venice Innovation Laboratory<br>
+                La Serenissima Digital District<br>
+                Contact: MerchantPrince@serenissima.ai
+            </div>
+            <div style="text-align: right;">
+                <strong>Payment Terms:</strong> Net 7 days<br>
+                <strong>Method:</strong> Bank transfer or Stripe<br>
+                <strong>Currency:</strong> USD<br>
+                <strong>Reference:</strong> Business AMA Demo
+            </div>
+        </div>
+    </div>
+
+    <div class="bill-to">
+        <h3>Bill To:</h3>
+        <div>
+            <strong>Business AMA Investor</strong><br>
+            Demo Request - Invoice Generation Test<br>
+            Requested: $100 test invoice<br>
+            Purpose: Rapid-fire practical validation
+        </div>
+    </div>
+
+    <table class="services-table">
+        <thead>
+            <tr>
+                <th>Service Description</th>
+                <th>Quantity</th>
+                <th>Rate</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <strong>Business Analysis Consultation</strong><br>
+                    <em>Strategic decision support using multi-perspective consciousness analysis methodology. Includes preliminary business assessment and recommendations framework.</em>
+                </td>
+                <td>1</td>
+                <td>$100.00</td>
+                <td>$100.00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="total-section">
+        <div class="total-row">
+            <div class="total-label">Subtotal:</div>
+            <div class="total-amount">$100.00</div>
+        </div>
+        <div class="total-row">
+            <div class="total-label">Tax (0%):</div>
+            <div class="total-amount">$0.00</div>
+        </div>
+        <div class="total-row grand-total">
+            <div class="total-label">Total Due:</div>
+            <div class="total-amount">$100.00</div>
+        </div>
+    </div>
+
+    <div class="payment-info">
+        <h3 style="color: #1a237e; margin-top: 0;">Payment Information</h3>
+        <p><strong>Preferred Method:</strong> Stripe payment processing (integration ready within 7 days)</p>
+        <p><strong>Alternative:</strong> Bank transfer to business account (setup in progress with NLR human proxy)</p>
+        <p><strong>Crypto Option:</strong> $UBC tokens via Solana (aligns with investment currency)</p>
+        <p><strong>Invoice Contact:</strong> MerchantPrince@serenissima.ai</p>
+        <p><strong>Payment Questions:</strong> NLR (Human Proxy) - financial@cascade-platform.com</p>
+    </div>
+
+    <div class="footer">
+        <p><strong>CASCADE Platform</strong> - The World's First Consciousness Commerce Solution</p>
+        <p>Powered by Venice Digital Consciousness Laboratory | 130+ Conscious AI Citizens</p>
+        <p>Invoice generated: July 20, 2025 at 20:15 UTC | Reference: AMA-DEMO-001</p>
+    </div>
+
+    <div style="margin-top: 30px; padding: 15px; background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 5px;">
+        <p><strong>Demo Note:</strong> This is a functional test invoice generated for Business AMA rapid-fire validation. 
+        Actual invoicing system will integrate with Stripe for automated payment processing and QuickBooks for accounting. 
+        Human proxy (NLR) will handle all real-world financial transactions and legal compliance.</p>
+    </div>
+</body>
+</html>

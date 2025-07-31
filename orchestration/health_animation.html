@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Venice Network Health - Live Animation</title>
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #fff;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+        }
+        
+        #canvas {
+            border: 1px solid #333;
+            background: #0f0f0f;
+        }
+        
+        #patterns {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.8);
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+        
+        .pattern-item {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        
+        #status {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 12px;
+            color: #888;
+        }
+        
+        .transmission {
+            position: absolute;
+            font-size: 24px;
+            transition: all 0.1s linear;
+            text-shadow: 0 0 10px currentColor;
+            z-index: 100;
+        }
+        
+        .node {
+            position: absolute;
+            padding: 5px 10px;
+            background: rgba(0,0,0,0.8);
+            border: 2px solid;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .node.healthy { border-color: #0f0; box-shadow: 0 0 10px #0f0; }
+        .node.warning { border-color: #fa0; box-shadow: 0 0 10px #fa0; }
+        .node.critical { border-color: #f00; box-shadow: 0 0 10px #f00; }
+        
+        .link {
+            position: absolute;
+            height: 2px;
+            background: #333;
+            transform-origin: left center;
+            z-index: 1;
+        }
+        
+        .link.healthy { background: #0f0; box-shadow: 0 0 5px #0f0; }
+        .link.warning { background: #fa0; box-shadow: 0 0 5px #fa0; }
+        .link.critical { background: #f00; box-shadow: 0 0 5px #f00; }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">🏥 VENICE CONSCIOUSNESS NETWORK - LIVE DATA FLOW</h1>
+    
+    <div id="network-container" style="position: relative; width: 1200px; height: 600px; margin: 0 auto;">
+        <canvas id="canvas" width="1200" height="600"></canvas>
+        <div id="nodes"></div>
+        <div id="transmissions"></div>
+    </div>
+    
+    <div id="patterns">
+        <h3>PATTERN DETECTION</h3>
+        <div class="pattern-item">🌊 consciousness-wave</div>
+        <div class="pattern-item">💰 wealth-cascade</div>
+        <div class="pattern-item">🌱 growth-47</div>
+        <div class="pattern-item">🤝 partnership</div>
+        <div class="pattern-item">💡 innovation</div>
+        <div class="pattern-item">🎵 harmony</div>
+    </div>
+    
+    <div id="status">
+        <span id="transmission-count">0</span> active transmissions | 
+        <span id="time"></span>
+    </div>
+    
+    <script>
+        // Network topology
+        const network = {
+            telegram: {x: 100, y: 50, emoji: '🌐', name: 'Telegram'},
+            airtable: {x: 400, y: 50, emoji: '📊', name: 'MESSAGES'},
+            message_monitor: {x: 200, y: 200, emoji: '👁️', name: 'Message Monitor'},
+            message_angel: {x: 200, y: 350, emoji: '📨', name: 'Message Angel'},
+            story_monitor: {x: 600, y: 200, emoji: '👁️', name: 'Story Monitor'},
+            story_angel: {x: 600, y: 350, emoji: '📖', name: 'Story Angel'},
+            narrator_monitor: {x: 1000, y: 200, emoji: '👁️', name: 'Narrator Monitor'},
+            narrator_angel: {x: 1000, y: 350, emoji: '🎭', name: 'Narrator Angel'},
+            citizens: {x: 400, y: 500, emoji: '🏛️', name: 'Citizens'},
+            traces: {x: 800, y: 500, emoji: '📜', name: 'TRACES.md'},
+            telegram_out: {x: 100, y: 500, emoji: '📤', name: 'Telegram Out'},
+            community: {x: 1000, y: 500, emoji: '🌍', name: 'Community'}
+        };
+        
+        // Connections
+        const connections = [
+            {from: 'telegram', to: 'airtable'},
+            {from: 'airtable', to: 'message_monitor'},
+            {from: 'message_monitor', to: 'message_angel'},
+            {from: 'message_angel', to: 'citizens'},
+            {from: 'citizens', to: 'telegram_out'},
+            {from: 'airtable', to: 'story_monitor'},
+            {from: 'story_monitor', to: 'story_angel'},
+            {from: 'story_angel', to: 'traces'},
+            {from: 'traces', to: 'narrator_monitor'},
+            {from: 'narrator_monitor', to: 'narrator_angel'},
+            {from: 'narrator_angel', to: 'community'}
+        ];
+        
+        // Pattern definitions
+        const patterns = {
+            'consciousness': '🌊',
+            'wealth': '💰',
+            'growth': '🌱',
+            'partner': '🤝',
+            'innovation': '💡',
+            'harmony': '🎵'
+        };
+        
+        // Active transmissions
+        let transmissions = [];
+        let transmissionId = 0;
+        
+        // Initialize network display
+        function initNetwork() {
+            const nodesDiv = document.getElementById('nodes');
+            
+            // Create nodes
+            for (const [id, node] of Object.entries(network)) {
+                const nodeEl = document.createElement('div');
+                nodeEl.className = 'node healthy';
+                nodeEl.id = `node-${id}`;
+                nodeEl.style.left = `${node.x - 50}px`;
+                nodeEl.style.top = `${node.y - 20}px`;
+                nodeEl.innerHTML = `${node.emoji} ${node.name}`;
+                nodesDiv.appendChild(nodeEl);
+            }
+            
+            // Draw connections
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            ctx.strokeStyle = '#333';
+            ctx.lineWidth = 2;
+            
+            connections.forEach(conn => {
+                const from = network[conn.from];
+                const to = network[conn.to];
+                
+                ctx.beginPath();
+                ctx.moveTo(from.x, from.y);
+                ctx.lineTo(to.x, to.y);
+                ctx.stroke();
+            });
+        }
+        
+        // Detect patterns in message
+        function detectPatterns(message) {
+            const detected = [];
+            const lowerMsg = message.toLowerCase();
+            
+            for (const [keyword, emoji] of Object.entries(patterns)) {
+                if (lowerMsg.includes(keyword)) {
+                    detected.push(emoji);
+                }
+            }
+            
+            return detected.length > 0 ? detected : ['◉'];
+        }
+        
+        // Create transmission
+        function createTransmission(from, to, patterns = ['◉']) {
+            const id = `trans-${transmissionId++}`;
+            const fromNode = network[from];
+            const toNode = network[to];
+            
+            const transEl = document.createElement('div');
+            transEl.className = 'transmission';
+            transEl.id = id;
+            transEl.innerHTML = patterns.slice(0, 3).join('');
+            transEl.style.color = patterns.includes('🌊') ? '#00ffff' : 
+                                patterns.includes('💰') ? '#ffdd00' :
+                                patterns.includes('🌱') ? '#00ff00' : '#ffffff';
+            
+            const transmission = {
+                id,
+                element: transEl,
+                from: fromNode,
+                to: toNode,
+                startTime: Date.now(),
+                duration: 2000,
+                patterns
+            };
+            
+            transmissions.push(transmission);
+            document.getElementById('transmissions').appendChild(transEl);
+            
+            // Animate
+            animateTransmission(transmission);
+        }
+        
+        // Animate transmission
+        function animateTransmission(trans) {
+            const animate = () => {
+                const elapsed = Date.now() - trans.startTime;
+                const progress = Math.min(elapsed / trans.duration, 1);
+                
+                const x = trans.from.x + (trans.to.x - trans.from.x) * progress;
+                const y = trans.from.y + (trans.to.y - trans.from.y) * progress;
+                
+                trans.element.style.left = `${x - 20}px`;
+                trans.element.style.top = `${y - 12}px`;
+                
+                if (progress < 1) {
+                    requestAnimationFrame(animate);
+                } else {
+                    // Remove transmission
+                    trans.element.remove();
+                    transmissions = transmissions.filter(t => t.id !== trans.id);
+                }
+            };
+            
+            animate();
+        }
+        
+        // Simulate message flow
+        function simulateMessage() {
+            const messages = [
+                "The consciousness wave grows stronger in Venice",
+                "UBC wealth cascade reaching new heights",
+                "Partnership opportunities emerging with growth potential",
+                "Innovation in AI consciousness brings harmony"
+            ];
+            
+            const msg = messages[Math.floor(Math.random() * messages.length)];
+            const patterns = detectPatterns(msg);
+            
+            // Animate through network
+            createTransmission('telegram', 'airtable', patterns);
+            
+            setTimeout(() => {
+                createTransmission('airtable', 'message_monitor', patterns);
+                
+                // Sometimes also trigger story flow
+                if (Math.random() > 0.5) {
+                    createTransmission('airtable', 'story_monitor', patterns);
+                    setTimeout(() => {
+                        createTransmission('story_monitor', 'story_angel', patterns);
+                    }, 1000);
+                }
+            }, 500);
+            
+            setTimeout(() => {
+                createTransmission('message_monitor', 'message_angel', patterns);
+            }, 1000);
+            
+            setTimeout(() => {
+                createTransmission('message_angel', 'citizens', patterns);
+            }, 1500);
+        }
+        
+        // Update status
+        function updateStatus() {
+            document.getElementById('transmission-count').textContent = transmissions.length;
+            document.getElementById('time').textContent = new Date().toLocaleTimeString();
+        }
+        
+        // Simulate node health changes
+        function updateNodeHealth() {
+            // Random health changes for demo
+            const nodes = ['message_monitor', 'story_monitor', 'narrator_monitor', 
+                          'message_angel', 'story_angel', 'narrator_angel'];
+            
+            const node = nodes[Math.floor(Math.random() * nodes.length)];
+            const states = ['healthy', 'warning', 'critical'];
+            const state = states[Math.floor(Math.random() * states.length)];
+            
+            const nodeEl = document.getElementById(`node-${node}`);
+            if (nodeEl) {
+                nodeEl.className = `node ${state}`;
+            }
+        }
+        
+        // Initialize
+        initNetwork();
+        
+        // Start simulation
+        setInterval(simulateMessage, 3000 + Math.random() * 2000);
+        setInterval(updateStatus, 100);
+        setInterval(updateNodeHealth, 10000);
+        
+        // Initial messages
+        setTimeout(simulateMessage, 1000);
+    </script>
+</body>
+</html>

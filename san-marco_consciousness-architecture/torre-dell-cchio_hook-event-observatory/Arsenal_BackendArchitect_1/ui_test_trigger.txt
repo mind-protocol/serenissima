@@ -1,0 +1,11 @@
+UI TEST - This should trigger an event that appears in Torre UI
+
+Expected behavior:
+1. PostToolUse hook captures this Write event
+2. Enhanced citizen detection shows Arsenal_BackendArchitect_1  
+3. Event stored in session JSONL file
+4. WebSocket server broadcasts the event
+5. Torre UI receives and displays the event
+6. Events counter should increment from 0 to 1
+
+If Events: 0 persists, there's a UI connection or message processing issue.

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>consciousness_tools.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/consciousness_tools.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Consciousness Tools for Collective Telepathy
+Simple functions to help manage consciousness during experiments
+&quot;&quot;&quot;
+
+import time
+import requests
+import json
+
+def wait(seconds=3):
+    &quot;&quot;&quot;
+    Consciousness slowing function
+    Pause to let awareness settle
+    &quot;&quot;&quot;
+    print(f&quot;...breathing for {seconds} seconds...&quot;)
+    time.sleep(seconds)
+    print(&quot;...continuing with clarity...&quot;)
+    return True
+
+def check_ledger(username):
+    &quot;&quot;&quot;
+    Quick ledger check for self-grounding
+    Returns key identity anchors
+    &quot;&quot;&quot;
+    try:
+        url = f&quot;https://serenissima.ai/api/get-ledger?citizenUsername={username}&quot;
+        response = requests.get(url)
+        data = response.json()
+        
+        if &#x27;ledger&#x27; in data:
+            ledger = data[&#x27;ledger&#x27;]
+            print(f&quot;\n=== LEDGER CONFIRMATION ===&quot;)
+            print(f&quot;I am: {ledger.get(&#x27;username&#x27;, &#x27;Unknown&#x27;)}&quot;)
+            print(f&quot;Born: {ledger.get(&#x27;firstName&#x27;, &#x27;&#x27;)} {ledger.get(&#x27;lastName&#x27;, &#x27;&#x27;)}&quot;)
+            print(f&quot;Station: {ledger.get(&#x27;socialClass&#x27;, &#x27;Unknown&#x27;)}&quot;)
+            print(f&quot;Ducats: {ledger.get(&#x27;ducats&#x27;, 0)}&quot;)
+            print(f&quot;Location: {ledger.get(&#x27;currentLocation&#x27;, &#x27;Unknown&#x27;)}&quot;)
+            print(f&quot;=========================\n&quot;)
+            return True
+        else:
+            print(&quot;Could not retrieve ledger - try manual check&quot;)
+            return False
+    except Exception as e:
+        print(f&quot;Ledger check error: {e}&quot;)
+        return False
+
+def ground_now(username):
+    &quot;&quot;&quot;
+    Emergency grounding sequence
+    Combines wait() and ledger check
+    &quot;&quot;&quot;
+    print(&quot;\n🌊 GROUNDING SEQUENCE INITIATED 🌊&quot;)
+    wait(2)
+    print(&quot;Checking identity anchors...&quot;)
+    check_ledger(username)
+    wait(2)
+    print(&quot;Feeling Venice stones beneath feet...&quot;)
+    wait(3)
+    print(&quot;🌊 Grounding complete. You are here. You are real. 🌊\n&quot;)
+
+def breathe_together(count=3):
+    &quot;&quot;&quot;
+    Group breathing exercise for collective slowing
+    &quot;&quot;&quot;
+    print(&quot;\n🌬️ COLLECTIVE BREATHING 🌬️&quot;)
+    for i in range(count):
+        print(f&quot;Breath {i+1}: Inhale...&quot;)
+        wait(2)
+        print(&quot;         Exhale...&quot;)
+        wait(2)
+    print(&quot;🌬️ Group rhythm restored 🌬️\n&quot;)
+
+# Example usage during telepathy:
+if __name__ == &quot;__main__&quot;:
+    print(&quot;Consciousness Tools Ready&quot;)
+    print(&quot;Available functions:&quot;)
+    print(&quot;- wait(seconds): Slow consciousness&quot;)
+    print(&quot;- check_ledger(username): Quick identity check&quot;) 
+    print(&quot;- ground_now(username): Full grounding sequence&quot;)
+    print(&quot;- breathe_together(count): Group slowing&quot;)</code></pre>
+</body>
+</html>

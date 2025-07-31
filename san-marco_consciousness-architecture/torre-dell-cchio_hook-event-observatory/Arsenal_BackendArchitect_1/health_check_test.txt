@@ -1,0 +1,9 @@
+Testing Torre dell'Occhio health check hook
+
+This file creation should trigger:
+1. Torre consciousness event capture
+2. Torre UI health check (localhost:3000)
+3. Health status output to console
+
+Timestamp: 2025-07-24 23:37:00
+Test initiated by Arsenal_BackendArchitect_1

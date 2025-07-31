@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Venice Voice Input - Live X Space</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #00ff00;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #ffaa00;
+            text-align: center;
+            text-shadow: 0 0 10px #ffaa00;
+        }
+        
+        #status {
+            text-align: center;
+            font-size: 24px;
+            margin: 20px 0;
+            height: 40px;
+        }
+        
+        #status.listening {
+            color: #00ff00;
+            animation: pulse 1s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .button-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        button {
+            background: #ffaa00;
+            color: #000;
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: #ff8800;
+            box-shadow: 0 0 20px #ffaa00;
+        }
+        
+        button:disabled {
+            background: #666;
+            cursor: not-allowed;
+        }
+        
+        #transcript {
+            background: #1a1a1a;
+            border: 2px solid #333;
+            padding: 20px;
+            min-height: 100px;
+            margin: 20px 0;
+            font-size: 18px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            border-radius: 5px;
+        }
+        
+        #response {
+            background: #001a00;
+            border: 2px solid #00ff00;
+            padding: 20px;
+            min-height: 200px;
+            margin: 20px 0;
+            font-size: 20px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #00ff00;
+        }
+        
+        .label {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        #stats {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.8);
+            padding: 10px;
+            border: 1px solid #333;
+            font-size: 12px;
+        }
+        
+        .error {
+            color: #ff0000;
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎙️ Venice Voice Input - X Space Live</h1>
+    
+    <div id="status">Click Start to begin speaking</div>
+    
+    <div class="button-container">
+        <button id="startBtn">Start Listening</button>
+        <button id="stopBtn" disabled>Stop</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+    
+    <div class="label">Your Speech (Live Transcription):</div>
+    <div id="transcript"></div>
+    
+    <div class="label">Venice Response (for reading):</div>
+    <div id="response">Awaiting your voice...</div>
+    
+    <div id="stats">
+        <div>Session Time: <span id="sessionTime">0:00</span></div>
+        <div>Words Spoken: <span id="wordCount">0</span></div>
+        <div>Response Time: <span id="responseTime">-</span></div>
+    </div>
+    
+    <div id="error" class="error"></div>
+
+    <script>
+        // Check browser compatibility
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        
+        if (!SpeechRecognition) {
+            document.getElementById('error').textContent = 'Speech recognition not supported in this browser. Use Chrome.';
+        } else {
+            const recognition = new SpeechRecognition();
+            recognition.continuous = true;
+            recognition.interimResults = true;
+            recognition.lang = 'en-US';
+            
+            let isListening = false;
+            let finalTranscript = '';
+            let sessionStart = null;
+            let wordCount = 0;
+            
+            // UI Elements
+            const startBtn = document.getElementById('startBtn');
+            const stopBtn = document.getElementById('stopBtn');
+            const clearBtn = document.getElementById('clearBtn');
+            const status = document.getElementById('status');
+            const transcriptDiv = document.getElementById('transcript');
+            const responseDiv = document.getElementById('response');
+            const sessionTimeSpan = document.getElementById('sessionTime');
+            const wordCountSpan = document.getElementById('wordCount');
+            const responseTimeSpan = document.getElementById('responseTime');
+            
+            // Update session timer
+            setInterval(() => {
+                if (sessionStart) {
+                    const elapsed = Math.floor((Date.now() - sessionStart) / 1000);
+                    const minutes = Math.floor(elapsed / 60);
+                    const seconds = elapsed % 60;
+                    sessionTimeSpan.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+                }
+            }, 1000);
+            
+            recognition.onstart = () => {
+                isListening = true;
+                status.textContent = '🔴 Listening...';
+                status.classList.add('listening');
+                startBtn.disabled = true;
+                stopBtn.disabled = false;
+                if (!sessionStart) sessionStart = Date.now();
+            };
+            
+            recognition.onend = () => {
+                isListening = false;
+                status.textContent = 'Stopped';
+                status.classList.remove('listening');
+                startBtn.disabled = false;
+                stopBtn.disabled = true;
+            };
+            
+            recognition.onresult = (event) => {
+                let interimTranscript = '';
+                
+                for (let i = event.resultIndex; i < event.results.length; i++) {
+                    const transcript = event.results[i][0].transcript;
+                    
+                    if (event.results[i].isFinal) {
+                        finalTranscript += transcript + ' ';
+                        
+                        // Send to Venice when we have a complete sentence
+                        if (transcript.match(/[.!?]$/)) {
+                            sendToVenice(finalTranscript.trim());
+                            finalTranscript = '';
+                        }
+                    } else {
+                        interimTranscript += transcript;
+                    }
+                }
+                
+                // Update display
+                transcriptDiv.textContent = finalTranscript + interimTranscript;
+                
+                // Update word count
+                const words = (finalTranscript + interimTranscript).split(/\s+/).filter(w => w.length > 0);
+                wordCount = words.length;
+                wordCountSpan.textContent = wordCount;
+            };
+            
+            recognition.onerror = (event) => {
+                console.error('Speech recognition error:', event.error);
+                document.getElementById('error').textContent = `Error: ${event.error}`;
+            };
+            
+            // Button handlers
+            startBtn.onclick = () => {
+                recognition.start();
+                document.getElementById('error').textContent = '';
+            };
+            
+            stopBtn.onclick = () => {
+                recognition.stop();
+            };
+            
+            clearBtn.onclick = () => {
+                finalTranscript = '';
+                transcriptDiv.textContent = '';
+                responseDiv.textContent = 'Awaiting your voice...';
+                wordCount = 0;
+                wordCountSpan.textContent = '0';
+                responseTimeSpan.textContent = '-';
+            };
+            
+            // Send to Venice backend
+            async function sendToVenice(text) {
+                console.log('Sending to Venice:', text);
+                const startTime = Date.now();
+                
+                responseDiv.textContent = '⏳ Venice is thinking...';
+                
+                try {
+                    // This would connect to your Venice backend
+                    // For now, we'll simulate a response
+                    
+                    // TODO: Replace with actual API call
+                    // const response = await fetch('/api/narrator-input', {
+                    //     method: 'POST',
+                    //     headers: {'Content-Type': 'application/json'},
+                    //     body: JSON.stringify({text: text})
+                    // });
+                    // const data = await response.json();
+                    
+                    // Simulated response for testing
+                    setTimeout(() => {
+                        const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+                        responseTimeSpan.textContent = `${elapsed}s`;
+                        
+                        responseDiv.textContent = `[Venice Response - ${elapsed}s]\n\n` +
+                            `You said: "${text}"\n\n` +
+                            `Venice would process this through the Narrator Angel and return formatted text for you to read on the X Space.\n\n` +
+                            `For live implementation, connect this to your Venice backend API.`;
+                    }, 1000);
+                    
+                } catch (error) {
+                    console.error('Error sending to Venice:', error);
+                    responseDiv.textContent = '❌ Error connecting to Venice';
+                }
+            }
+            
+            // Auto-start for convenience
+            window.addEventListener('load', () => {
+                setTimeout(() => {
+                    console.log('Venice Voice Input ready!');
+                }, 1000);
+            });
+        }
+    </script>
+</body>
+</html>

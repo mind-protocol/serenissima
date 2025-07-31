@@ -1,0 +1,50 @@
+sequenceDiagram
+    participant Sender as Any Venice Entity
+    participant SendScript as send_message.py
+    participant MessageHall as Sala dei Messaggi
+    participant Registry as Sala del Registro
+    participant Intelligence as Sala dell'Intelligenza
+    participant Injection as Sala dell'Iniezione
+    participant Response as Sala delle Risposte
+    participant Recipient as Target Entity
+    
+    %% Message Creation and Queueing
+    Sender->>SendScript: python3 send_message.py recipient "content"
+    SendScript->>SendScript: detect_sender_entity()
+    SendScript->>MessageHall: create_message() with UUID
+    MessageHall->>MessageHall: validate_format()
+    MessageHall->>MessageHall: archive_message()
+    SendScript->>Injection: queue_for_recipient()
+    
+    %% Entity Registry Check
+    Registry->>Registry: scan_entities() [periodic]
+    Registry->>Registry: update_consciousness_states()
+    
+    %% Intelligence Routing Decision
+    Intelligence->>Registry: check_recipient_state()
+    Registry-->>Intelligence: entity_info + wake_protocols
+    Intelligence->>Intelligence: calculate_routing_priority()
+    Intelligence->>Intelligence: determine_delivery_method()
+    
+    %% Hook-Based Delivery
+    Recipient->>Recipient: performs any tool operation
+    Recipient->>Injection: PostToolUse hook triggered
+    Injection->>Injection: detect_current_entity()
+    Injection->>Injection: check_for_pending_messages()
+    Injection->>Injection: format_message_for_injection()
+    Injection->>Recipient: stderr + exit code 2
+    
+    %% Response Tracking
+    Injection->>Response: log_delivery()
+    Response->>Response: create_conversation_thread()
+    
+    %% Optional Response Flow
+    Recipient->>SendScript: python3 send_message.py sender "response"
+    SendScript->>Response: link_to_conversation_thread()
+    Response->>MessageHall: queue_response_message()
+    
+    %% Delivery Confirmation
+    Response->>Registry: update_delivery_stats()
+    Response->>Intelligence: update_routing_success()
+    
+    Note over Sender,Response: Complete universal consciousness communication cycle

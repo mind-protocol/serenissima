@@ -1,0 +1,280 @@
+CONVERSATION ANALYSIS: Leo©
+==================================================
+
+Total messages: 1838
+Recent messages (90 days): 4
+Investment mentions: 17
+AI/Venice mentions: 19
+Last contact: 2025-06-28
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-27T15:46:05] NLR: 
+
+[2025-01-27T15:47:23] NLR: 
+
+[2025-01-27T15:48:11] NLR: 
+
+[2025-01-27T15:49:27] NLR: 
+
+[2025-01-27T15:50:03] NLR: 
+
+[2025-01-27T16:56:59] NLR: your shares should be in "collectible" tab of your wallet
+
+[2025-01-27T16:57:19] NLR: like NFTs you should be able to send them
+
+[2025-01-27T16:59:37] NLR: try
+
+[2025-01-27T17:00:00] NLR: ask  @etiennecclarke  about this I don't know
+
+[2025-01-27T17:02:44] NLR: ok, but not too much
+
+[2025-01-27T18:32:49] NLR: this rule remains valid
+
+[2025-01-27T18:34:44] NLR: https://solscan.io/tx/44ywFy3trMeGrw4XurV9Wu7RZZR3uMxLbCAagoAMNUckqNrAr2GThTQZViEW4bKweMMdFo6npQ4demigDwYsXLpA
+
+[2025-01-27T18:34:52] NLR: now only use compute to buy shares
+
+[2025-01-27T19:45:21] NLR: ok
+
+[2025-01-27T20:56:31] NLR: ok
+
+[2025-01-27T20:57:49] NLR: yes let's do that. tell them they will have a 20% bonus if they invest in the swarms
+
+[2025-01-28T09:01:38] NLR: no 2 launched
+
+[2025-01-28T09:01:55] NLR: Creating an optimized production build ...
+Failed to compile.
+
+./components/portfolio/investments/columns.tsx
+Error:
+  × the name  useState  is defined multiple times
+    ╭─[C:\Users\conta\swarm-launchpad\components\portfolio\investments\columns.tsx:9:1]
+  9 │ import { getSwarmUsingId } from "@/data/swarms/info";
+ 10 │ import Link from "next/link";
+ 11 │ import { useLaunchpadProgramAccount } from "@/hooks/useLaunchpadProgram";
+ 12 │ import { useEffect, useState } from "react";
+    ·                     ────┬───
+    ·                         ╰── previous definition of  useState  here
+ 13 │ import { MoreHorizontal } from "lucide-react";
+ 14 │ import { Button } from "@/components/shadcn/button";
+ 15 │ import {
+ 16 │     DropdownMenu,
+ 17 │     DropdownMenuContent,
+ 18 │     DropdownMenuItem,
+ 19 │     DropdownMenuTrigger,
+ 20 │ } from "@/components/shadcn/dropdown-menu";
+ 21 │ import { SellPositionModal } from "@/components/swarms/sellPositionModal";
+ 22 │
+ 23 │ import { useState, useEffect } from 'react';
+    ·          ────┬───
+    ·              ╰──  useState  redefined here
+ 24 │ import { useLaunchpadProgramAccount } from "@/hooks/useLaunchpadProgram";
+ 25 │ import { IntlNumberFormat } from "@/lib/utils";
+ 25 │
+    ╰────
+
+  × the name  useEffect  is defined multiple times
+    ╭─[C:\Users\conta\swarm-launchpad\components\portfolio\investments\columns.tsx:9:1]
+  9 │ import { getSwarmUsingId } from "@/data/swarms/info";
+ 10 │ import Link from "next/link";
+ 11 │ import { useLaunchpadProgramAccount } from "@/hooks/useLaunchpadProgram";
+ 12 │ import { useEffect, useState } from "react";
+    ·          ────┬────
+    ·              ╰── previous definition of  useEffect  here
+ 13 │ import { MoreHorizontal } from "lucide-react";
+ 14 │ import { Button } from "@/components/shadcn/button";
+ 15 │ import {
+ 16 │     DropdownMenu,
+ 17 │     DropdownMenuContent,
+ 18 │     DropdownMenuItem,
+ 19 │     DropdownMenuTrigger,
+ 20 │ } from "@/components/shadcn/dropdown-menu";
+ 21 │ import { SellPositionModal } from "@/components/swarms/sellPositionModal";
+ 22 │
+ 23 │ import { useState, useEffect } from 'react';
+    ·                    ────┬────
+    ·                        ╰──  useEffect  redefined here
+ 24 │ import { useLaunchpadProgramAccount } from "@/hooks/useLaunchpadProgram";
+ 25 │ import { IntlNumberFormat } from "@/lib/utils";
+ 25 │
+    ╰────
+
+  × the name  useLaunchpadProgramAccount  is defined multiple times
+    ╭─[C:\Users\conta\swarm-launchpad\components\portfolio\investments\columns.tsx:8:1]
+  8 │ import { getSwarm } from "@/data/swarms/previews"; // Keep for other uses
+  9 │ import { getSwarmUsingId } from "@/data/swarms/info";
+ 10 │ import Link from "next/link";
+ 11 │ import { useLaunchpadProgramAccount } from "@/hooks/useLaunchpadProgram";
+    ·          ─────────────┬────────────
+    ·                       ╰── previous definition of  useLaunchpadProgramAccount  here
+ 12 │ import { useEffect, useState } from "react";
+ 13 │ import { MoreHorizontal } from "lucide-react";
+ 14 │ import { Button } from "@/components/shadcn/button";
+ 15 │ import {
+ 16 │     DropdownMenu,
+ 17 │     DropdownMenuContent,
+ 18 │     DropdownMenuItem,
+ 19 │     DropdownMenuTrigger,
+ 20 │ } from "@/components/shadcn/dropdown-menu";
+ 21 │ import { SellPositionModal } from "@/components/swarms/sellPositionModal";
+ 22 │
+ 23 │ import { useState, useEffect } from 'react';
+ 24 │ import { useLaunchpadProgramAccount } from "@/hooks/useLaunchpadProgram";
+    ·          ─────────────┬────────────
+    ·                       ╰──  useLaunchpadProgramAccount  redefined here
+ 25 │ import { IntlNumberFormat } from "@/lib/utils";
+ 26 │
+ 26 │ const PriceCell = ({ poolAddress, shares }: { poolAddress: string, shares: number }) => {
+    ╰────
+
+[2025-01-28T09:02:06] NLR: https://swarms.universalbasiccompute.ai/invest/d4e5f6g7-h8i9-7d8e-bf2g-3h4i5j6k7l8m
+
+[2025-01-28T09:02:14] NLR: https://swarms.universalbasiccompute.ai/invest/mentor-swarm-id
+
+[2025-01-28T09:05:24] NLR: sure
+
+[2025-01-28T09:19:24] NLR: nice!
+
+[2025-01-28T23:48:20] NLR: that is crazy
+
+[2025-01-28T23:49:23] NLR: yes
+
+[2025-01-28T23:51:15] NLR: https://solscan.io/tx/4kTYiDhxgnR6Khuw2nwazwwymyG6WcrHQuLLDcV9y4saoHvDnRVCsZo5WgtfTfuUpZ2Qjb9V39UjpLCzChLXYDri
+
+[2025-01-29T08:05:15] NLR: can you create a Japanese community?
+
+[2025-01-29T09:16:30] NLR: can you make sure all swarm TG groups are public with an url like  t.me/swarmname_ubc ?
+
+[2025-01-29T20:34:27] NLR: you here?
+
+[2025-01-30T19:27:40] NLR: Have you sold compute ?
+
+[2025-01-30T19:32:08] NLR: Did you sell compute or no?
+
+[2025-01-30T19:35:58] NLR: Awesome 😎
+
+[2025-01-30T19:36:04] NLR: Was worried
+
+[2025-01-30T19:36:16] NLR: I know it's Blockchain right
+
+[2025-01-30T19:36:38] NLR: Will continue investigation
+
+[2025-01-30T20:29:43] NLR: Okay we'll check it
+
+[2025-01-30T20:56:58] NLR: Okay I will check some more
+
+[2025-01-30T20:57:13] NLR: Try to understand what this transaction is
+
+[2025-01-30T20:57:24] NLR: Maybe it's something different
+
+[2025-01-30T20:58:33] NLR: So far the Blockchain says that
+
+[2025-01-30T20:58:42] NLR: Maybe we did not understand properly
+
+[2025-01-30T20:58:47] NLR: I will check more
+
+[2025-01-30T20:59:09] NLR: Tell them I'll check in detail the Tc
+
+[2025-01-30T20:59:12] NLR: TX
+
+[2025-01-30T21:02:05] NLR: Please send the remaining compute back to show good faith
+
+[2025-01-30T21:14:47] NLR: Do t worry leo
+
+[2025-01-30T21:14:56] NLR: We'll go to the bottom of this
+
+[2025-01-30T21:16:24] NLR: GcWA4LwbGyoryPvauWkuVadi69FcEaWMmLxu4rxg7hVk
+
+[2025-01-30T21:24:42] NLR: Share tx link on chat
+
+[2025-01-30T21:24:59] NLR: I need to work now
+
+[2025-01-31T08:14:46] NLR: Leo,
+
+We have concrete evidence of you misusing the distribution wallet (9dpD3dBAXqQXiKvgeJPGYMT4k3bgEkFGGEv5eH7xYW83) that was entrusted to you:
+
+1. On January 30th, you sold 700,000 COMPUTE tokens that were meant for community distribution
+2. You then used these funds (~$2,686) for gambling on platforms like  casino🎰flip.gg  and  pigmo🎰com.id 
+3. The transaction history shows this wasn't a one-time mistake but a pattern of misuse over several days
+
+The blockchain doesn't lie - we can see the entire sequence of transactions from the COMPUTE sale to the gambling activities. This is a serious breach of trust that has harmed both the project and the community that trusted you.
+
+As a result, you are being removed from the team effective immediately. All your access to project resources will be revoked.
+
+If you have access to any other project resources or information, you need to disclose this now. Further misuse of any project assets will result in additional consequences.
+
+[2025-01-31T09:20:16] NLR: sure
+
+[2025-01-31T10:00:05] NLR: you did lol
+
+[2025-02-24T19:15:19] NLR: hello
+
+[2025-02-24T19:15:36] NLR: can you give me the rights to the swarm ventures group
+
+[2025-03-09T17:42:31] NLR: leo can you make me main admin of duoai please
+
+[2025-03-09T17:42:43] NLR: https://t.me/DuoAI_swarm
+
+[2025-03-09T20:23:45] NLR: okay can you try again
+
+[2025-03-10T20:02:24] NLR: some why
+
+[2025-03-10T20:02:49] NLR: why
+
+[2025-03-10T20:03:50] NLR: who?
+
+[2025-03-10T20:04:03] NLR: this is kinkong
+
+[2025-03-22T12:08:02] NLR: Sorry I cannot recommend you
+
+[2025-03-25T16:37:14] NLR: https://t.me/Wealthhive_ubc 
+
+Can you make me main administrator of wealthhive please?
+
+[2025-06-28T23:26:20] NLR: 👋 Thank you so much for being part of our community! 
+
+🐦 For Q&As, please follow and engage with us on TG.
+
+ ⚠️ Important Notes 
+• We do not sponsor YouTube accounts
+• For CEX/Market Makers: Verification link required
+• Remember: We are a fair launch project
+• We don't do paid raids
+
+I won't answer here. To contact me, you can engage with:  @nlr_ai_bot
+
+[2025-06-28T23:26:20] NLR: In the meantime, come and join the fun on our Main channel!  https://t.me/ubc_portal
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

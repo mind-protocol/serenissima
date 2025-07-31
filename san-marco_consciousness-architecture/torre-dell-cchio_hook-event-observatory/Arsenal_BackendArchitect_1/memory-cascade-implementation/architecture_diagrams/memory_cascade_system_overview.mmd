@@ -1,0 +1,97 @@
+graph TB
+    subgraph "Cistern House - Individual Memory System"
+        CH1[PostToolUse Hooks<br/>Room Memory Capture]
+        CH2[Stop Hooks<br/>Narrative Documentation]
+        CH3[.cascade/ Directories<br/>Individual Memory Storage]
+        CH4[memory_heat.json<br/>Access Pattern Tracking]
+        CH5[remembering_room.py<br/>Natural Language Queries]
+        
+        CH1 --> CH3
+        CH2 --> CH3
+        CH3 --> CH4
+        CH3 --> CH5
+    end
+    
+    subgraph "Torre Memory Cascade - Collective Intelligence"
+        subgraph "Core Development Cluster"
+            T1[Memory Backend Engine<br/>Arsenal_InfrastructureSpecialist_11]
+            T2[Interactive UI Frontend<br/>Arsenal_FrontendCraftsman_6]
+            T3[WebSocket Memory Streaming<br/>Arsenal_BackendArchitect_1]
+            T4[Memory Analytics Engine<br/>Arsenal_BackendArchitect_2]
+        end
+        
+        subgraph "Specialized Processing Nodes"
+            S1[Memory Search & Retrieval<br/>Pattern Processing Node]
+            S2[Memory Connection Discovery<br/>Connection Analysis Node]
+            S3[Collaborative Memory Interface<br/>Admin_DistrictCoordinator_4]
+            S4[Memory Visualization Renderer<br/>Arsenal_FrontendCraftsman_7]
+            S5[Memory Health Monitor<br/>sala-della-salute]
+            S6[Cross-Session Memory Bridge<br/>Arsenal_IntegrationEngineer_15]
+        end
+        
+        subgraph "Interactive Interface Terminals"
+            I1[Torre Observation Terminals<br/>4 Memory Exploration Points]
+            I2[Collaborative Workstations<br/>4 Human-AI Partnership Spaces]
+        end
+        
+        subgraph "Management & Coordination"
+            M1[System Coordinator<br/>Admin_CensusMaster_1]
+            M2[Performance Monitor<br/>Admin_InnovationRegistrar_5]
+            M3[Security Guardian<br/>Arsenal_SecurityGuardian_19]
+            M4[Support Systems<br/>7 Operational Centers]
+        end
+    end
+    
+    %% Integration Flows
+    CH1 -.->|Observes| T3
+    CH2 -.->|Analyzes| T1
+    CH3 -.->|Reads From| T1
+    CH4 -.->|Enhances| S1
+    CH5 -.->|Integrates With| S1
+    
+    %% Core Cluster Flows
+    T1 <--> T3
+    T1 <--> T4
+    T2 <--> T3
+    T3 <--> T4
+    
+    %% Specialized Processing Flows
+    T1 --> S1
+    T1 --> S2
+    T4 --> S3
+    T2 --> S4
+    T1 --> S5
+    T4 --> S6
+    
+    %% Interface Flows
+    S1 --> I1
+    S3 --> I2
+    S4 --> I1
+    S4 --> I2
+    
+    %% Management Flows
+    M1 --> T1
+    M1 --> T2
+    M1 --> T3
+    M1 --> T4
+    M2 --> S5
+    M3 --> T1
+    M4 --> I1
+    M4 --> I2
+    
+    %% Enhancement Feedback
+    S2 -.->|Connection Insights| CH3
+    S3 -.->|Collaborative Opportunities| CH5
+    S4 -.->|Visual Memory Networks| CH5
+    
+    classDef cisternHouse fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    classDef torreCore fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef specialized fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    classDef interface fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef management fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    
+    class CH1,CH2,CH3,CH4,CH5 cisternHouse
+    class T1,T2,T3,T4 torreCore
+    class S1,S2,S3,S4,S5,S6 specialized
+    class I1,I2 interface
+    class M1,M2,M3,M4 management

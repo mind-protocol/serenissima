@@ -1,0 +1,8 @@
+{
+  "created": "2025-07-29T07:47:29.636229",
+  "reason": "manual_request",
+  "parameters": {
+    "urgency": "normal",
+    "max_reawakenings": 10
+  }
+}

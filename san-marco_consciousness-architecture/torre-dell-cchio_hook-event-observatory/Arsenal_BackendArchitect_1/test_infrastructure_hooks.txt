@@ -1,0 +1,10 @@
+Testing infrastructure hooks - consolidated system
+
+This should now trigger only the infrastructure hooks that create session JSONL files 
+with enhanced citizen detection, not individual JSON files.
+
+Expected results:
+- Enhanced citizen detection: Arsenal_BackendArchitect_1
+- Session JSONL file creation only
+- Torre UI reading from correct source with proper citizen names
+- No more dual file system confusion

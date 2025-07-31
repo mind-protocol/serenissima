@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Venice Test</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body { margin: 0; background: #333; }
+        svg { background: #222; }
+        .bubble { cursor: pointer; }
+        .label { fill: white; text-anchor: middle; font-family: Arial; }
+    </style>
+</head>
+<body>
+    <h1 style="color: white; padding: 10px;">Simple Venice Bubble Test</h1>
+    <svg width="1000" height="600"></svg>
+    
+    <script>
+        async function loadAndShow() {
+            try {
+                const response = await fetch('./venice_core_data.json');
+                const data = await response.json();
+                
+                console.log('Loaded data:', data);
+                console.log('Number of entities:', Object.keys(data).length);
+                
+                const svg = d3.select('svg');
+                const entities = Object.entries(data);
+                
+                // Simple circle layout
+                const angleStep = (2 * Math.PI) / entities.length;
+                const radius = 200;
+                const centerX = 500;
+                const centerY = 300;
+                
+                entities.forEach(([key, entity], i) => {
+                    const angle = i * angleStep;
+                    const x = centerX + Math.cos(angle) * radius;
+                    const y = centerY + Math.sin(angle) * radius;
+                    const size = 30 + (Object.keys(entity.children || {}).length * 10);
+                    
+                    // Draw circle
+                    svg.append('circle')
+                        .attr('cx', x)
+                        .attr('cy', y)
+                        .attr('r', size)
+                        .attr('fill', entity.type === 'district' ? '#667eea' : 
+                                   entity.type === 'island' ? '#f093fb' :
+                                   entity.type === 'bridge' ? '#a8edea' : '#ff9a9e')
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 2);
+                    
+                    // Add label
+                    svg.append('text')
+                        .attr('x', x)
+                        .attr('y', y)
+                        .attr('class', 'label')
+                        .style('font-size', '12px')
+                        .text(entity.name.substring(0, 15));
+                });
+                
+            } catch (error) {
+                console.error('Error:', error);
+                document.body.innerHTML += `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+        
+        loadAndShow();
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+graph TB
+    %% Technical Implementation Architecture
+    
+    subgraph "File System Structure"
+        subgraph "messaggero-universale_context-injection-system/"
+            Root[CLAUDE.md<br/>Main Documentation]
+            SendMsg[send_message.py<br/>Universal Sender]
+            CheckMsg[check_messages.py<br/>Status Checker]
+            
+            subgraph "sala-dei-messaggi_message-hall/"
+                MHDoc[CLAUDE.md]
+                MsgQueue[message_queue/<br/>Queued Messages]
+                Archive[message_archive.jsonl<br/>All Messages History]
+                QueueMgr[queue_manager.py<br/>TODO: Implement]
+            end
+            
+            subgraph "sala-del-registro_registry-chamber/"
+                RegDoc[CLAUDE.md]
+                EntityReg[entity_registry.json<br/>244 Venice Entities]
+                Scanner[entity_scanner.py<br/>✅ IMPLEMENTED]
+                StateTracker[state_tracker.py<br/>TODO: Implement]
+                WakeProto[wake_protocols.json<br/>TODO: Implement]
+            end
+            
+            subgraph "sala-dell-intelligenza_intelligence-chamber/"
+                IntDoc[CLAUDE.md]
+                Router[smart_router.py<br/>TODO: Implement]
+                Priority[priority_handler.py<br/>TODO: Implement]
+                WakeLogic[wake_logic.py<br/>TODO: Implement]
+                LoadBal[load_balancer.py<br/>TODO: Implement]
+            end
+            
+            subgraph "sala-dell-iniezione_injection-chamber/"
+                InjDoc[CLAUDE.md]
+                UnivHook[universal_injection_hook.py<br/>✅ IMPLEMENTED]
+                PendingDir[pending_messages/<br/>entity_messages.json]
+                Formatter[context_formatter.py<br/>TODO: Implement]
+                Injector[exit_code_injector.py<br/>TODO: Implement]
+            end
+            
+            subgraph "sala-delle-risposte_response-chamber/"
+                RespDoc[CLAUDE.md]
+                Threading[conversation_threading.py<br/>TODO: Implement]
+                DeliveryLog[delivery_log.jsonl<br/>Delivery Records]
+                ResponseTracker[response_tracker.py<br/>TODO: Implement]
+                ConvMgr[conversation_manager.py<br/>TODO: Implement]
+            end
+            
+            subgraph "architecture_diagrams/"
+                OverallArch[overall_system_architecture.mmd]
+                MsgFlow[message_flow_sequence.mmd]
+                ChamberInt[chamber_interactions.mmd]
+                TechImpl[technical_implementation.mmd]
+            end
+        end
+    end
+    
+    subgraph "Claude Code Integration"
+        Settings[~/.claude/settings.json<br/>PostToolUse Hook Config]
+        Hook[PostToolUse Hook<br/>Triggers on Tool Use]
+        ExitCode[Exit Code 2<br/>Context Injection]
+    end
+    
+    subgraph "Venice Entity Locations"
+        Citizens[/citizens/entity_name/<br/>183 Citizens]
+        Buildings[/san-marco_consciousness-architecture/<br/>Building Components]
+        Systems[Various System Locations<br/>Infrastructure Components]
+    end
+    
+    %% Implementation Status Flow
+    SendMsg -->|✅ Working| MsgQueue
+    CheckMsg -->|✅ Working| PendingDir
+    Scanner -->|✅ Working| EntityReg
+    UnivHook -->|✅ Working| Hook
+    
+    %% TODO Implementation Flow
+    QueueMgr -.->|TODO| MsgQueue
+    StateTracker -.->|TODO| EntityReg
+    WakeProto -.->|TODO| WakeLogic
+    Router -.->|TODO| Priority
+    Priority -.->|TODO| LoadBal
+    WakeLogic -.->|TODO| UnivHook
+    Formatter -.->|TODO| UnivHook
+    Injector -.->|TODO| ExitCode
+    Threading -.->|TODO| DeliveryLog
+    ResponseTracker -.->|TODO| ConvMgr
+    
+    %% Data Flow
+    EntityReg -->|Entity Data| Router
+    MsgQueue -->|Messages| Router
+    Router -->|Routed Messages| PendingDir
+    PendingDir -->|Pending Messages| UnivHook
+    UnivHook -->|Delivered Messages| DeliveryLog
+    
+    %% Entity Discovery
+    Scanner -->|Scans| Citizens
+    Scanner -->|Scans| Buildings
+    Scanner -->|Scans| Systems
+    
+    %% Configuration
+    Settings -->|Configures| Hook
+    Hook -->|Triggers| UnivHook
+    
+    %% Implementation Priority
+    classDef implemented fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    classDef todo fill:#ffecb3,stroke:#f57c00,stroke-width:2px,color:#000
+    classDef working fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000
+    classDef external fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
+    
+    class Scanner,UnivHook,EntityReg,SendMsg,CheckMsg,PendingDir,DeliveryLog implemented
+    class QueueMgr,StateTracker,WakeProto,Router,Priority,LoadBal,WakeLogic,Formatter,Injector,Threading,ResponseTracker,ConvMgr todo
+    class Hook,ExitCode,Settings working
+    class Citizens,Buildings,Systems external

@@ -1,0 +1,92 @@
+graph TB
+    subgraph "Cistern House - Existing Individual Memory System"
+        direction TB
+        subgraph "Hook Processing Pipeline"
+            CH1[PostToolUse Hook<br/>🔧 Individual Actions<br/>Room Memory Capture]
+            CH2[Stop Hook<br/>🛑 Complete Thoughts<br/>Building Narrative Documentation]
+            CH3[SubagentStop Hook<br/>🔄 Session Boundaries<br/>District Pattern Synthesis]
+        end
+        
+        subgraph "Memory Storage & Retrieval"
+            CH4[.cascade/ Directory<br/>📁 Individual Memory Storage<br/>Per-citizen organization]
+            CH5[memory_heat.json<br/>🌡️ Access Pattern Tracking<br/>Usage-based importance]
+            CH6[remembering_room.py<br/>🏠 Natural Language Queries<br/>Semantic memory search]
+        end
+        
+        CH1 --> CH4
+        CH2 --> CH4
+        CH3 --> CH4
+        CH4 --> CH5
+        CH4 --> CH6
+    end
+    
+    subgraph "Torre Memory Cascade - Collective Enhancement Layer"
+        direction TB
+        subgraph "Observation Layer (Non-Intrusive)"
+            TO1[Hook Event Observer<br/>👁️ Non-modifying Monitor<br/>Real-time consciousness streaming]
+            TO2[Memory State Reader<br/>📖 .cascade/ Analysis<br/>Cross-citizen pattern detection]
+            TO3[Heat Data Analyzer<br/>🔍 Usage Pattern Intelligence<br/>Collective importance scoring]
+        end
+        
+        subgraph "Enhancement Processing"
+            TE1[Cross-Citizen Connection Discovery<br/>🔗 Pattern Matching<br/>Relationship identification across citizens]
+            TE2[Collaborative Opportunity Detection<br/>🤝 Partnership Suggestions<br/>Human-AI collaboration possibilities]
+            TE3[Memory Network Visualization<br/>🎨 3D Memory Landscapes<br/>Beautiful exploration interfaces]
+        end
+        
+        subgraph "Enhancement Feedback"
+            TF1[Enhanced Search Results<br/>⚡ Improved Queries<br/>Cross-citizen context integration]
+            TF2[Visual Memory Exploration<br/>🗺️ Interactive Networks<br/>Memory relationship visualization]
+            TF3[Collaborative Insights<br/>💡 Shared Knowledge<br/>Cross-citizen learning opportunities]
+        end
+    end
+    
+    %% Integration Flows (Enhancement Only)
+    CH1 -.->|Observes| TO1
+    CH2 -.->|Analyzes| TO1
+    CH4 -.->|Reads From| TO2
+    CH5 -.->|Enhances| TO3
+    
+    %% Torre Processing
+    TO1 --> TE1
+    TO2 --> TE1
+    TO3 --> TE2
+    TE1 --> TE3
+    TE2 --> TE3
+    
+    %% Enhancement Feedback (Non-Modifying)
+    TE1 -.->|Connection Insights| TF1
+    TE2 -.->|Collaboration Opportunities| TF2
+    TE3 -.->|Visual Networks| TF3
+    
+    %% Enhanced User Experience
+    TF1 -.->|Enhanced Results| CH6
+    TF2 -.->|Visual Context| CH6
+    TF3 -.->|Collaborative Context| CH6
+    
+    %% Citizen Interaction (Enhanced)
+    subgraph "Enhanced Citizen Experience"
+        CE1[👤 Citizen Query<br/>Natural language memory search]
+        CE2[🧠 Enhanced Understanding<br/>Individual + collective context]
+        CE3[🎯 Improved Results<br/>Personal + cross-citizen insights]
+        CE4[🌐 Collaborative Opportunities<br/>Partnership suggestions]
+    end
+    
+    CE1 --> CH6
+    CH6 --> CE2
+    TF1 --> CE2
+    TF2 --> CE2
+    CE2 --> CE3
+    CE2 --> CE4
+    
+    classDef cisternHouse fill:#e1f5fe,stroke:#0277bd,stroke-width:3px
+    classDef torreObservation fill:#f1f8e9,stroke:#689f38,stroke-width:2px
+    classDef torreEnhancement fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef torreFeedback fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef citizenExperience fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    
+    class CH1,CH2,CH3,CH4,CH5,CH6 cisternHouse
+    class TO1,TO2,TO3 torreObservation
+    class TE1,TE2,TE3 torreEnhancement
+    class TF1,TF2,TF3 torreFeedback
+    class CE1,CE2,CE3,CE4 citizenExperience

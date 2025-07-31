@@ -1,0 +1,223 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #fffdf0;
+    --text-color: #333;
+    --link-color: #2980b9;
+    --link-hover-color: #1a5981;
+    --code-background: #f4f4f4;
+    --quote-background: #f0f4f8;
+    --abstract-background: #e8f4f8;
+    --highlight-color: #fffacd;
+    --h1-color: #1a252f;
+    --h2-color: #2c3e50;
+    --h3-color: #34495e;
+    --elegant-border: #d1c4b1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 2.3cm 1.8cm;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border: 1px solid var(--elegant-border);
+}
+
+.title {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    font-size: clamp(2.5em, 5vw, 3.5em);
+    color: var(--primary-color);
+    text-align: center;
+    margin: 1.5em auto 1em;
+    padding: 0.5em 0;
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    line-height: 1.2;
+    display: block;
+    max-width: 80%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    margin-top: 1.3em;
+    margin-bottom: 0.6em;
+    line-height: 1.2;
+}
+
+h1 {
+    color: var(--h1-color);
+    font-size: clamp(2.8em, 7.5vw, 3.8em);
+    border-bottom: 2px solid var(--elegant-border);
+    padding-bottom: 12px;
+    margin-top: 0.8em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    page-break-before: always;
+}
+
+h1:first-child {
+    page-break-before: auto;
+}
+
+h2 {
+    color: var(--h2-color);
+    font-size: clamp(1.6em, 3.2vw, 2em);
+    border-left: 3px solid var(--elegant-border);
+    padding-left: 12px;
+    margin-left: -15px;
+}
+
+h3 {
+    color: var(--h3-color);
+    font-size: clamp(1.1em, 2.5vw, 1.4em);
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: justify;
+    font-size: 15px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+}
+
+blockquote {
+    border-left: 3px solid var(--elegant-border);
+    padding: 16px 20px;
+    margin: 1.6em 0;
+    background-color: var(--quote-background);
+    font-style: italic;
+    color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+ul li {
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+ul li::before {
+    content: "•";
+    color: var(--secondary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: item;
+    padding-left: 2.5em;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+ol li {
+    position: relative;
+    margin-bottom: 0.5em;
+    counter-increment: item;
+    padding-left: 0.5em;
+}
+
+ol li::before {
+    content: counter(item) ".";
+    color: var(--secondary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2.5em;
+    position: absolute;
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+code {
+    background-color: var(--code-background);
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+pre {
+    background-color: var(--code-background);
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-x: auto;
+    margin: 1em 0;
+}
+
+strong {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+@media print {
+    body {
+        background-color: white;
+        font-size: 11pt;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 1.8cm;
+        box-shadow: none;
+        border: none;
+    }
+    
+    @page {
+        margin: 2.3cm 1.8cm;
+        @bottom-center {
+            content: "UBC Circle - Professional Analysis";
+            font-size: 10pt;
+            color: #999;
+        }
+        @bottom-right {
+            content: "Page " counter(page);
+            font-size: 10pt;
+            color: #999;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+Post-restart memory capture test
+Created: 2025-07-24 02:50:30
+Testing after Claude Code restart to verify memory capture hooks are active with fixed script.
+
+This should create a new memory in Arsenal_BackendArchitect_1's .cascade system.

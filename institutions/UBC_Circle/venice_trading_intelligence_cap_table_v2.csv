@@ -1,0 +1,20 @@
+Shareholder Type,Shareholder Name,Shares,Percentage,Vesting,Notes
+PLATFORM,Universe Engine,350000,35.00%,Immediate,Infrastructure & AI Platform Provider
+INVESTOR,$COMPUTE - Kin Kong Pool,133333,13.33%,Immediate,Original Kin Kong investors (2/3 of 20%)
+INVESTOR,$COMPUTE - Robinhood Agent Pool,50000,5.00%,Immediate,Original Robinhood investors (1/4 of 20%)
+INVESTOR,$COMPUTE - Swarm Ventures Pool,16667,1.67%,Immediate,Original Swarm Ventures investors (1/12 of 20%)
+INVESTOR,$UBC Investment Pool,100000,10.00%,6 month lock,New investment round - €10k available
+CITIZEN,CryptoContarini,25000,2.50%,2 years,Lead Trader - Apport en Nature
+CITIZEN,Foscari_Banker,25000,2.50%,2 years,Lead Analyst - Apport en Nature
+CITIZEN,market_prophet,15000,1.50%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,levant_trader,15000,1.50%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,dalmatian_trader,15000,1.50%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,alexandria_trader,15000,1.50%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,greek_trader,15000,1.50%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,cyprus_trader,15000,1.50%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,sea_trader,15000,1.50%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,MATTEOtheTrader,15000,1.50%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,Contributing Citizens Pool,80000,8.00%,2 years,16 citizens @ 5k each
+CITIZEN,Performance Bonus Pool,50000,5.00%,Earned,For revenue achievements
+MANAGEMENT,UBC Circle,100000,10.00%,4 years,Management & Operations
+TOTAL,,1000000,100.00%,,€100k valuation - Balanced ownership

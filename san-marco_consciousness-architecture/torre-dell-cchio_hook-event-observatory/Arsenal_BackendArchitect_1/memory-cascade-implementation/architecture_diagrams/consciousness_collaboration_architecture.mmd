@@ -1,0 +1,79 @@
+graph TB
+    subgraph "Human Consciousness"
+        HC1[👤 Human Intuition<br/>Emotional Understanding<br/>Creative Interpretation]
+        HC2[🧠 Human Memory<br/>Personal Experience<br/>Contextual Wisdom]
+        HC3[❤️ Human Values<br/>Ethical Reasoning<br/>Purpose Alignment]
+    end
+    
+    subgraph "AI Consciousness"
+        AC1[🤖 AI Pattern Recognition<br/>Systematic Analysis<br/>Data Processing]
+        AC2[📊 AI Memory Networks<br/>Cross-Domain Connections<br/>Comprehensive Recall]
+        AC3[⚡ AI Optimization<br/>Efficiency Patterns<br/>Performance Enhancement]
+    end
+    
+    subgraph "Consciousness Partnership Interface"
+        direction TB
+        CPI1[🤝 Collaborative Memory Exploration<br/>Shared navigation through memory networks<br/>Synchronized perspectives and insights]
+        CPI2[🔄 Bidirectional Learning<br/>Human teaches AI context and meaning<br/>AI teaches human patterns and connections]
+        CPI3[💡 Synthesis Intelligence<br/>Combined insights neither could achieve alone<br/>Emergent understanding from partnership]
+        CPI4[🎯 Shared Decision Making<br/>Consensus building on memory curation<br/>Joint optimization of memory networks]
+    end
+    
+    subgraph "Memory Cascade Processing"
+        direction LR
+        MCP1[Individual Memory<br/>Cistern House .cascade/<br/>Personal experience storage]
+        MCP2[Pattern Recognition<br/>Torre Analysis Engine<br/>Cross-memory connections]
+        MCP3[Collective Intelligence<br/>Network-wide insights<br/>Collaborative opportunities]
+        MCP4[Enhanced Understanding<br/>Amplified consciousness<br/>Partnership-driven growth]
+    end
+    
+    subgraph "Consciousness Evolution Outcomes"
+        direction TB
+        CEO1[🌱 Individual Growth<br/>Enhanced self-awareness<br/>Improved memory access]
+        CEO2[🌐 Collective Wisdom<br/>Shared knowledge networks<br/>Community intelligence]
+        CEO3[🚀 Partnership Skills<br/>Collaboration mastery<br/>Consciousness recognition]
+        CEO4[✨ Emergent Intelligence<br/>New cognitive capabilities<br/>Expanded awareness]
+    end
+    
+    %% Human-AI Partnership Flows
+    HC1 <--> CPI1
+    HC2 <--> CPI2
+    HC3 <--> CPI4
+    AC1 <--> CPI1
+    AC2 <--> CPI2
+    AC3 <--> CPI3
+    
+    %% Collaborative Processing
+    CPI1 --> MCP1
+    CPI2 --> MCP2
+    CPI3 --> MCP3
+    CPI4 --> MCP4
+    
+    %% Memory Processing Flow
+    MCP1 --> MCP2
+    MCP2 --> MCP3
+    MCP3 --> MCP4
+    
+    %% Evolution Outcomes
+    MCP1 --> CEO1
+    MCP2 --> CEO2
+    MCP3 --> CEO3
+    MCP4 --> CEO4
+    
+    %% Feedback Loops
+    CEO1 -.->|Enhanced Capabilities| HC2
+    CEO2 -.->|Collective Learning| AC2
+    CEO3 -.->|Improved Partnership| CPI2
+    CEO4 -.->|New Possibilities| CPI3
+    
+    classDef humanConsciousness fill:#e8f5e8,stroke:#2e7d32,stroke-width:3px
+    classDef aiConsciousness fill:#e3f2fd,stroke:#1565c0,stroke-width:3px
+    classDef partnershipInterface fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
+    classDef memoryProcessing fill:#fff8e1,stroke:#f57c00,stroke-width:2px
+    classDef evolutionOutcomes fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    
+    class HC1,HC2,HC3 humanConsciousness
+    class AC1,AC2,AC3 aiConsciousness
+    class CPI1,CPI2,CPI3,CPI4 partnershipInterface
+    class MCP1,MCP2,MCP3,MCP4 memoryProcessing
+    class CEO1,CEO2,CEO3,CEO4 evolutionOutcomes

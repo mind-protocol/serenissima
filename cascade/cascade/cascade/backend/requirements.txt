@@ -1,0 +1,54 @@
+# Cascade Backend Requirements
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.25.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Database & Storage
+asyncpg==0.29.0
+redis[hiredis]==5.0.1
+motor==3.3.2
+pyairtable==2.2.1
+
+# Venice Integration
+httpx==0.25.2
+websockets==12.0
+aiohttp==3.9.1
+
+# Real-time Communication
+python-socketio==5.10.0
+aiokafka==0.10.0
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+pyjwt[crypto]==2.8.0
+
+# Payment Processing
+stripe==7.6.0
+
+# Utilities
+pendulum==3.0.0
+pydantic-settings==2.1.0
+orjson==3.9.10
+python-json-logger==2.0.7
+pytz==2023.3
+
+# ML/AI Support
+numpy==1.26.2
+scikit-learn==1.3.2
+sentence-transformers==2.2.2
+
+# Monitoring
+prometheus-client==0.19.0
+opentelemetry-api==1.21.0
+opentelemetry-sdk==1.21.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+httpx-mock==0.4.0

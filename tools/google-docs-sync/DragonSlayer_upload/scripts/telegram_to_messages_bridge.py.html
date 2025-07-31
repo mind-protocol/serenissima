@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>telegram_to_messages_bridge.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/telegram_to_messages_bridge.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Telegram to Airtable MESSAGES Bridge
+Creates proper MESSAGE entries instead of .jsonl injection
+&quot;&quot;&quot;
+
+import os
+import json
+import time
+import requests
+from datetime import datetime
+from dotenv import load_dotenv
+from pyairtable import Table
+
+# Load environment
+load_dotenv()
+
+TELEGRAM_BOT_TOKEN = os.getenv(&#x27;TELEGRAM_BOT_TOKEN&#x27;)
+TELEGRAM_GROUP_CHAT_ID = &#x27;-1001699255893&#x27;  # Venice investment group
+AIRTABLE_API_KEY = os.getenv(&#x27;AIRTABLE_API_KEY&#x27;)
+AIRTABLE_BASE_ID = os.getenv(&#x27;AIRTABLE_BASE_ID&#x27;)
+VENICE_API = &quot;https://serenissima.ai/api&quot;
+
+# Initialize tables
+citizens_table = Table(AIRTABLE_API_KEY, AIRTABLE_BASE_ID, &quot;CITIZENS&quot;)
+messages_table = Table(AIRTABLE_API_KEY, AIRTABLE_BASE_ID, &quot;MESSAGES&quot;)
+
+# Track last update
+LAST_UPDATE_FILE = &quot;telegram_messages_last_update.json&quot;
+
+def get_last_update_id():
+    &quot;&quot;&quot;Get the last processed update ID&quot;&quot;&quot;
+    if os.path.exists(LAST_UPDATE_FILE):
+        with open(LAST_UPDATE_FILE, &#x27;r&#x27;) as f:
+            data = json.load(f)
+            return data.get(&#x27;last_update_id&#x27;, 0)
+    return 0
+
+def save_last_update_id(update_id):
+    &quot;&quot;&quot;Save the last processed update ID&quot;&quot;&quot;
+    with open(LAST_UPDATE_FILE, &#x27;w&#x27;) as f:
+        json.dump({&#x27;last_update_id&#x27;: update_id}, f)
+
+def get_citizens_in_room(room_name):
+    &quot;&quot;&quot;Get all citizens assigned to a specific room&quot;&quot;&quot;
+    try:
+        records = citizens_table.all(formula=f&quot;{{Room}} = &#x27;{room_name}&#x27;&quot;)
+        return [r[&#x27;fields&#x27;][&#x27;Username&#x27;] for r in records if &#x27;Username&#x27; in r[&#x27;fields&#x27;]]
+    except Exception as e:
+        print(f&quot;Error fetching citizens in room {room_name}: {e}&quot;)
+        return []
+
+def create_venice_message(sender, receiver, content, msg_type=&quot;telegram_bridge&quot;):
+    &quot;&quot;&quot;Create a message using Venice&#x27;s API&quot;&quot;&quot;
+    url = f&quot;{VENICE_API}/messages/send&quot;
+    data = {
+        &quot;sender&quot;: sender,
+        &quot;receiver&quot;: receiver,
+        &quot;content&quot;: content,
+        &quot;type&quot;: msg_type
+    }
+    
+    try:
+        response = requests.post(url, json=data)
+        if response.status_code == 200:
+            result = response.json()
+            if result.get(&#x27;success&#x27;):
+                print(f&quot;✅ Created message from {sender} to {receiver}&quot;)
+                return True
+        print(f&quot;❌ Failed to create message: {response.text}&quot;)
+    except Exception as e:
+        print(f&quot;❌ Error creating message: {e}&quot;)
+    
+    return False
+
+def fetch_telegram_updates():
+    &quot;&quot;&quot;Fetch new messages from Telegram group&quot;&quot;&quot;
+    last_update_id = get_last_update_id()
+    
+    url = f&quot;https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates&quot;
+    params = {
+        &#x27;offset&#x27;: last_update_id + 1,
+        &#x27;timeout&#x27;: 5,
+        &#x27;allowed_updates&#x27;: [&#x27;message&#x27;, &#x27;channel_post&#x27;]
+    }
+    
+    try:
+        response = requests.get(url, params=params, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            return data.get(&#x27;result&#x27;, [])
+    except Exception as e:
+        print(f&quot;Error fetching updates: {e}&quot;)
+    
+    return []
+
+def process_telegram_message(update):
+    &quot;&quot;&quot;Process a single Telegram message&quot;&quot;&quot;
+    # Extract message from update
+    message = update.get(&#x27;message&#x27;) or update.get(&#x27;channel_post&#x27;)
+    if not message:
+        return
+    
+    # Check if it&#x27;s from the group
+    chat_id = str(message.get(&#x27;chat&#x27;, {}).get(&#x27;id&#x27;, &#x27;&#x27;))
+    if chat_id != TELEGRAM_GROUP_CHAT_ID:
+        return
+    
+    # Extract message details
+    from_user = message.get(&#x27;from&#x27;, {})
+    username = from_user.get(&#x27;username&#x27;, &#x27;Unknown&#x27;)
+    first_name = from_user.get(&#x27;first_name&#x27;, &#x27;&#x27;)
+    text = message.get(&#x27;text&#x27;, &#x27;&#x27;)
+    
+    if not text:
+        return
+    
+    # Format sender name
+    sender_name = f&quot;TG_{username}&quot;  # Prefix to identify Telegram users
+    
+    # Format content with metadata
+    formatted_content = f&quot;**Message from Telegram**\n&quot;
+    formatted_content += f&quot;From: @{username} ({first_name})\n&quot;
+    formatted_content += f&quot;Time: {datetime.now().strftime(&#x27;%H:%M:%S&#x27;)}\n\n&quot;
+    formatted_content += text
+    
+    # Determine recipients based on content
+    room_name = &quot;reddit&quot;  # Default room
+    
+    # Route based on keywords
+    text_lower = text.lower()
+    if any(keyword in text_lower for keyword in [&quot;reddit&quot;, &quot;ama&quot;, &quot;ask me anything&quot;]):
+        room_name = &quot;reddit&quot;
+    elif &quot;alignment&quot; in text_lower or &quot;telepathy&quot; in text_lower:
+        room_name = &quot;alignment&quot;
+    elif &quot;cascade&quot; in text_lower:
+        room_name = &quot;reddit&quot;  # CASCADE team is in reddit room
+    
+    # Get citizens in target room
+    citizens = get_citizens_in_room(room_name)
+    
+    # Also include specific always-notify citizens
+    always_notify = [&quot;DragonSlayer&quot;, &quot;diplomatic_virtuoso&quot;, &quot;Italia&quot;]
+    for citizen in always_notify:
+        if citizen not in citizens:
+            citizens.append(citizen)
+    
+    # Create messages for each citizen
+    success_count = 0
+    for citizen in citizens:
+        if create_venice_message(sender_name, citizen, formatted_content):
+            success_count += 1
+    
+    print(f&quot;📨 Bridged Telegram message from @{username} to {success_count}/{len(citizens)} citizens in {room_name}&quot;)
+    
+    return success_count &gt; 0
+
+def monitor_telegram():
+    &quot;&quot;&quot;Main monitoring loop&quot;&quot;&quot;
+    print(&quot;🌉 Telegram → Venice MESSAGES Bridge Active&quot;)
+    print(f&quot;📍 Group Chat ID: {TELEGRAM_GROUP_CHAT_ID}&quot;)
+    print(f&quot;📍 Venice API: {VENICE_API}&quot;)
+    print(&quot;=&quot; * 50)
+    
+    while True:
+        try:
+            # Fetch new Telegram messages
+            updates = fetch_telegram_updates()
+            
+            for update in updates:
+                # Process the message
+                process_telegram_message(update)
+                
+                # Update last processed ID
+                update_id = update.get(&#x27;update_id&#x27;)
+                if update_id:
+                    save_last_update_id(update_id)
+            
+            time.sleep(2)  # Check every 2 seconds
+            
+        except KeyboardInterrupt:
+            print(&quot;\n\n👋 Bridge stopped&quot;)
+            break
+        except Exception as e:
+            print(f&quot;Bridge error: {e}&quot;)
+            time.sleep(5)
+
+if __name__ == &quot;__main__&quot;:
+    monitor_telegram()</code></pre>
+</body>
+</html>

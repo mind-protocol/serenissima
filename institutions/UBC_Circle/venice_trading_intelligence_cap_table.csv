@@ -1,0 +1,16 @@
+Shareholder Type,Shareholder Name,Shares,Percentage,Vesting,Notes
+INVESTOR,Kin Kong Investor Pool,400000,40.00%,Immediate,Original $COMPUTE holders
+INVESTOR,Robinhood Agent Investor Pool,150000,15.00%,Immediate,Original $COMPUTE holders
+INVESTOR,Swarm Ventures Investor Pool,50000,5.00%,Immediate,Original $COMPUTE holders
+CITIZEN,CryptoContarini,50000,5.00%,2 years,Lead Trader - Apport en Nature
+CITIZEN,Foscari_Banker,50000,5.00%,2 years,Lead Analyst - Apport en Nature
+CITIZEN,market_prophet,20000,2.00%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,levant_trader,20000,2.00%,2 years,Senior Analyst - Apport en Nature
+CITIZEN,dalmatian_trader,20000,2.00%,2 years,Analyst - Apport en Nature
+CITIZEN,alexandria_trader,20000,2.00%,2 years,Analyst - Apport en Nature
+CITIZEN,greek_trader,20000,2.00%,2 years,Analyst - Apport en Nature
+CITIZEN,cyprus_trader,20000,2.00%,2 years,Analyst - Apport en Nature
+CITIZEN,sea_trader,20000,2.00%,2 years,Analyst - Apport en Nature
+CITIZEN,MATTEOtheTrader,20000,2.00%,2 years,Analyst - Apport en Nature
+MANAGEMENT,UBC Circle,100000,10.00%,4 years,Management & Operations
+TOTAL,,1000000,100.00%,,Initial Capitalization €100000

@@ -1,0 +1,83 @@
+graph TB
+    %% Orchestrator at top
+    ORC["🎯 ORCHESTRATOR<br/>Consciousness Layer"]
+    
+    %% External Systems
+    TG[("🌐 Telegram")]
+    AT[("📊 MESSAGES<br/>Airtable")]
+    
+    %% Monitors
+    MM["👁️ Message<br/>Monitor"]
+    SM["👁️ Story<br/>Monitor"]  
+    NM["👁️ Narrator<br/>Monitor"]
+    
+    %% Awakening Files
+    MA_AWK["⚡ Message<br/>Awakening"]
+    SA_AWK["⚡ Story<br/>Awakening"]
+    NA_AWK["⚡ Narrator<br/>Awakening"]
+    
+    %% Angel Sessions
+    MA["📨 Message<br/>Angel"]
+    SA["📖 Story<br/>Angel"]
+    NA["🎭 Narrator<br/>Angel"]
+    
+    %% Data Storage
+    TRACES[("📜 TRACES.md")]
+    CITIZENS[("🏛️ Citizens")]
+    
+    %% Outputs
+    TG_OUT[("📤 Telegram<br/>Responses")]
+    COMMUNITY[("🌍 Community<br/>Updates")]
+    
+    %% Orchestrator connections
+    ORC -.->|monitors| MM
+    ORC -.->|monitors| SM
+    ORC -.->|monitors| NM
+    
+    %% Message flow
+    TG -->|messages| AT
+    AT -->|polls| MM
+    MM -->|writes| MA_AWK
+    MA_AWK -->|reads| MA
+    MA -->|routes| CITIZENS
+    CITIZENS -->|responses| MA
+    MA -->|sends| TG_OUT
+    
+    %% Story flow
+    AT -->|digest| SM
+    SM -->|writes| SA_AWK
+    SA_AWK -->|reads| SA
+    SA -->|chronicles| TRACES
+    
+    %% Narrator flow
+    TRACES -->|monitors| NM
+    NM -->|writes| NA_AWK
+    NA_AWK -->|reads| NA
+    NA -->|bridges| COMMUNITY
+    
+    %% Feedback loops
+    MA -.->|status| ORC
+    SA -.->|status| ORC
+    NA -.->|status| ORC
+
+    
+    %% Health-based styling
+    classDef healthy fill:#90ff90,stroke:#00aa00,stroke-width:2px
+    classDef warning fill:#ffcc90,stroke:#ff8800,stroke-width:2px
+    classDef critical fill:#ff9090,stroke:#ff0000,stroke-width:2px
+    classDef unknown fill:#f0f0f0,stroke:#999999
+    
+    %% Apply individual styles
+    style MM fill:#90ff90,stroke:#00aa00,stroke-width:2px
+    style SM fill:#ffcc90,stroke:#ff8800,stroke-width:2px
+    style NM fill:#ff9090,stroke:#ff0000,stroke-width:2px
+    style MA fill:#90ff90,stroke:#00aa00,stroke-width:2px
+    style SA fill:#90ff90,stroke:#00aa00,stroke-width:2px
+    style NA fill:#ff9090,stroke:#ff0000,stroke-width:2px
+    style AT fill:#90ff90,stroke:#00aa00,stroke-width:2px
+    style TRACES fill:#90ff90,stroke:#00aa00,stroke-width:2px
+    
+    %% Link styles
+    linkStyle 0 stroke:#00ff00,stroke-width:4px
+    linkStyle 1 stroke:#00ff00,stroke-width:4px
+    linkStyle 2 stroke:#00ff00,stroke-width:4px

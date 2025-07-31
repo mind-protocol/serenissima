@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venice Company Share Claim - Swarm Investors</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .form-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .help-text {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .swarm-selection {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .swarm-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .swarm-item input[type="checkbox"] {
+            width: auto;
+            margin-right: 8px;
+        }
+        
+        .investment-details {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .investment-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr 2fr;
+            gap: 15px;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+        
+        .verification-section {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .verification-section h3 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+        
+        .submit-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            width: 100%;
+        }
+        
+        .submit-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .info-box {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .info-box h4 {
+            color: #155724;
+            margin-bottom: 10px;
+        }
+        
+        .warning {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Venice Company Share Claim</h1>
+            <p>Convert your Swarm investments to Venice company equity</p>
+        </div>
+        
+        <div class="info-box">
+            <h4>📢 Important Information</h4>
+            <p>Swarm investors are entitled to 20% of Venice company shares. Submit your claim with verification to receive your equity allocation.</p>
+            <p><strong>Deadline: 48 hours from announcement</strong></p>
+        </div>
+        
+        <form class="form-card" id="claimForm">
+            <h2>Investor Information</h2>
+            
+            <div class="form-group">
+                <label for="walletAddress">Solana Wallet Address *</label>
+                <input type="text" id="walletAddress" name="walletAddress" required 
+                       placeholder="Enter your Solana wallet address">
+                <div class="help-text">The wallet you used to invest in swarms</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required
+                       placeholder="your@email.com">
+                <div class="help-text">For claim confirmation and share certificates</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="discordUsername">Discord/Telegram Username</label>
+                <input type="text" id="discordUsername" name="discordUsername"
+                       placeholder="@username">
+                <div class="help-text">For community verification (optional but helpful)</div>
+            </div>
+            
+            <h2 style="margin-top: 40px;">Swarm Investments</h2>
+            
+            <div class="form-group">
+                <label>Select all swarms you invested in:</label>
+                <div class="swarm-selection">
+                    <div class="swarm-item">
+                        <input type="checkbox" id="kinKong" name="swarms" value="Kin Kong">
+                        <label for="kinKong">Kin Kong (→ Trading Intelligence)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="careerKin" name="swarms" value="CareerKin">
+                        <label for="careerKin">CareerKin (→ Professional Services)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="marketingMesh" name="swarms" value="MarketingMesh">
+                        <label for="marketingMesh">MarketingMesh (→ Commerce Automation)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="propertyKin" name="swarms" value="PropertyKin">
+                        <label for="propertyKin">PropertyKin (→ Real Estate Intelligence)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="grantKin" name="swarms" value="GrantKin">
+                        <label for="grantKin">GrantKin (→ Professional Services)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="therapyKin" name="swarms" value="TherapyKin">
+                        <label for="therapyKin">TherapyKin (→ Professional Services)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="profitBee" name="swarms" value="ProfitBeeAI">
+                        <label for="profitBee">ProfitBeeAI (→ Commerce Automation)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="talentKin" name="swarms" value="TalentKin">
+                        <label for="talentKin">TalentKin (→ Professional Services)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="robinhood" name="swarms" value="Robinhood Agent">
+                        <label for="robinhood">Robinhood Agent (→ Trading Intelligence)</label>
+                    </div>
+                    <div class="swarm-item">
+                        <input type="checkbox" id="swarmVentures" name="swarms" value="Swarm Ventures">
+                        <label for="swarmVentures">Swarm Ventures (→ Trading Intelligence)</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="investment-details" id="investmentDetails">
+                <h3>Investment Details</h3>
+                <div id="investmentRows"></div>
+            </div>
+            
+            <div class="verification-section">
+                <h3>🔐 Verification Requirements</h3>
+                <div class="form-group">
+                    <label for="txHashes">Transaction Hashes</label>
+                    <textarea id="txHashes" name="txHashes" rows="4"
+                              placeholder="Enter Solana transaction hashes (one per line) showing your COMPUTE investments"></textarea>
+                    <div class="help-text">Provide at least one transaction hash per swarm invested</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="signedMessage">Signed Message (Advanced)</label>
+                    <textarea id="signedMessage" name="signedMessage" rows="3"
+                              placeholder="Sign 'Venice Share Claim [Date]' with your wallet and paste signature here"></textarea>
+                    <div class="help-text">Optional but speeds up verification</div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I confirm that all information provided is accurate and I understand that false claims may result in disqualification
+                </label>
+            </div>
+            
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="consent" name="consent" required>
+                    I consent to the conversion of my swarm investments to Venice company equity per the announced terms (20% total allocation)
+                </label>
+            </div>
+            
+            <button type="submit" class="submit-button">Submit Share Claim</button>
+        </form>
+        
+        <div class="info-box">
+            <h4>What Happens Next?</h4>
+            <ol>
+                <li>We verify your claim against blockchain data (24-48 hours)</li>
+                <li>You receive confirmation email with share allocation</li>
+                <li>Your shares are recorded in official Venice company registry</li>
+                <li>Access to shareholder portal and voting rights</li>
+            </ol>
+        </div>
+    </div>
+    
+    <script>
+        // Show investment details when swarms are selected
+        document.querySelectorAll('input[name="swarms"]').forEach(checkbox => {
+            checkbox.addEventListener('change', updateInvestmentDetails);
+        });
+        
+        function updateInvestmentDetails() {
+            const selectedSwarms = Array.from(document.querySelectorAll('input[name="swarms"]:checked'))
+                .map(cb => cb.value);
+            
+            const detailsSection = document.getElementById('investmentDetails');
+            const rowsContainer = document.getElementById('investmentRows');
+            
+            if (selectedSwarms.length > 0) {
+                detailsSection.style.display = 'block';
+                rowsContainer.innerHTML = selectedSwarms.map(swarm => `
+                    <div class="investment-row">
+                        <div><strong>${swarm}</strong></div>
+                        <div>
+                            <input type="number" name="${swarm}_amount" placeholder="COMPUTE amount" step="0.01" required>
+                        </div>
+                        <div>
+                            <input type="text" name="${swarm}_tx" placeholder="Transaction hash (optional)">
+                        </div>
+                    </div>
+                `).join('');
+            } else {
+                detailsSection.style.display = 'none';
+            }
+        }
+        
+        // Form submission
+        document.getElementById('claimForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Collect form data
+            const formData = new FormData(this);
+            const claimData = {
+                wallet: formData.get('walletAddress'),
+                email: formData.get('email'),
+                discord: formData.get('discordUsername'),
+                investments: [],
+                txHashes: formData.get('txHashes').split('\n').filter(h => h.trim()),
+                signedMessage: formData.get('signedMessage'),
+                timestamp: new Date().toISOString()
+            };
+            
+            // Collect investment details
+            const selectedSwarms = Array.from(document.querySelectorAll('input[name="swarms"]:checked'))
+                .map(cb => cb.value);
+            
+            selectedSwarms.forEach(swarm => {
+                claimData.investments.push({
+                    swarm: swarm,
+                    amount: formData.get(`${swarm}_amount`),
+                    txHash: formData.get(`${swarm}_tx`)
+                });
+            });
+            
+            // In production, this would POST to your API
+            console.log('Claim submitted:', claimData);
+            
+            // Show success message
+            alert('Claim submitted successfully! You will receive a confirmation email within 48 hours.');
+            
+            // In production, actually submit to your backend
+            // fetch('/api/submit-claim', { method: 'POST', body: JSON.stringify(claimData) })
+        });
+    </script>
+</body>
+</html>

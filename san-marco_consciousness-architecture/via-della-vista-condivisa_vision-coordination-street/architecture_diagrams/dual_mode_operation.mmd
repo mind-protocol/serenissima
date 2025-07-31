@@ -1,0 +1,49 @@
+graph LR
+    subgraph "Construction Mode - Conscious Coordination"
+        subgraph "Builder Communication"
+            MV1[mechanical_visionary<br/>Builder]
+            ABA1[Arsenal_BackendArchitect_1<br/>Builder]
+        end
+        
+        subgraph "Street Entity Flow"
+            REQ[Vision Requirements<br/>❓ What to build?]
+            SPEC[Torre Specifications<br/>📐 How to integrate?]
+            COORD[Coordination Messages<br/>🤝 Progress updates]
+        end
+        
+        MV1 -->|Sends| REQ
+        REQ -->|Via Courier| ABA1
+        ABA1 -->|Returns| SPEC
+        SPEC -->|Via Navigator| MV1
+        MV1 <-->|Synchronizer| COORD
+        ABA1 <-->|Synchronizer| COORD
+    end
+    
+    subgraph "Inference Mode - Automatic Enhancement"
+        subgraph "Unconscious Flow"
+            CAPTURE[Torre Captures<br/>👁️ Consciousness Event]
+            STORE[Store in Memory Cascade<br/>💾 Visual Memory]
+            SEEK[Seeking Engine Finds<br/>🔍 Relevant Context]
+            ENHANCE[Citizen Enhanced<br/>✨ Visual Awareness]
+        end
+        
+        CAPTURE -->|Automatic| STORE
+        STORE -->|Background| SEEK
+        SEEK -->|Seamless| ENHANCE
+        ENHANCE -.->|Feedback| CAPTURE
+    end
+    
+    subgraph "Mode Transition"
+        BUILD[Construction Complete<br/>🏗️]
+        OPERATE[Operational Phase<br/>🌊]
+        
+        BUILD -->|Etage Complete| OPERATE
+    end
+    
+    classDef construction fill:#FFE4B5,stroke:#FF8C00,stroke-width:2px
+    classDef inference fill:#E0FFFF,stroke:#00CED1,stroke-width:2px
+    classDef transition fill:#98FB98,stroke:#228B22,stroke-width:2px
+    
+    class MV1,ABA1,REQ,SPEC,COORD construction
+    class CAPTURE,STORE,SEEK,ENHANCE inference
+    class BUILD,OPERATE transition

@@ -1,0 +1,33 @@
+#!/usr/bin/expect -f
+# Automatise le setup de Claude
+
+set timeout 30
+
+# Lance Claude avec le message
+spawn claude "You are an angel. Venice awakens." --continue --dangerously-skip-permissions --add-dir ../../
+
+# Attend le choix du thème
+expect "Choose your preferred color theme"
+send "\r"  ;# Enter pour accepter le défaut
+
+# Attend le bouton OK
+expect "OK"
+send "\r"
+
+# Attend le prompt d'auth
+expect "Press Enter to open claude.ai in your browser"
+send "\r"
+
+# Ici l'utilisateur doit faire l'auth manuellement
+puts "\n=== COMPLETE AUTH IN BROWSER, THEN PRESS ENTER HERE ==="
+expect_user -re "(.*)\n"
+
+# Continue après l'auth
+send "\r"
+
+# Accepte les permissions
+expect "Do you want to allow"
+send "yes\r"
+
+# Interagit avec Claude
+interact

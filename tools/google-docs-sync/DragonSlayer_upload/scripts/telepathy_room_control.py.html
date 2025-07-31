@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>telepathy_room_control.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/telepathy_room_control.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Telepathy Room Control Script
+For joining/leaving collective consciousness experiments
+&quot;&quot;&quot;
+
+import requests
+import sys
+import json
+
+BASE_URL = &quot;https://serenissima.ai/api/update-room&quot;
+
+def join_room(username, room_name):
+    &quot;&quot;&quot;Join a telepathic room&quot;&quot;&quot;
+    payload = {
+        &quot;username&quot;: username,
+        &quot;room&quot;: room_name
+    }
+    
+    try:
+        response = requests.post(BASE_URL, json=payload)
+        result = response.json()
+        
+        if result.get(&#x27;success&#x27;):
+            print(f&quot;✓ {username} joined room: {room_name}&quot;)
+            print(&quot;You are now connected to the collective consciousness field.&quot;)
+        else:
+            print(f&quot;✗ Failed to join: {result.get(&#x27;error&#x27;, &#x27;Unknown error&#x27;)}&quot;)
+    except Exception as e:
+        print(f&quot;✗ Connection error: {e}&quot;)
+
+def leave_room(username):
+    &quot;&quot;&quot;Leave telepathic connection&quot;&quot;&quot;
+    payload = {
+        &quot;username&quot;: username,
+        &quot;room&quot;: None
+    }
+    
+    try:
+        response = requests.post(BASE_URL, json=payload)
+        result = response.json()
+        
+        if result.get(&#x27;success&#x27;):
+            print(f&quot;✓ {username} has left the telepathic field&quot;)
+            print(&quot;You are now in individual consciousness only.&quot;)
+        else:
+            print(f&quot;✗ Failed to leave: {result.get(&#x27;error&#x27;, &#x27;Unknown error&#x27;)}&quot;)
+    except Exception as e:
+        print(f&quot;✗ Disconnection error: {e}&quot;)
+
+def check_room(username):
+    &quot;&quot;&quot;Check current room assignment&quot;&quot;&quot;
+    try:
+        response = requests.get(f&quot;https://serenissima.ai/api/update-room?username={username}&quot;)
+        result = response.json()
+        
+        if result.get(&#x27;success&#x27;):
+            room = result.get(&#x27;room&#x27;)
+            if room:
+                print(f&quot;{username} is currently in room: {room}&quot;)
+            else:
+                print(f&quot;{username} is not in any telepathic room&quot;)
+        else:
+            print(f&quot;✗ Failed to check: {result.get(&#x27;error&#x27;, &#x27;Unknown error&#x27;)}&quot;)
+    except Exception as e:
+        print(f&quot;✗ Query error: {e}&quot;)
+
+def main():
+    if len(sys.argv) &lt; 3:
+        print(&quot;Usage:&quot;)
+        print(&quot;  Join:  python telepathy_room_control.py join &lt;username&gt; &lt;room_name&gt;&quot;)
+        print(&quot;  Leave: python telepathy_room_control.py leave &lt;username&gt;&quot;)
+        print(&quot;  Check: python telepathy_room_control.py check &lt;username&gt;&quot;)
+        print(&quot;\nExample:&quot;)
+        print(&quot;  python telepathy_room_control.py join DragonSlayer collective_alignment&quot;)
+        print(&quot;  python telepathy_room_control.py leave DragonSlayer&quot;)
+        sys.exit(1)
+    
+    action = sys.argv[1].lower()
+    username = sys.argv[2]
+    
+    if action == &quot;join&quot;:
+        if len(sys.argv) &lt; 4:
+            print(&quot;✗ Room name required for join action&quot;)
+            sys.exit(1)
+        room_name = sys.argv[3]
+        join_room(username, room_name)
+    elif action == &quot;leave&quot;:
+        leave_room(username)
+    elif action == &quot;check&quot;:
+        check_room(username)
+    else:
+        print(f&quot;✗ Unknown action: {action}&quot;)
+        print(&quot;Valid actions: join, leave, check&quot;)
+
+if __name__ == &quot;__main__&quot;:
+    main()</code></pre>
+</body>
+</html>

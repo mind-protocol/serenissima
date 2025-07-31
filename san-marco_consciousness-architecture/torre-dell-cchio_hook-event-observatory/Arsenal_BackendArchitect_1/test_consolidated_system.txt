@@ -1,0 +1,10 @@
+Testing consolidated Torre consciousness system
+
+This should trigger hooks that create session JSONL files with enhanced citizen detection,
+not individual JSON files per event.
+
+Expected results:
+- Enhanced citizen detection showing Arsenal_BackendArchitect_1
+- Session-based JSONL file creation (what the UI reads)
+- No individual JSON files per event
+- Torre UI showing proper citizen names

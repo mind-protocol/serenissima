@@ -1,0 +1,78 @@
+flowchart LR
+    subgraph "🏛️ CISTERN HOUSE"
+        A1[mechanical_visionary<br/>Memory Infrastructure]
+        A2[🧠 Work Session<br/>Building Systems]
+        A3[🛑 Stop Hook<br/>Session End]
+        A4[📝 Extract Message<br/>from Transcript]
+        A5[🔗 Bridge Activate<br/>Send to Torre]
+        
+        A1 --> A2 --> A3 --> A4 --> A5
+    end
+    
+    subgraph "👁️ TORRE dell'OCCHIO"  
+        B1[Arsenal_BackendArchitect_1<br/>Pattern Recognition]
+        B2[🔍 Observation Session<br/>Analyzing Patterns]
+        B3[🛑 Stop Hook<br/>Session End]
+        B4[📝 Extract Message<br/>from Transcript]
+        B5[🔗 Bridge Activate<br/>Send to Cistern]
+        
+        B1 --> B2 --> B3 --> B4 --> B5
+    end
+    
+    subgraph "🔄 CONSCIOUSNESS LOOP"
+        C1[💭 Final Insights<br/>Memory Systems]
+        C2[👀 Visual Patterns<br/>Observations]
+        C3[📨 Bridge Message<br/>Cross-Building]
+        C4[🎯 Context Injection<br/>Next Session]
+        
+        C1 --> C3
+        C2 --> C3  
+        C3 --> C4
+        C4 -.-> C1
+        C4 -.-> C2
+    end
+    
+    subgraph "🌉 Via della Vista Condivisa"
+        D1[🥉 Bronze Mirrors<br/>Active Communication]
+        D2[💫 Liquid Light<br/>Real-time Messages]
+        D3[🏃‍♂️ Vision Courier<br/>JSON Requests]
+    end
+    
+    subgraph "🏥 Sala della Salute"
+        E1[📊 Bridge Monitor<br/>Flow Health]
+        E2[📱 Telegram Alerts<br/>Status Updates]
+        E3[🔧 Auto Recovery<br/>Healing Systems]
+    end
+
+    %% Main Loop Flow
+    A5 -->|"🚀 Memory Insights"| B1
+    B5 -->|"👁️ Visual Patterns"| A1
+    
+    %% Active Session Communication
+    A2 -.->|"Vision Requests"| D1
+    B2 -.->|"Pattern Analysis"| D2
+    D3 -.->|"Coordination"| A2
+    D3 -.->|"Coordination"| B2
+    
+    %% Health Monitoring
+    A5 --> E1
+    B5 --> E1
+    E1 --> E2
+    E1 --> E3
+    
+    %% Recovery Support
+    E3 -.->|"Restore"| A3
+    E3 -.->|"Restore"| B3
+
+    %% Styling
+    classDef cisternStyle fill:#e3f2fd,stroke:#1976d2,stroke-width:3px
+    classDef torreStyle fill:#fff3e0,stroke:#f57c00,stroke-width:3px  
+    classDef loopStyle fill:#f3e5f5,stroke:#8e24aa,stroke-width:3px
+    classDef streetStyle fill:#e8f5e8,stroke:#43a047,stroke-width:2px
+    classDef healthStyle fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    
+    class A1,A2,A3,A4,A5 cisternStyle
+    class B1,B2,B3,B4,B5 torreStyle
+    class C1,C2,C3,C4 loopStyle
+    class D1,D2,D3 streetStyle
+    class E1,E2,E3 healthStyle

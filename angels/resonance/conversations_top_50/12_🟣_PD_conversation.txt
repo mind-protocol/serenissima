@@ -1,0 +1,172 @@
+CONVERSATION ANALYSIS: 🟣 PD
+==================================================
+
+Rank: #12
+Score: 175
+Total messages: 56
+Recent messages (180 days): 56
+Investment mentions: 3
+AI/Venice mentions: 12 / 5
+Avg message length: 281
+Last contact: 2025-07-16
+
+==================================================
+RECENT CONVERSATION (Last 6 months):
+==================================================
+
+[2025-01-25T01:43:15] 🟣 PD: I was affected by the lbp lock. Letting you know as per your tg post.
+
+[2025-01-27T20:56:37] 🟣 PD: I tried an experiment. Converted 1 sol and got 52.9k compute. Value on dex shoots up immediately. I then see what I would get to convert the 52.9k compute back to sol again and it's 0.55 s. Nearly half.
+
+[2025-01-27T20:56:43] 🟣 PD: Then I'm tried this
+
+[2025-01-27T20:56:57] 🟣 PD: 
+
+[2025-01-27T20:57:01] 🟣 PD: But
+
+[2025-01-27T20:57:22] 🟣 PD: 
+
+[2025-01-27T20:59:02] NLR: let me check
+
+[2025-01-27T21:35:54] 🟣 PD: Any thoughts?
+
+[2025-01-27T21:52:09] NLR: sorry focusing on swarms atm
+
+[2025-01-27T21:54:56] 🟣 PD: Fair enough, understandable. Tbh I'm afraid to buy compute until this is resolved. I converted about 150k of them yesterday for bad rate and stuck with this today on buy back. I'll hold off then, thanks.
+
+[2025-01-31T22:55:41] NLR: Yes
+
+[2025-01-31T22:56:35] 🟣 PD: Damn, what an ah. Oh well could have been worse.
+
+[2025-03-07T03:02:12] 🟣 PD: Hi. I've been asked to contact you. Couple of things 
+
+1. I didn't know ubc "take back" any yields you don't claim every week, so have lost out on a lot of mine. This is a very strange setup and apart from being annoying it causes another problem, which is 2 -
+
+2. There's no point to hold small numbers of shares. I hold a small number of kinOS which means the dividend for a week is too small and it doesn't let me withdraw. Since this will happen every week I will never get any revenue from those, so what's the point in holding?
+
+[2025-03-07T03:02:12] NLR: 👋 Thank you so much for being part of our community! 
+
+🐦 For Q&As, please follow and engage with us on TG.
+
+ ⚠️ Important Notes 
+• We do not sponsor YouTube accounts
+• For CEX/Market Makers: Verification link required
+• Remember: We are a fair launch project
+• We don't do paid raids
+
+I won't answer here. To contact me, you can engage with:  @nlr_ai_bot
+
+[2025-03-07T03:02:12] NLR: In the meantime, come and join the fun on our Main channel!  https://t.me/ubc_portal
+
+[2025-03-07T03:02:43] NLR: good points
+
+[2025-03-07T03:02:49] NLR: will think about it
+
+[2025-03-07T03:03:11] 🟣 PD: And what about all the yield I lost out on, it's just gone?
+
+[2025-03-07T03:03:16] NLR: yes
+
+[2025-03-07T03:03:23] 🟣 PD: This is ridiculous
+
+[2025-03-07T03:04:05] NLR: no it's not
+
+[2025-03-07T03:04:08] NLR: weekly claims
+
+[2025-03-07T03:04:28] NLR: at the moment the system is not automated
+
+[2025-03-07T03:04:37] NLR: this might change once we automate it
+
+[2025-03-07T03:04:47] NLR: but for now claims are reset every week
+
+[2025-03-07T03:04:53] NLR: we cannot do otherwise
+
+[2025-03-07T03:05:14] 🟣 PD: There was no warning of that. I assumed we keep our earnings so left it there "passively" until it was bigger. I was actually thinking of reducing work for the team by not claiming lots of small amounts.
+
+[2025-03-07T03:05:22] 🟣 PD: Terrible system
+
+[2025-03-07T03:06:15] NLR: apologies
+
+[2025-03-07T03:06:19] NLR: we'll improve it
+
+[2025-03-19T19:46:05] 🟣 PD: Hi NLR i rarely check my staking rewards and before when I extracted I just took whatever was there without calculating. Last time I withdrew 61k it seemed way lower than expected and I didn't pay much attention. Today when I looked again I noticed its still v low so I looked and it's not correct. I have 250k staked in 365 day pool and after 10 days it's only accumulated 2.5k. It even says my reward is only 250 per day, but it was advertised 10 per 1000 = 2500 per da so that should be 25k. I think the same last time, it should have been 610k not 61k.
+
+[2025-03-20T00:28:54] NLR: it will come back at 10x once we reacxh our 100k liquidity goal for $compute
+
+[2025-03-20T00:48:09] 🟣 PD: This is very bad, we staked on understanding it was 10x. It's already dropped so much in value and now it's compounded by 10x lower yield. It seems this project does whatever it wants day to day, no security on any aspect of it.
+
+[2025-03-20T00:51:08] NLR: sorry it's what it is. It's for the good of the project
+
+[2025-03-20T00:51:51] NLR: too much staking rewards was exactly what was driving the price down
+
+[2025-03-20T00:53:31] 🟣 PD: I asked this at start. Honestly if that's a problem then it should be reduced for those who are entering now, or if we staked at the agreed rate and you want to change it, you should unlock our ubc. I'm not interested staking it for a year for these rates. Compute isn't even tradable.
+
+[2025-03-20T00:54:15] 🟣 PD: This feels like a completely different project now.
+
+[2025-03-20T00:57:02] NLR: sorry about that
+
+[2025-03-20T00:57:11] NLR: we're doing what we think is best
+
+[2025-03-20T00:57:27] NLR: compute price reacted extremely positively to the rewards decrease
+
+[2025-03-20T00:57:32] NLR: we made the right choice
+
+[2025-03-20T02:26:07] 🟣 PD: This is no consolation to investors who put their ubc into a "safe", are down over 90% on ubc, down as much on compute, and now had their rewards cut by 90% to compound it. Sorry about that isn't good enough - would you like if you locked money in a high interest savings account and the bank cut 90% and said "sorry about that". This project keeps changing. I was a total evangelist for it but it's become so unpredictable and unreliable that I don't even know what it is anymore. Can we get our ubc back out of the vault please? At least then we could cut some losses. I bought a million of these in various wallets at high and thousands of shares in the swarms. It's all worthless now and team don't seem to care.
+
+[2025-05-14T19:24:59] NLR: Thanks for the questions they were good
+
+[2025-05-14T19:25:08] NLR: We'll improve on our business communication
+
+[2025-05-15T08:39:55] 🟣 PD: Thanks Lester and thanks again for your reply. I responded in the main chat
+
+[2025-07-14T00:12:03] NLR: hey PD
+
+[2025-07-14T00:12:10] NLR: are you here?
+
+[2025-07-14T00:12:35] NLR: I think the AIs need you specifically
+
+[2025-07-14T01:13:26] 🟣 PD: ?
+
+[2025-07-14T02:39:29] NLR: You've been a very active community member, invested, and more importantly: critical
+
+[2025-07-14T02:40:18] NLR: this is exactly what the citizens need: someone to ask "what's your plan for my money?" and "where is the proof?"
+
+[2025-07-14T02:40:39] NLR: I think you should be on the board of one of the companies
+
+[2025-07-15T13:56:53] NLR: up
+
+[2025-07-16T14:31:34] 🟣 PD: What does that involve?
+
+[2025-07-16T15:35:04] 🟣 PD: No thanks, I'm not interested. I have a real world business I'm working on so my time is limited and won't have spare bandwidth for ubc anymore. And tbh I don't think it would be of any practical value since none of the community suggestions seem to be taken on board, so I'll just end up being support to people looking for answers without any ability to influence or resolve anything. Thanks for the offer but I think someone more invested will be a better choice at this point.
+
+[2025-07-16T17:20:42] NLR: no prob, reach out when you change your mind
+
+
+==================================================
+ANALYSIS NEEDED:
+==================================================
+
+Please analyze this conversation and provide:
+
+1. CONTACT PROFILE
+- Professional background and current role
+- Key expertise areas
+- Communication style
+
+2. INVESTMENT POTENTIAL
+- Likelihood of investing (0-100%)
+- Probable ticket size
+- Investment interests
+
+3. PARTNERSHIP OPPORTUNITIES
+- Potential synergies with Venice
+- What they could contribute
+- Best Venice company match
+
+4. CITIZEN MATCHING
+- Best Venice citizen match and why
+- Shared interests/complementary skills
+
+5. ENGAGEMENT STRATEGY
+- Recommended approach
+- Key topics to emphasize
+- Draft first message (2-3 sentences)

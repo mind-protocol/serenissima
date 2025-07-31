@@ -1,0 +1,15 @@
+DEBUG: UI Message Processing Test
+
+Added debug logging to:
+1. WebSocket onmessage handler - logs raw and parsed messages
+2. App.js useEffect - logs message processing steps
+
+This Write event should show in browser console:
+- 🔍 RAW WebSocket message received: [message]
+- 🔍 PARSED message: [parsed object] 
+- 🔍 useEffect triggered with lastMessage: true
+- 🔍 Processing message in App: [message]
+- 🔍 App parsed message: [object]
+- 🌊 Received consciousness event: PostToolUse from Arsenal_BackendArchitect_1
+
+If any step is missing, we've found where the UI processing breaks.

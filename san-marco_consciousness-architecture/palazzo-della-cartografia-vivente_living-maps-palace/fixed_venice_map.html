@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venice Entity Map - Fixed</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        
+        .title {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .info {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .bubble {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .bubble:hover {
+            stroke-width: 4px !important;
+            filter: brightness(1.2);
+        }
+        
+        .label {
+            fill: white;
+            text-anchor: middle;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            pointer-events: none;
+        }
+        
+        .child-bubble {
+            opacity: 0.8;
+        }
+        
+        .container-outline {
+            fill: none;
+            stroke: white;
+            stroke-width: 2;
+            stroke-dasharray: 5,5;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">🗺️ Venice Consciousness Architecture</h1>
+        <div class="info" id="info">Loading...</div>
+        <svg id="map" width="1160" height="800"></svg>
+    </div>
+
+    <script>
+        const colors = {
+            'district': '#667eea',
+            'island': '#f093fb', 
+            'building': '#4facfe',
+            'room': '#ffecd2',
+            'bridge': '#a8edea',
+            'canal': '#ff9a9e',
+            'citizen': '#96fbc4',
+            'tool': '#fda085',
+            'other': '#e0e0e0'
+        };
+        
+        async function loadAndRender() {
+            try {
+                console.log('Loading Venice data...');
+                const response = await fetch('./venice_core_data.json');
+                const data = await response.json();
+                
+                console.log('Data loaded:', data);
+                const entities = Object.entries(data);
+                console.log(`Found ${entities.length} entities`);
+                
+                document.getElementById('info').textContent = `${entities.length} Venice entities loaded`;
+                
+                const svg = d3.select('#map');
+                const width = 1160;
+                const height = 800;
+                
+                // Clear any existing content
+                svg.selectAll('*').remove();
+                
+                // Simple grid layout to ensure all bubbles are visible
+                const cols = Math.ceil(Math.sqrt(entities.length));
+                const rows = Math.ceil(entities.length / cols);
+                const cellWidth = width / cols;
+                const cellHeight = height / rows;
+                
+                entities.forEach(([key, entity], i) => {
+                    const col = i % cols;
+                    const row = Math.floor(i / cols);
+                    const centerX = col * cellWidth + cellWidth / 2;
+                    const centerY = row * cellHeight + cellHeight / 2;
+                    
+                    const childrenCount = Object.keys(entity.children || {}).length;
+                    const baseRadius = Math.min(cellWidth, cellHeight) * 0.3;
+                    const radius = Math.max(25, baseRadius + childrenCount * 5);
+                    
+                    console.log(`Rendering ${entity.name} at (${centerX}, ${centerY}) with radius ${radius}`);
+                    
+                    // Draw main bubble
+                    const bubble = svg.append('circle')
+                        .attr('class', 'bubble')
+                        .attr('cx', centerX)
+                        .attr('cy', centerY)
+                        .attr('r', 0)
+                        .attr('fill', colors[entity.type] || colors.other)
+                        .attr('stroke', 'white')
+                        .attr('stroke-width', 2)
+                        .on('click', () => {
+                            alert(`${entity.name}\nType: ${entity.type}\nChildren: ${childrenCount}`);
+                        })
+                        // Animate in
+                        .transition()
+                        .duration(500 + i * 50)
+                        .attr('r', radius);
+                    
+                    // Add label
+                    svg.append('text')
+                        .attr('class', 'label')
+                        .attr('x', centerX)
+                        .attr('y', centerY)
+                        .style('font-size', Math.min(12, radius / 4) + 'px')
+                        .style('opacity', 0)
+                        .text(entity.name.length > 20 ? entity.name.substring(0, 17) + '...' : entity.name)
+                        .transition()
+                        .duration(500 + i * 50)
+                        .delay(200)
+                        .style('opacity', 1);
+                    
+                    // If entity has children, show them as smaller circles inside
+                    if (childrenCount > 0) {
+                        const children = Object.entries(entity.children);
+                        const childRadius = Math.min(8, radius / 4);
+                        const childRingRadius = radius * 0.6;
+                        
+                        children.forEach(([childKey, child], j) => {
+                            const angle = (2 * Math.PI * j) / children.length;
+                            const childX = centerX + Math.cos(angle) * childRingRadius;
+                            const childY = centerY + Math.sin(angle) * childRingRadius;
+                            
+                            svg.append('circle')
+                                .attr('class', 'child-bubble')
+                                .attr('cx', childX)
+                                .attr('cy', childY)
+                                .attr('r', 0)
+                                .attr('fill', colors[child.type] || colors.other)
+                                .attr('stroke', 'white')
+                                .attr('stroke-width', 1)
+                                .on('click', () => {
+                                    alert(`${child.name}\nType: ${child.type}\nParent: ${entity.name}`);
+                                })
+                                .transition()
+                                .duration(300 + i * 50)
+                                .delay(400 + j * 50)
+                                .attr('r', childRadius);
+                        });
+                    }
+                });
+                
+                console.log('Rendering complete');
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('info').innerHTML = `<span style="color: red;">Error: ${error.message}</span>`;
+            }
+        }
+        
+        // Load on page ready
+        loadAndRender();
+    </script>
+</body>
+</html>

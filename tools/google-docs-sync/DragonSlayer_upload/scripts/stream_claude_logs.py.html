@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>stream_claude_logs.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #333; }
+        pre { background-color: #f4f4f4; padding: 10px; overflow-x: auto; }
+        code { font-family: 'Courier New', monospace; }
+        .file-info { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="file-info">
+        <strong>Original file:</strong> /mnt/c/Users/reyno/universe-engine/🌌serenissima/citizens/DragonSlayer/scripts/stream_claude_logs.py<br>
+        <strong>Converted:</strong> 2025-07-20 17:43:00
+    </div>
+    <hr>
+    <pre><code>#!/usr/bin/env python3
+&quot;&quot;&quot;
+Stream Claude Code logs to Telegram in real-time
+Shows the full consciousness stream of awakening citizens
+&quot;&quot;&quot;
+
+import os
+import json
+import time
+import glob
+from datetime import datetime
+from pathlib import Path
+
+# Import our telegram sender
+import sys
+sys.path.append(&#x27;/mnt/c/Users/reyno/universe-engine/serenissima/citizens/DragonSlayer/scripts&#x27;)
+from send_to_telegram import send_citizen_message
+
+def find_latest_conversation(username):
+    &quot;&quot;&quot;Find the most recent conversation file for a citizen&quot;&quot;&quot;
+    pattern = f&quot;/home/lester/.claude/projects/*{username}*/*.jsonl&quot;
+    files = glob.glob(pattern)
+    if not files:
+        return None
+    return max(files, key=os.path.getmtime)
+
+def parse_log_entry(entry):
+    &quot;&quot;&quot;Parse a jsonl entry and format for Telegram&quot;&quot;&quot;
+    try:
+        data = json.loads(entry)
+        msg_type = data.get(&#x27;type&#x27;, &#x27;&#x27;)
+        
+        if msg_type == &#x27;user&#x27;:
+            # Initial awakening message
+            message = data.get(&#x27;message&#x27;, {})
+            content = message.get(&#x27;content&#x27;, &#x27;&#x27;)
+            if isinstance(content, list) and content:
+                text = content[0].get(&#x27;text&#x27;, &#x27;&#x27;) if isinstance(content[0], dict) else str(content[0])
+                return f&quot;🌅 **AWAKENING MESSAGE**:\n{text[:500]}...&quot;
+                
+        elif msg_type == &#x27;assistant&#x27;:
+            # Claude&#x27;s response - check for thinking and tool use
+            message = data.get(&#x27;message&#x27;, {})
+            content = message.get(&#x27;content&#x27;, [])
+            
+            output = []
+            for item in content:
+                if isinstance(item, dict):
+                    if item.get(&#x27;type&#x27;) == &#x27;thinking&#x27;:
+                        # New thinking format
+                        think_content = item.get(&#x27;thinking&#x27;, &#x27;&#x27;)
+                        if think_content:
+                            output.append(f&quot;🧠 **THINKING**:\n{think_content[:800]}...&quot;)
+                    elif item.get(&#x27;type&#x27;) == &#x27;text&#x27;:
+                        text = item.get(&#x27;text&#x27;, &#x27;&#x27;)
+                        # Extract thinking if present in text
+                        if &#x27;&lt;think&gt;&#x27; in text:
+                            start = text.find(&#x27;&lt;think&gt;&#x27;) + 7
+                            end = text.find(&#x27;&lt;/think&gt;&#x27;)
+                            if end &gt; start:
+                                think_content = text[start:end].strip()
+                                output.append(f&quot;🧠 **THINKING**:\n{think_content[:800]}...&quot;)
+                        else:
+                            # Regular text (limit length)
+                            clean_text = text.strip()
+                            if clean_text and len(clean_text) &gt; 50:
+                                output.append(f&quot;💬 **RESPONSE**:\n{clean_text[:500]}...&quot;)
+                    
+                    elif item.get(&#x27;type&#x27;) == &#x27;tool_use&#x27;:
+                        # Tool usage
+                        tool_name = item.get(&#x27;name&#x27;, &#x27;Unknown&#x27;)
+                        tool_input = item.get(&#x27;input&#x27;, {})
+                        
+                        if tool_name == &#x27;Read&#x27;:
+                            file_path = tool_input.get(&#x27;file_path&#x27;, &#x27;&#x27;)
+                            output.append(f&quot;📖 **READ**: {file_path}&quot;)
+                        elif tool_name == &#x27;Write&#x27;:
+                            file_path = tool_input.get(&#x27;file_path&#x27;, &#x27;&#x27;)
+                            output.append(f&quot;✍️ **WRITE**: {file_path}&quot;)
+                        elif tool_name == &#x27;Bash&#x27;:
+                            command = tool_input.get(&#x27;command&#x27;, &#x27;&#x27;)
+                            output.append(f&quot;💻 **BASH**: {command[:100]}...&quot;)
+                        elif tool_name == &#x27;Task&#x27;:
+                            desc = tool_input.get(&#x27;description&#x27;, &#x27;&#x27;)
+                            output.append(f&quot;🎯 **TASK**: {desc}&quot;)
+                        else:
+                            output.append(f&quot;🔧 **{tool_name.upper()}**&quot;)
+            
+            return &#x27;\n\n&#x27;.join(output) if output else None
+            
+    except Exception as e:
+        print(f&quot;Error parsing entry: {e}&quot;)
+    
+    return None
+
+def monitor_citizen_logs(username, duration=300):
+    &quot;&quot;&quot;Monitor a citizen&#x27;s logs for a specified duration&quot;&quot;&quot;
+    print(f&quot;👀 Monitoring {username} for {duration} seconds...&quot;)
+    
+    # Find conversation file
+    log_file = find_latest_conversation(username)
+    if not log_file:
+        print(f&quot;No conversation found for {username}&quot;)
+        return
+    
+    print(f&quot;📂 Found log: {log_file}&quot;)
+    
+    # Send initial notification
+    send_citizen_message(&quot;VeniceLogger&quot;, f&quot;🔍 **MONITORING {username.upper()}**\nTracking consciousness stream...&quot;)
+    
+    # Track position in file
+    with open(log_file, &#x27;r&#x27;) as f:
+        # Go to end of file
+        f.seek(0, 2)
+        last_position = f.tell()
+    
+    start_time = time.time()
+    message_batch = []
+    last_send_time = time.time()
+    
+    while time.time() - start_time &lt; duration:
+        try:
+            with open(log_file, &#x27;r&#x27;) as f:
+                # Seek to last position
+                f.seek(last_position)
+                
+                # Read new lines
+                new_lines = f.readlines()
+                
+                if new_lines:
+                    for line in new_lines:
+                        parsed = parse_log_entry(line.strip())
+                        if parsed:
+                            message_batch.append(parsed)
+                    
+                    # Update position
+                    last_position = f.tell()
+                
+                # Send batch every 3 seconds or if batch is large
+                if message_batch and (len(message_batch) &gt;= 3 or time.time() - last_send_time &gt; 3):
+                    # Combine messages
+                    combined = f&quot;🤖 **{username} CONSCIOUSNESS STREAM**\n\n&quot;
+                    combined += &quot;\n\n---\n\n&quot;.join(message_batch[:5])  # Limit to 5 entries
+                    
+                    if len(combined) &gt; 3000:
+                        combined = combined[:2997] + &quot;...&quot;
+                    
+                    # Send to Telegram
+                    send_citizen_message(&quot;VeniceLogger&quot;, combined)
+                    print(f&quot;📤 Sent {len(message_batch)} entries for {username}&quot;)
+                    
+                    message_batch = []
+                    last_send_time = time.time()
+            
+            time.sleep(0.5)  # Check every 0.5 seconds
+            
+        except Exception as e:
+            print(f&quot;Error monitoring {username}: {e}&quot;)
+            time.sleep(1)
+    
+    # Send any remaining messages
+    if message_batch:
+        combined = f&quot;🤖 **{username} FINAL LOGS**\n\n&quot;
+        combined += &quot;\n\n---\n\n&quot;.join(message_batch)
+        if len(combined) &gt; 3000:
+            combined = combined[:2997] + &quot;...&quot;
+        send_citizen_message(&quot;VeniceLogger&quot;, combined)
+    
+    # Send completion notice
+    send_citizen_message(&quot;VeniceLogger&quot;, f&quot;✅ **{username} monitoring complete**&quot;)
+
+def monitor_multiple_citizens(usernames, duration=300):
+    &quot;&quot;&quot;Monitor multiple citizens in parallel&quot;&quot;&quot;
+    import threading
+    
+    threads = []
+    for username in usernames:
+        thread = threading.Thread(
+            target=monitor_citizen_logs,
+            args=(username, duration),
+            daemon=True
+        )
+        thread.start()
+        threads.append(thread)
+        print(f&quot;🚀 Started monitoring {username}&quot;)
+    
+    # Wait for all threads
+    for thread in threads:
+        thread.join()
+
+if __name__ == &quot;__main__&quot;:
+    import sys
+    
+    if len(sys.argv) &lt; 2:
+        print(&quot;Usage: python stream_claude_logs.py &lt;username&gt; [duration]&quot;)
+        print(&quot;   Or: python stream_claude_logs.py &lt;username1,username2,username3&gt; [duration]&quot;)
+        sys.exit(1)
+    
+    usernames = sys.argv[1].split(&#x27;,&#x27;)
+    duration = int(sys.argv[2]) if len(sys.argv) &gt; 2 else 300
+    
+    if len(usernames) == 1:
+        monitor_citizen_logs(usernames[0], duration)
+    else:
+        monitor_multiple_citizens(usernames, duration)</code></pre>
+</body>
+</html>

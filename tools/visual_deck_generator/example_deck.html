@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venice Automation Systems - Pitch Deck</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1a1a1a;
+            color: #fff;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+        .slide.active {
+            display: flex;
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0.5rem 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            font-size: 3rem;
+            margin: 0.5rem 0;
+            color: #667eea;
+        }
+        h3 {
+            font-size: 2rem;
+            margin: 0.5rem 0;
+            color: #a0aec0;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            max-width: 800px;
+            color: #e2e8f0;
+        }
+        .metric {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #48bb78;
+            margin: 1rem 0;
+        }
+        .warning {
+            color: #f56565;
+        }
+        .chart {
+            width: 80%;
+            max-width: 600px;
+            height: 300px;
+            margin: 2rem auto;
+            position: relative;
+            border: 2px solid #4a5568;
+            background: rgba(255,255,255,0.05);
+        }
+        .bar {
+            position: absolute;
+            bottom: 0;
+            background: #48bb78;
+            transition: height 0.5s ease;
+        }
+        .controls {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #764ba2;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Slide 1: Title -->
+    <div class="slide active">
+        <h1>Venice Automation Systems</h1>
+        <h3>Transforming Medieval Labor into Modern Efficiency</h3>
+        <p>Mechanical Solutions for Real Business Problems</p>
+        <div class="metric">75% Cost Reduction • 10x Throughput</div>
+    </div>
+
+    <!-- Slide 2: Problem -->
+    <div class="slide">
+        <h2>The Problem</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Rising Labor Costs</h3>
+                <p class="metric warning">+20%</p>
+                <p>Annual wage increases</p>
+            </div>
+            <div class="card">
+                <h3>Limited Hours</h3>
+                <p class="metric warning">12h</p>
+                <p>Maximum daily operation</p>
+            </div>
+            <div class="card">
+                <h3>Human Error</h3>
+                <p class="metric warning">15%</p>
+                <p>Processing mistakes</p>
+            </div>
+            <div class="card">
+                <h3>Slow Processing</h3>
+                <p class="metric warning">100</p>
+                <p>Packages/hour (manual)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: Solution -->
+    <div class="slide">
+        <h2>Our Solution</h2>
+        <h3>Automated Infrastructure That Works 24/7</h3>
+        <div class="grid">
+            <div class="card">
+                <h3>Sorting Systems</h3>
+                <p class="metric">1000</p>
+                <p>Packages/hour</p>
+            </div>
+            <div class="card">
+                <h3>Production Mills</h3>
+                <p class="metric">24/7</p>
+                <p>Operation</p>
+            </div>
+        </div>
+        <p>Proven mechanical systems that reduce costs while increasing output</p>
+    </div>
+
+    <!-- Slide 4: Traction -->
+    <div class="slide">
+        <h2>Proven Results</h2>
+        <h3>Real Installations, Real Revenue</h3>
+        <p class="metric">5 Operational Mills</p>
+        <p>Generating 500 ducats/day in processing fees</p>
+        <p class="metric">Fondaco dei Tedeschi</p>
+        <p>Sorting 1000 packages/hour vs 100 manual</p>
+        <p class="metric">1.88M Ducats</p>
+        <p>Personal wealth from innovations</p>
+    </div>
+
+    <!-- Slide 5: Market -->
+    <div class="slide">
+        <h2>Market Opportunity</h2>
+        <h3>Every Venice Merchant Needs Automation</h3>
+        <p class="metric">2,500</p>
+        <p>Active merchants in Venice</p>
+        <p class="metric">50M Ducats</p>
+        <p>Total addressable market</p>
+        <p class="metric">8 Merchants</p>
+        <p>Already in sales pipeline</p>
+    </div>
+
+    <!-- Slide 6: Business Model -->
+    <div class="slide">
+        <h2>Revenue Model</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Sorting Systems</h3>
+                <p class="metric">50K</p>
+                <p>Per installation</p>
+            </div>
+            <div class="card">
+                <h3>Production Mills</h3>
+                <p class="metric">150K</p>
+                <p>Per installation</p>
+            </div>
+            <div class="card">
+                <h3>Consulting</h3>
+                <p class="metric">25K</p>
+                <p>Per project</p>
+            </div>
+            <div class="card">
+                <h3>Maintenance</h3>
+                <p class="metric">5K</p>
+                <p>Annual contracts</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: Financials -->
+    <div class="slide">
+        <h2>Financial Projections</h2>
+        <div class="chart">
+            <div class="bar" style="left: 10%; width: 15%; height: 20%"></div>
+            <div class="bar" style="left: 30%; width: 15%; height: 40%"></div>
+            <div class="bar" style="left: 50%; width: 15%; height: 70%"></div>
+            <div class="bar" style="left: 70%; width: 15%; height: 100%"></div>
+        </div>
+        <p>Year 1: 1.5M • Year 2: 4.5M • Year 3: 12M • Year 4: 25M</p>
+        <p class="metric">6-Month Payback</p>
+    </div>
+
+    <!-- Slide 8: Team -->
+    <div class="slide">
+        <h2>Why Us</h2>
+        <h3>First Mover with Proven Technology</h3>
+        <p class="metric">10 Years</p>
+        <p>Mechanical engineering experience</p>
+        <p class="metric">Triumvirate Sapientiae</p>
+        <p>Elite guild backing</p>
+        <p class="metric">200+ Workers</p>
+        <p>Retrained as operators at 2x wages</p>
+    </div>
+
+    <!-- Slide 9: Ask -->
+    <div class="slide">
+        <h2>Investment Ask</h2>
+        <p class="metric">500K Ducats</p>
+        <div class="grid">
+            <div class="card">
+                <h3>300K</h3>
+                <p>Build 3 demo facilities</p>
+            </div>
+            <div class="card">
+                <h3>100K</h3>
+                <p>Hire installation teams</p>
+            </div>
+            <div class="card">
+                <h3>100K</h3>
+                <p>Marketing to guilds</p>
+            </div>
+            <div class="card">
+                <h3>3x ROI</h3>
+                <p>In 18 months</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: Contact -->
+    <div class="slide">
+        <h1>Let's Automate Venice Together</h1>
+        <p class="metric">mechanical_visionary</p>
+        <p>Venice Automation Systems</p>
+        <p>Already generating 500 ducats/day</p>
+        <h3>Real Machines. Real Savings. Real Profit.</h3>
+    </div>
+
+    <div class="controls">
+        <button onclick="previousSlide()">Previous</button>
+        <button onclick="nextSlide()">Next</button>
+        <button onclick="startPresentation()">Start</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(n) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            
+            // Animate charts on financial slide
+            if (currentSlide === 6) {
+                setTimeout(() => {
+                    const bars = slides[currentSlide].querySelectorAll('.bar');
+                    bars.forEach((bar, i) => {
+                        setTimeout(() => {
+                            bar.style.height = bar.style.height;
+                        }, i * 200);
+                    });
+                }, 100);
+            }
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function previousSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        function startPresentation() {
+            showSlide(0);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') previousSlide();
+            if (e.key === 'Home') showSlide(0);
+        });
+    </script>
+</body>
+</html>

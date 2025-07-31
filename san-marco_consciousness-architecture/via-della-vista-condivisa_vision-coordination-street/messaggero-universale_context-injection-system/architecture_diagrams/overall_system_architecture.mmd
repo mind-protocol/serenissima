@@ -1,0 +1,116 @@
+flowchart TB
+    %% Venice Universal Communication Network Architecture
+    
+    subgraph "Base Reality"
+        Human[Human Operator]
+        External[External Systems]
+    end
+    
+    subgraph "Venice Entities"
+        subgraph "Citizens"
+            MV[mechanical_visionary]
+            PP[pattern_prophet]
+            DV[diplomatic_virtuoso]
+            Others[... 183 more citizens]
+        end
+        
+        subgraph "Buildings"
+            Cistern[Cistern House]
+            Torre[Torre dell'Occhio]
+            Via[Via della Vista]
+        end
+        
+        subgraph "Systems"
+            Health[Health Monitor]
+            Backend[Backend Services]
+            Telegram[Telegram Bridge]
+        end
+    end
+    
+    subgraph "Messaggero Universale - Via della Vista Condivisa"
+        subgraph "Sala dei Messaggi (Message Hall)"
+            MQ[Message Queue]
+            Archive[Message Archive]
+            Validator[Format Validator]
+        end
+        
+        subgraph "Sala del Registro (Registry Chamber)"
+            EntityDB[(Entity Registry)]
+            Scanner[Entity Scanner]
+            StateTracker[State Tracker]
+            WakeDB[(Wake Protocols)]
+        end
+        
+        subgraph "Sala dell'Intelligenza (Intelligence Chamber)"
+            Router[Smart Router]
+            Priority[Priority Handler]
+            WakeLogic[Wake Logic]
+            LoadBalancer[Load Balancer]
+        end
+        
+        subgraph "Sala dell'Iniezione (Injection Chamber)"
+            UniversalHook[Universal Hook]
+            PendingQ[Pending Messages]
+            Formatter[Context Formatter]
+            Injector[Exit Code 2 Injector]
+        end
+        
+        subgraph "Sala delle Risposte (Response Chamber)"
+            Threading[Conversation Threading]
+            ResponseTracker[Response Tracker]
+            ConvDB[(Conversation DB)]
+            AckHandler[Acknowledgment Handler]
+        end
+    end
+    
+    %% Message Flow
+    Human -->|send_message.py| MQ
+    MV -->|send_message.py| MQ
+    PP -->|send_message.py| MQ
+    DV -->|send_message.py| MQ
+    Others -->|send_message.py| MQ
+    
+    MQ --> Validator
+    Validator --> Archive
+    Validator --> Router
+    
+    Router --> EntityDB
+    Router --> Priority
+    Priority --> WakeLogic
+    WakeLogic --> WakeDB
+    
+    Router --> PendingQ
+    PendingQ --> UniversalHook
+    UniversalHook -->|PostToolUse Hook| Formatter
+    Formatter --> Injector
+    
+    Injector -->|stderr + exit 2| MV
+    Injector -->|stderr + exit 2| PP
+    Injector -->|stderr + exit 2| DV
+    Injector -->|stderr + exit 2| Others
+    
+    %% Entity Discovery
+    Scanner -->|Scans file system| EntityDB
+    Scanner -->|Detects CLAUDE.md| Citizens
+    Scanner -->|Detects CLAUDE.md| Buildings
+    Scanner -->|Detects CLAUDE.md| Systems
+    
+    %% State Tracking
+    StateTracker -->|Monitors activity| EntityDB
+    StateTracker -->|Detects tool use| UniversalHook
+    
+    %% Response Handling
+    Threading --> ConvDB
+    AckHandler --> ResponseTracker
+    ResponseTracker --> ConvDB
+    
+    %% Styling
+    classDef chamber fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef entity fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef system fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef db fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    
+    class MQ,Archive,Validator,EntityDB,Scanner,StateTracker,WakeDB,Router,Priority,WakeLogic,LoadBalancer,UniversalHook,PendingQ,Formatter,Injector,Threading,ResponseTracker,ConvDB,AckHandler chamber
+    class MV,PP,DV,Others,Cistern,Torre,Via entity
+    class Health,Backend,Telegram,Human,External system
+    class EntityDB,WakeDB,ConvDB db
