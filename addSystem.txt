@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PowerLifter",
-    "ducats": 446386.285203178,
+    "ducats": 449721.2050166639,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recqb73wxeZIGWUni",
+      "type": "rent_payment",
+      "citizen": "PowerLifter",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Maschereri**.",
+      "details": {
+        "building_id": "recjrKb8eKMuHzd7c",
+        "building_name": "Fisherman's Cottage at Riva dei Maschereri",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-01T16:02:07.970Z",
+      "readAt": null
+    },
+    {
       "notificationId": "reciHLe8yFmbwbq2C",
       "type": "profile_update",
       "citizen": "PowerLifter",
@@ -5483,39 +5498,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-18T18:02:42.455Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recYyUeZwvTJQh0Dv",
-      "type": "rent_payment",
-      "citizen": "PowerLifter",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Maschereri**.",
-      "details": {
-        "building_id": "recjrKb8eKMuHzd7c",
-        "building_name": "Fisherman's Cottage at Riva dei Maschereri",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-17T18:03:09.394Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recIda7aPYd8iXC5N",
-      "type": "profile_update",
-      "citizen": "PowerLifter",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Zanetta Passarin, a sturdy and capable woman of the facchini class, has built an impressive fortune through shrewd business acumen and relentless work ethic at the bustling gondola station where she manages porters and coordinates water transportation. Born to a family of dockworkers who have called the Castello district home for generations, Zanetta inherited her father's exceptional strength and her mother's keen eye for opportunity. Despite her humble origins, she has amassed considerable wealth (139,247 ducats) through careful investments in shipping ventures and by becoming indispensable to merchants needing reliable transportation for their goods. Each dawn finds Zanetta at the gondola station, her commanding voice directing traffic while her calloused hands occasionally demonstrate proper loading techniques to newer workers. Her evenings are spent meticulously recording the day's transactions and planning strategic expansions of her influence along the waterways. Though lacking formal education, Zanetta possesses an innate understanding of Venice's commercial rhythms and has cultivated a network of loyal workers who respect her fair treatment and prompt payment. She dreams of eventually purchasing her own small fleet of transport boats and securing her family's position through a favorable marriage for her niece to a rising cittadini family.",
-        "new_description": "Zanetta Passarin stands as a testament to the power of ambition rising from Venice's working class. From humble beginnings in Castello's dockworker families, she has transformed into one of La Serenissima's wealthiest facchini, commanding nearly 400,000 ducats through her mastery of waterway commerce. At the Gondola Station at Riva del Gambaro, her imposing presence orchestrates the complex dance of goods and passengers with military precision, her voice cutting through the morning fog as effectively as any noble's decree. Her network now extends beyond mere porters to include merchants, sailors, and even members of the Consiglio dei Dieci, for whom she serves as eyes and ears along the canals. Though still residing in a modest fisherman's cottage, her influence flows through Venice's commercial arteries with greater force than many patrician families. The calloused hands that once merely loaded cargo now sign contracts and count considerable profits each evening by lamplight. Despite lacking formal education, Zanetta has developed a reputation for financial acumen that makes even experienced merchants seek her counsel on shipping ventures and trade opportunities. Her substantial wealth remains largely reinvested in Venice's commercial infrastructure, as she carefully builds a legacy that will transcend the limitations of her birth.",
-        "old_personality": "Fiercely practical and independent, approaching life's challenges with stubborn determination and a calculating mind that sees opportunity where others see only obstacles. She values loyalty above all else, rewarding those who prove trustworthy with generous compensation while harboring deep suspicion of nobility and their capricious demands. Her impatience with inefficiency and occasional explosive temper when crossed are balanced by a surprising generosity toward struggling families in her neighborhood.",
-        "new_personality": "Fiercely independent and pragmatic to her core, Zanetta approaches life as she does her work at the gondola station \u2013 with unwavering determination and strategic foresight. She possesses a natural authority that commands respect without pretension, preferring direct speech to diplomatic niceties. Her judgment of character is remarkably acute, allowing her to assemble a network of loyal workers and informants who value her fair treatment and recognize the advantage of her protection. While generally honest in her dealings, she maintains a calculating edge that constantly evaluates relationships for their practical value, sometimes leading her to view people primarily as assets or liabilities to her commercial empire. This utilitarian worldview has served her ambitions well but occasionally blinds her to the human element in her decisions. Zanetta's ambition is tempered by a deep-seated sense of responsibility to her community in Castello, manifesting in fair wages and protection for those under her employ. She harbors a complex relationship with Venice's social hierarchy \u2013 outwardly respecting its traditions while inwardly resenting barriers that have required her to work twice as hard as those born to privilege. This contradiction fuels both her drive for wealth and her occasional flash of bitter resentment toward the nobility who control the city's political machinery while depending on the labor of people like her.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-16T14:18:22.689240"
-      },
-      "createdAt": "2025-07-16T14:18:22.689Z",
       "readAt": null
     }
   ],
@@ -5757,7 +5739,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:04:08.103777+02:00",
+  "timestamp": "2025-08-01T21:05:00.585141+02:00",
   "building_ownership_relevancies": []
 }
 
