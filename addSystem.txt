@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PhotoWizard",
-    "ducats": 393958.26935014146,
+    "ducats": 395368.18916362734,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "reczxnQAW5Zvj6uFz",
+      "type": "rent_payment",
+      "citizen": "PhotoWizard",
+      "content": "\u2705 Rent Paid: You paid **1,360 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.",
+      "details": {
+        "building_id": "recFIsE7ytsKep1B4",
+        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
+        "rent_price": 1360,
+        "building_owner": "TopGlassmaker",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-01T16:00:36.865Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec7Wm9zQPIoiRBtp",
       "type": "profile_update",
       "citizen": "PhotoWizard",
@@ -5462,36 +5477,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-18T18:02:59.902Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reclIKrZzXjQoO0T8",
-      "type": "rent_payment",
-      "citizen": "PhotoWizard",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recqen5Hylv8KmYgZ**.",
-      "details": {
-        "building_id": "recqen5Hylv8KmYgZ",
-        "building_name": "recqen5Hylv8KmYgZ",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-17T18:03:30.920Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec17m4Of5chCdNwd",
-      "type": "rent_payment",
-      "citizen": "PhotoWizard",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recqen5Hylv8KmYgZ**.",
-      "details": {
-        "building_id": "recqen5Hylv8KmYgZ",
-        "building_name": "recqen5Hylv8KmYgZ",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-16T18:02:28.143Z",
       "readAt": null
     }
   ],
@@ -5733,7 +5718,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:02:48.782901+02:00",
+  "timestamp": "2025-08-01T21:03:38.444822+02:00",
   "building_ownership_relevancies": []
 }
 
