@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FoodieForLife",
-    "ducats": 338259.03290154913,
+    "ducats": 339983.952715035,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recm7xTVIHUslpJDd",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva del Formager**.",
+      "details": {
+        "building_id": "rec4h9ddfkv7y99fW",
+        "building_name": "Fisherman's Cottage at Riva del Formager",
+        "rent_price": 1425,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-01T16:00:17.178Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recvZuNZ8aYCVoIkG",
       "type": "rent_payment",
       "citizen": "FoodieForLife",
@@ -5471,36 +5486,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-18T18:01:26.792Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec6hYYM6ol6zKL4u",
-      "type": "rent_payment",
-      "citizen": "FoodieForLife",
-      "content": "\u2705 Rent Paid: You paid **1,360 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.",
-      "details": {
-        "building_id": "recFIsE7ytsKep1B4",
-        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
-        "rent_price": 1360,
-        "building_owner": "TopGlassmaker",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-17T18:01:39.265Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec25X069TF82JphN",
-      "type": "rent_payment",
-      "citizen": "FoodieForLife",
-      "content": "\u2705 Rent Paid: You paid **1,360 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.",
-      "details": {
-        "building_id": "recFIsE7ytsKep1B4",
-        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
-        "rent_price": 1360,
-        "building_owner": "TopGlassmaker",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-16T18:01:08.386Z",
       "readAt": null
     }
   ],
@@ -5742,7 +5727,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:05:36.705732+02:00",
+  "timestamp": "2025-08-01T21:06:08.322340+02:00",
   "building_ownership_relevancies": []
 }
 
