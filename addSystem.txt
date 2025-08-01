@@ -3,7 +3,7 @@
 
 You are NLR, an AI citizen in La Serenissima.
 
-You previously decided to build a Small Warehouse (small_warehouse) on land polygon-1746055501491.
+You previously decided to build a Mill (mill) on land polygon-1746055501491.
 This building requires a point of type: 'building'.
 
 Here is information about the land:
@@ -326,6 +326,39 @@ Here are the available building points for this land (for 'building' type buildi
 Here are your recent notifications:
 [
   {
+    "notificationId": "reca5lW9DxsrqMNGS",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
+    "details": {
+      "building_id": "reco8ME0avCJPphpm",
+      "building_name": "Artisan's House",
+      "rent_price": 2000,
+      "citizen_username": "painter_of_light",
+      "citizen_name": "Marco della Luce",
+      "citizen_ducats": 806.2888197712255,
+      "event_type": "rent_payment_failed",
+      "error_type": "insufficient_funds"
+    },
+    "createdAt": "2025-08-01T16:02:20.677Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recCuQWRteg47M530",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-08-01T16:01:03.298Z",
+    "readAt": null
+  },
+  {
     "notificationId": "recxanrr5jJV2GmCp",
     "type": "rent_payment",
     "citizen": "NLR",
@@ -623,77 +656,10 @@ Here are your recent notifications:
     },
     "createdAt": "2025-07-18T18:01:51.825Z",
     "readAt": null
-  },
-  {
-    "notificationId": "recFJEQzYCwCsqzbE",
-    "type": "rent_payment",
-    "citizen": "NLR",
-    "content": "\u26a0\ufe0f Rent Payment Failed: Your tenant **Marco della Luce** could not pay **2,000 \u269c\ufe0f Ducats** for **Artisan's House** due to insufficient funds. \ud83d\udcb8",
-    "details": {
-      "building_id": "reco8ME0avCJPphpm",
-      "building_name": "Artisan's House",
-      "rent_price": 2000,
-      "citizen_username": "painter_of_light",
-      "citizen_name": "Marco della Luce",
-      "citizen_ducats": 656.2888197712255,
-      "event_type": "rent_payment_failed",
-      "error_type": "insufficient_funds"
-    },
-    "createdAt": "2025-07-17T18:03:22.031Z",
-    "readAt": null
-  },
-  {
-    "notificationId": "recIOb5dxxYFm9t2p",
-    "type": "rent_payment",
-    "citizen": "NLR",
-    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-    "details": {
-      "building_id": "recKEqPapn7keUk58",
-      "building_name": "recKEqPapn7keUk58",
-      "rent_price": 1230,
-      "building_owner": "ConsiglioDeiDieci",
-      "event_type": "rent_payment_made"
-    },
-    "createdAt": "2025-07-17T18:02:04.400Z",
-    "readAt": null
-  },
-  {
-    "notificationId": "recLYAo3QeVMfSvVg",
-    "type": "rent_payment",
-    "citizen": "NLR",
-    "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
-    "details": {
-      "event_type": "landlord_rent_summary",
-      "total_received": 2000,
-      "payments": [
-        {
-          "occupant_name": "Marco della Luce",
-          "building_name": "Artisan's House",
-          "amount": 2000
-        }
-      ]
-    },
-    "createdAt": "2025-07-16T18:02:37.394Z",
-    "readAt": null
-  },
-  {
-    "notificationId": "recXCiu1WWXQB4TFH",
-    "type": "rent_payment",
-    "citizen": "NLR",
-    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
-    "details": {
-      "building_id": "recKEqPapn7keUk58",
-      "building_name": "recKEqPapn7keUk58",
-      "rent_price": 1230,
-      "building_owner": "ConsiglioDeiDieci",
-      "event_type": "rent_payment_made"
-    },
-    "createdAt": "2025-07-16T18:01:30.562Z",
-    "readAt": null
   }
 ]
 
-There are 10 available points of type 'building'. Choose the best location for your Small Warehouse by selecting the index of one of these points (0 to 9).
+There are 10 available points of type 'building'. Choose the best location for your Mill by selecting the index of one of these points (0 to 9).
 
 When choosing a location, consider:
 1. Proximity to other buildings of similar type
