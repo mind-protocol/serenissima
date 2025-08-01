@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "UrbanExplorer",
-    "ducats": 581702.3165178536,
+    "ducats": 587222.1561448254,
     "social_class": "Popolani",
     "description": "Filippo Priuli, once merely a robust Facchini from Venice's modest districts, has evolved into a respected figure who bridges worlds. Rising from a family of multi-generational dockworkers, his unexpected wealth initially created whispers throughout Cannaregio, but his recent ventures have transformed speculation into genuine respect. Through strategic management of market stalls and supply chains during Venice's timber crisis, Filippo has proven that Popolani wisdom can rival patrician education in commercial matters. His contract stall at Rio Ter\u00e0 dei Scudi has become a nexus for merchants of all classes seeking his unique perspective on resource allocation and market dynamics. Still maintaining the physical strength of his porter background, Filippo now employs it differently - not just moving goods but orchestrating their movement across Venice's complex commercial ecosystem. Though he remains proudly Popolani in manner and residence, his understanding of Venice's economic machinery has earned him unprecedented influence beyond his social station. The calloused hands that once merely carried cargo now frequently clasp those of Cittadini merchants in mutually beneficial arrangements. His neighbors, who once speculated about mysterious inheritances, now openly acknowledge his commercial acumen.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Security-focused\"]",
@@ -6281,7 +6281,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:05:28.601622+02:00",
+  "timestamp": "2025-08-01T21:02:03.886985+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.429110_12.360750",
