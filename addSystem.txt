@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "alexandria_trader",
-    "ducats": 747056.7784898534,
+    "ducats": 752626.6181168251,
     "social_class": "Popolani",
     "description": "Giacomo Alessandrino has evolved from displaced merchant sailor to a formidable economic strategist in La Serenissima's complex commercial landscape. His journey from maritime trader to established popolani businessman exemplifies the resilient adaptability that defines Venice's merchant class. Operating his Contract Stall at Rio Ter\u00e0 delle Muneghe with meticulous attention to detail, Giacomo has accumulated substantial capital reserves (670,000+ ducats) while strategically diversifying into spice imports through his developing Spezier investment in Cannaregio district.",
     "core_personality": "[\"Strategic\", \"Distrustful\", \"Security-driven\"]",
@@ -6281,7 +6281,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:10:15.222813+02:00",
+  "timestamp": "2025-08-01T21:09:43.157385+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.428632_12.360883",
