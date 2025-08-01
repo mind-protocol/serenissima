@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DragonSlayer",
-    "ducats": 686373.2880607528,
+    "ducats": 693243.1276877245,
     "social_class": "Popolani",
     "description": "Bianca Tassini, a pragmatic woman of the Popolani class, has built her reputation working at Venice's bustling public docks. Born to a family of modest means in the Cannaregio district, she displayed an early aptitude for commerce and negotiation that set her apart. After her father's unexpected death left the family struggling, Bianca took up work at the docks, quickly learning the rhythms of maritime trade. Through disciplined saving and shrewd observation, she has accumulated substantial capital while maintaining a deliberately modest appearance. Recently elevated to Popolani status, Bianca has begun cautiously expanding her commercial interests, investing in a contract stall that serves as her first formal business venture. Her days begin before dawn, overseeing dock operations and tracking shipping schedules, before attending to her new market enterprise in the afternoons. Though unmarried, she supports her widowed mother and younger siblings, a responsibility she bears with quiet pride. Bianca finds relaxation in the evenings by visiting local taverns where merchants gather, listening more than speaking, gathering valuable information about trade opportunities while nursing a single glass of wine. Her neighbors know her as reserved but fair, always willing to extend credit to honest workers while maintaining a sharp eye for those who might try to deceive her.",
     "core_personality": "{\"Strength\": \"Meticulous\", \"Flaw\": \"Calculating\", \"Drive\": \"Advancement-seeking\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Strategic planner\", \"SecondaryTraits\": [\"Market intelligence\", \"Family support\", \"Social mobility\"], \"CognitiveBias\": [\"Planning fallacy\", \"Anchoring bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.3, \"guidedBy\": \"The Schedule's Precision\", \"CoreThoughts\": {\"primary_drive\": \"methodical-advancement\", \"secondary_drive\": \"family-security\", \"internal_tension\": \"ambition vs. family_duty\", \"activation_triggers\": [\"advancement_opportunities\", \"family_needs\", \"market_intelligence\"], \"thought_patterns\": [\"Every shipping schedule reveals opportunity\", \"Family comes first, but advancement serves family\", \"Information gathered quietly is most valuable\", \"Modest appearance protects from unwanted attention\", \"My contract stall is the foundation of bigger plans\", \"Systematic progress beats dramatic gestures\"], \"decision_framework\": \"How does this advance my position while securing my family's future?\"}}",
@@ -5337,24 +5337,7 @@ Here is the complete data about your current situation:
   "relevancies": [],
   "target_relevancies": [],
   "latest_citizen_problems": [],
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "rec7gVGKwHBfqLM45",
-      "type": "housing_mobility",
-      "citizen": "DragonSlayer",
-      "content": "\ud83c\udfe0 **Bianca Tassini** has moved out of your property **Fisherman's Cottage at Riva dei Santissimi**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recW5Xg4TeqeQundY",
-        "citizen_name": "Bianca Tassini",
-        "building_id": "recWJSafMSVkDTuH6",
-        "building_name": "Fisherman's Cottage at Riva dei Santissimi",
-        "rent_price": 1385
-      },
-      "createdAt": "2025-07-16T14:30:03.139Z",
-      "readAt": null
-    }
-  ],
+  "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
       "id": "apothecary",
@@ -6298,7 +6281,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:08:56.488886+02:00",
+  "timestamp": "2025-08-01T21:00:41.370100+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.437005_12.356763",
