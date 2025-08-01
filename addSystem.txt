@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "GreenThumb",
-    "ducats": 469174.7368240427,
+    "ducats": 471534.65663752856,
     "social_class": "Facchini",
     "description": "Paola Cimenti has transformed from a humble dock worker's daughter into one of Venice's most astute facchini businesswomen, amassing over 448,000 ducats through her exceptional talent for medicinal herbs and strategic commercial partnerships. Working at the Apothecary on Calle dell'Artigiano, she has cultivated a reputation for extraordinary remedies that draw clientele from every Venetian social stratum. Her partnership with Matteo del Gondola on grain storage logistics has proven particularly lucrative, elevating her influence in Venice's commercial networks despite her modest origins.",
     "core_personality": "[\"Resourceful\", \"Calculating\", \"Security-driven\"]",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recnkhge3axbZJr40",
+      "type": "rent_payment",
+      "citizen": "GreenThumb",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta degli Ex-Voto**.",
+      "details": {
+        "building_id": "receRqJvMi5pGTfmS",
+        "building_name": "Fisherman's Cottage at Fondamenta degli Ex-Voto",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-01T16:01:51.135Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recWnPnzHHlndcWtn",
       "type": "rent_payment",
       "citizen": "GreenThumb",
@@ -5471,39 +5486,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-18T18:02:35.294Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rectwRrjFBYDNr1gK",
-      "type": "rent_payment",
-      "citizen": "GreenThumb",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta degli Ex-Voto**.",
-      "details": {
-        "building_id": "receRqJvMi5pGTfmS",
-        "building_name": "Fisherman's Cottage at Fondamenta degli Ex-Voto",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-17T18:02:53.162Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rect7AXHKCN57vZRy",
-      "type": "profile_update",
-      "citizen": "GreenThumb",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Paola Cimenti is a resourceful facchini woman who has established herself in Venice's bustling commercial world despite her humble origins. Born to a family of cargo porters who worked the docks for generations, Paola demonstrated early aptitude with plants and healing remedies learned from her grandmother. Through persistence and natural talent, she secured an apprenticeship at a local apothecary, where she now works preparing herbal remedies and medicinal concoctions. With her substantial savings of over 239,000 ducats\u2014amassed through frugal living and shrewd small investments\u2014Paola has begun expanding her influence by investing in warehousing to support Venice's trading networks. Though lacking formal education, she possesses extensive practical knowledge of medicinal herbs, their cultivation, and applications. Each morning begins before dawn as she tends her small garden of rare medicinal plants, then works long hours at the apothecary, where customers from all social classes seek her remedies for various ailments. Despite her significant wealth, she maintains a modest lifestyle, reinvesting her earnings while dreaming of establishing her own apothecary business that would serve Venetians of all social classes.",
-        "new_description": "Paola Cimenti has transformed from a humble dock worker's daughter into one of Venice's most astute facchini businesswomen, amassing over 430,000 ducats through her exceptional talent for medicinal herbs and strategic commercial partnerships. Working at the Apothecary on Calle dell'Artigiano, she has cultivated a reputation for extraordinary remedies that draw clientele from every Venetian social stratum. Her partnership with Matteo del Gondola on grain storage logistics has proven particularly lucrative, elevating her influence in Venice's commercial networks despite her modest origins.",
-        "old_personality": "Stubbornly practical and fiercely independent, measuring worth through honest labor and fair dealing rather than social standing. She possesses an instinctive talent for commerce wrapped in a blunt, no-nonsense exterior that conceals both her shrewdness and her genuine concern for her fellow workers. Despite her unexpected prosperity, she remains rooted in her class identity, taking pride in the essential role her profession plays in Venice's maritime empire.",
-        "new_personality": "Paola embodies practical resilience tempered with quiet ambition, approaching Venice's complex social hierarchies with a careful balance of deference and self-assured competence. Her extensive knowledge of medicinal plants serves as both livelihood and passion, while her shrewd financial instincts have allowed her to accumulate substantial wealth that she manages with characteristic prudence. Though increasingly influential in commercial circles, she maintains the unassuming demeanor typical of her facchini background, preferring to let her results speak rather than risk drawing unwanted attention through ostentation. This cautious approach extends to her business dealings, where she thoroughly evaluates potential investments before committing her hard-earned capital, as evidenced by her deliberate consideration of infrastructure investments despite her substantial financial reserves.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-16T14:19:48.297373"
-      },
-      "createdAt": "2025-07-16T14:19:48.297Z",
       "readAt": null
     }
   ],
@@ -5745,7 +5727,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:01:13.582574+02:00",
+  "timestamp": "2025-08-01T21:03:52.651656+02:00",
   "building_ownership_relevancies": []
 }
 
