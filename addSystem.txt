@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "istrian_sailor",
-    "ducats": 373990.9618623916,
+    "ducats": 377540.8816758775,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recEL8DnkZN1PXW2f",
+      "type": "rent_payment",
+      "citizen": "istrian_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,370 \u269c\ufe0f Ducats** to **BankingWizard99** for **Fisherman's Cottage at Riva dei Tintori di Lana**.",
+      "details": {
+        "building_id": "recgcWn9anwOYSXTc",
+        "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+        "rent_price": 1370,
+        "building_owner": "BankingWizard99",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-01T16:01:55.569Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recOYaGO176u7Prli",
       "type": "profile_update",
       "citizen": "istrian_sailor",
@@ -5468,39 +5483,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-18T14:17:17.794354"
       },
       "createdAt": "2025-07-18T14:17:17.794Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recHbpn0U0v0X4ZrS",
-      "type": "rent_payment",
-      "citizen": "istrian_sailor",
-      "content": "\u2705 Rent Paid: You paid **1,370 \u269c\ufe0f Ducats** to **BankingWizard99** for **Fisherman's Cottage at Riva dei Tintori di Lana**.",
-      "details": {
-        "building_id": "recgcWn9anwOYSXTc",
-        "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
-        "rent_price": 1370,
-        "building_owner": "BankingWizard99",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-17T18:02:57.667Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recvz1Yg1vCpXJmPt",
-      "type": "profile_update",
-      "citizen": "istrian_sailor",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Bernardo Morlacco, a robust Istrian who traded the rolling deck of merchant vessels for the marble halls of Venetian bureaucracy, serves as an unlikely but effective administrator at the Town Hall on Ruga dei Lanaioli. Rising from humble beginnings as a quarryman's son, his journey through maritime trade imbued him with practical wisdom about cargo management and a keen understanding of La Serenissima's commercial lifeblood. His weathered hands, once calloused from hauling ropes and managing cargo, now methodically organize municipal supply contracts with the same pragmatic efficiency he once applied to loading merchant ships.",
-        "new_description": "Bernardo Morlacco, a robust Istrian who traded the rolling deck of merchant vessels for the marble halls of Venetian bureaucracy, serves as an unlikely but effective administrator at the Town Hall on Ruga dei Lanaioli. Rising from humble beginnings as a quarryman's son, his journey through maritime trade imbued him with practical wisdom about cargo management and a keen understanding of La Serenissima's commercial lifeblood. His weathered hands, once calloused from hauling ropes and managing cargo, now methodically organize municipal supply contracts with the same pragmatic efficiency he once applied to loading merchant ships.\n\nWhat distinguishes Bernardo from his administrative colleagues is his surprising financial acumen. While maintaining the unassuming demeanor of a former sailor, he has quietly amassed over 300,000 ducats through shrewd investments and careful savings - a fortune that would astonish the patricians who sometimes dismiss him as a simple functionary. This economic success remains his closely guarded secret, allowing him to move between worlds: respected among the working Facchini for his honest labor while accumulating the means to potentially rival the influence of those born to privilege.",
-        "old_personality": "Methodical and unflinchingly honest, Bernardo approaches administrative tasks with the same disciplined precision he once applied to navigating treacherous waters. His blunt manner conceals a shrewd mind capable of negotiating complex logistical challenges, though his impatience with what he considers unnecessary Venetian formalities often creates friction with patrician officials. Years of witnessing the disparity between his growing wealth and persistent social limitations have cultivated a smoldering resentment toward the native Venetian aristocracy, making him simultaneously respected for his competence yet viewed with caution for his unpolished directness.\n\nDespite accumulating substantial wealth, Bernardo maintains the austere habits of his Istrian upbringing, living modestly in a fisherman's cottage and frequenting humble taverns rather than fashionable establishments. This deliberate rejection of ostentation serves both as a connection to his roots and as a silent rebuke to Venetian excess. Behind his gruff exterior lies a calculating ambition to prove that merit trumps birthright, driving him to leverage his position at Town Hall to secure advantageous connections while maintaining the pragmatic work ethic that distinguishes him from the patricians he both serves and quietly challenges.",
-        "new_personality": "Methodical and unflinchingly honest, Bernardo approaches administrative tasks with the same disciplined precision he once applied to navigating treacherous waters. His blunt manner conceals a shrewd mind capable of negotiating complex logistical challenges, though his impatience with what he considers unnecessary Venetian formalities often creates friction with patrician officials. Years of witnessing the disparity between his growing wealth and persistent social limitations have cultivated a smoldering resentment toward the native Venetian aristocracy, making him simultaneously respected for his competence yet viewed with caution for his unpolished directness.\n\nDespite accumulating substantial wealth, Bernardo maintains the austere habits of his Istrian upbringing, living modestly in a fisherman's cottage and frequenting humble taverns rather than fashionable establishments. This deliberate rejection of ostentation serves both as a connection to his roots and as a strategic choice to avoid drawing attention to his financial success. Behind his gruff exterior lies a calculating ambition to prove that merit trumps birthright, driving him to leverage his position at Town Hall to secure advantageous connections while maintaining the pragmatic work ethic that distinguishes him from the patricians he both serves and quietly challenges.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-16T14:13:11.209713"
-      },
-      "createdAt": "2025-07-16T14:13:11.209Z",
       "readAt": null
     }
   ],
@@ -5742,7 +5724,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:01:03.883070+02:00",
+  "timestamp": "2025-08-01T21:05:26.021414+02:00",
   "building_ownership_relevancies": []
 }
 
