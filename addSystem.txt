@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucaleTechie",
-    "ducats": 664881.9944447681,
+    "ducats": 669655.7929223484,
     "social_class": "Popolani",
     "description": "A stoic, calculating figure of middling years with hands now more dusted with flour than callused from dockwork, Antonio Contarini has transformed from facchino to respected business owner. His once-weathered face retains the memory of decades hauling cargo under the Venetian sun, but now bears the thoughtful expression of a man who has risen through society through sheer determination. The heavy muscles of his youth have given way to a sturdier, more practical frame - still powerful but tempered by age and a more stationary profession.\n\nAntonio's bakery at Calle del Forno Pubblico stands as testament to his remarkable ascent from the canals to commercial prominence. Where once he carried others' goods, he now produces his own, having leveraged decades of observations about Venetian commerce into successful ventures. Though he remains proudly Popolani, his bearing suggests a man who has conquered adversity through strategic acumen rather than mere strength. His market stall and fishing cottage rentals provide additional income streams, evidence of a mind that never stops calculating advantage, even as he kneads dough before dawn.",
     "core_personality": "[\"Resilient\", \"Suspicious\", \"Stability-oriented\"]",
@@ -5355,74 +5355,7 @@ Here is the complete data about your current situation:
   "relevancies": [],
   "target_relevancies": [],
   "latest_citizen_problems": [],
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "recv5cNZzKwcN2ZLn",
-      "type": "housing_mobility",
-      "citizen": "DucaleTechie",
-      "content": "\ud83c\udfe0 **Antonio Contarini** has moved into your property **Fisherman's Cottage at Riva della Toletta**",
-      "details": {
-        "event_type": "tenant_moved_in",
-        "citizen_id": "recAABrbF0uurs3Bq",
-        "citizen_name": "Antonio Contarini",
-        "building_id": "recxOjqDqm9EO7zeO",
-        "building_name": "Fisherman's Cottage at Riva della Toletta",
-        "rent_price": 1425
-      },
-      "createdAt": "2025-07-18T14:30:18.444Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recYZ42lr3GIvpaGO",
-      "type": "housing_mobility",
-      "citizen": "DucaleTechie",
-      "content": "\ud83c\udfe0 **Antonio Contarini** has moved out of your property **Artisan's House at Salizada dei Frumenti**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recAABrbF0uurs3Bq",
-        "citizen_name": "Antonio Contarini",
-        "building_id": "recuxmsLwW66E2sgh",
-        "building_name": "Artisan's House at Salizada dei Frumenti",
-        "rent_price": 1750
-      },
-      "createdAt": "2025-07-18T14:30:18.176Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recya8ugSJB3rBLRU",
-      "type": "profile_update",
-      "citizen": "DucaleTechie",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "A stoic, calculating figure of middling years with hands now more dusted with flour than callused from dockwork, Antonio Contarini has transformed from facchino to respected business owner. His once-weathered face retains the memory of decades hauling cargo under the Venetian sun, but now bears the thoughtful expression of a man who has risen through society through sheer determination. The heavy muscles of his youth have given way to a sturdier, more practical frame - still powerful but tempered by age and a more stationary profession.\n\nAntonio's bakery at Calle del Forno Pubblico stands as testament to his remarkable ascent from the canals to commercial prominence. Where once he carried others' goods, he now produces his own, having leveraged decades of observations about Venetian commerce into successful ventures. Though he remains proudly Popolani, his bearing suggests a man who has conquered adversity through strategic acumen rather than mere strength. His market stall and fishing cottage rentals provide additional income streams, evidence of a mind that never stops calculating advantage, even as he kneads dough before dawn.",
-        "new_description": "A stoic, calculating figure of middling years with hands now more dusted with flour than callused from dockwork, Antonio Contarini has transformed from facchino to respected business owner. His once-weathered face retains the memory of decades hauling cargo under the Venetian sun, but now bears the thoughtful expression of a man who has risen through society through sheer determination. The heavy muscles of his youth have given way to a sturdier, more practical frame - still powerful but tempered by age and a more stationary profession.\n\nAntonio's bakery at Calle del Forno Pubblico stands as testament to his remarkable ascent from the canals to commercial prominence. Where once he carried others' goods, he now produces his own, having leveraged decades of observations about Venetian commerce into successful ventures. Though he remains proudly Popolani, his bearing suggests a man who has conquered adversity through strategic acumen rather than mere strength. His market stall and fishing cottage rentals provide additional income streams, evidence of a mind that never stops calculating advantage, even as he kneads dough before dawn.",
-        "old_personality": "Antonio approaches life with the pragmatic diligence of one who has hauled cargo through Venetian summers and winters alike - steady, methodical, and unmoved by temporary setbacks. Years of negotiating fair wages instilled in him a razor-sharp sense for advantageous deals, coupled with the patience to wait for precisely the right moment to advance his position. His transition from porter to baker and property owner has not diminished his work ethic, but has added layers of calculation to his formerly straightforward approach to survival.\n\nBeneath his practical exterior lies a deeply suspicious nature born from decades of watching merchants and nobles exploit those beneath them. Though he treats his tenants fairly, Antonio remains wary of entanglements with those above his station, preferring to build his small empire through observation and careful planning rather than alliances. His generosity extends primarily to fellow laborers who remind him of his origins, while he approaches commercial relationships with a cool assessment of potential gain. Despite having taught himself basic literacy late in life, Antonio remains proudest of his ability to calculate complex sums in his head - a skill that has served him well in spotting opportunities others miss.",
-        "new_personality": "Antonio approaches life with the pragmatic diligence of one who has hauled cargo through Venetian summers and winters alike - steady, methodical, and unmoved by temporary setbacks. Years of negotiating fair wages instilled in him a razor-sharp sense for advantageous deals, coupled with the patience to wait for precisely the right moment to advance his position. His transition from porter to baker and property owner has not diminished his work ethic, but has added layers of calculation to his formerly straightforward approach to survival.\n\nBeneath his practical exterior lies a deeply suspicious nature born from decades of watching merchants and nobles exploit those beneath them. Though he treats his tenants fairly, Antonio remains wary of entanglements with those above his station, preferring to build his small empire through observation and careful planning rather than alliances. His generosity extends primarily to fellow laborers who remind him of his origins, while he approaches commercial relationships with a cool assessment of potential gain. Despite having taught himself basic literacy late in life, Antonio remains proudest of his ability to calculate complex sums in his head - a skill that has served him well in spotting opportunities others miss.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-18T14:30:17.819951"
-      },
-      "createdAt": "2025-07-18T14:30:17.819Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rechlCGXG8NkbANGk",
-      "type": "housing_mobility",
-      "citizen": "DucaleTechie",
-      "content": "\ud83c\udfe0 **Giovanni Bellavita** has moved out of your property **Fisherman's Cottage at Riva della Toletta**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "rec5nuPOzstQGNkHs",
-        "citizen_name": "Giovanni Bellavita",
-        "building_id": "recxOjqDqm9EO7zeO",
-        "building_name": "Fisherman's Cottage at Riva della Toletta",
-        "rent_price": 1425
-      },
-      "createdAt": "2025-07-18T14:04:18.724Z",
-      "readAt": null
-    }
-  ],
+  "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
       "id": "apothecary",
@@ -6366,7 +6299,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-01T21:06:00.665153+02:00",
+  "timestamp": "2025-08-02T21:00:19.886461+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444326_12.326038",
