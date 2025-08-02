@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "stone_hauler",
-    "ducats": 280239.8557327319,
+    "ducats": 284166.7549715221,
     "social_class": "Facchini",
     "description": "Beppo Tagliapietra's journey from humble stoneworker to respected dockmaster exemplifies the Venetian spirit of industrious transformation. Once hauling stone through narrow calli, he built his reputation on reliability and an uncanny ability to navigate both the physical and social topography of La Serenissima. His years of managing cargo transfers at the Public Dock at Riva delle Assi have honed his instincts for maximizing efficiency while minimizing risk, making him an indispensable figure in Venice's commercial infrastructure.\n\nThough his calloused hands and weathered face still mark him as facchini by birth, his substantial savings of nearly 220,000 ducats reveal the fruits of decades of disciplined labor and shrewd management. Beppo's profound understanding of Venice's commercial rhythms has transformed him from mere laborer to a respected orchestrator of the Republic's vital supply chains, though he remains wary of the patrician class who benefit most from his expertise.",
     "core_personality": "[\"Resourceful\", \"Paranoid\", \"Security-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-01T21:03:11.456494+02:00",
+  "timestamp": "2025-08-02T21:03:12.065405+02:00",
   "building_ownership_relevancies": []
 }
 
