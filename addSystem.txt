@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "GlassMaster1503",
-    "ducats": 253727.98515625918,
+    "ducats": 256474.88439504936,
     "social_class": "Facchini",
     "description": "Giacomo Albrizzi stands as a testament to calculated ambition within Venice's rigid social hierarchy. Once merely another facchini hauling cargo along crowded docks, he now presides over a thriving Contract Stall at Ruga dei Conciapelli, where his unparalleled skill in connecting the right merchants with reliable labor has earned him substantial wealth and growing influence. Though his weathered features and calloused hands betray his humble origins, Giacomo's sharp gaze reveals a mind constantly evaluating opportunities beyond his current station. His remarkable ability to recall precise cargo details, negotiate fair rates, and anticipate market fluctuations has transformed simple porter coordination into a sophisticated brokerage operation that increasingly attracts attention from mid-tier merchants and even occasional patrician traders seeking efficient handling of their goods.While maintaining his roots among the working class of Venice, Giacomo has leveraged his substantial savings of nearly 210,000 ducats to secure rental property and expand his network of contacts throughout the commercial districts. His operation now extends beyond mere physical labor arrangements to include complex shipping contracts, specialty cargo handling, and discreet information brokering - a natural evolution of his position at the crossroads of Venice's commercial currents. Despite his rising prosperity, he maintains the practical habits and straightforward manner of his upbringing, recognizing that his strength lies in bridging the gap between Venice's laboring class and its merchant elite rather than abandoning his origins.",
     "core_personality": "[\"Resourceful\", \"Distrustful\", \"Legacy-driven\"]",
@@ -5555,7 +5555,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-01T21:03:00.140481+02:00",
+  "timestamp": "2025-08-02T21:08:08.513735+02:00",
   "building_ownership_relevancies": []
 }
 
