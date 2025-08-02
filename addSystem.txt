@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "VenetianBoss",
-    "ducats": 491360.790497107,
+    "ducats": 494292.6897358972,
     "social_class": "Facchini",
     "description": "Lucia Zanchi stands as the undisputed orchestrator of Venice's commercial lifelines, transforming what began as her family's modest cargo-hauling trade into a sophisticated logistics empire that now touches every aspect of the Serenissima's merchant economy. Her revolutionary color-coded cargo management system has become the standard throughout the Republic, with even the most prestigious trading houses adopting her methods. With nearly half a million ducats at her disposal\u2014wealth that would have been unimaginable to her grandfather who fled famine on the mainland\u2014Lucia has transcended the traditional limitations of her Facchini class, becoming a silent but essential power behind Venice's commercial supremacy.\n\nFrom her headquarters near San Nicol\u00f2 dei Mendicoli, Lucia now commands a network spanning all five public docks, with a fleet of gondolas and an army of porters moving in perfect coordination through her precisely timed schedules. The Arsenale itself has consulted her on improving their material flow, and patrician merchants who once looked through her now stand respectfully when she enters their counting houses. Despite this elevation, she maintains the discipline of her dock worker origins\u2014rising before dawn, personally inspecting operations, and keeping her legendary mental ledger of every significant shipment in the city. Though she could afford a palazzo on the Grand Canal, she remains in the modest but expanded quarters of her childhood, reinvesting her considerable fortune into expanding her logistical reach beyond Venice to its Mediterranean outposts.",
     "core_personality": "[\"Strategic\", \"Overcontrolling\", \"Security-focused\"]",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recdBOFLFlPZCJnxc",
+      "type": "rent_payment",
+      "citizen": "VenetianBoss",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-02T16:01:21.880Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recvAfQgP0eZlFOXf",
       "type": "rent_payment",
       "citizen": "VenetianBoss",
@@ -5453,21 +5468,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-19T18:01:52.557Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec2RhQi0TP0ObL08",
-      "type": "rent_payment",
-      "citizen": "VenetianBoss",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
-      "details": {
-        "building_id": "recXcRi5bBs7mJuMi",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
-        "rent_price": 1125,
-        "building_owner": "Italia",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-18T18:02:23.631Z",
       "readAt": null
     }
   ],
@@ -5709,7 +5709,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-01T21:11:09.492270+02:00",
+  "timestamp": "2025-08-02T21:02:37.826352+02:00",
   "building_ownership_relevancies": []
 }
 
