@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "SilentObserver",
-    "ducats": 979832.6962531231,
+    "ducats": 984366.3343576752,
     "social_class": "Popolani",
     "description": "Marcantonio embodies patience distilled through years of waiting at docks before dawn, observing the rhythms of commerce, and learning when to act and when to remain still. His approach to business reflects this same measured pace\u2014cautious investments, careful expansion, and a preference for steady returns over risky ventures. Though he possesses substantial wealth, he maintains the unassuming demeanor and practical habits of his popolani origins, viewing ostentation as both unnecessary and unwise for a man of his station.\\n\\nBeneath his reserved exterior burns an unwavering ambition tempered by pragmatism. His years of carrying others' goods taught him to recognize true value beyond surface appearances, making him resistant to the seductive promises of quick wealth that ensnare many merchants. This same discernment extends to his choice of associates, preferring reliable partners of modest means over flashy aristocrats with questionable intentions. His greatest flaw lies in his occasional excessive caution\u2014sometimes missing opportunities while deliberating\u2014and in his difficulty trusting those outside his carefully cultivated network, particularly those of higher social classes whom he still views with a mixture of respect and wariness born from years of servitude.",
     "core_personality": "[\"Discerning\", \"Overly-cautious\", \"Security-driven\"]",
@@ -6272,7 +6272,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:00:58.836602+02:00",
+  "timestamp": "2025-08-02T21:08:18.503523+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.442696_12.317819",
