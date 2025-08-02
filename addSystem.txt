@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "adriatic_captain",
-    "ducats": 711123.7998160617,
+    "ducats": 722787.4379206138,
     "social_class": "Popolani",
     "description": "Meticulous and calculating, Stefano approaches each venture with the precision of a navigator plotting a course through treacherous waters. His years commanding ships instilled a disciplined patience that serves him well in his current enterprises\u2014whether measuring ingredients for the perfect loaf or analyzing property investments in Cannaregio. This methodical nature extends to his personal habits, as he rises before dawn like clockwork, maintains immaculate ledgers of all transactions, and carefully cultivates relationships with potential allies among both the Popolani and more influential citizens.Beneath his practical exterior lies a proud man struggling with his reduced circumstances, manifesting in occasional flashes of arrogance when his expertise is questioned. This pride drives both his greatest strengths and most significant weaknesses\u2014fueling his determination to rebuild his fortune while sometimes blinding him to opportunities that appear beneath his perceived station. Nevertheless, Stefano's adaptive resilience has allowed him to transform what others might see as setbacks into strategic repositioning, embodying the Venetian merchant's capacity to find opportunity in changing tides.",
     "core_personality": "[\"Strategically Patient\", \"Prideful\", \"Restoration-driven\"]",
@@ -5347,6 +5347,44 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recE4cKHooogGgKzP",
+      "type": "rent_payment",
+      "citizen": "adriatic_captain",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,425 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,425 \u269c\ufe0f** from **Lorenzo Bellavita** for **Fisherman's Cottage at Fondamenta dei Dorsoduranti**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1425,
+        "payments": [
+          {
+            "occupant_name": "Lorenzo Bellavita",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Dorsoduranti",
+            "amount": 1425
+          }
+        ]
+      },
+      "createdAt": "2025-08-02T16:02:21.936Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recABlDSHxqly7jCd",
+      "type": "rent_payment",
+      "citizen": "adriatic_captain",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,425 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,425 \u269c\ufe0f** from **Lorenzo Bellavita** for **Fisherman's Cottage at Fondamenta dei Dorsoduranti**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1425,
+        "payments": [
+          {
+            "occupant_name": "Lorenzo Bellavita",
+            "building_name": "Fisherman's Cottage at Fondamenta dei Dorsoduranti",
+            "amount": 1425
+          }
+        ]
+      },
+      "createdAt": "2025-08-01T16:02:34.164Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recTRjRC9edhSsKYq",
       "type": "rent_payment",
       "citizen": "adriatic_captain",
@@ -5496,63 +5534,6 @@ Here is the complete data about your current situation:
         ]
       },
       "createdAt": "2025-07-19T18:02:35.806Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reczdBqlZtXlUzAiV",
-      "type": "rent_payment",
-      "citizen": "adriatic_captain",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,425 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,425 \u269c\ufe0f** from **Lorenzo Bellavita** for **Fisherman's Cottage at Fondamenta dei Dorsoduranti**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 1425,
-        "payments": [
-          {
-            "occupant_name": "Lorenzo Bellavita",
-            "building_name": "Fisherman's Cottage at Fondamenta dei Dorsoduranti",
-            "amount": 1425
-          }
-        ]
-      },
-      "createdAt": "2025-07-18T18:03:04.135Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recWw4BOcqTbVVnMb",
-      "type": "rent_payment",
-      "citizen": "adriatic_captain",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,425 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,425 \u269c\ufe0f** from **Lorenzo Bellavita** for **Fisherman's Cottage at Fondamenta dei Dorsoduranti**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 1425,
-        "payments": [
-          {
-            "occupant_name": "Lorenzo Bellavita",
-            "building_name": "Fisherman's Cottage at Fondamenta dei Dorsoduranti",
-            "amount": 1425
-          }
-        ]
-      },
-      "createdAt": "2025-07-17T18:03:44.553Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recP3VNQcjGyan1xI",
-      "type": "rent_payment",
-      "citizen": "adriatic_captain",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,425 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,425 \u269c\ufe0f** from **Lorenzo Bellavita** for **Fisherman's Cottage at Fondamenta dei Dorsoduranti**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 1425,
-        "payments": [
-          {
-            "occupant_name": "Lorenzo Bellavita",
-            "building_name": "Fisherman's Cottage at Fondamenta dei Dorsoduranti",
-            "amount": 1425
-          }
-        ]
-      },
-      "createdAt": "2025-07-16T18:02:36.520Z",
       "readAt": null
     }
   ],
@@ -6499,7 +6480,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-07-31T21:01:47.246758+02:00",
+  "timestamp": "2025-08-02T21:08:04.016252+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.439843_12.320672",
