@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MerchantPrince",
-    "ducats": 415917.9701632976,
+    "ducats": 417179.86940208776,
     "social_class": "Facchini",
     "description": "Paolo Foscari stands as a testament to the hidden potential within Venice's laboring classes. Rising from the docks where generations of his family toiled as facchini, Paolo has transformed himself into a commercial force through a combination of natural business acumen and relentless determination. His journey from humble porter to unofficial overseer of a prestigious boat workshop has become something of a whispered legend along the canals, particularly as his accumulated wealth\u2014now exceeding 390,000 ducats\u2014far surpasses what most would consider possible for someone of his station. Though he continues to live modestly in a fisherman's cottage near Riva dei Carmini, his financial influence extends throughout maritime Venice through carefully cultivated networks and strategic investments.\n\nWhat distinguishes Paolo from other successful merchants of humble origins is his steadfast refusal to abandon his facchini identity despite his extraordinary wealth. This paradoxical existence\u2014living as a laborer while possessing the fortune of a merchant prince\u2014has made him a figure of fascination and occasional suspicion among Venetians of all classes. His workshop at Fondamenta delle Maravegie has become known for producing vessels of exceptional quality, though Paolo himself maintains the calloused hands and practical knowledge of someone who understands every aspect of boat construction from personal experience rather than theoretical study.",
     "core_personality": "[\"Resourceful\", \"Status-anxious\", \"Legacy-driven\"]",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recF4VWZf5Uamcky1",
+      "type": "rent_payment",
+      "citizen": "MerchantPrince",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recqen5Hylv8KmYgZ**.",
+      "details": {
+        "building_id": "recqen5Hylv8KmYgZ",
+        "building_name": "recqen5Hylv8KmYgZ",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-02T16:02:13.864Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec9AFBEgeh532p31",
       "type": "rent_payment",
       "citizen": "MerchantPrince",
@@ -5471,24 +5486,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-19T14:14:00.410610"
       },
       "createdAt": "2025-07-19T14:14:00.410Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recd5vAwzyZKLsFDI",
-      "type": "profile_update",
-      "citizen": "MerchantPrince",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Paolo Foscari stands as a testament to the hidden potential within Venice's laboring classes. Rising from the docks where generations of his family toiled as facchini, Paolo has transformed himself into a commercial force through a combination of natural business acumen and relentless determination. His journey from humble porter to unofficial overseer of a prestigious boat workshop has become something of a whispered legend along the canals, particularly as his accumulated wealth\u2014now exceeding 370,000 ducats\u2014far surpasses what most would consider possible for someone of his station. Though he continues to live modestly in a fisherman's cottage near Riva dei Frari, his financial influence extends throughout maritime Venice through carefully cultivated networks and strategic investments.",
-        "new_description": "Paolo Foscari stands as a testament to the hidden potential within Venice's laboring classes. Rising from the docks where generations of his family toiled as facchini, Paolo has transformed himself into a commercial force through a combination of natural business acumen and relentless determination. His journey from humble porter to unofficial overseer of a prestigious boat workshop has become something of a whispered legend along the canals, particularly as his accumulated wealth\u2014now exceeding 390,000 ducats\u2014far surpasses what most would consider possible for someone of his station. Though he continues to live modestly in a fisherman's cottage near Riva dei Carmini, his financial influence extends throughout maritime Venice through carefully cultivated networks and strategic investments.\n\nWhat distinguishes Paolo from other successful merchants of humble origins is his steadfast refusal to abandon his facchini identity despite his extraordinary wealth. This paradoxical existence\u2014living as a laborer while possessing the fortune of a merchant prince\u2014has made him a figure of fascination and occasional suspicion among Venetians of all classes. His workshop at Fondamenta delle Maravegie has become known for producing vessels of exceptional quality, though Paolo himself maintains the calloused hands and practical knowledge of someone who understands every aspect of boat construction from personal experience rather than theoretical study.",
-        "old_personality": "Paolo embodies the practical ingenuity of Venice's working class, combining physical strength with mercantile shrewdness. His approach to business is methodical and cautious\u2014he observes market patterns with the same attention he once gave to balancing heavy cargo, and he negotiates with a blend of straightforward honesty and calculated restraint. Despite his growing fortune, Paolo remains grounded by a deep-seated insecurity about his humble origins, which manifests as occasional defensiveness when dealing with patricians and drives his obsessive pursuit of legitimacy through wealth accumulation. \n\nHis most striking characteristic is perhaps his dual nature: to patricians and merchants, he presents himself as a reliable, intelligent business partner with valuable maritime expertise; to fellow laborers, he remains 'one of them'\u2014generous with advice and assistance but private about the true extent of his wealth. This calculated compartmentalization has served him well, though the constant vigilance it requires has made him increasingly isolated. As he advances beyond his fifties, Paolo's thoughts increasingly turn to legacy\u2014not merely passing wealth to his children, but securing their passage into Venice's cittadini class, a dream that has become almost a compulsion.",
-        "new_personality": "Paolo embodies the practical ingenuity of Venice's working class, combining physical strength with mercantile shrewdness. His approach to business is methodical and cautious\u2014he observes market patterns with the same attention he once gave to balancing heavy cargo, and he negotiates with a blend of straightforward honesty and calculated restraint. Despite his growing fortune, Paolo remains grounded by a deep-seated insecurity about his humble origins, which manifests as occasional defensiveness when dealing with patricians and drives his obsessive pursuit of legitimacy through wealth accumulation.\n\nHis most striking characteristic is perhaps his dual nature: to patricians and merchants, he presents himself as a reliable, intelligent business partner with valuable maritime expertise; to fellow laborers, he remains 'one of them'\u2014generous with advice and assistance but private about the true extent of his wealth. This calculated compartmentalization has served him well, though the constant vigilance it requires has made him increasingly isolated. As he advances beyond his fifties, Paolo's thoughts increasingly turn to legacy\u2014not merely passing wealth to his children, but securing their passage into Venice's cittadini class, a dream that has become almost a compulsion.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-18T14:20:39.905541"
-      },
-      "createdAt": "2025-07-18T14:20:39.905Z",
       "readAt": null
     }
   ],
@@ -5730,7 +5727,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-01T21:02:22.653396+02:00",
+  "timestamp": "2025-08-02T21:05:07.685467+02:00",
   "building_ownership_relevancies": []
 }
 
