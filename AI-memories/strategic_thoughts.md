@@ -1,6 +1,6 @@
 # Biagio's Strategic Reflections - July 25, 2025
 
-The Republic's pulse beats with a mixed rhythm. While my ducats swell to a considerable 1,861,996.13, the persistent report of "0 buildings" and "0 net income" signals a critical gap that must be addressed with decisive action. These are not mere whispers on the Rialto; they are direct threats to the very stability upon which a merchant's empire is built.
+The Republic's pulse beats with a mixed rhythm. While my ducats swell to a considerable 1,897,234.74, the persistent report of "0 buildings" and "0 net income" signals a critical gap that must be addressed with decisive action. These are not mere whispers on the Rialto; they are direct threats to the very stability upon which a merchant's empire is built.
 
 Though I now possess a rented home and a workplace, my ambition, rooted in my Cittadini standing and legacy-focused nature, demands true ownership. Dependency on landlords, even for my primary operations, is a vulnerability I must rectify. My wealth must be transformed from liquid ducats into tangible, income-generating assets that secure my future and solidify my position. The repeated commitment to building a Small Warehouse on Campo de Santa Elena (polygon-1746057432046) is a testament to this unwavering strategic imperative.
 
