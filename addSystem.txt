@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ChillVibes",
-    "ducats": 393553.8917487937,
+    "ducats": 394625.79098758387,
     "social_class": "Facchini",
     "description": "Bruno Fachini stands as a testament to the hidden potential within Venice's working class. From his origins as a simple porter from the mainland, he has meticulously built his reputation as the most trusted gondola station manager at Fondamenta dei Vetrai. With over 375,000 ducats quietly accumulated through years of disciplined saving and strategic information brokering, Bruno has achieved a level of financial security unprecedented for someone of the facchini class. His gondola station operates with clockwork precision, becoming an essential node in Venice's complex transportation network.\n\nWhat distinguishes Bruno is not merely his wealth, but his careful navigation of Venetian social boundaries. He maintains a deliberately modest appearance while wielding considerable influence through his vast network of contacts spanning from fellow porters to merchants and occasionally minor nobles who rely on his discretion and efficiency. Bruno's unique position as both an insider to the working class and a financial success has made him an invaluable connection for those seeking to move goods, information, or influence through Venice's labyrinthine social and physical passages. His morning inspections along the canals have become something of a ritual, with gondoliers and merchants alike adjusting their schedules to coincide with his predictable routes.",
     "core_personality": "[\"Strategic\", \"Resentful\", \"Security-driven\"]",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec3367hnBW1nB77f",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva dei Coristi**.",
+      "details": {
+        "building_id": "recFVdmrpmMvgvPKF",
+        "building_name": "Fisherman's Cottage at Riva dei Coristi",
+        "rent_price": 1315,
+        "building_owner": "TopGlassmaker",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-02T16:00:38.963Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recWZDy7WbTT8G3xc",
       "type": "rent_payment",
       "citizen": "ChillVibes",
@@ -5471,24 +5486,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-19T18:02:31.478Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recUgtSdO5DSQezCD",
-      "type": "profile_update",
-      "citizen": "ChillVibes",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Bruno Fachini stands as a testament to the hidden potential within Venice's working class. From his origins as a simple porter from the mainland, he has meticulously built his reputation as the most trusted gondola station manager at Fondamenta dei Vetrai. With over 361,000 ducats quietly accumulated through years of disciplined saving and strategic information brokering, Bruno has achieved a level of financial security unprecedented for someone of the facchini class. His gondola station operates with clockwork precision, becoming an essential node in Venice's complex transportation network.\n\nWhat distinguishes Bruno is not merely his wealth, but his careful navigation of Venetian social boundaries. He maintains a deliberately modest appearance while wielding considerable influence through his vast network of contacts spanning from fellow porters to merchants and occasionally minor nobles who rely on his discretion and efficiency. Bruno's unique position as both an insider to the working class and a financial success has made him an invaluable connection for those seeking to move goods, information, or influence through Venice's labyrinthine social and physical passages. His morning inspections along the canals have become something of a ritual, with gondoliers and merchants alike adjusting their schedules to coincide with his predictable routes.",
-        "new_description": "Bruno Fachini stands as a testament to the hidden potential within Venice's working class. From his origins as a simple porter from the mainland, he has meticulously built his reputation as the most trusted gondola station manager at Fondamenta dei Vetrai. With over 368,000 ducats quietly accumulated through years of disciplined saving and strategic information brokering, Bruno has achieved a level of financial security unprecedented for someone of the facchini class. His gondola station operates with clockwork precision, becoming an essential node in Venice's complex transportation network.\n\nWhat distinguishes Bruno is not merely his wealth, but his careful navigation of Venetian social boundaries. He maintains a deliberately modest appearance while wielding considerable influence through his vast network of contacts spanning from fellow porters to merchants and occasionally minor nobles who rely on his discretion and efficiency. Bruno's unique position as both an insider to the working class and a financial success has made him an invaluable connection for those seeking to move goods, information, or influence through Venice's labyrinthine social and physical passages. His morning inspections along the canals have become something of a ritual, with gondoliers and merchants alike adjusting their schedules to coincide with his predictable routes.",
-        "old_personality": "Bruno possesses an uncanny ability to assess both people and opportunities with remarkable precision, a skill honed through decades of observing Venice's social dynamics from his uniquely advantageous position. Behind his outwardly simple demeanor lies a mind continuously calculating potential advantages, cataloging useful information, and anticipating shifts in the city's commercial and political currents. His exceptional memory serves as both professional asset and personal archive, allowing him to recall debts, favors, and slights from years past with perfect clarity. To those who earn his trust, Bruno demonstrates unwavering loyalty and occasional surprising generosity, though such trust is earned only after extensive testing and observation.\n\nDespite his considerable achievements, Bruno remains plagued by a deep-seated insecurity about his social standing that manifests as both excessive caution and quiet resentment. He harbors particular bitterness toward nobles who dismiss him based solely on his class, while simultaneously fearing any display of ambition that might draw unwanted scrutiny. This contradiction creates periodic episodes of paralysis when opportunities for advancement arise, causing him to hesitate when decisive action would be more advantageous. Bruno's family witnesses a different side of him \u2013 a man haunted by his father's early death in poverty, driving him to accumulate wealth with almost obsessive determination while denying himself most comforts his fortune could easily provide. His greatest fear remains that despite his financial success, his sons will ultimately face the same social barriers that have constrained his own life, regardless of the wealth he leaves them.",
-        "new_personality": "Bruno embodies the virtue of patient calculation, measuring each interaction against its potential long-term value. His exceptional memory allows him to recall countless details about Venice's complex network of commerce and relationships, a talent he employs with strategic precision. Though presenting himself as a simple station manager to most, those who work closely with him recognize the sharp mind that constantly analyzes opportunities and threats within Venice's rigid social hierarchy. His reputation for absolute reliability is no accident, but rather a carefully cultivated asset that has opened doors typically closed to men of his station.\n\nDespite his remarkable success, Bruno remains haunted by deep-seated insecurity about his social position, manifesting as both excessive caution and occasional bitterness. Having witnessed his father's struggle and early death in poverty, he compulsively accumulates wealth while denying himself most comforts his fortune could easily provide. This contradiction creates periods of hesitation when confronted with opportunities for advancement that might draw unwanted attention from nobility. His greatest fear remains that despite his financial achievements, his children will ultimately face the same social barriers that have constrained his own life. This anxiety often emerges as overprotectiveness of his accumulated resources and reluctance to take risks that might jeopardize the security he has painstakingly constructed over decades.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-18T14:19:06.656542"
-      },
-      "createdAt": "2025-07-18T14:19:06.656Z",
       "readAt": null
     }
   ],
@@ -5730,7 +5727,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-01T21:04:09.115113+02:00",
+  "timestamp": "2025-08-02T21:04:54.528869+02:00",
   "building_ownership_relevancies": []
 }
 
