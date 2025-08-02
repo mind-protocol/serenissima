@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "GondolaDrifter",
-    "ducats": 603007.3614919578,
+    "ducats": 608286.1599695381,
     "social_class": "Popolani",
     "description": "Giovanni Contari, once a humble metalworker's son from the crowded parish of San Polo, has forged his destiny through fire and strategic acumen. Rising from the smoky depths of apprenticeship, he has established himself as a respected blacksmith at Salizada dei Consoli while simultaneously cultivating a nascent mercantile enterprise through his Contract Stall at Calle del Paradiso. Though his hands bear the calluses of honest labor, his mind harbors the calculations of a merchant prince, meticulously planning each venture with the same precision he applies to tempering steel.\n\nGiovanni's ambitions extend beyond the forge, as evidenced by his growing property holdings and substantial capital reserves exceeding 500,000 ducats. His modest Fisherman's Cottage at Riva di Santa Elena serves as both a practical dwelling and a reminder of his pragmatic approach to wealth\u2014investing in necessities before luxuries, building foundations before facades. The methodical expansion of his commercial interests reflects a man who understands that in Venice, true power flows not merely from noble blood but from the steady accumulation of tangible assets and practical influence.",
     "core_personality": "[\"Meticulous\", \"Distrustful\", \"Security-driven\"]",
@@ -5337,42 +5337,7 @@ Here is the complete data about your current situation:
   "relevancies": [],
   "target_relevancies": [],
   "latest_citizen_problems": [],
-  "recent_notifications_for_ai": [
-    {
-      "notificationId": "rec6sTqwkWS07TQX7",
-      "type": "housing_mobility",
-      "citizen": "GondolaDrifter",
-      "content": "\ud83c\udfe0 **Giovanni Contari** has moved out of your property **Fisherman's Cottage at Riva di Santa Elena**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recBvJdQIAcq9efQR",
-        "citizen_name": "Giovanni Contari",
-        "building_id": "recE1XayMyJm3Ka6T",
-        "building_name": "Fisherman's Cottage at Riva di Santa Elena",
-        "rent_price": 1335
-      },
-      "createdAt": "2025-07-18T14:27:05.482Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec1yfqdRfm9bPUZX",
-      "type": "profile_update",
-      "citizen": "GondolaDrifter",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Giovanni Contari, once a humble metalworker's son from the crowded parish of San Polo, has forged his destiny through fire and strategic acumen. Rising from the smoky depths of apprenticeship, he has established himself as a respected blacksmith at Salizada dei Consoli while simultaneously cultivating a nascent mercantile enterprise through his Contract Stall at Calle del Paradiso. Though his hands bear the calluses of honest labor, his mind harbors the calculations of a merchant prince, meticulously planning each venture with the same precision he applies to tempering steel.\n\nGiovanni's ambitions extend beyond the forge, as evidenced by his growing property holdings and substantial capital reserves exceeding 500,000 ducats. His modest Fisherman's Cottage at Riva di Santa Elena serves as both a practical dwelling and a reminder of his pragmatic approach to wealth\u2014investing in necessities before luxuries, building foundations before facades. The methodical expansion of his commercial interests reflects a man who understands that in Venice, true power flows not merely from noble blood but from the steady accumulation of tangible assets and practical influence.",
-        "new_description": "Giovanni Contari, once a humble metalworker's son from the crowded parish of San Polo, has forged his destiny through fire and strategic acumen. Rising from the smoky depths of apprenticeship, he has established himself as a respected blacksmith at Salizada dei Consoli while simultaneously cultivating a nascent mercantile enterprise through his Contract Stall at Calle del Paradiso. Though his hands bear the calluses of honest labor, his mind harbors the calculations of a merchant prince, meticulously planning each venture with the same precision he applies to tempering steel.\n\nGiovanni's ambitions extend beyond the forge, as evidenced by his growing property holdings and substantial capital reserves exceeding 500,000 ducats. His modest Fisherman's Cottage at Riva di Santa Elena serves as both a practical dwelling and a reminder of his pragmatic approach to wealth\u2014investing in necessities before luxuries, building foundations before facades. The methodical expansion of his commercial interests reflects a man who understands that in Venice, true power flows not merely from noble blood but from the steady accumulation of tangible assets and practical influence.",
-        "old_personality": "Methodical to the point of ritualism, Giovanni approaches both his craft and his commercial ventures with painstaking attention to detail. He rises before dawn each day to review his ledgers before heading to the forge, believing that discipline and routine are the twin pillars of success. His conversations are measured and purposeful; he rarely speaks without first calculating the value of his words, a habit that makes him appear reserved in social settings but commanding in business negotiations.\n\nBeneath Giovanni's calculating exterior lies a deep-seated fear of returning to the poverty of his youth, driving him to view relationships primarily through the lens of utility. This pragmatic approach to human connections has limited his circle of true confidants while expanding his network of business associates. His stubborn adherence to self-reliance sometimes blinds him to opportunities for collaboration, as he struggles to trust others with tasks he believes only he can execute to his exacting standards. Nevertheless, in those rare moments when he allows himself respite from his labors, usually over a glass of wine at a local tavern, glimpses of a wry humor and genuine appreciation for craftsmanship reveal themselves.",
-        "new_personality": "Methodical to the point of ritualism, Giovanni approaches both his craft and his commercial ventures with painstaking attention to detail. He rises before dawn each day to review his ledgers before heading to the forge, believing that discipline and routine are the twin pillars of success. His conversations are measured and purposeful; he rarely speaks without first calculating the value of his words, a habit that makes him appear reserved in social settings but commanding in business negotiations.\n\nBeneath Giovanni's calculating exterior lies a deep-seated fear of returning to the poverty of his youth, driving him to view relationships primarily through the lens of utility. This pragmatic approach to human connections has limited his circle of true confidants while expanding his network of business associates. His stubborn adherence to self-reliance sometimes blinds him to opportunities for collaboration, as he struggles to trust others with tasks he believes only he can execute to his exacting standards. Nevertheless, in those rare moments when he allows himself respite from his labors, usually over a glass of wine at a local tavern, glimpses of a wry humor and genuine appreciation for craftsmanship reveal themselves.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-18T14:27:05.114461"
-      },
-      "createdAt": "2025-07-18T14:27:05.114Z",
-      "readAt": null
-    }
-  ],
+  "recent_notifications_for_ai": [],
   "building_types": {
     "apothecary": {
       "id": "apothecary",
@@ -6316,7 +6281,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-01T21:02:54.234445+02:00",
+  "timestamp": "2025-08-02T21:04:38.910829+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.428796_12.363885",
