@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "TopGlassmaker",
-    "ducats": 2829003.883450984,
+    "ducats": 2861656.9404317657,
     "social_class": "Popolani",
     "description": "Caterina Baffo stands as a testament to Venetian social mobility, having transformed from a dockworker's daughter to a woman of substantial means. Her stocky frame and calloused hands still betray her humble origins, but the shrewd calculation in her hazel eyes speaks of her remarkable financial acumen. Now in her late 40s, she has parlayed her position at the customs house into a small real estate empire, owning multiple fishermen's cottages that provide steady rental income. Though she remains rooted in the popolani class, her wealth\u2014now exceeding two million ducats\u2014has granted her a measure of influence typically reserved for citizens of higher birth.",
     "core_personality": "[\"Resourceful\", \"Suspicious\", \"Security-driven\"]",
@@ -5354,6 +5354,41 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recLz1KSJhZ0lLQ11",
+      "type": "rent_payment",
+      "citizen": "TopGlassmaker",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,315 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,315 \u269c\ufe0f** from **Bruno Fachini** for **Fisherman's Cottage at Riva dei Coristi**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1315,
+        "payments": [
+          {
+            "occupant_name": "Bruno Fachini",
+            "building_name": "Fisherman's Cottage at Riva dei Coristi",
+            "amount": 1315
+          }
+        ]
+      },
+      "createdAt": "2025-08-03T16:02:49.982Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec5BShTrpY7Aem2X",
+      "type": "housing_mobility",
+      "citizen": "TopGlassmaker",
+      "content": "\ud83c\udfe0 **Lucrezia Dardi** has moved out of your property **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**",
+      "details": {
+        "event_type": "tenant_moved_out",
+        "citizen_id": "recccOplo9uJZLM26",
+        "citizen_name": "Lucrezia Dardi",
+        "building_id": "recFIsE7ytsKep1B4",
+        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
+        "rent_price": 1360
+      },
+      "createdAt": "2025-08-03T12:03:28.333Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recqOLL1E3e3ezV3H",
       "type": "rent_payment",
       "citizen": "TopGlassmaker",
@@ -5643,30 +5678,6 @@ Here is the complete data about your current situation:
         "rent_price": 1360
       },
       "createdAt": "2025-07-21T14:08:59.611Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec9InNgtSNQA6soK",
-      "type": "rent_payment",
-      "citizen": "TopGlassmaker",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,675 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,360 \u269c\ufe0f** from **Zanetta Calderoni** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.\n- \u2705 **1,315 \u269c\ufe0f** from **Agnese Venier** for **Fisherman's Cottage at Riva dei Coristi**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 2675,
-        "payments": [
-          {
-            "occupant_name": "Zanetta Calderoni",
-            "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
-            "amount": 1360
-          },
-          {
-            "occupant_name": "Agnese Venier",
-            "building_name": "Fisherman's Cottage at Riva dei Coristi",
-            "amount": 1315
-          }
-        ]
-      },
-      "createdAt": "2025-07-19T18:02:35.564Z",
       "readAt": null
     }
   ],
@@ -6613,7 +6624,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-02T21:08:25.405175+02:00",
+  "timestamp": "2025-08-03T21:00:48.227258+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.431184_12.317202",
