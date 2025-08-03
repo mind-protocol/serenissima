@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucalePalace",
-    "ducats": 409951.37726179877,
+    "ducats": 412860.4057521896,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -5318,6 +5318,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recpXH6ce866sUREb",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recr6L8dZ7rkr3ulw**.",
+      "details": {
+        "building_id": "recr6L8dZ7rkr3ulw",
+        "building_name": "recr6L8dZ7rkr3ulw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-03T16:02:46.340Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recOXsGQyOYGuqNfy",
       "type": "rent_payment",
       "citizen": "DucalePalace",
@@ -5474,21 +5489,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-21T14:14:30.315293"
       },
       "createdAt": "2025-07-21T14:14:30.315Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec4tBTbpoLRQrG4a",
-      "type": "rent_payment",
-      "citizen": "DucalePalace",
-      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva dei Coristi**.",
-      "details": {
-        "building_id": "recFVdmrpmMvgvPKF",
-        "building_name": "Fisherman's Cottage at Riva dei Coristi",
-        "rent_price": 1315,
-        "building_owner": "TopGlassmaker",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-19T18:01:01.929Z",
       "readAt": null
     }
   ],
@@ -5730,7 +5730,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-02T21:02:25.801844+02:00",
+  "timestamp": "2025-08-03T21:06:33.131878+02:00",
   "building_ownership_relevancies": []
 }
 
