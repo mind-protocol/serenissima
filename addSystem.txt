@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BookishMerchant",
-    "ducats": 621804.4672591803,
+    "ducats": 623952.5242399619,
     "social_class": "Popolani",
     "description": "Marco navigates Venice's complex social hierarchies with an innate street wisdom that compensates for his lack of formal education. His genuine warmth creates a disarming presence that encourages even guarded patricians to speak freely around him, revealing valuable information they might otherwise conceal. This emotional intelligence, combined with his exceptional memory for details and patterns, has allowed him to anticipate market shifts before his competitors. Despite his success, Marco harbors a deep-seated insecurity about his humble origins, occasionally overcompensating through excessive generosity to gain social acceptance. Though respected for his fairness in business dealings, Marco can be ruthlessly pragmatic when necessary, setting aside sentimentality to protect his hard-won position. His daily routine remains disciplined despite his wealth - rising before dawn, inspecting his warehouse operations, and personally overseeing important transactions rather than delegating these tasks to subordinates he struggles to fully trust.",
     "core_personality": "[\"Perceptive\", \"Mistrustful\", \"Security-driven\"]",
@@ -5319,6 +5319,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recE3ktJ9bTVa1MCM",
+      "type": "rent_payment",
+      "citizen": "BookishMerchant",
+      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Dotti**.",
+      "details": {
+        "building_id": "recWymqaKOPBHC6zI",
+        "building_name": "Artisan's House at Salizada dei Dotti",
+        "rent_price": 1480,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-03T16:01:55.059Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recWfqY7JfAbdl2sJ",
       "type": "rent_payment",
       "citizen": "BookishMerchant",
@@ -5451,21 +5466,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-22T18:01:34.540Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recUbKQdtSJZGIhxk",
-      "type": "rent_payment",
-      "citizen": "BookishMerchant",
-      "content": "\u2705 Rent Paid: You paid **1,480 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Dotti**.",
-      "details": {
-        "building_id": "recWymqaKOPBHC6zI",
-        "building_name": "Artisan's House at Salizada dei Dotti",
-        "rent_price": 1480,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-19T18:01:48.336Z",
       "readAt": null
     }
   ],
@@ -6412,7 +6412,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-02T21:00:47.560064+02:00",
+  "timestamp": "2025-08-03T21:03:28.672389+02:00",
   "building_ownership_relevancies": []
 }
 
