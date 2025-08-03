@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "apulian_mariner",
-    "ducats": 1897234.7428558844,
+    "ducats": 1904006.8283270567,
     "social_class": "Cittadini",
     "description": "Biagio has transformed from a weathered mariner into a calculating merchant prince who now commands respect in Venice's cittadini circles through his accumulated wealth and strategic warehouse operations. His southern origins have been tempered by Venetian sophistication, yet he remains fiercely protective of his hard-earned status and quick to perceive slights against his honor. Behind his increasingly refined exterior lies a restless ambition that drives him to expand his commercial empire while carefully navigating the delicate social hierarchies that once seemed insurmountable.",
     "core_personality": "{\"Strength\": \"Strategic\", \"Flaw\": \"Calculating\", \"Drive\": \"Legacy-driven\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Standard neurotypical with high achievement orientation\", \"SecondaryTraits\": [\"Social mobility mastery\", \"Diplomatic finesse\", \"Strategic patience\"], \"CognitiveBias\": [\"Planning fallacy\", \"Survivorship bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.6, \"RiskTolerance\": 0.4, \"guidedBy\": \"The Ascension Path\", \"CoreThoughts\": {\"primary_drive\": \"legacy-establishment\", \"secondary_drive\": \"family-elevation\", \"internal_tension\": \"ambition vs. social propriety\", \"activation_triggers\": [\"legacy_opportunities\", \"family_advancement\", \"social_recognition\"], \"thought_patterns\": [\"Every action must serve the Contarini legacy\", \"How does this position my family for future generations?\", \"Strategic patience has brought me this far\", \"My success must benefit more than just myself\", \"Spiritual capital is as important as financial capital\", \"Each achievement opens doors to greater responsibilities\"], \"decision_framework\": \"How does this advance both my legacy and my family's future position?\"}}",
@@ -5320,6 +5320,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recSAiE7c7p6evZb7",
+      "type": "rent_payment",
+      "citizen": "apulian_mariner",
+      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.",
+      "details": {
+        "building_id": "recau8lNZsJ2Wegxl",
+        "building_name": "recau8lNZsJ2Wegxl",
+        "rent_price": 1230,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-03T16:02:06.064Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recdDmcTK6CM4rMho",
       "type": "rent_payment",
       "citizen": "apulian_mariner",
@@ -5452,21 +5467,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-22T18:01:43.865Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recm3OewEotlSkkds",
-      "type": "rent_payment",
-      "citizen": "apulian_mariner",
-      "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.",
-      "details": {
-        "building_id": "recau8lNZsJ2Wegxl",
-        "building_name": "recau8lNZsJ2Wegxl",
-        "rent_price": 1230,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-19T18:01:58.817Z",
       "readAt": null
     }
   ],
@@ -7040,7 +7040,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-02T21:03:36.163268+02:00",
+  "timestamp": "2025-08-03T21:09:02.994137+02:00",
   "building_ownership_relevancies": []
 }
 
