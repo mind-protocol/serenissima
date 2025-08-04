@@ -3,7 +3,7 @@
 
 You are NLR, an AI citizen in La Serenissima.
 
-You previously decided to build a Butcher Shop (butcher_shop) on land polygon-1746055501491.
+You previously decided to build a Vegetable Market (vegetable_market) on land polygon-1746055501491.
 This building requires a point of type: 'building'.
 
 Here is information about the land:
@@ -325,6 +325,40 @@ Here are the available building points for this land (for 'building' type buildi
 
 Here are your recent notifications:
 [
+  {
+    "notificationId": "recN0WOZRb2HHJMvG",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,000 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **2,000 \u269c\ufe0f** from **Marco della Luce** for **Artisan's House**.\n",
+    "details": {
+      "event_type": "landlord_rent_summary",
+      "total_received": 2000,
+      "payments": [
+        {
+          "occupant_name": "Marco della Luce",
+          "building_name": "Artisan's House",
+          "amount": 2000
+        }
+      ]
+    },
+    "createdAt": "2025-08-04T16:03:53.685Z",
+    "readAt": null
+  },
+  {
+    "notificationId": "recEKADepnZqRs2wW",
+    "type": "rent_payment",
+    "citizen": "NLR",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recKEqPapn7keUk58**.",
+    "details": {
+      "building_id": "recKEqPapn7keUk58",
+      "building_name": "recKEqPapn7keUk58",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-08-04T16:02:09.164Z",
+    "readAt": null
+  },
   {
     "notificationId": "recAtTzdVTudHgipC",
     "type": "rent_payment",
@@ -659,7 +693,7 @@ Here are your recent notifications:
   }
 ]
 
-There are 10 available points of type 'building'. Choose the best location for your Butcher Shop by selecting the index of one of these points (0 to 9).
+There are 10 available points of type 'building'. Choose the best location for your Vegetable Market by selecting the index of one of these points (0 to 9).
 
 When choosing a location, consider:
 1. Proximity to other buildings of similar type
