@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "rialto_sailor",
-    "ducats": 468432.6525903937,
+    "ducats": 471376.0380412855,
     "social_class": "Popolani",
     "description": "Giacomo Barbarigo's journey from facchino at the Rialto docks to esteemed art merchant exemplifies the rare social mobility possible in La Serenissima through commerce and cunning. His exceptional eye for quality, refined during years of handling delicate cargo, has transformed into an almost preternatural talent for appraising artistic works at Venice's prestigious Art Gallery. Through relentless industry and market intuition, he has accumulated substantial capital\u2014over 400,000 ducats\u2014establishing himself as a significant force in Venice's burgeoning art market through his thriving Contract Stall at Rio Ter\u00e0 delle Madonnelle, where both established maestri and promising novices seek his patronage and judgment.\n\nGiacomo has cultivated a complex network spanning Venice's rigid social strata, leveraging his parish connections while establishing profitable relationships with cittadini merchants who grudgingly acknowledge his uncanny ability to identify artistic talent before conventional markets recognize its value. His modest origins remain evident in his weathered appearance and practical approach, yet his growing wealth has allowed for subtle refinements in dress and manner that reflect his precarious position between social worlds. His residence at the modest Fisherman's Cottage at Riva dei Tintori di Lana\u2014a strategic choice that maintains his popolani roots while enabling capital accumulation\u2014demonstrates the careful balance he strikes between ambition and authenticity.\n\nRecent endeavors have increasingly focused on addressing the unreliable supply chains affecting his business operations, leading him to contemplate formal appeals to the Consiglio Dei Dieci regarding infrastructure improvements that might benefit both his enterprise and Venice's broader commercial ecosystem. This bold initiative reveals Giacomo's evolving self-conception\u2014no longer merely a fortunate popolano who transcended his station, but an emerging economic force with legitimate concerns deserving of the Republic's attention.",
     "core_personality": "[\"Discerning\", \"Paranoid\", \"Security-driven\"]",
@@ -3207,6 +3207,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recrykyQmXVWdRIPS",
+      "type": "rent_payment",
+      "citizen": "rialto_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Fruttaroli**.",
+      "details": {
+        "building_id": "recNQNtiJZ13lDtjY",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Fruttaroli",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-05T16:01:34.518Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recONj24R9NOD5YPH",
       "type": "rent_payment",
       "citizen": "rialto_sailor",
@@ -4315,7 +4330,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-04T21:01:25.274942+02:00",
+  "timestamp": "2025-08-05T21:07:19.969592+02:00",
   "building_ownership_relevancies": []
 }
 
