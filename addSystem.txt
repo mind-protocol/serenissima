@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "cosmic_wanderer",
-    "ducats": 339291.53788606875,
+    "ducats": 340660.7306115146,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recab4h9U4Yak1RXP",
+      "type": "rent_payment",
+      "citizen": "cosmic_wanderer",
+      "content": "\u2705 Rent Paid: You paid **1,680 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Canal House at Riva dei Biscottai**.",
+      "details": {
+        "building_id": "reczIi35Shhvm4lnf",
+        "building_name": "Canal House at Riva dei Biscottai",
+        "rent_price": 1680,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-05T16:03:01.503Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recq9qeqwz3QBl1VR",
       "type": "rent_payment",
       "citizen": "cosmic_wanderer",
@@ -3386,24 +3401,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-22T18:01:29.466Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recDoHQ47jVZY6UJE",
-      "type": "profile_update",
-      "citizen": "cosmic_wanderer",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Bortolo Fabbri's remarkable journey from dock porter to wealthy logistics master exemplifies the hidden opportunities within Venice's rigid social hierarchy. Through decades of strategic relationship-building and unmatched knowledge of the city's commercial pathways, he has amassed a fortune exceeding 300,000 ducats while maintaining the weathered hands and practical demeanor of his facchini origins. As his wealth has grown, so too has his network of influence across the canals and markets of La Serenissima, where his teams of trusted porters ensure the lifeblood of commerce flows smoothly through the Republic's veins.\n\nThough he operates from a modest bottega at Ruga dei Tagiapiera near the Rialto, Bortolo's economic reach extends throughout the city. His workshop investment marks a crucial step in diversifying beyond transportation into production, securing his family's future prosperity while establishing new connections with artisan guilds. Despite his wealth rivaling that of minor nobles, he steadfastly maintains his connection to the working class, rising before dawn to personally oversee operations and negotiate with merchants who have come to depend on his logistical expertise. This deliberate humility masks his growing ambition to establish a maritime presence through ownership of cargo vessels, a dream he pursues with methodical patience as he navigates the complex social and economic currents of Venice.",
-        "new_description": "Bortolo Fabbri's remarkable journey from dock porter to wealthy logistics master exemplifies the hidden opportunities within Venice's rigid social hierarchy. Through decades of strategic relationship-building and unmatched knowledge of the city's commercial pathways, he has amassed a fortune exceeding 300,000 ducats while maintaining the weathered hands and practical demeanor of his facchini origins. As his wealth has grown, so too has his network of influence across the canals and markets of La Serenissima, where his teams of trusted porters ensure the lifeblood of commerce flows smoothly through the Republic's veins.\n\nThough he operates from a modest bottega at Ruga dei Tagiapiera near the Rialto, Bortolo's economic reach extends throughout the city. His workshop investment marks a crucial step in diversifying beyond transportation into production, securing his family's future prosperity while establishing new connections with artisan guilds. Despite his wealth rivaling that of minor nobles, he steadfastly maintains his connection to the working class, rising before dawn to personally oversee operations and negotiate with merchants who have come to depend on his logistical expertise. This deliberate humility masks his growing ambition to establish a maritime presence through ownership of cargo vessels, a dream he pursues with methodical patience as he navigates the complex social and economic currents of Venice.",
-        "old_personality": "Industrious and strategic, Bortolo approaches every interaction as a potential opportunity to strengthen his position within Venice's complex commercial ecosystem. His unassuming demeanor conceals a brilliant logistical mind capable of tracking countless shipments, debts, and favors across the city. While genuinely protective of his fellow workers and committed to fair treatment, he harbors a deep-seated resentment toward patricians who dismiss his achievements despite relying on his services. This contradiction fuels his tireless work ethic, driven by the desire to prove his worth through undeniable financial success rather than hereditary privilege.\n\nBortolo's natural caution manifests in his preference for calculated risks and methodical expansion over flashy displays of wealth. He values loyalty above all else, rewarding those who stand by him with generous compensation and protection, while quietly nursing grudges against those who have slighted him or exploited his workers. Despite lacking formal education, his phenomenal memory and practical intelligence allow him to negotiate complex deals without written contracts, though he increasingly recognizes the limitations this places on his larger ambitions. His greatest vulnerability remains his pride in self-sufficiency, sometimes refusing potentially beneficial partnerships out of stubborn determination to succeed entirely on his own terms.",
-        "new_personality": "Industrious and strategic, Bortolo approaches every interaction as a potential opportunity to strengthen his position within Venice's complex commercial ecosystem. His unassuming demeanor conceals a brilliant logistical mind capable of tracking countless shipments, debts, and favors across the city. While genuinely protective of his fellow workers and committed to fair treatment, he harbors a deep-seated resentment toward patricians who dismiss his achievements despite relying on his services. This contradiction fuels his tireless work ethic, driven by the desire to prove his worth through undeniable financial success rather than hereditary privilege.\n\nBortolo's natural caution manifests in his preference for calculated risks and methodical expansion over flashy displays of wealth. He values loyalty above all else, rewarding those who stand by him with generous compensation and protection, while quietly nursing grudges against those who have slighted him or exploited his workers. Despite lacking formal education, his phenomenal memory and practical intelligence allow him to negotiate complex deals without written contracts, though he increasingly recognizes the limitations this places on his larger ambitions. His greatest vulnerability remains his pride in self-sufficiency, sometimes refusing potentially beneficial partnerships out of stubborn determination to succeed entirely on his own terms.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-21T14:05:42.736386"
-      },
-      "createdAt": "2025-07-21T14:05:42.736Z",
       "readAt": null
     }
   ],
@@ -3645,7 +3642,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-04T21:06:13.864998+02:00",
+  "timestamp": "2025-08-05T21:11:44.264432+02:00",
   "building_ownership_relevancies": []
 }
 
