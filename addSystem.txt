@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "urban_visionary",
-    "ducats": 407181.50401328685,
+    "ducats": 401031.50401328685,
     "social_class": "Artisti",
     "description": "Giulio Lombardo has undergone a profound transformation from visionary architect to pragmatic urban strategist. His abstract dreams of geometric perfection have crystallized into an understanding that Venice's true architecture lies not in marble facades, but in the invisible infrastructure that sustains life itself. Working at the granary has taught him to read the city through its most essential rhythms\u2014the flow of grain that prevents famine, the careful calculations that maintain social order, the delicate balance between supply and scarcity that can topple governments.",
     "core_personality": "{\"Strength\": \"Systematic\", \"Flaw\": \"Calculating\", \"Drive\": \"Order-focused\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Urban architect\", \"SecondaryTraits\": [\"Systems thinking\", \"Long-term planning\", \"Environmental design\"], \"CognitiveBias\": [\"Planning fallacy\", \"System justification\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.3, \"guidedBy\": \"The City's Blueprint\", \"CoreThoughts\": {\"primary_drive\": \"urban-optimization\", \"secondary_drive\": \"systematic-order\", \"internal_tension\": \"ideal vision vs. practical constraints\", \"activation_triggers\": [\"urban_inefficiencies\", \"planning_opportunities\", \"systematic_improvements\"], \"thought_patterns\": [\"Cities are systems that can be optimized\", \"Every street and building serves the greater design\", \"Order creates beauty and efficiency together\", \"My calculations reveal the city's true potential\", \"Systematic planning prevents urban chaos\", \"The blueprint exists - I just need to reveal it\"], \"decision_framework\": \"How does this serve systematic urban optimization?\"}}",
@@ -95,55 +95,6 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189509944-8915",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189508165-3550",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189594250-9533",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189584761-3580",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189585621-1269",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189502875-3233",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189508543-3685",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "building_45.434821_12.357384",
           "type": "public_well",
           "owner": "ConsiglioDeiDieci",
@@ -151,57 +102,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189501023-9686",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189592138-6287",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189510321-6365",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189593892-8374",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "bridge_45.435066_12.357300",
           "type": "bridge",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189502000-4503",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189592509-3037",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189586495-3985",
-          "type": "canal_house",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -216,50 +118,7 @@ Here is the complete data about your current situation:
       "building_points_count": 8,
       "has_water_access": false,
       "district": "Castello",
-      "existing_buildings": [
-        {
-          "id": "building-1752189503764-7701",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189588478-7831",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189504634-7654",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189587512-5764",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189505525-1048",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189589326-2009",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746056083350",
@@ -287,92 +146,7 @@ Here is the complete data about your current situation:
       "building_points_count": 6,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189596443-3295",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189595388-198",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189511827-967",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189595762-1368",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189512209-4064",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189512592-3354",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189595009-2843",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189511408-5030",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189510704-9512",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189596110-8034",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189594614-4558",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189511058-6078",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746072788813",
@@ -402,78 +176,8 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189599193-7730",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189515292-416",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "land_45.436564_12.320811",
           "type": "small_warehouse",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189512976-6491",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189596771-8761",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189598831-6618",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189513376-9554",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189515656-1987",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189597127-2574",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189598482-4305",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189514737-9372",
-          "type": "artisan_s_house",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -488,36 +192,7 @@ Here is the complete data about your current situation:
       "building_points_count": 5,
       "has_water_access": false,
       "district": "Dorsoduro",
-      "existing_buildings": [
-        {
-          "id": "building-1752189590344-2482",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189591275-9173",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189506401-7512",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189507316-4977",
-          "type": "canal_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746072933644",
@@ -625,85 +300,8 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189603566-4056",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189601037-5871",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189518293-4247",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189516057-1560",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189516452-6988",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189603168-5266",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189600705-7756",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189517191-4214",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189517914-9250",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "canal_45.436636_12.334073",
           "type": "public_dock",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189599953-3018",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189517538-4372",
-          "type": "artisan_s_house",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -716,71 +314,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189520027-5303",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189601813-3800",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "building_45.436002_12.335479",
           "type": "merchant_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189603920-2813",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189601397-3987",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189600314-9225",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189516808-5309",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189599566-3991",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189520434-781",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189519651-9876",
-          "type": "artisan_s_house",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -795,36 +330,7 @@ Here is the complete data about your current situation:
       "building_points_count": 2,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189520830-2840",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189521205-1412",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189604658-5550",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189605036-804",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746055971606",
@@ -835,20 +341,6 @@ Here is the complete data about your current situation:
       "has_water_access": false,
       "district": "San Marco",
       "existing_buildings": [
-        {
-          "id": "building-1752189521555-4494",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189605436-7391",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
         {
           "id": "bridge_45.442690_12.337864",
           "type": "bridge",
@@ -1341,78 +833,7 @@ Here is the complete data about your current situation:
       "building_points_count": 5,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189606247-1287",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189523038-9057",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189607075-4241",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189608453-3126",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189605847-7659",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189524388-1585",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189522656-9991",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189522275-4780",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189606618-9929",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189521934-8236",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1745878999491",
@@ -1565,134 +986,8 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189609145-3312",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189610935-569",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189613384-7922",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189618264-9116",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189527608-7519",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189530985-1079",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189531750-6800",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189613014-1419",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189533841-9323",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189526179-9812",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189525461-9424",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189526898-709",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189530453-9575",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189529304-303",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189619014-663",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189535298-2189",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "land_45.441299_12.336995",
           "type": "merchant_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189534195-8758",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189615333-5971",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -1705,13 +1000,6 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189527253-2035",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "building_45.440864_12.335067",
           "type": "blacksmith",
           "owner": "Italia",
@@ -1719,211 +1007,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189610215-9026",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189525824-2328",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189616087-7954",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189614584-5731",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189525102-6142",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189534583-796",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189618623-3927",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189530044-8681",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189617837-2933",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189619371-5104",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189529670-660",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189610574-2338",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "land_45.440843_12.336848",
           "type": "merchant_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189609476-9584",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189615722-7708",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189611272-333",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189609849-8250",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189526539-9303",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189614925-1699",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189534949-2969",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189528966-9691",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189611615-8883",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189532501-7860",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189532141-9211",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189614127-6705",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189616466-1767",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189531359-5936",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189608803-8126",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189524748-329",
-          "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189613761-2481",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -2687,22 +1772,7 @@ Here is the complete data about your current situation:
       "building_points_count": 1,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189535719-6300",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189619752-977",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746072856331",
@@ -2798,106 +1868,8 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189620126-4540",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189539323-2556",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189537133-7112",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189538955-725",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189536772-6471",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189621284-712",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189623441-3964",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189536412-6876",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "bridge_45.446417_12.324347",
           "type": "bridge",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189622688-259",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189538532-5635",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189623063-4988",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189620487-6169",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189620901-8574",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189536053-5181",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -2914,69 +1886,6 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189625690-9988",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189624971-5527",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189541922-4473",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189540484-9450",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189540836-9803",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189627430-6867",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189539756-1854",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189540112-5404",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189541213-1303",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "canal_45.431827_12.334988",
           "type": "canal_house",
           "owner": "Italia",
@@ -2984,57 +1893,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189626060-5108",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189623861-5857",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189624229-1211",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189625317-136",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189541554-1063",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "canal_45.431743_12.334309",
           "type": "public_dock",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189624601-3467",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189543435-8055",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -3049,218 +1909,7 @@ Here is the complete data about your current situation:
       "building_points_count": 15,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189545213-6245",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189544500-133",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189543808-1732",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189544858-58",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189634127-3000",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189632966-1206",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189630094-1961",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189633346-9149",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189546315-2800",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189632599-6424",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189630492-2652",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189548840-7743",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189545589-438",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189632238-6860",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189546721-9915",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189548469-2208",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189633693-2947",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189545945-5741",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189630858-5310",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189628176-5625",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189629721-6500",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189549630-7675",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189628588-7414",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189550026-5281",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189629007-6269",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189549249-7700",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189627781-4343",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189548100-2365",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189544146-2901",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189629368-3408",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1745879142005",
@@ -3295,36 +1944,7 @@ Here is the complete data about your current situation:
       "building_points_count": 2,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189634505-5469",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189634851-7389",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189550404-3810",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189550774-6591",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746056164869",
@@ -3334,50 +1954,7 @@ Here is the complete data about your current situation:
       "building_points_count": 3,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189551540-1555",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189637054-4421",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189551203-3367",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189635593-2102",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189635220-8115",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189552898-5336",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746072817474",
@@ -3417,76 +1994,6 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189554375-6177",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189554006-658",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189555475-6262",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189639791-2349",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189553629-4427",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189555117-1738",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189637821-3910",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189639018-970",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189638220-1075",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189639384-3038",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "bridge_45.436508_12.338397",
           "type": "bridge",
           "owner": "ConsiglioDeiDieci",
@@ -3494,36 +2001,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189554760-3267",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "building_45.436674_12.339536",
           "type": "artisan_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189637450-5727",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189638633-8209",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189553293-4355",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -3540,48 +2019,6 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189555865-1329",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189558396-3362",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189640502-6343",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189558735-2394",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189642738-9547",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189643090-3314",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "building_45.435358_12.333371",
           "type": "public_well",
           "owner": "ConsiglioDeiDieci",
@@ -3589,64 +2026,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189557610-5",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189643470-7446",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189557962-1074",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189641897-4211",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189640137-2587",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189556217-9393",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "building_45.434820_12.332664",
           "type": "chapel",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189642375-893",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189559094-4379",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -3728,64 +2109,7 @@ Here is the complete data about your current situation:
       "building_points_count": 4,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189559418-9829",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189559761-4629",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189560536-4872",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189644859-8734",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189644170-3531",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189560103-5385",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189643824-5546",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189644517-5247",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746056107157",
@@ -3909,78 +2233,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189646717-1681",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189560870-2984",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189563044-3915",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189647388-2976",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189647058-5294",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189562699-6583",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189562320-2178",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189563382-788",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "bridge_45.437072_12.341708",
           "type": "bridge",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189647727-9019",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189645304-8410",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -4126,34 +2380,6 @@ Here is the complete data about your current situation:
       "district": "San Marco",
       "existing_buildings": [
         {
-          "id": "building-1752189570349-2806",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189567604-2234",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189565506-4261",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189648822-9159",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "building_45.438048_12.347155",
           "type": "bakery",
           "owner": "GamingPatrizio",
@@ -4161,232 +2387,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189653133-4525",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189572918-7374",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189654291-1806",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "bridge_45.438895_12.346000",
           "type": "bridge",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189569144-2294",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189569517-4067",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189648113-6277",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189573286-226",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189568015-3563",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189656771-2519",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189656060-9475",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189649899-812",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189572174-8911",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189568376-8273",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189648445-3073",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189569948-9865",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189657483-7524",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189657826-488",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189573720-8924",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189651718-7528",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189571703-2490",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189653521-6766",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189649574-2080",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189656410-4992",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189572532-4723",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189568789-6715",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189567255-3986",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189563723-8106",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189564069-9764",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189649173-1970",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189653901-7597",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189565145-2202",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189652441-8978",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -4399,64 +2401,8 @@ Here is the complete data about your current situation:
           "maintenance_cost": 0
         },
         {
-          "id": "building-1752189652079-119",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189566893-6282",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
           "id": "building_45.438154_12.349692",
           "type": "merchant_s_house",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189657129-8248",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189654657-4996",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189652779-2240",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189564788-3898",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189564439-208",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189651299-7650",
-          "type": "fisherman_s_cottage",
           "owner": "ConsiglioDeiDieci",
           "income": 0,
           "maintenance_cost": 0
@@ -4552,36 +2498,7 @@ Here is the complete data about your current situation:
       "building_points_count": 2,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189574520-5363",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189658488-1023",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189658148-8323",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189574159-8911",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746056033630",
@@ -4591,36 +2508,7 @@ Here is the complete data about your current situation:
       "building_points_count": 14,
       "has_water_access": false,
       "district": "San Marco",
-      "existing_buildings": [
-        {
-          "id": "building-1752189574938-6242",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189659270-8715",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189658919-9402",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        },
-        {
-          "id": "building-1752189575283-8465",
-          "type": "fisherman_s_cottage",
-          "owner": "ConsiglioDeiDieci",
-          "income": 0,
-          "maintenance_cost": 0
-        }
-      ]
+      "existing_buildings": []
     },
     {
       "id": "polygon-1746056377511",
@@ -5318,6 +3206,36 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recFSe9jc6lfllBMB",
+      "type": "rent_payment",
+      "citizen": "urban_visionary",
+      "content": "\u2705 Rent Paid: You paid **3,715 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Nobili Palazzo at Calle del Sale**.",
+      "details": {
+        "building_id": "recXhUt5D75CKSgYc",
+        "building_name": "Nobili Palazzo at Calle del Sale",
+        "rent_price": 3715,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-05T16:02:02.990Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recFriFxWaERyFIhX",
+      "type": "rent_payment",
+      "citizen": "urban_visionary",
+      "content": "\u2705 Rent Paid: You paid **3,715 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Nobili Palazzo at Calle del Sale**.",
+      "details": {
+        "building_id": "recXhUt5D75CKSgYc",
+        "building_name": "Nobili Palazzo at Calle del Sale",
+        "rent_price": 3715,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-04T16:02:48.609Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recvveLPs66eNut66",
       "type": "rent_payment",
       "citizen": "urban_visionary",
@@ -5706,7 +3624,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-03T21:08:52.098250+02:00",
+  "timestamp": "2025-08-05T21:05:40.056740+02:00",
   "building_ownership_relevancies": []
 }
 
