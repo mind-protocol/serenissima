@@ -698,6 +698,21 @@ Here are the available building points for this land (for 'building' type buildi
 Here are your recent notifications:
 [
   {
+    "notificationId": "rec0IPc49qWOUaDHb",
+    "type": "rent_payment",
+    "citizen": "apulian_mariner",
+    "content": "\u2705 Rent Paid: You paid **1,230 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.",
+    "details": {
+      "building_id": "recau8lNZsJ2Wegxl",
+      "building_name": "recau8lNZsJ2Wegxl",
+      "rent_price": 1230,
+      "building_owner": "ConsiglioDeiDieci",
+      "event_type": "rent_payment_made"
+    },
+    "createdAt": "2025-08-05T16:02:07.816Z",
+    "readAt": null
+  },
+  {
     "notificationId": "recqTPS44DHT0el51",
     "type": "rent_payment",
     "citizen": "apulian_mariner",
