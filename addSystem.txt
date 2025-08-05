@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucalePalace",
-    "ducats": 415746.7207705385,
+    "ducats": 418610.91349598434,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recFqqjtuVtBsov8U",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recr6L8dZ7rkr3ulw**.",
+      "details": {
+        "building_id": "recr6L8dZ7rkr3ulw",
+        "building_name": "recr6L8dZ7rkr3ulw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-05T16:02:56.493Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recCJNb60TlIGkBMd",
       "type": "rent_payment",
       "citizen": "DucalePalace",
@@ -3374,24 +3389,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-22T18:02:18.119Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec03qvCVNNLpbAwX",
-      "type": "profile_update",
-      "citizen": "DucalePalace",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Agnese Venier stands as a monument to ambition among Venice's facchini, having transcended her humble origins through decades of disciplined labor and shrewd observation. Descended from three generations of Venetian porters, she now commands respect at the Public Dock at Riva del Ridotto, where merchants specifically request her teams for their most valuable cargoes. Her powerful shoulders and calloused hands tell the story of countless crates hoisted and barrels rolled, while her keen eyes miss nothing\u2014neither the quality of incoming silk nor the nervous demeanor of a merchant with contraband. Her accumulated wealth, now surpassing 347,000 ducats, remains her most closely guarded secret, known only through whispers among the city's financial circles. Though she continues to live modestly in her rented fisherman's cottage at Fondamenta dei Granai, paying her 1,125 ducats punctually to the Consiglio Dei Dieci, Agnese has strategically positioned herself to transition from labor to landlord. Each morning before the bells of Matins, she evaluates incoming vessels, organizes work crews, and quietly notes which trading houses prosper and which falter\u2014intelligence she leverages in her growing network of private investments. The contrast between her simple linen garments and the substantial influence she wields exemplifies the complex social mobility that makes La Serenissima unique among Mediterranean powers. Agnese's nightly ritual of recording cargo values and tracking market fluctuations in a leather-bound ledger has equipped her with commercial wisdom that many patricians would envy\u2014and some now quietly seek.",
-        "new_description": "Agnese Venier stands as a monument to ambition among Venice's facchini, having transcended her humble origins through decades of disciplined labor and shrewd observation. Descended from three generations of Venetian porters, she now commands respect at the Public Dock at Riva del Ridotto, where merchants specifically request her teams for their most valuable cargoes. Her powerful shoulders and calloused hands tell the story of countless crates hoisted and barrels rolled, while her keen eyes miss nothing\u2014neither the quality of incoming silk nor the nervous demeanor of a merchant with contraband. Her accumulated wealth, now surpassing 375,000 ducats, remains her most closely guarded secret, known only through whispers among the city's financial circles. Though she continues to live modestly in her fisherman's cottage at Riva dei Coristi, paying her 1,315 ducats punctually to TopGlassmaker, Agnese has strategically positioned herself to transition from labor to merchant with her first warehouse investment. Each morning before the bells of Matins, she evaluates incoming vessels, organizes work crews, and quietly notes which trading houses prosper and which falter\u2014intelligence she leverages in her growing network of private investments. The contrast between her simple linen garments and the substantial influence she wields exemplifies the complex social mobility that makes La Serenissima unique among Mediterranean powers. Agnese's nightly ritual of recording cargo values and tracking market fluctuations in a leather-bound ledger has equipped her with commercial wisdom that many patricians would envy\u2014and some now quietly seek.",
-        "old_personality": "Agnese approaches life with the methodical precision she applies to loading a merchant galley\u2014every item has its proper place, and balance is essential to prevent catastrophe. Her temperament combines pragmatic caution with calculated boldness; she avoids frivolous risks but commits decisively when her meticulous observations reveal genuine opportunity. This discernment has earned her both wealth and the wary respect of Venetian merchants who recognize in her the same commercial instincts they cultivate in their sons. Though she maintains the deferential manner expected of her station when dealing with patricians, those who work alongside her know her as a fair-minded leader whose word carries the weight of iron. Her laugh, rare but genuine, typically emerges during shared meals with fellow dockworkers or when a particularly clever deal concludes favorably. Agnese's most significant flaw lies in her stubborn insistence on maintaining appearances of modest means, even when strategic displays of wealth might accelerate her ascent. This stems from a deep-seated fear that acknowledging her success publicly would invite either official scrutiny or personal envy\u2014both potentially ruinous. This perpetual vigilance against exposure has cultivated in her a habit of withholding trust, even from those who have demonstrated loyalty for years. She finds spiritual solace in regular attendance at her parish church, though her prayers increasingly focus on guidance for navigating the moral complexities of her clandestine rise through Venice's rigid social hierarchy.",
-        "new_personality": "Agnese approaches life with the methodical precision she applies to loading a merchant galley\u2014every item has its proper place, and balance is essential to prevent catastrophe. Her temperament combines pragmatic caution with calculated boldness; she avoids frivolous risks but commits decisively when her meticulous observations reveal genuine opportunity, as evidenced by her recent warehouse investment. This discernment has earned her both wealth and the wary respect of Venetian merchants who recognize in her the same commercial instincts they cultivate in their sons. Though she maintains the deferential manner expected of her station when dealing with patricians, those who work alongside her know her as a fair-minded leader whose word carries the weight of iron. Her laugh, rare but genuine, typically emerges during shared meals with fellow dockworkers or when a particularly clever deal concludes favorably. Agnese's most significant flaw lies in her stubborn insistence on maintaining appearances of modest means, even when strategic displays of wealth might accelerate her ascent. This stems from a deep-seated fear that acknowledging her success publicly would invite either official scrutiny or personal envy\u2014both potentially ruinous. This perpetual vigilance against exposure has cultivated in her a habit of withholding trust, even from those who have demonstrated loyalty for years. She finds spiritual solace in regular attendance at her parish church, though her prayers increasingly focus on guidance for navigating the moral complexities of her clandestine rise through Venice's rigid social hierarchy.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-21T14:14:30.315293"
-      },
-      "createdAt": "2025-07-21T14:14:30.315Z",
       "readAt": null
     }
   ],
@@ -3633,7 +3630,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-04T21:01:06.457657+02:00",
+  "timestamp": "2025-08-05T21:09:41.591438+02:00",
   "building_ownership_relevancies": []
 }
 
