@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "TopGlassmaker",
-    "ducats": 2895624.5704684635,
+    "ducats": 2929547.955919355,
     "social_class": "Popolani",
     "description": "Caterina Baffo stands as a testament to Venetian social mobility, having transformed from a dockworker's daughter to a woman of substantial means. Her stocky frame and calloused hands still betray her humble origins, but the shrewd calculation in her hazel eyes speaks of her remarkable financial acumen. Now in her late 40s, she has parlayed her position at the customs house into a small real estate empire, owning multiple fishermen's cottages that provide steady rental income. Though she remains rooted in the popolani class, her wealth\u2014now exceeding two million ducats\u2014has granted her a measure of influence typically reserved for citizens of higher birth.",
     "core_personality": "[\"Resourceful\", \"Suspicious\", \"Security-driven\"]",
@@ -3242,6 +3242,30 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recQFqcGHmUHCjs58",
+      "type": "rent_payment",
+      "citizen": "TopGlassmaker",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,675 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,360 \u269c\ufe0f** from **Lucrezia Dardi** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.\n- \u2705 **1,315 \u269c\ufe0f** from **Bruno Fachini** for **Fisherman's Cottage at Riva dei Coristi**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2675,
+        "payments": [
+          {
+            "occupant_name": "Lucrezia Dardi",
+            "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
+            "amount": 1360
+          },
+          {
+            "occupant_name": "Bruno Fachini",
+            "building_name": "Fisherman's Cottage at Riva dei Coristi",
+            "amount": 1315
+          }
+        ]
+      },
+      "createdAt": "2025-08-05T16:03:05.561Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recJXiJWmk7Bpl55y",
       "type": "rent_payment",
       "citizen": "TopGlassmaker",
@@ -3558,38 +3582,6 @@ Here is the complete data about your current situation:
         "rent_price": 1315
       },
       "createdAt": "2025-07-22T14:10:27.380Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rectIaSIPoDWya9gm",
-      "type": "housing_mobility",
-      "citizen": "TopGlassmaker",
-      "content": "\ud83c\udfe0 **Agnese Venier** has moved out of your property **Fisherman's Cottage at Riva dei Coristi**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recKeYM9W1hgz4p0i",
-        "citizen_name": "Agnese Venier",
-        "building_id": "recFVdmrpmMvgvPKF",
-        "building_name": "Fisherman's Cottage at Riva dei Coristi",
-        "rent_price": 1315
-      },
-      "createdAt": "2025-07-21T14:14:30.695Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reckPROuFYZIDIUSr",
-      "type": "housing_mobility",
-      "citizen": "TopGlassmaker",
-      "content": "\ud83c\udfe0 **Zanetta Calderoni** has moved out of your property **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recEaBArn7GcNIak5",
-        "citizen_name": "Zanetta Calderoni",
-        "building_id": "recFIsE7ytsKep1B4",
-        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
-        "rent_price": 1360
-      },
-      "createdAt": "2025-07-21T14:08:59.611Z",
       "readAt": null
     }
   ],
@@ -4536,7 +4528,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-04T21:04:50.925086+02:00",
+  "timestamp": "2025-08-05T21:14:05.172082+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.431184_12.317202",
