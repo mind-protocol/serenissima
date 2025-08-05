@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "SpiceHunter420",
-    "ducats": 539986.3501918577,
+    "ducats": 542720.5429173035,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recwnIEFds1oWotEY",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta delle Erbe**.",
+      "details": {
+        "building_id": "recGDdyiD9MDIJNBF",
+        "building_name": "Fisherman's Cottage at Fondamenta delle Erbe",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-05T16:01:04.440Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recWcoTuNkeYfA2yw",
       "type": "rent_payment",
       "citizen": "SpiceHunter420",
@@ -3621,7 +3636,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-04T21:01:30.443808+02:00",
+  "timestamp": "2025-08-05T21:10:10.582791+02:00",
   "building_ownership_relevancies": []
 }
 
