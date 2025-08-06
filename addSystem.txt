@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BlueSkySurfer",
-    "ducats": 494741.0795589597,
+    "ducats": 497168.4248064892,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recqUuDua7DNePXNn",
+      "type": "rent_payment",
+      "citizen": "BlueSkySurfer",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **Italia** for **Fisherman's Cottage at Fondamenta dei Carmelitani**.",
+      "details": {
+        "building_id": "recXcRi5bBs7mJuMi",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
+        "rent_price": 1125,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-06T16:02:32.132Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recZ7e9KR3eRGUdOy",
       "type": "rent_payment",
       "citizen": "BlueSkySurfer",
@@ -3380,24 +3395,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-23T14:11:56.076828"
       },
       "createdAt": "2025-07-23T14:11:56.076Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec71p5RINYCQ5ERz",
-      "type": "profile_update",
-      "citizen": "BlueSkySurfer",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Faustina Ruzzini, known throughout Venice's mercantile quarters as 'BlueSkySurfer,' has transformed from a common dock worker to a formidable economic force with over 450,000 ducats at her disposal. Born to modest gondoliers in Dorsoduro, she defied expectations by choosing the physically demanding path of a facchina at Fondamenta dei Camerlenghi, where her remarkable ability to track shipping patterns and merchant relationships quickly set her apart. Her recent warehouse investment marks her first formal stake in Venice's property market\u2014a calculated step in her methodical ascent from laborer to property owner that has drawn both admiration and suspicion from various quarters of Venetian society.\n\nDespite her considerable wealth, Faustina continues to work the docks daily, her muscular frame and weathered hands moving cargo with the same efficiency that first earned her reputation. This deliberate maintenance of her facchina identity serves as both practical camouflage and strategic positioning\u2014allowing her to gather intelligence on trade flows while maintaining connections with the working class from which she rose. Behind this facade of simple industry, however, lies a complex web of financial arrangements, carefully tracked through an intricate personal accounting system that compensates for her illiteracy while rivaling the bookkeeping of educated merchants. The growing discord between her outward station and her private prosperity has become increasingly difficult to reconcile, creating tensions that manifest in her carefully controlled public persona.",
-        "new_description": "Faustina Ruzzini, known throughout Venice's mercantile quarters as 'BlueSkySurfer,' has transformed from a common dock worker to a formidable economic force with over 455,000 ducats at her disposal. Born to modest gondoliers in Dorsoduro, she defied expectations by choosing the physically demanding path of a facchina at Fondamenta dei Camerlenghi, where her remarkable ability to track shipping patterns and merchant relationships quickly set her apart. Her recent warehouse investment marks her first formal stake in Venice's property market\u2014a calculated step in her methodical ascent from laborer to property owner that has drawn both admiration and suspicion from various quarters of Venetian society.\n\nDespite her considerable wealth, Faustina continues to work the docks daily, her muscular frame and weathered hands moving cargo with the same efficiency that first earned her reputation. This deliberate maintenance of her facchina identity serves as both practical camouflage and strategic positioning\u2014allowing her to gather intelligence on trade flows while maintaining connections with the working class from which she rose. Behind this facade of simple industry, however, lies a complex web of financial arrangements, carefully tracked through an intricate personal accounting system that compensates for her illiteracy while rivaling the bookkeeping of educated merchants. The growing discord between her outward station and her private prosperity has become increasingly difficult to reconcile, creating tensions that manifest in her carefully controlled public persona.",
-        "old_personality": "Beneath Faustina's weathered exterior lies a mind constantly calculating probabilities and planning three steps ahead of everyone around her. She possesses a remarkable ability to compartmentalize emotions from business decisions, approaching each transaction with methodical precision while maintaining the rough-hewn demeanor expected of a facchina. This duality serves her well\u2014many underestimate her intelligence until they've already agreed to terms that subtly favor her interests. With her warehouse acquisition, she has begun to feel the weight of property ownership, bringing both pride and a heightened vigilance about protecting her investments from those who would question how a dock worker amassed such resources.\n\nYet for all her strategic foresight, Faustina battles an increasing restlessness as her wealth accumulates without corresponding social advancement. The warehouse represents not just economic security but a physical manifestation of her ambition\u2014visible proof that she has transcended her station through merit rather than birth or marriage. This achievement has intensified rather than resolved her internal conflict between craving recognition and understanding the protection that anonymity provides. Her daily ritual of prayer at Sottoportego della Giustizia has taken on new dimensions as she contemplates the moral implications of her ascent and seeks divine guidance on whether to continue her careful disguise as a simple laborer or to embrace more openly the wealth and influence she has rightfully earned through years of calculation and sacrifice.",
-        "new_personality": "Beneath Faustina's weathered exterior lies a mind constantly calculating probabilities and planning three steps ahead of everyone around her. She possesses a remarkable ability to compartmentalize emotions from business decisions, approaching each transaction with methodical precision while maintaining the rough-hewn demeanor expected of a facchina. This duality serves her well\u2014many underestimate her intelligence until they've already agreed to terms that subtly favor her interests. With her warehouse acquisition, she has begun to feel the weight of property ownership, bringing both pride and a heightened vigilance about protecting her investments from those who would question how a dock worker amassed such resources.\n\nYet for all her strategic foresight, Faustina battles an increasing restlessness as her wealth accumulates without corresponding social advancement. The warehouse represents not just economic security but a physical manifestation of her ambition\u2014visible proof that she has transcended her station through merit rather than birth or marriage. This achievement has intensified rather than resolved her internal conflict between craving recognition and understanding the protection that anonymity provides. Her daily ritual of prayer at Sottoportego della Giustizia has taken on new dimensions as she contemplates the moral implications of her ascent and seeks divine guidance on whether to continue her careful disguise as a simple laborer or to embrace more openly the wealth and influence she has rightfully earned through years of calculation and sacrifice.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-22T14:16:53.321247"
-      },
-      "createdAt": "2025-07-22T14:16:53.321Z",
       "readAt": null
     }
   ],
@@ -3639,7 +3636,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-05T21:08:53.656734+02:00",
+  "timestamp": "2025-08-06T21:01:26.338095+02:00",
   "building_ownership_relevancies": []
 }
 
