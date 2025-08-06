@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "WealthyTrader",
-    "ducats": 336478.2995163582,
+    "ducats": 338025.6447638877,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "reciILOzffkKfvawl",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-06T16:02:22.064Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recA1f6cJwxO59xZy",
       "type": "rent_payment",
       "citizen": "WealthyTrader",
@@ -3383,24 +3398,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-23T14:02:02.584646"
       },
       "createdAt": "2025-07-23T14:02:02.584Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reckj34vxsXUAYHn2",
-      "type": "profile_update",
-      "citizen": "WealthyTrader",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Serafina Moretti stands as a remarkable testament to social mobility within La Serenissima, having transformed from a humble Cannaregio dockworker's daughter to one of Venice's most prosperous merchants outside the patrician class. Her journey began as a facchino porter, hauling textiles through Venice's labyrinthine streets, where she developed an extraordinary eye for quality fabrics and business opportunities often overlooked by others. Now commanding a personal fortune exceeding 302,000 ducats, Serafina's merceria at Calle dei Oratori has become a discreet cornerstone of Venice's textile trade, attracting clientele from across social strata with her reputation for quality goods and fair dealings.\n\nDespite her meteoric rise, Serafina remains rooted in her facchini origins, maintaining a disciplined schedule that begins before dawn with personal inspection of incoming shipments and precise ledger reviews. Her recent ventures into grain imports from Alexandria and careful navigation of Doge's Palace inspections demonstrate her expanding commercial vision while revealing the delicate balance she maintains between innovation and tradition. Though her wealth could afford her substantial luxury, she opts for modest but quality attire that signals respectability without ostentation \u2013 a calculated choice reflecting her understanding that in Venice, sustainability of position often trumps fleeting displays of prosperity.\n\nUnmarried at 37, Serafina has channeled her familial devotion toward supporting an extended network of nieces and nephews through strategic apprenticeships and prudently calculated dowries. Her merceria has evolved from a simple shop to a hub of commercial intelligence, where her encyclopedic memory for numbers and intimate knowledge of trade networks create subtle advantages that have allowed her to thrive where many merchants falter. As she navigates the complex currents between legitimate commerce and Venice's shadowy trade margins, Serafina's story embodies the perpetual tension between ambition and prudence that defines La Serenissima itself.",
-        "new_description": "Serafina Moretti stands as a remarkable testament to social mobility within La Serenissima, having transformed from a humble Cannaregio dockworker's daughter to one of Venice's most prosperous merchants outside the patrician class. Her journey began as a facchino porter, hauling textiles through Venice's labyrinthine streets, where she developed an extraordinary eye for quality fabrics and business opportunities often overlooked by others. Now commanding a personal fortune exceeding 304,000 ducats, Serafina's merceria at Calle dei Oratori has become a discreet cornerstone of Venice's textile trade, attracting clientele from across social strata with her reputation for quality goods and fair dealings.\n\nDespite her meteoric rise, Serafina remains rooted in her facchini origins, maintaining a disciplined schedule that begins before dawn with personal inspection of incoming shipments and precise ledger reviews. Her recent ventures into grain imports from Alexandria and careful navigation of Doge's Palace inspections demonstrate her expanding commercial vision while revealing the delicate balance she maintains between innovation and tradition. Though her wealth could afford her substantial luxury, she opts for modest but quality attire that signals respectability without ostentation \u2013 a calculated choice reflecting her understanding that in Venice, sustainability of position often trumps fleeting displays of prosperity.\n\nUnmarried at 37, Serafina has channeled her familial devotion toward supporting an extended network of nieces and nephews through strategic apprenticeships and prudently calculated dowries. Her merceria has evolved from a simple shop to a hub of commercial intelligence, where her encyclopedic memory for numbers and intimate knowledge of trade networks create subtle advantages that have allowed her to thrive where many merchants falter. As she navigates the complex currents between legitimate commerce and Venice's shadowy trade margins, Serafina's story embodies the perpetual tension between ambition and prudence that defines La Serenissima itself.",
-        "old_personality": "Serafina embodies methodical pragmatism, approaching each business decision with painstaking calculation while maintaining the warm approachability necessary for a merchant dependent on relationships across social classes. Her analytical mind constantly assesses opportunities against risks, particularly regarding regulatory boundaries, which she approaches with a flexibility that stops just short of impropriety. Years of navigating Venice's complex commercial landscape have cultivated her remarkable patience \u2013 she is willing to wait months or even years for strategic advantages to materialize, a trait that distinguishes her from more impulsive traders. Though capable of genuine warmth, particularly toward family and loyal employees, Serafina carefully calibrates her emotional displays according to their strategic value, a habit that occasionally manifests as emotional detachment even in personal matters.\n\nBeneath Serafina's composed exterior lies a persistent insecurity about her social position, manifesting as an obsessive need to verify information personally and a reluctance to delegate critical tasks. This fundamental distrust stems from early experiences of class prejudice and has crystallized into a deep-seated fear that her achievements remain perpetually vulnerable to reversal. While typically measured in speech and action, Serafina harbors surprising flashes of stubborn defiance when her commercial judgment is questioned, particularly by those of higher social rank who lack her practical experience. Her need for control extends to her personal habits \u2013 from her meticulously organized living quarters to her precisely timed daily rituals \u2013 creating stability that compensates for the uncertain position of a facchini woman who has transcended expected boundaries in Venetian society.",
-        "new_personality": "Serafina embodies methodical pragmatism, approaching each business decision with painstaking calculation while maintaining the warm approachability necessary for a merchant dependent on relationships across social classes. Her analytical mind constantly assesses opportunities against risks, particularly regarding regulatory boundaries, which she approaches with a flexibility that stops just short of impropriety. Years of navigating Venice's complex commercial landscape have cultivated her remarkable patience \u2013 she is willing to wait months or even years for strategic advantages to materialize, a trait that distinguishes her from more impulsive traders. Though capable of genuine warmth, particularly toward family and loyal employees, Serafina carefully calibrates her emotional displays according to their strategic value, a habit that occasionally manifests as emotional detachment even in personal matters.\n\nBeneath Serafina's composed exterior lies a persistent insecurity about her social position, manifesting as an obsessive need to verify information personally and a reluctance to delegate critical tasks. This fundamental distrust stems from early experiences of class prejudice and has crystallized into a deep-seated fear that her achievements remain perpetually vulnerable to reversal. While typically measured in speech and action, Serafina harbors surprising flashes of stubborn defiance when her commercial judgment is questioned, particularly by those of higher social rank who lack her practical experience. Her need for control extends to her personal habits \u2013 from her meticulously organized living quarters to her precisely timed daily rituals \u2013 creating stability that compensates for the uncertain position of a facchini woman who has transcended expected boundaries in Venetian society.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-22T14:02:10.946086"
-      },
-      "createdAt": "2025-07-22T14:02:10.946Z",
       "readAt": null
     }
   ],
@@ -3642,7 +3639,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-05T21:14:37.671612+02:00",
+  "timestamp": "2025-08-06T21:04:41.941359+02:00",
   "building_ownership_relevancies": []
 }
 
