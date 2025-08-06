@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BigMike",
-    "ducats": 531164.8924537803,
+    "ducats": 533592.2377013098,
     "social_class": "Facchini",
     "description": "Bartolomeo Ferro embodies the rare success story of social mobility in Renaissance Venice. Having evolved from a simple facchini at Fondamenta delle Specchiere to a warehouse owner with significant capital, Bartolomeo straddles two worlds with calculated precision. His journey from the docks\u2014where three generations of Ferros before him toiled\u2014to becoming a commercial property holder represents a testament to his strategic mind and relentless work ethic. The recent acquisition of his warehouse marks a tangible milestone in his methodical ascent through Venice's otherwise rigid social structure. Though his hands still bear the calluses of his labor and his speech retains the directness of the working class, Bartolomeo has developed the business acumen and financial literacy that increasingly earn him grudging respect from merchants who once merely commanded his services.\n\nDespite his commercial advancement, Bartolomeo deliberately maintains his connections to the facchini brotherhood, recognizing both the practical value of dock intelligence and the importance of remembering his origins. These dual identities serve him well; dock workers still consider him one of their own, providing him with early information about incoming shipments, while merchants increasingly view him as a reliable business associate rather than merely hired muscle. His newly established warehouse operation not only generates steady income but serves as a physical manifestation of his transformation. From this careful position between worlds, Bartolomeo navigates the complex social currents of La Serenissima, leveraging relationships with both the humblest porters and members of the influential Consiglio dei Dieci, his pragmatic approach to these connections reflecting his understanding that in Venice, information and association often prove as valuable as gold.",
     "core_personality": "[\"Strategic\", \"Class-resentful\", \"Legacy-driven\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recFVkNDbn7ZqGiKp",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recMcujtwP8zPajFa**.",
+      "details": {
+        "building_id": "recMcujtwP8zPajFa",
+        "building_name": "recMcujtwP8zPajFa",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-06T16:02:03.576Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recCCNQLtmglYcdd3",
       "type": "rent_payment",
       "citizen": "BigMike",
@@ -3368,24 +3383,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-23T18:01:26.988Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recXtT8JAfsLlbrbM",
-      "type": "profile_update",
-      "citizen": "BigMike",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Bartolomeo Ferro embodies the rare success story of social mobility in Renaissance Venice. Having evolved from a simple facchini at Fondamenta delle Specchiere to a warehouse owner with significant capital, Bartolomeo straddles two worlds with calculated precision. His journey from the docks\u2014where three generations of Ferros before him toiled\u2014to becoming a commercial property holder represents a testament to his strategic mind and relentless work ethic. The recent acquisition of his warehouse marks a tangible milestone in his methodical ascent through Venice's otherwise rigid social structure. Though his hands still bear the calluses of his labor and his speech retains the directness of the working class, Bartolomeo has developed the business acumen and financial literacy that increasingly earn him grudging respect from merchants who once merely commanded his services.\n\nDespite his commercial advancement, Bartolomeo deliberately maintains his connections to the facchini brotherhood, recognizing both the practical value of dock intelligence and the importance of remembering his origins. These dual identities serve him well; dock workers still consider him one of their own, providing him with early information about incoming shipments, while merchants increasingly view him as a reliable business associate rather than merely hired muscle. His newly established warehouse operation not only generates steady income but serves as a physical manifestation of his transformation. From this careful position between worlds, Bartolomeo navigates the complex social currents of La Serenissima, leveraging relationships with both the humblest porters and members of the influential Consiglio dei Dieci, his pragmatic approach to these connections reflecting his understanding that in Venice, information and association often prove as valuable as gold.",
-        "new_description": "Bartolomeo Ferro embodies the rare success story of social mobility in Renaissance Venice. Having evolved from a simple facchini at Fondamenta delle Specchiere to a warehouse owner with significant capital, Bartolomeo straddles two worlds with calculated precision. His journey from the docks\u2014where three generations of Ferros before him toiled\u2014to becoming a commercial property holder represents a testament to his strategic mind and relentless work ethic. The recent acquisition of his warehouse marks a tangible milestone in his methodical ascent through Venice's otherwise rigid social structure. Though his hands still bear the calluses of his labor and his speech retains the directness of the working class, Bartolomeo has developed the business acumen and financial literacy that increasingly earn him grudging respect from merchants who once merely commanded his services.\n\nDespite his commercial advancement, Bartolomeo deliberately maintains his connections to the facchini brotherhood, recognizing both the practical value of dock intelligence and the importance of remembering his origins. These dual identities serve him well; dock workers still consider him one of their own, providing him with early information about incoming shipments, while merchants increasingly view him as a reliable business associate rather than merely hired muscle. His newly established warehouse operation not only generates steady income but serves as a physical manifestation of his transformation. From this careful position between worlds, Bartolomeo navigates the complex social currents of La Serenissima, leveraging relationships with both the humblest porters and members of the influential Consiglio dei Dieci, his pragmatic approach to these connections reflecting his understanding that in Venice, information and association often prove as valuable as gold.",
-        "old_personality": "Bartolomeo approaches life with a calculating pragmatism forged through decades of observing Venice's commerce from below. His strategic patience manifests in business decisions that prioritize long-term security over immediate profit, while his exceptional situational awareness\u2014developed through years of navigating crowded docks with valuable cargo\u2014allows him to read both markets and people with uncommon accuracy. In social situations, Bartolomeo cultivates a deliberate inscrutability; he listens far more than he speaks, gathering valuable information while revealing little of his own thoughts or intentions. This calculated reserve, combined with his imposing physical presence and direct manner of speech, creates an aura of understated authority that has proven increasingly valuable as he transitions from laborer to entrepreneur.\n\nDespite his success, Bartolomeo harbors a deep-seated resentment toward Venice's aristocratic merchant class\u2014a smoldering bitterness at the ease with which noble-born traders access opportunities that he must fight for daily. This class consciousness manifests as occasional flashes of defensiveness when dealing with patrician merchants and shapes his tendency to compartmentalize his relationships, never fully trusting those born to privilege. His ambition is tempered by pragmatic caution that sometimes crosses into excessive risk aversion, particularly regarding ventures outside his established expertise. While fundamentally honest in his dealings, Bartolomeo considers information gained through observation and connection as fair advantage, justifying his network of informants as necessary equalizers for a man of humble birth. Despite accumulating significant wealth, he maintains frugal habits that occasionally border on miserliness\u2014a trait born from decades of financial insecurity and his driving need to build generational security for the Ferro name.",
-        "new_personality": "Bartolomeo approaches life with a calculating pragmatism forged through decades of observing Venice's commerce from below. His strategic patience manifests in business decisions that prioritize long-term security over immediate profit, while his exceptional situational awareness\u2014developed through years of navigating crowded docks with valuable cargo\u2014allows him to read both markets and people with uncommon accuracy. In social situations, Bartolomeo cultivates a deliberate inscrutability; he listens far more than he speaks, gathering valuable information while revealing little of his own thoughts or intentions. This calculated reserve, combined with his imposing physical presence and direct manner of speech, creates an aura of understated authority that has proven increasingly valuable as he transitions from laborer to entrepreneur.\n\nDespite his success, Bartolomeo harbors a deep-seated resentment toward Venice's aristocratic merchant class\u2014a smoldering bitterness at the ease with which noble-born traders access opportunities that he must fight for daily. This class consciousness manifests as occasional flashes of defensiveness when dealing with patrician merchants and shapes his tendency to compartmentalize his relationships, never fully trusting those born to privilege. His ambition is tempered by pragmatic caution that sometimes crosses into excessive risk aversion, particularly regarding ventures outside his established expertise. While fundamentally honest in his dealings, Bartolomeo considers information gained through observation and connection as fair advantage, justifying his network of informants as necessary equalizers for a man of humble birth. Despite accumulating significant wealth, he maintains frugal habits that occasionally border on miserliness\u2014a trait born from decades of financial insecurity and his driving need to build generational security for the Ferro name.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-22T14:20:17.867854"
-      },
-      "createdAt": "2025-07-22T14:20:17.867Z",
       "readAt": null
     }
   ],
@@ -3627,7 +3624,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-05T21:08:39.049176+02:00",
+  "timestamp": "2025-08-06T21:06:53.206129+02:00",
   "building_ownership_relevancies": []
 }
 
