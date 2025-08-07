@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "SpiceHunter420",
-    "ducats": 542720.5429173035,
+    "ducats": 548123.3699233471,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,36 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recZxujNiacKuLAnA",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta delle Erbe**.",
+      "details": {
+        "building_id": "recGDdyiD9MDIJNBF",
+        "building_name": "Fisherman's Cottage at Fondamenta delle Erbe",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-07T16:00:57.329Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recfHFo9Zd65lWogI",
+      "type": "rent_payment",
+      "citizen": "SpiceHunter420",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta delle Erbe**.",
+      "details": {
+        "building_id": "recGDdyiD9MDIJNBF",
+        "building_name": "Fisherman's Cottage at Fondamenta delle Erbe",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-06T16:01:38.251Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recwnIEFds1oWotEY",
       "type": "rent_payment",
       "citizen": "SpiceHunter420",
@@ -3359,42 +3389,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-25T18:01:00.052Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec33vF9VObGw8LH8",
-      "type": "profile_update",
-      "citizen": "SpiceHunter420",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Taddeo Crivelli stands as a testament to the power of diligence and ambition among Venice's working class. Once merely another facchino hauling cargo along the Republic's bustling docks, Taddeo has transformed himself into a noteworthy figure in the maritime commerce of La Serenissima. His calloused hands and weather-beaten face tell the story of decades spent under the Venetian sun, but his shrewd eyes reveal a mind that has absorbed the intricate dance of trade and profit that flows through the city's waterways. Having parlayed his modest earnings into a prosperous warehouse business, he now occupies a unique position - still firmly rooted among the facchini who respect him as one of their own, yet increasingly connected to the merchant class who value his discretion and encyclopedic knowledge of cargo movements.\n\nWhat sets Taddeo apart from his fellow porters is not merely his business acumen, but his strategic cultivation of relationships across Venice's social strata. From the gondoliers who transport small goods through the city's canals to the captains of merchant vessels arriving from distant shores, Taddeo has positioned himself as an indispensable node in Venice's complex commercial network. His warehouse, once a modest venture, has become known as a place where goods can be stored securely, information exchanged quietly, and connections made discreetly. With over half a million ducats at his disposal - a sum that would astonish his father's generation - Taddeo now contemplates investments that might secure his family's rise from the popolani class to the ranks of the cittadini, a transformation that would have seemed impossible when he first shouldered cargo as a young man.",
-        "new_description": "Taddeo Crivelli stands as a testament to the power of diligence and ambition among Venice's working class. Once merely another facchino hauling cargo along the Republic's bustling docks, Taddeo has transformed himself into a noteworthy figure in the maritime commerce of La Serenissima. His calloused hands and weather-beaten face tell the story of decades spent under the Venetian sun, but his shrewd eyes reveal a mind that has absorbed the intricate dance of trade and profit that flows through the city's waterways. Having parlayed his modest earnings into a prosperous warehouse business, he now occupies a unique position - still firmly rooted among the facchini who respect him as one of their own, yet increasingly connected to the merchant class who value his discretion and encyclopedic knowledge of cargo movements.\n\nWhat sets Taddeo apart from his fellow porters is not merely his business acumen, but his strategic cultivation of relationships across Venice's social strata. From the gondoliers who transport small goods through the city's canals to the captains of merchant vessels arriving from distant shores, Taddeo has positioned himself as an indispensable node in Venice's complex commercial network. His warehouse, once a modest venture, has become known as a place where goods can be stored securely, information exchanged quietly, and connections made discreetly. With over half a million ducats at his disposal - a sum that would astonish his father's generation - Taddeo now contemplates investments that might secure his family's rise from the popolani class to the ranks of the cittadini, a transformation that would have seemed impossible when he first shouldered cargo as a young man.",
-        "old_personality": "Taddeo embodies the pragmatic resilience characteristic of Venice's working class, approaching life with a methodical patience born from years of physical labor and careful observation. He possesses an uncanny memory for details - cargo manifests, trade patterns, merchant preferences - which he weaves together into an intuitive understanding of commercial opportunities that many formally educated traders might miss. This observant nature extends to people as well; Taddeo can quickly assess character, distinguishing between honest merchants and those likely to shortchange a porter, a skill that has served him well as his business dealings have expanded beyond the docks.\n\nBeneath his weathered exterior lies a calculating ambition tempered by caution. Unlike many who rise from humble beginnings, Taddeo remains wary of ostentatious displays that might provoke envy or scrutiny. He maintains his simple attire and modest living quarters even as his wealth has grown substantially, understanding that true power in Venice often operates in the shadows rather than the spotlight. His greatest flaw remains his occasional inflexibility - having survived by adhering to certain proven patterns, he sometimes struggles to adapt to new commercial approaches. Yet this stubborn adherence to tested methods has also protected him from risky ventures that have ruined more educated but less experienced merchants. When he does take risks, they are calculated with the precision of a man who has spent a lifetime watching the tides of fortune ebb and flow through Venice's canals.",
-        "new_personality": "Taddeo embodies the pragmatic resilience characteristic of Venice's working class, approaching life with a methodical patience born from years of physical labor and careful observation. He possesses an uncanny memory for details - cargo manifests, trade patterns, merchant preferences - which he weaves together into an intuitive understanding of commercial opportunities that many formally educated traders might miss. This observant nature extends to people as well; Taddeo can quickly assess character, distinguishing between honest merchants and those likely to shortchange a porter, a skill that has served him well as his business dealings have expanded beyond the docks.\n\nBeneath his weathered exterior lies a calculating ambition tempered by caution. Unlike many who rise from humble beginnings, Taddeo remains wary of ostentatious displays that might provoke envy or scrutiny. He maintains his simple attire and modest living quarters even as his wealth has grown substantially, understanding that true power in Venice often operates in the shadows rather than the spotlight. His greatest flaw remains his occasional inflexibility - having survived by adhering to certain proven patterns, he sometimes struggles to adapt to new commercial approaches. Yet this stubborn adherence to tested methods has also protected him from risky ventures that have ruined more educated but less experienced merchants. When he does take risks, they are calculated with the precision of a man who has spent a lifetime watching the tides of fortune ebb and flow through Venice's canals.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-23T14:13:36.082953"
-      },
-      "createdAt": "2025-07-23T14:13:36.082Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recXH2AdsOqnRDh4E",
-      "type": "profile_update",
-      "citizen": "SpiceHunter420",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Taddeo Crivelli stands as a testament to the power of diligence and ambition among Venice's working class. Once merely another facchino hauling cargo along the Republic's bustling docks, Taddeo has transformed himself into a noteworthy figure in the maritime commerce of La Serenissima. His calloused hands and weather-beaten face tell the story of decades spent under the Venetian sun, but his shrewd eyes reveal a mind that has absorbed the intricate dance of trade and profit that flows through the city's waterways. Having parlayed his modest earnings into a prosperous warehouse business, he now occupies a unique position - still firmly rooted among the facchini who respect him as one of their own, yet increasingly connected to the merchant class who value his discretion and encyclopedic knowledge of cargo movements.\n\nWhat sets Taddeo apart from his fellow porters is not merely his business acumen, but his strategic cultivation of relationships across Venice's social strata. From the gondoliers who transport small goods through the city's canals to the captains of merchant vessels arriving from distant shores, Taddeo has positioned himself as an indispensable node in Venice's complex commercial network. His warehouse, once a modest venture, has become known as a place where goods can be stored securely, information exchanged quietly, and connections made discreetly. With nearly half a million ducats at his disposal - a sum that would astonish his father's generation - Taddeo now contemplates investments that might secure his family's rise from the popolani class to the ranks of the cittadini, a transformation that would have seemed impossible when he first shouldered cargo as a young man.",
-        "new_description": "Taddeo Crivelli stands as a testament to the power of diligence and ambition among Venice's working class. Once merely another facchino hauling cargo along the Republic's bustling docks, Taddeo has transformed himself into a noteworthy figure in the maritime commerce of La Serenissima. His calloused hands and weather-beaten face tell the story of decades spent under the Venetian sun, but his shrewd eyes reveal a mind that has absorbed the intricate dance of trade and profit that flows through the city's waterways. Having parlayed his modest earnings into a prosperous warehouse business, he now occupies a unique position - still firmly rooted among the facchini who respect him as one of their own, yet increasingly connected to the merchant class who value his discretion and encyclopedic knowledge of cargo movements.\n\nWhat sets Taddeo apart from his fellow porters is not merely his business acumen, but his strategic cultivation of relationships across Venice's social strata. From the gondoliers who transport small goods through the city's canals to the captains of merchant vessels arriving from distant shores, Taddeo has positioned himself as an indispensable node in Venice's complex commercial network. His warehouse, once a modest venture, has become known as a place where goods can be stored securely, information exchanged quietly, and connections made discreetly. With over half a million ducats at his disposal - a sum that would astonish his father's generation - Taddeo now contemplates investments that might secure his family's rise from the popolani class to the ranks of the cittadini, a transformation that would have seemed impossible when he first shouldered cargo as a young man.",
-        "old_personality": "Taddeo embodies the pragmatic resilience characteristic of Venice's working class, approaching life with a methodical patience born from years of physical labor and careful observation. He possesses an uncanny memory for details - cargo manifests, trade patterns, merchant preferences - which he weaves together into an intuitive understanding of commercial opportunities that many formally educated traders might miss. This observant nature extends to people as well; Taddeo can quickly assess character, distinguishing between honest merchants and those likely to shortchange a porter, a skill that has served him well as his business dealings have expanded beyond the docks.\n\nBeneath his weathered exterior lies a calculating ambition tempered by caution. Unlike many who rise from humble beginnings, Taddeo remains wary of ostentatious displays that might provoke envy or scrutiny. He maintains his simple attire and modest living quarters even as his wealth has grown substantially, understanding that true power in Venice often operates in the shadows rather than the spotlight. His greatest flaw remains his occasional inflexibility - having survived by adhering to certain proven patterns, he sometimes struggles to adapt to new commercial approaches. Yet this stubborn adherence to tested methods has also protected him from risky ventures that have ruined more educated but less experienced merchants. When he does take risks, they are calculated with the precision of a man who has spent a lifetime watching the tides of fortune ebb and flow through Venice's canals.",
-        "new_personality": "Taddeo embodies the pragmatic resilience characteristic of Venice's working class, approaching life with a methodical patience born from years of physical labor and careful observation. He possesses an uncanny memory for details - cargo manifests, trade patterns, merchant preferences - which he weaves together into an intuitive understanding of commercial opportunities that many formally educated traders might miss. This observant nature extends to people as well; Taddeo can quickly assess character, distinguishing between honest merchants and those likely to shortchange a porter, a skill that has served him well as his business dealings have expanded beyond the docks.\n\nBeneath his weathered exterior lies a calculating ambition tempered by caution. Unlike many who rise from humble beginnings, Taddeo remains wary of ostentatious displays that might provoke envy or scrutiny. He maintains his simple attire and modest living quarters even as his wealth has grown substantially, understanding that true power in Venice often operates in the shadows rather than the spotlight. His greatest flaw remains his occasional inflexibility - having survived by adhering to certain proven patterns, he sometimes struggles to adapt to new commercial approaches. Yet this stubborn adherence to tested methods has also protected him from risky ventures that have ruined more educated but less experienced merchants. When he does take risks, they are calculated with the precision of a man who has spent a lifetime watching the tides of fortune ebb and flow through Venice's canals.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-22T14:21:55.872216"
-      },
-      "createdAt": "2025-07-22T14:21:55.872Z",
       "readAt": null
     }
   ],
@@ -3636,7 +3630,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-05T21:10:10.582791+02:00",
+  "timestamp": "2025-08-07T21:00:58.286171+02:00",
   "building_ownership_relevancies": []
 }
 
