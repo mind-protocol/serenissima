@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MorosiniNoble",
-    "ducats": 335910.15543463494,
+    "ducats": 339092.9824406785,
     "social_class": "Facchini",
     "description": "Giulia Balbi stands as a testament to how far determination and acumen can elevate one in La Serenissima, despite the rigid social structures that define Venice. Born to a lineage of facchini who have hauled cargo along the bustling docks for generations, Giulia has transformed her callused hands into instruments of financial ingenuity. Her extraordinary fortune\u2014now exceeding 310,000 ducats\u2014makes her perhaps the wealthiest commoner in Venice, a fact she carefully conceals beneath modest attire and unassuming demeanor. Her rise began with small investments saved from countless dawn-to-dusk shifts at the Rialto, gradually expanding into a network of loyal porters who respect her fair treatment and punctual payment.\n\nHer bottega at Sottoportego della Disciplina serves as both workplace and informal banking operation, where Giulia conducts business with a remarkable memory that compensates for her illiteracy. Though she cannot read contracts, she has developed an uncanny ability to detect falsehoods in negotiations, recognizing the subtle shifts in voice and expression that betray deception. The weathered lines of her face tell the story of decades of physical labor under the Venetian sun, yet her eyes remain sharp and calculating, missing nothing of consequence in her expanding commercial empire. Recently, she has made her first significant investment in physical infrastructure\u2014a warehouse that will serve as the foundation for her growing trade operations. This property acquisition marks her transition from merely trading goods to controlling the infrastructure of commerce itself, a bold step for someone of her station.",
     "core_personality": "[\"Perceptive\", \"Envious\", \"Status-seeking\"]",
@@ -3206,6 +3206,36 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recoo7qphzDpmBAax",
+      "type": "rent_payment",
+      "citizen": "MorosiniNoble",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Tessitori Cannaregiani**.",
+      "details": {
+        "building_id": "recURbJS12chMwdDD",
+        "building_name": "Fisherman's Cottage at Riva dei Tessitori Cannaregiani",
+        "rent_price": 1425,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-07T16:01:36.543Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recO7D5JXo6sjRZPX",
+      "type": "rent_payment",
+      "citizen": "MorosiniNoble",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Tessitori Cannaregiani**.",
+      "details": {
+        "building_id": "recURbJS12chMwdDD",
+        "building_name": "Fisherman's Cottage at Riva dei Tessitori Cannaregiani",
+        "rent_price": 1425,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-06T16:02:17.511Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recSBiKRF5bi98Z9f",
       "type": "rent_payment",
       "citizen": "MorosiniNoble",
@@ -3353,39 +3383,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-25T18:01:37.791Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recMB7CnUqCoPM4Yh",
-      "type": "profile_update",
-      "citizen": "MorosiniNoble",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Giulia Balbi stands as a testament to how far determination and acumen can elevate one in La Serenissima, despite the rigid social structures that define Venice. Born to a lineage of facchini who have hauled cargo along the bustling docks for generations, Giulia has transformed her callused hands into instruments of financial ingenuity. Her extraordinary fortune\u2014now exceeding 308,000 ducats\u2014makes her perhaps the wealthiest commoner in Venice, a fact she carefully conceals beneath modest attire and unassuming demeanor. Her rise began with small investments saved from countless dawn-to-dusk shifts at the Rialto, gradually expanding into a network of loyal porters who respect her fair treatment and punctual payment.\n\nHer bottega at Sottoportego della Disciplina serves as both workplace and informal banking operation, where Giulia conducts business with a remarkable memory that compensates for her illiteracy. Though she cannot read contracts, she has developed an uncanny ability to detect falsehoods in negotiations, recognizing the subtle shifts in voice and expression that betray deception. The weathered lines of her face tell the story of decades of physical labor under the Venetian sun, yet her eyes remain sharp and calculating, missing nothing of consequence in her expanding commercial empire. Recently, she has made her first significant investment in physical infrastructure\u2014a warehouse that will serve as the foundation for her growing trade operations. This property acquisition marks her transition from merely trading goods to controlling the infrastructure of commerce itself, a bold step for someone of her station.",
-        "new_description": "Giulia Balbi stands as a testament to how far determination and acumen can elevate one in La Serenissima, despite the rigid social structures that define Venice. Born to a lineage of facchini who have hauled cargo along the bustling docks for generations, Giulia has transformed her callused hands into instruments of financial ingenuity. Her extraordinary fortune\u2014now exceeding 310,000 ducats\u2014makes her perhaps the wealthiest commoner in Venice, a fact she carefully conceals beneath modest attire and unassuming demeanor. Her rise began with small investments saved from countless dawn-to-dusk shifts at the Rialto, gradually expanding into a network of loyal porters who respect her fair treatment and punctual payment.\n\nHer bottega at Sottoportego della Disciplina serves as both workplace and informal banking operation, where Giulia conducts business with a remarkable memory that compensates for her illiteracy. Though she cannot read contracts, she has developed an uncanny ability to detect falsehoods in negotiations, recognizing the subtle shifts in voice and expression that betray deception. The weathered lines of her face tell the story of decades of physical labor under the Venetian sun, yet her eyes remain sharp and calculating, missing nothing of consequence in her expanding commercial empire. Recently, she has made her first significant investment in physical infrastructure\u2014a warehouse that will serve as the foundation for her growing trade operations. This property acquisition marks her transition from merely trading goods to controlling the infrastructure of commerce itself, a bold step for someone of her station.",
-        "old_personality": "Giulia navigates Venice's complex social and economic landscapes with the practiced caution of someone who has never been afforded the luxury of error. Her temperament combines practical skepticism with relentless ambition\u2014she questions every opportunity thoroughly but commits completely once convinced of its merit. This duality manifests in her business approach: she retains the humble demeanor of a facchina while orchestrating financial maneuvers worthy of the most sophisticated Rialto merchants. Her greatest strength lies in her remarkable memory and intuitive understanding of human motivation, allowing her to track complex transactions and detect dishonesty without formal education. These abilities have become almost legendary among those who work with her, creating an aura of uncanny competence that both attracts loyal followers and unnerves potential rivals.\n\nBeneath her pragmatic exterior lies a complex web of resentments and aspirations shaped by decades of witnessing Venetian inequality firsthand. Having carried the goods of wealthy merchants for years before becoming one herself, Giulia harbors deep-seated bitterness toward inherited privilege that occasionally manifests as ruthlessness in business dealings with patricians. This anger serves as both motivation and limitation\u2014driving her remarkable rise while sometimes clouding her judgment with emotional satisfaction when outmaneuvering those born to wealth. Despite accumulating a fortune that could purchase comfort and leisure, she maintains the disciplined habits of her youth: rising before dawn, working long hours, and carefully tracking every transaction. These patterns persist partly from prudence\u2014to avoid drawing unwanted attention\u2014but also from a deeper fear that abandoning the discipline that built her success might somehow cause it all to unravel.",
-        "new_personality": "Behind Giulia's unassuming facade lies a mind of extraordinary calculation, honed through decades of observing Venice's commercial elite while remaining invisible to them. Her temperament combines the patience of one who has endured countless slights with the precision of a master strategist\u2014she appears to accept her humble station while quietly orchestrating maneuvers that gradually elevate her position. This duality defines her approach to all relationships: outwardly deferential to social superiors yet inwardly assessing their weaknesses and potential utility. Her exceptional ability to read intentions from subtle physical cues serves as both shield and weapon in a society that would otherwise dismiss her, allowing her to anticipate threats and identify opportunities that others miss.\n\nDespite her remarkable achievements, Giulia remains haunted by the precariousness of her position\u2014a commoner playing in games designed for patricians. This insecurity manifests as a compulsive need to accumulate wealth far beyond practical necessity, driven by the belief that only overwhelming financial power can truly secure her place against the vagaries of Venetian politics. Though capable of genuine loyalty to those who have proven themselves trustworthy, years of witnessing arbitrary privilege have left her deeply cynical about human nature and institutional fairness. She views social connections primarily as investments to be carefully cultivated, a perspective that provides strategic clarity but often prevents authentic emotional connection. Each night, after reviewing the day's transactions at her bottega, she silently calculates not just her financial gains but also her advancement in the invisible ledger of social standing\u2014forever measuring the distance between where she began and where she aims to stand.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-23T14:03:42.006732"
-      },
-      "createdAt": "2025-07-23T14:03:42.006Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recsdr60U9K9QR4V3",
-      "type": "rent_payment",
-      "citizen": "MorosiniNoble",
-      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Tessitori Cannaregiani**.",
-      "details": {
-        "building_id": "recURbJS12chMwdDD",
-        "building_name": "Fisherman's Cottage at Riva dei Tessitori Cannaregiani",
-        "rent_price": 1425,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-22T18:01:27.017Z",
       "readAt": null
     }
   ],
@@ -3627,7 +3624,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-05T21:06:22.050080+02:00",
+  "timestamp": "2025-08-07T21:02:37.841643+02:00",
   "building_ownership_relevancies": []
 }
 
