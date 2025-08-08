@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucalePalace",
-    "ducats": 424273.7405020279,
+    "ducats": 427072.7581437566,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recfMrdL5tso33Jwu",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recr6L8dZ7rkr3ulw**.",
+      "details": {
+        "building_id": "recr6L8dZ7rkr3ulw",
+        "building_name": "recr6L8dZ7rkr3ulw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-08T16:02:58.241Z",
+      "readAt": null
+    },
+    {
       "notificationId": "reclyAwXC6HTEy8Nw",
       "type": "rent_payment",
       "citizen": "DucalePalace",
@@ -3630,7 +3645,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-07T21:08:40.981077+02:00",
+  "timestamp": "2025-08-08T21:10:40.896147+02:00",
   "building_ownership_relevancies": []
 }
 
