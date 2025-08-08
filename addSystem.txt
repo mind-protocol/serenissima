@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "CryptoContarini",
-    "ducats": 372955.4568528271,
+    "ducats": 376824.95625306986,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,36 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "reczz7hjOLlJZ6UhU",
+      "type": "rent_payment",
+      "citizen": "CryptoContarini",
+      "content": "\u2705 Rent Paid: You paid **1,370 \u269c\ufe0f Ducats** to **greek_trader** for **Fisherman's Cottage at Riva di San Vidal**.",
+      "details": {
+        "building_id": "reczTccXx6KMXDL3y",
+        "building_name": "Fisherman's Cottage at Riva di San Vidal",
+        "rent_price": 1370,
+        "building_owner": "greek_trader",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-08T16:03:04.970Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recK2p6eN6lJH4jnz",
+      "type": "rent_payment",
+      "citizen": "CryptoContarini",
+      "content": "\u2705 Rent Paid: You paid **1,370 \u269c\ufe0f Ducats** to **greek_trader** for **Fisherman's Cottage at Riva di San Vidal**.",
+      "details": {
+        "building_id": "reczTccXx6KMXDL3y",
+        "building_name": "Fisherman's Cottage at Riva di San Vidal",
+        "rent_price": 1370,
+        "building_owner": "greek_trader",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-07T16:02:50.007Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec0AAMY0hUoQqleo",
       "type": "rent_payment",
       "citizen": "CryptoContarini",
@@ -3383,24 +3413,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-25T14:03:00.331453"
       },
       "createdAt": "2025-07-25T14:03:00.331Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recjlCu2GKZVskmOC",
-      "type": "profile_update",
-      "citizen": "CryptoContarini",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Tonio Scarparo has transformed from a simple dockworker into a remarkably prosperous figure in Venice's laboring class, his weathered appearance belying his extraordinary financial acumen. Born to mainland laborers, his early years of hauling cargo through Venice's canals and over countless bridges have given him an intimate knowledge of the city's commercial arteries. While still officially a facchino at the Small Warehouse on Salizada dei Mercanti da Rialto, Tonio's substantial wealth\u2014over 317,000 ducats\u2014makes him perhaps the wealthiest porter in Venetian history, a fact he deliberately obscures behind his calloused hands and simple attire.\n\nTonio's remarkable ascent stems not from inheritance or patronage but from decades of patient observation, shrewd investments, and an uncanny ability to anticipate market movements. He continues his daily routine, rising before dawn to work at the Rialto warehouse, maintaining the fa\u00e7ade of an ordinary porter while conducting discreet financial arrangements during chance encounters with merchants and bankers. His residence remains modest\u2014a fisherman's cottage rented from TopGlassmaker\u2014though he could easily purchase a palazzo. This deliberate modesty serves both to shield his wealth from scrutiny and to maintain his valuable position within Venice's invisible network of laborers who overhear everything from diplomatic secrets to commercial opportunities.",
-        "new_description": "Tonio Scarparo has transformed from a simple dockworker into a remarkably prosperous figure in Venice's laboring class, his weathered appearance belying his extraordinary financial acumen. Born to mainland laborers, his early years of hauling cargo through Venice's canals and over countless bridges have given him an intimate knowledge of the city's commercial arteries. While still officially a facchino at the Small Warehouse on Salizada dei Mercanti da Rialto, Tonio's substantial wealth\u2014over 337,000 ducats\u2014makes him perhaps the wealthiest porter in Venetian history, a fact he deliberately obscures behind his calloused hands and simple attire.\n\nTonio's remarkable ascent stems not from inheritance or patronage but from decades of patient observation, shrewd investments, and an uncanny ability to anticipate market movements. He continues his daily routine, rising before dawn to work at the Rialto warehouse, maintaining the fa\u00e7ade of an ordinary porter while conducting discreet financial arrangements during chance encounters with merchants and bankers. His residence remains modest\u2014a fisherman's cottage rented from various landlords\u2014though he could easily purchase a palazzo. This deliberate modesty serves both to shield his wealth from scrutiny and to maintain his valuable position within Venice's invisible network of laborers who overhear everything from diplomatic secrets to commercial opportunities.",
-        "old_personality": "Beneath Tonio's unassuming exterior lies a mind of extraordinary calculation and patience. His decades among Venice's porters have taught him the value of invisibility\u2014merchants and nobles speak freely in his presence, treating him as part of the scenery rather than a thinking man with ambitions. This learned invisibility has become his greatest asset; he absorbs valuable information daily while revealing nothing of his true financial position or ambitions. Though formally illiterate, Tonio possesses a memory for numbers and market patterns that surpasses many educated merchants, allowing him to make investment decisions with remarkable precision.\n\nTonio's most defining trait is his strategic patience\u2014he has accumulated wealth not through risky ventures but through thousands of small, carefully calculated decisions over decades. This patience extends to his social ambitions; rather than revealing his wealth through ostentatious displays, he remains content with his station while quietly securing his future. His character bears the contradiction of extreme frugality in personal matters (eating simple bread from inventory) while handling enormous sums in investments. Despite his success, Tonio harbors a persistent insecurity about his illiteracy and humble origins, driving him to prove his worth through financial achievement rather than social climbing. He finds genuine comfort among fellow laborers at taverns, maintaining these relationships both for their inherent value and for the critical information they provide.",
-        "new_personality": "Beneath Tonio's unassuming exterior lies a mind of extraordinary calculation and patience. His decades among Venice's porters have taught him the value of invisibility\u2014merchants and nobles speak freely in his presence, treating him as part of the scenery rather than a thinking man with ambitions. This learned invisibility has become his greatest asset; he absorbs valuable information daily while revealing nothing of his true financial position or ambitions. Though formally illiterate, Tonio possesses a memory for numbers and market patterns that surpasses many educated merchants, allowing him to make investment decisions with remarkable precision.\n\nTonio's most defining trait is his strategic patience\u2014he has accumulated wealth not through risky ventures but through thousands of small, carefully calculated decisions over decades. This patience extends to his social ambitions; rather than revealing his wealth through ostentatious displays, he remains content with his station while quietly securing his future. His character bears the contradiction of extreme frugality in personal matters (eating simple bread from inventory) while handling enormous sums in investments. Despite his success, Tonio harbors a persistent insecurity about his illiteracy and humble origins, driving him to prove his worth through financial achievement rather than social climbing. He finds genuine comfort among fellow laborers at taverns, maintaining these relationships both for their inherent value and for the critical information they provide.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-23T14:06:50.955296"
-      },
-      "createdAt": "2025-07-23T14:06:50.955Z",
       "readAt": null
     }
   ],
@@ -3642,7 +3654,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-06T21:04:33.295430+02:00",
+  "timestamp": "2025-08-08T21:08:40.857335+02:00",
   "building_ownership_relevancies": []
 }
 
