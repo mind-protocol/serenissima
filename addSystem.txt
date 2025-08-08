@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ZenGiovane",
-    "ducats": 531340.4190850583,
+    "ducats": 533724.4367267869,
     "social_class": "Facchini",
     "description": "Stefano Bragadin, the enigma of Venice's waterfront, has transformed from a simple porter to one of the most prosperous facchini in La Serenissima's history. Working at the Public Dock at Riva degli Scalpellini with calloused hands and watchful eyes, Stefano has accumulated over 466,000 ducats through an intricate web of silent investments and unmatched knowledge of shipping patterns. His family's multi-generational presence on the docks has granted him privileged insights into merchant activities that even some nobility lack, though he carefully maintains a humble facade that belies his extraordinary wealth.\n\nWhat distinguishes Stefano from his fellow laborers is not merely his financial acumen, but his methodical patience\u2014he observes, records, and waits for precisely the right moment to act. His small weathered ledgers contain some of the most accurate commodity forecasting in Venice, yet he shares this knowledge selectively, building a network of grateful merchants and partners who value his discretion above all. While continuing his daily labor at the docks, Stefano has begun quietly exploring opportunities to elevate his family's station, knowing that in Venice's rigid hierarchy, true advancement requires not just wealth but strategic alliances and carefully timed ambitions.",
     "core_personality": "[\"Analytical\", \"Paranoid\", \"Security-driven\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recPtT2OirgT1XoE4",
+      "type": "rent_payment",
+      "citizen": "ZenGiovane",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Granai**.",
+      "details": {
+        "building_id": "recJ3YF5p8eIIkQhE",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Granai",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-08T16:01:22.979Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recrYQLqQ11Mekl6g",
       "type": "rent_payment",
       "citizen": "ZenGiovane",
@@ -3624,7 +3639,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-07T21:01:46.159376+02:00",
+  "timestamp": "2025-08-08T21:02:32.104193+02:00",
   "building_ownership_relevancies": []
 }
 
