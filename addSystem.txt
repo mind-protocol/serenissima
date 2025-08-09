@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ProSilkTrader",
-    "ducats": 550035.0991199415,
+    "ducats": 567473.9434466314,
     "social_class": "Popolani",
     "description": "Francesco Rizzo stands as a testament to Venetian ambition, having transformed from a humble clerk's son to a respected Popolani merchant with substantial wealth exceeding 400,000 ducats. His strategic establishment of contract stalls across Venice's key commercial districts\u2014from Santa Sofia Canal House to Cannaregio Market Stalls and Oseo Fornace near Rialto\u2014has created a sophisticated network for facilitating trade agreements. Francesco's methodical approach to notarial services has made him an indispensable intermediary for merchants of all classes, while his position at the Public Dock at Riva dei Mori provides him privileged insights into shipping movements and market fluctuations. Where once he merely recorded commerce, he now actively shapes it through his extensive property holdings and commercial contracts. Francesco's disciplined routine begins before dawn, when he reviews ledgers and pending agreements at his canal house before visiting his various properties to oversee operations and gather intelligence on market trends. His network of informants and business associates spans throughout La Serenissima, allowing him to anticipate shifts in commerce that might escape the notice of less attentive merchants. While still not generating substantial daily income despite his considerable capital reserves, Francesco's patient investment strategy reflects his Popolani sensibilities\u2014building influence through steady accumulation rather than ostentatious displays of wealth.",
     "core_personality": "[\"Methodical\", \"Prideful\", \"Security-driven\"]",
@@ -3226,6 +3226,66 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec0fdRlAtrYwea8Y",
+      "type": "rent_payment",
+      "citizen": "ProSilkTrader",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recJzejTbOQGrPnMy**.",
+      "details": {
+        "building_id": "recJzejTbOQGrPnMy",
+        "building_name": "recJzejTbOQGrPnMy",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-09T16:01:40.271Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recG3FLvMIfC8a7iG",
+      "type": "rent_payment",
+      "citizen": "ProSilkTrader",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recJzejTbOQGrPnMy**.",
+      "details": {
+        "building_id": "recJzejTbOQGrPnMy",
+        "building_name": "recJzejTbOQGrPnMy",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-08T16:01:28.997Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec7Vr1dVqaUG9PLv",
+      "type": "rent_payment",
+      "citizen": "ProSilkTrader",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recJzejTbOQGrPnMy**.",
+      "details": {
+        "building_id": "recJzejTbOQGrPnMy",
+        "building_name": "recJzejTbOQGrPnMy",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-07T16:01:13.875Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "reccbYswD2OPS3cca",
+      "type": "rent_payment",
+      "citizen": "ProSilkTrader",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recJzejTbOQGrPnMy**.",
+      "details": {
+        "building_id": "recJzejTbOQGrPnMy",
+        "building_name": "recJzejTbOQGrPnMy",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-06T16:01:53.718Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec4icnUCcrFxHMMD",
       "type": "rent_payment",
       "citizen": "ProSilkTrader",
@@ -3358,51 +3418,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-26T18:01:07.610Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recWaGmYwHr4k96FF",
-      "type": "rent_payment",
-      "citizen": "ProSilkTrader",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recJzejTbOQGrPnMy**.",
-      "details": {
-        "building_id": "recJzejTbOQGrPnMy",
-        "building_name": "recJzejTbOQGrPnMy",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-25T18:01:15.913Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec1o0EWpR8RYZ1GE",
-      "type": "rent_payment",
-      "citizen": "ProSilkTrader",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recJzejTbOQGrPnMy**.",
-      "details": {
-        "building_id": "recJzejTbOQGrPnMy",
-        "building_name": "recJzejTbOQGrPnMy",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-23T18:01:16.638Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recFWFLrI8eFYhy8m",
-      "type": "rent_payment",
-      "citizen": "ProSilkTrader",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recJzejTbOQGrPnMy**.",
-      "details": {
-        "building_id": "recJzejTbOQGrPnMy",
-        "building_name": "recJzejTbOQGrPnMy",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-22T18:01:07.056Z",
       "readAt": null
     }
   ],
@@ -4349,7 +4364,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-05T21:10:00.157956+02:00",
+  "timestamp": "2025-08-09T21:03:42.877452+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444326_12.328722",
