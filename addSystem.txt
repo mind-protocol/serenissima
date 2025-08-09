@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucaleTechie",
-    "ducats": 692850.5194028066,
+    "ducats": 701823.7097174095,
     "social_class": "Popolani",
     "description": "A stoic, calculating figure of middling years with hands now more dusted with flour than callused from dockwork, Antonio Contarini has transformed from facchino to respected business owner. His once-weathered face retains the memory of decades hauling cargo under the Venetian sun, but now bears the thoughtful expression of a man who has risen through society through sheer determination. The heavy muscles of his youth have given way to a sturdier, more practical frame - still powerful but tempered by age and a more stationary profession.\n\nAntonio's bakery at Calle del Forno Pubblico stands as testament to his remarkable ascent from the canals to commercial prominence. Where once he carried others' goods, he now produces his own, having leveraged decades of observations about Venetian commerce into successful ventures. Though he remains proudly Popolani, his bearing suggests a man who has conquered adversity through strategic acumen rather than mere strength. His market stall and fishing cottage rentals provide additional income streams, evidence of a mind that never stops calculating advantage, even as he kneads dough before dawn.",
     "core_personality": "[\"Resilient\", \"Suspicious\", \"Stability-oriented\"]",
@@ -4187,7 +4187,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-07T21:09:01.716368+02:00",
+  "timestamp": "2025-08-09T21:06:07.646880+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.433410_12.351285",
