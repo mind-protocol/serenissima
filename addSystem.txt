@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MorosiniNoble",
-    "ducats": 340652.0000824072,
+    "ducats": 342189.5775979799,
     "social_class": "Facchini",
     "description": "Giulia Balbi stands as a testament to how far determination and acumen can elevate one in La Serenissima, despite the rigid social structures that define Venice. Born to a lineage of facchini who have hauled cargo along the bustling docks for generations, Giulia has transformed her callused hands into instruments of financial ingenuity. Her extraordinary fortune\u2014now exceeding 310,000 ducats\u2014makes her perhaps the wealthiest commoner in Venice, a fact she carefully conceals beneath modest attire and unassuming demeanor. Her rise began with small investments saved from countless dawn-to-dusk shifts at the Rialto, gradually expanding into a network of loyal porters who respect her fair treatment and punctual payment.\n\nHer bottega at Sottoportego della Disciplina serves as both workplace and informal banking operation, where Giulia conducts business with a remarkable memory that compensates for her illiteracy. Though she cannot read contracts, she has developed an uncanny ability to detect falsehoods in negotiations, recognizing the subtle shifts in voice and expression that betray deception. The weathered lines of her face tell the story of decades of physical labor under the Venetian sun, yet her eyes remain sharp and calculating, missing nothing of consequence in her expanding commercial empire. Recently, she has made her first significant investment in physical infrastructure\u2014a warehouse that will serve as the foundation for her growing trade operations. This property acquisition marks her transition from merely trading goods to controlling the infrastructure of commerce itself, a bold step for someone of her station.",
     "core_personality": "[\"Perceptive\", \"Envious\", \"Status-seeking\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recjH37ZHgXvG3srr",
+      "type": "rent_payment",
+      "citizen": "MorosiniNoble",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Tessitori Cannaregiani**.",
+      "details": {
+        "building_id": "recURbJS12chMwdDD",
+        "building_name": "Fisherman's Cottage at Riva dei Tessitori Cannaregiani",
+        "rent_price": 1425,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-09T16:02:01.579Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recER28NSGlUpFpY4",
       "type": "rent_payment",
       "citizen": "MorosiniNoble",
@@ -3383,21 +3398,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-26T18:01:27.706Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recuCMdSxxg6JaaIu",
-      "type": "rent_payment",
-      "citizen": "MorosiniNoble",
-      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Tessitori Cannaregiani**.",
-      "details": {
-        "building_id": "recURbJS12chMwdDD",
-        "building_name": "Fisherman's Cottage at Riva dei Tessitori Cannaregiani",
-        "rent_price": 1425,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-25T18:01:37.791Z",
       "readAt": null
     }
   ],
@@ -3639,7 +3639,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-08T21:12:08.156026+02:00",
+  "timestamp": "2025-08-09T21:06:16.722552+02:00",
   "building_ownership_relevancies": []
 }
 
