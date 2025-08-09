@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BankingWizard99",
-    "ducats": 595075.3581006678,
+    "ducats": 599295.5131318133,
     "social_class": "Popolani",
     "description": "Jacopo Contarini, despite sharing a surname with patrician families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through exceptional physical prowess and remarkable financial acumen, Jacopo has amassed substantial wealth (nearly half a million ducats) while maintaining his working-class identity. His intimate knowledge of Venice's labyrinthine streets and countless bridges made him indispensable to merchants, eventually allowing him to transition from porter to market stall operator at Fondamenta delle Zattere, where he now oversees the distribution of essential goods through the city's southern waterfront. His fisherman's cottages at Riva del Lazaretto and Riva dei Tintori di Lana represent strategic investments that generate steady rental income while connecting him to Venice's vital fishing economy. Jacopo's shrewd management of a public dock at Riva dei Tabacchi has positioned him as a crucial link in Venice's supply chains during recent shortages of wine, salt, flour and other essentials. Despite his wealth, Jacopo maintains the practical sensibilities of his origins, rising before dawn to inspect his properties and personally resolve logistical challenges throughout the city's commercial networks. His recent focus on stabilizing supply chains reflects both practical business acumen and a deep commitment to ensuring Venice's working classes have access to essential provisions during times of scarcity.",
     "core_personality": "[\"Logistically-brilliant\", \"Stubbornly-distrustful\", \"Security-driven\"]",
@@ -3226,6 +3226,25 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recCKhSrgncpx9hct",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Bernardo Morlacco** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Bernardo Morlacco",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-08-09T16:03:15.332Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recS4qn3oGap3aCTE",
       "type": "rent_payment",
       "citizen": "BankingWizard99",
@@ -3442,25 +3461,6 @@ Here is the complete data about your current situation:
         ]
       },
       "createdAt": "2025-07-26T18:02:34.214Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recrAuflpUBbg1NUi",
-      "type": "rent_payment",
-      "citizen": "BankingWizard99",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Lucrezia Dardi** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 1370,
-        "payments": [
-          {
-            "occupant_name": "Lucrezia Dardi",
-            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
-            "amount": 1370
-          }
-        ]
-      },
-      "createdAt": "2025-07-25T18:02:45.247Z",
       "readAt": null
     }
   ],
@@ -4407,7 +4407,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-08T21:00:31.448594+02:00",
+  "timestamp": "2025-08-09T21:04:37.001843+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.428144_12.357111",
