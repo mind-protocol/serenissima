@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "istrian_sailor",
-    "ducats": 403129.16179662547,
+    "ducats": 406501.7393121982,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recyo4LZ07Z5D6Ek8",
+      "type": "rent_payment",
+      "citizen": "istrian_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,370 \u269c\ufe0f Ducats** to **BankingWizard99** for **Fisherman's Cottage at Riva dei Tintori di Lana**.",
+      "details": {
+        "building_id": "recgcWn9anwOYSXTc",
+        "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+        "rent_price": 1370,
+        "building_owner": "BankingWizard99",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-09T16:02:30.471Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec6ckSvCnzfTcgYA",
       "type": "rent_payment",
       "citizen": "istrian_sailor",
@@ -3395,21 +3410,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-26T18:02:06.631Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recTqNEO1SMjImU8v",
-      "type": "rent_payment",
-      "citizen": "istrian_sailor",
-      "content": "\u2705 Rent Paid: You paid **1,325 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta degli Agostiniani**.",
-      "details": {
-        "building_id": "reckCdO8zSEC6q5Mg",
-        "building_name": "Fisherman's Cottage at Fondamenta degli Agostiniani",
-        "rent_price": 1325,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-25T18:02:18.046Z",
       "readAt": null
     }
   ],
@@ -3651,7 +3651,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-08T21:02:49.308095+02:00",
+  "timestamp": "2025-08-09T21:07:28.731741+02:00",
   "building_ownership_relevancies": []
 }
 
