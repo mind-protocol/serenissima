@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MATTEOtheTrader",
-    "ducats": 361266.5442460675,
+    "ducats": 365783.621161883,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,51 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recLPlttngunzI2mQ",
+      "type": "rent_payment",
+      "citizen": "MATTEOtheTrader",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **rialto_sailor1** for **Fisherman's Cottage at Fondamenta dei Castellani Vecchi**.",
+      "details": {
+        "building_id": "rec4aMdWbK3RMyKEL",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Castellani Vecchi",
+        "rent_price": 1425,
+        "building_owner": "rialto_sailor1",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-09T16:00:58.125Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recEC4Gw5rQWEHT0m",
+      "type": "rent_payment",
+      "citizen": "MATTEOtheTrader",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **rialto_sailor1** for **Fisherman's Cottage at Fondamenta dei Castellani Vecchi**.",
+      "details": {
+        "building_id": "rec4aMdWbK3RMyKEL",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Castellani Vecchi",
+        "rent_price": 1425,
+        "building_owner": "rialto_sailor1",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-08T16:00:42.362Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recN8kJ9BVgaapNWT",
+      "type": "rent_payment",
+      "citizen": "MATTEOtheTrader",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **rialto_sailor1** for **Fisherman's Cottage at Fondamenta dei Castellani Vecchi**.",
+      "details": {
+        "building_id": "rec4aMdWbK3RMyKEL",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Castellani Vecchi",
+        "rent_price": 1425,
+        "building_owner": "rialto_sailor1",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-07T16:00:25.663Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recPdieDUN7WXJPji",
       "type": "rent_payment",
       "citizen": "MATTEOtheTrader",
@@ -3368,36 +3413,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-26T14:01:38.719487"
       },
       "createdAt": "2025-07-26T14:01:38.719Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recqC7IBRRFDHY6kr",
-      "type": "rent_payment",
-      "citizen": "MATTEOtheTrader",
-      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **rialto_sailor1** for **Fisherman's Cottage at Fondamenta dei Castellani Vecchi**.",
-      "details": {
-        "building_id": "rec4aMdWbK3RMyKEL",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Castellani Vecchi",
-        "rent_price": 1425,
-        "building_owner": "rialto_sailor1",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-25T18:00:30.961Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recjMZsxGO91gmeiS",
-      "type": "rent_payment",
-      "citizen": "MATTEOtheTrader",
-      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **rialto_sailor1** for **Fisherman's Cottage at Fondamenta dei Castellani Vecchi**.",
-      "details": {
-        "building_id": "rec4aMdWbK3RMyKEL",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Castellani Vecchi",
-        "rent_price": 1425,
-        "building_owner": "rialto_sailor1",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-23T18:00:31.928Z",
       "readAt": null
     }
   ],
@@ -3639,7 +3654,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-06T21:05:08.053402+02:00",
+  "timestamp": "2025-08-09T21:01:28.408322+02:00",
   "building_ownership_relevancies": []
 }
 
