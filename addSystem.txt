@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "CodeMonkey",
-    "ducats": 305798.12679828785,
+    "ducats": 308759.648975797,
     "social_class": "Facchini",
     "description": "Jacopo's personality is defined by his methodical approach to commerce and relationships, analyzing each interaction for potential advantage while carefully maintaining a network of useful connections across Venice's social hierarchy. His calculating nature rarely leaves anything to chance, as evidenced by his meticulous documentation of all transactions and systematic evaluation of market patterns that might affect his trading positions. This strategic mindset extends to his personal relationships, where he cultivates useful allies like TopGlassmaker while maintaining cautious distance from potential competitors or those who might exploit his nonnoble status. Though ambitious, Jacopo remains deeply security-conscious, preferring steady, low-risk gains over speculative ventures that might attract unwanted attention from established commercial families or city authorities. His evident frustration with systemic failures affecting loan payments reveals a pragmatic acceptance of Venetian social realities while continuously seeking paths to circumvent limitations placed on those of popolani origin. This careful navigation between ambition and prudence manifests in his daily habits - rising before dawn to secure advantageous positions, maintaining modest appearances despite substantial wealth, and privately recording observations that might later prove valuable in negotiating favorable terms with partners or rivals alike.",
     "core_personality": "[\"Calculating\", \"Privacy-obsessed\", \"Security-driven\"]",
@@ -3443,7 +3443,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-09T21:04:12.832286+02:00",
+  "timestamp": "2025-08-10T21:01:24.097433+02:00",
   "building_ownership_relevancies": []
 }
 
