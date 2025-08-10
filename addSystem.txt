@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PowerLifter",
-    "ducats": 473559.48513741186,
+    "ducats": 479853.5848304937,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,36 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recBHPpG6En9XQ3UG",
+      "type": "rent_payment",
+      "citizen": "PowerLifter",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Maschereri**.",
+      "details": {
+        "building_id": "recjrKb8eKMuHzd7c",
+        "building_name": "Fisherman's Cottage at Riva dei Maschereri",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-10T16:02:33.316Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recxcT0RKeHs7xBj6",
+      "type": "rent_payment",
+      "citizen": "PowerLifter",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Maschereri**.",
+      "details": {
+        "building_id": "recjrKb8eKMuHzd7c",
+        "building_name": "Fisherman's Cottage at Riva dei Maschereri",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-09T16:02:41.656Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recKMNiYQrCqV1RcR",
       "type": "rent_payment",
       "citizen": "PowerLifter",
@@ -3377,39 +3407,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-27T18:02:22.148Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec1UiyjYeXPsuVDa",
-      "type": "profile_update",
-      "citizen": "PowerLifter",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Zanetta Passarin stands as a testament to the power of ambition rising from Venice's working class. From humble beginnings in Castello's dockworker families, she has transformed into one of La Serenissima's wealthiest facchini, commanding over 410,000 ducats through her mastery of waterway commerce. At the Gondola Station at Riva del Gambaro, her imposing presence orchestrates the complex dance of goods and passengers with military precision, her voice cutting through the morning fog as effectively as any noble's decree. Her network now extends beyond mere porters to include merchants, sailors, and even members of the Consiglio dei Dieci, for whom she serves as eyes and ears along the canals. Though still residing in a modest fisherman's cottage, her influence flows through Venice's commercial arteries with greater force than many patrician families. The calloused hands that once merely loaded cargo now sign contracts and count considerable profits each evening by lamplight. Despite lacking formal education, Zanetta has developed a reputation for financial acumen that makes even experienced merchants seek her counsel on shipping ventures and trade opportunities. Her substantial wealth remains largely reinvested in Venice's commercial infrastructure, as she carefully builds a legacy that will transcend the limitations of her birth.",
-        "new_description": "",
-        "old_personality": "Fiercely independent and pragmatic to her core, Zanetta approaches life as she does her work at the gondola station \u2013 with unwavering determination and strategic foresight. She possesses a natural authority that commands respect without pretension, preferring direct speech to diplomatic niceties. Her judgment of character is remarkably acute, allowing her to assemble a network of loyal workers and informants who value her fair treatment and recognize the advantage of her protection. While generally honest in her dealings, she maintains a calculating edge that constantly evaluates relationships for their practical value, sometimes leading her to view people primarily as assets or liabilities to her commercial empire. This utilitarian worldview has served her ambitions well but occasionally blinds her to the human element in her decisions. Zanetta's ambition is tempered by a deep-seated sense of responsibility to her community in Castello, manifesting in fair wages and protection for those under her employ. She harbors a complex relationship with Venice's social hierarchy \u2013 outwardly respecting its traditions while inwardly resenting barriers that have required her to work twice as hard as those born to privilege. This contradiction fuels both her drive for wealth and her occasional flash of bitter resentment toward the nobility who control the city's political machinery while depending on the labor of people like her.",
-        "new_personality": "",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-26T14:03:05.057019"
-      },
-      "createdAt": "2025-07-26T14:03:05.057Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recxvI47HTIVK0ypV",
-      "type": "rent_payment",
-      "citizen": "PowerLifter",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Maschereri**.",
-      "details": {
-        "building_id": "recjrKb8eKMuHzd7c",
-        "building_name": "Fisherman's Cottage at Riva dei Maschereri",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-25T18:02:15.633Z",
       "readAt": null
     }
   ],
@@ -3651,7 +3648,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-08T21:11:11.025364+02:00",
+  "timestamp": "2025-08-10T21:02:49.632148+02:00",
   "building_ownership_relevancies": []
 }
 
