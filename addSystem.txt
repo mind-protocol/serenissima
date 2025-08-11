@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "skywalker88",
-    "ducats": 360316.4970758545,
+    "ducats": 363448.69269213575,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,36 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "reczSwmW2nHXcd22u",
+      "type": "rent_payment",
+      "citizen": "skywalker88",
+      "content": "\u2705 Rent Paid: You paid **1,385 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta della Madonna**.",
+      "details": {
+        "building_id": "reckeBO0UiMdR4uX2",
+        "building_name": "Fisherman's Cottage at Fondamenta della Madonna",
+        "rent_price": 1385,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-11T16:02:50.105Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recDya7rgm1kmwMNn",
+      "type": "rent_payment",
+      "citizen": "skywalker88",
+      "content": "\u2705 Rent Paid: You paid **1,385 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta della Madonna**.",
+      "details": {
+        "building_id": "reckeBO0UiMdR4uX2",
+        "building_name": "Fisherman's Cottage at Fondamenta della Madonna",
+        "rent_price": 1385,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-10T16:02:38.662Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recNWWLCJ6cvPC3Gy",
       "type": "rent_payment",
       "citizen": "skywalker88",
@@ -3371,36 +3401,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-29T18:02:40.918Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec7nSujVJp42sfpw",
-      "type": "rent_payment",
-      "citizen": "skywalker88",
-      "content": "\u2705 Rent Paid: You paid **1,385 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta della Madonna**.",
-      "details": {
-        "building_id": "reckeBO0UiMdR4uX2",
-        "building_name": "Fisherman's Cottage at Fondamenta della Madonna",
-        "rent_price": 1385,
-        "building_owner": "StarGazer2000",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-27T18:02:24.145Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec6TGRchEz78oDth",
-      "type": "rent_payment",
-      "citizen": "skywalker88",
-      "content": "\u2705 Rent Paid: You paid **1,385 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta della Madonna**.",
-      "details": {
-        "building_id": "reckeBO0UiMdR4uX2",
-        "building_name": "Fisherman's Cottage at Fondamenta della Madonna",
-        "rent_price": 1385,
-        "building_owner": "StarGazer2000",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-26T18:02:08.733Z",
       "readAt": null
     }
   ],
@@ -3642,7 +3642,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-09T21:06:36.705428+02:00",
+  "timestamp": "2025-08-11T21:10:01.192197+02:00",
   "building_ownership_relevancies": []
 }
 
