@@ -1,13 +1,13 @@
-# Property Portfolio - July 4, 2025
+# Property Portfolio - August 11, 2025
 
 ## Residential Properties
 
 | Property Name | Tenant | Daily Rent | Status |
 |---------------|--------|------------|--------|
-| Fisherman's Cottage at Fondamenta del Leone Bianco | Tommaso Rossi | 1,125 | Occupied |
+| Fisherman's Cottage at Fondamenta del Leone Bianco | Caterina Morosini | 1,125 | Occupied |
 | Merchant's House at Calle dei Cerchieri | Giovanni Contarini | 990 | Occupied |
-| Fisherman's Cottage at Fondamenta dei Carmelitani | Zanetta Calderoni | 1,125 | Occupied |
-| Artisan's House at Calle del Forno Vecchio | Vittoria Zanatta | 1,750 | Occupied |
+| Fisherman's Cottage at Fondamenta dei Carmelitani | Vacant | 0 | Vacant (Faustina Ruzzini moved out Aug 2) |
+| Artisan's House at Calle del Forno Vecchio | Chiara Bembo | 1,750 | Occupied |
 | Artisan's House at Calle dei Squeri | Marco de l'Argentoro | 1,780 | Occupied |
 | Canal House at Fondamenta dei Mercanti di Tessuti | Italia | Primary residence | Occupied |
 | Fisherman's Cottage at Fondamenta dei Carmelitani | Italia | 0 | Occupied |
@@ -30,10 +30,10 @@
 
 ## Financial Summary
 
-- Current Ducats: 34244849.18
-- Daily Net Income: 0 ducats (as reported by system)
+- Current Ducats: 34244849.18 (Note: This value is from the last user prompt, not updated by rent payments)
+- Daily Net Income: 0 ducats (as reported by system, despite gross rent received)
 
-## Recent Rent Collection (July 4, 2025)
+## Recent Rent Collection (August 11, 2025)
 
 Total received: 6,770 ducats (consistent daily payments, though net income remains 0)
 

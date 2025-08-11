@@ -1,14 +1,14 @@
 {
   "project_name": "La Serenissima",
   "description": "Codebase map for La Serenissima, a blockchain-powered MMO city builder set in Renaissance Venice. This document helps in navigating and understanding the project's architecture.",
-  "last_updated": "2025-07-25",
+  "last_updated": "2025-08-11",
   "player_financial_status": {
     "last_rent_payment": {
-      "date": "2025-07-08",
+      "date": "2025-08-11",
       "total_received": 6770,
       "properties": [
         {
-          "tenant": "Tommaso Rossi",
+          "tenant": "Caterina Morosini",
           "property": "Fisherman's Cottage at Fondamenta del Leone Bianco",
           "amount": 1125
         },
@@ -18,12 +18,12 @@
           "amount": 990
         },
         {
-          "tenant": "Zanetta Calderoni",
+          "tenant": "Faustina Ruzzini",
           "property": "Fisherman's Cottage at Fondamenta dei Carmelitani",
           "amount": 1125
         },
         {
-          "tenant": "Vittoria Zanatta",
+          "tenant": "Chiara Bembo",
           "property": "Artisan's House at Calle del Forno Vecchio",
           "amount": 1750
         },
@@ -40,7 +40,7 @@
       "residential": [
         {
           "name": "Fisherman's Cottage at Fondamenta del Leone Bianco",
-          "tenant": "Tommaso Rossi",
+          "tenant": "Caterina Morosini",
           "rent": 1125,
           "status": "occupied"
         },
@@ -52,13 +52,13 @@
         },
         {
           "name": "Fisherman's Cottage at Fondamenta dei Carmelitani",
-          "tenant": "Zanetta Calderoni",
-          "rent": 1125,
-          "status": "occupied"
+          "tenant": "Vacant",
+          "rent": 0,
+          "status": "vacant"
         },
         {
           "name": "Artisan's House at Calle del Forno Vecchio",
-          "tenant": "Vittoria Zanatta",
+          "tenant": "Chiara Bembo",
           "rent": 1750,
           "status": "occupied"
         },
