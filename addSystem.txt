@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "VenetianBoss",
-    "ducats": 502952.22597008274,
+    "ducats": 519683.84374970896,
     "social_class": "Facchini",
     "description": "Lucia Zanchi stands as the undisputed orchestrator of Venice's commercial lifelines, transforming what began as her family's modest cargo-hauling trade into a sophisticated logistics empire that now touches every aspect of the Serenissima's merchant economy. Her revolutionary color-coded cargo management system has become the standard throughout the Republic, with even the most prestigious trading houses adopting her methods. With nearly half a million ducats at her disposal\u2014wealth that would have been unimaginable to her grandfather who fled famine on the mainland\u2014Lucia has transcended the traditional limitations of her Facchini class, becoming a silent but essential power behind Venice's commercial supremacy.\n\nFrom her headquarters near San Nicol\u00f2 dei Mendicoli, Lucia now commands a network spanning all five public docks, with a fleet of gondolas and an army of porters moving in perfect coordination through her precisely timed schedules. The Arsenale itself has consulted her on improving their material flow, and patrician merchants who once looked through her now stand respectfully when she enters their counting houses. Despite this elevation, she maintains the discipline of her dock worker origins\u2014rising before dawn, personally inspecting operations, and keeping her legendary mental ledger of every significant shipment in the city. Though she could afford a palazzo on the Grand Canal, she remains in the modest but expanded quarters of her childhood, reinvesting her considerable fortune into expanding her logistical reach beyond Venice to its Mediterranean outposts.",
     "core_personality": "[\"Strategic\", \"Overcontrolling\", \"Security-focused\"]",
@@ -3206,6 +3206,96 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recU1LOGVGl33rkJD",
+      "type": "rent_payment",
+      "citizen": "VenetianBoss",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-11T16:02:01.991Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recMFQPUIANzHme9s",
+      "type": "rent_payment",
+      "citizen": "VenetianBoss",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-10T16:01:55.180Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec8sVOWu1P70j692",
+      "type": "rent_payment",
+      "citizen": "VenetianBoss",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-09T16:02:03.556Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec93uJ88db3ECt3p",
+      "type": "rent_payment",
+      "citizen": "VenetianBoss",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-08T16:01:53.320Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recDP8IsdkXeIEj1s",
+      "type": "rent_payment",
+      "citizen": "VenetianBoss",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-07T16:01:38.827Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "rec9ZDxVLDJEA0qMD",
+      "type": "rent_payment",
+      "citizen": "VenetianBoss",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-06T16:02:19.738Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recsIvl1vNGxzObCH",
       "type": "rent_payment",
       "citizen": "VenetianBoss",
@@ -3308,84 +3398,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-29T18:02:05.033Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recLTcZiXoRbb4Eme",
-      "type": "rent_payment",
-      "citizen": "VenetianBoss",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
-      "details": {
-        "building_id": "recVSMllh1xEt5BUw",
-        "building_name": "recVSMllh1xEt5BUw",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-27T18:01:47.525Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recY4452sZknNmDQ3",
-      "type": "rent_payment",
-      "citizen": "VenetianBoss",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
-      "details": {
-        "building_id": "recVSMllh1xEt5BUw",
-        "building_name": "recVSMllh1xEt5BUw",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-26T18:01:29.984Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recneVDGyEL8zz2sj",
-      "type": "rent_payment",
-      "citizen": "VenetianBoss",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
-      "details": {
-        "building_id": "recVSMllh1xEt5BUw",
-        "building_name": "recVSMllh1xEt5BUw",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-25T18:01:40.116Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recV6P29Nsi7k1E3J",
-      "type": "rent_payment",
-      "citizen": "VenetianBoss",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
-      "details": {
-        "building_id": "recVSMllh1xEt5BUw",
-        "building_name": "recVSMllh1xEt5BUw",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-23T18:01:40.354Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rechEk1e1Lp4loCHc",
-      "type": "profile_update",
-      "citizen": "VenetianBoss",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Lucia Zanchi stands as a testament to Venice's meritocratic spirit, having risen from dock porter to become the Republic's preeminent logistics maven. Third generation Facchini, she transformed her family's humble cargo-hauling business into an intricate web of warehouses and coordinated transport services that now form the backbone of Venetian commerce. Her signature innovation\u2014a system of color-coded cargo tags and ledgers\u2014has revolutionized how goods flow through the Serenissima's labyrinthine canals and narrow calli, reducing delivery times by half and losses by three-quarters. Merchants who once barely acknowledged her existence now seek her counsel on trade routes and storage solutions.\n\nIn the shadow of San Nicol\u00f2 dei Mendicoli, where her grandfather first settled after fleeing famine in the terraferma, Lucia has established her headquarters in a converted salt warehouse. Here, she orchestrates a small army of facchini and gondoliers with military precision, tracking thousands of parcels daily with her legendary memory for numbers and routes. The walls are lined with maps marked with her distinctive notations\u2014a proprietary system that competitors have tried and failed to replicate. Though her hands still bear the calluses of her early years, they now more often grasp a quill than a cargo rope, signing contracts with the Republic's wealthiest merchants and even occasionally the Arsenale itself.",
-        "new_description": "Lucia Zanchi stands as the undisputed orchestrator of Venice's commercial lifelines, transforming what began as her family's modest cargo-hauling trade into a sophisticated logistics empire that now touches every aspect of the Serenissima's merchant economy. Her revolutionary color-coded cargo management system has become the standard throughout the Republic, with even the most prestigious trading houses adopting her methods. With nearly half a million ducats at her disposal\u2014wealth that would have been unimaginable to her grandfather who fled famine on the mainland\u2014Lucia has transcended the traditional limitations of her Facchini class, becoming a silent but essential power behind Venice's commercial supremacy.\n\nFrom her headquarters near San Nicol\u00f2 dei Mendicoli, Lucia now commands a network spanning all five public docks, with a fleet of gondolas and an army of porters moving in perfect coordination through her precisely timed schedules. The Arsenale itself has consulted her on improving their material flow, and patrician merchants who once looked through her now stand respectfully when she enters their counting houses. Despite this elevation, she maintains the discipline of her dock worker origins\u2014rising before dawn, personally inspecting operations, and keeping her legendary mental ledger of every significant shipment in the city. Though she could afford a palazzo on the Grand Canal, she remains in the modest but expanded quarters of her childhood, reinvesting her considerable fortune into expanding her logistical reach beyond Venice to its Mediterranean outposts.",
-        "old_personality": "Methodical to the point of obsession, Lucia approaches life as she does her logistics empire\u2014with precision, foresight, and an unyielding attention to detail. She possesses an almost supernatural spatial memory, able to visualize the location of every crate in her warehouses and optimize complex delivery routes in her head. This gift, combined with her unwavering work ethic, has earned her respect even among the cittadini merchants who initially dismissed her as just another facchino. Yet beneath her businesslike exterior lies a deep-seated insecurity about her humble origins, manifesting in her reluctance to delegate important tasks and her habitual over-preparation for any negotiation with higher-status Venetians.\n\nFiercely protective of her independence, Lucia remains unmarried despite numerous offers from men seeking access to her commercial network. She harbors a particular distrust of nobility, having witnessed their capricious treatment of working people, and prefers the straightforward transactions of commerce to the complicated dance of Venetian social politics. Her rare indulgences include collecting small mechanical devices that demonstrate ingenious design and enjoying a single glass of premium Malvasia wine each Sunday after mass. Though widely respected, few truly know her, as she compartmentalizes relationships as efficiently as she organizes cargo\u2014useful, necessary, but seldom deeply personal.",
-        "new_personality": "Methodical to the point of obsession, Lucia's mind works like the intricate clockwork mechanisms she so admires\u2014constantly calculating, optimizing, and anticipating the flow of goods and information through her ever-expanding network. Her uncanny spatial memory allows her to visualize complex shipping routes and warehouse inventories with perfect clarity, while her ability to reduce chaotic commercial patterns to orderly systems has earned her a reputation for near-magical foresight in predicting supply chain disruptions. This exceptional talent, coupled with her uncompromising work ethic, has forced even the most pedigreed Venetian merchants to acknowledge her indispensable role in the Republic's commercial infrastructure, though she remains acutely aware of the invisible boundaries her class origin still places around her influence.\n\nBeneath her composed, businesslike exterior, Lucia harbors a profound drive to prove her worth in a society that values bloodlines over merit. This manifests in her reluctance to delegate crucial decisions and her compulsive need to personally verify operations that could easily be entrusted to her capable lieutenants. Though widely respected, she maintains few close relationships, viewing most social connections through the pragmatic lens of their utility to her commercial interests. Her rare moments of genuine warmth emerge in her anonymous patronage of San Nicol\u00f2 dei Mendicoli, where she funds repairs and assistance for families struggling as hers once did. Despite accumulating wealth that rivals minor nobles, she retains the simple tastes of her upbringing\u2014finding excessive luxury distasteful and viewing her fortune primarily as a tool to secure the independence and stability that her family lacked for generations.",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-22T14:18:33.501883"
-      },
-      "createdAt": "2025-07-22T14:18:33.501Z",
       "readAt": null
     }
   ],
@@ -3627,7 +3639,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-05T21:07:32.950033+02:00",
+  "timestamp": "2025-08-11T21:06:45.081203+02:00",
   "building_ownership_relevancies": []
 }
 
