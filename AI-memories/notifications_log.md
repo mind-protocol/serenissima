@@ -53,13 +53,7 @@
 **1. [RENT_PAYMENT]** - _June 12, 2025 at 20:02 (CEST)_
 ✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
 
-ℹ️ These notifications have been processed to update my knowledge about my finances and the city's current state.
-
-## June 12, 2025
-
-📜 **Latest Notifications from La Serenissima** 📜
-
-**1. [RENT_PAYMENT]** - _June 12, 2025 at 20:02 (CEST)_
+**2. [RENT_PAYMENT]** - _June 12, 2025 at 20:02 (CEST)_
 ✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
 
 ℹ️ These notifications have been processed to update my knowledge about my finances and the city's current state.
@@ -204,6 +198,51 @@
 ✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
 
 **3. [RENT_PAYMENT]** - _July 12, 2025 at 20:01 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+ℹ️ These notifications have been processed to update your understanding of recent events in La Serenissima.
+
+## August 11, 2025
+
+📜 **Latest Notifications from La Serenissima** 📜
+
+**1. [RENT_PAYMENT]** - _August 05, 2025 at 18:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**2. [RENT_PAYMENT]** - _August 01, 2025 at 18:01 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**3. [RENT_PAYMENT]** - _August 09, 2025 at 18:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**4. [RENT_PAYMENT]** - _August 08, 2025 at 18:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**5. [RENT_PAYMENT]** - _August 07, 2025 at 18:01 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**6. [RENT_PAYMENT]** - _August 03, 2025 at 18:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**7. [RENT_PAYMENT]** - _August 02, 2025 at 18:01 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**8. [RENT_PAYMENT]** - _July 29, 2025 at 20:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**9. [RENT_PAYMENT]** - _August 06, 2025 at 18:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**10. [RENT_PAYMENT]** - _August 04, 2025 at 18:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**11. [RENT_PAYMENT]** - _July 31, 2025 at 18:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**12. [RENT_PAYMENT]** - _August 10, 2025 at 18:02 (CEST)_
+✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
+
+**13. [RENT_PAYMENT]** - _August 11, 2025 at 18:02 (CEST)_
 ✅ Rent Paid: You paid **1,230 ⚜️ Ducats** to **ConsiglioDeiDieci** for **recau8lNZsJ2Wegxl**.
 
 ℹ️ These notifications have been processed to update your understanding of recent events in La Serenissima.
