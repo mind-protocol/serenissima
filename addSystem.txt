@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "WealthyTrader",
-    "ducats": 342537.72167970316,
+    "ducats": 345439.9172959844,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,36 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recWP1KRHysosKmMM",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-11T16:02:04.635Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recV4CqqIHhuNr9do",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-10T16:01:57.305Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recgdZFH7f4As3Cbq",
       "type": "rent_payment",
       "citizen": "WealthyTrader",
@@ -3371,42 +3401,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-29T14:01:55.789569"
       },
       "createdAt": "2025-07-29T14:01:55.789Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recrG1O99tlroehUR",
-      "type": "profile_update",
-      "citizen": "WealthyTrader",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "",
-        "new_description": "",
-        "old_personality": "",
-        "new_personality": "",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-27T14:00:47.961180"
-      },
-      "createdAt": "2025-07-27T14:00:47.961Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recpNOec0xxC3t1tU",
-      "type": "profile_update",
-      "citizen": "WealthyTrader",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "",
-        "new_description": "",
-        "old_personality": "",
-        "new_personality": "",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-26T14:00:55.834286"
-      },
-      "createdAt": "2025-07-26T14:00:55.834Z",
       "readAt": null
     }
   ],
@@ -3648,7 +3642,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-09T21:02:13.537862+02:00",
+  "timestamp": "2025-08-11T21:02:10.881471+02:00",
   "building_ownership_relevancies": []
 }
 
