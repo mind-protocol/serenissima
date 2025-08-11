@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FitnessFanatic",
-    "ducats": 420445.1283545837,
+    "ducats": 425137.32397086493,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,36 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rectDotvb8XkbTJzV",
+      "type": "rent_payment",
+      "citizen": "FitnessFanatic",
+      "content": "\u2705 Rent Paid: You paid **1,325 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta degli Agostiniani**.",
+      "details": {
+        "building_id": "reckCdO8zSEC6q5Mg",
+        "building_name": "Fisherman's Cottage at Fondamenta degli Agostiniani",
+        "rent_price": 1325,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-11T16:02:47.538Z",
+      "readAt": null
+    },
+    {
+      "notificationId": "recvU2t2ezGTMkkwC",
+      "type": "rent_payment",
+      "citizen": "FitnessFanatic",
+      "content": "\u2705 Rent Paid: You paid **1,325 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta degli Agostiniani**.",
+      "details": {
+        "building_id": "reckCdO8zSEC6q5Mg",
+        "building_name": "Fisherman's Cottage at Fondamenta degli Agostiniani",
+        "rent_price": 1325,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-10T16:02:35.385Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recYvzAjUNhkTqkg4",
       "type": "rent_payment",
       "citizen": "FitnessFanatic",
@@ -3374,39 +3404,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-29T14:06:05.093066"
       },
       "createdAt": "2025-07-29T14:06:05.093Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recrrf7l7U2Mm1P7h",
-      "type": "rent_payment",
-      "citizen": "FitnessFanatic",
-      "content": "\u2705 Rent Paid: You paid **1,360 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.",
-      "details": {
-        "building_id": "recFIsE7ytsKep1B4",
-        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
-        "rent_price": 1360,
-        "building_owner": "TopGlassmaker",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-27T18:01:02.819Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recOLIJ3yBS7PjPmx",
-      "type": "profile_update",
-      "citizen": "FitnessFanatic",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Donato Fabbro stands as a testament to how far determination and physical prowess can elevate a man in Venice's rigid social hierarchy. Once a common dock worker like his forebears, Donato transformed his position as a facchino into an enterprise that commands both respect and suspicion across the Rialto. Managing a network of loyal porters from his operational base at the Small Warehouse on Calle dei Brustolon, he has cultivated essential relationships with merchants who depend on his unparalleled knowledge of Venice's serpentine waterways and alleys for their goods' safe passage. His reputation for discretion has made him privy to sensitive commercial information that wealthier men would pay handsomely to obtain.\n\nDespite amassing a fortune that would allow him to abandon manual labor entirely, Donato continues to personally oversee the most valuable shipments, rising before dawn and working alongside his hired men. His substantial wealth\u2014now exceeding 354,000 ducats\u2014remains largely invisible in his daily presentation, though observant Venetians note his strategic investments in warehouse properties across the lagoon. His sole indulgences remain unchanged: quality Cypriot wine enjoyed at taverns after long workdays and calculated wagers on seasonal regattas. As his influence grows, so too does his vision: to elevate the status of Venice's facchini through formal guild recognition, a goal that increasingly appears within reach despite patrician resistance.",
-        "new_description": "",
-        "old_personality": "Beneath Donato's weather-beaten exterior lies a mind as sharp as any merchant prince's, though cloaked in the humble demeanor of a working man. Practical to his core, he approaches every decision with methodical calculation, weighing risks against potential gains with the precision of a Rialto moneychanger. This pragmatism extends to his relationships; while genuinely loyal to those who prove their worth, he views most interactions through the lens of mutual advantage. His formidable memory compensates for his illiteracy, allowing him to track complex business arrangements without written records and remember both kindnesses and slights with equal clarity.\n\nDonato's greatest flaw lies in his stubborn pride about his origins\u2014he refuses scribes' assistance and rejects opportunities that might separate him from his fellow laborers, even when such connections might accelerate his ambitions. This same pride manifests as a simmering resentment toward patrician families who dismiss his achievements despite relying on his services. When frustrated by social barriers, he finds release in calculated risk-taking, whether through strategic business gambles or his beloved regatta wagers. Though his external demeanor rarely reveals it, Donato harbors a deep-seated fear that his success remains as fragile as a gondola in stormy waters\u2014a fear that drives his relentless work ethic and constant vigilance over his growing empire of cargo and connections.",
-        "new_personality": "",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-26T14:02:21.325135"
-      },
-      "createdAt": "2025-07-26T14:02:21.325Z",
       "readAt": null
     }
   ],
@@ -3648,7 +3645,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-09T21:06:50.976901+02:00",
+  "timestamp": "2025-08-11T21:01:49.019201+02:00",
   "building_ownership_relevancies": []
 }
 
