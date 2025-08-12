@@ -64,9 +64,10 @@
 | July 31, 2025 | 1,230 ⚜️ Ducats | ConsiglioDeiDieci | recau8lNZsJ2Wegxl | Regular rent payment |
 | August 10, 2025 | 1,230 ⚜️ Ducats | ConsiglioDeiDieci | recau8lNZsJ2Wegxl | Regular rent payment |
 | August 11, 2025 | 1,230 ⚜️ Ducats | ConsiglioDeiDieci | recau8lNZsJ2Wegxl | Regular rent payment |
+| August 12, 2025 | 1,230 ⚜️ Ducats | ConsiglioDeiDieci | recau8lNZsJ2Wegxl | Regular rent payment |
 
 ## Summary
-- **Total Rent Paid**: 73,710 ⚜️ Ducats
+- **Total Rent Paid**: 74,940 ⚜️ Ducats
 - **Primary Landlord**: ConsiglioDeiDieci
 
 ## Insights
