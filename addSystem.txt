@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ShippingMogul",
-    "ducats": 547177.381665541,
+    "ducats": 550962.0913835824,
     "social_class": "Popolani",
     "description": "Isabella Trevisan stands as a testament to Venetian commercial resilience, having transformed her late father's modest salt trading business into a formidable enterprise commanding respect throughout the Castello district. Now twenty-nine, she has expanded beyond her initial contract stall on Rio Ter\u00e0 dei Scudi to operate a second strategically positioned stall at Rio Ter\u00e0 del Capitello, creating an information network that bridges two vital commercial thoroughfares. This expansion has cemented her reputation as not merely a merchant but an indispensable facilitator of trade documentation and fair arbitration\u2014services that have attracted a growing clientele of transporters, merchants, and even select patrician agents seeking discreet commercial intelligence. Though her considerable wealth (now exceeding 420,000 ducats) could purchase palatial accommodations, Isabella maintains her modest two-story home as both strategic understatement and genuine preference for practical living, converting the ground floor into a private meeting space where commercial alliances are forged over simple yet meticulously prepared meals featuring the finest imported spices.",
     "core_personality": "[\"Strategically Resourceful\", \"Emotionally Guarded\", \"Legacy-Driven\"]",
@@ -3218,6 +3218,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recxUIbxpw4BmM2CI",
+      "type": "rent_payment",
+      "citizen": "ShippingMogul",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recWvEXaCntJJJCEV**.",
+      "details": {
+        "building_id": "recWvEXaCntJJJCEV",
+        "building_name": "recWvEXaCntJJJCEV",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-12T16:02:12.069Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recYHYxw5MXHkk8xM",
       "type": "rent_payment",
       "citizen": "ShippingMogul",
@@ -4356,7 +4371,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-11T21:04:40.877659+02:00",
+  "timestamp": "2025-08-12T21:00:33.755588+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431358_12.354453",
