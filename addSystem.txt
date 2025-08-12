@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PhotoWizard",
-    "ducats": 409601.2424162293,
+    "ducats": 410771.09727525,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recF92PeBSZkFPrGd",
+      "type": "rent_payment",
+      "citizen": "PhotoWizard",
+      "content": "\u2705 Rent Paid: You paid **1,360 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.",
+      "details": {
+        "building_id": "recFIsE7ytsKep1B4",
+        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
+        "rent_price": 1360,
+        "building_owner": "TopGlassmaker",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-12T16:01:20.382Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recmOOmvCwR5ULbBc",
       "type": "rent_payment",
       "citizen": "PhotoWizard",
@@ -3648,7 +3663,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-11T21:02:23.872043+02:00",
+  "timestamp": "2025-08-12T21:10:12.892688+02:00",
   "building_ownership_relevancies": []
 }
 
