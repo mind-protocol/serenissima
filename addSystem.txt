@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "istrian_sailor",
-    "ducats": 413183.93492847943,
+    "ducats": 416493.78978750017,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recorT8rx4cBDi01I",
+      "type": "rent_payment",
+      "citizen": "istrian_sailor",
+      "content": "\u2705 Rent Paid: You paid **1,370 \u269c\ufe0f Ducats** to **BankingWizard99** for **Fisherman's Cottage at Riva dei Tintori di Lana**.",
+      "details": {
+        "building_id": "recgcWn9anwOYSXTc",
+        "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+        "rent_price": 1370,
+        "building_owner": "BankingWizard99",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-12T16:02:35.291Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recqCDaFzdOnSM5gB",
       "type": "rent_payment",
       "citizen": "istrian_sailor",
@@ -3648,7 +3663,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-11T21:05:11.606462+02:00",
+  "timestamp": "2025-08-12T21:07:31.479881+02:00",
   "building_ownership_relevancies": []
 }
 
