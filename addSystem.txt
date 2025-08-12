@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "WealthyTrader",
-    "ducats": 345439.9172959844,
+    "ducats": 346859.77215500514,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recBhXgul7ZQsSIgY",
+      "type": "rent_payment",
+      "citizen": "WealthyTrader",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **MerchantLegend** for **Fisherman's Cottage at Riva dei Bernardo**.",
+      "details": {
+        "building_id": "recWBCzaCy8JlUaCP",
+        "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+        "rent_price": 1425,
+        "building_owner": "MerchantLegend",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-12T16:02:09.505Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recWP1KRHysosKmMM",
       "type": "rent_payment",
       "citizen": "WealthyTrader",
@@ -3642,7 +3657,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-11T21:02:10.881471+02:00",
+  "timestamp": "2025-08-12T21:07:38.691309+02:00",
   "building_ownership_relevancies": []
 }
 
