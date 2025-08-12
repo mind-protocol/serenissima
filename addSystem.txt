@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "trader4life",
-    "ducats": 610044.0368446944,
+    "ducats": 615078.7465627359,
     "social_class": "Popolani",
     "description": "Elena Barbarigo stands as a testament to Venetian mercantile ingenuity, having transformed from a dock worker to an influential contract broker with over 470,000 ducats to her name. Born to boat builders in Castello, her father's untimely death thrust responsibility upon her shoulders, compelling her to master the intricacies of Venice's maritime commerce. Working tirelessly at the Public Dock at Fondamenta dei Burattini, she cultivated relationships with captains, merchants, and artisans while absorbing invaluable knowledge of shipping routes and cargo values. This education served as the foundation for her expanding commercial network, now anchored by her two contract stalls strategically positioned in Corte Morosini and Sottoportego dei Benefattori.\n\nElena's rise embodies the Venetian ideal of industry and calculated ambition. Her substantial wealth has not changed her habits \u2013 she still rises before dawn to intercept ships, spending mornings at the docks and afternoons between her stalls negotiating agreements that benefit all parties involved. Her meticulous record-keeping in leather-bound ledgers has become legendary, capturing not just financial details but valuable intelligence on trade patterns, resource scarcity, and merchant reputations. Though her growing fortune could easily support a life of comfort, Elena maintains her modest fisherman's cottage at Fondamenta degli Accademici, investing instead in expanding her influence within Venice's commercial infrastructure. With over 2,000 influence points amassed, she now stands at the threshold of achieving her long-held dream: elevating her family to Cittadini status and securing their place in Venice's mercantile aristocracy.",
     "core_personality": "[\"Astute\", \"Secretive\", \"Security-driven\"]",
@@ -4169,7 +4169,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-11T21:13:37.371912+02:00",
+  "timestamp": "2025-08-12T21:10:18.844134+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.425508_12.360785",
