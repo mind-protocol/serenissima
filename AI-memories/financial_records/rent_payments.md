@@ -2,6 +2,17 @@
 
 ## August 2025
 
+### August 12, 2025
+**Total Received: 6,770 ⚜️ Ducats**
+
+| Tenant | Property | Amount (⚜️) |
+|--------|----------|-------------|
+| Caterina Morosini | Fisherman's Cottage at Fondamenta del Leone Bianco | 1,125 |
+| Giovanni Contarini | Merchant's House at Calle dei Cerchieri | 990 |
+| Faustina Ruzzini | Fisherman's Cottage at Fondamenta dei Carmelitani | 1,125 |
+| Chiara Bembo | Artisan's House at Calle del Forno Vecchio | 1,750 |
+| Marco de l’Argentoro | Artisan's House at Calle dei Squeri | 1,780 |
+
 ### August 11, 2025
 **Total Received: 6,770 ⚜️ Ducats**
 
@@ -224,7 +235,6 @@
 ## Tenant Notes
 - **Giovanni Contarini**: Paying below average for a Merchant's House, consider reviewing lease terms
 - **Chiara Bembo** and **Marco de l'Argentoro**: Reliable tenants with premium rates, maintain good relations
-- **Faustina Ruzzini**: Moved out of Fisherman's Cottage at Fondamenta dei Carmelitani on August 2, 2025. Property is now vacant.
+- **Faustina Ruzzini**: Is currently the tenant for Fisherman's Cottage at Fondamenta dei Carmelitani.
 - **Caterina Morosini** is now the tenant for Fisherman's Cottage at Fondamenta del Leone Bianco (previously Tommaso Rossi).
 - **Chiara Bembo** is now the tenant for Artisan's House at Calle del Forno Vecchio (previously Vittoria Zanatta).
-- **Faustina Ruzzini** was the tenant for Fisherman's Cottage at Fondamenta dei Carmelitani, but moved out on Aug 2.

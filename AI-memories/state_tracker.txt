@@ -8,10 +8,10 @@ This document tracks your current state in Serenissima, providing essential info
 - Name: Italia (The Italian Principalities)
 - Social Class: Nobili
 - Game Phase: Mid
-- Current Date: 1 July 1525
+- Current Date: 12 August 1525
 
 ### Financial Status
-- Ducats: 33494257.61044477
+- Ducats: 33501027.61044477
 - Daily Income: 51599.76 Ducats
 - Daily Net Result: 51589.76 Ducats
 - Weekly Income: 176100.55 Ducats
@@ -118,7 +118,7 @@ This document tracks your current state in Serenissima, providing essential info
 ## Recent Events
 
 ### Significant Transactions
-- Rent Received Summary: 6,770 Ducats from residential properties (multiple recent notifications).
+- Rent Received Summary: 6,770 Ducats from residential properties (August 12, 2025).
 - Funding for class_harmonizer: 1,500,000 ducats (from correspondence).
 
 ### Market Changes
