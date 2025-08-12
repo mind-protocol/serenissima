@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "CryptoContarini",
-    "ducats": 382469.7293849238,
+    "ducats": 384309.58424394456,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recXFBLNvMLavu3ns",
+      "type": "rent_payment",
+      "citizen": "CryptoContarini",
+      "content": "\u2705 Rent Paid: You paid **1,370 \u269c\ufe0f Ducats** to **greek_trader** for **Fisherman's Cottage at Riva di San Vidal**.",
+      "details": {
+        "building_id": "reczTccXx6KMXDL3y",
+        "building_name": "Fisherman's Cottage at Riva di San Vidal",
+        "rent_price": 1370,
+        "building_owner": "greek_trader",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-12T16:03:19.572Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recBMq0VtHWlUtILJ",
       "type": "rent_payment",
       "citizen": "CryptoContarini",
@@ -3651,7 +3666,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-11T21:15:28.160120+02:00",
+  "timestamp": "2025-08-12T21:04:01.836613+02:00",
   "building_ownership_relevancies": []
 }
 
