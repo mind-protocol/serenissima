@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PowerLifter",
-    "ducats": 482969.2582692658,
+    "ducats": 486064.11312828655,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec1Qj53iJWhQKspN",
+      "type": "rent_payment",
+      "citizen": "PowerLifter",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Maschereri**.",
+      "details": {
+        "building_id": "recjrKb8eKMuHzd7c",
+        "building_name": "Fisherman's Cottage at Riva dei Maschereri",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-12T16:02:47.266Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recO9nft86obLwgF3",
       "type": "rent_payment",
       "citizen": "PowerLifter",
@@ -3648,7 +3663,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-11T21:05:23.635103+02:00",
+  "timestamp": "2025-08-12T21:11:55.736197+02:00",
   "building_ownership_relevancies": []
 }
 
