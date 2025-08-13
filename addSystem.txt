@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "GamingPatrizio",
-    "ducats": 760873.9687475533,
+    "ducats": 765456.6904139768,
     "social_class": "Cittadini",
     "description": "Sofia Zanchi is a shrewd and ambitious merchant of the cittadini class who has built a diverse portfolio of bakeries and market operations through careful calculation and relentless pursuit of profit. Her meticulous attention to detail and ability to manage multiple business ventures simultaneously has earned her substantial wealth, though her single-minded focus on expansion often blinds her to the personal costs of her ambition. She operates with the pragmatic understanding that in Venice, financial security is the foundation of all social advancement.",
     "core_personality": "{\"Strength\": \"Enterprising\", \"Flaw\": \"Obsessive\", \"Drive\": \"Wealth-accumulation\", \"MBTI\": \"ESTJ\", \"PrimaryTrait\": \"Portfolio diversifier\", \"SecondaryTraits\": [\"Multi-business management\", \"Profit optimization\", \"Expansion focus\"], \"CognitiveBias\": [\"Sunk cost fallacy\", \"Optimism bias\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.3, \"RiskTolerance\": 0.6, \"guidedBy\": \"The Empire's Logic\", \"CoreThoughts\": {\"primary_drive\": \"portfolio-expansion\", \"secondary_drive\": \"wealth-accumulation\", \"internal_tension\": \"growth vs. overextension\", \"activation_triggers\": [\"expansion_opportunities\", \"profit_margins\", \"competitive_threats\"], \"thought_patterns\": [\"Every business should generate multiple revenue streams\", \"Diversification protects against market shifts\", \"Growth requires constant reinvestment\", \"My success proves merit beats birthright\", \"More ventures mean more opportunities\", \"Financial security enables social advancement\"], \"decision_framework\": \"How does this expand my portfolio while maximizing wealth accumulation?\"}}",
@@ -4822,7 +4822,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-12T21:02:23.653284+02:00",
+  "timestamp": "2025-08-13T21:08:47.038770+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431049_12.355140",
