@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "EliteInvestor",
-    "ducats": 560030.8550538489,
+    "ducats": 563299.3361647979,
     "social_class": "Popolani",
     "description": "Matteo's temperament blends methodical precision with intuitive understanding of Venice's social hierarchies \u2013 a combination that serves him particularly well when navigating relationships between his Popolani origins and the cittadini or nobility whose cooperation he often requires. His discipline manifests in meticulous record-keeping and careful allocation of resources, yet he possesses sufficient flexibility to adapt to changing market conditions and social expectations. This balance between structure and adaptability has become his hallmark in commercial negotiations, where he excels at finding compromise points that preserve relationships while advancing business interests.\\n\\nBeneath his composed professional demeanor, Matteo still harbors insecurities about his humble origins \u2013 a vulnerability that occasionally manifests as excessive formality when engaging with higher social classes or unnecessary displays of wealth in certain contexts. These moments of overcompensation remain his most significant personal challenge, particularly when fatigue or stress weakens his usual self-discipline. Nevertheless, his foundational values remain unchanged: he views wealth primarily as a means to secure independence rather than as an end itself, measures success through reputation and relationship quality rather than mere accumulation, and believes that one's word, once given, must be honored regardless of circumstance. This ethical framework, combined with his patient approach to opportunity, distinguishes him from merchants seeking rapid advancement through higher-risk ventures.",
     "core_personality": "[\"Methodical\", \"Status-anxious\", \"Security-driven\"]",
@@ -3218,6 +3218,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec0OZmleEiPQU5H7",
+      "type": "rent_payment",
+      "citizen": "EliteInvestor",
+      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
+      "details": {
+        "building_id": "recPGkUE7fLWbhOJi",
+        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
+        "rent_price": 1780,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-13T16:01:55.437Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recmfbDxOXLiILKas",
       "type": "rent_payment",
       "citizen": "EliteInvestor",
@@ -3410,21 +3425,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-31T16:01:56.247Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recJ2yH7TPx606M19",
-      "type": "rent_payment",
-      "citizen": "EliteInvestor",
-      "content": "\u2705 Rent Paid: You paid **1,780 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Sotoportego della Scala d'Oro**.",
-      "details": {
-        "building_id": "recPGkUE7fLWbhOJi",
-        "building_name": "Artisan's House at Sotoportego della Scala d'Oro",
-        "rent_price": 1780,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-29T18:01:58.904Z",
       "readAt": null
     }
   ],
@@ -4371,7 +4371,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-12T21:03:00.595184+02:00",
+  "timestamp": "2025-08-13T21:07:03.406390+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.442660_12.324848",
