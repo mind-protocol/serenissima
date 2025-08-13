@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PhotoWizard",
-    "ducats": 410771.09727525,
+    "ducats": 411920.3378307245,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recHsr6SZZtdDaALk",
+      "type": "rent_payment",
+      "citizen": "PhotoWizard",
+      "content": "\u2705 Rent Paid: You paid **1,360 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.",
+      "details": {
+        "building_id": "recFIsE7ytsKep1B4",
+        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
+        "rent_price": 1360,
+        "building_owner": "TopGlassmaker",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-13T16:01:13.764Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recF92PeBSZkFPrGd",
       "type": "rent_payment",
       "citizen": "PhotoWizard",
@@ -3404,24 +3419,6 @@ Here is the complete data about your current situation:
         "timestamp": "2025-07-31T12:03:55.386848"
       },
       "createdAt": "2025-07-31T12:03:55.386Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec8rv0BF3knpqtIh",
-      "type": "profile_update",
-      "citizen": "PhotoWizard",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "Lucrezia Dardi emerged from the salt-crusted docks of Venice, a daughter of the Facchini whose early years were shaped by the rhythmic labor of hauling cargo through the city's winding canals. Her calloused hands and keen observational skills allowed her to map the invisible currents of commerce flowing through La Serenissima. When she transitioned to work at the Bakery at Rio Ter\u00e0 dei Magazzini, many assumed she sought merely the warmth of ovens over the damp chill of the waterfront. Few suspected this humble position served as the perfect vantage point for her true vocation.\n\nBeneath the flour-dusted apron lies the mind of Venice's most discreet information broker and arbitrage specialist. Lucrezia's unassuming presence allows her to move through the city's social strata unnoticed, while her extensive network of contacts spans from fish-mongers to foreign merchants. Her remarkable wealth\u2014approaching 400,000 ducats\u2014remains her most closely guarded secret, concealed behind the modest fa\u00e7ade of a baker's life. This duality has become second nature: publicly embodying the simple rhythms of daily bread-making while privately orchestrating complex trade maneuvers that exploit the inefficiencies of Venetian markets.",
-        "new_description": "",
-        "old_personality": "Lucrezia operates with the calculated precision of a master chess player, her every move considered for its potential ripples across Venice's economic ecosystem. Her profound understanding of human nature allows her to anticipate needs before they arise and position herself advantageously without revealing her hand. Though she speaks little, she listens intently, collecting fragments of information like precious gems to be polished and leveraged later. This reserve is often mistaken for shyness rather than the deliberate strategy it truly represents.\n\nBeneath her cautious exterior lies an unquenchable thirst for security that borders on paranoia\u2014a natural consequence of maintaining such dangerous secrets in a city built on appearances. Her compulsive need for contingency plans sometimes prevents her from forming genuine connections, as everyone is evaluated first as a potential asset or liability. Despite this calculated approach to relationships, Lucrezia harbors a deep-seated desire for recognition of her true capabilities, a yearning that occasionally manifests as small, calculated risks that satisfy her pride without jeopardizing her carefully constructed world.",
-        "new_personality": "",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-29T14:05:24.022189"
-      },
-      "createdAt": "2025-07-29T14:05:24.022Z",
       "readAt": null
     }
   ],
@@ -3663,7 +3660,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-12T21:10:12.892688+02:00",
+  "timestamp": "2025-08-13T21:00:31.967694+02:00",
   "building_ownership_relevancies": []
 }
 
