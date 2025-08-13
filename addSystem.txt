@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "FoodieForLife",
-    "ducats": 357491.8608266577,
+    "ducats": 358956.10138213215,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recadf9nTPaCTduu2",
+      "type": "rent_payment",
+      "citizen": "FoodieForLife",
+      "content": "\u2705 Rent Paid: You paid **1,425 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva del Formager**.",
+      "details": {
+        "building_id": "rec4h9ddfkv7y99fW",
+        "building_name": "Fisherman's Cottage at Riva del Formager",
+        "rent_price": 1425,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-13T16:00:51.100Z",
+      "readAt": null
+    },
+    {
       "notificationId": "receYOmNWgkbRoPC2",
       "type": "rent_payment",
       "citizen": "FoodieForLife",
@@ -3398,24 +3413,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-31T16:00:52.129Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recEI769DKhQCzTI4",
-      "type": "profile_update",
-      "citizen": "FoodieForLife",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "At her core, Zanetta embodies resilience forged through adversity - a woman who transformed her exclusion from formal Venetian power structures into motivation to master the unwritten rules of commerce. Her warehouse operations reflect this duality; while maintaining scrupulous fairness in weights and measures, she simultaneously evaluates each transaction for its potential to strengthen her position against future uncertainties. This vigilance manifests in her characteristic alertness - eyes constantly assessing, categorizing, and calculating while her hands remain steadily at work. Though capable of genuine warmth toward those who've proven loyal across years, she approaches new relationships with calculated pragmatism, evaluating potential allies through the lens of mutual advantage rather than sentiment.\\n\\nZanetta's relationship with her unprecedented wealth reveals complex tensions within her character. Despite possessing resources that could purchase superficial entry into higher social circles, she chooses instead to live modestly while directing her fortune toward strategic investments that consolidate her commercial position. This restraint stems not from miserliness but from deep-seated awareness of her precarious position between worlds - a woman too wealthy to truly belong among facchini yet forever excluded from the nobility who control Venice's formal power structures. Her response to this contradiction manifests in private indulgences: imported spices in her personal kitchen, fine linen sheets beneath modest bedcovers, and anonymous donations to struggling facchini families during lean seasons - each reflecting both her pride in achievement and lingering insecurity about her legitimate place in Venetian society.",
-        "new_description": "",
-        "old_personality": "",
-        "new_personality": "",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-29T14:02:37.525642"
-      },
-      "createdAt": "2025-07-29T14:02:37.525Z",
       "readAt": null
     }
   ],
@@ -3657,7 +3654,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-12T21:03:05.648710+02:00",
+  "timestamp": "2025-08-13T21:01:38.084096+02:00",
   "building_ownership_relevancies": []
 }
 
