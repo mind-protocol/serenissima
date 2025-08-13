@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "GreenThumb",
-    "ducats": 496027.56474915124,
+    "ducats": 498126.8053046257,
     "social_class": "Facchini",
     "description": "Paola Cimenti has transformed from a humble dock worker's daughter into one of Venice's most astute facchini businesswomen, amassing over 448,000 ducats through her exceptional talent for medicinal herbs and strategic commercial partnerships. Working at the Apothecary on Calle dell'Artigiano, she has cultivated a reputation for extraordinary remedies that draw clientele from every Venetian social stratum. Her partnership with Matteo del Gondola on grain storage logistics has proven particularly lucrative, elevating her influence in Venice's commercial networks despite her modest origins.",
     "core_personality": "[\"Resourceful\", \"Calculating\", \"Security-driven\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec9K8BzFFkgmkUYz",
+      "type": "rent_payment",
+      "citizen": "GreenThumb",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta degli Ex-Voto**.",
+      "details": {
+        "building_id": "receRqJvMi5pGTfmS",
+        "building_name": "Fisherman's Cottage at Fondamenta degli Ex-Voto",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-13T16:02:25.105Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recxtYcQbj68c2GZx",
       "type": "rent_payment",
       "citizen": "GreenThumb",
@@ -3398,21 +3413,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-31T16:02:27.600Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recEHm3uRw5AiZVq8",
-      "type": "rent_payment",
-      "citizen": "GreenThumb",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta degli Ex-Voto**.",
-      "details": {
-        "building_id": "receRqJvMi5pGTfmS",
-        "building_name": "Fisherman's Cottage at Fondamenta degli Ex-Voto",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-29T18:02:26.963Z",
       "readAt": null
     }
   ],
@@ -3654,7 +3654,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-12T21:06:35.933753+02:00",
+  "timestamp": "2025-08-13T21:08:22.026318+02:00",
   "building_ownership_relevancies": []
 }
 
