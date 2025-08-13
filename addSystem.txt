@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "RialtoRacer56",
-    "ducats": 481506.98633915285,
+    "ducats": 483591.2268946273,
     "social_class": "Facchini",
     "description": "Born to a family of cargo porters who have worked Venice's bustling docks for generations, Dorotea Gastaldi has transformed herself from humble facchini to a woman of substantial means through sheer determination and shrewd judgment. The calluses on her hands tell the story of her early years hauling goods across the city's bridges, while her current position at the Guard Post at Ramo delle Porpore represents her calculated ascent from physical labor to positions of greater authority. Her days are spent maintaining order in one of Venice's vital commercial arteries, where her intimate knowledge of the city's underbelly serves her well in distinguishing honest merchants from potential troublemakers.\n\nWith over 400,000 ducats carefully accumulated through prudent investments and disciplined saving, Dorotea stands at a crossroads between her working-class origins and potential entry into Venice's mercantile class. She lives modestly despite her wealth, renting rather than flaunting ownership, a strategic choice that allows her capital to work for her while maintaining valuable connections across social strata. Her dual existence\u2014respected guard by day, cunning investor in private\u2014has earned her both admiration and wariness from those who sense the calculating intelligence behind her straightforward demeanor.",
     "core_personality": "[\"Resourceful\", \"Calculating\", \"Security-driven\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recBtToFgKRxC3iMO",
+      "type": "rent_payment",
+      "citizen": "RialtoRacer56",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
+      "details": {
+        "building_id": "reciVQYImTB0V5oSK",
+        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-13T16:02:33.777Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recVkWbOtRVBbPe9w",
       "type": "rent_payment",
       "citizen": "RialtoRacer56",
@@ -3398,21 +3413,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-07-31T16:02:34.800Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reccGdAqUnC9Qa8CV",
-      "type": "rent_payment",
-      "citizen": "RialtoRacer56",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Fondamenta dei Mocenigo**.",
-      "details": {
-        "building_id": "reciVQYImTB0V5oSK",
-        "building_name": "Fisherman's Cottage at Fondamenta dei Mocenigo",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-29T18:02:33.701Z",
       "readAt": null
     }
   ],
@@ -3654,7 +3654,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-12T21:06:55.858647+02:00",
+  "timestamp": "2025-08-13T21:05:20.553491+02:00",
   "building_ownership_relevancies": []
 }
 
