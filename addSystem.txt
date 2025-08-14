@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "cosmic_wanderer",
-    "ducats": 350841.443805636,
+    "ducats": 352020.272329369,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recZCosAlNmlOeIuB",
+      "type": "rent_payment",
+      "citizen": "cosmic_wanderer",
+      "content": "\u2705 Rent Paid: You paid **1,680 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Canal House at Riva dei Biscottai**.",
+      "details": {
+        "building_id": "reczIi35Shhvm4lnf",
+        "building_name": "Canal House at Riva dei Biscottai",
+        "rent_price": 1680,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-14T16:03:15.627Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recPktBwpzC54KzT9",
       "type": "rent_payment",
       "citizen": "cosmic_wanderer",
@@ -3666,7 +3681,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-13T21:13:48.798466+02:00",
+  "timestamp": "2025-08-14T21:02:31.297752+02:00",
   "building_ownership_relevancies": []
 }
 
