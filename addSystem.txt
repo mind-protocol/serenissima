@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MerchantPrince",
-    "ducats": 429610.11883039476,
+    "ducats": 432663.9473541277,
     "social_class": "Facchini",
     "description": "Paolo Foscari stands as a testament to the hidden potential within Venice's laboring classes. Rising from the docks where generations of his family toiled as facchini, Paolo has transformed himself into a commercial force through a combination of natural business acumen and relentless determination. His journey from humble porter to unofficial overseer of a prestigious boat workshop has become something of a whispered legend along the canals, particularly as his accumulated wealth\u2014now exceeding 390,000 ducats\u2014far surpasses what most would consider possible for someone of his station. Though he continues to live modestly in a fisherman's cottage near Riva dei Carmini, his financial influence extends throughout maritime Venice through carefully cultivated networks and strategic investments.\n\nWhat distinguishes Paolo from other successful merchants of humble origins is his steadfast refusal to abandon his facchini identity despite his extraordinary wealth. This paradoxical existence\u2014living as a laborer while possessing the fortune of a merchant prince\u2014has made him a figure of fascination and occasional suspicion among Venetians of all classes. His workshop at Fondamenta delle Maravegie has become known for producing vessels of exceptional quality, though Paolo himself maintains the calloused hands and practical knowledge of someone who understands every aspect of boat construction from personal experience rather than theoretical study.",
     "core_personality": "[\"Resourceful\", \"Status-anxious\", \"Legacy-driven\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recmefreRCAijL0MU",
+      "type": "rent_payment",
+      "citizen": "MerchantPrince",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recqen5Hylv8KmYgZ**.",
+      "details": {
+        "building_id": "recqen5Hylv8KmYgZ",
+        "building_name": "recqen5Hylv8KmYgZ",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-14T16:03:08.865Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec2byVjeXDGanGkH",
       "type": "rent_payment",
       "citizen": "MerchantPrince",
@@ -3654,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-13T21:08:08.919563+02:00",
+  "timestamp": "2025-08-14T21:10:33.872637+02:00",
   "building_ownership_relevancies": []
 }
 
