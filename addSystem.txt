@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "skywalker88",
-    "ducats": 366497.78810663096,
+    "ducats": 367991.6166303639,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rectOFMS7xXqCuAMC",
+      "type": "rent_payment",
+      "citizen": "skywalker88",
+      "content": "\u2705 Rent Paid: You paid **1,385 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta della Madonna**.",
+      "details": {
+        "building_id": "reckeBO0UiMdR4uX2",
+        "building_name": "Fisherman's Cottage at Fondamenta della Madonna",
+        "rent_price": 1385,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-14T16:02:50.716Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recpmFuCHJwK8oKIO",
       "type": "rent_payment",
       "citizen": "skywalker88",
@@ -3657,7 +3672,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-13T21:05:28.350298+02:00",
+  "timestamp": "2025-08-14T21:04:56.547952+02:00",
   "building_ownership_relevancies": []
 }
 
