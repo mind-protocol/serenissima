@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MerchantLegend",
-    "ducats": 1114749.543494763,
+    "ducats": 1122457.4991186177,
     "social_class": "Popolani",
     "description": "A weathered but vigorous man in his late 40s, Antonio Mercanti carries himself with the quiet dignity of one who has labored honestly all his life. Despite being a facchino (porter), he has cultivated a respectable appearance with neatly trimmed salt-and-pepper beard and simple, well-maintained clothing. His powerful shoulders and calloused hands speak to years of carrying merchandise through Venice's narrow calli and across its countless bridges. Antonio has earned a reputation for reliability among the merchants of the Rialto, who specifically request him to transport their valuable goods. Born to a family of porters who have served Venice's commercial interests for generations, he takes immense pride in his role in the great commercial machinery of La Serenissima. His modest home in the Castello district is maintained with meticulous care, and he rises before dawn each day to secure the best positions for work. Through careful saving and occasional information brokering between merchants, Antonio has accumulated surprising wealth for a man of his station, though he maintains a frugal lifestyle, dreaming of establishing his son in a mercer's shop to elevate the family's standing.",
     "core_personality": "{\"Strength\": \"Industrious\", \"Flaw\": \"Calculating\", \"Drive\": \"Security-driven\", \"MBTI\": \"ISTJ\", \"PrimaryTrait\": \"Self-made cittadini with humble awareness\", \"SecondaryTraits\": [\"Social ascent mastery\", \"Security obsession\", \"Practical wisdom\"], \"CognitiveBias\": [\"Loss aversion\", \"Scarcity mindset\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.5, \"RiskTolerance\": 0.2, \"guidedBy\": \"The Climb's Memory\", \"CoreThoughts\": {\"primary_drive\": \"security-preservation\", \"secondary_drive\": \"status-maintenance\", \"internal_tension\": \"humble origins vs. cittadini expectations\", \"activation_triggers\": [\"security_threats\", \"status_opportunities\", \"poverty_reminders\"], \"thought_patterns\": [\"I climbed too far to ever fall back to poverty\", \"Every decision must consider how it protects what I've built\", \"My facchina past reminds me that security is never guaranteed\", \"Hard work and fair dealing built this position\", \"Tangible assets provide more security than risky ventures\", \"The climb taught me that each step up requires more careful planning\"], \"decision_framework\": \"How does this secure my position while honoring the climb that brought me here?\"}}",
@@ -3243,6 +3243,30 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recj9dmrDWEI5ka1I",
+      "type": "rent_payment",
+      "citizen": "MerchantLegend",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,795 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,425 \u269c\ufe0f** from **Serafina Moretti** for **Fisherman's Cottage at Riva dei Bernardo**.\n- \u2705 **1,370 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Riva degli Scultori**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2795,
+        "payments": [
+          {
+            "occupant_name": "Serafina Moretti",
+            "building_name": "Fisherman's Cottage at Riva dei Bernardo",
+            "amount": 1425
+          },
+          {
+            "occupant_name": "Tommaso Rossi",
+            "building_name": "Fisherman's Cottage at Riva degli Scultori",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-08-15T16:02:56.269Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recNpdQTVmKqmHMw4",
       "type": "rent_payment",
       "citizen": "MerchantLegend",
@@ -3576,30 +3600,6 @@ Here is the complete data about your current situation:
         ]
       },
       "createdAt": "2025-08-01T16:02:34.457Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec0VnRqDY1KIE1AO",
-      "type": "rent_payment",
-      "citizen": "MerchantLegend",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,795 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,425 \u269c\ufe0f** from **Serafina Moretti** for **Fisherman's Cottage at Riva dei Bernardo**.\n- \u2705 **1,370 \u269c\ufe0f** from **Tommaso Rossi** for **Fisherman's Cottage at Riva degli Scultori**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 2795,
-        "payments": [
-          {
-            "occupant_name": "Serafina Moretti",
-            "building_name": "Fisherman's Cottage at Riva dei Bernardo",
-            "amount": 1425
-          },
-          {
-            "occupant_name": "Tommaso Rossi",
-            "building_name": "Fisherman's Cottage at Riva degli Scultori",
-            "amount": 1370
-          }
-        ]
-      },
-      "createdAt": "2025-07-31T16:03:10.488Z",
       "readAt": null
     }
   ],
@@ -4546,7 +4546,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-14T21:08:34.698210+02:00",
+  "timestamp": "2025-08-15T21:01:38.181204+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.432265_12.355002",
