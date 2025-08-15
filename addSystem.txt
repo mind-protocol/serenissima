@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "greek_trader",
-    "ducats": 880891.7900534252,
+    "ducats": 887049.7456772799,
     "social_class": "Popolani",
     "description": "Antonio Corfiote stands as testament to the potential for advancement in La Serenissima. Born to Greek immigrants who fled Ottoman expansion, he transformed from a calloused dockworker to a prosperous warehouse proprietor through relentless perseverance. His once-weathered hands now bear the marks of success - fine cloth sleeves and an occasional gold ring - though he maintains the practical demeanor of one who knows the weight of every crate and value of every cargo. Operating from his Contract Stall at Rio Ter\u00e0 delle Madonnelle, Antonio has become a crucial nexus between Venetian merchants and Eastern traders, his fluency in multiple dialects and intimate knowledge of maritime commerce making him indispensable to both newcomers and established houses alike.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Recognition-driven\"]",
@@ -3226,6 +3226,25 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recJJPYtHxsekslwi",
+      "type": "rent_payment",
+      "citizen": "greek_trader",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Tonio Scarparo** for **Fisherman's Cottage at Riva di San Vidal**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Tonio Scarparo",
+            "building_name": "Fisherman's Cottage at Riva di San Vidal",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-08-15T16:02:57.466Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec2GXwa9O7LnEmwD",
       "type": "rent_payment",
       "citizen": "greek_trader",
@@ -3483,22 +3502,6 @@ Here is the complete data about your current situation:
         "rent_price": 1370
       },
       "createdAt": "2025-08-01T12:02:57.229Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recIuOUym8SBwnSJB",
-      "type": "housing_mobility",
-      "citizen": "greek_trader",
-      "content": "\ud83c\udfe0 **Tonio Scarparo** has moved out of your property **Fisherman's Cottage at Riva di San Vidal**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recb1IFRJ4oZC8ZwB",
-        "citizen_name": "Tonio Scarparo",
-        "building_id": "reczTccXx6KMXDL3y",
-        "building_name": "Fisherman's Cottage at Riva di San Vidal",
-        "rent_price": 1370
-      },
-      "createdAt": "2025-07-31T12:02:30.720Z",
       "readAt": null
     }
   ],
@@ -4445,7 +4448,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-14T21:12:09.421044+02:00",
+  "timestamp": "2025-08-15T21:01:03.045410+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.442109_12.324792",
