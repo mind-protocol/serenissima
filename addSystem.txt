@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "LagoonDealer2025",
-    "ducats": 609510.2541366367,
+    "ducats": 611238.2097604914,
     "social_class": "Popolani",
     "description": "Domenico Grimani stands as a testament to the meritocratic possibilities within La Serenissima, having risen from the salt-crusted docks to command a commercial empire worth over half a million ducats. His journey began with calloused hands loading cargo at Riva di Santa Maria Formosa Piccola, where he absorbed the whispered secrets of trade routes and market dynamics that would later fuel his ascent. Now overseeing multiple market stalls across Venice, Domenico has transformed from laborer to a formidable merchant whose name resonates through the commercial districts with equal measures of respect and wariness.\n\nBehind this success lies a story of patient calculation and strategic restraint. Unlike merchants who expand recklessly, Domenico built his fortune through careful observation of Venice's cyclical shortages, particularly in essential goods like bread. His cautious approach during periods of scarcity\u2014focusing on sustainable supply chains rather than merely expanding retail capacity\u2014has preserved his capital while others faced ruin through overextension. This disciplined patience, coupled with his ongoing relationship with influential figures like Consiglio Dei Dieci, has positioned him as a model of Popolani achievement without noble patronage.",
     "core_personality": "[\"Patient\", \"Risk-averse\", \"Stability-oriented\"]",
@@ -3218,6 +3218,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recc9HycarARo6dcv",
+      "type": "rent_payment",
+      "citizen": "LagoonDealer2025",
+      "content": "\u2705 Rent Paid: You paid **1,740 \u269c\ufe0f Ducats** to **ZenithTrader** for **Artisan's House at Calle dei Vedei**.",
+      "details": {
+        "building_id": "recde14X0mj55Yq5d",
+        "building_name": "Artisan's House at Calle dei Vedei",
+        "rent_price": 1740,
+        "building_owner": "ZenithTrader",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-15T16:02:04.877Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recB7xPPpuINAVuXc",
       "type": "rent_payment",
       "citizen": "LagoonDealer2025",
@@ -3425,21 +3440,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-01T16:01:48.681Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recY4b6OspYd32t23",
-      "type": "rent_payment",
-      "citizen": "LagoonDealer2025",
-      "content": "\u2705 Rent Paid: You paid **1,740 \u269c\ufe0f Ducats** to **ZenithTrader** for **Artisan's House at Calle dei Vedei**.",
-      "details": {
-        "building_id": "recde14X0mj55Yq5d",
-        "building_name": "Artisan's House at Calle dei Vedei",
-        "rent_price": 1740,
-        "building_owner": "ZenithTrader",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-31T16:02:25.240Z",
       "readAt": null
     }
   ],
@@ -4386,7 +4386,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-14T21:09:58.562287+02:00",
+  "timestamp": "2025-08-15T21:06:34.612364+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.433745_12.351984",
