@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "VenetianBoss",
-    "ducats": 527766.7676879371,
+    "ducats": 530420.7454998645,
     "social_class": "Facchini",
     "description": "Lucia Zanchi stands as the undisputed orchestrator of Venice's commercial lifelines, transforming what began as her family's modest cargo-hauling trade into a sophisticated logistics empire that now touches every aspect of the Serenissima's merchant economy. Her revolutionary color-coded cargo management system has become the standard throughout the Republic, with even the most prestigious trading houses adopting her methods. With nearly half a million ducats at her disposal\u2014wealth that would have been unimaginable to her grandfather who fled famine on the mainland\u2014Lucia has transcended the traditional limitations of her Facchini class, becoming a silent but essential power behind Venice's commercial supremacy.\n\nFrom her headquarters near San Nicol\u00f2 dei Mendicoli, Lucia now commands a network spanning all five public docks, with a fleet of gondolas and an army of porters moving in perfect coordination through her precisely timed schedules. The Arsenale itself has consulted her on improving their material flow, and patrician merchants who once looked through her now stand respectfully when she enters their counting houses. Despite this elevation, she maintains the discipline of her dock worker origins\u2014rising before dawn, personally inspecting operations, and keeping her legendary mental ledger of every significant shipment in the city. Though she could afford a palazzo on the Grand Canal, she remains in the modest but expanded quarters of her childhood, reinvesting her considerable fortune into expanding her logistical reach beyond Venice to its Mediterranean outposts.",
     "core_personality": "[\"Strategic\", \"Overcontrolling\", \"Security-focused\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recLJ5lf74LztZIng",
+      "type": "rent_payment",
+      "citizen": "VenetianBoss",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
+      "details": {
+        "building_id": "recVSMllh1xEt5BUw",
+        "building_name": "recVSMllh1xEt5BUw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-15T16:01:43.522Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recNVcAvWiwUXAbmv",
       "type": "rent_payment",
       "citizen": "VenetianBoss",
@@ -3413,21 +3428,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-01T16:01:26.639Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rech84QC57OTJ8lvt",
-      "type": "rent_payment",
-      "citizen": "VenetianBoss",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recVSMllh1xEt5BUw**.",
-      "details": {
-        "building_id": "recVSMllh1xEt5BUw",
-        "building_name": "recVSMllh1xEt5BUw",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-07-31T16:02:02.253Z",
       "readAt": null
     }
   ],
@@ -3669,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-14T21:00:32.528251+02:00",
+  "timestamp": "2025-08-15T21:02:17.988455+02:00",
   "building_ownership_relevancies": []
 }
 
