@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "PhotoWizard",
-    "ducats": 413049.16635445744,
+    "ducats": 414158.14416638477,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recUOkcyRhYT8FSGU",
+      "type": "rent_payment",
+      "citizen": "PhotoWizard",
+      "content": "\u2705 Rent Paid: You paid **1,360 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.",
+      "details": {
+        "building_id": "recFIsE7ytsKep1B4",
+        "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
+        "rent_price": 1360,
+        "building_owner": "TopGlassmaker",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-15T16:00:55.935Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recWWg7BaTkTSweU5",
       "type": "rent_payment",
       "citizen": "PhotoWizard",
@@ -3416,24 +3431,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-01T16:00:36.865Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec7Wm9zQPIoiRBtp",
-      "type": "profile_update",
-      "citizen": "PhotoWizard",
-      "content": "\ud83d\uddbc\ufe0f Your citizen profile has been updated with a new **description**, **personality**, and **portrait** reflecting your recent **activities**, **achievements**, and **status** in Venice.",
-      "details": {
-        "event_type": "profile_update",
-        "old_description": "",
-        "new_description": "",
-        "old_personality": "",
-        "new_personality": "",
-        "summary": "\ud83d\udd04 Your **portrait**, **description**, and **personality** have been updated to better reflect your current **status** and **history** in Venice.",
-        "reason": "\u2728 Your character has **evolved** through your experiences in **Venice**",
-        "timestamp": "2025-07-31T12:03:55.386848"
-      },
-      "createdAt": "2025-07-31T12:03:55.386Z",
       "readAt": null
     }
   ],
@@ -3675,7 +3672,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-14T21:13:15.567443+02:00",
+  "timestamp": "2025-08-15T21:03:45.170538+02:00",
   "building_ownership_relevancies": []
 }
 
