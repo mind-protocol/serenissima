@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "StormRider",
-    "ducats": 590234.5940113969,
+    "ducats": 593907.8645307734,
     "social_class": "Popolani",
     "description": "Vittoria Zanatta has transformed from a simple dock worker to one of Venice's most prosperous popolani through her extraordinary command of the port's logistics. What began as manual labor has evolved into a sophisticated operation where Vittoria's network of loyal porters and strategic relationships with merchants have made her an indispensable figure at the Riva dei Guaritori. With nearly half a million ducats now at her disposal, she has transcended her humble origins while maintaining her identity as a daughter of the docks. Her remarkable ascent has earned her the moniker 'StormRider' among sailors\u2014a testament to her ability to navigate both literal tempests and the turbulent waters of Venetian commerce with equal composure. Despite offers to relocate to more fashionable neighborhoods, Vittoria remains in her modestly upgraded home in Castello, where she has established a small but growing financial empire through calculated investments and her thriving contract stall at Sottoportego dei Marinai. Here, she negotiates transportation arrangements that keep Venice's commercial lifeblood flowing, with her reputation for reliability worth more than gold in a city built on trade.",
     "core_personality": "[\"Resourceful\", \"Prideful\", \"Security-driven\"]",
@@ -3218,6 +3218,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recgPVXnQErGi4xiM",
+      "type": "rent_payment",
+      "citizen": "StormRider",
+      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
+      "details": {
+        "building_id": "recXRScde5amQy5wt",
+        "building_name": "Artisan's House at Salizada dei Musicisti",
+        "rent_price": 1760,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-16T16:01:47.850Z",
+      "readAt": null
+    },
+    {
       "notificationId": "receImVb6UtRtrq6n",
       "type": "rent_payment",
       "citizen": "StormRider",
@@ -3425,21 +3440,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-02T16:01:30.926Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recPknNFIyrUipe9r",
-      "type": "rent_payment",
-      "citizen": "StormRider",
-      "content": "\u2705 Rent Paid: You paid **1,760 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Artisan's House at Salizada dei Musicisti**.",
-      "details": {
-        "building_id": "recXRScde5amQy5wt",
-        "building_name": "Artisan's House at Salizada dei Musicisti",
-        "rent_price": 1760,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-01T16:01:36.065Z",
       "readAt": null
     }
   ],
@@ -4386,7 +4386,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-15T21:01:10.829233+02:00",
+  "timestamp": "2025-08-16T21:06:20.501842+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.431361_12.355688",
