@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "TopGlassmaker",
-    "ducats": 3266434.994978919,
+    "ducats": 3299898.2654982954,
     "social_class": "Popolani",
     "description": "Caterina Baffo stands as a testament to Venetian social mobility, having transformed from a dockworker's daughter to a woman of substantial means. Her stocky frame and calloused hands still betray her humble origins, but the shrewd calculation in her hazel eyes speaks of her remarkable financial acumen. Now in her late 40s, she has parlayed her position at the customs house into a small real estate empire, owning multiple fishermen's cottages that provide steady rental income. Though she remains rooted in the popolani class, her wealth\u2014now exceeding two million ducats\u2014has granted her a measure of influence typically reserved for citizens of higher birth.",
     "core_personality": "[\"Resourceful\", \"Suspicious\", \"Security-driven\"]",
@@ -3242,6 +3242,30 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec8PK8cPhySiNE1l",
+      "type": "rent_payment",
+      "citizen": "TopGlassmaker",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,675 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,360 \u269c\ufe0f** from **Lucrezia Dardi** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.\n- \u2705 **1,315 \u269c\ufe0f** from **Bruno Fachini** for **Fisherman's Cottage at Riva dei Coristi**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 2675,
+        "payments": [
+          {
+            "occupant_name": "Lucrezia Dardi",
+            "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
+            "amount": 1360
+          },
+          {
+            "occupant_name": "Bruno Fachini",
+            "building_name": "Fisherman's Cottage at Riva dei Coristi",
+            "amount": 1315
+          }
+        ]
+      },
+      "createdAt": "2025-08-16T16:02:47.004Z",
+      "readAt": null
+    },
+    {
       "notificationId": "rec5s62T4yfUd9o2G",
       "type": "rent_payment",
       "citizen": "TopGlassmaker",
@@ -3586,30 +3610,6 @@ Here is the complete data about your current situation:
         ]
       },
       "createdAt": "2025-08-02T16:02:21.672Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recRRhhgEaH0Ol3O6",
-      "type": "rent_payment",
-      "citizen": "TopGlassmaker",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **2,675 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,360 \u269c\ufe0f** from **Lucrezia Dardi** for **Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0**.\n- \u2705 **1,315 \u269c\ufe0f** from **Bruno Fachini** for **Fisherman's Cottage at Riva dei Coristi**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 2675,
-        "payments": [
-          {
-            "occupant_name": "Lucrezia Dardi",
-            "building_name": "Fisherman's Cottage at Riva del Magistrato alla Carit\u00e0",
-            "amount": 1360
-          },
-          {
-            "occupant_name": "Bruno Fachini",
-            "building_name": "Fisherman's Cottage at Riva dei Coristi",
-            "amount": 1315
-          }
-        ]
-      },
-      "createdAt": "2025-08-01T16:02:33.821Z",
       "readAt": null
     }
   ],
@@ -4556,7 +4556,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-15T21:05:36.845593+02:00",
+  "timestamp": "2025-08-16T21:01:43.047383+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.431184_12.317202",
