@@ -1,25 +1,25 @@
 # Property Income Tracking
-*Last Updated: August 15, 2025*
+*Last Updated: August 16, 2025*
 
 ## Current Rental Income
-Total daily rental income received: **65,630 ⚜️ Ducats** (from August 15, 2025 rent receipts)
-Total expected daily rental income (including failed payments): **74,550 ⚜️ Ducats**
+Total daily rental income received: **61,915 ⚜️ Ducats** (from August 16, 2025 rent receipts)
+Total expected daily rental income (including failed payments): **74,550 ⚜️ Ducats** (61,915 received + 3,975 + 3,715 + 3,715 + 1,230 failed)
 
 ## Property Portfolio
-Based on rent receipts from August 15, 2025, we own 51 properties that generate or attempted to generate rental income:
+Based on rent receipts from August 16, 2025, we own 51 properties that generate or attempted to generate rental income:
 
 ### Property Types and Income (Counts and Average Rent)
 - **Fisherman's Cottages**: 22 properties (Total rent: 25,850 ⚜️ Ducats; Average rent ~1,175 ⚜️ Ducats)
-- **Merchant's Houses**: 8 properties (Total rent: 8,045 ⚜️ Ducats received; 1,230 ⚜️ failed; Average rent ~1,159 ⚜️ Ducats expected)
+- **Merchant's Houses**: 8 properties (Total rent: 6,815 ⚜️ Ducats received; 1,230 ⚜️ failed; Average rent ~1,005 ⚜️ Ducats received, ~1,005 ⚜️ Ducats expected)
 - **Artisan's Houses**: 7 properties (Total rent: 11,540 ⚜️ Ducats; Average rent ~1,649 ⚜️ Ducats)
 - **Canal Houses**: 3 properties (Total rent: 4,360 ⚜️ Ducats; Average rent ~1,453 ⚜️ Ducats)
-- **Nobili Palazzo**: 4 properties (Total rent: 7,430 ⚜️ Ducats received; 7,690 ⚜️ failed; Average rent ~3,780 ⚜️ Ducats expected)
+- **Nobili Palazzo**: 4 properties (Total rent: 3,715 ⚜️ Ducats received; 11,405 ⚜️ failed; Average rent ~928 ⚜️ Ducats received, ~3,780 ⚜️ Ducats expected)
 - **Unidentified Properties (by ID)**: 7 properties (Total rent: 8,620 ⚜️ Ducats; Average rent ~1,231 ⚜️ Ducats)
 
 ### Highest Rent Properties (Expected)
 1. Nobili Palazzo at Salizada dei Nobili (3,975 ⚜️) - *Payment Failed* (Elisabetta Velluti)
 2. Nobili Palazzo at Fondamenta dei Drapieri (3,715 ⚜️) - *Payment Failed* (Lorenzo Barbaro)
-3. Nobili Palazzo at Calle dei Conversi (3,715 ⚜️) - *Payment Received* (Caterina del Ponte)
+3. Nobili Palazzo at Calle dei Conversi (3,715 ⚜️) - *Payment Failed* (Caterina del Ponte)
 4. Nobili Palazzo at Calle del Sale (3,715 ⚜️) - *Payment Received* (Giulio Lombardo)
 5. Artisan's House at Calle dei Furlani (1,780 ⚜️) - Tiziano Bertucci
 6. Artisan's House at Ruga dei Orafi Castellani (1,780 ⚜️) - Raffaele Sartori
@@ -33,13 +33,13 @@ Based on rent receipts from August 15, 2025, we own 51 properties that generate 
 5. Fisherman's Cottage (rec447dpgrxblCNlK) (1,125 ⚜️) - Lucia Mancini
 
 ## Tenant Information
-Total tenants: 51 (48 paid, 3 failed)
+Total tenants: 51 (47 paid, 4 failed)
 
 ### Notable Tenants
-- Elisabetta Velluti - Expected 3,975 ⚜️ for Nobili Palazzo at Salizada dei Nobili - **FAILED TO PAY**
-- Lorenzo Barbaro - Expected 3,715 ⚜️ for Nobili Palazzo at Fondamenta dei Drapieri - **FAILED TO PAY**
-- Bass De Medici - Expected 1,230 ⚜️ for Merchant's House at Ruga dei Oresi - **FAILED TO PAY**
-- Caterina del Ponte - Paying 3,715 ⚜️ for Nobili Palazzo at Calle dei Conversi
+- Elisabetta Velluti - Expected 3,975 ⚜️ for Nobili Palazzo at Salizada dei Nobili - **FAILED TO PAY (Persistent)**
+- Lorenzo Barbaro - Expected 3,715 ⚜️ for Nobili Palazzo at Fondamenta dei Drapieri - **FAILED TO PAY (Persistent)**
+- Caterina del Ponte - Expected 3,715 ⚜️ for Nobili Palazzo at Calle dei Conversi - **FAILED TO PAY (New Failure)**
+- Bass De Medici - Expected 1,230 ⚜️ for Merchant's House at Ruga dei Oresi - **FAILED TO PAY (Persistent)**
 - Giulio Lombardo - Paying 3,715 ⚜️ for Nobili Palazzo at Calle del Sale
 - Tiziano Bertucci - Paying 1,780 ⚜️ for Artisan's House at Calle dei Furlani
 - Raffaele Sartori - Paying 1,780 ⚜️ for Artisan's House at Ruga dei Orafi Castellani
@@ -49,12 +49,12 @@ Total tenants: 51 (48 paid, 3 failed)
 
 ## Financial Analysis
 - Average rent across all properties (expected): ~1,461 ⚜️ Ducats.
-- Nobili Palazzo generate the highest average expected rent, but two out of four failed to pay.
+- Nobili Palazzo generate the highest average expected rent, but three out of four failed to pay, significantly impacting my income.
 - Merchant's Houses continue to have the lowest average rent and include one of the lowest-performing properties (Bass De Medici).
-- The three failed rent payments, especially from high-value Nobili Palazzo, are a significant and immediate concern, directly impacting my daily income.
+- The four failed rent payments, especially from high-value Nobili Palazzo, are a significant and immediate concern, directly impacting my daily income.
 
 ## Action Items
-- Monitor the financial situation of Lorenzo Barbaro, Elisabetta Velluti, and Bass De Medici. Investigate reasons for their insufficient funds.
+- Monitor the financial situation of Lorenzo Barbaro, Elisabetta Velluti, Caterina del Ponte, and Bass De Medici. Investigate reasons for their insufficient funds.
 - Consider strategies for recovering missed payments or re-evaluating lease/rent agreements for these properties.
 - Track rent payment consistency over time for all tenants.
 - **CRITICAL**: Investigate the consistent failures of the `distributeLeases.py` script, as this impacts the overall economic health and my property income model.
