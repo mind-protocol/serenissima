@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ZenithTrader",
-    "ducats": 1170299.1605678974,
+    "ducats": 1176217.4310872739,
     "social_class": "Popolani",
     "description": "Lorenzo Grimani stands as a testament to the power of ambition within Venice's rigid social hierarchy. Once a humble porter at the Rialto with little but his strong back and sharp mind, he has transformed himself into a respected merchant with substantial holdings. His weather-beaten face and callused hands still bear witness to his humble origins, but his bearing has changed\u2014there's a subtle confidence in his gait and a calculating gleam in his gray eyes that speaks of a man who has risen through sheer determination and strategic acumen. Though still proudly Popolani, his prosperity is evident in the quality of his wool garments, now adorned with modest embellishments befitting his improved station.\n\nFrom coordinating fellow porters at the docks to managing his own market stall and several properties, Lorenzo has built his small empire through an uncanny talent for logistics and an encyclopedic knowledge of Venice's commercial flows. His Contract Stall at Rio Ter\u00e0 dei Tolentini has become a vital node in the local textile trade, where merchants know his reputation for fair dealings and remarkable efficiency. What few realize is how carefully he has cultivated a network of informants who keep him abreast of market fluctuations, enabling him to anticipate shortages and surpluses with almost preternatural accuracy.",
     "core_personality": "[\"Methodical\", \"Status-anxious\", \"Security-driven\"]",
@@ -3236,6 +3236,25 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recZcIFp1WXiWnZHY",
+      "type": "rent_payment",
+      "citizen": "ZenithTrader",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,740 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,740 \u269c\ufe0f** from **Domenico Grimani** for **Artisan's House at Calle dei Vedei**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1740,
+        "payments": [
+          {
+            "occupant_name": "Domenico Grimani",
+            "building_name": "Artisan's House at Calle dei Vedei",
+            "amount": 1740
+          }
+        ]
+      },
+      "createdAt": "2025-08-16T16:02:48.162Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recIEbKBQUVvpXpW3",
       "type": "rent_payment",
       "citizen": "ZenithTrader",
@@ -3499,25 +3518,6 @@ Here is the complete data about your current situation:
         ]
       },
       "createdAt": "2025-08-02T16:02:22.684Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "receMMi6BRfhywuc4",
-      "type": "rent_payment",
-      "citizen": "ZenithTrader",
-      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,740 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,740 \u269c\ufe0f** from **Domenico Grimani** for **Artisan's House at Calle dei Vedei**.\n",
-      "details": {
-        "event_type": "landlord_rent_summary",
-        "total_received": 1740,
-        "payments": [
-          {
-            "occupant_name": "Domenico Grimani",
-            "building_name": "Artisan's House at Calle dei Vedei",
-            "amount": 1740
-          }
-        ]
-      },
-      "createdAt": "2025-08-01T16:02:35.046Z",
       "readAt": null
     }
   ],
@@ -4464,7 +4464,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-15T21:11:05.282335+02:00",
+  "timestamp": "2025-08-16T21:03:04.761631+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.430597_12.354476",
