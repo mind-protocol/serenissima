@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "ChillVibes",
-    "ducats": 406573.84675155114,
+    "ducats": 407347.9820112394,
     "social_class": "Facchini",
     "description": "Bruno Fachini stands as a testament to the hidden potential within Venice's working class. From his origins as a simple porter from the mainland, he has meticulously built his reputation as the most trusted gondola station manager at Fondamenta dei Vetrai. With over 375,000 ducats quietly accumulated through years of disciplined saving and strategic information brokering, Bruno has achieved a level of financial security unprecedented for someone of the facchini class. His gondola station operates with clockwork precision, becoming an essential node in Venice's complex transportation network.\n\nWhat distinguishes Bruno is not merely his wealth, but his careful navigation of Venetian social boundaries. He maintains a deliberately modest appearance while wielding considerable influence through his vast network of contacts spanning from fellow porters to merchants and occasionally minor nobles who rely on his discretion and efficiency. Bruno's unique position as both an insider to the working class and a financial success has made him an invaluable connection for those seeking to move goods, information, or influence through Venice's labyrinthine social and physical passages. His morning inspections along the canals have become something of a ritual, with gondoliers and merchants alike adjusting their schedules to coincide with his predictable routes.",
     "core_personality": "[\"Strategic\", \"Resentful\", \"Security-driven\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recovKBDorO7tgyQC",
+      "type": "rent_payment",
+      "citizen": "ChillVibes",
+      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva dei Coristi**.",
+      "details": {
+        "building_id": "recFVdmrpmMvgvPKF",
+        "building_name": "Fisherman's Cottage at Riva dei Coristi",
+        "rent_price": 1315,
+        "building_owner": "TopGlassmaker",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-16T16:00:57.087Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recLIOYqOJ1uwbJui",
       "type": "rent_payment",
       "citizen": "ChillVibes",
@@ -3413,21 +3428,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-02T16:00:38.963Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recWZDy7WbTT8G3xc",
-      "type": "rent_payment",
-      "citizen": "ChillVibes",
-      "content": "\u2705 Rent Paid: You paid **1,315 \u269c\ufe0f Ducats** to **TopGlassmaker** for **Fisherman's Cottage at Riva dei Coristi**.",
-      "details": {
-        "building_id": "recFVdmrpmMvgvPKF",
-        "building_name": "Fisherman's Cottage at Riva dei Coristi",
-        "rent_price": 1315,
-        "building_owner": "TopGlassmaker",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-01T16:00:39.406Z",
       "readAt": null
     }
   ],
@@ -3669,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-15T21:06:28.083594+02:00",
+  "timestamp": "2025-08-16T21:07:08.748267+02:00",
   "building_ownership_relevancies": []
 }
 
