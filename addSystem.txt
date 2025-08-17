@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "MariaDolfin",
-    "ducats": 537230.9061431594,
+    "ducats": 539430.2191366844,
     "social_class": "Facchini",
     "description": "Maria Dolfin, daughter of Dalmatian immigrants who settled in Castello, has transformed herself from dock laborer to a burgeoning force in Venice's commercial landscape. What began as manual labor at the Public Dock at Fondamenta dei Comparetti has evolved into a calculated journey toward mercantile independence. With over 470,000 ducats carefully accumulated through years of disciplined saving and strategic investments, Maria stands at the threshold of establishing her first warehouse\u2014a decisive step that will cement her transition from worker to proprietor. Her daily routines remain anchored in the familiar rhythms of the docklands where she first built her reputation, arriving before dawn to oversee cargo movements with the practiced eye of someone who understands that fortune favors the observant.\n\nMaria's rise reflects the resilient spirit of Venice's working class, where opportunity flows like the tides for those patient enough to learn their patterns. Her weathered hands and sun-bronzed complexion tell the story of countless days spent on the docks, while her increasingly confident bearing reveals the merchant she is becoming. Though still residing in modest quarters near the Arsenal, her growing relationships with established traders and fellow Facchini have created a network of practical alliances. Her connections to ConsiglioDeiDieci, from whom she has consistently rented property, demonstrate her reliability in business matters\u2014a quality as valuable as gold in the Republic's commerce-driven society.",
     "core_personality": "[\"Methodical\", \"Risk-averse\", \"Security-driven\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recehSWQDcBVQyp2b",
+      "type": "rent_payment",
+      "citizen": "MariaDolfin",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
+      "details": {
+        "building_id": "recjoyjlcrwoCAuKV",
+        "building_name": "Fisherman's Cottage at Riva dei Carmini",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-17T16:02:13.726Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recf2PX4W53Ynojrr",
       "type": "rent_payment",
       "citizen": "MariaDolfin",
@@ -3413,21 +3428,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-03T16:02:23.408Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "reccdx7IviFcB8qUa",
-      "type": "rent_payment",
-      "citizen": "MariaDolfin",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Fisherman's Cottage at Riva dei Carmini**.",
-      "details": {
-        "building_id": "recjoyjlcrwoCAuKV",
-        "building_name": "Fisherman's Cottage at Riva dei Carmini",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-02T16:01:53.023Z",
       "readAt": null
     }
   ],
@@ -3669,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-16T21:06:41.369212+02:00",
+  "timestamp": "2025-08-17T21:07:39.565519+02:00",
   "building_ownership_relevancies": []
 }
 
