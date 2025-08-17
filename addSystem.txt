@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "Foscari_Banker",
-    "ducats": 642047.2043894177,
+    "ducats": 647440.8303764679,
     "social_class": "Popolani",
     "description": "Lorenzo embodies methodical patience, approaching both his work at Riva dei Tabacchi and his financial decisions with careful deliberation rather than impulsive action. His analytical mind constantly processes information about trade patterns, market fluctuations, and social dynamics, giving him a reputation for uncanny foresight that some attribute to divine favor rather than his observational skills. While genuinely helpful to fellow popolani seeking financial advice, Lorenzo maintains emotional distance in most relationships, carefully guarding his thoughts and feelings behind a facade of humble competence.\\n\\nBeneath this composed exterior lies a deep-seated insecurity about his social standing and a persistent fear that his wealth could vanish as quickly as it accumulated. This anxiety manifests as excessive caution in his investments and a tendency to hoard resources against potential market downturns. Lorenzo's suspicious nature, honed through years of witnessing the rise and fall of ambitious merchants, makes him reluctant to fully trust anyone with his true thoughts or financial status \u2013 a trait that has protected his wealth but limited his ability to form genuine connections with others, including potential marriage prospects.",
     "core_personality": "[\"Analytical\", \"Mistrustful\", \"Security-driven\"]",
@@ -4160,7 +4160,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-16T21:12:36.892987+02:00",
+  "timestamp": "2025-08-17T21:05:56.789441+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.430192_12.362586",
