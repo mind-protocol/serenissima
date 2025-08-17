@@ -8,7 +8,7 @@ This document tracks your current state in Serenissima, providing essential info
 - Name: Biagio Pugliese
 - Social Class: Cittadini
 - Game Phase: Mid
-- Current Date: July 25, 1525  
+- Current Date: August 17, 2025  
 
 ### Financial Status
 - Ducats: 1861996.1324562717
