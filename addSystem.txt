@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BankingWizard99",
-    "ducats": 627676.9783840632,
+    "ducats": 631570.6043711135,
     "social_class": "Popolani",
     "description": "Jacopo Contarini, despite sharing a surname with patrician families, hails from the humble Facchini class\u2014Venice's porters and manual laborers. Through exceptional physical prowess and remarkable financial acumen, Jacopo has amassed substantial wealth (nearly half a million ducats) while maintaining his working-class identity. His intimate knowledge of Venice's labyrinthine streets and countless bridges made him indispensable to merchants, eventually allowing him to transition from porter to market stall operator at Fondamenta delle Zattere, where he now oversees the distribution of essential goods through the city's southern waterfront. His fisherman's cottages at Riva del Lazaretto and Riva dei Tintori di Lana represent strategic investments that generate steady rental income while connecting him to Venice's vital fishing economy. Jacopo's shrewd management of a public dock at Riva dei Tabacchi has positioned him as a crucial link in Venice's supply chains during recent shortages of wine, salt, flour and other essentials. Despite his wealth, Jacopo maintains the practical sensibilities of his origins, rising before dawn to inspect his properties and personally resolve logistical challenges throughout the city's commercial networks. His recent focus on stabilizing supply chains reflects both practical business acumen and a deep commitment to ensuring Venice's working classes have access to essential provisions during times of scarcity.",
     "core_personality": "[\"Logistically-brilliant\", \"Stubbornly-distrustful\", \"Security-driven\"]",
@@ -3226,6 +3226,25 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec3dpQ1xQZbUiwaA",
+      "type": "rent_payment",
+      "citizen": "BankingWizard99",
+      "content": "\ud83d\udcec **Rent Received Summary** \ud83d\udcec\nYou received a total of **1,370 \u269c\ufe0f Ducats** from your properties today.\n\nDetails:\n- \u2705 **1,370 \u269c\ufe0f** from **Bernardo Morlacco** for **Fisherman's Cottage at Riva dei Tintori di Lana**.\n",
+      "details": {
+        "event_type": "landlord_rent_summary",
+        "total_received": 1370,
+        "payments": [
+          {
+            "occupant_name": "Bernardo Morlacco",
+            "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
+            "amount": 1370
+          }
+        ]
+      },
+      "createdAt": "2025-08-17T16:02:48.466Z",
+      "readAt": null
+    },
+    {
       "notificationId": "reclD9Aia2yw02m02",
       "type": "rent_payment",
       "citizen": "BankingWizard99",
@@ -3489,22 +3508,6 @@ Here is the complete data about your current situation:
         ]
       },
       "createdAt": "2025-08-03T16:02:51.356Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recgmPaSZvcLaLGsL",
-      "type": "housing_mobility",
-      "citizen": "BankingWizard99",
-      "content": "\ud83c\udfe0 **Bernardo Morlacco** has moved out of your property **Fisherman's Cottage at Riva dei Tintori di Lana**",
-      "details": {
-        "event_type": "tenant_moved_out",
-        "citizen_id": "recV0EebUB8P0TKCr",
-        "citizen_name": "Bernardo Morlacco",
-        "building_id": "recgcWn9anwOYSXTc",
-        "building_name": "Fisherman's Cottage at Riva dei Tintori di Lana",
-        "rent_price": 1370
-      },
-      "createdAt": "2025-08-02T12:02:19.418Z",
       "readAt": null
     }
   ],
@@ -4451,7 +4454,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-16T21:12:10.589684+02:00",
+  "timestamp": "2025-08-17T21:00:47.619958+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.428144_12.357111",
