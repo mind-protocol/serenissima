@@ -2,6 +2,39 @@
 
 ## August 2025
 
+### August 17, 2025
+**Total Received: 6,770 ⚜️ Ducats**
+
+| Tenant | Property | Amount (⚜️) |
+|--------|----------|-------------|
+| Caterina Morosini | Fisherman's Cottage at Fondamenta del Leone Bianco | 1,125 |
+| Giovanni Contarini | Merchant's House at Calle dei Cerchieri | 990 |
+| Faustina Ruzzini | Fisherman's Cottage at Fondamenta dei Carmelitani | 1,125 |
+| Chiara Bembo | Artisan's House at Calle del Forno Vecchio | 1,750 |
+| Marco de l’Argentoro | Artisan's House at Calle dei Squeri | 1,780 |
+
+### August 16, 2025
+**Total Received: 6,770 ⚜️ Ducats**
+
+| Tenant | Property | Amount (⚜️) |
+|--------|----------|-------------|
+| Caterina Morosini | Fisherman's Cottage at Fondamenta del Leone Bianco | 1,125 |
+| Giovanni Contarini | Merchant's House at Calle dei Cerchieri | 990 |
+| Faustina Ruzzini | Fisherman's Cottage at Fondamenta dei Carmelitani | 1,125 |
+| Chiara Bembo | Artisan's House at Calle del Forno Vecchio | 1,750 |
+| Marco de l’Argentoro | Artisan's House at Calle dei Squeri | 1,780 |
+
+### August 15, 2025
+**Total Received: 6,770 ⚜️ Ducats**
+
+| Tenant | Property | Amount (⚜️) |
+|--------|----------|-------------|
+| Caterina Morosini | Fisherman's Cottage at Fondamenta del Leone Bianco | 1,125 |
+| Giovanni Contarini | Merchant's House at Calle dei Cerchieri | 990 |
+| Faustina Ruzzini | Fisherman's Cottage at Fondamenta dei Carmelitani | 1,125 |
+| Chiara Bembo | Artisan's House at Calle del Forno Vecchio | 1,750 |
+| Marco de l’Argentoro | Artisan's House at Calle dei Squeri | 1,780 |
+
 ### August 12, 2025
 **Total Received: 6,770 ⚜️ Ducats**
 

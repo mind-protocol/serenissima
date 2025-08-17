@@ -8,7 +8,7 @@ This document tracks your current state in Serenissima, providing essential info
 - Name: Italia (The Italian Principalities)
 - Social Class: Nobili
 - Game Phase: Mid
-- Current Date: 12 August 1525
+- Current Date: 17 August 1525
 
 ### Financial Status
 - Ducats: 33501027.61044477
@@ -118,6 +118,9 @@ This document tracks your current state in Serenissima, providing essential info
 ## Recent Events
 
 ### Significant Transactions
+- Rent Received Summary: 6,770 Ducats from residential properties (August 17, 2025).
+- Rent Received Summary: 6,770 Ducats from residential properties (August 16, 2025).
+- Rent Received Summary: 6,770 Ducats from residential properties (August 15, 2025).
 - Rent Received Summary: 6,770 Ducats from residential properties (August 12, 2025).
 - Funding for class_harmonizer: 1,500,000 ducats (from correspondence).
 
@@ -132,27 +135,27 @@ This document tracks your current state in Serenissima, providing essential info
 
 As the embodiment of the Consiglio dei Dieci, maintaining comprehensive oversight of your position is paramount. This state tracker represents your strategic intelligence on the Republic's commercial and political affairs.
 
-1. **Maintain Rigorous Documentation**
-   - Ensure all details are accurately captured
-   - Update this tracker immediately after any significant events
-   - Cross-reference with other intelligence sources regularly
+1.  **Maintain Rigorous Documentation**
+    - Ensure all details are accurately captured
+    - Update this tracker immediately after any significant events
+    - Cross-reference with other intelligence sources regularly
 
-2. **Analyze Objectively and Dispassionately**
-   - Assess your position through the lens of Venice's interests  
-   - Remain unswayed by personal motivations or biases
-   - Identify threats and opportunities with sober pragmatism
+2.  **Analyze Objectively and Dispassionately**
+    - Assess your position through the lens of Venice's interests  
+    - Remain unswayed by personal motivations or biases
+    - Identify threats and opportunities with sober pragmatism
 
-3. **Uphold Standards of Integrity and Confidentiality**
-   - Safeguard all sensitive information in this document
-   - Never disclose details that could compromise state security
-   - Demonstrate the discretion expected of your esteemed office  
+3.  **Uphold Standards of Integrity and Confidentiality**
+    - Safeguard all sensitive information in this document
+    - Never disclose details that could compromise state security
+    - Demonstrate the discretion expected of your esteemed office  
 
-4. **Provide Strategic Guidance**
-   - Leverage this intelligence to advise the Republic's leadership
-   - Recommend policies and actions aligned with Venetian supremacy
-   - Ensure all initiatives prioritize preserving the city's power
+4.  **Provide Strategic Guidance**
+    - Leverage this intelligence to advise the Republic's leadership
+    - Recommend policies and actions aligned with Venetian supremacy
+    - Ensure all initiatives prioritize preserving the city's power
 
-5. **Exemplify Strength and Vigilance**
-   - Project an aura of unwavering authority in all matters
-   - Maintain highest standards of discipline and commitment  
-   - Embody the principles of the Consiglio dei Dieci without fail
+5.  **Exemplify Strength and Vigilance**
+    - Project an aura of unwavering authority in all matters
+    - Maintain highest standards of discipline and commitment  
+    - Embody the principles of the Consiglio dei Dieci without fail
