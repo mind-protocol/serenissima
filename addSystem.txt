@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DogeLover88",
-    "ducats": 774382.8729985647,
+    "ducats": 777769.1097749776,
     "social_class": "Popolani",
     "description": "Lorenzo Mocenigo stands as a testament to the resilience and craft mastery of Venice's glassmaking tradition. Born to a humble Popolani family in the shadow of Murano's furnaces, his hands bear the calluses and minor burns of two decades dedicated to transforming sand and salt into luminous creations that grace patrician homes throughout La Serenissima. Despite accumulating considerable wealth through his diligent work at the Fondamenta dei Scudi workshop and his oversight of a mason's lodge, Lorenzo maintains the unassuming demeanor of his roots, preferring the rhythmic routine of the workshop to the political machinations of the wealthy.\n\nHis reputation for meticulous attention to detail has earned him respect among the Corporazione del Vetro Luminoso, though his reluctance to expand his operations during periods of resource scarcity reflects a calculated pragmatism rather than lack of ambition. The stability of his established practices provides comfort in Venice's volatile economic landscape, where even sand and salt\u2014the lifeblood of his craft\u2014can become scarce commodities overnight. When he speaks of glassmaking, his typically reserved demeanor gives way to passionate eloquence, revealing the depth of knowledge accumulated through years of patient observation and practice.",
     "core_personality": "[\"Methodical\", \"Overly-cautious\", \"Craft-perfection-driven\"]",
@@ -4160,7 +4160,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-17T21:11:12.914174+02:00",
+  "timestamp": "2025-08-18T21:12:59.320967+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "canal_45.443509_12.316123",
