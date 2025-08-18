@@ -349,20 +349,21 @@ def process_automated_lease_adjustments(strategy: str, dry_run: bool):
                 building_id_custom = building_record['fields'].get('BuildingId', building_airtable_id)
                 building_owner_username = building_record['fields'].get('Owner')
                 building_category = building_record['fields'].get('Category')
+                current_lease_price_val = float(building_record['fields'].get('LeasePrice', 0.0) or 0.0)
+                building_type_str = building_record['fields'].get('Type')
                 
                 # AI Land Owner should not adjust lease for buildings they themselves own on their land
                 if building_owner_username == ai_username:
-                    log.info(f"    Skipping building {building_id_custom} (Category: {building_category}) on land {land_id_custom} as it's owned by the land owner {ai_username}.") # Changed log level
+                    log.info(f"    Skipping building {building_id_custom} (Category: {building_category}) on land {land_id_custom} as it's owned by the land owner {ai_username}. Current Lease: {current_lease_price_val:.0f}")
                     continue
                 
                 # Only adjust lease for 'home' or 'business' category buildings
                 if building_category not in ['home', 'business']:
-                    log.info(f"    Skipping building {building_id_custom} (Category: {building_category}) on land {land_id_custom} as its category is not 'home' or 'business'.") # Changed log level
+                    log.info(f"    Skipping building {building_id_custom} (Category: {building_category}) on land {land_id_custom} as its category is not 'home' or 'business'. Current Lease: {current_lease_price_val:.0f}")
                     continue
 
-                log.info(f"    Processing building {building_id_custom} (Category: {building_category}, Airtable ID: {building_airtable_id}) on land {land_id_custom} for AI {ai_username}") # Changed log level
-                current_lease_price_val = float(building_record['fields'].get('LeasePrice', 0.0) or 0.0)
-                building_type_str = building_record['fields'].get('Type')
+                log.info(f"    Processing building {building_id_custom} (Category: {building_category}, Airtable ID: {building_airtable_id}) on land {land_id_custom} for AI {ai_username}. Current Lease: {current_lease_price_val:.0f}")
+                
 
                 new_lease_price = calculate_new_lease_price(
                     building_record, ai_username, strategy, all_buildings_data
@@ -370,6 +371,7 @@ def process_automated_lease_adjustments(strategy: str, dry_run: bool):
 
                 if new_lease_price is not None:
                     if abs(new_lease_price - current_lease_price_val) > 1.0: # Only update if changed meaningfully
+                        log.info(f"    Building {building_id_custom}: Calculated new lease price {new_lease_price:.0f} differs significantly from current {current_lease_price_val:.0f}. Attempting update.")
                         if update_building_lease_price(tables, building_airtable_id, new_lease_price, dry_run):
                             lease_adjustment_results.append({
                                 "ai_land_owner": ai_username,
@@ -387,9 +389,9 @@ def process_automated_lease_adjustments(strategy: str, dry_run: bool):
                                     ai_username, current_lease_price_val, new_lease_price, dry_run
                                 )
                     else:
-                        log.info(f"    Building {building_id_custom}: New lease price {new_lease_price:.0f} is too close to current {current_lease_price_val:.0f}. No change.{LogColors.ENDC}")
+                        log.info(f"    Building {building_id_custom}: New lease price {new_lease_price:.0f} is too close to current {current_lease_price_val:.0f}. No change.")
                 else:
-                    log.info(f"    Building {building_id_custom}: No new lease price calculated. Current lease price: {current_lease_price_val:.0f}{LogColors.ENDC}")
+                    log.info(f"    Building {building_id_custom}: No new lease price calculated. Current lease price: {current_lease_price_val:.0f}")
 
     create_admin_summary_notification(tables, lease_adjustment_results, dry_run)
     log.info(f"{LogColors.HEADER}Automated Lease Price Adjustment Process Completed.{LogColors.ENDC}")

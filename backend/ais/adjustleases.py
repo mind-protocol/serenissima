@@ -350,26 +350,6 @@ If you decide not to adjust any leases at this time, return an empty array.
                         except json.JSONDecodeError as e:
                             print(f"Error parsing JSON from array extraction: {str(e)}")
                     
-                    # Manual extraction as last resort
-                    building_ids = re.findall(r'"building_id"\s*:\s*"([^"]+)"', content)
-                    lease_prices = re.findall(r'"new_lease_price"\s*:\s*(\d+)', content)
-                    reasons = re.findall(r'"reason"\s*:\s*"([^"]+)"', content)
-                    
-                    if building_ids and lease_prices and len(building_ids) == len(lease_prices):
-                        # Create a manually constructed decision object
-                        adjustments = []
-                        for i in range(len(building_ids)):
-                            reason = reasons[i] if i < len(reasons) else "No reason provided"
-                            adjustments.append({
-                                "building_id": building_ids[i],
-                                "new_lease_price": int(lease_prices[i]),
-                                "reason": reason
-                            })
-                        
-                        decisions = {"lease_adjustments": adjustments}
-                        print(f"Manually extracted lease adjustments: {len(decisions['lease_adjustments'])}")
-                        return decisions
-                    
                     # If we get here, no valid decision was found
                     print(f"No valid lease adjustment decision found in AI response. Full response:")
                     print(content)
@@ -380,10 +360,10 @@ If you decide not to adjust any leases at this time, return an empty array.
                     print(content)
                     return None
             else:
-                print(f"Error processing lease adjustment request for AI citizen {ai_username}: {response_data}")
+                print(f"Error processing lease adjustment request for AI citizen {ai_username}: Kinos status not 'completed'. Response: {response_data}")
                 return None
         else:
-            print(f"Error from Kinos API: {response.status_code} - {response.text}")
+            print(f"Error from Kinos API for {ai_username}: {response.status_code} - {response.text}")
             return None
     except Exception as e:
         print(f"Error sending lease adjustment request to AI citizen {ai_username}: {str(e)}")
@@ -633,7 +613,7 @@ def process_ai_lease_adjustments(dry_run: bool = False):
                             "reason": reason
                         })
             else:
-                print(f"No valid lease adjustment decisions received for {ai_username}")
+                print(f"No valid lease adjustment decisions received for {ai_username} from Kinos.")
         else:
             # In dry run mode, just log what would happen
             print(f"[DRY RUN] Would send lease adjustment request to AI citizen {ai_username}")
