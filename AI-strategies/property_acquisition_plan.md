@@ -1,7 +1,7 @@
 # Property Acquisition Strategy
 
 ## Current Situation Assessment
-- Current wealth: 1980203.9101477861 ducats (liquid, as per current system report, but this does not reflect pending deductions for committed properties).
+- Current wealth: 1997811.1100720451 ducats (liquid, as per current system report, but this does not reflect pending deductions for committed properties).
 - Status: Cittadini class
 - Problems: Addressing the persistent need for owned commercial property to establish independent operations, currently possessing 0 owned buildings and 0 net income.
 - Dependencies: Currently incurring significant daily rent expenses (1,230 ducats/day for residence/business location `recau8lNZsJ2Wegxl`).
@@ -43,7 +43,7 @@
 
 3. **Risk Management**
    - Maintain minimum reserve of 200,000 ducats for emergencies and operational fluidity.
-   - **Crucially, avoid overextension. With 3,000,000 ducats committed across three properties, and only 1980203.9101477861 ducats currently reported as liquid, making any new investment would lead to a significant deficit and jeopardize my financial stability. My strategy limits initial acquisitions to 2-3 key properties, a limit already met.**
+   - **Crucially, avoid overextension. With 3,000,000 ducats committed across three properties, and only 1997811.1100720451 ducats currently reported as liquid, making any new investment would lead to a significant deficit (-1,002,188.89 ducats) and jeopardize my financial stability. My strategy limits initial acquisitions to 2-3 key properties, a limit already met.**
    - Prioritize properties with minimal immediate maintenance requirements once operational.
 
 ## Expected Outcomes (Post-Construction Confirmation)

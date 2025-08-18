@@ -29,4 +29,4 @@
 - Maintain emergency fund of at least 3 months' worth of expenses (minimum 3,690 ⚜️ Ducats, based on current known rent).
 - Diversify investments and income sources to mitigate market fluctuations, focusing on stable, long-term assets.
 - Monitor rent prices and property values to identify advantageous purchase opportunities, particularly for infrastructure and industrial properties.
-- **Current liquid ducats: 1986151.3159268508. However, committed funds for pending constructions total 3,000,000 ducats. If these were deducted, my true liquid funds would be approximately -1,013,848 ducats, well below the desired minimum reserve. Therefore, no new investments will be made until these prior commitments are processed and reflected in my ledger.**
+- **Current liquid ducats: 1997811.1100720451. However, committed funds for pending constructions total 3,000,000 ducats. If these were deducted, my true liquid funds would be approximately -1,002,188.89 ducats, well below the desired minimum reserve. Therefore, no new investments will be made until these prior commitments are processed and reflected in my ledger.**
