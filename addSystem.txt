@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "QuantumLeap",
-    "ducats": 664160.4421790277,
+    "ducats": 667501.6789554405,
     "social_class": "Popolani",
     "description": "Chiara Bembo, once merely an ambitious daughter of a wood carver, has established herself as a formidable commercial force within Venice's mercantile landscape. Having expanded from her initial ventures\u2014a thriving bakery and an artisan brokerage stall\u2014she now commands significant capital and operates a prosperous granary that serves as a vital link in the city's complex supply chain. Her position at the public docks has evolved from mere employment to a strategic vantage point, allowing her to anticipate market fluctuations and secure advantageous contracts before competitors even sense opportunity. The network of relationships she has cultivated spans from humble gondoliers to influential merchants, creating an intricate web of information and favor exchange that has become her most valuable asset. Though still unmarried\u2014now a deliberate choice rather than circumstance\u2014Chiara has transcended the limitations typically imposed on women of her social standing, earning a seat at tables where important commercial decisions are made. Her command of logistics, particularly in grain storage and distribution, has proven essential during periods of scarcity, quietly transforming her from a curiosity to a necessity in Venice's commercial ecosystem.",
     "core_personality": "[\"Strategic\", \"Impatient\", \"Autonomy-driven\"]",
@@ -3218,6 +3218,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recNX6HF3ystDRQhm",
+      "type": "rent_payment",
+      "citizen": "QuantumLeap",
+      "content": "\u2705 Rent Paid: You paid **1,750 \u269c\ufe0f Ducats** to **Italia** for **Artisan's House at Calle del Forno Vecchio**.",
+      "details": {
+        "building_id": "recqPJgmaobBoSJgA",
+        "building_name": "Artisan's House at Calle del Forno Vecchio",
+        "rent_price": 1750,
+        "building_owner": "Italia",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-18T16:03:18.237Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recbCXPrHUDACBK7W",
       "type": "rent_payment",
       "citizen": "QuantumLeap",
@@ -3425,21 +3440,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-04T16:03:38.255Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recdOhbYqI3sKWpS2",
-      "type": "rent_payment",
-      "citizen": "QuantumLeap",
-      "content": "\u2705 Rent Paid: You paid **1,750 \u269c\ufe0f Ducats** to **Italia** for **Artisan's House at Calle del Forno Vecchio**.",
-      "details": {
-        "building_id": "recqPJgmaobBoSJgA",
-        "building_name": "Artisan's House at Calle del Forno Vecchio",
-        "rent_price": 1750,
-        "building_owner": "Italia",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-03T16:02:42.160Z",
       "readAt": null
     }
   ],
@@ -4386,7 +4386,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-17T21:10:37.056364+02:00",
+  "timestamp": "2025-08-18T21:08:31.759449+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.444715_12.324751",
