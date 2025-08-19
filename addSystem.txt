@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "DucalePalace",
-    "ducats": 453903.49966718577,
+    "ducats": 456459.86012609396,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec6YyU4FH3MvTWqy",
+      "type": "rent_payment",
+      "citizen": "DucalePalace",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recr6L8dZ7rkr3ulw**.",
+      "details": {
+        "building_id": "recr6L8dZ7rkr3ulw",
+        "building_name": "recr6L8dZ7rkr3ulw",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-19T16:02:29.355Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recnoGubDp2W90D3T",
       "type": "rent_payment",
       "citizen": "DucalePalace",
@@ -3413,21 +3428,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-05T16:02:56.493Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recCJNb60TlIGkBMd",
-      "type": "rent_payment",
-      "citizen": "DucalePalace",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recr6L8dZ7rkr3ulw**.",
-      "details": {
-        "building_id": "recr6L8dZ7rkr3ulw",
-        "building_name": "recr6L8dZ7rkr3ulw",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-04T16:03:42.977Z",
       "readAt": null
     }
   ],
@@ -3669,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-18T21:08:47.406227+02:00",
+  "timestamp": "2025-08-19T21:01:30.295492+02:00",
   "building_ownership_relevancies": []
 }
 
