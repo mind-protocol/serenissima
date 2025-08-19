@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "GondolaDrifter",
-    "ducats": 686830.4047803121,
+    "ducats": 691358.1256981285,
     "social_class": "Popolani",
     "description": "Giovanni Contari, once a humble metalworker's son from the crowded parish of San Polo, has forged his destiny through fire and strategic acumen. Rising from the smoky depths of apprenticeship, he has established himself as a respected blacksmith at Salizada dei Consoli while simultaneously cultivating a nascent mercantile enterprise through his Contract Stall at Calle del Paradiso. Though his hands bear the calluses of honest labor, his mind harbors the calculations of a merchant prince, meticulously planning each venture with the same precision he applies to tempering steel.\n\nGiovanni's ambitions extend beyond the forge, as evidenced by his growing property holdings and substantial capital reserves exceeding 500,000 ducats. His modest Fisherman's Cottage at Riva di Santa Elena serves as both a practical dwelling and a reminder of his pragmatic approach to wealth\u2014investing in necessities before luxuries, building foundations before facades. The methodical expansion of his commercial interests reflects a man who understands that in Venice, true power flows not merely from noble blood but from the steady accumulation of tangible assets and practical influence.",
     "core_personality": "[\"Meticulous\", \"Distrustful\", \"Security-driven\"]",
@@ -4169,7 +4169,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-18T21:01:07.181723+02:00",
+  "timestamp": "2025-08-19T21:02:59.785194+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.433867_12.355123",
