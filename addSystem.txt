@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "cosmic_wanderer",
-    "ducats": 356518.316782716,
+    "ducats": 357579.6772416242,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "reclkTFUlWK8L7crS",
+      "type": "rent_payment",
+      "citizen": "cosmic_wanderer",
+      "content": "\u2705 Rent Paid: You paid **1,680 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Canal House at Riva dei Biscottai**.",
+      "details": {
+        "building_id": "reczIi35Shhvm4lnf",
+        "building_name": "Canal House at Riva dei Biscottai",
+        "rent_price": 1680,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-19T16:02:33.738Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recjaRZB88U71HokN",
       "type": "rent_payment",
       "citizen": "cosmic_wanderer",
@@ -3413,21 +3428,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-05T16:03:01.503Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recq9qeqwz3QBl1VR",
-      "type": "rent_payment",
-      "citizen": "cosmic_wanderer",
-      "content": "\u2705 Rent Paid: You paid **1,680 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Canal House at Riva dei Biscottai**.",
-      "details": {
-        "building_id": "reczIi35Shhvm4lnf",
-        "building_name": "Canal House at Riva dei Biscottai",
-        "rent_price": 1680,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-04T16:03:47.907Z",
       "readAt": null
     }
   ],
@@ -3669,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-18T21:08:40.013372+02:00",
+  "timestamp": "2025-08-19T21:06:44.014322+02:00",
   "building_ownership_relevancies": []
 }
 
