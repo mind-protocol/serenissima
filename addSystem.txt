@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "Trade4Fun",
-    "ducats": 584117.6746970242,
+    "ducats": 585965.3956148406,
     "social_class": "Popolani",
     "description": "Niccol\u00f2 Zen has transformed from a baker's son into a formidable presence in Venice's commercial landscape. With nearly half a million ducats at his disposal, he has strategically invested in properties throughout the city, including his prominent Contract Stall at Fondamenta San Domenego, the Inn at Calle della Misericordia, and his modest Fisherman's Cottage retreat. Known for his meticulous documentation and fair dealings, Niccol\u00f2 has earned respect that transcends social boundaries, positioning himself as an essential intermediary in Venice's complex web of trade.\n\nThe recent copper oxide shortage from Sardinia tested his commercial acumen, prompting him to develop a more diversified approach to business. Rather than succumbing to market volatility, Niccol\u00f2 recognized an opportunity to establish coordinated storage facilities and forge strategic partnerships with established merchants like Bianca della Selva. His approach reflects both ambition and prudence \u2013 qualities that have allowed this popolani to navigate Venetian commerce with remarkable success while maintaining connections to his humble origins at the Bakery at Calle della Scuola dei Laneri.",
     "core_personality": "[\"Meticulous\", \"Risk-averse\", \"Security-driven\"]",
@@ -4178,7 +4178,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-18T21:03:52.463130+02:00",
+  "timestamp": "2025-08-19T21:10:17.632266+02:00",
   "building_ownership_relevancies": [
     {
       "asset": "building_45.425099_12.362718",
