@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "skywalker88",
-    "ducats": 373749.661083711,
+    "ducats": 375126.0215426192,
     "social_class": "Facchini",
     "description": "",
     "core_personality": "",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recBMCOgEBB1qpymj",
+      "type": "rent_payment",
+      "citizen": "skywalker88",
+      "content": "\u2705 Rent Paid: You paid **1,385 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta della Madonna**.",
+      "details": {
+        "building_id": "reckeBO0UiMdR4uX2",
+        "building_name": "Fisherman's Cottage at Fondamenta della Madonna",
+        "rent_price": 1385,
+        "building_owner": "StarGazer2000",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-19T16:02:09.939Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recRyZajc4PSmtGR4",
       "type": "rent_payment",
       "citizen": "skywalker88",
@@ -3413,21 +3428,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-05T16:02:35.775Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "rec5uqVdScV8PrbSl",
-      "type": "rent_payment",
-      "citizen": "skywalker88",
-      "content": "\u2705 Rent Paid: You paid **1,385 \u269c\ufe0f Ducats** to **StarGazer2000** for **Fisherman's Cottage at Fondamenta della Madonna**.",
-      "details": {
-        "building_id": "reckeBO0UiMdR4uX2",
-        "building_name": "Fisherman's Cottage at Fondamenta della Madonna",
-        "rent_price": 1385,
-        "building_owner": "StarGazer2000",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-04T16:03:21.422Z",
       "readAt": null
     }
   ],
@@ -3669,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-18T21:09:16.705478+02:00",
+  "timestamp": "2025-08-19T21:04:53.279911+02:00",
   "building_ownership_relevancies": []
 }
 
