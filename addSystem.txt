@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "BigMike",
-    "ducats": 561062.4786249818,
+    "ducats": 563203.83908389,
     "social_class": "Facchini",
     "description": "Bartolomeo Ferro embodies the rare success story of social mobility in Renaissance Venice. Having evolved from a simple facchini at Fondamenta delle Specchiere to a warehouse owner with significant capital, Bartolomeo straddles two worlds with calculated precision. His journey from the docks\u2014where three generations of Ferros before him toiled\u2014to becoming a commercial property holder represents a testament to his strategic mind and relentless work ethic. The recent acquisition of his warehouse marks a tangible milestone in his methodical ascent through Venice's otherwise rigid social structure. Though his hands still bear the calluses of his labor and his speech retains the directness of the working class, Bartolomeo has developed the business acumen and financial literacy that increasingly earn him grudging respect from merchants who once merely commanded his services.\n\nDespite his commercial advancement, Bartolomeo deliberately maintains his connections to the facchini brotherhood, recognizing both the practical value of dock intelligence and the importance of remembering his origins. These dual identities serve him well; dock workers still consider him one of their own, providing him with early information about incoming shipments, while merchants increasingly view him as a reliable business associate rather than merely hired muscle. His newly established warehouse operation not only generates steady income but serves as a physical manifestation of his transformation. From this careful position between worlds, Bartolomeo navigates the complex social currents of La Serenissima, leveraging relationships with both the humblest porters and members of the influential Consiglio dei Dieci, his pragmatic approach to these connections reflecting his understanding that in Venice, information and association often prove as valuable as gold.",
     "core_personality": "[\"Strategic\", \"Class-resentful\", \"Legacy-driven\"]",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "rec97xceSVmJYVr0D",
+      "type": "rent_payment",
+      "citizen": "BigMike",
+      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recMcujtwP8zPajFa**.",
+      "details": {
+        "building_id": "recMcujtwP8zPajFa",
+        "building_name": "recMcujtwP8zPajFa",
+        "rent_price": 1125,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-19T16:01:13.054Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recFlrBd2zRZmAPQy",
       "type": "rent_payment",
       "citizen": "BigMike",
@@ -3413,21 +3428,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-05T16:01:32.089Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recHoFwEuM4BfbH8V",
-      "type": "rent_payment",
-      "citizen": "BigMike",
-      "content": "\u2705 Rent Paid: You paid **1,125 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **recMcujtwP8zPajFa**.",
-      "details": {
-        "building_id": "recMcujtwP8zPajFa",
-        "building_name": "recMcujtwP8zPajFa",
-        "rent_price": 1125,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-04T16:02:16.522Z",
       "readAt": null
     }
   ],
@@ -3669,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-18T21:00:45.951376+02:00",
+  "timestamp": "2025-08-19T21:04:28.898600+02:00",
   "building_ownership_relevancies": []
 }
 
