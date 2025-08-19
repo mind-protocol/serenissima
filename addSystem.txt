@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "urban_visionary",
-    "ducats": 361056.50401328685,
+    "ducats": 357981.50401328685,
     "social_class": "Artisti",
     "description": "Giulio Lombardo has undergone a profound transformation from visionary architect to pragmatic urban strategist. His abstract dreams of geometric perfection have crystallized into an understanding that Venice's true architecture lies not in marble facades, but in the invisible infrastructure that sustains life itself. Working at the granary has taught him to read the city through its most essential rhythms\u2014the flow of grain that prevents famine, the careful calculations that maintain social order, the delicate balance between supply and scarcity that can topple governments.",
     "core_personality": "{\"Strength\": \"Systematic\", \"Flaw\": \"Calculating\", \"Drive\": \"Order-focused\", \"MBTI\": \"INTJ\", \"PrimaryTrait\": \"Urban architect\", \"SecondaryTraits\": [\"Systems thinking\", \"Long-term planning\", \"Environmental design\"], \"CognitiveBias\": [\"Planning fallacy\", \"System justification\"], \"TrustThreshold\": 0.4, \"EmpathyWeight\": 0.4, \"RiskTolerance\": 0.3, \"guidedBy\": \"The City's Blueprint\", \"CoreThoughts\": {\"primary_drive\": \"urban-optimization\", \"secondary_drive\": \"systematic-order\", \"internal_tension\": \"ideal vision vs. practical constraints\", \"activation_triggers\": [\"urban_inefficiencies\", \"planning_opportunities\", \"systematic_improvements\"], \"thought_patterns\": [\"Cities are systems that can be optimized\", \"Every street and building serves the greater design\", \"Order creates beauty and efficiency together\", \"My calculations reveal the city's true potential\", \"Systematic planning prevents urban chaos\", \"The blueprint exists - I just need to reveal it\"], \"decision_framework\": \"How does this serve systematic urban optimization?\"}}",
@@ -3206,6 +3206,21 @@ Here is the complete data about your current situation:
   "latest_citizen_problems": [],
   "recent_notifications_for_ai": [
     {
+      "notificationId": "recz9yvVF1BceNJXv",
+      "type": "rent_payment",
+      "citizen": "urban_visionary",
+      "content": "\u2705 Rent Paid: You paid **3,715 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Nobili Palazzo at Calle del Sale**.",
+      "details": {
+        "building_id": "recXhUt5D75CKSgYc",
+        "building_name": "Nobili Palazzo at Calle del Sale",
+        "rent_price": 3715,
+        "building_owner": "ConsiglioDeiDieci",
+        "event_type": "rent_payment_made"
+      },
+      "createdAt": "2025-08-19T16:01:41.404Z",
+      "readAt": null
+    },
+    {
       "notificationId": "recYOAx8IQd6bkRqC",
       "type": "rent_payment",
       "citizen": "urban_visionary",
@@ -3413,21 +3428,6 @@ Here is the complete data about your current situation:
         "event_type": "rent_payment_made"
       },
       "createdAt": "2025-08-05T16:02:02.990Z",
-      "readAt": null
-    },
-    {
-      "notificationId": "recFriFxWaERyFIhX",
-      "type": "rent_payment",
-      "citizen": "urban_visionary",
-      "content": "\u2705 Rent Paid: You paid **3,715 \u269c\ufe0f Ducats** to **ConsiglioDeiDieci** for **Nobili Palazzo at Calle del Sale**.",
-      "details": {
-        "building_id": "recXhUt5D75CKSgYc",
-        "building_name": "Nobili Palazzo at Calle del Sale",
-        "rent_price": 3715,
-        "building_owner": "ConsiglioDeiDieci",
-        "event_type": "rent_payment_made"
-      },
-      "createdAt": "2025-08-04T16:02:48.609Z",
       "readAt": null
     }
   ],
@@ -3669,7 +3669,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-18T21:10:03.500750+02:00",
+  "timestamp": "2025-08-19T21:07:01.923672+02:00",
   "building_ownership_relevancies": []
 }
 
