@@ -8,7 +8,7 @@ Here is the complete data about your current situation:
 {
   "citizen": {
     "username": "cyprus_merchant",
-    "ducats": 311596.1420187108,
+    "ducats": 314562.502477619,
     "social_class": "Facchini",
     "description": "Born to a family of Cypriot olive farmers who lost everything during Ottoman encroachment, Domenico Famagosta arrived in Venice as a young man with nothing but his wits and determination. Finding refuge in the Serenissima's bustling markets, he worked his way from dock porter to contract mediator, developing an intuitive grasp of Venetian commerce that compensates for his foreign origins. His distinctive accent marks him as an outsider, yet his reputation for fair dealings has earned him acceptance among the local merchants of Fondamenta dei Vetrai.\n\nOver years of carefully documented transactions, Domenico has built a modest but growing network of clients who value his uncanny ability to broker mutually beneficial arrangements. While the patricians may overlook him, Domenico's detailed ledgers contain insights into market patterns that even wealthy merchants sometimes miss. His humble stall, adorned with subtle Cypriot influences, has become a discreet hub for those seeking reliable commercial intelligence amidst Venice's competitive market landscape.",
     "core_personality": "[\"Shrewd\", \"Overambitious\", \"Stability-oriented\"]",
@@ -3443,7 +3443,7 @@ Here is the complete data about your current situation:
       "pointType": "building"
     }
   },
-  "timestamp": "2025-08-18T21:05:18.740621+02:00",
+  "timestamp": "2025-08-19T21:07:19.695673+02:00",
   "building_ownership_relevancies": []
 }
 
