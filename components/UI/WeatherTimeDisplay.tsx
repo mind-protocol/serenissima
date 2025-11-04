@@ -3,11 +3,11 @@
 import React, { useState, useEffect } from 'react';
 import { weatherService, WeatherData, WeatherCondition } from '@/lib/services/WeatherService';
 import { eventBus, EventTypes } from '@/lib/utils/eventBus';
-import { 
-  WiDaySunny, WiNightClear, WiDayCloudy, WiNightAltCloudy, WiCloud, WiCloudy, 
+import {
+  WiDaySunny, WiNightClear, WiDayCloudy, WiNightAltCloudy, WiCloud, WiCloudy,
   WiDayShowers, WiNightAltShowers, WiDayRain, WiNightAltRain, WiDayThunderstorm, WiNightAltThunderstorm,
   WiDaySnow, WiNightAltSnow, WiDayFog, WiNightFog, WiStrongWind
-} from 'weather-icons-react'; // Removed WiNa
+} from 'react-icons/wi'; // Using react-icons weather icons instead
 
 const WeatherTimeDisplay: React.FC = () => {
   const [currentTime, setCurrentTime] = useState<string>('');
