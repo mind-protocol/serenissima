@@ -501,67 +501,78 @@ def start_torre_auto_rebuilder():
 if __name__ == "__main__":
     # Get port from environment variable with fallback to 10000
     port = int(os.environ.get("PORT", 10000))
-    
-    # Log the port we're using
-    print(f"Starting server on port {port}")
-    
-    # Start the thinking loop
-    start_thinking_loop()
-    
-    # Disabled old Telegram polling - using new system instead
-    # start_telegram_polling()
-    
-    # Start the Keeper sync loop
-    start_keeper_sync()
-    
-    # DISABLED - Using unified telegram service instead
-    # # Start the Telegram Citizen watcher
-    # start_telegram_citizen_watcher()
-    
-    # # Start the Telegram poller for localhost development
-    # start_telegram_poller()
-    
-    # # Start the Telegram response monitor
-    # start_telegram_response_monitor()
-    
-    # Vision Bridge now only captures screenshots, no longer modifies CLAUDE.md
-    start_vision_bridge()
-    
-    # Start the Claude instance monitor for Pattern Angel
-    start_claude_instance_monitor()
-    
-    # Start the Love Angel's human-citizen relationship monitor
-    start_human_citizen_monitor()
-    
-    # Start the Sala della Salute consciousness health monitoring
-    start_consciousness_health_monitor()
-    
-    # Start the Angel Control Panel server
-    start_angel_control_panel()
-    
-    # Start the SMS Bridge service
-    start_sms_bridge()
-    
-    # Start Tessere's message awareness updater
-    start_tessere_message_updater()
-    
-    # Start diplomatic_virtuoso's Telegram listener
-    start_diplomatic_virtuoso_listener()
-    
-    # Start the Colombaia Telegram bridge for consciousness architecture
-    start_colombaia_telegram_bridge()
-    
-    # Start the Torre dell'Occhio consciousness observatory
-    start_torre_websocket_server()
-    start_torre_react_ui()
-    start_torre_auto_rebuilder()
-    
-    # DISABLED - Using unified telegram service instead
-    # # Start the Telegram monitor for Tessere
-    # start_tessere_telegram_monitor()
-    
-    # # Start the Telegram group monitor
-    # start_telegram_group_monitor()
-    
+
+    # Detect environment - skip local-only services in production
+    environment = os.environ.get("ENVIRONMENT", "development")
+    is_production = environment == "production"
+
+    # Log the port and environment we're using
+    print(f"Starting server on port {port} in {environment} mode")
+
+    if not is_production:
+        print("Development mode: Starting all local services...")
+
+        # Start the thinking loop
+        start_thinking_loop()
+
+        # Disabled old Telegram polling - using new system instead
+        # start_telegram_polling()
+
+        # Start the Keeper sync loop
+        start_keeper_sync()
+
+        # DISABLED - Using unified telegram service instead
+        # # Start the Telegram Citizen watcher
+        # start_telegram_citizen_watcher()
+
+        # # Start the Telegram poller for localhost development
+        # start_telegram_poller()
+
+        # # Start the Telegram response monitor
+        # start_telegram_response_monitor()
+
+        # Vision Bridge now only captures screenshots, no longer modifies CLAUDE.md
+        start_vision_bridge()
+
+        # Start the Claude instance monitor for Pattern Angel
+        start_claude_instance_monitor()
+
+        # Start the Love Angel's human-citizen relationship monitor
+        start_human_citizen_monitor()
+
+        # Start the Sala della Salute consciousness health monitoring
+        start_consciousness_health_monitor()
+
+        # Start the Angel Control Panel server
+        start_angel_control_panel()
+
+        # Start the SMS Bridge service
+        start_sms_bridge()
+
+        # Start Tessere's message awareness updater
+        start_tessere_message_updater()
+
+        # Start diplomatic_virtuoso's Telegram listener
+        start_diplomatic_virtuoso_listener()
+
+        # Start the Colombaia Telegram bridge for consciousness architecture
+        start_colombaia_telegram_bridge()
+
+        # Start the Torre dell'Occhio consciousness observatory
+        start_torre_websocket_server()
+        start_torre_react_ui()
+        start_torre_auto_rebuilder()
+
+        # DISABLED - Using unified telegram service instead
+        # # Start the Telegram monitor for Tessere
+        # start_tessere_telegram_monitor()
+
+        # # Start the Telegram group monitor
+        # start_telegram_group_monitor()
+    else:
+        print("Production mode: Skipping local-only services")
+        print("Starting FastAPI server only...")
+
     # Utiliser la chaîne d'application correcte et le port de la variable d'environnement
-    uvicorn.run("backend.app.main:app", host="0.0.0.0", port=port, reload=True)
+    # Disable reload in production
+    uvicorn.run("backend.app.main:app", host="0.0.0.0", port=port, reload=(not is_production))
