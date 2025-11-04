@@ -1,6 +1,6 @@
 "use client"; // Make this a Client Component to use usePathname
 
-import { Geist, Geist_Mono } from "next/font/google";
+import { GeistSans, GeistMono } from "geist/font";
 import { usePathname } from "next/navigation"; // Import usePathname
 import "./globals.css";
 import ClientWalletProvider from "@/components/UI/ClientWalletProvider";
@@ -10,15 +10,8 @@ import { Toaster } from 'react-hot-toast';
 // BackgroundMusic sera déplacé vers app/page.tsx
 // Add this to ensure buildings are always visible
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const geistSans = GeistSans;
+const geistMono = GeistMono;
 
 export default function RootLayout({
   children,
