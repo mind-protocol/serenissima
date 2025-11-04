@@ -1,3 +1,12 @@
+# Git LFS configuration - ONLY for truly large binary files
 * merge=ours
+
+# Build artifacts and logs (large text files)
 *.log filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
+
+# Exclude essential JSON files from LFS
+!package.json
+!package-lock.json
+!tsconfig.json
+!vercel.json
+!*.config.json
