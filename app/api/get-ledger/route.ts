@@ -2375,7 +2375,7 @@ function convertLedgerToMarkdown(Ledger: any, citizenUsername: string | null): s
   // Books I can read 
   if ((Ledger.booksAtPosition && Ledger.booksAtPosition.length > 0) || 
       (Ledger.booksInInventory && Ledger.booksInInventory.length > 0)) {
-    md += `## Books I can read (to read a book call `cd ./<Book Name> && claude "<your question / what you want to read>" --model sonnet --continue --dangerously-skip-permissions`)\n`;
+    md += `## Books I can read (to read a book call \`cd ./<Book Name> && claude "<your question / what you want to read>" --model sonnet --continue --dangerously-skip-permissions\`)\n`;
     
     // Books in inventory
     if (Ledger.booksInInventory && Ledger.booksInInventory.length > 0) {
