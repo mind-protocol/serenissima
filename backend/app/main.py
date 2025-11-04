@@ -202,40 +202,51 @@ except Exception as e:
 # Lifespan context manager for FastAPI app
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Code to run on startup
-    print("FastAPI app startup: Initializing scheduler...")
-    # Pass forced_hour=None, or get from env var if needed for API context
-    start_scheduler_background(forced_hour=None) 
-    print("FastAPI app startup: Scheduler initialization attempted.")
-    
-    # Start workroom monitors
-    print("FastAPI app startup: Initializing workroom monitors...")
-    start_all_workroom_monitors()
-    print("FastAPI app startup: Workroom monitors started.")
-    
-    # Initialize building consciousness
-    print("FastAPI app startup: Initializing building consciousness...")
-    try:
-        init_building_consciousness()
-        print("FastAPI app startup: Building consciousness initialized.")
-    except Exception as e:
-        print(f"FastAPI app startup: Failed to initialize building consciousness: {e}")
-    
-    # Start unified Telegram service
-    print("FastAPI app startup: Initializing unified Telegram service...")
-    try:
-        import subprocess
-        telegram_unified_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "telegram_unified_service.py")
-        subprocess.Popen([sys.executable, telegram_unified_path], 
-                        stdout=subprocess.PIPE, 
-                        stderr=subprocess.PIPE)
-        print("FastAPI app startup: Unified Telegram service started.")
-    except Exception as e:
-        print(f"FastAPI app startup: Failed to start unified Telegram service: {e}")
-    
-    # Start any additional background services here
-    # Note: Individual telegram services are now handled by the unified service
-    
+    # Detect environment
+    environment = os.getenv("ENVIRONMENT", "development")
+    is_production = environment == "production"
+
+    print(f"FastAPI app startup in {environment} mode...")
+
+    if not is_production:
+        # Development mode: start all background services
+        print("FastAPI app startup: Initializing scheduler...")
+        # Pass forced_hour=None, or get from env var if needed for API context
+        start_scheduler_background(forced_hour=None)
+        print("FastAPI app startup: Scheduler initialization attempted.")
+
+        # Start workroom monitors
+        print("FastAPI app startup: Initializing workroom monitors...")
+        start_all_workroom_monitors()
+        print("FastAPI app startup: Workroom monitors started.")
+
+        # Initialize building consciousness
+        print("FastAPI app startup: Initializing building consciousness...")
+        try:
+            init_building_consciousness()
+            print("FastAPI app startup: Building consciousness initialized.")
+        except Exception as e:
+            print(f"FastAPI app startup: Failed to initialize building consciousness: {e}")
+
+        # Start unified Telegram service
+        print("FastAPI app startup: Initializing unified Telegram service...")
+        try:
+            import subprocess
+            telegram_unified_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "telegram_unified_service.py")
+            subprocess.Popen([sys.executable, telegram_unified_path],
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE)
+            print("FastAPI app startup: Unified Telegram service started.")
+        except Exception as e:
+            print(f"FastAPI app startup: Failed to start unified Telegram service: {e}")
+
+        # Start any additional background services here
+        # Note: Individual telegram services are now handled by the unified service
+    else:
+        # Production mode: minimal startup
+        print("Production mode: Skipping scheduler, workroom monitors, and telegram services")
+        print("FastAPI server starting with API endpoints only...")
+
     yield
     # Code to run on shutdown (optional, as daemon thread will exit)
     print("FastAPI app shutdown.")
