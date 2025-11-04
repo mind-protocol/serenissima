@@ -41,6 +41,8 @@
     "@solana/wallet-adapter-react-ui": "^0.9.35",
     "@solana/wallet-adapter-wallets": "^0.19.32",
     "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.8",
+    "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
     "seedrandom": "^3.0.5",
     "uuid": "^9.0.1",
